@@ -998,6 +998,8 @@ STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : Generation 2 SI1
 STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : Generation 2 SI2
 STR_REFIT_LIVERY_Korail_4th_G3_DOB                     : Generation 2 DOB
 STR_REFIT_LIVERY_Korail_4th_G3_PMSM                    : PMSM
+STR_REFIT_LIVERY_Korail_4th_G3_392000                  : Generation 3
+STR_REFIT_LIVERY_Korail_4th_G3_393000                  : korail 393 series
 STR_REFIT_LIVERY_Korail_5th_Nomal                      : Nomal
 STR_REFIT_LIVERY_Korail_5th_Update_software            : Update software
 STR_REFIT_LIVERY_Korail_First_K1000_Initial            : Korail First KNR 1st livery

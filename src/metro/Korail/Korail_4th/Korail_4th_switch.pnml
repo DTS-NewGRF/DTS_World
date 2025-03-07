@@ -34,6 +34,32 @@ switch(FEAT_TRAINS, SELF, sw_Korail_4th_cargo_subtype_text, cargo_subtype) {
     return string(STR_REFIT_LIVERY_Korail_4th_G2_SI1);
 }
 
+switch(FEAT_TRAINS, SELF, sw_Korail_4th_392000_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Korail_4th_G3_393000);
+    return string(STR_REFIT_LIVERY_Korail_4th_G3_392000);
+}
+
+// 329000
+switch(FEAT_TRAINS, SELF, sw_Korail_392000_2engineH, cargo_subtype) {
+    1: set_Korail_393000_2engineH;
+    set_Korail_392000_2engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_392000_4engineH, cargo_subtype) {
+    1: set_Korail_393000_4engineH;
+    set_Korail_392000_4engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_392000_wagon, cargo_subtype) {
+    1: set_Korail_393000_wagon;
+    set_Korail_392000_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_392000_engineT, cargo_subtype) {
+    1: set_Korail_393000_engineT;
+    set_Korail_392000_engineT;
+}
+
 //4량 G1
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_G1_4Car_engineH, cargo_subtype) {
     1: set_Korail_4th_G1_381K_engineH;
@@ -278,16 +304,16 @@ switch(FEAT_TRAINS, SELF, sw_Korail_4th_10car_capacity_in_custom, cargo_subtype)
 // 편성그래픽
 // 2량
 switch (FEAT_TRAINS, SELF, sw_Korail_392000_2car, position_in_vehid_chain % 2) {
-    1:set_Korail_392000_engineT;
-    set_Korail_392000_2engineH; //default
+    1:sw_Korail_392000_engineT;
+    sw_Korail_392000_2engineH; //default
     }
 
 // 4량 392000
 switch (FEAT_TRAINS, SELF, sw_Korail_392000_4car, position_in_vehid_chain % 4) {
-    1:set_Korail_392000_wagon;
-    2:set_Korail_392000_wagon;
-    3:set_Korail_392000_engineT;
-    set_Korail_392000_4engineH; //default
+    1:sw_Korail_392000_wagon;
+    2:sw_Korail_392000_wagon;
+    3:sw_Korail_392000_engineT;
+    sw_Korail_392000_4engineH; //default
     }
 
 // 4량 G1

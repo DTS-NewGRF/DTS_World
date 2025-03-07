@@ -998,6 +998,8 @@ STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : 2차분 싱글암1개
 STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : 2차분 싱글암2개
 STR_REFIT_LIVERY_Korail_4th_G3_DOB                     : 2차분 더블암
 STR_REFIT_LIVERY_Korail_4th_G3_PMSM                    : {GREEN}[가상] {BLACK}PMSM
+STR_REFIT_LIVERY_Korail_4th_G3_392000                  : 한국철도공사 4세대 3차도입분
+STR_REFIT_LIVERY_Korail_4th_G3_393000                  : 393000호대
 STR_REFIT_LIVERY_Korail_5th_Nomal                      : 기본형
 STR_REFIT_LIVERY_Korail_5th_Update_software            : 소프트웨어개선
 STR_REFIT_LIVERY_Korail_First_K1000_Initial            : 초기저항 철도청 초기도색 [비냉방]
