@@ -10,8 +10,8 @@
 ## 최근 등록 프리 릴리즈
 [1.62] 2025.04.01 <br>
 [이슈 작업]
-* [열차추가] PEX-SUPER 전용 우편차 (32bpp) (#639)
-* [열차추가] PEX-SUPER 전용 발전차 (32bpp) (#640)
+* [열차추가] PEX-SUPER 전용 우편차 (32bpp) ([#639](https://github.com/DTS-NewGRF/DTS/issues/639))
+* [열차추가] PEX-SUPER 전용 발전차 (32bpp) ([#640](https://github.com/DTS-NewGRF/DTS/issues/640))
 
 ## 최근 등록 릴리즈
 [1.61] 2025.03.07 <br>
