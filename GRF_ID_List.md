@@ -323,7 +323,7 @@
 |2304|[그룹명] Shinkansen_E5_H5|
 |2305|Shinkansen_E5_H5_E6_17Car|
 |2306|KTX_Cheong_Ryong_Virtual|
-|2307|[공백]|
+|2307|PEX_Super_Post_Car|
 |2308|Seoulmetro_1st_8000_6Car|
 |2309|Seoulmetro_1st_7000_8Car|
 |2310|Seoulmetro_1st_6000_8Car|
@@ -557,12 +557,11 @@
 |2538|Pidulgi_Express_Luggage|
 |2539|STR_Nomal_Diesel_2Car_addcar_NAME|
 |2540|STR_Nomal_Diesel_2Car_NAME|
-|2541~2999|공백|
+|2541|Group_Generatar_Car|
+|2542|PEX_Super_Generatar_Car|
+|2543~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|
 |3003|Korail_First_8Car|
 |3004|Korail_First_10Car|
-
-[공백]
-|2307|1.62 적용시 부여|

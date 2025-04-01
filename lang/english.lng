@@ -553,9 +553,11 @@ STR_Group_Tong_il_NAME                                 :Tong_il
 STR_Tong_il_Normal_NAME                                :Tong-il Regular class
 STR_Tong_il_Service_NAME                               :Tong-il restaurant car & sleeping car
 STR_Tong_il_Special_NAME                               :Tong-il First class
+STR_Group_Generatar_NAME                               :Generatar Car
 STR_Generatar_2cc_NAME                                 :Korea Generatar 2cc Car
 STR_Generatar_Real_OutLook_NAME                        :Korea Outlook & Right Angle Shape Generator Car
 STR_Generatar_Real_Stream_lined_NAME                   :Korea Stream lined & Long length Generator Car
+STR_PEX_Super_Generatar_NAME                           :PEX-SUPER generator Car
 STR_Group_Luggage_NAME                                 :Korea Luggage Car
 STR_Express_Luggage_NAME                               :Express Luggage car
 STR_Luggage_Olny_NAME                                  :Luggage only car
@@ -563,6 +565,7 @@ STR_Pidulgi_Express_Luggage_NAME                       :Pidulgi Express Luggage 
 STR_Group_Post_Car_NAME                                :Post car
 STR_Post_Car_NAME                                      :Post car
 STR_Express_Post_Car_NAME                              :Express Post car
+STR_PEX_Super_Post_Car_NAME                            :PEX-SUPER POST car
 STR_CTS_SPASS_NAME                                     :Chinese carriage-type passenger car
 STR_CGeneratar_Car_NAME                                :Chinese Generatar Car
 STR_CLuggage_Car_NAME                                  :Chinese Luggage Car
@@ -650,10 +653,12 @@ STR_REFIT_train_configuration_PEX                      :{BLACK}train configurati
 STR_REFIT_train_configuration_PEX_SUPER                :{BLACK}train configuration {}{GREEN} PEX-SUPER
 STR_REFIT_train_configuration_Generatar_2cc            :{BLACK}train configuration {}{GREEN} Korea Generatar 2cc vehicles
 STR_REFIT_train_configuration_Generatar_Real           :{BLACK}train configuration {}{GREEN} Korea Generatar vehicles
+STR_REFIT_train_configuration_PEX_Super_Generatar_Car  :{BLACK}train configuration {}{GREEN} PEX-Super Generatar vehicles
 STR_REFIT_train_configuration_Express_Luggage          :{BLACK}train configuration {}{GREEN} Korea Luggage vehicles
 STR_REFIT_train_configuration_Luggage_Olny             :{BLACK}train configuration {}{GREEN} Korea Luggage vehicles
 STR_REFIT_train_configuration_Pidulgi_Express_Luggage  :{BLACK}train configuration {}{GREEN} Korea Luggage vehicles
 STR_REFIT_train_configuration_Post_Car                 :{BLACK}train configuration {}{GREEN} Korea Post vehicles
+STR_REFIT_train_configuration_PEX_Super_Post_Car       :{BLACK}train configuration {}{GREEN} PEX-Super Post vehicles
 STR_REFIT_train_configuration_CSPassenger              :{BLACK}train configuration {}{GREEN} Chinese carriage-type Passenger vehicles
 STR_REFIT_train_configuration_CGeneratar               :{BLACK}train configuration {}{GREEN} Chinese Generatar vehicles
 STR_REFIT_train_configuration_CLuggage                 :{BLACK}train configuration {}{GREEN} Chinese Luggage vehicles

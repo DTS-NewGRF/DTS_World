@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+//열차
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_Generatar_wagon, random_bits % 2) {
+   0: set_PEX_Super_Generatar_Car_A;
+   1: set_PEX_Super_Generatar_Car_B;
+   set_PEX_Super_Generatar_Car_A;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_sw_PEX_Super_Generatar_wagon_1Car, position_in_vehid_chain % 1) {
+   sw_PEX_Super_Generatar_wagon; //default
+   }

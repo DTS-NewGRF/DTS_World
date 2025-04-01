@@ -17,7 +17,7 @@ item(FEAT_TRAINS, Generatar_Real_OutLook, 2395){
         introduction_date:              date(1969, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Generatar_2cc;
+        variant_group:                  Group_Generatar_Car;
         
         //spec
         weight:                         17 ton;

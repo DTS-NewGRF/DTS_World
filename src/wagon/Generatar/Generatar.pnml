@@ -1,5 +1,29 @@
 /*--------------------------------------------------------------------
+발전차량
+--------------------------------------------------------------------*/
+// Switch
+#include "Generatar_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Group_Generatar_Car, 2541){
+    property {
+        name:                           string(STR_Group_Generatar_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_Group_Generatar_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 발전차 리스트
 --------------------------------------------------------------------*/
 #include "Generatar_2cc/Generatar_2cc.pnml"
 #include "Generatar_Real/Generatar_Real.pnml"
+#include "PEX_Super_Generatar/PEX_Super_Generatar.pnml"

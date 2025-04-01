@@ -17,7 +17,7 @@ item(FEAT_TRAINS, Generatar_Real_Stream_lined, 2394){
         introduction_date:              date(1990, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Generatar_2cc;
+        variant_group:                  Group_Generatar_Car;
         
         //spec
         speed:                          150km/h;

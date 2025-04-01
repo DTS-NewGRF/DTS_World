@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_PEX_Super_Generatar_Car_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Generatar/PEX_Super_Generatar/PEX_Super_Generatar.png") {
+    DTS_temp(80, 0)
+}
+
+spriteset(set_PEX_Super_Generatar_Car_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Generatar/PEX_Super_Generatar/PEX_Super_Generatar.png") {
+    DTS_temp(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_PEX_Super_Generatar_Car_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Generatar/PEX_Super_Generatar/PEX_Super_Generatar.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_Generatar_Car_purchase, cargo_subtype) {
+    set_PEX_Super_Generatar_Car_purchase;
+}

@@ -1,27 +1,28 @@
 /*--------------------------------------------------------------------
-한국 발전차 2cc
+PEX-Super 발전차량
 --------------------------------------------------------------------*/
 // Graphics
-#include "Generatar_2cc_graphic.pnml"
+#include "PEX_Super_Generatar_graphic.pnml"
 
 // Switch
-#include "Generatar_2cc_switch.pnml"
+#include "PEX_Super_Generatar_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Generatar_2cc, 2003){
+item(FEAT_TRAINS, PEX_Super_Generatar_Car, 2542){
     property {
-        name:                           string(STR_Generatar_2cc_NAME);
+        name:                           string(STR_PEX_Super_Generatar_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1971, 1, 1);
+        introduction_date:              date(2024, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         variant_group:                  Group_Generatar_Car;
         
         //spec
-        power:                          0 kW;
-        weight:                         17 ton;
+        speed:                          260km/h;
+        length:                         7;
+        weight:                         30 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model
@@ -39,22 +40,19 @@ item(FEAT_TRAINS, Generatar_2cc, 2003){
         
         //Costs
         refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_NONE;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         20 ton;
         }
 
 	graphics {
-        default:                        sw_Generatar_2cc_1Car;
-        purchase:                       sw_Generatar_2cc_purchase;
-        length:                         sw_Generatar_2cc_length_in_custom;
+        default:                        sw_sw_PEX_Super_Generatar_wagon_1Car;
+        purchase:                       sw_PEX_Super_Generatar_Car_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_capacity:                 0;
-        cargo_subtype_text:             sw_Generatar_2cc_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Generatar_2cc);
+        additional_text:                string(STR_REFIT_train_configuration_PEX_Super_Generatar_Car);
         }
         }
