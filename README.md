@@ -12,6 +12,7 @@
 [이슈 작업]
 * [열차추가] PEX-SUPER 전용 우편차 (32bpp) ([#639](https://github.com/DTS-NewGRF/DTS/issues/639))
 * [열차추가] PEX-SUPER 전용 발전차 (32bpp) ([#640](https://github.com/DTS-NewGRF/DTS/issues/640))
+* [열차변경] KTX-1 도색 순서 변경 ([#641](https://github.com/DTS-NewGRF/DTS/issues/641))
 
 ## 최근 등록 릴리즈
 [1.61] 2025.03.07 <br>

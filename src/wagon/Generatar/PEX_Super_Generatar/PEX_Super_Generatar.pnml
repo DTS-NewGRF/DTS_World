@@ -17,7 +17,7 @@ item(FEAT_TRAINS, PEX_Super_Generatar_Car, 2542){
         introduction_date:              date(2024, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Group_Generatar_Car;
+        variant_group:                  PEX_Super;
         
         //spec
         speed:                          260km/h;

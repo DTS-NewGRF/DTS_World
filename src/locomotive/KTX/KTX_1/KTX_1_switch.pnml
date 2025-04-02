@@ -3,23 +3,36 @@
 --------------------------------------------------------------------*/
 //도색명
 switch(FEAT_TRAINS, SELF, sw_KTX_1_1997_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_KTX_1_A);
-    1: return string(STR_REFIT_LIVERY_KTX_1_B);
-    2: return string(STR_REFIT_LIVERY_KTX_1_C);
+    0: return string(STR_REFIT_LIVERY_KTX_1_1997);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_2007_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_KTX_1_1997);
+    1: return string(STR_REFIT_LIVERY_KTX_1_2007);
     return CB_RESULT_NO_TEXT;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_2013_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_KTX_1_A);
-    1: return string(STR_REFIT_LIVERY_KTX_1_B);
-    2: return string(STR_REFIT_LIVERY_KTX_1_C);
-    3: return string(STR_REFIT_LIVERY_KTX_1_LTE_A);
+    0: return string(STR_REFIT_LIVERY_KTX_1_1997);
+    1: return string(STR_REFIT_LIVERY_KTX_1_2007);
+    2: return string(STR_REFIT_LIVERY_KTX_1_2013);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_2017_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_KTX_1_1997);
+    1: return string(STR_REFIT_LIVERY_KTX_1_2007);
+    2: return string(STR_REFIT_LIVERY_KTX_1_2013);
+    3: return string(STR_REFIT_LIVERY_KTX_1_2017);
     return CB_RESULT_NO_TEXT;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_cargo_subtype_text, current_year) {
-    0..2012: sw_KTX_1_1997_cargo_subtype_text;
-    sw_KTX_1_2013_cargo_subtype_text;
+    0..2006: sw_KTX_1_1997_cargo_subtype_text;
+    2007..2012: sw_KTX_1_2007_cargo_subtype_text;
+    2013..2016: sw_KTX_1_2013_cargo_subtype_text;
+    sw_KTX_1_2017_cargo_subtype_text;
     }
 
 //열차
@@ -28,49 +41,49 @@ switch(FEAT_TRAINS, SELF, sw_KTX_1_cargo_subtype_text, current_year) {
 // 편성그래픽
 // 1997
 switch (FEAT_TRAINS, SELF, sw_KTX_1_20car_1997, position_in_vehid_chain % 20) {
-     1:sw_KTX_1_1997_wagon_2;
-     2:sw_KTX_1_1997_wagon_3;
-     3:sw_KTX_1_1997_wagon_4;
-     4:sw_KTX_1_1997_wagon_5;
-     5:sw_KTX_1_1997_wagon_6;
-     6:sw_KTX_1_1997_wagon_7;
-     7:sw_KTX_1_1997_wagon_8;
-     8:sw_KTX_1_1997_wagon_9;
-     9:sw_KTX_1_1997_wagon_10;
-    10:sw_KTX_1_1997_wagon_11;
-    11:sw_KTX_1_1997_wagon_12;
-    12:sw_KTX_1_1997_wagon_13;
-    13:sw_KTX_1_1997_wagon_14;
-    14:sw_KTX_1_1997_wagon_15;
-    15:sw_KTX_1_1997_wagon_16;
-    16:sw_KTX_1_1997_wagon_17;
-    17:sw_KTX_1_1997_wagon_18;
-    18:sw_KTX_1_1997_wagon_19;
-    19:sw_KTX_1_1997_engineT;
-    sw_KTX_1_1997_engineH; //default
+     1:set_KTX_1_wagon_T1;
+     2:set_KTX_1_wagon_T2;
+     3:set_KTX_1_wagon_T3;
+     4:set_KTX_1_wagon_T4;
+     5:set_KTX_1_wagon_T6;
+     6:set_KTX_1_wagon_T5;
+     7:set_KTX_1_wagon_T6;
+     8:set_KTX_1_wagon_T5;
+     9:set_KTX_1_wagon_T6;
+    10:set_KTX_1_wagon_T7;
+    11:set_KTX_1_wagon_T8;
+    12:set_KTX_1_wagon_T7;
+    13:set_KTX_1_wagon_T8;
+    14:set_KTX_1_wagon_T7;
+    15:set_KTX_1_wagon_T8;
+    16:set_KTX_1_wagon_T7;
+    17:set_KTX_1_wagon_T8;
+    18:set_KTX_1_wagon_T9;
+    19:set_KTX_1_engineT;
+    set_KTX_1_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_KTX_1_20car_1997_r, position_in_vehid_chain % 20) {
-     1:sw_KTX_1_1997_wagon_19_r;
-     2:sw_KTX_1_1997_wagon_18_r;
-     3:sw_KTX_1_1997_wagon_17_r;
-     4:sw_KTX_1_1997_wagon_16_r;
-     5:sw_KTX_1_1997_wagon_15_r;
-     6:sw_KTX_1_1997_wagon_14_r;
-     7:sw_KTX_1_1997_wagon_13_r;
-     8:sw_KTX_1_1997_wagon_12_r;
-     9:sw_KTX_1_1997_wagon_11_r;
-    10:sw_KTX_1_1997_wagon_10_r;
-    11:sw_KTX_1_1997_wagon_9_r;
-    12:sw_KTX_1_1997_wagon_8_r;
-    13:sw_KTX_1_1997_wagon_7_r;
-    14:sw_KTX_1_1997_wagon_6_r;
-    15:sw_KTX_1_1997_wagon_5_r;
-    16:sw_KTX_1_1997_wagon_4_r;
-    17:sw_KTX_1_1997_wagon_3_r;
-    18:sw_KTX_1_1997_wagon_2_r;
-    19:sw_KTX_1_1997_engineH_r;
-    sw_KTX_1_1997_engineT_r; //default
+     1:set_KTX_1_wagon_T9_r;
+     2:set_KTX_1_wagon_T8_r;
+     3:set_KTX_1_wagon_T7_r;
+     4:set_KTX_1_wagon_T8_r;
+     5:set_KTX_1_wagon_T7_r;
+     6:set_KTX_1_wagon_T8_r;
+     7:set_KTX_1_wagon_T7_r;
+     8:set_KTX_1_wagon_T8_r;
+     9:set_KTX_1_wagon_T7_r;
+    10:set_KTX_1_wagon_T6_r;
+    11:set_KTX_1_wagon_T5_r;
+    12:set_KTX_1_wagon_T6_r;
+    13:set_KTX_1_wagon_T5_r;
+    14:set_KTX_1_wagon_T6_r;
+    15:set_KTX_1_wagon_T4_r;
+    16:set_KTX_1_wagon_T3_r;
+    17:set_KTX_1_wagon_T2_r;
+    18:set_KTX_1_wagon_T1_r;
+    19:set_KTX_1_engineH_r;
+    set_KTX_1_engineT_r; //default
     }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_20car_1997_flipped, vehicle_is_flipped){
@@ -81,6 +94,63 @@ switch(FEAT_TRAINS, SELF, sw_KTX_1_20car_1997_flipped, vehicle_is_flipped){
 switch(FEAT_TRAINS, PARENT, sw_KTX_1_20car_1997_reversed, vehicle_is_reversed){
     0: sw_KTX_1_20car_1997;
     sw_KTX_1_20car_1997_flipped;
+}
+
+// 2007
+switch (FEAT_TRAINS, SELF, sw_KTX_1_20car_2007, position_in_vehid_chain % 20) {
+     1:sw_KTX_1_2007_wagon_2;
+     2:sw_KTX_1_2007_wagon_3;
+     3:sw_KTX_1_2007_wagon_4;
+     4:sw_KTX_1_2007_wagon_5;
+     5:sw_KTX_1_2007_wagon_6;
+     6:sw_KTX_1_2007_wagon_7;
+     7:sw_KTX_1_2007_wagon_8;
+     8:sw_KTX_1_2007_wagon_9;
+     9:sw_KTX_1_2007_wagon_10;
+    10:sw_KTX_1_2007_wagon_11;
+    11:sw_KTX_1_2007_wagon_12;
+    12:sw_KTX_1_2007_wagon_13;
+    13:sw_KTX_1_2007_wagon_14;
+    14:sw_KTX_1_2007_wagon_15;
+    15:sw_KTX_1_2007_wagon_16;
+    16:sw_KTX_1_2007_wagon_17;
+    17:sw_KTX_1_2007_wagon_18;
+    18:sw_KTX_1_2007_wagon_19;
+    19:sw_KTX_1_2007_engineT;
+    sw_KTX_1_2007_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_KTX_1_20car_2007_r, position_in_vehid_chain % 20) {
+     1:sw_KTX_1_2007_wagon_19_r;
+     2:sw_KTX_1_2007_wagon_18_r;
+     3:sw_KTX_1_2007_wagon_17_r;
+     4:sw_KTX_1_2007_wagon_16_r;
+     5:sw_KTX_1_2007_wagon_15_r;
+     6:sw_KTX_1_2007_wagon_14_r;
+     7:sw_KTX_1_2007_wagon_13_r;
+     8:sw_KTX_1_2007_wagon_12_r;
+     9:sw_KTX_1_2007_wagon_11_r;
+    10:sw_KTX_1_2007_wagon_10_r;
+    11:sw_KTX_1_2007_wagon_9_r;
+    12:sw_KTX_1_2007_wagon_8_r;
+    13:sw_KTX_1_2007_wagon_7_r;
+    14:sw_KTX_1_2007_wagon_6_r;
+    15:sw_KTX_1_2007_wagon_5_r;
+    16:sw_KTX_1_2007_wagon_4_r;
+    17:sw_KTX_1_2007_wagon_3_r;
+    18:sw_KTX_1_2007_wagon_2_r;
+    19:sw_KTX_1_2007_engineH_r;
+    sw_KTX_1_2007_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_20car_2007_flipped, vehicle_is_flipped){
+    0: sw_KTX_1_20car_2007_r;
+    sw_KTX_1_20car_2007;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_KTX_1_20car_2007_reversed, vehicle_is_reversed){
+    0: sw_KTX_1_20car_2007;
+    sw_KTX_1_20car_2007_flipped;
 }
 
 // 2013
@@ -140,9 +210,68 @@ switch(FEAT_TRAINS, PARENT, sw_KTX_1_20car_2013_reversed, vehicle_is_reversed){
     sw_KTX_1_20car_2013_flipped;
 }
 
+// 2017
+switch (FEAT_TRAINS, SELF, sw_KTX_1_20car_2017, position_in_vehid_chain % 20) {
+     1:sw_KTX_1_2017_wagon_2;
+     2:sw_KTX_1_2017_wagon_3;
+     3:sw_KTX_1_2017_wagon_4;
+     4:sw_KTX_1_2017_wagon_5;
+     5:sw_KTX_1_2017_wagon_6;
+     6:sw_KTX_1_2017_wagon_7;
+     7:sw_KTX_1_2017_wagon_8;
+     8:sw_KTX_1_2017_wagon_9;
+     9:sw_KTX_1_2017_wagon_10;
+    10:sw_KTX_1_2017_wagon_11;
+    11:sw_KTX_1_2017_wagon_12;
+    12:sw_KTX_1_2017_wagon_13;
+    13:sw_KTX_1_2017_wagon_14;
+    14:sw_KTX_1_2017_wagon_15;
+    15:sw_KTX_1_2017_wagon_16;
+    16:sw_KTX_1_2017_wagon_17;
+    17:sw_KTX_1_2017_wagon_18;
+    18:sw_KTX_1_2017_wagon_19;
+    19:sw_KTX_1_2017_engineT;
+    sw_KTX_1_2017_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_KTX_1_20car_2017_r, position_in_vehid_chain % 20) {
+     1:sw_KTX_1_2017_wagon_19_r;
+     2:sw_KTX_1_2017_wagon_18_r;
+     3:sw_KTX_1_2017_wagon_17_r;
+     4:sw_KTX_1_2017_wagon_16_r;
+     5:sw_KTX_1_2017_wagon_15_r;
+     6:sw_KTX_1_2017_wagon_14_r;
+     7:sw_KTX_1_2017_wagon_13_r;
+     8:sw_KTX_1_2017_wagon_12_r;
+     9:sw_KTX_1_2017_wagon_11_r;
+    10:sw_KTX_1_2017_wagon_10_r;
+    11:sw_KTX_1_2017_wagon_9_r;
+    12:sw_KTX_1_2017_wagon_8_r;
+    13:sw_KTX_1_2017_wagon_7_r;
+    14:sw_KTX_1_2017_wagon_6_r;
+    15:sw_KTX_1_2017_wagon_5_r;
+    16:sw_KTX_1_2017_wagon_4_r;
+    17:sw_KTX_1_2017_wagon_3_r;
+    18:sw_KTX_1_2017_wagon_2_r;
+    19:sw_KTX_1_2017_engineH_r;
+    sw_KTX_1_2017_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_20car_2017_flipped, vehicle_is_flipped){
+    0: sw_KTX_1_20car_2017_r;
+    sw_KTX_1_20car_2017;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_KTX_1_20car_2017_reversed, vehicle_is_reversed){
+    0: sw_KTX_1_20car_2017;
+    sw_KTX_1_20car_2017_flipped;
+}
+
 switch(FEAT_TRAINS, SELF, sw_KTX_1_20car_reversed, current_year) {
-    0..2012: sw_KTX_1_20car_1997_reversed;
-    sw_KTX_1_20car_2013_reversed;
+    0..2006: sw_KTX_1_20car_1997_reversed;
+    2007..2012: sw_KTX_1_20car_2007_reversed;
+    2013..2016: sw_KTX_1_20car_2013_reversed;
+    sw_KTX_1_20car_2017_reversed;
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_KTX_1_20car, extra_callback_info1) {
