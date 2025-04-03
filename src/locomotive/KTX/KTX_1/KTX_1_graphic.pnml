@@ -95,92 +95,12 @@ spriteset(set_KTX_1_engineT, "src/locomotive/KTX/KTX_1/KTX_1.png"){
 /*--------------------------------------------------------------------
 KTX-1M
 --------------------------------------------------------------------*/
-spriteset(set_KTX_1M_engineH, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
+spriteset(set_KTX_1M_wagon_T1, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_KTX_1M_engineH_r, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp(80, 27)
-}
-
-spriteset(set_KTX_1M_wagon_T1, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp(80, 54)
-}
-
 spriteset(set_KTX_1M_wagon_T1_r, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp_r(80, 54)
-}
-
-spriteset(set_KTX_1M_wagon_T2, "src/locomotive/KTX/KTX_1/KTX_1M.png") {
-    DTS_temp_mini_7_Highspeed(80, 81)
-}
-
-spriteset(set_KTX_1M_wagon_T2_r, "src/locomotive/KTX/KTX_1/KTX_1M.png") {
-    DTS_temp_mini_7_Highspeed_r(80, 81)
-}
-
-spriteset(set_KTX_1M_wagon_T3, "src/locomotive/KTX/KTX_1/KTX_1M.png") {
-    DTS_temp_mini_7_Highspeed(80, 108)
-}
-
-spriteset(set_KTX_1M_wagon_T3_r, "src/locomotive/KTX/KTX_1/KTX_1M.png") {
-    DTS_temp_mini_7_Highspeed_r(80, 108)
-}
-
-spriteset(set_KTX_1M_wagon_T4, "src/locomotive/KTX/KTX_1/KTX_1M.png") {
-    DTS_temp_mini_7_Highspeed(80, 135)
-}
-
-spriteset(set_KTX_1M_wagon_T4_r, "src/locomotive/KTX/KTX_1/KTX_1M.png") {
-    DTS_temp_mini_7_Highspeed_r(80, 135)
-}
-
-spriteset(set_KTX_1M_wagon_T5, "src/locomotive/KTX/KTX_1/KTX_1M.png") {
-    DTS_temp_mini_7_Highspeed(80, 162)
-}
-
-spriteset(set_KTX_1M_wagon_T5_r, "src/locomotive/KTX/KTX_1/KTX_1M.png") {
-    DTS_temp_mini_7_Highspeed_r(80, 162)
-}
-
-spriteset(set_KTX_1M_wagon_T6, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp_mini_7_Highspeed(80, 189)
-}
-
-spriteset(set_KTX_1M_wagon_T6_r, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 189)
-}
-
-spriteset(set_KTX_1M_wagon_T7, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp_mini_7_Highspeed(80, 216)
-}
-
-spriteset(set_KTX_1M_wagon_T7_r, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 216)
-}
-
-spriteset(set_KTX_1M_wagon_T8, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp_mini_7_Highspeed(80, 243)
-}
-
-spriteset(set_KTX_1M_wagon_T8_r, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 243)
-}
-
-spriteset(set_KTX_1M_wagon_T9, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp(80, 270)
-}
-
-spriteset(set_KTX_1M_wagon_T9_r, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp_r(80, 270)
-}
-
-spriteset(set_KTX_1M_engineT_r, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp(80, 297)
-}
-
-spriteset(set_KTX_1M_engineT, "src/locomotive/KTX/KTX_1/KTX_1M.png"){
-    DTS_temp(80, 324)
+    DTS_temp_r(80, 0)
 }
 
 /*--------------------------------------------------------------------

@@ -99,48 +99,48 @@ switch(FEAT_TRAINS, PARENT, sw_KTX_1_20car_1997_reversed, vehicle_is_reversed){
 // 2007
 switch (FEAT_TRAINS, SELF, sw_KTX_1_20car_2007, position_in_vehid_chain % 20) {
      1:sw_KTX_1_2007_wagon_2;
-     2:sw_KTX_1_2007_wagon_3;
-     3:sw_KTX_1_2007_wagon_4;
-     4:sw_KTX_1_2007_wagon_5;
-     5:sw_KTX_1_2007_wagon_6;
-     6:sw_KTX_1_2007_wagon_7;
-     7:sw_KTX_1_2007_wagon_8;
-     8:sw_KTX_1_2007_wagon_9;
-     9:sw_KTX_1_2007_wagon_10;
-    10:sw_KTX_1_2007_wagon_11;
-    11:sw_KTX_1_2007_wagon_12;
-    12:sw_KTX_1_2007_wagon_13;
-    13:sw_KTX_1_2007_wagon_14;
-    14:sw_KTX_1_2007_wagon_15;
-    15:sw_KTX_1_2007_wagon_16;
-    16:sw_KTX_1_2007_wagon_17;
-    17:sw_KTX_1_2007_wagon_18;
-    18:sw_KTX_1_2007_wagon_19;
-    19:sw_KTX_1_2007_engineT;
-    sw_KTX_1_2007_engineH; //default
+     2:set_KTX_1_wagon_T2;
+     3:set_KTX_1_wagon_T3;
+     4:set_KTX_1_wagon_T4;
+     5:set_KTX_1_wagon_T3;
+     6:set_KTX_1_wagon_T5;
+     7:set_KTX_1_wagon_T6;
+     8:set_KTX_1_wagon_T5;
+     9:set_KTX_1_wagon_T6;
+    10:set_KTX_1_wagon_T7;
+    11:set_KTX_1_wagon_T8;
+    12:set_KTX_1_wagon_T7;
+    13:set_KTX_1_wagon_T8;
+    14:set_KTX_1_wagon_T7;
+    15:set_KTX_1_wagon_T8;
+    16:set_KTX_1_wagon_T7;
+    17:set_KTX_1_wagon_T8;
+    18:set_KTX_1_wagon_T9;
+    19:set_KTX_1_engineT;
+    set_KTX_1_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_KTX_1_20car_2007_r, position_in_vehid_chain % 20) {
-     1:sw_KTX_1_2007_wagon_19_r;
-     2:sw_KTX_1_2007_wagon_18_r;
-     3:sw_KTX_1_2007_wagon_17_r;
-     4:sw_KTX_1_2007_wagon_16_r;
-     5:sw_KTX_1_2007_wagon_15_r;
-     6:sw_KTX_1_2007_wagon_14_r;
-     7:sw_KTX_1_2007_wagon_13_r;
-     8:sw_KTX_1_2007_wagon_12_r;
-     9:sw_KTX_1_2007_wagon_11_r;
-    10:sw_KTX_1_2007_wagon_10_r;
-    11:sw_KTX_1_2007_wagon_9_r;
-    12:sw_KTX_1_2007_wagon_8_r;
-    13:sw_KTX_1_2007_wagon_7_r;
-    14:sw_KTX_1_2007_wagon_6_r;
-    15:sw_KTX_1_2007_wagon_5_r;
-    16:sw_KTX_1_2007_wagon_4_r;
-    17:sw_KTX_1_2007_wagon_3_r;
+     1:set_KTX_1_wagon_T9_r;
+     2:set_KTX_1_wagon_T8_r;
+     3:set_KTX_1_wagon_T7_r;
+     4:set_KTX_1_wagon_T8_r;
+     5:set_KTX_1_wagon_T7_r;
+     6:set_KTX_1_wagon_T8_r;
+     7:set_KTX_1_wagon_T7_r;
+     8:set_KTX_1_wagon_T8_r;
+     9:set_KTX_1_wagon_T7_r;
+    10:set_KTX_1_wagon_T6_r;
+    11:set_KTX_1_wagon_T5_r;
+    12:set_KTX_1_wagon_T6_r;
+    13:set_KTX_1_wagon_T5_r;
+    14:set_KTX_1_wagon_T3_r;
+    15:set_KTX_1_wagon_T4_r;
+    16:set_KTX_1_wagon_T3_r;
+    17:set_KTX_1_wagon_T2_r;
     18:sw_KTX_1_2007_wagon_2_r;
-    19:sw_KTX_1_2007_engineH_r;
-    sw_KTX_1_2007_engineT_r; //default
+    19:set_KTX_1_engineH_r;
+    set_KTX_1_engineT_r; //default
     }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_20car_2007_flipped, vehicle_is_flipped){
