@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+양산도시철도
+--------------------------------------------------------------------*/
+spriteset(set_Yangsan_AGT_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Yangsan_AGT/Yangsan_AGT.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Yangsan_AGT_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Yangsan_AGT/Yangsan_AGT.png"){
+    DTS_temp(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Yangsan_AGT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Yangsan_AGT/Yangsan_AGT.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Yangsan_AGT_purchase, cargo_subtype) {
+    set_Yangsan_AGT_purchase;
+}

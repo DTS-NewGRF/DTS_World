@@ -559,7 +559,8 @@
 |2540|STR_Nomal_Diesel_2Car_NAME|
 |2541|Group_Generatar_Car|
 |2542|PEX_Super_Generatar_Car|
-|2543~2999|공백|
+|2543|Yangsan_AGT_2Car|
+|2544~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

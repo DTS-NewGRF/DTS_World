@@ -440,6 +440,7 @@ STR_Sillim_Line_3Car_NAME                              :[3Car] Sillim Line
 STR_Standard_Metro_4Car_NAME                           :[4Car] Standard Metro
 STR_Ui_Sinseol_2Car_NAME                               :[2Car] UI-Sinseol Line
 STR_Uijeongbu_Line_2Car_NAME                           :[2Car] Uijeongbu Light Rapid Transit
+STR_Yangsan_AGT_2Car_NAME                              :[2Car] Yangsan Metro AGT
 STR_Yongin_EverLine_2Car_NAME                          :Yongin EverLine
 
 # Hong Kong / Metro's name

@@ -249,6 +249,7 @@
 ### WOOJIN_IGBT_2start.wav
 - 부산교통공사 2000호대
 - 신림선 전동차
+- 양산 도시철도
 - 한국철도공사 5세대 VVVF전동차
 
 ### WOOJINMITSUBISHIIGBT2start.wav

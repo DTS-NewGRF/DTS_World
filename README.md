@@ -8,11 +8,12 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.62] 2025.04.03 <br>
+[1.62] 2025.04.07 <br>
 [이슈 작업]
 * [열차추가] PEX-SUPER 전용 우편차 (32bpp) ([#639](https://github.com/DTS-NewGRF/DTS/issues/639))
 * [열차추가] PEX-SUPER 전용 발전차 (32bpp) ([#640](https://github.com/DTS-NewGRF/DTS/issues/640))
 * [열차변경] KTX-1 도색 순서 변경 ([#641](https://github.com/DTS-NewGRF/DTS/issues/641))
+* [열차추가] 양산 도시철도 전동차 (32bpp) ([#642](https://github.com/DTS-NewGRF/DTS/issues/642))
 
 ## 최근 등록 릴리즈
 [1.61] 2025.03.07 <br>
