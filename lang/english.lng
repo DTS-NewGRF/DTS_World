@@ -190,6 +190,8 @@ STR_NJ2_NAME                                           :NJ2
 # European / locomotive's name
 STR_AGV_11Car_NAME                                     :[11Car] AGV (.italo)
 STR_BB15000_NAME                                       :SNCF BB15000
+STR_Group_Eurostar_E300_NAME                           :Eurostar E300
+STR_Eurostar_E300_16Car_NAME                           :[16Car] Eurostar E300
 STR_Eurostar_E300_20Car_NAME                           :[20Car] Eurostar E300
 STR_Eurostar_E320_16Car_NAME                           :[16Car] Eurostar E320
 STR_ICE1_14Car_NAME                                    :[14Car] ICE1
@@ -872,8 +874,8 @@ STR_REFIT_LIVERY_CR400BF_C_O                           : Beijing 2022 Winter Oly
 STR_REFIT_LIVERY_BB15000_Orginal                       : Orginal
 STR_REFIT_LIVERY_BB15000_Korail                        : Korail
 STR_REFIT_LIVERY_BB15000_En_Voyagee                    : En Voyagee
-STR_REFIT_LIVERY_Eurostar_E300_Old                     : Eurostar Old Livery
-STR_REFIT_LIVERY_Eurostar_E300_New                     : Eurostar New Livery
+STR_REFIT_LIVERY_Eurostar_E300_1993                    : Eurostar Old Livery
+STR_REFIT_LIVERY_Eurostar_E300_2015                    : Eurostar New Livery
 STR_REFIT_LIVERY_TGV_Atlantic                          : Atlantic Blue
 STR_REFIT_LIVERY_TGV_Atlantic_1st                      : 1st Atlantic Blue
 STR_REFIT_LIVERY_TGV_Atlantic_2nd                      : 2nd Atlantic Blue

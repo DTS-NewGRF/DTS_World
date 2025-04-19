@@ -1,67 +1,406 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Eurostar_E300_New);   // 파랑
-    return string(STR_REFIT_LIVERY_Eurostar_E300_Old);
+//도색명
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_1993_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Eurostar_E300_1993);
+    return CB_RESULT_NO_TEXT;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_2015_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Eurostar_E300_1993);
+    1: return string(STR_REFIT_LIVERY_Eurostar_E300_2015);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_cargo_subtype_text, current_year) {
+    0..2014: sw_Eurostar_E300_1993_cargo_subtype_text;
+    sw_Eurostar_E300_2015_cargo_subtype_text;
+    }
+
+// 열차
 switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_engineH, cargo_subtype) {
-    1: set_Eurostar_E300_New_engineH;   // 파랑
-    set_Eurostar_E300_Old_engineH;
+    1: set_Eurostar_E300_2015_engineH;
+    set_Eurostar_E300_1993_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_M1, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_M1;
+    set_Eurostar_E300_1993_wagon_M1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_T1, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_T1;
+    set_Eurostar_E300_1993_wagon_T1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_C1, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_C1;
+    set_Eurostar_E300_1993_wagon_C1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_L1, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_L1;
+    set_Eurostar_E300_1993_wagon_L1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_L2, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_L2;
+    set_Eurostar_E300_1993_wagon_L2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_C2, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_C2;
+    set_Eurostar_E300_1993_wagon_C2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_T2, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_T2;
+    set_Eurostar_E300_1993_wagon_T2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_M2, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_M2;
+    set_Eurostar_E300_1993_wagon_M2;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_engineT, cargo_subtype) {
-    1: set_Eurostar_E300_New_engineT;   // 파랑
-    set_Eurostar_E300_Old_engineT;
+    1: set_Eurostar_E300_2015_engineT;
+    set_Eurostar_E300_1993_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_start, cargo_subtype) {
-    1: set_Eurostar_E300_New_wagon_start;   // 파랑
-    set_Eurostar_E300_Old_wagon_start;
+// 열차 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_engineH_r, cargo_subtype) {
+    1: set_Eurostar_E300_2015_engineH_r;
+    set_Eurostar_E300_1993_engineH_r;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon, cargo_subtype) {
-    1: set_Eurostar_E300_New_wagon;   // 파랑
-    set_Eurostar_E300_Old_wagon;
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_M1_r, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_M1_r;
+    set_Eurostar_E300_1993_wagon_M1_r;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_bar, cargo_subtype) {
-    1: set_Eurostar_E300_New_wagon_bar;   // 파랑
-    set_Eurostar_E300_Old_wagon_bar;
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_T1_r, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_T1_r;
+    set_Eurostar_E300_1993_wagon_T1_r;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_end, cargo_subtype) {
-    1: set_Eurostar_E300_New_wagon_end;   // 파랑
-    set_Eurostar_E300_Old_wagon_end;
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_C1_r, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_C1_r;
+    set_Eurostar_E300_1993_wagon_C1_r;
 }
 
-switch (FEAT_TRAINS, SELF, sw_Eurostar_E300_20car, position_in_vehid_chain % 20) {
-    1:sw_Eurostar_E300_wagon_start;
-    2:sw_Eurostar_E300_wagon;
-    3:sw_Eurostar_E300_wagon;
-    4:sw_Eurostar_E300_wagon;
-    5:sw_Eurostar_E300_wagon;
-    6:sw_Eurostar_E300_wagon_bar;
-    7:sw_Eurostar_E300_wagon;
-    8:sw_Eurostar_E300_wagon;
-    9:sw_Eurostar_E300_wagon;
-    10:sw_Eurostar_E300_wagon;
-    11:sw_Eurostar_E300_wagon;
-    12:sw_Eurostar_E300_wagon;
-    13:sw_Eurostar_E300_wagon_bar;
-    14:sw_Eurostar_E300_wagon;
-    15:sw_Eurostar_E300_wagon;
-    16:sw_Eurostar_E300_wagon;
-    17:sw_Eurostar_E300_wagon;
-    18:sw_Eurostar_E300_wagon_end;
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_L1_r, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_L1_r;
+    set_Eurostar_E300_1993_wagon_L1_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_L2_r, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_L2_r;
+    set_Eurostar_E300_1993_wagon_L2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_C2_r, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_C2_r;
+    set_Eurostar_E300_1993_wagon_C2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_T2_r, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_T2_r;
+    set_Eurostar_E300_1993_wagon_T2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_M2_r, cargo_subtype) {
+    1: set_Eurostar_E300_2015_wagon_M2_r;
+    set_Eurostar_E300_1993_wagon_M2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_engineT_r, cargo_subtype) {
+    1: set_Eurostar_E300_2015_engineT_r;
+    set_Eurostar_E300_1993_engineT_r;
+}
+
+// 편성그래픽
+// 1993 16량
+switch (FEAT_TRAINS, SELF, sw_Eurostar_E300_16car_1993, position_in_vehid_chain % 16) {
+     1:set_Eurostar_E300_1993_wagon_M1;
+     2:set_Eurostar_E300_1993_wagon_T1;
+     3:set_Eurostar_E300_1993_wagon_T1;
+     4:set_Eurostar_E300_1993_wagon_T1;
+     5:set_Eurostar_E300_1993_wagon_C1;
+     6:set_Eurostar_E300_1993_wagon_T1;
+     7:set_Eurostar_E300_1993_wagon_L1;
+     8:set_Eurostar_E300_1993_wagon_L2;
+     9:set_Eurostar_E300_1993_wagon_T2;
+    10:set_Eurostar_E300_1993_wagon_C2;
+    11:set_Eurostar_E300_1993_wagon_T2;
+    12:set_Eurostar_E300_1993_wagon_T2;
+    13:set_Eurostar_E300_1993_wagon_T2;
+    14:set_Eurostar_E300_1993_wagon_M2;
+    15:set_Eurostar_E300_1993_engineT;
+    set_Eurostar_E300_1993_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Eurostar_E300_16car_1993_r, position_in_vehid_chain % 16) {
+     1:set_Eurostar_E300_1993_wagon_M2_r;
+     2:set_Eurostar_E300_1993_wagon_T2_r;
+     3:set_Eurostar_E300_1993_wagon_T2_r;
+     4:set_Eurostar_E300_1993_wagon_T2_r;
+     5:set_Eurostar_E300_1993_wagon_C2_r;
+     6:set_Eurostar_E300_1993_wagon_T2_r;
+     7:set_Eurostar_E300_1993_wagon_L2_r;
+     8:set_Eurostar_E300_1993_wagon_L1_r;
+     9:set_Eurostar_E300_1993_wagon_T1_r;
+    10:set_Eurostar_E300_1993_wagon_C1_r;
+    11:set_Eurostar_E300_1993_wagon_T1_r;
+    12:set_Eurostar_E300_1993_wagon_T1_r;
+    13:set_Eurostar_E300_1993_wagon_T1_r;
+    14:set_Eurostar_E300_1993_wagon_M1_r;
+    15:set_Eurostar_E300_1993_engineH_r;
+    set_Eurostar_E300_1993_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_16car_1993_flipped, vehicle_is_flipped){
+    0: sw_Eurostar_E300_16car_1993_r;
+    sw_Eurostar_E300_16car_1993;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Eurostar_E300_16car_1993_reversed, vehicle_is_reversed){
+    0: sw_Eurostar_E300_16car_1993;
+    sw_Eurostar_E300_16car_1993_flipped;
+}
+
+// 1993 20량
+switch (FEAT_TRAINS, SELF, sw_Eurostar_E300_20car_1993, position_in_vehid_chain % 20) {
+     1:set_Eurostar_E300_1993_wagon_M1;
+     2:set_Eurostar_E300_1993_wagon_T1;
+     3:set_Eurostar_E300_1993_wagon_T1;
+     4:set_Eurostar_E300_1993_wagon_T1;
+     5:set_Eurostar_E300_1993_wagon_T1;
+     6:set_Eurostar_E300_1993_wagon_C1;
+     7:set_Eurostar_E300_1993_wagon_T1;
+     8:set_Eurostar_E300_1993_wagon_T1;
+     9:set_Eurostar_E300_1993_wagon_L1;
+    10:set_Eurostar_E300_1993_wagon_L2;
+    11:set_Eurostar_E300_1993_wagon_T2;
+    12:set_Eurostar_E300_1993_wagon_T2;
+    13:set_Eurostar_E300_1993_wagon_C2;
+    14:set_Eurostar_E300_1993_wagon_T2;
+    15:set_Eurostar_E300_1993_wagon_T2;
+    16:set_Eurostar_E300_1993_wagon_T2;
+    17:set_Eurostar_E300_1993_wagon_T2;
+    18:set_Eurostar_E300_1993_wagon_M2;
+    19:set_Eurostar_E300_1993_engineT;
+    set_Eurostar_E300_1993_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Eurostar_E300_20car_1993_r, position_in_vehid_chain % 20) {
+     1:set_Eurostar_E300_1993_wagon_M2_r;
+     2:set_Eurostar_E300_1993_wagon_T2_r;
+     3:set_Eurostar_E300_1993_wagon_T2_r;
+     4:set_Eurostar_E300_1993_wagon_T2_r;
+     5:set_Eurostar_E300_1993_wagon_T2_r;
+     6:set_Eurostar_E300_1993_wagon_C2_r;
+     7:set_Eurostar_E300_1993_wagon_T2_r;
+     8:set_Eurostar_E300_1993_wagon_T2_r;
+     9:set_Eurostar_E300_1993_wagon_L2_r;
+    10:set_Eurostar_E300_1993_wagon_L1_r;
+    11:set_Eurostar_E300_1993_wagon_T1_r;
+    12:set_Eurostar_E300_1993_wagon_T1_r;
+    13:set_Eurostar_E300_1993_wagon_C1_r;
+    14:set_Eurostar_E300_1993_wagon_T1_r;
+    15:set_Eurostar_E300_1993_wagon_T1_r;
+    16:set_Eurostar_E300_1993_wagon_T1_r;
+    17:set_Eurostar_E300_1993_wagon_T1_r;
+    18:set_Eurostar_E300_1993_wagon_M1_r;
+    19:set_Eurostar_E300_1993_engineH_r;
+    set_Eurostar_E300_1993_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_20car_1993_flipped, vehicle_is_flipped){
+    0: sw_Eurostar_E300_20car_1993_r;
+    sw_Eurostar_E300_20car_1993;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Eurostar_E300_20car_1993_reversed, vehicle_is_reversed){
+    0: sw_Eurostar_E300_20car_1993;
+    sw_Eurostar_E300_20car_1993_flipped;
+}
+
+// 2015 16량
+switch (FEAT_TRAINS, SELF, sw_Eurostar_E300_16car_2015, position_in_vehid_chain % 16) {
+     1:sw_Eurostar_E300_wagon_M1;
+     2:sw_Eurostar_E300_wagon_T1;
+     3:sw_Eurostar_E300_wagon_T1;
+     4:sw_Eurostar_E300_wagon_T1;
+     5:sw_Eurostar_E300_wagon_C1;
+     6:sw_Eurostar_E300_wagon_T1;
+     7:sw_Eurostar_E300_wagon_L1;
+     8:sw_Eurostar_E300_wagon_L2;
+     9:sw_Eurostar_E300_wagon_T2;
+    10:sw_Eurostar_E300_wagon_C2;
+    11:sw_Eurostar_E300_wagon_T2;
+    12:sw_Eurostar_E300_wagon_T2;
+    13:sw_Eurostar_E300_wagon_T2;
+    14:sw_Eurostar_E300_wagon_M2;
+    15:sw_Eurostar_E300_engineT;
+    sw_Eurostar_E300_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Eurostar_E300_16car_2015_r, position_in_vehid_chain % 16) {
+     1:sw_Eurostar_E300_wagon_M2_r;
+     2:sw_Eurostar_E300_wagon_T2_r;
+     3:sw_Eurostar_E300_wagon_T2_r;
+     4:sw_Eurostar_E300_wagon_T2_r;
+     5:sw_Eurostar_E300_wagon_C2_r;
+     6:sw_Eurostar_E300_wagon_T2_r;
+     7:sw_Eurostar_E300_wagon_L2_r;
+     8:sw_Eurostar_E300_wagon_L1_r;
+     9:sw_Eurostar_E300_wagon_T1_r;
+    10:sw_Eurostar_E300_wagon_C1_r;
+    11:sw_Eurostar_E300_wagon_T1_r;
+    12:sw_Eurostar_E300_wagon_T1_r;
+    13:sw_Eurostar_E300_wagon_T1_r;
+    14:sw_Eurostar_E300_wagon_M1_r;
+    15:sw_Eurostar_E300_engineH_r;
+    sw_Eurostar_E300_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_16car_2015_flipped, vehicle_is_flipped){
+    0: sw_Eurostar_E300_16car_2015_r;
+    sw_Eurostar_E300_16car_2015;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Eurostar_E300_16car_2015_reversed, vehicle_is_reversed){
+    0: sw_Eurostar_E300_16car_2015;
+    sw_Eurostar_E300_16car_2015_flipped;
+}
+
+// 2015 20량
+switch (FEAT_TRAINS, SELF, sw_Eurostar_E300_20car_2015, position_in_vehid_chain % 20) {
+     1:sw_Eurostar_E300_wagon_M1;
+     2:sw_Eurostar_E300_wagon_T1;
+     3:sw_Eurostar_E300_wagon_T1;
+     4:sw_Eurostar_E300_wagon_T1;
+     5:sw_Eurostar_E300_wagon_T1;
+     6:sw_Eurostar_E300_wagon_C1;
+     7:sw_Eurostar_E300_wagon_T1;
+     8:sw_Eurostar_E300_wagon_T1;
+     9:sw_Eurostar_E300_wagon_L1;
+    10:sw_Eurostar_E300_wagon_L2;
+    11:sw_Eurostar_E300_wagon_T2;
+    12:sw_Eurostar_E300_wagon_T2;
+    13:sw_Eurostar_E300_wagon_C2;
+    14:sw_Eurostar_E300_wagon_T2;
+    15:sw_Eurostar_E300_wagon_T2;
+    16:sw_Eurostar_E300_wagon_T2;
+    17:sw_Eurostar_E300_wagon_T2;
+    18:sw_Eurostar_E300_wagon_M2;
     19:sw_Eurostar_E300_engineT;
     sw_Eurostar_E300_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Eurostar_E300_20car_2015_r, position_in_vehid_chain % 20) {
+     1:sw_Eurostar_E300_wagon_M2_r;
+     2:sw_Eurostar_E300_wagon_T2_r;
+     3:sw_Eurostar_E300_wagon_T2_r;
+     4:sw_Eurostar_E300_wagon_T2_r;
+     5:sw_Eurostar_E300_wagon_T2_r;
+     6:sw_Eurostar_E300_wagon_C2_r;
+     7:sw_Eurostar_E300_wagon_T2_r;
+     8:sw_Eurostar_E300_wagon_T2_r;
+     9:sw_Eurostar_E300_wagon_L2_r;
+    10:sw_Eurostar_E300_wagon_L1_r;
+    11:sw_Eurostar_E300_wagon_T1_r;
+    12:sw_Eurostar_E300_wagon_T1_r;
+    13:sw_Eurostar_E300_wagon_C1_r;
+    14:sw_Eurostar_E300_wagon_T1_r;
+    15:sw_Eurostar_E300_wagon_T1_r;
+    16:sw_Eurostar_E300_wagon_T1_r;
+    17:sw_Eurostar_E300_wagon_T1_r;
+    18:sw_Eurostar_E300_wagon_M1_r;
+    19:sw_Eurostar_E300_engineH_r;
+    sw_Eurostar_E300_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_20car_2015_flipped, vehicle_is_flipped){
+    0: sw_Eurostar_E300_20car_2015_r;
+    sw_Eurostar_E300_20car_2015;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Eurostar_E300_20car_2015_reversed, vehicle_is_reversed){
+    0: sw_Eurostar_E300_20car_2015;
+    sw_Eurostar_E300_20car_2015_flipped;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_16car_reversed, current_year) {
+    0..2014: sw_Eurostar_E300_16car_1993_reversed;
+    sw_Eurostar_E300_16car_2015_reversed;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_20car_reversed, current_year) {
+    0..2014: sw_Eurostar_E300_20car_1993_reversed;
+    sw_Eurostar_E300_20car_2015_reversed;
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_Eurostar_E300_16car, extra_callback_info1) {
+    1..15: Eurostar_E300_16Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_Eurostar_E300_20car, extra_callback_info1) {
     1..19: Eurostar_E300_20Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_16Car_length_in_custom, position_in_vehid_chain % 16) {
+    1: 8;
+    2: 7;
+    3: 7;
+    4: 7;
+    5: 7;
+    6: 7;
+    7: 8;
+    8: 8;
+    9: 7;
+    10: 7;
+    11: 7;
+    12: 7;
+    13: 7;
+    14: 7;
+    15: 8;
+    8; //default;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_20Car_length_in_custom, position_in_vehid_chain % 20) {
+    1: 8;
+    2: 7;
+    3: 7;
+    4: 7;
+    5: 7;
+    6: 7;
+    7: 7;
+    8: 7;
+    9: 8;
+    10: 8;
+    11: 7;
+    12: 7;
+    13: 7;
+    14: 7;
+    15: 7;
+    16: 7;
+    17: 7;
+    18: 7;
+    19: 8;
+    8; //default;
+}
+
+// 사운드
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/E300_ALSTOM_GTO.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
     }
 
 // 속도변수

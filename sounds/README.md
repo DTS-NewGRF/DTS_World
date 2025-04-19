@@ -48,6 +48,9 @@
 ### DEL7600start.wav
 - 7600호대 디젤전기기관차
 
+### E300_ALSTOM_GTO.wav
+- 유로스타 E300
+
 ### FEL8500Start.wav
 - 8500호대 전기기관차
 

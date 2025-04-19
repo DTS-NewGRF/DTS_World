@@ -465,6 +465,8 @@ sort(FEAT_TRAINS, [
     HSR_350X_7Car,                           //2027
     HSR_350X_14Car,                          //2005
     AGV_11Car,                               //2063
+    Eurostar_E300,                           //2544
+    Eurostar_E300_16Car,                     //2545
     Eurostar_E300_20Car,                     //2065
     Eurostar_E320_16Car,                     //2066
     ICE3_8Car,                               //2069

@@ -190,6 +190,8 @@ STR_NJ2_NAME                                           :NJ2
 # European / locomotive's name
 STR_AGV_11Car_NAME                                     :[11량] AGV (이탈로)
 STR_BB15000_NAME                                       :SNCF BB15000
+STR_Group_Eurostar_E300_NAME                           :유로스타 E300
+STR_Eurostar_E300_16Car_NAME                           :[16량] 유로스타 E300
 STR_Eurostar_E300_20Car_NAME                           :[20량] 유로스타 E300
 STR_Eurostar_E320_16Car_NAME                           :[16량] 유로스타 E320
 STR_ICE1_14Car_NAME                                    :[14량] ICE1
@@ -872,8 +874,8 @@ STR_REFIT_LIVERY_CR400BF_C_O                           : 2022 베이징동계올
 STR_REFIT_LIVERY_BB15000_Orginal                       : 기본도색
 STR_REFIT_LIVERY_BB15000_Korail                        : Korail
 STR_REFIT_LIVERY_BB15000_En_Voyagee                    : En Voyagee
-STR_REFIT_LIVERY_Eurostar_E300_Old                     : 유로스타 구도색
-STR_REFIT_LIVERY_Eurostar_E300_New                     : 유로스타 신도색
+STR_REFIT_LIVERY_Eurostar_E300_1993                    : 유로스타 구도색
+STR_REFIT_LIVERY_Eurostar_E300_2015                    : 유로스타 신도색
 STR_REFIT_LIVERY_TGV_Atlantic                          : 아틀란틱 블루
 STR_REFIT_LIVERY_TGV_Atlantic_1st                      : 1세대 아틀란틱 블루
 STR_REFIT_LIVERY_TGV_Atlantic_2nd                      : 2세대 아틀란틱 블루

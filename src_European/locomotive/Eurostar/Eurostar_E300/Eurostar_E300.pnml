@@ -8,16 +8,34 @@ E300 유로스타
 #include "Eurostar_E300_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Eurostar_E300, 2544){
+    property {
+        name:                           string(STR_Group_Eurostar_E300_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          8000 kW;
+        }
+
+    graphics {
+        purchase:                       sw_Eurostar_E300_purchase;
+        }
+        }
+/*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Eurostar_E300_20Car, 2065){
+item(FEAT_TRAINS, Eurostar_E300_16Car, 2545){
     property {
-        name:                           string(STR_Eurostar_E300_20Car_NAME);
+        name:                           string(STR_Eurostar_E300_16Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1992, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Eurostar_E300;
         
         //spec
         speed:                          362km/h;
@@ -49,13 +67,71 @@ item(FEAT_TRAINS, Eurostar_E300_20Car, 2065){
         }
         
     graphics {
-        default:                        sw_Eurostar_E300_20car;
-        articulated_part:               sw_articulated_Eurostar_E300_20car;
+        default:                        sw_Eurostar_E300_16car_reversed;
+        articulated_part:               sw_articulated_Eurostar_E300_16car;
         purchase:                       sw_Eurostar_E300_purchase;
         speed:                          sw_Eurostar_E300_speed;
+        length:                         sw_Eurostar_E300_16Car_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Eurostar_E300_cargo_subtype_text;
+        sound_effect:                   sw_Eurostar_E300_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Eurostar_E300_20Car, 2065){
+    property {
+        name:                           string(STR_Eurostar_E300_20Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1992, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Eurostar_E300;
+        
+        //spec
+        speed:                          362km/h;
+        power:                          8000 kW;
+        weight:                         40 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 38;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_Eurostar_E300_20car_reversed;
+        articulated_part:               sw_articulated_Eurostar_E300_20car;
+        purchase:                       sw_Eurostar_E300_purchase;
+        speed:                          sw_Eurostar_E300_speed;
+        length:                         sw_Eurostar_E300_20Car_length_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Eurostar_E300_cargo_subtype_text;
+        sound_effect:                   sw_Eurostar_E300_sound;
         }
         }

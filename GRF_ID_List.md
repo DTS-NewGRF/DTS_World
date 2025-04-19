@@ -560,7 +560,9 @@
 |2541|Group_Generatar_Car|
 |2542|PEX_Super_Generatar_Car|
 |2543|Yangsan_AGT_2Car|
-|2544~2999|공백|
+|2544|[그룹명] Eurostar_E300|
+|2545|Eurostar_E300_16Car|
+|2546~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

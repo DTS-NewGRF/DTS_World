@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-//도색명
+// 도색명
 switch(FEAT_TRAINS, SELF, sw_KTX_1_1997_cargo_subtype_text, cargo_subtype) {
     0: return string(STR_REFIT_LIVERY_KTX_1_1997);
     return CB_RESULT_NO_TEXT;
@@ -35,7 +35,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_1_cargo_subtype_text, current_year) {
     sw_KTX_1_2017_cargo_subtype_text;
     }
 
-//열차
+// 열차
 #include "KTX_1_switch_wagon.pnml"
 
 // 편성그래픽
