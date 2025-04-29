@@ -3,12 +3,16 @@
 --------------------------------------------------------------------*/
 //도색명
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_KTX_Sancheon_A2);
-    2: return string(STR_REFIT_LIVERY_SRT);
-    3: return string(STR_REFIT_LIVERY_SRT_2cc);
-    4: return string(STR_REFIT_LIVERY_KTX_Sancheon_B1);
-    5: return string(STR_REFIT_LIVERY_KTX_Sancheon_B2);
-    return string(STR_REFIT_LIVERY_KTX_Sancheon_A1);
+    1: return string(STR_REFIT_LIVERY_KTX_Sancheon_A2);      // KTX-산천 A타입 후기분
+    2: return string(STR_REFIT_LIVERY_KTX_Gyeonggang_Blue);  // KTX-경강 파랑도색
+    3: return string(STR_REFIT_LIVERY_KTX_Gyeonggang_White); // KTX-경강 흰색도색
+    4: return string(STR_REFIT_LIVERY_SRT);                  // KTX-산천 120000호대 시안 1안
+    5: return string(STR_REFIT_LIVERY_KTX_Honam_Sky_blue);   // KTX-산천 120000호대 시안 2안
+    6: return string(STR_REFIT_LIVERY_KTX_Honam_Yellow);     // KTX-산천 120000호대 시안 3안
+    7: return string(STR_REFIT_LIVERY_SRT_2cc);              // SRT 2cc
+    8: return string(STR_REFIT_LIVERY_KTX_Sancheon_B1);      // KTX-산천 B타입
+    9: return string(STR_REFIT_LIVERY_KTX_Sancheon_B2);      // KTX-산천 B타입 평창올림픽
+    return string(STR_REFIT_LIVERY_KTX_Sancheon_A1);         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_20Car_cargo_subtype_text, cargo_subtype) {
@@ -32,184 +36,264 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_20Car_cargo_subtype_text, cargo_subtyp
 
 // 10량
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_engineH, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_engineH;
-    2: set_SRT_engineH;
-    3: set_SRT_2cc_engineH;
-    4: set_KTX_Sancheon_B1_engineH;
-    5: set_KTX_Sancheon_B2_engineH;
-    set_KTX_Sancheon_A1_engineH;
+    1: set_KTX_Sancheon_A2_engineH;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_engineH;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_engineH; // KTX-경강 흰색도색
+    4: set_SRT_engineH;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_engineH;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_engineH;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_engineH;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_engineH;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_engineH;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_engineH;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_1, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T1;
-    2: set_SRT_wagon_T1;
-    3: set_SRT_2cc_wagon_T1;
-    4: set_KTX_Sancheon_B1_wagon_T1;
-    5: set_KTX_Sancheon_B2_wagon_T1;
-    set_KTX_Sancheon_A1_wagon_T1;
+    1: set_KTX_Sancheon_A2_wagon_T1;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T1;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T1; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T1;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T1;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T1;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T1;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T1;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T1;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T1;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_2, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T2;
-    2: set_SRT_wagon_T2;
-    3: set_SRT_2cc_wagon_T2;
-    4: set_KTX_Sancheon_B1_wagon_T2;
-    5: set_KTX_Sancheon_B2_wagon_T2;
-    set_KTX_Sancheon_A1_wagon_T2;
+    1: set_KTX_Sancheon_A2_wagon_T2;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T2;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T2; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T2;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T2;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T2;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T2;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T2;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T2;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T2;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_3, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T3;
-    2: set_SRT_wagon_T3;
-    3: set_SRT_2cc_wagon_T3;
-    4: set_KTX_Sancheon_B1_wagon_T3;
-    5: set_KTX_Sancheon_B2_wagon_T3;
-    set_KTX_Sancheon_A1_wagon_T3;
+    1: set_KTX_Sancheon_A2_wagon_T3;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T3;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T3; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T3;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T3;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T3;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T3;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T3;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T3;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T3;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_4, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T4;
-    2: set_SRT_wagon_T4;
-    3: set_SRT_2cc_wagon_T4;
-    4: set_KTX_Sancheon_B1_wagon_T4;
-    5: set_KTX_Sancheon_B2_wagon_T4;
-    set_KTX_Sancheon_A1_wagon_T4;
+    1: set_KTX_Sancheon_A2_wagon_T4;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T4;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T4; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T4;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T4;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T4;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T4;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T4;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T4;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T4;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_5, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T5;
-    2: set_SRT_wagon_T5;
-    3: set_SRT_2cc_wagon_T5;
-    4: set_KTX_Sancheon_B1_wagon_T5;
-    5: set_KTX_Sancheon_B2_wagon_T5;
-    set_KTX_Sancheon_A1_wagon_T5;
+    1: set_KTX_Sancheon_A2_wagon_T5;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T5;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T5; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T5;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T5;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T5;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T5;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T5;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T5;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T5;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_6, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T5;
-    2: set_SRT_wagon_T5;
-    3: set_SRT_2cc_wagon_T5;
-    4: set_KTX_Sancheon_B1_wagon_T5;
-    5: set_KTX_Sancheon_B2_wagon_T5;
-    set_KTX_Sancheon_A1_wagon_T5;
+    1: set_KTX_Sancheon_A2_wagon_T5;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T5;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T5; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T5;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T5;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T5;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T5;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T5;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T5;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T5;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_7, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T6;
-    2: set_SRT_wagon_T4;
-    3: set_SRT_2cc_wagon_T4;
-    4: set_KTX_Sancheon_B1_wagon_T4;
-    5: set_KTX_Sancheon_B2_wagon_T4;
-    set_KTX_Sancheon_A1_wagon_T6;
+    1: set_KTX_Sancheon_A2_wagon_T6;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T4;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T4; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T4;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T4;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T4;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T4;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T4;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T4;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T6;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_8, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T7;
-    2: set_SRT_wagon_T6;
-    3: set_SRT_2cc_wagon_T6;
-    4: set_KTX_Sancheon_B1_wagon_T6;
-    5: set_KTX_Sancheon_B2_wagon_T6;
-    set_KTX_Sancheon_A1_wagon_T7;
+    1: set_KTX_Sancheon_A2_wagon_T7;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T6;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T6; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T6;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T6;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T6;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T6;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T6;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T6;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T7;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_engineT, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_engineT;
-    2: set_SRT_engineT;
-    3: set_SRT_2cc_engineT;
-    4: set_KTX_Sancheon_B1_engineT;
-    5: set_KTX_Sancheon_B2_engineT;
-    set_KTX_Sancheon_A1_engineT;
+    1: set_KTX_Sancheon_A2_engineT;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_engineT;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_engineT; // KTX-경강 흰색도색
+    4: set_SRT_engineT;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_engineT;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_engineT;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_engineT;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_engineT;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_engineT;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_engineT;         // KTX-산천 A타입 초기분
 }
 
 // 10량 뒤집힘
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_engineH_r, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_engineH_r;
-    2: set_SRT_engineH_r;
-    3: set_SRT_2cc_engineH_r;
-    4: set_KTX_Sancheon_B1_engineH_r;
-    5: set_KTX_Sancheon_B2_engineH_r;
-    set_KTX_Sancheon_A1_engineH_r;
+    1: set_KTX_Sancheon_A2_engineH_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_engineH_r;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_engineH_r; // KTX-경강 흰색도색
+    4: set_SRT_engineH_r;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_engineH_r;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_engineH_r;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_engineH_r;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_engineH_r;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_engineH_r;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_engineH_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_1_r, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T1_r;
-    2: set_SRT_wagon_T1_r;
-    3: set_SRT_2cc_wagon_T1_r;
-    4: set_KTX_Sancheon_B1_wagon_T1_r;
-    5: set_KTX_Sancheon_B2_wagon_T1_r;
-    set_KTX_Sancheon_A1_wagon_T1_r;
+    1: set_KTX_Sancheon_A2_wagon_T1_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T1_r;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T1_r; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T1_r;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T1_r;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T1_r;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T1_r;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T1_r;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T1_r;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T1_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_2_r, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T2_r;
-    2: set_SRT_wagon_T2_r;
-    3: set_SRT_2cc_wagon_T2_r;
-    4: set_KTX_Sancheon_B1_wagon_T2_r;
-    5: set_KTX_Sancheon_B2_wagon_T2_r;
-    set_KTX_Sancheon_A1_wagon_T2_r;
+    1: set_KTX_Sancheon_A2_wagon_T2_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T2_r;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T2_r; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T2_r;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T2_r;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T2_r;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T2_r;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T2_r;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T2_r;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T2_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_3_r, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T3_r;
-    2: set_SRT_wagon_T3_r;
-    3: set_SRT_2cc_wagon_T3_r;
-    4: set_KTX_Sancheon_B1_wagon_T3_r;
-    5: set_KTX_Sancheon_B2_wagon_T3_r;
-    set_KTX_Sancheon_A1_wagon_T3_r;
+    1: set_KTX_Sancheon_A2_wagon_T3_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T3_r;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T3_r; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T3_r;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T3_r;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T3_r;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T3_r;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T3_r;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T3_r;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T3_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_4_r, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T4_r;
-    2: set_SRT_wagon_T4_r;
-    3: set_SRT_2cc_wagon_T4_r;
-    8: set_KTX_Sancheon_B1_wagon_T4_r;
-    9: set_KTX_Sancheon_B2_wagon_T4_r;
-    set_KTX_Sancheon_A1_wagon_T4_r;
+    1: set_KTX_Sancheon_A2_wagon_T4_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T4_r;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T4_r; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T4_r;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T4_r;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T4_r;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T4_r;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T4_r;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T4_r;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T4_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_5_r, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T5_r;
-    2: set_SRT_wagon_T5_r;
-    3: set_SRT_2cc_wagon_T5_r;
-    4: set_KTX_Sancheon_B1_wagon_T5_r;
-    5: set_KTX_Sancheon_B2_wagon_T5_r;
-    set_KTX_Sancheon_A1_wagon_T5_r;
+    1: set_KTX_Sancheon_A2_wagon_T5_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T5_r;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T5_r; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T5_r;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T5_r;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T5_r;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T5_r;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T5_r;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T5_r;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T5_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_6_r, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T5_r;
-    2: set_SRT_wagon_T5_r;
-    3: set_SRT_2cc_wagon_T5_r;
-    4: set_KTX_Sancheon_B1_wagon_T5_r;
-    5: set_KTX_Sancheon_B2_wagon_T5_r;
-    set_KTX_Sancheon_A1_wagon_T5_r;
+    1: set_KTX_Sancheon_A2_wagon_T5_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T5_r;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T5_r; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T5_r;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T5_r;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T5_r;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T5_r;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T5_r;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T5_r;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T5_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_7_r, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T6_r;
-    2: set_SRT_wagon_T4_r;
-    3: set_SRT_2cc_wagon_T4_r;
-    4: set_KTX_Sancheon_B1_wagon_T4_r;
-    5: set_KTX_Sancheon_B2_wagon_T4_r;
-    set_KTX_Sancheon_A1_wagon_T6_r;
+    1: set_KTX_Sancheon_A2_wagon_T6_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T4_r;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T4_r; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T4_r;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T4_r;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T4_r;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T4_r;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T4_r;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T4_r;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T6_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_wagon_8_r, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_wagon_T7_r;
-    2: set_SRT_wagon_T6_r;
-    3: set_SRT_2cc_wagon_T6_r;
-    4: set_KTX_Sancheon_B1_wagon_T6_r;
-    5: set_KTX_Sancheon_B2_wagon_T6_r;
-    set_KTX_Sancheon_A1_wagon_T7_r;
+    1: set_KTX_Sancheon_A2_wagon_T7_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_wagon_T6_r;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_wagon_T6_r; // KTX-경강 흰색도색
+    4: set_SRT_wagon_T6_r;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_wagon_T6_r;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_wagon_T6_r;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_wagon_T6_r;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_wagon_T6_r;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_wagon_T6_r;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_wagon_T7_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_engineT_r, cargo_subtype) {
-    1: set_KTX_Sancheon_A2_engineT_r;
-    2: set_SRT_engineT_r;
-    3: set_SRT_2cc_engineT_r;
-    4: set_KTX_Sancheon_B1_engineT_r;
-    5: set_KTX_Sancheon_B2_engineT_r;
-    set_KTX_Sancheon_A1_engineT_r;
+    1: set_KTX_Sancheon_A2_engineT_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_Gyeonggang_Blue_engineT_r;  // KTX-경강 파랑도색
+    3: set_KTX_Gyeonggang_White_engineT_r; // KTX-경강 흰색도색
+    4: set_SRT_engineT_r;                  // KTX-산천 120000호대 시안 1안
+    5: set_KTX_Honam_Sky_blue_engineT_r;   // KTX-산천 120000호대 시안 2안
+    6: set_KTX_Honam_Yellow_engineT_r;     // KTX-산천 120000호대 시안 3안
+    7: set_SRT_2cc_engineT_r;              // SRT 2cc
+    8: set_KTX_Sancheon_B1_engineT_r;      // KTX-산천 B타입
+    9: set_KTX_Sancheon_B2_engineT_r;      // KTX-산천 B타입 평창올림픽
+    set_KTX_Sancheon_A1_engineT_r;         // KTX-산천 A타입 초기분
 }
 
 // 20량 중련

@@ -36,10 +36,10 @@
 |2017|GTX_8Car|
 |2018|ITX_Chowol_8Car|
 |2019|TTX_6Car|
-|2020|KTX_Eum_Virtual_6Car|
-|2021|KTX_Eum_DD_6Car|
-|2022|KTX_Cheong_Ryong_Virtual_8Car|
-|2023|KTX_Cheong_Ryong_DD_8Car|
+|2020|V_KTX_Eum_6Car|
+|2021|V_KTX_Eum_DD_6Car|
+|2022|V_KTX_Cheong_Ryong_8Car|
+|2023|V_KTX_Cheong_Ryong_DD_8Car|
 |2024|KTX_Sancheon_10Car|
 |2025|KTX_Sancheon_DD_10Car|
 |2026|CTX_F_10Car|
@@ -322,7 +322,7 @@
 |2303|Seoulmetro_5th_7000_8Car|
 |2304|[그룹명] Shinkansen_E5_H5|
 |2305|Shinkansen_E5_H5_E6_17Car|
-|2306|KTX_Cheong_Ryong_Virtual|
+|2306|V_KTX_Cheong_Ryong|
 |2307|PEX_Super_Post_Car|
 |2308|Seoulmetro_1st_8000_6Car|
 |2309|Seoulmetro_1st_7000_8Car|
@@ -422,7 +422,7 @@
 |2403|ITX_Maum_4_4Car|
 |2404|Seoulmetro_6th_7000_8Car|
 |2405|Rail_Cruise_Haerang|
-|2406|KTX_Chowol_8Car|
+|2406|V_KTX_Chowol_8Car|
 |2407|Busan_Gimhae_LRT_2Car|
 |2408|Incheonmetro_2000_2Car|
 |2409|Ui_Sinseol_2Car|
@@ -524,9 +524,9 @@
 |2505|DTX_Sundeok_16Car|
 |2506|DTX_Sundeok_20Car|
 |2507|[사용불가]|
-|2508|KTX_Onnuri|
-|2509|KTX_Onnuri_8Car|
-|2510|KTX_Onnuri_10Car|
+|2508|[그룹명] V_KTX_Onnuri|
+|2509|V_KTX_Onnuri_8Car|
+|2510|V_KTX_Onnuri_10Car|
 |2511|[그룹명] KTX_Logo|
 |2512|[그룹명] ITX_Logo|
 |2513|[그룹명] Nuriro_Logo|
@@ -544,8 +544,8 @@
 |2525|Luggage_Olny|
 |2526|DTX_Sobaek_4Car|
 |2527|DTX_Sobaek_6Car|
-|2528|KTX_Cheong_Ryong_Virtual_16Car|
-|2529|KTX_Onnuri_16Car|
+|2528|V_KTX_Cheong_Ryong_16Car|
+|2529|V_KTX_Onnuri_16Car|
 |2530|Korail_6th|
 |2531|Korail_6th_4Car|
 |2532|Korail_6th_6Car|
@@ -562,7 +562,8 @@
 |2543|Yangsan_AGT_2Car|
 |2544|[그룹명] Eurostar_E300|
 |2545|Eurostar_E300_16Car|
-|2546~2999|공백|
+|2546|[그룹명] [가상] KTX_Logo|
+|2547~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|
