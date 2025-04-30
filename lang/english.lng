@@ -14,6 +14,7 @@ STR_Group_DTX_Logo_NAME                                :DTX
 STR_Group_KTX_Logo_NAME                                :KTX
 STR_Group_V_KTX_Logo_NAME                              :{GREEN}[Virtual] {BLACK}KTX
 STR_Group_ITX_Logo_NAME                                :ITX
+STR_Group_V_ITX_Logo_NAME                              :{GREEN}[Virtual] {BLACK}ITX
 STR_Group_Nuriro_Logo_NAME                             :Nuriro
 STR_Group_AREX_Logo_NAME                               :AREX
 STR_Group_Busanmetro_NAME                              :Busan Metro
@@ -85,31 +86,14 @@ STR_HEMU_430X_8Car_NAME                                :[8Car] HEMU-430X
 STR_Group_HSR_350X_NAME                                :HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[7Car] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[14Car] HSR-350X
-STR_Group_ITX_CheongChan_NAME                          :ITX-CheongChan
-STR_ITX_CheongChan_6Car_NAME                           :[6Car] ITX-CheongChan
-STR_ITX_CheongChan_8Car_NAME                           :[8Car] ITX-CheongChan
-STR_Group_ITX_CheongChun_NAME                          :ITX-CheongChun
-STR_ITX_CheongChun_6Car_NAME                           :[6Car] ITX-CheongChun
 STR_ITX_CheongChun_8Car_NAME                           :[8Car] ITX-CheongChun
-STR_ITX_CheongChun_10Car_NAME                          :[10Car] ITX-CheongChun
-STR_ITX_Chowol_8Car_NAME                               :[8Car] ITX-CheongChun DD
 STR_Group_ITX_Maum_NAME                                :ITX-Maum
 STR_ITX_Maum_4Car_NAME                                 :[4Car] ITX-Maum
 STR_ITX_Maum_6Car_NAME                                 :[6Car] ITX-Maum
-STR_ITX_Maum_8Car_NAME                                 :[8Car] ITX-Maum
-STR_ITX_Maum_10Car_NAME                                :[8Car] ITX-Maum
 STR_ITX_Maum_4_4Car_NAME                               :[4+4Car] ITX-Maum
 STR_ITX_Maum_4_6Car_NAME                               :[4+6Car] ITX-Maum
 STR_ITX_Maum_6_4Car_NAME                               :[6+8Car] ITX-Maum
-STR_Group_ITX_Maum_DD_NAME                             :ITX-Maum DD
-STR_ITX_Maum_DD_4Car_NAME                              :[4Car] ITX-Maum DD
-STR_ITX_Maum_DD_6Car_NAME                              :[6Car] ITX-Maum DD
-STR_Group_ITX_Saemaeul_NAME                            :ITX-Saemaeul
 STR_ITX_Saemaeul_6Car_NAME                             :[6Car] ITX-Saemaeul
-STR_ITX_Saemaeul_8Car_NAME                             :[8Car] ITX-Saemaeul
-STR_Group_ITX_Saemaeul_DD_NAME                         :ITX-Saemaeul DD
-STR_ITX_Saemaeul_DD_6Car_NAME                          :[6Car] ITX-Saemaeul DD
-STR_ITX_Saemaeul_DD_8Car_NAME                          :[8Car] ITX-Saemaeul DD
 STR_KTX_1_20Car_NAME                                   :[20Car] TGV-K
 STR_Group_KTX_Cheong_Ryong_NAME                        :KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_8Car_NAME                         :[8Car] KTX-Cheong Ryong
@@ -120,12 +104,6 @@ STR_KTX_Eum_12Car_NAME                                 :[12Car] KTX-EUM
 STR_Group_KTX_Sancheon_NAME                            :KTX-Sancheon
 STR_KTX_Sancheon_10Car_NAME                            :[10Car] KTX-Sancheon, SRT
 STR_KTX_Sancheon_20Car_NAME                            :[20Car] KTX-Sancheon
-STR_KTX_Sancheon_DD_10Car_NAME                         :[10Car] KTX-Sancheon DD
-STR_Group_KTX_Taegeuk_NAME                             :KTX Taegeuk
-STR_KTX_Taegeuk_8Car_NAME                              :[8Car] KTX Taegeuk
-STR_KTX_Taegeuk_10Car_NAME                             :[10Car] KTX Taegeuk
-STR_KTX_Taegeuk_16Car_NAME                             :[16Car] KTX Taegeuk
-STR_KTX_Taegeuk_20Car_NAME                             :[20Car] KTX Taegeuk
 STR_MSB_Speeder_NAME                                   :MSB Speeder
 STR_NEL_8100_NAME                                      :NEL 8100
 STR_NEL_8200_NAME                                      :NEL 8200
@@ -138,6 +116,25 @@ STR_Group_RDC_NAME                                     :RDC Diesel
 STR_RDC_3Car_NAME                                      :[3Car] RDC Diesel
 STR_RDC_4Car_NAME                                      :[4Car] RDC Diesel
 STR_TTX_6Car_NAME                                      :[6Car] TTX
+STR_Group_V_ITX_CheongChan_NAME                        :ITX-CheongChan
+STR_V_ITX_CheongChan_6Car_NAME                         :[6Car] ITX-CheongChan
+STR_V_ITX_CheongChan_8Car_NAME                         :[8Car] ITX-CheongChan
+STR_Group_V_ITX_CheongChun_NAME                        :ITX-CheongChun
+STR_V_ITX_CheongChun_6Car_NAME                         :[6Car] ITX-CheongChun
+STR_V_ITX_CheongChun_10Car_NAME                        :[10Car] ITX-CheongChun
+STR_V_ITX_Chowol_8Car_NAME                             :[8Car] ITX-CheongChun DD
+STR_Group_V_ITX_Maum_NAME                              :{GREEN}[Virtual] {BLACK}ITX-Maum
+STR_V_ITX_Maum_8Car_NAME                               :[8Car] ITX-Maum
+STR_V_ITX_Maum_10Car_NAME                              :[10Car] ITX-Maum
+STR_Group_V_ITX_Maum_DD_NAME                           :ITX-Maum DD
+STR_V_ITX_Maum_DD_4Car_NAME                            :[4Car] ITX-Maum DD
+STR_V_ITX_Maum_DD_6Car_NAME                            :[6Car] ITX-Maum DD
+STR_V_ITX_Maum_DD_8Car_NAME                            :[6Car] ITX-Maum DD
+STR_V_ITX_Maum_DD_10Car_NAME                           :[6Car] ITX-Maum DD
+STR_V_ITX_Saemaeul_8Car_NAME                           :[8Car] ITX-Saemaeul
+STR_Group_V_ITX_Saemaeul_DD_NAME                       :ITX-Saemaeul DD
+STR_V_ITX_Saemaeul_DD_6Car_NAME                        :[6Car] ITX-Saemaeul DD
+STR_V_ITX_Saemaeul_DD_8Car_NAME                        :[8Car] ITX-Saemaeul DD
 STR_Group_V_KTX_Cheong_Ryong_NAME                      :[Virtual] KTX-Cheong Ryong
 STR_V_KTX_Cheong_Ryong_8Car_NAME                       :[8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
 STR_V_KTX_Cheong_Ryong_16Car_NAME                      :[16Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
@@ -149,6 +146,13 @@ STR_Group_V_KTX_Onnuri_NAME                            :KTX-Onnuri
 STR_V_KTX_Onnuri_8Car_NAME                             :[8Car] KTX-Onnuri
 STR_V_KTX_Onnuri_10Car_NAME                            :[10Car] KTX-Onnuri
 STR_V_KTX_Onnuri_16Car_NAME                            :[16Car] KTX-Onnuri
+STR_V_KTX_Sancheon_10Car_NAME                          :[10Car]{GREEN}[Virtual] {BLACK} KTX-Sancheon
+STR_V_KTX_Sancheon_DD_10Car_NAME                       :[10Car] KTX-Sancheon DD
+STR_Group_V_KTX_Taegeuk_NAME                           :KTX Taegeuk
+STR_V_KTX_Taegeuk_8Car_NAME                            :[8Car] KTX Taegeuk
+STR_V_KTX_Taegeuk_10Car_NAME                           :[10Car] KTX Taegeuk
+STR_V_KTX_Taegeuk_16Car_NAME                           :[16Car] KTX Taegeuk
+STR_V_KTX_Taegeuk_20Car_NAME                           :[20Car] KTX Taegeuk
 STR_Group_VHST_600X_NAME                               :VHST-600X
 STR_VHST_600X_8Car_NAME                                :[8Car] VHST-600X
 STR_VHST_600X_16Car_NAME                               :[16Car] VHST-600X
@@ -785,30 +789,26 @@ STR_REFIT_LIVERY_KTX_Cheong_Ryong                      : KTX-Cheong Ryong
 STR_REFIT_LIVERY_KTX_Eum                               : KTX-Eum
 STR_REFIT_LIVERY_KTX_Sancheon_A1                       : KTX-Sancheon Atype 1
 STR_REFIT_LIVERY_KTX_Sancheon_A2                       : KTX-Sancheon Atype 2
-STR_REFIT_LIVERY_KTX_Sancheon_B1                       : KTX-Sancheon Btype 1
-STR_REFIT_LIVERY_KTX_Sancheon_B2                       : KTX-Sancheon Btype 2
-STR_REFIT_LIVERY_SRT                                   : KTX-Sancheon 120000 1
-STR_REFIT_LIVERY_KTX_Honam_Sky_blue                    : KTX-Sancheon 120000 2
-STR_REFIT_LIVERY_KTX_Honam_Yellow                      : KTX-Sancheon 120000 3
+STR_REFIT_LIVERY_KTX_Sancheon_B                        : KTX-Sancheon Btype 1
+STR_REFIT_LIVERY_KTX_Sancheon_BP                       : KTX-Sancheon Btype 2
+STR_REFIT_LIVERY_SRT                                   : SRT
 STR_REFIT_LIVERY_SRT_2cc                               : SRT 2cc
-STR_REFIT_LIVERY_KTX_Gyeonggang_Blue                   : KTX-Gyeonggang Blue Livery
-STR_REFIT_LIVERY_KTX_Gyeonggang_White                  : KTX-Gyeonggang White Livery
 STR_REFIT_LIVERY_KTX_Sancheon_A1A2                     : KTX-Sancheon A1+A2
 STR_REFIT_LIVERY_KTX_Sancheon_A1SRT                    : KTX-Sancheon A1+SRT
-STR_REFIT_LIVERY_KTX_Sancheon_A1B1                     : KTX-Sancheon A1+B1
-STR_REFIT_LIVERY_KTX_Sancheon_A1B2                     : KTX-Sancheon A1+B2
+STR_REFIT_LIVERY_KTX_Sancheon_A1B                      : KTX-Sancheon A1+B1
+STR_REFIT_LIVERY_KTX_Sancheon_A1BP                     : KTX-Sancheon A1+B2
 STR_REFIT_LIVERY_KTX_Sancheon_A2A1                     : KTX-Sancheon A2+A1
 STR_REFIT_LIVERY_KTX_Sancheon_A2SRT                    : KTX-Sancheon A2+SRT
-STR_REFIT_LIVERY_KTX_Sancheon_A2B1                     : KTX-Sancheon A2+B1
-STR_REFIT_LIVERY_KTX_Sancheon_A2B2                     : KTX-Sancheon A2+B2
-STR_REFIT_LIVERY_KTX_Sancheon_B1A1                     : KTX-Sancheon B1+A1
-STR_REFIT_LIVERY_KTX_Sancheon_B1A2                     : KTX-Sancheon B1+A2
-STR_REFIT_LIVERY_KTX_Sancheon_B1SRT                    : KTX-Sancheon B1+SRT
-STR_REFIT_LIVERY_KTX_Sancheon_B2A1                     : KTX-Sancheon B2+A1
-STR_REFIT_LIVERY_KTX_Sancheon_B2A2                     : KTX-Sancheon B2+A2
+STR_REFIT_LIVERY_KTX_Sancheon_A2B                      : KTX-Sancheon A2+B1
+STR_REFIT_LIVERY_KTX_Sancheon_A2BP                     : KTX-Sancheon A2+B2
+STR_REFIT_LIVERY_KTX_Sancheon_BA1                      : KTX-Sancheon B1+A1
+STR_REFIT_LIVERY_KTX_Sancheon_BA2                      : KTX-Sancheon B1+A2
+STR_REFIT_LIVERY_KTX_Sancheon_BSRT                     : KTX-Sancheon B1+SRT
+STR_REFIT_LIVERY_KTX_Sancheon_BPA1                     : KTX-Sancheon B2+A1
+STR_REFIT_LIVERY_KTX_Sancheon_BPA2                     : KTX-Sancheon B2+A2
 STR_REFIT_LIVERY_KTX_Sancheon_SRTA1                    : SRT+KTX-Sancheon A1
 STR_REFIT_LIVERY_KTX_Sancheon_SRTA2                    : SRT+KTX-Sancheon A2
-STR_REFIT_LIVERY_KTX_Sancheon_SRTB1                    : SRT+KTX-Sancheon B1
+STR_REFIT_LIVERY_KTX_Sancheon_SRTB                     : SRT+KTX-Sancheon B1
 STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_CC                 : Company Colour
 STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_BK                 : Black Livery
 STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_A              : SRT_A
@@ -829,6 +829,10 @@ STR_REFIT_LIVERY_V_KTX_Eum_MD                          : KTX-Eum Prototype Liver
 STR_REFIT_LIVERY_V_KTX_Eum_SM1                         : KTX-Eum Saemaeul First Livery
 STR_REFIT_LIVERY_V_KTX_Eum_SM2                         : KTX-Eum Saemaeul Second Livery
 STR_REFIT_LIVERY_V_KTX_Eum_SM3                         : KTX-Eum Saemaeul Third Livery
+STR_REFIT_LIVERY_V_KTX_Honam_Sky_blue                  : KTX-Sancheon 120000 1
+STR_REFIT_LIVERY_V_KTX_Honam_Yellow                    : KTX-Sancheon 120000 2
+STR_REFIT_LIVERY_V_KTX_Gyeonggang_Blue                 : KTX-Gyeonggang Blue Livery
+STR_REFIT_LIVERY_V_KTX_Gyeonggang_White                : KTX-Gyeonggang White Livery
 STR_REFIT_LIVERY_MEL_150_1F                            : 1F
 STR_REFIT_LIVERY_MEL_150_2F                            : 2F
 STR_REFIT_LIVERY_NEL_8100_A                            : NEL 8100 A

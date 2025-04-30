@@ -166,7 +166,7 @@ spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP
     DTS_temp(80, 189)
 }
 
-spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M4_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/V_KTX/KTX_CheongV_KTX_Cheong_Ryong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png") {
+spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M4_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png") {
     DTS_temp(80, 216)
 }
 
@@ -181,7 +181,7 @@ spriteset(set_V_KTX_Cheong_Ryong_DD_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_V_KTX_Cheong_Ryong_DD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/KTX_Cheong_RyoV_KTX_Cheong_Ryong_DDng_DD.png", "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png"){
+spriteset(set_V_KTX_Cheong_Ryong_DD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png"){
     tmpl_purchase(0, 0)
 }
 

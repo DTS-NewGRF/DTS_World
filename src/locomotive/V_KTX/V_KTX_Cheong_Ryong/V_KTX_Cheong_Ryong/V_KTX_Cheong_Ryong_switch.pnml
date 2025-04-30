@@ -167,7 +167,7 @@ switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M2_3Car_r, cargo_subtype) 
     10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_1_r;
      4: set_V_KTX_Cheong_Ryong_DB_wagon_M2_r;
      5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2_r;
-     6: set_KTX_Cheong_Ryong_THSR_wagon_M2_r;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2_r;
      7: set_V_KTX_Cheong_Ryong_JR_wagon_M2_r;
     set_V_KTX_Cheong_Ryong_CC_wagon_M2_r;
 }
@@ -181,7 +181,7 @@ switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M2_5Car_r, cargo_subtype) 
     10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_1_r;
      4: set_V_KTX_Cheong_Ryong_DB_wagon_M2_r;
      5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2_r;
-     6: set_KTX_Cheong_Ryong_THSR_wagon_M2_r;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2_r;
      7: set_V_KTX_Cheong_Ryong_JR_wagon_M2_r;
     set_V_KTX_Cheong_Ryong_CC_wagon_M2_r;
 }
@@ -195,7 +195,7 @@ switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M2_6Car_r, cargo_subtype) 
     10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_2_r;
      4: set_V_KTX_Cheong_Ryong_DB_wagon_M2_r;
      5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2_r;
-     6: set_KTX_Cheong_Ryong_THSR_wagon_M2_r;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2_r;
      7: set_V_KTX_Cheong_Ryong_JR_wagon_M2_r;
     set_V_KTX_Cheong_Ryong_CC_wagon_M2_r;
 }

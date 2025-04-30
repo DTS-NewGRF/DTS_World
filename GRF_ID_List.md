@@ -27,21 +27,21 @@
 |2008|H2_WJ_2Car|
 |2009|APEX_2000_4th_6Car|
 |2010|ITX_Maum_6Car|
-|2011|ITX_Maum_DD_6Car|
+|2011|V_ITX_Maum_DD_6Car|
 |2012|Nuriro_DD_4Car|
-|2013|ITX_Saemaeul_DD_6Car|
+|2013|V_ITX_Saemaeul_DD_6Car|
 |2014|GT26CW|
 |2015|DEL7600|
 |2016|FEL_8500|
 |2017|GTX_8Car|
-|2018|ITX_Chowol_8Car|
+|2018|V_ITX_Chowol_8Car|
 |2019|TTX_6Car|
 |2020|V_KTX_Eum_6Car|
 |2021|V_KTX_Eum_DD_6Car|
 |2022|V_KTX_Cheong_Ryong_8Car|
 |2023|V_KTX_Cheong_Ryong_DD_8Car|
 |2024|KTX_Sancheon_10Car|
-|2025|KTX_Sancheon_DD_10Car|
+|2025|V_KTX_Sancheon_DD_10Car|
 |2026|CTX_F_10Car|
 |2027|HSR_350X_7Car|
 |2028|HEMU_430X_6Car|
@@ -147,7 +147,7 @@
 |2128|E8600_1Car|
 |2129|FLAT_1F|
 |2130|FLAT_TANK|
-|2131|ITX_Maum_8Car|
+|2131|V_ITX_Maum_8Car|
 |2132|Saemaeul_2cc|
 |2133|Glory_600_8Car|
 |2134|DTX_Taebaek_8Car|
@@ -247,14 +247,14 @@
 |2228|Korail_1st_4car|
 |2229|KTX_Cheong_Ryong_8Car|
 |2230|Korail_1st_6car|
-|2231|[그룹명] ITX_Saemaeul_DD|
+|2231|[그룹명] V_ITX_Saemaeul_DD|
 |2232|Korail_1st_10car|
-|2233|ITX_Saemaeul_DD_8Car|
+|2233|V_ITX_Saemaeul_DD_8Car|
 |2234|[그룹명] Korail_2nd|
 |2235|Korail_2nd_6car|
 |2236|MEL_150_6Car|
 |2237|Korail_2nd_10car|
-|2238|ITX_Maum_10Car|
+|2238|V_ITX_Maum_10Car|
 |2239|Korail_5th_10Car|
 |2240|[그룹명] Korail|
 |2241|Shinbundang_6Car|
@@ -278,7 +278,7 @@
 |2259|ITX_Maum_6_4Car|
 |2260|[그룹명] Seoulmetro_2nd|
 |2261|Seoulmetro_2nd_10Car|
-|2262|[그룹명] ITX_Maum_DD|
+|2262|[그룹명] V_ITX_Maum_DD|
 |2263|Hankyu_1000_8Car|
 |2264|Hankyu_1300_8Car|
 |2265|[그룹명] Rheostatic_S2000|
@@ -327,7 +327,7 @@
 |2308|Seoulmetro_1st_8000_6Car|
 |2309|Seoulmetro_1st_7000_8Car|
 |2310|Seoulmetro_1st_6000_8Car|
-|2311|ITX_Maum_DD_4Car|
+|2311|V_ITX_Maum_DD_4Car|
 |2312|Seoulmetro_2nd_8000_6Car|
 |2313|Seoulmetro_2nd_7000_8Car|
 |2314|Seoulmetro_3rd_7000_8Car|
@@ -339,12 +339,12 @@
 |2320|HYEL_Constrck|
 |2321|Glory_430_10Car|
 |2322|KTX_1_20Car|
-|2323|[그룹명] Nuriro|
+|2323|[공백]|
 |2324|Nuriro_4Car|
 |2325|Nuriro_8Car|
-|2326|[그룹명] ITX_Saemaeul|
+|2326|[공백]|
 |2327|ITX_Saemaeul_6Car|
-|2328|ITX_Saemaeul_8Car|
+|2328|V_ITX_Saemaeul_8Car|
 |2329|[2차 그룹명] Eco_Rail|
 |2330|Eco_Rail_Passenger_5Car|
 |2331|[2차 그룹명] S_Train|
@@ -369,9 +369,9 @@
 |2350|RDC_4Car|
 |2351|DPX_14Car|
 |2352|[그룹명] ITX_CheongChun|
-|2353|ITX_CheongChun_6Car|
+|2353|V_ITX_CheongChun_6Car|
 |2354|ITX_CheongChun_8Car|
-|2355|ITX_CheongChun_10Car|
+|2355|V_ITX_CheongChun_10Car|
 |2356|[그룹명] DHC_PP|
 |2357|DHC_PP_4Car|
 |2358|DHC_PP_5Car|
@@ -494,11 +494,11 @@
 |2475|Group_Post_Car|
 |2476|Post_Car|
 |2477|Express_Post_Car|
-|2478|KTX_Taegeuk|
-|2479|KTX_Taegeuk_8Car|
-|2480|KTX_Taegeuk_10Car|
-|2481|KTX_Taegeuk_16Car|
-|2482|KTX_Taegeuk_20Car|
+|2478|V_KTX_Taegeuk|
+|2479|V_KTX_Taegeuk_8Car|
+|2480|V_KTX_Taegeuk_10Car|
+|2481|V_KTX_Taegeuk_16Car|
+|2482|V_KTX_Taegeuk_20Car|
 |2483|HYEL_300|
 |2484|HYEL_300_10Car|
 |2485|DTX_Koryo|
@@ -507,8 +507,8 @@
 |2488|DTX_Koryo_16Car|
 |2489|DTX_Koryo_20Car|
 |2490|ITX_CheongChan|
-|2491|ITX_CheongChan_6Car|
-|2492|ITX_CheongChan_8Car|
+|2491|V_ITX_CheongChan_6Car|
+|2492|V_ITX_CheongChan_8Car|
 |2493|DTX_Sejong|
 |2494|DTX_Sejong_10Car|
 |2495|DTX_Sejong_20Car|
@@ -562,8 +562,15 @@
 |2543|Yangsan_AGT_2Car|
 |2544|[그룹명] Eurostar_E300|
 |2545|Eurostar_E300_16Car|
-|2546|[그룹명] [가상] KTX_Logo|
-|2547~2999|공백|
+|2546|[그룹명] [가상] V_KTX_Logo|
+|2547|V_KTX_Sancheon_10Car|
+|2548|[그룹명] [가상] V_ITX_Logo|
+|2549|[그룹명] [가상] V_ITX_Maum|
+|2550|V_ITX_Maum_DD_8Car|
+|2551|V_ITX_Maum_DD_10Car|
+|2323|[공백]|
+|2326|[공백]|
+|2552~2999|[공백]|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

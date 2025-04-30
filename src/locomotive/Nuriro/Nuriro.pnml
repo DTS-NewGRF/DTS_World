@@ -26,4 +26,3 @@ item(FEAT_TRAINS, Nuriro_Logo, 2513){
 열차 리스트
 --------------------------------------------------------------------*/
 #include "Nuriro/Nuriro.pnml"
-#include "Nuriro_DD/Nuriro_DD.pnml"

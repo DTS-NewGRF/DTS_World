@@ -126,7 +126,7 @@ spriteset(set_V_KTX_Eum_MD_engineT_r, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/
     DTS_temp(80, 189)
 }
 
-spriteset(set_V_KTX_Eum_MD_engineT, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/KTX_EV_KTX_Eum_MDum_MD.png"){
+spriteset(set_V_KTX_Eum_MD_engineT, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_MD.png"){
     DTS_temp(80, 216)
 }
 
@@ -137,19 +137,19 @@ spriteset(set_V_KTX_Eum_SM1_engineH, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/V
     DTS_temp(80, 0)
 }
 
-spriteset(set_V_KTX_Eum_SM1_engineH_r, "src/locomotive/V_KTX/V_KTX_EumV_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
+spriteset(set_V_KTX_Eum_SM1_engineH_r, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
     DTS_temp(80, 27)
 }
 
-spriteset(set_V_KTX_Eum_SM1_wagon_M1, "src/locomotive/V_KTX/V_KTX_EumV_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
+spriteset(set_V_KTX_Eum_SM1_wagon_M1, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_V_KTX_Eum_SM1_wagon_M1_r, "src/locomotive/V_KTX/V_KTX_EumV_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
+spriteset(set_V_KTX_Eum_SM1_wagon_M1_r, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
     DTS_temp(80, 81)
 }
 
-spriteset(set_V_KTX_Eum_SM1_wagon_M2, "src/locomotive/V_KTX/V_KTX_EumV_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png") {
+spriteset(set_V_KTX_Eum_SM1_wagon_M2, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png") {
     DTS_temp(80, 108)
 }
 
@@ -263,7 +263,7 @@ spriteset(set_V_KTX_Eum_SM3_engineT, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/V
 구매정보
 --------------------------------------------------------------------*/
 // 구매차량 그래픽
-spriteset(set_V_KTX_Eum_purchase, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/KTX_Eum_W.png"){
+spriteset(set_V_KTX_Eum_purchase, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png"){
     tmpl_purchase(0, 0)
 }
 

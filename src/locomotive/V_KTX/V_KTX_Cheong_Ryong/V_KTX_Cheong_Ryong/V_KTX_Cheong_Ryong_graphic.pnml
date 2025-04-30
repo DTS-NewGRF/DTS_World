@@ -208,7 +208,7 @@ spriteset(set_V_KTX_Cheong_Ryong_SRT_B_engineT, "src/locomotive/V_KTX/V_KTX_Cheo
 /*--------------------------------------------------------------------
 V_KTX_Cheong_Ryong_SRT_C
 --------------------------------------------------------------------*/
-spriteset(set_V_KTX_Cheong_Ryong_SRT_C_engineH, "src/locomotive/V_KTX/KTX_CheoV_KTX_Cheong_Ryongng_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_C.png"){
+spriteset(set_V_KTX_Cheong_Ryong_SRT_C_engineH, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_C.png"){
     DTS_temp(80, 0)
 }
 

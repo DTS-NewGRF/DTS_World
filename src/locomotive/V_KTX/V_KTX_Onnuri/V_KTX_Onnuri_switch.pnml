@@ -124,17 +124,17 @@ switch(FEAT_TRAINS, PARENT, sw_V_KTX_Onnuri_16car_reversed, vehicle_is_reversed)
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_V_KTX_Onnuri_8car, extra_callback_info1) {
-    1..7: KTX_Onnuri_8Car;
+    1..7: V_KTX_Onnuri_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_V_KTX_Onnuri_10car, extra_callback_info1) {
-    1..9: KTX_Onnuri_10Car;
+    1..9: V_KTX_Onnuri_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_V_KTX_Onnuri_16car, extra_callback_info1) {
-    1..15: KTX_Onnuri_16Car;
+    1..15: V_KTX_Onnuri_16Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 

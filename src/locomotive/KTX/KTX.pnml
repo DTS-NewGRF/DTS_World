@@ -29,4 +29,3 @@ item(FEAT_TRAINS, KTX_Logo, 2511){
 #include "KTX_Cheong_Ryong/KTX_Cheong_Ryong.pnml"
 #include "KTX_Eum/KTX_Eum.pnml"
 #include "KTX_Sancheon/KTX_Sancheon.pnml"
-#include "KTX_Taegeuk/KTX_Taegeuk.pnml"

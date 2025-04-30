@@ -2,7 +2,7 @@
 가상 KTX
 --------------------------------------------------------------------*/
 // Graphics
-#include "KTX_graphic.pnml"
+#include "V_KTX_graphic.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
@@ -29,5 +29,5 @@ item(FEAT_TRAINS, V_KTX_Logo, 2546){
 #include "V_KTX_Chowol/V_KTX_Chowol.pnml"
 #include "V_KTX_Eum/V_KTX_Eum.pnml"
 #include "V_KTX_Onnuri/V_KTX_Onnuri.pnml"
-#include "KTX_Sancheon/KTX_Sancheon.pnml"
-#include "KTX_Taegeuk/KTX_Taegeuk.pnml"
+#include "V_KTX_Sancheon/V_KTX_Sancheon.pnml"
+#include "V_KTX_Taegeuk/V_KTX_Taegeuk.pnml"

@@ -71,7 +71,7 @@ item(FEAT_TRAINS, V_KTX_Cheong_Ryong_8Car, 2022){
         }
         
     graphics {
-        default:                        sw_KTX_Cheong_Ryong_Virtual_8car_reversed;
+        default:                        sw_V_KTX_Cheong_Ryong_8car_reversed;
         articulated_part:               sw_articulated_V_KTX_Cheong_Ryong_8car;
         purchase:                       sw_V_KTX_Cheong_Ryong_purchase;
         speed:                          sw_V_KTX_Cheong_Ryong_speed;

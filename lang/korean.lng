@@ -14,6 +14,7 @@ STR_Group_DTX_Logo_NAME                                :DTX
 STR_Group_KTX_Logo_NAME                                :KTX
 STR_Group_V_KTX_Logo_NAME                              :{GREEN}[가상] {BLACK}KTX
 STR_Group_ITX_Logo_NAME                                :ITX
+STR_Group_V_ITX_Logo_NAME                              :{GREEN}[가상] {BLACK}ITX
 STR_Group_Nuriro_Logo_NAME                             :누리로
 STR_Group_AREX_Logo_NAME                               :AREX
 STR_Group_Busanmetro_NAME                              :부산교통공사 전동차
@@ -85,31 +86,14 @@ STR_HEMU_430X_8Car_NAME                                :[8량] HEMU-430X
 STR_Group_HSR_350X_NAME                                :HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[7량] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[14량] HSR-350X
-STR_Group_ITX_CheongChan_NAME                          :ITX-청천
-STR_ITX_CheongChan_6Car_NAME                           :[6량] ITX-청천
-STR_ITX_CheongChan_8Car_NAME                           :[8량] ITX-청천
-STR_Group_ITX_CheongChun_NAME                          :ITX-청춘
-STR_ITX_CheongChun_6Car_NAME                           :[6량] ITX-청춘
 STR_ITX_CheongChun_8Car_NAME                           :[8량] ITX-청춘
-STR_ITX_CheongChun_10Car_NAME                          :[10량] ITX-청춘
-STR_ITX_Chowol_8Car_NAME                               :[8량] ITX-청춘 DD
 STR_Group_ITX_Maum_NAME                                :ITX-마음
 STR_ITX_Maum_4Car_NAME                                 :[4량] ITX-마음
 STR_ITX_Maum_6Car_NAME                                 :[6량] ITX-마음
-STR_ITX_Maum_8Car_NAME                                 :[8량] ITX-마음
-STR_ITX_Maum_10Car_NAME                                :[10량] ITX-마음
 STR_ITX_Maum_4_4Car_NAME                               :[4+4량] ITX-마음
 STR_ITX_Maum_4_6Car_NAME                               :[4+6량] ITX-마음
 STR_ITX_Maum_6_4Car_NAME                               :[6+4량] ITX-마음
-STR_Group_ITX_Maum_DD_NAME                             :ITX-마음 DD
-STR_ITX_Maum_DD_4Car_NAME                              :[4량] ITX-마음 DD
-STR_ITX_Maum_DD_6Car_NAME                              :[6량] ITX-마음 DD
-STR_Group_ITX_Saemaeul_NAME                            :ITX-새마을
 STR_ITX_Saemaeul_6Car_NAME                             :[6량] ITX-새마을
-STR_ITX_Saemaeul_8Car_NAME                             :[8량] ITX-새마을
-STR_Group_ITX_Saemaeul_DD_NAME                         :ITX-새마을 DD
-STR_ITX_Saemaeul_DD_6Car_NAME                          :[6량] ITX-새마을 DD
-STR_ITX_Saemaeul_DD_8Car_NAME                          :[8량] ITX-새마을 DD
 STR_KTX_1_20Car_NAME                                   :[20량] KTX-1
 STR_Group_KTX_Cheong_Ryong_NAME                        :KTX-청룡
 STR_KTX_Cheong_Ryong_8Car_NAME                         :[8량] KTX-청룡
@@ -120,12 +104,6 @@ STR_KTX_Eum_12Car_NAME                                 :[12량] KTX-이음
 STR_Group_KTX_Sancheon_NAME                            :KTX-산천
 STR_KTX_Sancheon_10Car_NAME                            :[10량] KTX-산천, SRT
 STR_KTX_Sancheon_20Car_NAME                            :[20량] KTX-산천 중련
-STR_KTX_Sancheon_DD_10Car_NAME                         :[10량] KTX-산천 DD
-STR_Group_KTX_Taegeuk_NAME                             :KTX-태극
-STR_KTX_Taegeuk_8Car_NAME                              :[8량] KTX-태극
-STR_KTX_Taegeuk_10Car_NAME                             :[10량] KTX-태극
-STR_KTX_Taegeuk_16Car_NAME                             :[16량] KTX-태극
-STR_KTX_Taegeuk_20Car_NAME                             :[20량] KTX-태극
 STR_MSB_Speeder_NAME                                   :MSB 모터카
 STR_NEL_8100_NAME                                      :8100호대 전기기관차
 STR_NEL_8200_NAME                                      :8200호대 전기기관차
@@ -138,6 +116,25 @@ STR_Group_RDC_NAME                                     :RDC 디젤동차
 STR_RDC_3Car_NAME                                      :[3량] RDC 디젤동차
 STR_RDC_4Car_NAME                                      :[4량] RDC 디젤동차
 STR_TTX_6Car_NAME                                      :[6량] TTX
+STR_Group_V_ITX_CheongChan_NAME                        :ITX-청천
+STR_V_ITX_CheongChan_6Car_NAME                         :[6량] ITX-청천
+STR_V_ITX_CheongChan_8Car_NAME                         :[8량] ITX-청천
+STR_Group_V_ITX_CheongChun_NAME                        :ITX-청춘
+STR_V_ITX_CheongChun_6Car_NAME                         :[6량] ITX-청춘
+STR_V_ITX_CheongChun_10Car_NAME                        :[10량] ITX-청춘
+STR_V_ITX_Chowol_8Car_NAME                             :[8량] ITX-청춘 DD
+STR_Group_V_ITX_Maum_NAME                              :{GREEN}[가상] {BLACK}ITX-마음
+STR_V_ITX_Maum_8Car_NAME                               :[8량] ITX-마음
+STR_V_ITX_Maum_10Car_NAME                              :[10량] ITX-마음
+STR_Group_V_ITX_Maum_DD_NAME                           :ITX-마음 DD
+STR_V_ITX_Maum_DD_4Car_NAME                            :[4량] ITX-마음 DD
+STR_V_ITX_Maum_DD_6Car_NAME                            :[6량] ITX-마음 DD
+STR_V_ITX_Maum_DD_8Car_NAME                            :[8량] ITX-마음 DD
+STR_V_ITX_Maum_DD_10Car_NAME                           :[10량] ITX-마음 DD
+STR_V_ITX_Saemaeul_8Car_NAME                           :[8량] ITX-새마을
+STR_Group_V_ITX_Saemaeul_DD_NAME                       :ITX-새마을 DD
+STR_V_ITX_Saemaeul_DD_6Car_NAME                        :[6량] ITX-새마을 DD
+STR_V_ITX_Saemaeul_DD_8Car_NAME                        :[8량] ITX-새마을 DD
 STR_Group_V_KTX_Cheong_Ryong_NAME                      :[가상] KTX-청룡
 STR_V_KTX_Cheong_Ryong_8Car_NAME                       :[8량]{GREEN}[가상] {BLACK}KTX-청룡
 STR_V_KTX_Cheong_Ryong_16Car_NAME                      :[16량]{GREEN}[가상] {BLACK}KTX-청룡
@@ -149,6 +146,13 @@ STR_Group_V_KTX_Onnuri_NAME                            :KTX-온누리
 STR_V_KTX_Onnuri_8Car_NAME                             :[8량] KTX-온누리
 STR_V_KTX_Onnuri_10Car_NAME                            :[10량] KTX-온누리
 STR_V_KTX_Onnuri_16Car_NAME                            :[16량] KTX-온누리
+STR_V_KTX_Sancheon_10Car_NAME                          :[10량]{GREEN}[가상] {BLACK} KTX-산천
+STR_V_KTX_Sancheon_DD_10Car_NAME                       :[10량] KTX-산천 DD
+STR_Group_V_KTX_Taegeuk_NAME                           :KTX-태극
+STR_V_KTX_Taegeuk_8Car_NAME                            :[8량] KTX-태극
+STR_V_KTX_Taegeuk_10Car_NAME                           :[10량] KTX-태극
+STR_V_KTX_Taegeuk_16Car_NAME                           :[16량] KTX-태극
+STR_V_KTX_Taegeuk_20Car_NAME                           :[20량] KTX-태극
 STR_Group_VHST_600X_NAME                               :VHST-600X
 STR_VHST_600X_8Car_NAME                                :[8량] VHST-600X
 STR_VHST_600X_16Car_NAME                               :[16량] VHST-600X
@@ -785,30 +789,26 @@ STR_REFIT_LIVERY_KTX_Cheong_Ryong                      : 청룡
 STR_REFIT_LIVERY_KTX_Eum                               : KTX-이음
 STR_REFIT_LIVERY_KTX_Sancheon_A1                       : KTX-산천 A타입 초도분
 STR_REFIT_LIVERY_KTX_Sancheon_A2                       : KTX-산천 A타입 후기분
-STR_REFIT_LIVERY_KTX_Sancheon_B1                       : KTX-산천 B타입
-STR_REFIT_LIVERY_KTX_Sancheon_B2                       : KTX-산천 B타입 2018 평창올림픽 도색
-STR_REFIT_LIVERY_SRT                                   : KTX-산천 120000호대 시안 1안
-STR_REFIT_LIVERY_KTX_Honam_Sky_blue                    : KTX-산천 120000호대 시안 2안
-STR_REFIT_LIVERY_KTX_Honam_Yellow                      : KTX-산천 120000호대 시안 3안
+STR_REFIT_LIVERY_KTX_Sancheon_B                        : KTX-산천 B타입
+STR_REFIT_LIVERY_KTX_Sancheon_BP                       : KTX-산천 B타입 2018 평창올림픽 도색
+STR_REFIT_LIVERY_SRT                                   : SRT
 STR_REFIT_LIVERY_SRT_2cc                               : SRT 2cc
-STR_REFIT_LIVERY_KTX_Gyeonggang_Blue                   : KTX-산천 경강선 시안 1안
-STR_REFIT_LIVERY_KTX_Gyeonggang_White                  : KTX-산천 경강선 컨셉
 STR_REFIT_LIVERY_KTX_Sancheon_A1A2                     : KTX-산천 A1+A2
 STR_REFIT_LIVERY_KTX_Sancheon_A1SRT                    : KTX-산천 A1+SRT
-STR_REFIT_LIVERY_KTX_Sancheon_A1B1                     : KTX-산천 A1+B1
-STR_REFIT_LIVERY_KTX_Sancheon_A1B2                     : KTX-산천 A1+B2
+STR_REFIT_LIVERY_KTX_Sancheon_A1B                      : KTX-산천 A1+B타입
+STR_REFIT_LIVERY_KTX_Sancheon_A1BP                     : KTX-산천 A1+평창도색
 STR_REFIT_LIVERY_KTX_Sancheon_A2A1                     : KTX-산천 A2+A1
 STR_REFIT_LIVERY_KTX_Sancheon_A2SRT                    : KTX-산천 A2+SRT
-STR_REFIT_LIVERY_KTX_Sancheon_A2B1                     : KTX-산천 A2+B1
-STR_REFIT_LIVERY_KTX_Sancheon_A2B2                     : KTX-산천 A2+B2
-STR_REFIT_LIVERY_KTX_Sancheon_B1A1                     : KTX-산천 B1+A1
-STR_REFIT_LIVERY_KTX_Sancheon_B1A2                     : KTX-산천 B1+A2
-STR_REFIT_LIVERY_KTX_Sancheon_B1SRT                    : KTX-산천 B1+SRT
-STR_REFIT_LIVERY_KTX_Sancheon_B2A1                     : KTX-산천 B2+A1
-STR_REFIT_LIVERY_KTX_Sancheon_B2A2                     : KTX-산천 B2+A2
+STR_REFIT_LIVERY_KTX_Sancheon_A2B                      : KTX-산천 A2+B타입
+STR_REFIT_LIVERY_KTX_Sancheon_A2BP                     : KTX-산천 A2+평창도색
+STR_REFIT_LIVERY_KTX_Sancheon_BA1                      : KTX-산천 B타입+A1
+STR_REFIT_LIVERY_KTX_Sancheon_BA2                      : KTX-산천 B타입+A2
+STR_REFIT_LIVERY_KTX_Sancheon_BSRT                     : KTX-산천 B타입+SRT
+STR_REFIT_LIVERY_KTX_Sancheon_BPA1                     : KTX-산천 평창도색+A1
+STR_REFIT_LIVERY_KTX_Sancheon_BPA2                     : KTX-산천 평창도색+A2
 STR_REFIT_LIVERY_KTX_Sancheon_SRTA1                    : SRT+KTX-산천 A1
 STR_REFIT_LIVERY_KTX_Sancheon_SRTA2                    : SRT+KTX-산천 A2
-STR_REFIT_LIVERY_KTX_Sancheon_SRTB1                    : SRT+KTX-산천 B1
+STR_REFIT_LIVERY_KTX_Sancheon_SRTB                     : SRT+KTX-산천 B타입
 STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_CC                 : 회사색상
 STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_BK                 : 시안
 STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_A              : SRT 시안
@@ -829,6 +829,10 @@ STR_REFIT_LIVERY_V_KTX_Eum_MD                          : KTX-이음 시안
 STR_REFIT_LIVERY_V_KTX_Eum_SM1                         : KTX-이음 새마을 초기 도색
 STR_REFIT_LIVERY_V_KTX_Eum_SM2                         : KTX-이음 새마을 중기 도색
 STR_REFIT_LIVERY_V_KTX_Eum_SM3                         : KTX-이음 새마을 후기 도색
+STR_REFIT_LIVERY_V_KTX_Honam_Sky_blue                  : KTX-산천 120000호대 시안 1안
+STR_REFIT_LIVERY_V_KTX_Honam_Yellow                    : KTX-산천 120000호대 시안 2안
+STR_REFIT_LIVERY_V_KTX_Gyeonggang_Blue                 : KTX-산천 경강선 시안 1안
+STR_REFIT_LIVERY_V_KTX_Gyeonggang_White                : KTX-산천 경강선 컨셉
 STR_REFIT_LIVERY_MEL_150_1F                            : 1층 편성
 STR_REFIT_LIVERY_MEL_150_2F                            : 2층 편성
 STR_REFIT_LIVERY_NEL_8100_A                            : 구도색

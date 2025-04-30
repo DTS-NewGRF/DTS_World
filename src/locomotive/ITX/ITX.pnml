@@ -25,8 +25,6 @@ item(FEAT_TRAINS, ITX_Logo, 2512){
 /*--------------------------------------------------------------------
 열차 리스트
 --------------------------------------------------------------------*/
-#include "ITX_CheongChan/ITX_CheongChan.pnml"
 #include "ITX_CheongChun/ITX_CheongChun.pnml"
-#include "ITX_Chowol/ITX_Chowol.pnml"
 #include "ITX_Maum/ITX_Maum.pnml"
 #include "ITX_Saemaeul/ITX_Saemaeul.pnml"

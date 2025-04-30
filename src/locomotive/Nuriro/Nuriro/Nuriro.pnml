@@ -8,25 +8,6 @@
 #include "Nuriro_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보 그룹
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, Nuriro, 2323){
-    property {
-        name:                           string(STR_Group_Nuriro_NAME);
-        climates_available:             NO_CLIMATE;
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        power:                          2000 kW;
-        variant_group:                  Nuriro_Logo;
-        }
-
-    graphics {
-        purchase:                       sw_Nuriro_purchase;
-        }
-        }
-
-/*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Nuriro_4Car, 2324){
@@ -37,7 +18,7 @@ item(FEAT_TRAINS, Nuriro_4Car, 2324){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Nuriro;
+        variant_group:                  Nuriro_Logo;
         
         //spec
         speed:                          151km/h;
@@ -92,7 +73,7 @@ item(FEAT_TRAINS, Nuriro_8Car, 2325){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Nuriro;
+        variant_group:                  Nuriro_Logo;
         
         //spec
         speed:                          165km/h;

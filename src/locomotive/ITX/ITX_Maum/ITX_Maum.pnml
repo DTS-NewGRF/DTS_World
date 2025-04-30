@@ -5,4 +5,3 @@ ITX-마음
 열차 리스트
 --------------------------------------------------------------------*/
 #include "ITX_Maum/ITX_Maum.pnml"
-#include "ITX_Maum_DD/ITX_Maum_DD.pnml"

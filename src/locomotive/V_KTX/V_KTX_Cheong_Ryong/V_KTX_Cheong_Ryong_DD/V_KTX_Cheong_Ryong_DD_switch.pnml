@@ -129,7 +129,7 @@ switch(FEAT_TRAINS, PARENT, sw_V_KTX_Cheong_Ryong_DD_8car_reversed, vehicle_is_r
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_V_KTX_Cheong_Ryong_DD_8car, extra_callback_info1) {
-    1..7: KTX_Cheong_Ryong_DD_8Car;
+    1..7: V_KTX_Cheong_Ryong_DD_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
