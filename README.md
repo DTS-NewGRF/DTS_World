@@ -19,6 +19,7 @@
 * [열차추가] ITX 시리즈 가상차량 분리를 위한 그룹 추가 ([#645](https://github.com/DTS-NewGRF/DTS/issues/645))
 * [열차변경] 누리로 그룹 변경 ([#646](https://github.com/DTS-NewGRF/DTS/issues/646))
 * [열차변경] KTX-온누리 16량 편성 변경 ([#647](https://github.com/DTS-NewGRF/DTS/issues/647))
+  * [열차변경] KTX-온누리 16량 출력 변경 ([#648](https://github.com/DTS-NewGRF/DTS/issues/648))
 
 ## 최근 등록 릴리즈
 [1.61] 2025.03.07 <br>

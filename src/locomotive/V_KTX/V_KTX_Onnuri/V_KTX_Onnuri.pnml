@@ -149,7 +149,7 @@ item(FEAT_TRAINS, V_KTX_Onnuri_16Car, 2529){
         
         //spec
         speed:                          370km/h;
-        power:                          18400 kW;
+        power:                          27600 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.775;
         air_drag_coefficient:           0.01;
