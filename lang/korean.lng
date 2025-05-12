@@ -135,6 +135,9 @@ STR_V_ITX_Saemaeul_8Car_NAME                           :[8량] ITX-새마을
 STR_Group_V_ITX_Saemaeul_DD_NAME                       :ITX-새마을 DD
 STR_V_ITX_Saemaeul_DD_6Car_NAME                        :[6량] ITX-새마을 DD
 STR_V_ITX_Saemaeul_DD_8Car_NAME                        :[8량] ITX-새마을 DD
+STR_Group_V_KTX_Cargo_NAME                             :[가상] KTX-카고
+STR_V_KTX_Cargo_8Car_NAME                              :[8량]{GREEN}[가상] {BLACK}KTX-카고
+STR_V_KTX_Cargo_16Car_NAME                             :[16량]{GREEN}[가상] {BLACK}KTX-카고
 STR_Group_V_KTX_Cheong_Ryong_NAME                      :[가상] KTX-청룡
 STR_V_KTX_Cheong_Ryong_8Car_NAME                       :[8량]{GREEN}[가상] {BLACK}KTX-청룡
 STR_V_KTX_Cheong_Ryong_16Car_NAME                      :[16량]{GREEN}[가상] {BLACK}KTX-청룡

@@ -82,7 +82,7 @@
 - 한국형 표준전동차
 
 ### HYUNDAIROTEMIGBTIPM1Kstart.wav
-- KTX-이음, 이음 DD, 청룡, 청룡 DD, 초월
+- KTX-이음, 이음 DD, 청룡, 청룡 DD, 초월, 카고
 - ITX-청천
 - 공항철도 1000호대 1세대
 - 공항철도 2000호대 1세대

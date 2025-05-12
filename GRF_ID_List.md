@@ -568,9 +568,12 @@
 |2549|[그룹명] [가상] V_ITX_Maum|
 |2550|V_ITX_Maum_DD_8Car|
 |2551|V_ITX_Maum_DD_10Car|
-|2323|[공백]|
-|2326|[공백]|
-|2552~2999|[공백]|
+|2552|[그룹명] V_KTX_Cargo|
+|2553|V_KTX_Cargo_8Car|
+|2554|V_KTX_Cargo_16Car|
+|2323|[공백] 1.63이후 부여|
+|2326|[공백]1.63이후 부여|
+|2555~2999|[공백]|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|
