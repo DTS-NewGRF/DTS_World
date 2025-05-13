@@ -41,7 +41,7 @@ spriteset(set_V_KTX_Cargo_260_wagon_M3, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_
 }
 
 spriteset(set_V_KTX_Cargo_260_wagon_M3_2, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
-    DTS_temp(80, 135)
+    DTS_temp_r(80, 135)
 }
 
 spriteset(set_V_KTX_Cargo_260_wagon_M3_r, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
@@ -49,7 +49,7 @@ spriteset(set_V_KTX_Cargo_260_wagon_M3_r, "src/locomotive/V_KTX/V_KTX_Cargo_260/
 }
 
 spriteset(set_V_KTX_Cargo_260_wagon_M3_r2, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
-    DTS_temp(80, 162)
+    DTS_temp_r(80, 162)
 }
 
 spriteset(set_V_KTX_Cargo_260_engineT_r, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
