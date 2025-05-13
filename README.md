@@ -8,7 +8,7 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.62] 2025.05.12 <br>
+[1.62] 2025.05.13 <br>
 [이슈 작업]
 * [열차추가] PEX-SUPER 전용 우편차 (32bpp) ([#639](https://github.com/DTS-NewGRF/DTS/issues/639))
 * [열차추가] PEX-SUPER 전용 발전차 (32bpp) ([#640](https://github.com/DTS-NewGRF/DTS/issues/640))
@@ -21,6 +21,8 @@
 * [열차변경] KTX-온누리 16량 편성 변경 ([#647](https://github.com/DTS-NewGRF/DTS/issues/647))
   * [열차변경] KTX-온누리 16량 출력 변경 ([#648](https://github.com/DTS-NewGRF/DTS/issues/648))
 * [열차추가] KTX-Cargo 320 [8bpp] ([#649](https://github.com/DTS-NewGRF/DTS/issues/649))
+* [열차추가] KTX-Cargo 260 (8bpp) ([#650](https://github.com/DTS-NewGRF/DTS/issues/650))
+* [열차변경] CTX 이름 변경 ([#651](https://github.com/DTS-NewGRF/DTS/issues/651))
 
 ## 최근 등록 릴리즈
 [1.61] 2025.03.07 <br>

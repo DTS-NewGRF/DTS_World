@@ -81,9 +81,13 @@ sort(FEAT_TRAINS, [
     V_KTX_Logo,                              //2546
     V_KTX_Eum_6Car,                          //2020
     V_KTX_Eum_DD_6Car,                       //2021
-    V_KTX_Cargo,                             //2552
-    V_KTX_Cargo_8Car,                        //2553
-    V_KTX_Cargo_16Car,                       //2554
+    V_KTX_Cargo_260,                         //2555
+    V_KTX_Cargo_260_6Car,                    //2556
+    V_KTX_Cargo_260_12Car,                   //2557
+    V_KTX_Cargo_300_10Car,                   //2026
+    V_KTX_Cargo_320,                         //2552
+    V_KTX_Cargo_320_8Car,                    //2553
+    V_KTX_Cargo_320_16Car,                   //2554
     V_KTX_Cheong_Ryong,                      //2306
     V_KTX_Cheong_Ryong_8Car,                 //2022
     V_KTX_Cheong_Ryong_16Car,                //2528
@@ -468,8 +472,6 @@ sort(FEAT_TRAINS, [
     Shinkansen_E7_W7_12Car,                  //2094
 
     //고속열차 331
-    CTX,                                     //2199
-    CTX_F_10Car,                             //2026
     CTX_P_10Car,                             //2125
     HSR_350X,                                //2200
     HSR_350X_7Car,                           //2027

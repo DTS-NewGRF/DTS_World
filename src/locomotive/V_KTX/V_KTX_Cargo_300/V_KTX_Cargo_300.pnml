@@ -1,23 +1,24 @@
 /*--------------------------------------------------------------------
-CTX
+[가상] KTX-카고 300
 --------------------------------------------------------------------*/
 // Graphics
-#include "CTX_graphic.pnml"
+#include "V_KTX_Cargo_300_graphic.pnml"
 
 // Switch
-#include "CTX_switch.pnml"
+#include "V_KTX_Cargo_300_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보 승객전용
+열차정보 화물전용
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CTX_P_10Car, 2125){
+item(FEAT_TRAINS, V_KTX_Cargo_300_10Car, 2026){
     property {
-        name:                           string(STR_CTX_P_10Car_NAME);
+        name:                           string(STR_V_KTX_Cargo_300_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  V_KTX_Logo;
         
         //spec
         speed:                          300km/h;
@@ -36,7 +37,7 @@ item(FEAT_TRAINS, CTX_P_10Car, 2125){
         cargo_capacity:                 60;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
+        cargo_allow_refit:              [MAIL, VALU];
         cargo_disallow_refit:           [];
         
         //Costs
@@ -49,13 +50,13 @@ item(FEAT_TRAINS, CTX_P_10Car, 2125){
         }
 
 	graphics {
-        default:                        sw_CTX_P_10car;
-        articulated_part:               sw_articulated_CTX_P_10car;
-        purchase:                       sw_CTX_purchase;
-        speed:                          sw_CTX_speed;
+        default:                        sw_V_KTX_Cargo_300_10car;
+        articulated_part:               sw_articulated_V_KTX_Cargo_300_10car;
+        purchase:                       sw_V_KTX_Cargo_300_purchase;
+        speed:                          sw_V_KTX_Cargo_300_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_CTX_sound;
+        sound_effect:                   sw_V_KTX_Cargo_300_sound;
         }
         }

@@ -1,0 +1,81 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+V_KTX_Cargo_260
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Cargo_260_engineH, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_KTX_Cargo_260_engineH_r, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_KTX_Cargo_260_wagon_M1, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_KTX_Cargo_260_wagon_M1_2, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_V_KTX_Cargo_260_wagon_M1_r, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_KTX_Cargo_260_wagon_M1_r2, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_V_KTX_Cargo_260_wagon_M2, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_KTX_Cargo_260_wagon_M2_r, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_KTX_Cargo_260_wagon_M3, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Cargo_260_wagon_M3_2, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Cargo_260_wagon_M3_r, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Cargo_260_wagon_M3_r2, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Cargo_260_engineT_r, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_KTX_Cargo_260_engineT, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp(80, 216)
+}
+
+spriteset(set_V_KTX_Cargo_260_engineT_TCD, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_V_KTX_Cargo_260_engineT_TCD_r, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    DTS_temp_r(80, 243)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_V_KTX_Cargo_260_purchase, "src/locomotive/V_KTX/V_KTX_Cargo_260/V_KTX_Cargo_260.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_V_KTX_Cargo_260_purchase, cargo_subtype) {
+    set_V_KTX_Cargo_260_purchase;
+}

@@ -44,9 +44,7 @@ STR_CL_180_8Car_NAME                                   :[8Car] CL-180
 STR_CL_180_G2_8Car_NAME                                :[8Car] CL-180 generation 2
 STR_CL_150_Premium_10Car_NAME                          :[10Car] CL-150 Premium
 STR_CL_180_Premium_10Car_NAME                          :[10Car] CL-180 Premium
-STR_Group_CTX_NAME                                     :CTX
-STR_CTX_F_10Car_NAME                                   :[10Car] CTX Freight
-STR_CTX_P_10Car_NAME                                   :[10Car] CTX Passenger
+STR_CTX_P_10Car_NAME                                   :[10Car] CTX
 STR_DEL4400_NAME                                       :DEL4400
 STR_DEL7000_NAME                                       :DEL7000
 STR_DEL7600_NAME                                       :DEL7600
@@ -135,9 +133,13 @@ STR_V_ITX_Saemaeul_8Car_NAME                           :[8Car] ITX-Saemaeul
 STR_Group_V_ITX_Saemaeul_DD_NAME                       :ITX-Saemaeul DD
 STR_V_ITX_Saemaeul_DD_6Car_NAME                        :[6Car] ITX-Saemaeul DD
 STR_V_ITX_Saemaeul_DD_8Car_NAME                        :[8Car] ITX-Saemaeul DD
-STR_Group_V_KTX_Cargo_NAME                             :[가상] KTX-Cargo
-STR_V_KTX_Cargo_8Car_NAME                              :[8량]{GREEN}[가상] {BLACK}KTX-Cargo
-STR_V_KTX_Cargo_16Car_NAME                             :[16량]{GREEN}[가상] {BLACK}KTX-Cargo
+STR_Group_V_KTX_Cargo_260_NAME                         :[Virtual] KTX-Cargo 260
+STR_V_KTX_Cargo_260_6Car_NAME                          :[6Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 260
+STR_V_KTX_Cargo_260_12Car_NAME                         :[12Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 260
+STR_V_KTX_Cargo_300_10Car_NAME                         :[10Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 300
+STR_Group_V_KTX_Cargo_320_NAME                         :[Virtual] KTX-Cargo 320
+STR_V_KTX_Cargo_320_8Car_NAME                          :[8Car량]{GREEN}[Virtual] {BLACK}KTX-Cargo 320
+STR_V_KTX_Cargo_320_16Car_NAME                         :[16Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 320
 STR_Group_V_KTX_Cheong_Ryong_NAME                      :[Virtual] KTX-Cheong Ryong
 STR_V_KTX_Cheong_Ryong_8Car_NAME                       :[8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
 STR_V_KTX_Cheong_Ryong_16Car_NAME                      :[16Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong

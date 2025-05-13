@@ -2,21 +2,6 @@
 Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
-Freight Car
---------------------------------------------------------------------*/
-spriteset(set_CTX_FC_R_engineH, "src/locomotive/CTX/CTX_FC_R.png"){
-    DTS_temp(80, 0)
-}
-
-spriteset(set_CTX_FC_R_wagon, "src/locomotive/CTX/CTX_FC_R.png") {
-    DTS_temp(80, 27)
-}
-
-spriteset(set_CTX_FC_R_engineT, "src/locomotive/CTX/CTX_FC_R.png"){
-    DTS_temp(80, 54)
-}
-
-/*--------------------------------------------------------------------
 Passenger/Freight Hybrid Car
 --------------------------------------------------------------------*/
 spriteset(set_CTX_HC_R_engineH, "src/locomotive/CTX/CTX_HC_R.png"){
@@ -47,7 +32,7 @@ spriteset(set_CTX_HC_R_engineT, "src/locomotive/CTX/CTX_HC_R.png"){
 구매정보
 --------------------------------------------------------------------*/
 // 구매차량 그래픽
-spriteset(set_CTX_purchase, "src/locomotive/CTX/CTX_FC_R.png"){
+spriteset(set_CTX_purchase, "src/locomotive/CTX/CTX_HC_R.png"){
     tmpl_purchase(0, 0)
 }
 

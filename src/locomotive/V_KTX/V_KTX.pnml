@@ -25,7 +25,9 @@ item(FEAT_TRAINS, V_KTX_Logo, 2546){
 /*--------------------------------------------------------------------
 열차 리스트
 --------------------------------------------------------------------*/
-#include "V_KTX_Cargo/V_KTX_Cargo.pnml"
+#include "V_KTX_Cargo_260/V_KTX_Cargo_260.pnml"
+#include "V_KTX_Cargo_300/V_KTX_Cargo_300.pnml"
+#include "V_KTX_Cargo_320/V_KTX_Cargo_320.pnml"
 #include "V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong.pnml"
 #include "V_KTX_Chowol/V_KTX_Chowol.pnml"
 #include "V_KTX_Eum/V_KTX_Eum.pnml"

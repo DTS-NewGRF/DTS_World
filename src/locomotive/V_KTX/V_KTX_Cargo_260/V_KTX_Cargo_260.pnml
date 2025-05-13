@@ -1,49 +1,49 @@
 /*--------------------------------------------------------------------
-[가상] KTX-카고
+[가상] KTX-이음 260
 --------------------------------------------------------------------*/
 // Graphics
-#include "V_KTX_Cargo_graphic.pnml"
+#include "V_KTX_Cargo_260_graphic.pnml"
 
 // Switch
-#include "V_KTX_Cargo_switch.pnml"
+#include "V_KTX_Cargo_260_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, V_KTX_Cargo, 2552){
+item(FEAT_TRAINS, V_KTX_Cargo_260, 2555){
     property {
-        name:                           string(STR_Group_V_KTX_Cargo_NAME);
+        name:                           string(STR_Group_V_KTX_Cargo_260_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        power:                          14400 kW;
+        power:                          9600 kW;
         variant_group:                  V_KTX_Logo;
         }
 
     graphics {
-        purchase:                       sw_V_KTX_Cargo_purchase;
+        purchase:                       sw_V_KTX_Cargo_260_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
-열차정보 8량
+열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, V_KTX_Cargo_8Car, 2553){
+item(FEAT_TRAINS, V_KTX_Cargo_260_6Car, 2556){
     property {
-        name:                           string(STR_V_KTX_Cargo_8Car_NAME);
+        name:                           string(STR_V_KTX_Cargo_260_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2027, 1, 1);
+        introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  V_KTX_Cargo;
+        variant_group:                  V_KTX_Cargo_260;
         
         //spec
-        speed:                          320km/h;
-        power:                          14400 kW;
+        speed:                          260km/h;
+        power:                          9600 kW;
         weight:                         35 ton;
-        tractive_effort_coefficient:    0.775;
+        tractive_effort_coefficient:    0.579;
         air_drag_coefficient:           0.01;
         
         //Model
@@ -56,10 +56,12 @@ item(FEAT_TRAINS, V_KTX_Cargo_8Car, 2553){
         cargo_capacity:                 90;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [MAIL, VALU, GOOD];
+        cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
         
         //Costs
+        cost_factor:                    10;
+        running_cost_factor:            150;
         refit_cost:                     0;
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
@@ -67,37 +69,34 @@ item(FEAT_TRAINS, V_KTX_Cargo_8Car, 2553){
         misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
-
+        
     graphics {
-        default:                        sw_V_KTX_Cargo_8car_reversed;
-        articulated_part:               sw_articulated_V_KTX_Cargo_8car;
-        purchase:                       sw_V_KTX_Cargo_purchase;
-        speed:                          sw_V_KTX_Cargo_speed;
+        default:                        sw_V_KTX_Cargo_260_6car_reversed;
+        articulated_part:               sw_articulated_V_KTX_Cargo_260_6car;
+        purchase:                       sw_V_KTX_Cargo_260_purchase;
         loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        sound_effect:                   sw_V_KTX_Cargo_sound;
+        sound_effect:                   sw_V_KTX_Cargo_260_sound;
         }
         }
 
 /*--------------------------------------------------------------------
-열차정보 16량
+열차정보 12량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, V_KTX_Cargo_16Car, 2554){
+item(FEAT_TRAINS, V_KTX_Cargo_260_12Car, 2557){
     property {
-        name:                           string(STR_V_KTX_Cargo_16Car_NAME);
+        name:                           string(STR_V_KTX_Cargo_260_12Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2027, 1, 1);
+        introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  V_KTX_Cargo;
+        variant_group:                  V_KTX_Cargo_260;
         
         //spec
-        speed:                          320km/h;
-        power:                          28800 kW;
+        speed:                          260km/h;
+        power:                          19200 kW;
         weight:                         35 ton;
-        tractive_effort_coefficient:    0.775;
+        tractive_effort_coefficient:    0.579;
         air_drag_coefficient:           0.01;
         
         //Model
@@ -110,10 +109,12 @@ item(FEAT_TRAINS, V_KTX_Cargo_16Car, 2554){
         cargo_capacity:                 90;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [MAIL, VALU, GOOD];
+        cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
         
         //Costs
+        cost_factor:                    10;
+        running_cost_factor:            150;
         refit_cost:                     0;
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
@@ -121,15 +122,12 @@ item(FEAT_TRAINS, V_KTX_Cargo_16Car, 2554){
         misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
-
+        
     graphics {
-        default:                        swV_KTX_Cargo_16car_reversed;
-        articulated_part:               sw_articulated_V_KTX_Cargo_16car;
-        purchase:                       sw_V_KTX_Cargo_purchase;
-        speed:                          sw_V_KTX_Cargo_speed;
+        default:                        sw_V_KTX_Cargo_260_12car_reversed;
+        articulated_part:               sw_articulated_V_KTX_Cargo_260_12car;
+        purchase:                       sw_V_KTX_Cargo_260_purchase;
         loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        sound_effect:                   sw_V_KTX_Cargo_sound;
+        sound_effect:                   sw_V_KTX_Cargo_260_sound;
         }
         }

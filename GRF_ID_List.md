@@ -42,7 +42,7 @@
 |2023|V_KTX_Cheong_Ryong_DD_8Car|
 |2024|KTX_Sancheon_10Car|
 |2025|V_KTX_Sancheon_DD_10Car|
-|2026|CTX_F_10Car|
+|2026|V_KTX_Cargo_300_10Car|
 |2027|HSR_350X_7Car|
 |2028|HEMU_430X_6Car|
 |2029|VHST_600X_8Car|
@@ -215,7 +215,7 @@
 |2196|[그룹명] ICE4|
 |2197|[그룹명] Shinkansen_0|
 |2198|[그룹명] Shinkansen_700|
-|2199|[그룹명] CTX|
+|2199|[공백]|
 |2200|[그룹명] HSR_350X|
 |2201|[그룹명] CRH380D|
 |2202|[그룹명] Shinkansen_500|
@@ -568,12 +568,16 @@
 |2549|[그룹명] [가상] V_ITX_Maum|
 |2550|V_ITX_Maum_DD_8Car|
 |2551|V_ITX_Maum_DD_10Car|
-|2552|[그룹명] V_KTX_Cargo|
-|2553|V_KTX_Cargo_8Car|
-|2554|V_KTX_Cargo_16Car|
+|2552|[그룹명] V_KTX_Cargo_320|
+|2553|V_KTX_Cargo_320_8Car|
+|2554|V_KTX_Cargo_320_16Car|
+|2555|[그룹명] V_KTX_Cargo_260|
+|2556|V_KTX_Cargo_260_6Car|
+|2557|V_KTX_Cargo_260_12Car|
+|2199|[공백] 1.63이후 부여|
 |2323|[공백] 1.63이후 부여|
-|2326|[공백]1.63이후 부여|
-|2555~2999|[공백]|
+|2326|[공백] 1.63이후 부여|
+|2558~2999|[공백]|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|
