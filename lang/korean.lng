@@ -255,6 +255,7 @@ STR_Shinkansen_N700S_16Car_NAME                        :[16량] 신칸센 N700S�
 # Virtual / locomotive's name
 STR_DFX_10Car_NAME                                     :[10량] DFX
 STR_DPX_14Car_NAME                                     :[14량] DPX
+STR_DTX_Glory_20Car_NAME                               :[20량] DTX-영광
 STR_Group_DTX_Sejong_NAME                              :DTX-세종
 STR_DTX_Sejong_10Car_NAME                              :[10량] DTX-세종
 STR_DTX_Sejong_20Car_NAME                              :[20량] DTX-세종

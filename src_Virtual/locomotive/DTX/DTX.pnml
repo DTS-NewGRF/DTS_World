@@ -25,6 +25,7 @@ item(FEAT_TRAINS, DTX_Logo, 2501){
 /*--------------------------------------------------------------------
 열차 리스트
 --------------------------------------------------------------------*/
+#include "DTX_Glory/DTX_Glory.pnml"
 #include "DTX_Koryo/DTX_Koryo.pnml"
 #include "DTX_Sejong/DTX_Sejong.pnml"
 #include "DTX_Sobaek/DTX_Sobaek.pnml"

@@ -26,6 +26,7 @@ sort(FEAT_TRAINS, [
     DTX_Sundeok_10Car,                       //2505
     DTX_Sundeok_16Car,                       //2506
     DTX_Sundeok_20Car,                       //2507
+    DTX_Glory_20Car,                         //2558
 
     //ITX 열차 그룹
     ITX_Logo,                                //2512

@@ -138,7 +138,7 @@ STR_V_KTX_Cargo_260_6Car_NAME                          :[6Car]{GREEN}[Virtual] {
 STR_V_KTX_Cargo_260_12Car_NAME                         :[12Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 260
 STR_V_KTX_Cargo_300_10Car_NAME                         :[10Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 300
 STR_Group_V_KTX_Cargo_320_NAME                         :[Virtual] KTX-Cargo 320
-STR_V_KTX_Cargo_320_8Car_NAME                          :[8Car량]{GREEN}[Virtual] {BLACK}KTX-Cargo 320
+STR_V_KTX_Cargo_320_8Car_NAME                          :[8Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 320
 STR_V_KTX_Cargo_320_16Car_NAME                         :[16Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 320
 STR_Group_V_KTX_Cheong_Ryong_NAME                      :[Virtual] KTX-Cheong Ryong
 STR_V_KTX_Cheong_Ryong_8Car_NAME                       :[8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
@@ -255,9 +255,10 @@ STR_Shinkansen_N700S_16Car_NAME                        :[16Car] Shinkansen N700S
 # Virtual / locomotive's name
 STR_DFX_10Car_NAME                                     :[10Car] DFX
 STR_DPX_14Car_NAME                                     :[14Car] DPX
+STR_DTX_Glory_20Car_NAME                               :[20Car] DTX-Glory
 STR_Group_DTX_Sejong_NAME                              :DTX-Sejong
-STR_DTX_Sejong_10Car_NAME                              :[10량] DTX-Sejong
-STR_DTX_Sejong_20Car_NAME                              :[20량] DTX-Sejong
+STR_DTX_Sejong_10Car_NAME                              :[10Car] DTX-Sejong
+STR_DTX_Sejong_20Car_NAME                              :[20Car] DTX-Sejong
 STR_Group_DTX_Koryo_NAME                               :DTX-Koryo
 STR_DTX_Koryo_8Car_NAME                                :[8Car] DTX-Koryo
 STR_DTX_Koryo_10Car_NAME                               :[10Car] DTX-Koryo

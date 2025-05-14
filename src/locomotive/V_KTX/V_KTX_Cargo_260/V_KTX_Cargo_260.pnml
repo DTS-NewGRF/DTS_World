@@ -56,7 +56,7 @@ item(FEAT_TRAINS, V_KTX_Cargo_260_6Car, 2556){
         cargo_capacity:                 90;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
+        cargo_allow_refit:              [MAIL, VALU, GOOD];
         cargo_disallow_refit:           [];
         
         //Costs
@@ -109,7 +109,7 @@ item(FEAT_TRAINS, V_KTX_Cargo_260_12Car, 2557){
         cargo_capacity:                 90;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
+        cargo_allow_refit:              [MAIL, VALU, GOOD];
         cargo_disallow_refit:           [];
         
         //Costs
