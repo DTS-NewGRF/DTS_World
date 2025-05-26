@@ -642,6 +642,8 @@ STR_PARAM_Maintenance_NAME                             :No Maintenance trains al
 STR_PARAM_Maintenance_DESC                             :Please check when using Maintenance trains. (Default: unused)
 STR_PARAM_Passengercar_Real_speed_NAME                 :Controls the speed of the carriage.
 STR_PARAM_Passengercar_Real_speed_DESC                 :Check the actual carriage speed if desired. (Basic: Passenger car speed limit)
+STR_PARAM_Simple_Waypoint_NAME                         :Make waypoint's graphics simple
+STR_PARAM_Simple_Waypoint_DESC                         :Make the graphic of waypoints simple by eliminating waypoint buildings.
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}train configuration {}{GREEN} A-Train Passenger Car
