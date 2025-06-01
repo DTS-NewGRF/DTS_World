@@ -8,13 +8,14 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.63] 2025.05.26 <br>
+[1.63] 2025.06.01 <br>
 [이슈 외 작업]
 * [경유지] 기본 경유지 간소화 매개변수로 적용
 * [HYEL] HYEL-400 천장그래픽 수정
 
 [이슈 작업]
 * [열차변경] 한국철도공사 4세대 3차도입분 도색 변경 (32bpp) ([#654](https://github.com/DTS-NewGRF/DTS/issues/654))
+* [열차변경] 일부 가상열차 등장년도 수정 ([#655](https://github.com/DTS-NewGRF/DTS/issues/655))
 
 ## 최근 등록 릴리즈
 [1.62] 2025.05.15 <br>
