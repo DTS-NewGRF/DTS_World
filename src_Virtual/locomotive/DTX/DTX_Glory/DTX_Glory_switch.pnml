@@ -1,51 +1,170 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+//도색명
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_DTX_Glory_Origin);
+    return string(STR_REFIT_LIVERY_DTX_Glory_2Year);
+}
+
+// 열차
+// 20량
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_engineH, cargo_subtype) {
+    1: set_DTX_Glory_engineH;
+    set_DTX_Glory_2year_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T1, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T1;
+    set_DTX_Glory_2year_wagon_T1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T2, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T2;
+    set_DTX_Glory_2year_wagon_T2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T3, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T3;
+    set_DTX_Glory_2year_wagon_T3;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T4, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T4;
+    set_DTX_Glory_2year_wagon_T4;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T5, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T5;
+    set_DTX_Glory_2year_wagon_T5;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T6, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T6;
+    set_DTX_Glory_2year_wagon_T6;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T7, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T7;
+    set_DTX_Glory_2year_wagon_T7;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T8, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T8;
+    set_DTX_Glory_2year_wagon_T8;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T9, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T9;
+    set_DTX_Glory_2year_wagon_T9;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_engineT, cargo_subtype) {
+    1: set_DTX_Glory_engineT;
+    set_DTX_Glory_2year_engineT;
+}
+
+// 20량 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_engineH_r, cargo_subtype) {
+    1: set_DTX_Glory_engineH_r;
+    set_DTX_Glory_2year_engineH_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T1_r, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T1_r;
+    set_DTX_Glory_2year_wagon_T1_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T2_r, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T2_r;
+    set_DTX_Glory_2year_wagon_T2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T3_r, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T3_r;
+    set_DTX_Glory_2year_wagon_T3_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T4_r, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T4_r;
+    set_DTX_Glory_2year_wagon_T4_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T5_r, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T5_r;
+    set_DTX_Glory_2year_wagon_T5_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T6_r, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T6_r;
+    set_DTX_Glory_2year_wagon_T6_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T7_r, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T7_r;
+    set_DTX_Glory_2year_wagon_T7_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T8_r, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T8_r;
+    set_DTX_Glory_2year_wagon_T8_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T9_r, cargo_subtype) {
+    1: set_DTX_Glory_wagon_T9_r;
+    set_DTX_Glory_2year_wagon_T9_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_engineT_r, cargo_subtype) {
+    1: set_DTX_Glory_engineT_r;
+    set_DTX_Glory_2year_engineT_r;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_DTX_Glory_20car, position_in_vehid_chain % 20) {
-     1:set_DTX_Glory_wagon_T1;
-     2:set_DTX_Glory_wagon_T1;
-     3:set_DTX_Glory_wagon_T1;
-     4:set_DTX_Glory_wagon_T2;
-     5:set_DTX_Glory_wagon_T2;
-     6:set_DTX_Glory_wagon_T3;
-     7:set_DTX_Glory_wagon_T3;
-     8:set_DTX_Glory_wagon_T4;
-     9:set_DTX_Glory_wagon_T4;
-    10:set_DTX_Glory_wagon_T5;
-    11:set_DTX_Glory_wagon_T6;
-    12:set_DTX_Glory_wagon_T6;
-    13:set_DTX_Glory_wagon_T7;
-    14:set_DTX_Glory_wagon_T7;
-    15:set_DTX_Glory_wagon_T8;
-    16:set_DTX_Glory_wagon_T8;
-    17:set_DTX_Glory_wagon_T9;
-    18:set_DTX_Glory_wagon_T9;
-    19:set_DTX_Glory_engineT;
-    set_DTX_Glory_engineH; //default
+     1:sw_DTX_Glory_wagon_T1;
+     2:sw_DTX_Glory_wagon_T1;
+     3:sw_DTX_Glory_wagon_T1;
+     4:sw_DTX_Glory_wagon_T2;
+     5:sw_DTX_Glory_wagon_T2;
+     6:sw_DTX_Glory_wagon_T3;
+     7:sw_DTX_Glory_wagon_T3;
+     8:sw_DTX_Glory_wagon_T4;
+     9:sw_DTX_Glory_wagon_T4;
+    10:sw_DTX_Glory_wagon_T5;
+    11:sw_DTX_Glory_wagon_T6;
+    12:sw_DTX_Glory_wagon_T6;
+    13:sw_DTX_Glory_wagon_T7;
+    14:sw_DTX_Glory_wagon_T7;
+    15:sw_DTX_Glory_wagon_T8;
+    16:sw_DTX_Glory_wagon_T8;
+    17:sw_DTX_Glory_wagon_T9;
+    18:sw_DTX_Glory_wagon_T9;
+    19:sw_DTX_Glory_engineT;
+    sw_DTX_Glory_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_DTX_Glory_20car_r, position_in_vehid_chain % 20) {
-     1:set_DTX_Glory_wagon_T9_r;
-     2:set_DTX_Glory_wagon_T9_r;
-     3:set_DTX_Glory_wagon_T8_r;
-     4:set_DTX_Glory_wagon_T8_r;
-     5:set_DTX_Glory_wagon_T7_r;
-     6:set_DTX_Glory_wagon_T7_r;
-     7:set_DTX_Glory_wagon_T6_r;
-     8:set_DTX_Glory_wagon_T6_r;
-     9:set_DTX_Glory_wagon_T5_r;
-    10:set_DTX_Glory_wagon_T4_r;
-    11:set_DTX_Glory_wagon_T4_r;
-    12:set_DTX_Glory_wagon_T3_r;
-    13:set_DTX_Glory_wagon_T3_r;
-    14:set_DTX_Glory_wagon_T2_r;
-    15:set_DTX_Glory_wagon_T2_r;
-    16:set_DTX_Glory_wagon_T1_r;
-    17:set_DTX_Glory_wagon_T1_r;
-    18:set_DTX_Glory_wagon_T1_r;
-    19:set_DTX_Glory_engineH_r;
-    set_DTX_Glory_engineT_r; //default
+     1:sw_DTX_Glory_wagon_T9_r;
+     2:sw_DTX_Glory_wagon_T9_r;
+     3:sw_DTX_Glory_wagon_T8_r;
+     4:sw_DTX_Glory_wagon_T8_r;
+     5:sw_DTX_Glory_wagon_T7_r;
+     6:sw_DTX_Glory_wagon_T7_r;
+     7:sw_DTX_Glory_wagon_T6_r;
+     8:sw_DTX_Glory_wagon_T6_r;
+     9:sw_DTX_Glory_wagon_T5_r;
+    10:sw_DTX_Glory_wagon_T4_r;
+    11:sw_DTX_Glory_wagon_T4_r;
+    12:sw_DTX_Glory_wagon_T3_r;
+    13:sw_DTX_Glory_wagon_T3_r;
+    14:sw_DTX_Glory_wagon_T2_r;
+    15:sw_DTX_Glory_wagon_T2_r;
+    16:sw_DTX_Glory_wagon_T1_r;
+    17:sw_DTX_Glory_wagon_T1_r;
+    18:sw_DTX_Glory_wagon_T1_r;
+    19:sw_DTX_Glory_engineH_r;
+    sw_DTX_Glory_engineT_r; //default
     }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_20car_flipped, vehicle_is_flipped){
