@@ -107,21 +107,21 @@ switch (FEAT_TRAINS, SELF, sw_EEC_EMU_10car_1980, position_in_vehid_chain % 10) 
     1:set_EEC_EMU_1980_wagon_M1;
     2:set_EEC_EMU_1980_panto_wagon_M1;
     3:set_EEC_EMU_1980_wagon_M1;
-    4:set_EEC_EMU_1980_wagon_TB;
-    5:set_EEC_EMU_1980_wagon_TS;
-    6:set_EEC_EMU_1980_wagon_M2;
-    7:set_EEC_EMU_1980_panto_wagon_M2;
-    8:set_EEC_EMU_1980_wagon_M2;
+    4:set_EEC_EMU_1980_panto_wagon_M1;
+    5:set_EEC_EMU_1980_wagon_TB;
+    6:set_EEC_EMU_1980_wagon_TS;
+    7:set_EEC_EMU_1980_wagon_M2;
+    8:set_EEC_EMU_1980_panto_wagon_M2;
     9:set_EEC_EMU_1980_engineT;
     set_EEC_EMU_1980_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_EEC_EMU_10car_1980_r, position_in_vehid_chain % 10) {
-    1:set_EEC_EMU_1980_wagon_M2_r;
-    2:set_EEC_EMU_1980_panto_wagon_M2_r;
-    3:set_EEC_EMU_1980_wagon_M2_r;
-    4:set_EEC_EMU_1980_wagon_TS_r;
-    5:set_EEC_EMU_1980_wagon_TB_r;
+    1:set_EEC_EMU_1980_panto_wagon_M2_r;
+    2:set_EEC_EMU_1980_wagon_M2_r;
+    3:set_EEC_EMU_1980_wagon_TS_r;
+    4:set_EEC_EMU_1980_wagon_TB_r;
+    5:set_EEC_EMU_1980_panto_wagon_M1_r;
     6:set_EEC_EMU_1980_wagon_M1_r;
     7:set_EEC_EMU_1980_panto_wagon_M1_r;
     8:set_EEC_EMU_1980_wagon_M1_r;
@@ -144,21 +144,21 @@ switch (FEAT_TRAINS, SELF, sw_EEC_EMU_10car_1996, position_in_vehid_chain % 10) 
     1:sw_EEC_EMU_1996_wagon_M1;
     2:sw_EEC_EMU_1996_panto_wagon_M1;
     3:sw_EEC_EMU_1996_wagon_M1;
-    4:sw_EEC_EMU_1996_wagon_TB;
-    5:sw_EEC_EMU_1996_wagon_TS;
-    6:sw_EEC_EMU_1996_wagon_M2;
-    7:sw_EEC_EMU_1996_panto_wagon_M2;
-    8:sw_EEC_EMU_1996_wagon_M2;
+    4:sw_EEC_EMU_1996_panto_wagon_M1;
+    5:sw_EEC_EMU_1996_wagon_TB;
+    6:sw_EEC_EMU_1996_wagon_TS;
+    7:sw_EEC_EMU_1996_wagon_M2;
+    8:sw_EEC_EMU_1996_panto_wagon_M2;
     9:sw_EEC_EMU_1996_engineT;
     sw_EEC_EMU_1996_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_EEC_EMU_10car_1996_r, position_in_vehid_chain % 10) {
-    1:sw_EEC_EMU_1996_wagon_M2_r;
-    2:sw_EEC_EMU_1996_panto_wagon_M2_r;
-    3:sw_EEC_EMU_1996_wagon_M2_r;
-    4:sw_EEC_EMU_1996_wagon_TS_r;
-    5:sw_EEC_EMU_1996_wagon_TB_r;
+    1:sw_EEC_EMU_1996_panto_wagon_M2_r;
+    2:sw_EEC_EMU_1996_wagon_M2_r;
+    3:sw_EEC_EMU_1996_wagon_TS_r;
+    4:sw_EEC_EMU_1996_wagon_TB_r;
+    5:sw_EEC_EMU_1996_panto_wagon_M1_r;
     6:sw_EEC_EMU_1996_wagon_M1_r;
     7:sw_EEC_EMU_1996_panto_wagon_M1_r;
     8:sw_EEC_EMU_1996_wagon_M1_r;
