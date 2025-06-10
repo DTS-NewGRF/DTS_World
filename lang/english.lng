@@ -1369,8 +1369,11 @@ STR_REFIT_LIVERY_Generatar_2cc_ST                      : Saemaul Early livery St
 STR_REFIT_LIVERY_Generatar_2cc_HJ                      : Stream lined car
 STR_REFIT_LIVERY_Generatar_Real_OutLook_S1             : Kwan kwang Ho outlook 1
 STR_REFIT_LIVERY_Generatar_Real_OutLook_S2             : Kwan kwang Ho outlook 2
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SEA_T          : East Sea Line Travel train
 STR_REFIT_LIVERY_Generatar_Real_OutLook_L1             : Saemaul Early livery Long length
 STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1            : Tongil Early livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SMY            : Mugunghwa yellow Early livery outlook
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SMW            : Mugunghwa White Early livery outlook
 STR_REFIT_LIVERY_Generatar_Real_OutLook_T1             : Tongil Early livery Low speed
 STR_REFIT_LIVERY_Generatar_Real_OutLook_TB             : Old Tongil dark blue livery Low speed
 STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB            : Old Tongil dark blue livery Long length

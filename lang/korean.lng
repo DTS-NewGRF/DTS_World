@@ -1369,8 +1369,11 @@ STR_REFIT_LIVERY_Generatar_2cc_ST                      : 유선형 발전차 새
 STR_REFIT_LIVERY_Generatar_2cc_HJ                      : 유선형 발전차
 STR_REFIT_LIVERY_Generatar_Real_OutLook_S1             : 관광호 전망발전차 1
 STR_REFIT_LIVERY_Generatar_Real_OutLook_S2             : 관광호 전망발전차 2
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SEA_T          : 동해남부선 관광열차
 STR_REFIT_LIVERY_Generatar_Real_OutLook_L1             : 장대형 발전차 새마을호 초기도색
 STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1            : 장대형 발전차 통일호 초기도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SMY            : 무궁화호 초기도색 전망발전차 노랑
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SMW            : 무궁화호 초기도색 전망발전차 흰색
 STR_REFIT_LIVERY_Generatar_Real_OutLook_T1             : 저속발전차 통일호 초기도색
 STR_REFIT_LIVERY_Generatar_Real_OutLook_TB             : 저속발전차 통일호 남색도색
 STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB            : 장대형 발전차 통일호 남색도색

@@ -7,51 +7,52 @@ switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1969_speed, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1986_speed, cargo_subtype) {
-    4: return 120;
-    150;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1994_speed, cargo_subtype) {
-    4: return 120;
-    5: return 120;
     7: return 120;
     150;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1997_speed, cargo_subtype) {
-     4: return 120;
-     5: return 120;
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1994_speed, cargo_subtype) {
      7: return 120;
-    13: return 120;
+     8: return 120;
+    10: return 120;
+    150;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1997_speed, cargo_subtype) {
+     7: return 120;
+     8: return 120;
+    10: return 120;
+    16: return 120;
     150;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_2005_speed, cargo_subtype) {
-     4: return 120;
-     5: return 120;
      7: return 120;
-    13: return 120;
-    17: return 120;
+     8: return 120;
+    10: return 120;
+    16: return 120;
+    20: return 120;
     150;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_2006_speed, cargo_subtype) {
-     4: return 120;
-     5: return 120;
      7: return 120;
-    13: return 120;
-    17: return 120;
-    19: return 120;
+     8: return 120;
+    10: return 120;
+    16: return 120;
+    20: return 120;
+    22: return 120;
     150;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_2010_speed, cargo_subtype) {
-     4: return 120;
-     5: return 120;
      7: return 120;
-    13: return 120;
-    17: return 120;
+     8: return 120;
+    10: return 120;
+    16: return 120;
     20: return 120;
+    22: return 120;
+    23: return 120;
     150;
 }
 
