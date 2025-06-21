@@ -32,4 +32,5 @@ item(FEAT_TRAINS, Seoulmetro, 2373){
 #include "Seoulmetro_4th/Seoulmetro_4th.pnml"
 #include "Seoulmetro_5th/Seoulmetro_5th.pnml"
 #include "Seoulmetro_6th/Seoulmetro_6th.pnml"
+#include "Seoulmetro_7th/Seoulmetro_7th.pnml"
 #include "Seoulmetro_Rheostatic/Seoulmetro_Rheostatic.pnml"

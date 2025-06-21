@@ -237,7 +237,8 @@ sort(FEAT_TRAINS, [
     Seoulmetro_5th_5000_8Car,                //2401
     Seoulmetro_5th_7000_8Car,                //2303
     Seoulmetro_5th_4000_10Car,               //2399
-    Seoulmetro_6th_7000_8Car,                //2404
+    Seoulmetro_6th_7000_8Car,                //2560
+    Seoulmetro_7th_7000_8Car,                //2404
 
     //홍콩 MTR
     MTR_Logo,                                //2515

@@ -420,7 +420,7 @@
 |2401|Seoulmetro_5th_5000_8Car|
 |2402|Thalys_PBKA_10Car|
 |2403|ITX_Maum_4_4Car|
-|2404|Seoulmetro_6th_7000_8Car|
+|2404|Seoulmetro_7th_7000_8Car|
 |2405|Rail_Cruise_Haerang|
 |2406|V_KTX_Chowol_8Car|
 |2407|Busan_Gimhae_LRT_2Car|
@@ -576,10 +576,11 @@
 |2557|V_KTX_Cargo_260_12Car|
 |2558|DTX_Glory_20Car|
 |2559|EEC_EMU_10Car|
-|2199|[공백] 1.63이후 부여|
-|2323|[공백] 1.63이후 부여|
-|2326|[공백] 1.63이후 부여|
-|2559~2999|[공백]|
+|2560|Seoulmetro_6th_7000_8Car|
+|2199|[공백] 1.70이후 부여|
+|2323|[공백] 1.70이후 부여|
+|2326|[공백] 1.70이후 부여|
+|2561~2999|[공백]|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|
