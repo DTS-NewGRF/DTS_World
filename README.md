@@ -8,10 +8,11 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.63] 2025.06.16 <br>
+[1.63] 2025.06.24 <br>
 [이슈 외 작업]
 * [경유지] 기본 경유지 간소화 매개변수로 적용
 * [HYEL] HYEL-400 천장그래픽 수정
+* [템플릿] 스프라이트 정렬 측면<->방향 수정
 
 [이슈 작업]
 * [열차변경] 한국철도공사 4세대 3차도입분 도색 변경 (32bpp) ([#654](https://github.com/DTS-NewGRF/DTS/issues/654))
@@ -22,6 +23,9 @@
 * [열차변경] DTX 영광 ([#657](https://github.com/DTS-NewGRF/DTS/issues/657))
 * [열차변경] 전망형 & 직각형 발전차 도색 추가 ([#660](https://github.com/DTS-NewGRF/DTS/issues/660))
 * [버그] DHC PP 디젤동차 그래픽제 ([#661](https://github.com/DTS-NewGRF/DTS/issues/661))
+* [열차변경] 서울교통공사 7000호대 6세대 전동차 이름 변경 ([#662](https://github.com/DTS-NewGRF/DTS/issues/662))
+* [열차추가] 수도권 7호선 도봉산옥정선 연장분 전동차 (8bpp, 회사 색상) ([#663](https://github.com/DTS-NewGRF/DTS/issues/663))
+* [열차추가] 동해남부선 관광열차 ([#664](https://github.com/DTS-NewGRF/DTS/issues/664))
 
 ## 최근 등록 릴리즈
 [1.62] 2025.05.15 <br>

@@ -530,6 +530,7 @@ STR_Group_CY_GW_NAME                                   :충북영동국악와인
 STR_CY_GW_6Car_NAME                                    :[6량] 충북영동국악와인
 STR_CY_GW_7Car_NAME                                    :[7량] 충북영동국악와인
 STR_E_Train_NAME                                       :[9량] E-Train
+STR_East_Sea_5Car_NAME                                 :[5량] 동해남부선 관광열차
 STR_Group_Eco_Rail_NAME                                :에코레일
 STR_Eco_Rail_NAME                                      :에코레일
 STR_Eco_Rail_5Car_NAME                                 :[5량] 에코레일
@@ -654,6 +655,7 @@ STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_Asean_Korea              :{BLACK}열차구성 {}{GREEN}[관광열차] 한-아세안
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}열차구성 {}{GREEN}[관광열차] 충북국악와인 객차
 STR_REFIT_train_configuration_E_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] E-Train
+STR_REFIT_train_configuration_East_Sea                 :{BLACK}열차구성 {}{GREEN}[관광열차] 동해남부선 관광열차
 STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}열차구성 {}{GREEN}[관광열차] 에코레일 객차
 STR_REFIT_train_configuration_G_Train                  :{BLACK}열차구성 {}{GREEN}[관광열차] G-Train
 STR_REFIT_train_configuration_JA_a_Passenger           :{BLACK}열차구성 {}{GREEN}[관광열차] 정선아리랑 유람열차

@@ -31,6 +31,7 @@ item(FEAT_TRAINS, Travel_wagon, 2210){
 #include "Asean_Korea/Asean_Korea.pnml"
 #include "CY_GW/CY_GW.pnml"
 #include "E_Train/E_Train.pnml"
+#include "East_Sea/East_Sea.pnml"
 #include "Eco_Rail/Eco_Rail.pnml"
 #include "G_Train/G_Train.pnml"
 #include "Jeongseon_Arirang/Jeongseon_Arirang.pnml"

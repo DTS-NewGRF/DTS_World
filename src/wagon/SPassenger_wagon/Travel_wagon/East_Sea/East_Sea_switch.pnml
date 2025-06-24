@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_East_Sea_5Car, position_in_vehid_chain % 5) {
+    1:set_East_Sea_wagon_EI1;
+    2:set_East_Sea_wagon_ES1;
+    3:set_East_Sea_wagon_EI2;
+    4:set_East_Sea_wagon_EI1;
+    set_East_Sea_wagon_EI1; //default
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_East_Sea_5Car, extra_callback_info1) {
+    1..4: East_Sea_5Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+// 속도
+switch(FEAT_TRAINS, SELF, sw_East_Sea_speed, Use_Passengercar_Real_speed) {
+   1: return 120;
+   return 0;
+   }

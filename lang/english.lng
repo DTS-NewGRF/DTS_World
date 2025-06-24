@@ -530,6 +530,7 @@ STR_Group_CY_GW_NAME                                   :Chungbuk Yeongdong Gugak
 STR_CY_GW_6Car_NAME                                    :[6Car] Chungbuk Yeongdong Gugak & Wine Passenger
 STR_CY_GW_7Car_NAME                                    :[7Car] Chungbuk Yeongdong Gugak & Wine Passenger
 STR_E_Train_NAME                                       :[9Car] E-Train Passenger Car
+STR_East_Sea_5Car_NAME                                 :[5Car] East Sea Line Travel train
 STR_Group_Eco_Rail_NAME                                :Eco Rail Passenger Car
 STR_Eco_Rail_NAME                                      :Eco Rail Passenger Car
 STR_Eco_Rail_5Car_NAME                                 :[5Car] Eco Rail Passenger Car
@@ -654,6 +655,7 @@ STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}train configurati
 STR_REFIT_train_configuration_Asean_Korea              :{BLACK}train configuration {}{GREEN} ASEAN Korea Train
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}train configuration {}{GREEN} Chungbuk Yeongdong Gugak & Wine Passenger Car
 STR_REFIT_train_configuration_E_Train_Passenger        :{BLACK}train configuration {}{GREEN} E-Train Passenger Car
+STR_REFIT_train_configuration_East_Sea                 :{BLACK}train configuration {}{GREEN} East Sea Line Travel train
 STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}train configuration {}{GREEN} Eco Rail Passenger Car
 STR_REFIT_train_configuration_G_Train                  :{BLACK}train configuration {}{GREEN} G-Train
 STR_REFIT_train_configuration_JA_a_Passenger           :{BLACK}train configuration {}{GREEN} Jeongseon Arirang Passenger Car

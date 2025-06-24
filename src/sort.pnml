@@ -549,6 +549,7 @@ sort(FEAT_TRAINS, [
     CY_GW_6Car,                              //2001
     CY_GW_7Car,                              //2419
     E_Train_Passenger_Car,                   //2159
+    East_Sea_5Car,                           //2561
     Eco_Rail,                                //2329
     Eco_Rail_Passenger_Car,                  //2157
     Eco_Rail_Passenger_5Car,                 //2330
