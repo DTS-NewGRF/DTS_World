@@ -8,7 +8,10 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.63] 2025.06.24 <br>
+[1.64] 2025.06.30 이후 적용
+
+## 최근 등록 릴리즈
+[1.63] 2025.06.27 <br>
 [이슈 외 작업]
 * [경유지] 기본 경유지 간소화 매개변수로 적용
 * [HYEL] HYEL-400 천장그래픽 수정
@@ -26,25 +29,7 @@
 * [열차변경] 서울교통공사 7000호대 6세대 전동차 이름 변경 ([#662](https://github.com/DTS-NewGRF/DTS/issues/662))
 * [열차추가] 수도권 7호선 도봉산옥정선 연장분 전동차 (8bpp, 회사 색상) ([#663](https://github.com/DTS-NewGRF/DTS/issues/663))
 * [열차추가] 동해남부선 관광열차 ([#664](https://github.com/DTS-NewGRF/DTS/issues/664))
-
-## 최근 등록 릴리즈
-[1.62] 2025.05.15 <br>
-[이슈 작업]
-* [열차추가] PEX-SUPER 전용 우편차 (32bpp) ([#639](https://github.com/DTS-NewGRF/DTS/issues/639))
-* [열차추가] PEX-SUPER 전용 발전차 (32bpp) ([#640](https://github.com/DTS-NewGRF/DTS/issues/640))
-* [열차변경] KTX-1 도색 순서 변경 ([#641](https://github.com/DTS-NewGRF/DTS/issues/641))
-* [열차추가] 양산 도시철도 전동차 (32bpp) ([#642](https://github.com/DTS-NewGRF/DTS/issues/642))
-* [열차변경] 유로스타 E300 그래픽 변경 및 뒤집힘 방지 적용, 출발 사운드 추가 ([#643](https://github.com/DTS-NewGRF/DTS/issues/643))
-* [열차추가] KTX 가상차량 분리를 위한 그룹 추가 ([#644](https://github.com/DTS-NewGRF/DTS/issues/644))
-* [열차추가] ITX 시리즈 가상차량 분리를 위한 그룹 추가 ([#645](https://github.com/DTS-NewGRF/DTS/issues/645))
-* [열차변경] 누리로 그룹 변경 ([#646](https://github.com/DTS-NewGRF/DTS/issues/646))
-* [열차변경] KTX-온누리 16량 편성 변경 ([#647](https://github.com/DTS-NewGRF/DTS/issues/647))
-  * [열차변경] KTX-온누리 16량 출력 변경 ([#648](https://github.com/DTS-NewGRF/DTS/issues/648))
-* [열차추가] KTX-Cargo 320 [8bpp] ([#649](https://github.com/DTS-NewGRF/DTS/issues/649))
-* [열차추가] KTX-Cargo 260 (8bpp) ([#650](https://github.com/DTS-NewGRF/DTS/issues/650))
-  * [버그] KTX-Cargo 260이 화물 대신 승객을 태우는 현상 ([#653](https://github.com/DTS-NewGRF/DTS/issues/653))
-* [열차변경] CTX 이름 변경 ([#651](https://github.com/DTS-NewGRF/DTS/issues/651))
-* [열차추가] DTX 영광 ([#652](https://github.com/DTS-NewGRF/DTS/issues/652))
+* [열차변경][도색추가] 8량 한국철도공사 3세대 전동차 도색 추가 ([#665](https://github.com/DTS-NewGRF/DTS/issues/665))
 
 ## 인게임 등록
 ```

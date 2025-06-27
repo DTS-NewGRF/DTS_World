@@ -1009,7 +1009,8 @@ STR_REFIT_LIVERY_Korail_3rd_ST_DOB                     : ST DOB
 STR_REFIT_LIVERY_Korail_3rd_ST_331K_DOB                : DOB 331K
 STR_REFIT_LIVERY_Korail_3rd_ST_SI                      : SI
 STR_REFIT_LIVERY_Korail_3rd_AL_311K                    : AL 311K
-STR_REFIT_LIVERY_Korail_3rd_AL_331K                    : AL 331K
+STR_REFIT_LIVERY_Korail_3rd_AL_331K_Toshiba            : AL 331K TOSHIBA
+STR_REFIT_LIVERY_Korail_3rd_AL_331K_Woojin             : AL 331K WOOJIN
 STR_REFIT_LIVERY_Korail_3rd_AL_361K_A                  : AL 361K door color
 STR_REFIT_LIVERY_Korail_3rd_AL_361K_B                  : AL 361K line color
 STR_REFIT_LIVERY_Korail_3rd_Bike                       : Bike Train

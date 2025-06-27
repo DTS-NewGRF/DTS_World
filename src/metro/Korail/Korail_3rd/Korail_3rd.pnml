@@ -241,7 +241,7 @@ item(FEAT_TRAINS, Korail_3rd_8car, 2225){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Korail_3rd_8car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_3rd_G1_sound;
+        sound_effect:                   sw_Korail_3rd_8Car_sound;
         }
         }
 

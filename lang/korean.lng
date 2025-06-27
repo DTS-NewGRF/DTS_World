@@ -1009,7 +1009,8 @@ STR_REFIT_LIVERY_Korail_3rd_ST_DOB                     : ST 더블암
 STR_REFIT_LIVERY_Korail_3rd_ST_331K_DOB                : ST 더블암 331K
 STR_REFIT_LIVERY_Korail_3rd_ST_SI                      : ST 싱글암
 STR_REFIT_LIVERY_Korail_3rd_AL_311K                    : AL 311K
-STR_REFIT_LIVERY_Korail_3rd_AL_331K                    : AL 331K
+STR_REFIT_LIVERY_Korail_3rd_AL_331K_Toshiba            : AL 331K 도시바
+STR_REFIT_LIVERY_Korail_3rd_AL_331K_Woojin             : AL 331K 우진산전
 STR_REFIT_LIVERY_Korail_3rd_AL_361K_A                  : AL 361K 출입문 도색
 STR_REFIT_LIVERY_Korail_3rd_AL_361K_B                  : AL 361K 줄무늬 도색
 STR_REFIT_LIVERY_Korail_3rd_Bike                       : 자전거 도색
