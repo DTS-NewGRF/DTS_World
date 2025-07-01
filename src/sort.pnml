@@ -343,6 +343,11 @@ sort(FEAT_TRAINS, [
     HYEL_Logo,                               //2519
     HYEL_15,                                 //2115
     HYEL_100,                                //2108
+    HYEL_120,                                //2279
+    HYEL_120_1Car,                           //2128
+    HYEL_120_Dual,                           //2280
+    HYEL_Gangsan_3Car,                       //2281
+    HYEL_Gangsan_4Car,                       //2282
     HYEL_150,                                //2141
     HYEL_300,                                //2483
     HYEL_300_8Car,                           //2110
@@ -429,11 +434,6 @@ sort(FEAT_TRAINS, [
     Nomal_Diesel_2Car_addcar,                //2539
     Nomal_Diesel_2Car,                       //2540
     Special_Diesel_Car,                      //2467
-    E8600,                                   //2279
-    E8600_1Car,                              //2128
-    E8600_2Car,                              //2280
-    E8600_3Car,                              //2281
-    E8600_4Car,                              //2282
     EEC_EMU_10Car,                           //2559
     FEL_8500,                                //2016
     GT26CW,                                  //2014

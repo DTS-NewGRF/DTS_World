@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색
+// 열차
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_HYEL_120_Dual_engine, position_in_vehid_chain % 2) {
+    1:set_HYEL_120_Dual_engine_PC2;
+    set_HYEL_120_Dual_engine_PC1; //default
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_120_Dual, extra_callback_info1) {
+    1: HYEL_120_Dual;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

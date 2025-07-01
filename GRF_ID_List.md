@@ -144,7 +144,7 @@
 |2125|CTX_P_10Car|
 |2126|Shinkansen_0_16Car|
 |2127|HEMU_430X_8Car|
-|2128|E8600_1Car|
+|2128|HYEL_120_1Car|
 |2129|FLAT_1F|
 |2130|FLAT_TANK|
 |2131|V_ITX_Maum_8Car|
@@ -295,10 +295,10 @@
 |2276|[그룹명] Chopper_Wide_Range_GEC|
 |2277|Chopper_Wide_Range_GEC_6Car|
 |2278|Chopper_Wide_Range_GEC_10Car|
-|2279|[그룹명] E8600|
-|2280|E8600_2Car|
-|2281|E8600_3Car|
-|2282|E8600_4Car|
+|2279|[그룹명] HYEL_120|
+|2280|HYEL_120_Dual|
+|2281|HYEL_Gangsan_3Car|
+|2282|HYEL_Gangsan_4Car|
 |2283|Seoulmetro_1st_4Car|
 |2284|Seoulmetro_1st_2000_6Car|
 |2285|Seoulmetro_1st_2000_3000_10Car|

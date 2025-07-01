@@ -61,11 +61,6 @@ STR_Nomal_Diesel_Car_NAME                              :Diesel Car
 STR_Nomal_Diesel_2Car_addcar_NAME                      :[2car+add car] Diesel Car
 STR_Nomal_Diesel_2Car_NAME                             :[2Car] Diesel Car
 STR_Special_Diesel_Car_NAME                            :special car (Diesel Car)
-STR_Group_E8600_NAME                                   :E8600
-STR_E8600_NAME                                         :E8600
-STR_E8600_2Car_NAME                                    :[2Car] E8600
-STR_E8600_3Car_NAME                                    :[3Car] E8600
-STR_E8600_4Car_NAME                                    :[4Car] E8600
 STR_EEC_EMU_10Car_NAME                                 :[10Car] EEC EMU
 STR_FEL_8500_NAME                                      :FEL 8500
 STR_Group_Glory_430_NAME                               :Glory 430
@@ -281,6 +276,9 @@ STR_DTX_Taebaek_8Car_NAME                              :[8Car] DTX-Taebaek
 STR_DTX_Taebaek_10Car_NAME                             :[10Car] DTX-Taebaek
 STR_HYEL_15_NAME                                       :HYEL-15
 STR_HYEL_100_NAME                                      :HYEL-100
+STR_Group_HYEL_120_NAME                                :HYEL-120
+STR_HYEL_120_1Car_NAME                                 :HYEL-120
+STR_HYEL_120_Dual_NAME                                 :HYEL-120 Dual
 STR_HYEL_150_NAME                                      :HYEL-150
 STR_Group_HYEL_300_NAME                                :HYEL-300
 STR_HYEL_300_8Car_NAME                                 :[8Car] HYEL-300
@@ -295,6 +293,8 @@ STR_HYEL_400_8Car_NAME                                 :[8Car] HYEL-400
 STR_HYEL_400_10Car_NAME                                :[10Car] HYEL-400
 STR_HYEL_400_16Car_NAME                                :[16Car] HYEL-400
 STR_HYEL_Constrck_NAME                                 :[12Car] construction vehicle
+STR_HYEL_Gangsan_3Car_NAME                             :[3Car] HYEL-Gangsan
+STR_HYEL_Gangsan_4Car_NAME                             :[4Car] HYEL-Gangsan
 STR_Group_HYEL_Mugunhwa_NAME                           :HYEL-Mugunhwa
 STR_HYEL_Mugunhwa_4Car_NAME                            :[4Car] HYEL-Mugunhwa
 STR_HYEL_Mugunhwa_6Car_NAME                            :[6Car] HYEL-Mugunhwa

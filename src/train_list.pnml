@@ -16,7 +16,6 @@
 #include "locomotive/DHC_PP/DHC_PP.pnml"
 #include "locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.pnml"
 #include "locomotive/Diesel_Car/Special_Diesel_Car/Special_Diesel_Car.pnml"
-#include "locomotive/E8600/E8600.pnml"
 #include "locomotive/EEC_EMU/EEC_EMU.pnml"
 #include "locomotive/FEL_8500/FEL_8500.pnml"
 #include "locomotive/Glory/Glory.pnml"

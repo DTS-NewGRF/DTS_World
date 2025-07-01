@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색
+// 열차
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_HYEL_120_engine_1Car, position_in_vehid_chain % 1) {
+    set_HYEL_120_1Car_engine; //default
+    }
+
+// 사운드
+switch(FEAT_TRAINS, SELF, sw_HYEL_120_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBASicStart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }

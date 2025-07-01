@@ -228,6 +228,8 @@
 ### TOSHIBASicStart.wav
 - CL-150
 - GTX
+- HYEL-120
+- HYEL-강산
 - IMR-001
 - KTX-온누리
 - PEX-SUPER
