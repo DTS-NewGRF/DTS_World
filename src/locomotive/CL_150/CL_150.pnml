@@ -75,7 +75,7 @@ item(FEAT_TRAINS, CL_150_4Car, 2173){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_CL_150_sound;
+        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
         }
         }
 
@@ -131,7 +131,7 @@ item(FEAT_TRAINS, CL_150_G2_4Car, 2457){
         running_cost_factor:            150;
         cargo_subtype_text:             sw_CL_150_G2_cargo_subtype_text;
         cargo_capacity:                 sw_CL_150_G2_4Car_capacity_in_custom;
-        sound_effect:                   sw_CL_150_G2_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -185,7 +185,7 @@ item(FEAT_TRAINS, CL_150_6Car, 2174){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_CL_150_sound;
+        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
         }
         }
 
@@ -241,7 +241,7 @@ item(FEAT_TRAINS, CL_150_G2_6Car, 2458){
         running_cost_factor:            150;
         cargo_subtype_text:             sw_CL_150_G2_cargo_subtype_text;
         cargo_capacity:                 sw_CL_150_G2_6Car_capacity_in_custom;
-        sound_effect:                   sw_CL_150_G2_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -295,7 +295,7 @@ item(FEAT_TRAINS, CL_150_8Car, 2175){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_CL_150_sound;
+        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
         }
         }
 
@@ -351,7 +351,7 @@ item(FEAT_TRAINS, CL_150_G2_8Car, 2459){
         running_cost_factor:            150;
         cargo_subtype_text:             sw_CL_150_G2_cargo_subtype_text;
         cargo_capacity:                 sw_CL_150_G2_8Car_capacity_in_custom;
-        sound_effect:                   sw_CL_150_G2_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -405,7 +405,7 @@ item(FEAT_TRAINS, CL_180_8Car, 2176){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_CL_150_sound;
+        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
         }
         }
 
@@ -460,7 +460,7 @@ item(FEAT_TRAINS, CL_180_G2_8Car, 2460){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_CL_180_G2_cargo_subtype_text;
-        sound_effect:                   sw_CL_150_G2_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -515,7 +515,7 @@ item(FEAT_TRAINS, CL_150_Premium_10Car, 2463){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_CL_150_Premium_cargo_subtype_text;
-        sound_effect:                   sw_CL_150_G2_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -570,6 +570,6 @@ item(FEAT_TRAINS, CL_180_Premium_10Car, 2464){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_CL_150_Premium_cargo_subtype_text;
-        sound_effect:                   sw_CL_150_G2_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }

@@ -58,7 +58,7 @@ item(FEAT_TRAINS, Nuriro_4Car, 2324){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Nuriro_cargo_subtype_text;
-        sound_effect:                   sw_Nuriro_sound;
+        sound_effect:                   sw_HITACHIStart_sound;
         }
         }
 
@@ -113,6 +113,6 @@ item(FEAT_TRAINS, Nuriro_8Car, 2325){
         speed:                          sw_Nuriro_speed;
         cargo_subtype_text:             sw_Nuriro_Duble_cargo_subtype_text;
         loading_speed:                  25;
-        sound_effect:                   sw_Nuriro_sound;
+        sound_effect:                   sw_HITACHIStart_sound;
         }
         }

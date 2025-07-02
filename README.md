@@ -8,7 +8,22 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.64] 2025.06.30 이후 적용
+[1.64] 2025.07.02 <br>
+[이슈 외 작업]
+* 사운드 파일 정리
+  * Sound.pnml의 스위치 코드로 정리
+  * `sw_열차이름_sound` -> `sw_사운드파일명_sound` 코드명 변경
+  * 부산교통공사는 기존수익사운드가 다르므로 `sw_사운드파일명_Busanmetro_sound`로 정의함
+
+[이슈 작업]
+* [버그] HYEL-150 그래픽 문제 ([#666](https://github.com/DTS-NewGRF/DTS/issues/666))
+* [열차변경] [단량]8600호대 전기기관차 컨셉 변경 ([#667](https://github.com/DTS-NewGRF/DTS/issues/667))
+* [버그] [4량] 한국철도공사 200000호대 전동차 (누리로) 의 중량이 지나치게 높게 되어있는 현상 ([#668](https://github.com/DTS-NewGRF/DTS/issues/668))
+* [열차변경] [2량]8600호대 전기기관차 컨셉 변경 ([#669](https://github.com/DTS-NewGRF/DTS/issues/669))
+* [열차변경] [3량]8600호대 전기기관차 & [4량]8600호대 전기기관차 컨셉 변경 ([#670](https://github.com/DTS-NewGRF/DTS/issues/670))
+  * [버그] HYEL-강산 운전객차가 후부에 위치할 때 그래픽 오류 ([#671](https://github.com/DTS-NewGRF/DTS/issues/671))
+  * [버그] [3량] HYEL-강산의 수송량 수정 ([#672](https://github.com/DTS-NewGRF/DTS/issues/672))
+* [열차변경] HYEL-강산 편성 수 추가 ([#673](https://github.com/DTS-NewGRF/DTS/issues/673))
 
 ## 최근 등록 릴리즈
 [1.63] 2025.06.27 <br>

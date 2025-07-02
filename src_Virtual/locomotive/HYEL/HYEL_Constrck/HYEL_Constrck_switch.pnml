@@ -45,8 +45,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_Constrck, extra_callback_info1) {
     1..11: HYEL_Constrck;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_Constrck_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTPMSMstart.wav");
-    return CB_RESULT_NO_SOUND;
-    }

@@ -58,6 +58,6 @@ item(FEAT_TRAINS, Korail_Third_10Car, 2253){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Korail_Third_cargo_subtype_text;
-        sound_effect:                   sw_Korail_Third_sound;
+        sound_effect:                   sw_DCMOTERBASICstart_sound;
         }
         }

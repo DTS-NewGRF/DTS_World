@@ -76,7 +76,7 @@ item(FEAT_TRAINS, Korail_6th_4Car, 2531){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Korail_6th_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -130,7 +130,7 @@ item(FEAT_TRAINS, Korail_6th_6Car, 2532){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Korail_6th_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -184,6 +184,6 @@ item(FEAT_TRAINS, Korail_6th_8Car, 2533){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Korail_6th_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }

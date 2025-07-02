@@ -77,7 +77,7 @@ item(FEAT_TRAINS, Korail_3rd_ST_4car, 2222){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Korail_3rd_4car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_3rd_G1_sound;
+        sound_effect:                   sw_TOSHIBAIGBTKStart_sound;
         }
         }
 
@@ -131,7 +131,7 @@ item(FEAT_TRAINS, Korail_3rd_G2_4car, 2223){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Korail_3rd_G2_sound;
+        sound_effect:                   sw_DAWONSYSIGBTstart_sound;
         }
         }
 
@@ -186,7 +186,7 @@ item(FEAT_TRAINS, Korail_3rd_6car, 2224){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Korail_3rd_6car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_3rd_G1_sound;
+        sound_effect:                   sw_TOSHIBAIGBTKStart_sound;
         }
         }
 
@@ -296,6 +296,6 @@ item(FEAT_TRAINS, Korail_3rd_10car, 2226){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Korail_3rd_10car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_3rd_G1_sound;
+        sound_effect:                   sw_TOSHIBAIGBTKStart_sound;
         }
         }

@@ -80,27 +80,9 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Busanmetro_1st_1000_8car, extra_callba
     }
 
 // 사운드
-switch(FEAT_TRAINS, SELF, sw_Busanmetro_1st_1000_Chopper_6Car_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/Thyristor_Chopper_Start.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Busanmetro_1st_1000_Chopper_8Car_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/Thyristor_Chopper_Start.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/BTC_DOOR_CLOSE.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Busanmetro_1st_1000_8Car_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM1Kstart.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/BTC_DOOR_CLOSE.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-    
 switch(FEAT_TRAINS, SELF, sw_Busanmetro_1st_1000_sound, cargo_subtype) {
-    1: sw_Busanmetro_1st_1000_8Car_sound;
-    sw_Busanmetro_1st_1000_Chopper_8Car_sound;
+    1: sw_HYUNDAIROTEMIGBTIPM1Kstart_Busanmetro_sound;
+    sw_Thyristor_Chopper_Start_Busanmetro_sound;
 }
 
 // 속도변수

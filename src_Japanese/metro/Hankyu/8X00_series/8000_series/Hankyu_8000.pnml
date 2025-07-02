@@ -78,7 +78,7 @@ item(FEAT_TRAINS, Hankyu_8000_2Car, 2212){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Hankyu_8000_cargo_subtype_text;
-        sound_effect:                   sw_Hankyu_8000_sound;
+        sound_effect:                   sw_TOSHIBAGTOJStart_sound;
         }
         }
 
@@ -134,6 +134,6 @@ item(FEAT_TRAINS, Hankyu_8000_8Car, 2213){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Hankyu_8000_cargo_subtype_text;
-        sound_effect:                   sw_Hankyu_8000_sound;
+        sound_effect:                   sw_TOSHIBAGTOJStart_sound;
         }
         }

@@ -75,7 +75,7 @@ item(FEAT_TRAINS, KTX_Eum_6Car, 2423){
         articulated_part:               sw_articulated_KTX_Eum_6car;
         purchase:                       sw_KTX_Eum_purchase;
         loading_speed:                  25;
-        sound_effect:                   sw_KTX_Eum_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }
 
@@ -128,6 +128,6 @@ item(FEAT_TRAINS, KTX_Eum_12Car, 2426){
         articulated_part:               sw_articulated_KTX_Eum_12car;
         purchase:                       sw_KTX_Eum_purchase;
         loading_speed:                  25;
-        sound_effect:                   sw_KTX_Eum_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }

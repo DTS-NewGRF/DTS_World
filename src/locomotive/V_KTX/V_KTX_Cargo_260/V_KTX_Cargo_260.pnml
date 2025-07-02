@@ -75,7 +75,7 @@ item(FEAT_TRAINS, V_KTX_Cargo_260_6Car, 2556){
         articulated_part:               sw_articulated_V_KTX_Cargo_260_6car;
         purchase:                       sw_V_KTX_Cargo_260_purchase;
         loading_speed:                  25;
-        sound_effect:                   sw_V_KTX_Cargo_260_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }
 
@@ -128,6 +128,6 @@ item(FEAT_TRAINS, V_KTX_Cargo_260_12Car, 2557){
         articulated_part:               sw_articulated_V_KTX_Cargo_260_12car;
         purchase:                       sw_V_KTX_Cargo_260_purchase;
         loading_speed:                  25;
-        sound_effect:                   sw_V_KTX_Cargo_260_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }

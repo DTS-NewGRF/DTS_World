@@ -76,7 +76,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_4Car, 2286){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_2000_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1start_sound;
         }
         }
 
@@ -130,7 +130,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_6Car, 2287){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_2000_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1start_sound;
         }
         }
 
@@ -184,7 +184,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_8000_6Car, 2312){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_7000_sound;
+        sound_effect:                   sw_TOSHIBAIGBTKStart_sound;
         }
         }
 
@@ -238,7 +238,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_7000_8Car, 2313){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_7000_sound;
+        sound_effect:                   sw_TOSHIBAIGBTKStart_sound;
         }
         }
 
@@ -293,7 +293,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_2000_10Car, 2288){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Seoulmetro_2nd_2000_10car_cargo_subtype_text;
-        sound_effect:                   sw_Seoulmetro_2nd_2000_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1start_sound;
         }
         }
 
@@ -347,7 +347,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_3000_10Car, 2296){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_3000_sound;
+        sound_effect:                   sw_DAWONSYSIGBTstart_sound;
         }
         }
 

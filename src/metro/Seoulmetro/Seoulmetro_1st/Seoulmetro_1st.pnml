@@ -76,7 +76,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_4Car, 2283){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_1st_2000_3000_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1start_sound;
         }
         }
 
@@ -130,7 +130,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_9000_4Car, 2364){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_1st_2000_3000_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1start_sound;
         }
         }
 
@@ -184,7 +184,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_2000_6Car, 2284){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_1st_2000_3000_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1start_sound;
         }
         }
 
@@ -238,7 +238,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_4000_6Car, 2256){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_1st_GTO_sound;
+        sound_effect:                   sw_MITSUBISHIGTOKstart_sound;
         }
         }
 
@@ -293,7 +293,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_8000_6Car, 2308){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Seoulmetro_1st_7000_cargo_subtype_text;
-        sound_effect:                   sw_Seoulmetro_1st_7000_sound;
+        sound_effect:                   sw_ALSTOMGTOstart_sound;
         }
         }
 
@@ -347,7 +347,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_9000_6Car, 2365){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_1st_2000_3000_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1start_sound;
         }
         }
 
@@ -456,7 +456,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_6000_8Car, 2310){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_1st_6000_sound;
+        sound_effect:                   sw_MITSUBISHIigbtstart_sound;
         }
         }
 
@@ -511,7 +511,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_7000_8Car, 2309){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Seoulmetro_1st_7000_cargo_subtype_text;
-        sound_effect:                   sw_Seoulmetro_1st_7000_sound;
+        sound_effect:                   sw_ALSTOMGTOstart_sound;
         }
         }
 
@@ -621,6 +621,6 @@ item(FEAT_TRAINS, Seoulmetro_1st_2000_3000_10Car, 2285){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Seoulmetro_1st_2000_3000_10car_cargo_subtype_text;
-        sound_effect:                   sw_Seoulmetro_1st_2000_3000_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1start_sound;
         }
         }

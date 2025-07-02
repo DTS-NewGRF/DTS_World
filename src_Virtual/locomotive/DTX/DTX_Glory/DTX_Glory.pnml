@@ -56,6 +56,6 @@ item(FEAT_TRAINS, DTX_Glory_20Car, 2558){
         cost_factor:                    10;
         cargo_subtype_text:             sw_DTX_Glory_subtype_text;
         running_cost_factor:            sw_DTX_Glory_running_cost_factor;
-        sound_effect:                   sw_DTX_Glory_sound;
+        sound_effect:                   sw_osfx_65_sound;
         }
         }

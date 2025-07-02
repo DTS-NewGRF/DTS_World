@@ -1,0 +1,771 @@
+/*--------------------------------------------------------------------
+사운드 스위치
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+ABBGTOstart.wav
+적용열차
+- 서울교통공사 5000호대 1, 2세대
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_ABBGTOstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/ABBGTOstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+ALSTOM_IGBT_Start.wav
+적용열차
+- 인천교통공사 1000호대 1세대 1GBT 1lv
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_ALSTOM_IGBT_Start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/ALSTOM_IGBT_Start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+ALSTOMGTOstart.wav
+적용열차
+- 부산교통공사 2000호대
+- 서울교통공사 4000호대 2세대 GTO
+- 서울교통공사 7000호대
+- 서울교통공사 8000호대
+--------------------------------------------------------------------*/
+// 부산교통공사
+switch(FEAT_TRAINS, SELF, sw_ALSTOMGTOstart_Busanmetro_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/ALSTOMGTOstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/BTC_DOOR_CLOSE.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+// 그 외
+switch(FEAT_TRAINS, SELF, sw_ALSTOMGTOstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/ALSTOMGTOstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+Cummins_DMU_start.wav
+적용열차
+- CDC
+- RDC
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Cummins_DMU_start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/Cummins_DMU_start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+DAWONSYSIGBT2start.wav
+적용열차
+- ITX-마음, 마음 DD
+- 넥스트레인 1000호대
+- 서울교통공사 4000호대 4세대 VVVF 전동차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_DAWONSYSIGBT2start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DAWONSYSIGBT2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+DAWONSYSIGBTstart.wav
+적용열차
+- 대구교통공사 1000호대
+- 부산교통공사 2000호대
+- 서울교통공사 2000호대 3, 5세대
+- 서울교통공사 3000호대 2세대
+- 서울교통공사 4000호대 1세대_IGBT
+- 서울교통공사 5000호대 1세대_IGBT
+- 서울교통공사 7000호대 3, 4세대
+- 인천교통공사 1000호대 3세대
+- 한국철도공사 3세대 VVVF전동차 2차분
+--------------------------------------------------------------------*/
+// 부산교통공사
+switch(FEAT_TRAINS, SELF, sw_DAWONSYSIGBTstart_Busanmetro_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DAWONSYSIGBTstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/BTC_DOOR_CLOSE.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+// 그 외
+switch(FEAT_TRAINS, SELF, sw_DAWONSYSIGBTstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DAWONSYSIGBTstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+DCMOTER1start.wav
+적용열차
+- 한큐전철 6000, 6300형
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_DCMOTER1start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DCMOTER1start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+DCMOTER2start.wav
+적용열차
+- 서울교통공사 2000호대 저항제어 전동차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_DCMOTER2start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DCMOTER2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+DCMOTERBASICstart.wav
+적용열차
+- 니시테츠 1000, 2000, 5000, 6000, 8000형
+- 수도권 1호선 저항제어 전동차 [초기, 중기]
+- 우등형 전기동차 EEC
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_DCMOTERBASICstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DCMOTERBASICstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+DEL7000start.wav
+적용열차
+- 7000호대 디젤기관차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_DEL7000start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DEL7000start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    SOUND_EVENT_STOPPED: sound("sounds/DEL7000Idle.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+DEL7600start.wav
+적용열차
+- 7600호대 디젤전기기관차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_DEL7600start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DEL7600start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+E300_ALSTOM_GTO.wav
+적용열차
+- 유로스타 E300
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_E300_ALSTOM_GTO_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/E300_ALSTOM_GTO.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+FEL8500Start.wav
+적용열차
+- 8500호대 전기기관차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_FEL8500Start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/FEL8500Start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+Filed_Chopper_Control.wav
+적용열차
+- 한큐전철 7000, 7300형 Chopper
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Filed_Chopper_Control_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/Filed_Chopper_Control.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+GECCHOPPERstart.wav
+적용열차
+- 서울교통공사 2000호대 GEC초퍼 전동차
+- 서울교통공사 광폭형 초퍼 전동차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_GECCHOPPERstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/GECCHOPPERstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+GT18BMstart.wav
+적용열차
+- 4400호대 디젤기관차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_GT18BMstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/GT18BMstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    SOUND_EVENT_STOPPED: sound("sounds/GT26CWDIESELIdle.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+GT26CWDieselStart.wav
+적용열차
+- 7X00호대 디젤기관차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_GT26CWDieselStart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/GT26CWDieselStart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    SOUND_EVENT_STOPPED: sound("sounds/GT26CWDIESELIdle.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+HITACHIStart.wav
+적용열차
+- 누리로, 누리로 DD
+- 대구교통공사 3000호대
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_HITACHIStart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/HITACHIStart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+HYUNDAIROTEMIGBTIPM2start.wav
+적용열차
+- MEL-150
+- 서울교통공사 2000호대 4세대 VVVF 전동차
+- 서울교통공사 5000호대 3세대 VVVF 전동차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_HYUNDAIROTEMIGBTIPM2start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+HYUNDAIROTEMStart.wav
+적용열차
+- 광주교통공사 1000호대
+- 대전교통공사 1000호대
+- 한국형 표준전동차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_HYUNDAIROTEMStart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMStart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+HYUNDAIROTEMIGBTIPM1Kstart.wav
+적용열차
+- KTX-이음, 이음 DD, 청룡, 청룡 DD, 초월, 카고 (260, 320)
+- ITX-청천
+- 공항철도 1000호대 1세대
+- 공항철도 2000호대 1세대
+- 대구교통공사 2000호대
+- 부산교통공사 1000호대 1, 2세대 1차분
+- 부산교통공사 3000호대
+- 서울교통공사 4000호대 3세대 VVVF 전동차
+- 신분당선
+- 한국철도공사 392000호대 전동차
+- 해무
+--------------------------------------------------------------------*/
+// 부산교통공사
+switch(FEAT_TRAINS, SELF, sw_HYUNDAIROTEMIGBTIPM1Kstart_Busanmetro_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM1Kstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/BTC_DOOR_CLOSE.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+// 그외
+switch(FEAT_TRAINS, SELF, sw_HYUNDAIROTEMIGBTIPM1Kstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM1Kstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+HYUNDAIROTEMIGBTIPM1start.wav
+적용열차
+- 김포골드라인 전동차
+- 동북선 전동차
+- 서울교통공사 2000호대 1, 2세대
+- 서울교통공사 3000호대 1세대 VVVF 전동차
+- 서울교통공사 9000호대 1~4세대 전동차
+- 우이신설 전동차
+- 인천교통공사 1000호대 2세대
+- 자카르타 LRT
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_HYUNDAIROTEMIGBTIPM1start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM1start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+HYUNDAIROTEMPMSMstart.wav
+적용열차
+- AUTS(차세대전동차)
+- 한국철도공사 4세대 VVVF전동차 PMSM
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_HYUNDAIROTEMPMSMstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMPMSMstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+KTXSC140000start.wav
+적용열차
+- KTX-산천 B타입
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_KTXSC140000start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/KTXSC140000start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+KTXSCABstart.wav
+적용열차
+- KTX-산천 중련
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_KTXSCABstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/KTXSCABstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+/*--------------------------------------------------------------------
+KTXSCstart.wav
+적용열차
+- CTX
+- KTX-카고 300
+- KTX-산천, 산천 DD
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_KTXSCstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/KTXSCstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+MITSUBISHICHOPPER1start.wav
+적용열차
+- 서울교통공사 2000호대 멜코초퍼 전동차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_MITSUBISHICHOPPER1start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/MITSUBISHICHOPPER1start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+    
+/*--------------------------------------------------------------------
+MITSUBISHIGTO1start.wav
+적용열차
+- 니시테츠 6050형
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_MITSUBISHIGTO1start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/MITSUBISHIGTO1start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+MITSUBISHIGTOKstart.wav
+적용열차
+- 서울교통공사 1000, 4000호대 1세대 GTO
+- 한국철도공사 3000호대
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_MITSUBISHIGTOKstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/MITSUBISHIGTOKstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+MITSUBISHIigbtstart.wav
+적용열차
+- 서울교통공사 6000호대
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_MITSUBISHIigbtstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/MITSUBISHIigbtstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+MTU396TCstart.wav
+적용열차
+- DHC PP 새마을호
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_MTU396TCstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/MTU396TCstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+Old_DMU_start.wav
+적용열차
+- 디젤액압동차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Old_DMU_start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/Old_DMU_start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+osfx_65.wav
+적용열차
+- DFX
+- DPX
+- KTX-태극
+- VHST-600X
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_osfx_65_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/osfx_65.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+RotemIGCTstart.wav
+적용열차
+- HSR-350X
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_RotemIGCTstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/RotemIGCTstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+Siemens_IGBT_CHOPPER_start.wav
+적용열차
+- 의정부경전철
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Siemens_IGBT_CHOPPER_start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/Siemens_IGBT_CHOPPER_start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+SIEMENSGTO2locostart.wav
+적용열차
+- 8100호대 전기 기관차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_SIEMENSGTO2locostart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/SIEMENSGTO2locostart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+SIEMENSGTOlocostart.wav
+적용열차
+- 8200호대 전기 기관차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_SIEMENSGTOlocostart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/SIEMENSGTOlocostart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+SIEMENSGTOstart.wav
+적용열차
+- 대구교통공사 1000호대
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_SIEMENSGTOstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/SIEMENSGTOstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+SKODA_VVVF_IGBT_start.wav
+적용열차
+- 인천교통공사 2000호대
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_SKODA_VVVF_IGBT_start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/SKODA_VVVF_IGBT_start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TGV_Kstart.wav
+적용열차
+- KTX-1
+- TGV-레조, 듀플렉스 1세대, 레조 듀플렉스
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TGV_Kstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TGV_Kstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TGV_POS_IGBT_start.wav
+적용열차
+- TGV-Pos, 듀플렉스 2세대
+- 아벨리아 리버티
+- 알 보라크
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TGV_POS_IGBT_start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TGV_POS_IGBT_start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+Thyristor_Chopper_Start.wav
+적용열차
+- 부산교통공사 1세대 1000호대
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Thyristor_Chopper_Start_Busanmetro_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/Thyristor_Chopper_Start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+Thyristor_drive_start.wav
+적용열차
+- 8000호대 전기기관차
+- TGV-아틀랑티크, 쉬드 에스트
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Thyristor_drive_start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/Thyristor_drive_start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOSHIBA_IGBT_LIM_start.wav
+적용열차
+- 용인경전철
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOSHIBA_IGBT_LIM_start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBA_IGBT_LIM_start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOSHIBAGTOJ2start.wav
+적용열차
+- 신칸센 500계 16량
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOSHIBAGTOJ2start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAGTOJ2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOSHIBAGTOJStart.wav
+적용열차
+- 한큐 8000, 8200형
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOSHIBAGTOJStart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAGTOJStart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOSHIBAGTOKStrart.wav
+적용열차
+- 한국철도공사 1, 2세대 VVVF전동차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOSHIBAGTOKStrart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAGTOKStrart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOSHIBAIGBTJ2start.wav
+적용열차
+- 니시테츠 9000형
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOSHIBAIGBTJ2start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTJ2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOSHIBAIGBTJ3start.wav
+적용열차
+- 신칸센 500계 8량
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOSHIBAIGBTJ3start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTJ3start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOSHIBAIGBTJstart.wav
+적용열차
+- 니시테츠 3000, 7000, 7050
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOSHIBAIGBTJstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTJstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOSHIBAIGBTKStart.wav
+적용열차
+- 서울교통공사 2세대 7000호대 VVVF 전동차
+- 서울교통공사 8000호대 VVVF 전동차
+- 한국철도공사 1, 2, 3세대 1차분, 4세대 초기도입분
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOSHIBAIGBTKStart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTKStart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOSHIBAIGBTPMSMstart.wav
+적용열차
+- Glory 600
+- DTX-고려, 선덕, 세종, 소백, 태백
+- HYEL-15, 100, 150, 300, 350, 400
+- HYEL-무궁화, 무궁화 DD
+- 부산교통공사 2세대 1000호대 2,3차분
+- 부산교통공사 3세대 1000호대
+- 서울교통공사 4세대 5000, 8000호대
+- 서울교통공사 3세대 8000호대 VVVF 전동차
+- 서울교통공사 5세대 4000, 7000호대
+- 서울교통공사 6세대 7000호대
+- 서울교통공사 7세대 7000호대
+- 한국철도공사 6세대
+- 한큐전철 신 1000형
+- 한큐 7000형 VVVF
+--------------------------------------------------------------------*/
+// 부산교통공사
+switch(FEAT_TRAINS, SELF, sw_TOSHIBAIGBTPMSMstart_Busanmetro_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTPMSMstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/BTC_DOOR_CLOSE.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+// 그외
+switch(FEAT_TRAINS, SELF, sw_TOSHIBAIGBTPMSMstart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTPMSMstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOSHIBASicStart.wav
+적용열차
+- CL-150
+- GTX
+- HYEL-120
+- HYEL-강산
+- IMR-001
+- KTX-온누리
+- PEX-SUPER
+- 공항철도 2000호대 4세대
+- 니시테츠 9000형
+- 우진산전 수소연료전지동차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOSHIBASicStart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBASicStart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOSHIBAStart.wav
+적용열차
+- ITX-새마을 DD, 청춘, 초월
+- TTX
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOSHIBAStart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAStart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOYODENKIGTOStart.wav
+적용열차
+- 한큐 8300형
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOYODENKIGTOStart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOYODENKIGTOStart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOYODENKIIGBT2start.wav
+적용열차
+- 한큐 신1300, 7300형
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOYODENKIIGBT2start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOYODENKIIGBT2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+TOYODENKIIGBTStart.wav
+적용열차
+- 한큐 9300형
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOYODENKIIGBTStart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOYODENKIIGBTStart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+WOOJIN_IGBT_1start.wav
+적용열차
+- 서울교통공사 4000호대 2세대 IGBT
+- 인천교통공사 1000호대 1세대 1GBT 2lv
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_WOOJIN_IGBT_1start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/WOOJIN_IGBT_1start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+WOOJIN_IGBT_2start.wav
+적용열차
+- 부산교통공사 2000호대
+- 신림선 전동차
+- 양산 도시철도
+- 한국철도공사 3세대 전동차
+- 한국철도공사 5세대 VVVF전동차
+--------------------------------------------------------------------*/
+// 부산교통공사
+switch(FEAT_TRAINS, SELF, sw_WOOJIN_IGBT_2start_Busanmetro_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/WOOJIN_IGBT_2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/BTC_DOOR_CLOSE.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+// 그외
+switch(FEAT_TRAINS, SELF, sw_WOOJIN_IGBT_2start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/WOOJIN_IGBT_2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+WOOJINMITSUBISHIIGBT2start.wav
+적용열차
+- CL-150, 180
+- 한국철도공사 5세대 VVVF전동차 소프트웨어 개선
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_WOOJINMITSUBISHIIGBT2start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/WOOJINMITSUBISHIIGBT2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }

@@ -76,7 +76,7 @@ item(FEAT_TRAINS, V_KTX_Cargo_320_8Car, 2553){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_V_KTX_Cargo_320_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }
 
@@ -130,6 +130,6 @@ item(FEAT_TRAINS, V_KTX_Cargo_320_16Car, 2554){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_V_KTX_Cargo_320_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }

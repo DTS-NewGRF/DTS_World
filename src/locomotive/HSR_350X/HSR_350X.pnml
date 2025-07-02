@@ -76,7 +76,7 @@ item(FEAT_TRAINS, HSR_350X_7Car, 2027){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_HSR_350X_sound;
+        sound_effect:                   sw_RotemIGCTstart_sound;
         }
         }
 
@@ -131,6 +131,6 @@ item(FEAT_TRAINS, HSR_350X_14Car, 2005){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_HSR_350X_sound;
+        sound_effect:                   sw_RotemIGCTstart_sound;
         }
         }

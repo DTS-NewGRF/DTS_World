@@ -60,6 +60,6 @@ item(FEAT_TRAINS, KTX_1_20Car, 2322){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_KTX_1_cargo_subtype_text;
-        sound_effect:                   sw_KTX_1_sound;
+        sound_effect:                   sw_TGV_Kstart_sound;
         }
         }

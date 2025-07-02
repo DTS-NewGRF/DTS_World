@@ -58,6 +58,6 @@ item(FEAT_TRAINS, V_KTX_Cheong_Ryong_DD_8Car, 2023){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_V_KTX_Cheong_Ryong_DD_cargo_subtype_text;
-        sound_effect:                   sw_V_KTX_Cheong_Ryong_DD_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }

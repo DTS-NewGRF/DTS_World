@@ -75,7 +75,7 @@ item(FEAT_TRAINS, Nextrain_3Car, 2421){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Nextrain_1000_sound;
+        sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
         }
 
@@ -129,6 +129,6 @@ item(FEAT_TRAINS, Nextrain_4Car, 2422){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Nextrain_1000_sound;
+        sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
         }

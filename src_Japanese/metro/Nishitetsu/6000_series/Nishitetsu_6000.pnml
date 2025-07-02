@@ -76,7 +76,7 @@ item(FEAT_TRAINS, Nishitetsu_6000_3Car, 2101){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Nishitetsu_6000_sound;
+        sound_effect:                   sw_DCMOTERBASICstart_sound;
         }
         }
 
@@ -130,7 +130,7 @@ item(FEAT_TRAINS, Nishitetsu_6000_4Car, 2119){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Nishitetsu_6000_sound;
+        sound_effect:                   sw_DCMOTERBASICstart_sound;
         }
         }
 
@@ -184,7 +184,7 @@ item(FEAT_TRAINS, Nishitetsu_6050_3Car, 2181){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Nishitetsu_6050_sound;
+        sound_effect:                   sw_MITSUBISHIGTO1start_sound;
         }
         }
 
@@ -238,6 +238,6 @@ item(FEAT_TRAINS, Nishitetsu_6050_4Car, 2182){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Nishitetsu_6050_sound;
+        sound_effect:                   sw_MITSUBISHIGTO1start_sound;
         }
         }

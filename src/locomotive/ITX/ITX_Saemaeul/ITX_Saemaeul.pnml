@@ -57,6 +57,6 @@ item(FEAT_TRAINS, ITX_Saemaeul_6Car, 2327){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_ITX_Saemaeul_sound;
+        sound_effect:                   sw_TOSHIBAStart_sound;
         }
         }

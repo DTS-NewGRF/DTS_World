@@ -59,6 +59,6 @@ item(FEAT_TRAINS, TGV_A_12Car, 2080){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_TGV_A_cargo_subtype_text;
-        sound_effect:                   sw_TGV_A_sound;
+        sound_effect:                   sw_Thyristor_drive_start_sound;
         }
         }

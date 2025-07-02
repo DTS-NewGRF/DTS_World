@@ -74,7 +74,7 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_8Car, 2479){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_V_KTX_Taegeuk_sound;
+        sound_effect:                   sw_osfx_65_sound;
         }
         }
 
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_10Car, 2480){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_V_KTX_Taegeuk_sound;
+        sound_effect:                   sw_osfx_65_sound;
         }
         }
 
@@ -178,7 +178,7 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_16Car, 2481){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_V_KTX_Taegeuk_sound;
+        sound_effect:                   sw_osfx_65_sound;
         }
         }
 
@@ -230,6 +230,6 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_20Car, 2482){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_V_KTX_Taegeuk_sound;
+        sound_effect:                   sw_osfx_65_sound;
         }
         }

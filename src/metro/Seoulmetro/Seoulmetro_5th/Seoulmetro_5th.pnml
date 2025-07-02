@@ -76,7 +76,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_2000_6Car, 2290){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_5th_2000_sound;
+        sound_effect:                   sw_DAWONSYSIGBTstart_sound;
         }
         }
 
@@ -130,7 +130,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_5000_8Car, 2401){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_5th_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -184,7 +184,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_7000_8Car, 2303){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_5th_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -238,6 +238,6 @@ item(FEAT_TRAINS, Seoulmetro_5th_4000_10Car, 2399){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_5th_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }

@@ -196,25 +196,13 @@ switch (FEAT_TRAINS, SELF, sw_articulated_TGV_Duplex_10car, extra_callback_info1
     }
 
 //사운드
-switch(FEAT_TRAINS, SELF, sw_TGV_Duplex_1st_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/TGV_Kstart.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_TGV_Duplex_2nd_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/TGV_POS_IGBT_start.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
 switch(FEAT_TRAINS, SELF, sw_TGV_Duplex_sound, cargo_subtype) {
-    1: sw_TGV_Duplex_2nd_sound;
-    2: sw_TGV_Duplex_1st_sound;
-    3: sw_TGV_Duplex_2nd_sound;
-    4: sw_TGV_Duplex_2nd_sound;
-    5: sw_TGV_Duplex_2nd_sound;
-    sw_TGV_Duplex_1st_sound;
+    1: sw_TGV_POS_IGBT_start_sound;
+    2: sw_TGV_Kstart_sound;
+    3: sw_TGV_POS_IGBT_start_sound;
+    4: sw_TGV_POS_IGBT_start_sound;
+    5: sw_TGV_POS_IGBT_start_sound;
+    sw_TGV_Kstart_sound;
 }
 
 // 속도변수

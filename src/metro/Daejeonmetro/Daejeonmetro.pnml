@@ -57,6 +57,6 @@ item(FEAT_TRAINS, Daejeonmetro_1000_4Car, 2416){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Daejeonmetro_1000_sound;
+        sound_effect:                   sw_HYUNDAIROTEMStart_sound;
         }
         }

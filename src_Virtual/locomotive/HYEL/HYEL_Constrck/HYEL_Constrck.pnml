@@ -58,7 +58,7 @@ item(FEAT_TRAINS, HYEL_Constrck, 2320){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYEL_Constrck_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         additional_text:                string(STR_REFIT_train_configuration_Constrck);
         }
         }

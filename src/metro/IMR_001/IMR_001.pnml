@@ -75,7 +75,7 @@ item(FEAT_TRAINS, IMR_001_6Car, 2536){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_IMR_001_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -129,6 +129,6 @@ item(FEAT_TRAINS, IMR_001_8Car, 2537){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_IMR_001_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }

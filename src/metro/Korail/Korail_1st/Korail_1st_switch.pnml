@@ -436,47 +436,29 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Korail_1st_10car, extra_callback_info1
     }
 
 // 사운드
-switch(FEAT_TRAINS, SELF, sw_Korail_1st_IGBT_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTKStart.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Korail_1st_GTO_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/TOSHIBAGTOKStrart.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Korail_1st_3000_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/MITSUBISHIGTOKstart.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_4Car_sound, cargo_subtype) {
-    1: sw_Korail_1st_IGBT_sound;
-    sw_Korail_1st_GTO_sound;
+    1: sw_TOSHIBAIGBTKStart_sound;
+    sw_TOSHIBAGTOKStrart_sound;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_6Car_sound, cargo_subtype) {
-    1: sw_Korail_1st_GTO_sound;
-    2: sw_Korail_1st_IGBT_sound;
-    3: sw_Korail_1st_IGBT_sound;
-    sw_Korail_1st_GTO_sound;
+    1: sw_TOSHIBAGTOKStrart_sound;
+    2: sw_TOSHIBAIGBTKStart_sound;
+    3: sw_TOSHIBAIGBTKStart_sound;
+    sw_TOSHIBAGTOKStrart_sound;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_10Car_sound, cargo_subtype) {
-    1: sw_Korail_1st_IGBT_sound;
-    2: sw_Korail_1st_IGBT_sound;
-    3: sw_Korail_1st_GTO_sound;
-    4: sw_Korail_1st_GTO_sound;
-    5: sw_Korail_1st_GTO_sound;
-    6: sw_Korail_1st_GTO_sound;
-    7: sw_Korail_1st_3000_sound;
-    8: sw_Korail_1st_3000_sound;
-    9: sw_Korail_1st_IGBT_sound;
-    sw_Korail_1st_GTO_sound;
+    1: sw_TOSHIBAIGBTKStart_sound;
+    2: sw_TOSHIBAIGBTKStart_sound;
+    3: sw_TOSHIBAGTOKStrart_sound;
+    4: sw_TOSHIBAGTOKStrart_sound;
+    5: sw_TOSHIBAGTOKStrart_sound;
+    6: sw_TOSHIBAGTOKStrart_sound;
+    7: sw_MITSUBISHIGTOKstart_sound;
+    8: sw_MITSUBISHIGTOKstart_sound;
+    9: sw_TOSHIBAIGBTKStart_sound;
+    sw_TOSHIBAGTOKStrart_sound;
 }
 
 // 속도변수

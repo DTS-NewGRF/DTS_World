@@ -56,6 +56,6 @@ item(FEAT_TRAINS, DEL7600, 2015){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_DEL7600_cargo_subtype_text;
-        sound_effect:                   sw_DEL7600_sound;
+        sound_effect:                   sw_DEL7600start_sound;
         }
         }

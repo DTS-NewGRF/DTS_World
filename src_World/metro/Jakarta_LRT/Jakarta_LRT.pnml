@@ -57,6 +57,6 @@ item(FEAT_TRAINS, Jakarta_LRT_2Car, 2434){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Jakarta_LRT_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1start_sound;
         }
         }

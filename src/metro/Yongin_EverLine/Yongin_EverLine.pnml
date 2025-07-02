@@ -57,6 +57,6 @@ item(FEAT_TRAINS, Yongin_EverLine_2Car, 2411){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Yongin_EverLine_sound;
+        sound_effect:                   sw_TOSHIBA_IGBT_LIM_start_sound;
         }
         }

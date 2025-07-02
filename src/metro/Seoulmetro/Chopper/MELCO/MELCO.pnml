@@ -76,7 +76,7 @@ item(FEAT_TRAINS, Chopper_MELCO_4Car, 2270){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Chopper_MELCO_sound;
+        sound_effect:                   sw_MITSUBISHICHOPPER1start_sound;
         }
         }
 
@@ -130,7 +130,7 @@ item(FEAT_TRAINS, Chopper_MELCO_6Car, 2271){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Chopper_MELCO_sound;
+        sound_effect:                   sw_MITSUBISHICHOPPER1start_sound;
         }
         }
 
@@ -185,6 +185,6 @@ item(FEAT_TRAINS, Chopper_MELCO_10Car, 2272){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Chopper_MELCO_cargo_subtype_text;
-        sound_effect:                   sw_Chopper_MELCO_sound;
+        sound_effect:                   sw_MITSUBISHICHOPPER1start_sound;
         }
         }

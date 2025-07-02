@@ -79,7 +79,7 @@ item (FEAT_TRAINS, HYEL_PEX_Super_8Car, 2436){
         running_cost_factor:            150;
         cargo_capacity:                 sw_HYEL_PEX_Super_8car_capacity_in_custom;
         cargo_subtype_text:             sw_HYEL_PEX_Super_cargo_subtype_text;
-        sound_effect:                   sw_HYEL_PEX_Super_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -135,7 +135,7 @@ item (FEAT_TRAINS, HYEL_PEX_Super_10Car, 2437){
         running_cost_factor:            150;
         cargo_capacity:                 sw_HYEL_PEX_Super_10car_capacity_in_custom;
         cargo_subtype_text:             sw_HYEL_PEX_Super_cargo_subtype_text;
-        sound_effect:                   sw_HYEL_PEX_Super_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -191,6 +191,6 @@ item (FEAT_TRAINS, HYEL_PEX_Super_14Car, 2438){
         running_cost_factor:            150;
         cargo_capacity:                 sw_HYEL_PEX_Super_14car_capacity_in_custom;
         cargo_subtype_text:             sw_HYEL_PEX_Super_14Car_cargo_subtype_text;
-        sound_effect:                   sw_HYEL_PEX_Super_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }

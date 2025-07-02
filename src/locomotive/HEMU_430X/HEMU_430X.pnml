@@ -74,7 +74,7 @@ item(FEAT_TRAINS, HEMU_430X_6Car, 2028){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_HEMU_430_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }
 
@@ -127,6 +127,6 @@ item(FEAT_TRAINS, HEMU_430X_8Car, 2127){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_HEMU_430_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }

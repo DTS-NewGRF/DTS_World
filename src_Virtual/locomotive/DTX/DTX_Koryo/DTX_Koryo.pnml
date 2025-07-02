@@ -75,7 +75,7 @@ item(FEAT_TRAINS, DTX_Koryo_8Car, 2486){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DTX_Koryo_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -128,7 +128,7 @@ item(FEAT_TRAINS, DTX_Koryo_10Car, 2487){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DTX_Koryo_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -181,7 +181,7 @@ item(FEAT_TRAINS, DTX_Koryo_16Car, 2488){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DTX_Koryo_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -234,6 +234,6 @@ item(FEAT_TRAINS, DTX_Koryo_20Car, 2489){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DTX_Koryo_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }

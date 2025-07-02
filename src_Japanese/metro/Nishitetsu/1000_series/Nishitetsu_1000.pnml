@@ -58,6 +58,6 @@ item(FEAT_TRAINS, Nishitetsu_1000_4Car, 2097){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Nishitetsu_1000_cargo_subtype_text;
-        sound_effect:                   sw_Nishitetsu_1000_sound;
+        sound_effect:                   sw_DCMOTERBASICstart_sound;
         }
         }

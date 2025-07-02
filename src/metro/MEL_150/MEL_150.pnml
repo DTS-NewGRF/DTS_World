@@ -75,7 +75,7 @@ item(FEAT_TRAINS, MEL_150_4Car, 2136){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_MEL_150_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
         }
         }
 
@@ -129,7 +129,7 @@ item(FEAT_TRAINS, MEL_150_6Car, 2236){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_MEL_150_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
         }
         }
 
@@ -184,7 +184,7 @@ item(FEAT_TRAINS, MEL_150_8Car, 2165){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_MEL_150_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
         cargo_subtype_text:             sw_MEL_150_cargo_subtype_text;
         }
         }
@@ -240,7 +240,7 @@ item(FEAT_TRAINS, MEL_150_10Car, 2137){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_MEL_150_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
         cargo_subtype_text:             sw_MEL_150_cargo_subtype_text;
         }
         }
@@ -295,6 +295,6 @@ item(FEAT_TRAINS, MEL_150_12Car, 2138){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_MEL_150_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
         }
         }

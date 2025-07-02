@@ -57,6 +57,6 @@ item(FEAT_TRAINS, Hankyu_8200_2Car, 2445){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Hankyu_8200_sound;
+        sound_effect:                   sw_TOSHIBAGTOJStart_sound;
         }
         }

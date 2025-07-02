@@ -76,7 +76,7 @@ item(FEAT_TRAINS, Nishitetsu_3000_2Car, 2099){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Nishitetsu_3000_sound;
+        sound_effect:                   sw_TOSHIBAIGBTJstart_sound;
         }
         }
     
@@ -130,7 +130,7 @@ item(FEAT_TRAINS, Nishitetsu_3000_3Car, 2083){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Nishitetsu_3000_sound;
+        sound_effect:                   sw_TOSHIBAIGBTJstart_sound;
         }
         }
 
@@ -184,6 +184,6 @@ item(FEAT_TRAINS, Nishitetsu_3000_5Car, 2105){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Nishitetsu_3000_sound;
+        sound_effect:                   sw_TOSHIBAIGBTJstart_sound;
         }
         }

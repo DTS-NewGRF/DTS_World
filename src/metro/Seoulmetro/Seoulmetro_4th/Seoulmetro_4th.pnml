@@ -76,7 +76,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_4Car, 2295){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_4th_2000_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
         }
         }
 
@@ -130,7 +130,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_8000_6Car, 2400){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_4th_8000_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -184,7 +184,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_9000_6Car, 2366){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_4th_9000_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1start_sound;
         }
         }
 
@@ -238,7 +238,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_5000_8Car, 2302){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_4th_5000_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -292,7 +292,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_7000_8Car, 2315){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_4th_7000_sound;
+        sound_effect:                   sw_DAWONSYSIGBTstart_sound;
         }
         }
 
@@ -347,7 +347,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_2000_10Car, 2293){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_4th_2000_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
         }
         }
 
@@ -401,6 +401,6 @@ item(FEAT_TRAINS, Seoulmetro_4th_4000_10Car, 2297){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_4th_4000_sound;
+        sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
         }

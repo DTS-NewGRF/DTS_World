@@ -68,13 +68,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_DTX_Sobaek_10car, extra_callback_info1
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-// 사운드
-switch(FEAT_TRAINS, SELF, sw_DTX_Sobaek_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTPMSMstart.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
 // 속도변수
 switch(FEAT_TRAINS, SELF, sw_DTX_Sobaek_150_speed, Use_max_virtual_speed) {
     1: return Regular_Speed_Train;

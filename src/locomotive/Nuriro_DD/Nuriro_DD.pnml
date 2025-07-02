@@ -57,6 +57,6 @@ item(FEAT_TRAINS, Nuriro_DD_4Car, 2012){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Nuriro_DD_cargo_subtype_text;
-        sound_effect:                   sw_Nuriro_DD_sound;
+        sound_effect:                   sw_HITACHIStart_sound;
         }
         }

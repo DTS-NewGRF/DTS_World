@@ -78,7 +78,7 @@ item(FEAT_TRAINS, DHC_PP_4Car, 2357){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DHC_PP_sound;
+        sound_effect:                   sw_MTU396TCstart_sound;
         }
         }
 
@@ -133,7 +133,7 @@ item(FEAT_TRAINS, DHC_PP_5Car, 2358){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DHC_PP_sound;
+        sound_effect:                   sw_MTU396TCstart_sound;
         }
         }
 
@@ -191,7 +191,7 @@ item(FEAT_TRAINS, DHC_PP_6Car, 2359){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DHC_PP_sound;
+        sound_effect:                   sw_MTU396TCstart_sound;
         }
         }
 
@@ -248,7 +248,7 @@ item(FEAT_TRAINS, DHC_PP_7Car, 2360){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DHC_PP_sound;
+        sound_effect:                   sw_MTU396TCstart_sound;
         }
         }
 
@@ -305,7 +305,7 @@ item(FEAT_TRAINS, DHC_PP_8Car, 2361){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DHC_PP_sound;
+        sound_effect:                   sw_MTU396TCstart_sound;
         }
         }
 
@@ -360,7 +360,7 @@ item(FEAT_TRAINS, DHC_PP_14Car, 2362){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DHC_PP_sound;
+        sound_effect:                   sw_MTU396TCstart_sound;
         }
         }
 
@@ -416,6 +416,6 @@ item(FEAT_TRAINS, DHC_PP_16Car, 2363){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DHC_PP_sound;
+        sound_effect:                   sw_MTU396TCstart_sound;
         }
         }

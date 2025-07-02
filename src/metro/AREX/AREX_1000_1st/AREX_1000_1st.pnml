@@ -58,6 +58,6 @@ item(FEAT_TRAINS, APEX_1000_1st_6Car, 2340){
         speed:                          sw_AREX_1000_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_AREX_1000_1st_cargo_subtype_text;
-        sound_effect:                   sw_AREX_1000_1st_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }

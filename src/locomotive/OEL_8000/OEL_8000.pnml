@@ -56,6 +56,6 @@ item(FEAT_TRAINS, OEL8000, 2417){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_OEL8000_cargo_subtype_text;
-        sound_effect:                   sw_OEL8000_sound;
+        sound_effect:                   sw_Thyristor_drive_start_sound;
         }
         }

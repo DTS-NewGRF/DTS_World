@@ -58,6 +58,6 @@ item(FEAT_TRAINS, ITX_CheongChun_8Car, 2354){
         speed:                          sw_ITX_CheongChun_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_ITX_CheongChun_cargo_subtype_text;
-        sound_effect:                   sw_ITX_CheongChun_sound;
+        sound_effect:                   sw_TOSHIBAStart_sound;
         }
         }

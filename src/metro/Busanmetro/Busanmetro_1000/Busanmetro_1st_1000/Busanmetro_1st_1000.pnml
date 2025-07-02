@@ -76,7 +76,7 @@ item(FEAT_TRAINS, Busanmetro_1st_1000_6Car, 2244){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Busanmetro_1st_1000_Chopper_6Car_sound;
+        sound_effect:                   sw_Thyristor_Chopper_Start_Busanmetro_sound;
         }
         }
 

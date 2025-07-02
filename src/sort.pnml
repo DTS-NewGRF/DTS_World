@@ -346,8 +346,11 @@ sort(FEAT_TRAINS, [
     HYEL_120,                                //2279
     HYEL_120_1Car,                           //2128
     HYEL_120_Dual,                           //2280
+    HYEL_Gangsan,                            //2562
     HYEL_Gangsan_3Car,                       //2281
     HYEL_Gangsan_4Car,                       //2282
+    HYEL_Gangsan_6Car,                       //2563
+    HYEL_Gangsan_8Car,                       //2564
     HYEL_150,                                //2141
     HYEL_300,                                //2483
     HYEL_300_8Car,                           //2110

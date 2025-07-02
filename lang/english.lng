@@ -293,8 +293,11 @@ STR_HYEL_400_8Car_NAME                                 :[8Car] HYEL-400
 STR_HYEL_400_10Car_NAME                                :[10Car] HYEL-400
 STR_HYEL_400_16Car_NAME                                :[16Car] HYEL-400
 STR_HYEL_Constrck_NAME                                 :[12Car] construction vehicle
+STR_Group_HYEL_Gangsan_NAME                            :HYEL-Gangsan
 STR_HYEL_Gangsan_3Car_NAME                             :[3Car] HYEL-Gangsan
 STR_HYEL_Gangsan_4Car_NAME                             :[4Car] HYEL-Gangsan
+STR_HYEL_Gangsan_6Car_NAME                             :[6Car] HYEL-Gangsan
+STR_HYEL_Gangsan_8Car_NAME                             :[8Car] HYEL-Gangsan
 STR_Group_HYEL_Mugunhwa_NAME                           :HYEL-Mugunhwa
 STR_HYEL_Mugunhwa_4Car_NAME                            :[4Car] HYEL-Mugunhwa
 STR_HYEL_Mugunhwa_6Car_NAME                            :[6Car] HYEL-Mugunhwa

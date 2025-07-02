@@ -76,7 +76,7 @@ item(FEAT_TRAINS, Eurostar_E300_16Car, 2545){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Eurostar_E300_cargo_subtype_text;
-        sound_effect:                   sw_Eurostar_E300_sound;
+        sound_effect:                   sw_E300_ALSTOM_GTO_sound;
         }
         }
 
@@ -132,6 +132,6 @@ item(FEAT_TRAINS, Eurostar_E300_20Car, 2065){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Eurostar_E300_cargo_subtype_text;
-        sound_effect:                   sw_Eurostar_E300_sound;
+        sound_effect:                   sw_E300_ALSTOM_GTO_sound;
         }
         }

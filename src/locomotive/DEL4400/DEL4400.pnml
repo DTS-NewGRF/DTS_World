@@ -57,6 +57,6 @@ item(FEAT_TRAINS, DEL4400, 2396){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_DEL4400_cargo_subtype_text;
-        sound_effect:                   sw_DEL4400_sound;
+        sound_effect:                   sw_GT18BMstart_sound;
         }
         }

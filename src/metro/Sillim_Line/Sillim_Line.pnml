@@ -57,6 +57,6 @@ item(FEAT_TRAINS, Sillim_Line_3Car, 2414){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Sillim_Line_sound;
+        sound_effect:                   sw_WOOJIN_IGBT_2start_sound;
         }
         }

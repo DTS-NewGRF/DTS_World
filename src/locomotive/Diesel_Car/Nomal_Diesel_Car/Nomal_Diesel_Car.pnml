@@ -76,7 +76,7 @@ item(FEAT_TRAINS, Nomal_Diesel_Car, 2467){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Nomal_Diesel_Car_cargo_subtype_text;
-        sound_effect:                   sw_Nomal_Diesel_Car_sound;
+        sound_effect:                   sw_Old_DMU_start_sound;
         }
         }
 
@@ -132,7 +132,7 @@ item(FEAT_TRAINS, Nomal_Diesel_2Car_addcar, 2539){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Nomal_Diesel_2Car_cargo_subtype_text;
-        sound_effect:                   sw_Nomal_Diesel_Car_sound;
+        sound_effect:                   sw_Old_DMU_start_sound;
         }
         }
 
@@ -188,6 +188,6 @@ item(FEAT_TRAINS, Nomal_Diesel_2Car, 2540){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Nomal_Diesel_Car_2car_1985_cargo_subtype_text;
-        sound_effect:                   sw_Nomal_Diesel_Car_sound;
+        sound_effect:                   sw_Old_DMU_start_sound;
         }
         }

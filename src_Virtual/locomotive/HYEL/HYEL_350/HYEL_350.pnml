@@ -77,7 +77,7 @@ item(FEAT_TRAINS, HYEL_350_8Car, 2497){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYEL_350_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -132,7 +132,7 @@ item(FEAT_TRAINS, HYEL_350_10Car, 2498){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYEL_350_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -187,7 +187,7 @@ item(FEAT_TRAINS, HYEL_350_16Car, 2499){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYEL_350_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -242,6 +242,6 @@ item(FEAT_TRAINS, HYEL_350_20Car, 2500){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYEL_350_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }

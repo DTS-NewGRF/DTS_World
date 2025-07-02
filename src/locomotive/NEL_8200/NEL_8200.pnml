@@ -55,6 +55,6 @@ item(FEAT_TRAINS, NEL_8200, 2177){
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_NEL_8200_sound;
+        sound_effect:                   sw_SIEMENSGTOlocostart_sound;
         }
         }

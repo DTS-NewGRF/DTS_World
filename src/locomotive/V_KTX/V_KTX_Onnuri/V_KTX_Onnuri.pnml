@@ -76,7 +76,7 @@ item(FEAT_TRAINS, V_KTX_Onnuri_8Car, 2509){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_V_KTX_Onnuri_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -130,7 +130,7 @@ item(FEAT_TRAINS, V_KTX_Onnuri_10Car, 2510){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_V_KTX_Onnuri_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -184,6 +184,6 @@ item(FEAT_TRAINS, V_KTX_Onnuri_16Car, 2529){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_V_KTX_Onnuri_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }

@@ -57,6 +57,6 @@ item(FEAT_TRAINS, Uijeongbu_Line_2Car, 2413){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Uijeongbu_Line_sound;
+        sound_effect:                   sw_Siemens_IGBT_CHOPPER_start_sound;
         }
         }

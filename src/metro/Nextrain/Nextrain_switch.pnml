@@ -61,13 +61,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Nextrain_1000_4car, extra_callback_inf
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-// 사운드
-switch(FEAT_TRAINS, SELF, sw_Nextrain_1000_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/DAWONSYSIGBT2start.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
 // 속도변수
 switch(FEAT_TRAINS, SELF, sw_Nextrain_1000_speed, Use_max_virtual_speed) {
     1: return Metro_Speed_Train;

@@ -75,7 +75,7 @@ item(FEAT_TRAINS, Shinkansen_500_8Car, 2086){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Shinkansen_500_8Car_sound;
+        sound_effect:                   sw_TOSHIBAIGBTJ3start_sound;
         }
         }
 
@@ -129,6 +129,6 @@ item(FEAT_TRAINS, Shinkansen_500_16Car, 2062){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Shinkansen_500_16Car_sound;
+        sound_effect:                   sw_TOSHIBAGTOJ2start_sound;
         }
         }

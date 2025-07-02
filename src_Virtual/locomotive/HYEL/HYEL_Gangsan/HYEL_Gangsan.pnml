@@ -8,6 +8,25 @@ HYEL-강산
 #include "HYEL_Gangsan_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Gangsan, 2562){
+    property {
+        name:                           string(STR_Group_HYEL_Gangsan_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          8800 kW;
+        variant_group:                  HYEL_Logo;
+        }
+
+    graphics {
+        purchase:                       sw_HYEL_Gangsan_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_Gangsan_3Car, 2281){
@@ -18,7 +37,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_3Car, 2281){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HYEL_Logo;
+        variant_group:                  HYEL_Gangsan;
         
         //spec
         speed:                          150km/h;
@@ -35,7 +54,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_3Car, 2281){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 58;
+        cargo_capacity:                 39;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -57,7 +76,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_3Car, 2281){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYEL_Gangsan_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -72,7 +91,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_4Car, 2282){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HYEL_Logo;
+        variant_group:                  HYEL_Gangsan;
         
         //spec
         speed:                          150km/h;
@@ -111,6 +130,114 @@ item(FEAT_TRAINS, HYEL_Gangsan_4Car, 2282){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYEL_Gangsan_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Gangsan_6Car, 2563){
+    property {
+        name:                           string(STR_HYEL_Gangsan_6Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2031, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_Gangsan;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          11000 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 48;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_Gangsan_6car_reversed;
+        articulated_part:               sw_articulated_HYEL_Gangsan_6car;
+        purchase:                       sw_HYEL_Gangsan_purchase;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Gangsan_8Car, 2564){
+    property {
+        name:                           string(STR_HYEL_Gangsan_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2031, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_Gangsan;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          11000 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_Gangsan_8car_reversed;
+        articulated_part:               sw_articulated_HYEL_Gangsan_8car;
+        purchase:                       sw_HYEL_Gangsan_purchase;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }

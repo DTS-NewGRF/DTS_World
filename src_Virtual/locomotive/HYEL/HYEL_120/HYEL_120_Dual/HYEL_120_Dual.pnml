@@ -57,6 +57,6 @@ item(FEAT_TRAINS, HYEL_120_Dual, 2280){
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYEL_120_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }

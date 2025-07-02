@@ -56,6 +56,6 @@ item(FEAT_TRAINS, FEL_8500, 2016){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_FEL_8500_cargo_subtype_text;
-        sound_effect:                   sw_FEL_8500_sound;
+        sound_effect:                   sw_FEL8500Start_sound;
         }
         }

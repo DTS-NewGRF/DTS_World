@@ -228,13 +228,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_TGV_Sud_Est_10car, extra_callback_info
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-//사운드
-switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/Thyristor_drive_start.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
 // 속도변수
 switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_Real_speed, cargo_subtype) {
     1: return 299;

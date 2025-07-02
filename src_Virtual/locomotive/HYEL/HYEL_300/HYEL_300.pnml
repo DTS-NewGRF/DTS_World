@@ -78,7 +78,7 @@ item(FEAT_TRAINS, HYEL_300_8Car, 2110){
         loading_speed:                  25;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_HYEL_300_cargo_subtype_text;
-        sound_effect:                   sw_HYEL_300_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -134,6 +134,6 @@ item(FEAT_TRAINS, HYEL_300_10Car, 2484){
         loading_speed:                  25;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_HYEL_300_cargo_subtype_text;
-        sound_effect:                   sw_HYEL_300_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }

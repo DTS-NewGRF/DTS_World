@@ -57,6 +57,6 @@ item(FEAT_TRAINS, V_KTX_Eum_6Car, 2020){
         purchase:                       sw_V_KTX_Eum_purchase;
         loading_speed:                  25;
         cargo_subtype_text:             sw_V_KTX_Eum_cargo_subtype_text;
-        sound_effect:                   sw_V_KTX_Eum_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }

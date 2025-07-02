@@ -104,16 +104,10 @@ switch(FEAT_TRAINS, SELF, sw_Busanmetro_2nd_1000_G1_sound, extra_callback_info1)
     return CB_RESULT_NO_SOUND;
     }
 
-switch(FEAT_TRAINS, SELF, sw_Busanmetro_2nd_G2_1000_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTPMSMstart.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/BTC_DOOR_CLOSE.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
 switch(FEAT_TRAINS, SELF, sw_Busanmetro_2nd_1000_sound, cargo_subtype) {
-    1: sw_Busanmetro_2nd_G2_1000_sound;
-    2: sw_Busanmetro_2nd_G2_1000_sound;
-    sw_Busanmetro_2nd_1000_G1_sound;
+    1: sw_TOSHIBAIGBTPMSMstart_Busanmetro_sound;
+    2: sw_TOSHIBAIGBTPMSMstart_Busanmetro_sound;
+    sw_HYUNDAIROTEMIGBTIPM1Kstart_Busanmetro_sound;
 }
 
 // 속도변수

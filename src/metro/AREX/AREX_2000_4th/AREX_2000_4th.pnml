@@ -57,6 +57,6 @@ item(FEAT_TRAINS, APEX_2000_4th_6Car, 2009){
         purchase:                       sw_AREX_2000_4th_purchase;
         speed:                          sw_AREX_2000_4th_speed;
         loading_speed:                  25;
-        sound_effect:                   sw_AREX_2000_4th_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }

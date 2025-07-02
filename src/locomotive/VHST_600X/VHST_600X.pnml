@@ -73,7 +73,7 @@ item(FEAT_TRAINS, VHST_600X_8Car, 2029){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_VHST_600X_sound;
+        sound_effect:                   sw_osfx_65_sound;
         }
         }
 
@@ -125,6 +125,6 @@ item(FEAT_TRAINS, VHST_600X_16Car, 2372){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_VHST_600X_sound;
+        sound_effect:                   sw_osfx_65_sound;
         }
         }

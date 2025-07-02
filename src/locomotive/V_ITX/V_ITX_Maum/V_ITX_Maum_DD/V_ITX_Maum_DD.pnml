@@ -76,7 +76,7 @@ item(FEAT_TRAINS, V_ITX_Maum_DD_4Car, 2311){
         purchase:                       sw_V_ITX_Maum_DD_purchase;
         speed:                          sw_V_ITX_Maum_DD_speed;
         loading_speed:                  25;
-        sound_effect:                   sw_V_ITX_Maum_DD_sound;
+        sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
         }
 
@@ -130,7 +130,7 @@ item(FEAT_TRAINS, V_ITX_Maum_DD_6Car, 2011){
         purchase:                       sw_V_ITX_Maum_DD_purchase;
         speed:                          sw_V_ITX_Maum_DD_speed;
         loading_speed:                  25;
-        sound_effect:                   sw_V_ITX_Maum_DD_sound;
+        sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
         }
 
@@ -184,7 +184,7 @@ item(FEAT_TRAINS, V_ITX_Maum_DD_8Car, 2550){
         purchase:                       sw_V_ITX_Maum_DD_purchase;
         speed:                          sw_V_ITX_Maum_DD_speed;
         loading_speed:                  25;
-        sound_effect:                   sw_V_ITX_Maum_DD_sound;
+        sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
         }
 
@@ -238,6 +238,6 @@ item(FEAT_TRAINS, V_ITX_Maum_DD_10Car, 2551){
         purchase:                       sw_V_ITX_Maum_DD_purchase;
         speed:                          sw_V_ITX_Maum_DD_speed;
         loading_speed:                  25;
-        sound_effect:                   sw_V_ITX_Maum_DD_sound;
+        sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
         }

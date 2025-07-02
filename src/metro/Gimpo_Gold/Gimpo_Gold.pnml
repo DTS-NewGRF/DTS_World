@@ -57,6 +57,6 @@ item(FEAT_TRAINS, Gimpo_Gold_2Car, 2410){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Gimpo_Gold_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1start_sound;
         }
         }

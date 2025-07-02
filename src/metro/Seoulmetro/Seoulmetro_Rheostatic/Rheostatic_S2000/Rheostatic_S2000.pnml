@@ -77,7 +77,7 @@ item(FEAT_TRAINS, Rheostatic_S2000_4Car, 2266){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Rheostatic_S2000_cargo_subtype_text;
-        sound_effect:                   sw_Rheostatic_S2000_sound;
+        sound_effect:                   sw_DCMOTER2start_sound;
         }
         }
 
@@ -132,7 +132,7 @@ item(FEAT_TRAINS, Rheostatic_S2000_6Car, 2267){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Rheostatic_S2000_6Car_cargo_subtype_text;
-        sound_effect:                   sw_Rheostatic_S2000_sound;
+        sound_effect:                   sw_DCMOTER2start_sound;
         }
         }
 
@@ -186,6 +186,6 @@ item(FEAT_TRAINS, Rheostatic_S2000_10Car, 2268){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Rheostatic_S2000_sound;
+        sound_effect:                   sw_DCMOTER2start_sound;
         }
         }

@@ -396,13 +396,6 @@ switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_20Car_length_in_custom, position_in_v
     8; //default;
 }
 
-// 사운드
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/E300_ALSTOM_GTO.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
 // 속도변수
 switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_speed, Use_max_virtual_speed) {
     1: return High_Speed_Train;

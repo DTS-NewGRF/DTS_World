@@ -76,7 +76,7 @@ item(FEAT_TRAINS, H2_WJ_2Car, 2008){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_H2_WJ_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -131,6 +131,6 @@ item(FEAT_TRAINS, H2_WJ_4Car, 2060){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_H2_WJ_sound;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }

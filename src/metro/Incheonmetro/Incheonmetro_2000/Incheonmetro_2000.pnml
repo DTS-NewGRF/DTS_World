@@ -58,6 +58,6 @@ item(FEAT_TRAINS, Incheonmetro_2000_2Car, 2408){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Incheonmetro_2000_cargo_subtype_text;
-        sound_effect:                   sw_Incheonmetro_2000_sound;
+        sound_effect:                   sw_SKODA_VVVF_IGBT_start_sound;
         }
         }

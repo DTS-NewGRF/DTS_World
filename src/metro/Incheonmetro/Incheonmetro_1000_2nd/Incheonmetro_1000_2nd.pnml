@@ -57,6 +57,6 @@ item(FEAT_TRAINS, Incheonmetro_1000_2nd_8Car, 2388){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Incheonmetro_1000_2nd_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1start_sound;
         }
         }

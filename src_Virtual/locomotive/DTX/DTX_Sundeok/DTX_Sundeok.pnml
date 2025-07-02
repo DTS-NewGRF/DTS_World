@@ -75,7 +75,7 @@ item(FEAT_TRAINS, DTX_Sundeok_8Car, 2504){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DTX_Sundeok_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -128,7 +128,7 @@ item(FEAT_TRAINS, DTX_Sundeok_10Car, 2505){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DTX_Sundeok_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -181,7 +181,7 @@ item(FEAT_TRAINS, DTX_Sundeok_16Car, 2506){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DTX_Sundeok_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -234,6 +234,6 @@ item(FEAT_TRAINS, DTX_Sundeok_20Car, 2507){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DTX_Sundeok_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }

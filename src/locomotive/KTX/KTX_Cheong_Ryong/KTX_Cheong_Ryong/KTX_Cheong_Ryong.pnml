@@ -77,7 +77,7 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_8Car, 2229){
         speed:                          sw_KTX_Cheong_Ryong_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_KTX_Cheong_Ryong_cargo_subtype_text;
-        sound_effect:                   sw_KTX_Cheong_Ryong_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }
 
@@ -132,6 +132,6 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_16Car, 2428){
         speed:                          sw_KTX_Cheong_Ryong_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_KTX_Cheong_Ryong_cargo_subtype_text;
-        sound_effect:                   sw_KTX_Cheong_Ryong_sound;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }

@@ -75,7 +75,7 @@ item(FEAT_TRAINS, Glory_600_8Car, 2133){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Glory_600_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
 
@@ -129,6 +129,6 @@ item(FEAT_TRAINS, Glory_600_16Car, 2370){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Glory_600_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
