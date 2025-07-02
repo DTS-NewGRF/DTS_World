@@ -273,57 +273,6 @@ spriteset(set_V_KTX_Cheong_Ryong_SRT_C_engineT, "src/locomotive/V_KTX/V_KTX_Cheo
 }
 
 /*--------------------------------------------------------------------
-V_KTX_Cheong_Ryong_SRT_D
---------------------------------------------------------------------*/
-spriteset(set_V_KTX_Cheong_Ryong_SRT_D_engineH, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_D.png"){
-    DTS_temp(80, 0)
-}
-
-spriteset(set_V_KTX_Cheong_Ryong_SRT_D_engineH_r, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_D.png"){
-    DTS_temp(80, 27)
-}
-
-spriteset(set_V_KTX_Cheong_Ryong_SRT_D_wagon_M1, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_D.png"){
-    DTS_temp(80, 54)
-}
-
-spriteset(set_V_KTX_Cheong_Ryong_SRT_D_wagon_M1_r, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_D.png"){
-    DTS_temp(80, 81)
-}
-
-spriteset(set_V_KTX_Cheong_Ryong_SRT_D_wagon_M2, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_D.png") {
-    DTS_temp(80, 108)
-}
-
-spriteset(set_V_KTX_Cheong_Ryong_SRT_D_wagon_M2_r, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_D.png") {
-    DTS_temp_r(80, 108)
-}
-
-spriteset(set_V_KTX_Cheong_Ryong_SRT_D_wagon_M3, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_D.png") {
-    DTS_temp(80, 135)
-}
-
-spriteset(set_V_KTX_Cheong_Ryong_SRT_D_wagon_M3_r, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_D.png") {
-    DTS_temp_r(80, 135)
-}
-
-spriteset(set_V_KTX_Cheong_Ryong_SRT_D_wagon_M4, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_D.png"){
-    DTS_temp(80, 162)
-}
-
-spriteset(set_V_KTX_Cheong_Ryong_SRT_D_wagon_M4_r, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_D.png"){
-    DTS_temp(80, 189)
-}
-
-spriteset(set_V_KTX_Cheong_Ryong_SRT_D_engineT_r, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_D.png"){
-    DTS_temp(80, 216)
-}
-
-spriteset(set_V_KTX_Cheong_Ryong_SRT_D_engineT, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_D.png"){
-    DTS_temp(80, 243)
-}
-
-/*--------------------------------------------------------------------
 V_KTX_Cheong_Ryong_SRT_E
 --------------------------------------------------------------------*/
 spriteset(set_V_KTX_Cheong_Ryong_SRT_E_engineH, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_SRT_E.png"){

@@ -75,6 +75,7 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_8Car, 2229){
         articulated_part:               sw_articulated_KTX_Cheong_Ryong_8car;
         purchase:                       KTX_Cheong_Ryong_purchase;
         speed:                          sw_KTX_Cheong_Ryong_speed;
+        cargo_capacity:                 sw_KTX_Cheong_Ryong_capacity_in_custom;
         loading_speed:                  25;
         cargo_subtype_text:             sw_KTX_Cheong_Ryong_cargo_subtype_text;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
@@ -130,6 +131,7 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_16Car, 2428){
         articulated_part:               sw_articulated_KTX_Cheong_Ryong_16car;
         purchase:                       KTX_Cheong_Ryong_purchase;
         speed:                          sw_KTX_Cheong_Ryong_speed;
+        cargo_capacity:                 sw_KTX_Cheong_Ryong_capacity_in_custom;
         loading_speed:                  25;
         cargo_subtype_text:             sw_KTX_Cheong_Ryong_cargo_subtype_text;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
