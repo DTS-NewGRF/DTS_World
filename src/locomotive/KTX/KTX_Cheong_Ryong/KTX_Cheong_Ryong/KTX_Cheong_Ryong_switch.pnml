@@ -520,6 +520,7 @@ switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Cheong_Ryong_16car, extra_callback
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_capacity_in_custom, cargo_subtype) {
     2: return 61;
+    3: return 61;
        65;
 }
 
