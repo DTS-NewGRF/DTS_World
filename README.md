@@ -8,7 +8,7 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.64] 2025.07.02 <br>
+[1.64] 2025.07.07 <br>
 [이슈 외 작업]
 * 사운드 파일 정리
   * Sound.pnml의 스위치 코드로 정리
@@ -23,7 +23,11 @@
 * [열차변경] [3량]8600호대 전기기관차 & [4량]8600호대 전기기관차 컨셉 변경 ([#670](https://github.com/DTS-NewGRF/DTS/issues/670))
   * [버그] HYEL-강산 운전객차가 후부에 위치할 때 그래픽 오류 ([#671](https://github.com/DTS-NewGRF/DTS/issues/671))
   * [버그] [3량] HYEL-강산의 수송량 수정 ([#672](https://github.com/DTS-NewGRF/DTS/issues/672))
+  * [버그] HYEL-강산 M칸 그래픽 문제 ([#677](https://github.com/DTS-NewGRF/DTS/issues/677))
 * [열차변경] HYEL-강산 편성 수 추가 ([#673](https://github.com/DTS-NewGRF/DTS/issues/673))
+* [열차추가] SRT 320 ([#674](https://github.com/DTS-NewGRF/DTS/issues/674))
+* [열차변경][도색추가] KTX-청룡 2세대 ([#675](https://github.com/DTS-NewGRF/DTS/issues/675))
+* [열차변경] [가상] KTX-청룡 수송량 변경 ([#676](https://github.com/DTS-NewGRF/DTS/issues/676))
 
 ## 최근 등록 릴리즈
 [1.63] 2025.06.27 <br>
