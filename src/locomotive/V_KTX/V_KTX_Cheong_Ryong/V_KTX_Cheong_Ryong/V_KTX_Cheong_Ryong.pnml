@@ -53,7 +53,7 @@ item(FEAT_TRAINS, V_KTX_Cheong_Ryong_8Car, 2022){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 65;
+        cargo_capacity:                 61;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
