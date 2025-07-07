@@ -1291,6 +1291,8 @@ STR_REFIT_LIVERY_Tong_il_Normal_T2_1963_1968           : Tong-il first livery (1
 STR_REFIT_LIVERY_Tong_il_Normal_T2_1974                : Tong-il first livery (1974)
 STR_REFIT_LIVERY_Tong_il_Normal_FD_1963_T              : Tong-il first class downgrade regular class
 STR_REFIT_LIVERY_Tong_il_Normal_T2_1984                : Tong-il first livery (Aircon)
+STR_REFIT_LIVERY_Tong_il_Normal_TO_1989                : Tong-il second livery Mugunghwa downgrade regular class
+STR_REFIT_LIVERY_Tong_il_Normal_TO_1989_studio         : Tong-il second livery Mugunghwa downgrade studio
 STR_REFIT_LIVERY_Tong_il_Normal_T_1994                 : Tong-il second livery (Express)
 STR_REFIT_LIVERY_Tong_il_Normal_TO1                    : Mugunghwa downgrade regular class
 STR_REFIT_LIVERY_Tong_il_Normal_TO2                    : Mugunghwa downgrade studio

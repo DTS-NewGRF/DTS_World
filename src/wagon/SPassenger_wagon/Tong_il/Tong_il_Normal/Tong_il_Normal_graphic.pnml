@@ -37,20 +37,24 @@ spriteset(set_Tong_il_Normal_T2_1984, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/w
     DTS_temp(80, 216)
 }
 
-spriteset(set_Tong_il_Normal_T_1994, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+spriteset(set_Tong_il_Normal_TO_1989, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
     DTS_temp(80, 243)
 }
 
-spriteset(set_Tong_il_Normal_TO1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+spriteset(set_Tong_il_Normal_T_1994, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
     DTS_temp(80, 270)
 }
 
-spriteset(set_Tong_il_Normal_TO2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+spriteset(set_Tong_il_Normal_TO1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
     DTS_temp(80, 297)
 }
 
-spriteset(set_Tong_il_Normal_T_1997, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+spriteset(set_Tong_il_Normal_TO2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
     DTS_temp(80, 324)
+}
+
+spriteset(set_Tong_il_Normal_T_1997, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    DTS_temp(80, 351)
 }
 
 /*--------------------------------------------------------------------
@@ -78,7 +82,7 @@ spriteset(set_Tong_il_Normal_1994_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, 
 }
 
 spriteset(set_Tong_il_Normal_1997_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png"){
-    tmpl_wagon_purchase(0, 324)
+    tmpl_wagon_purchase(0, 351)
 }
 
 // 구매차량 등장년도

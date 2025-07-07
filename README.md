@@ -8,7 +8,10 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.64] 2025.07.07 <br>
+[1.65] 2025.07.14 이후 공개
+
+## 최근 등록 릴리즈
+[1.64] 2025.07.08 <br>
 [이슈 외 작업]
 * 사운드 파일 정리
   * Sound.pnml의 스위치 코드로 정리
@@ -28,27 +31,7 @@
 * [열차추가] SRT 320 ([#674](https://github.com/DTS-NewGRF/DTS/issues/674))
 * [열차변경][도색추가] KTX-청룡 2세대 ([#675](https://github.com/DTS-NewGRF/DTS/issues/675))
 * [열차변경] [가상] KTX-청룡 수송량 변경 ([#676](https://github.com/DTS-NewGRF/DTS/issues/676))
-
-## 최근 등록 릴리즈
-[1.63] 2025.06.27 <br>
-[이슈 외 작업]
-* [경유지] 기본 경유지 간소화 매개변수로 적용
-* [HYEL] HYEL-400 천장그래픽 수정
-* [템플릿] 스프라이트 정렬 측면<->방향 수정
-
-[이슈 작업]
-* [열차변경] 한국철도공사 4세대 3차도입분 도색 변경 (32bpp) ([#654](https://github.com/DTS-NewGRF/DTS/issues/654))
-* [열차변경] 일부 가상열차 등장년도 수정 ([#655](https://github.com/DTS-NewGRF/DTS/issues/655))
-* [열차추가]우등형 전기동차 EEC (8bpp) ([#656](https://github.com/DTS-NewGRF/DTS/issues/656))
-  * [버그] 우등형 전기동차 EEC M'1 그래픽 문제 ([#658](https://github.com/DTS-NewGRF/DTS/issues/658))
-  * [버그] 우등형 전기동차 EEC 수익 사운드가 잘못됨 ([#659](https://github.com/DTS-NewGRF/DTS/issues/659))
-* [열차변경] DTX 영광 ([#657](https://github.com/DTS-NewGRF/DTS/issues/657))
-* [열차변경] 전망형 & 직각형 발전차 도색 추가 ([#660](https://github.com/DTS-NewGRF/DTS/issues/660))
-* [버그] DHC PP 디젤동차 그래픽제 ([#661](https://github.com/DTS-NewGRF/DTS/issues/661))
-* [열차변경] 서울교통공사 7000호대 6세대 전동차 이름 변경 ([#662](https://github.com/DTS-NewGRF/DTS/issues/662))
-* [열차추가] 수도권 7호선 도봉산옥정선 연장분 전동차 (8bpp, 회사 색상) ([#663](https://github.com/DTS-NewGRF/DTS/issues/663))
-* [열차추가] 동해남부선 관광열차 ([#664](https://github.com/DTS-NewGRF/DTS/issues/664))
-* [열차변경][도색추가] 8량 한국철도공사 3세대 전동차 도색 추가 ([#665](https://github.com/DTS-NewGRF/DTS/issues/665))
+* [열차변경] 통일호 일반실 도색 추가 ([#678](https://github.com/DTS-NewGRF/DTS/issues/678))
 
 ## 인게임 등록
 ```
