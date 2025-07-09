@@ -31,16 +31,15 @@ switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1984_wagon, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1989_wagon, cargo_subtype) {
-     1: set_Tong_il_Normal_T_1968;
-     2: set_Tong_il_Normal_T_1974;
-     3: set_Tong_il_Normal_FD_1963;
-     4: set_Tong_il_Normal_B_1962_U;
-     5: set_Tong_il_Normal_T2_1963_1968;
-     6: set_Tong_il_Normal_T2_1974;
-     7: set_Tong_il_Normal_FD_1963_T;
-     8: set_Tong_il_Normal_T2_1984;
-     9: set_Tong_il_Normal_TO_1989;
-    10: set_Tong_il_Normal_TO_1989;
+    1: set_Tong_il_Normal_T_1968;
+    2: set_Tong_il_Normal_T_1974;
+    3: set_Tong_il_Normal_FD_1963;
+    4: set_Tong_il_Normal_B_1962_U;
+    5: set_Tong_il_Normal_T2_1963_1968;
+    6: set_Tong_il_Normal_T2_1974;
+    7: set_Tong_il_Normal_FD_1963_T;
+    8: set_Tong_il_Normal_T2_1984;
+    9: set_Tong_il_Normal_TO_1989;
     set_Tong_il_Normal_T_1963;
 }
 
@@ -54,8 +53,7 @@ switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1994_wagon, cargo_subtype) {
      7: set_Tong_il_Normal_FD_1963_T;
      8: set_Tong_il_Normal_T2_1984;
      9: set_Tong_il_Normal_TO_1989;
-    10: set_Tong_il_Normal_TO_1989;
-    11: set_Tong_il_Normal_T_1994;
+    10: set_Tong_il_Normal_T_1994;
     set_Tong_il_Normal_T_1963;
 }
 
@@ -69,10 +67,9 @@ switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1996_wagon, cargo_subtype) {
      7: set_Tong_il_Normal_FD_1963_T;
      8: set_Tong_il_Normal_T2_1984;
      9: set_Tong_il_Normal_TO_1989;
-    10: set_Tong_il_Normal_TO_1989;
-    11: set_Tong_il_Normal_T_1994;
-    12: set_Tong_il_Normal_TO1;
-    13: set_Tong_il_Normal_TO2;
+    10: set_Tong_il_Normal_T_1994;
+    11: set_Tong_il_Normal_TO1;
+    12: set_Tong_il_Normal_TO2;
     set_Tong_il_Normal_T_1963;
 }
 
@@ -86,11 +83,10 @@ switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1997_wagon, cargo_subtype) {
      7: set_Tong_il_Normal_FD_1963_T;
      8: set_Tong_il_Normal_T2_1984;
      9: set_Tong_il_Normal_TO_1989;
-    10: set_Tong_il_Normal_TO_1989;
-    11: set_Tong_il_Normal_T_1994;
-    12: set_Tong_il_Normal_TO1;
-    13: set_Tong_il_Normal_TO2;
-    14: set_Tong_il_Normal_T_1997;
+    10: set_Tong_il_Normal_T_1994;
+    11: set_Tong_il_Normal_TO1;
+    12: set_Tong_il_Normal_TO2;
+    13: set_Tong_il_Normal_T_1997;
     set_Tong_il_Normal_T_1963;
 }
 
