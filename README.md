@@ -11,7 +11,7 @@
 [1.65] 2025.07.14 이후 공개
 
 ## 최근 등록 릴리즈
-[1.64] 2025.07.08 <br>
+[1.64] 2025.07.12 <br>
 [이슈 외 작업]
 * 사운드 파일 정리
   * Sound.pnml의 스위치 코드로 정리
@@ -32,6 +32,7 @@
 * [열차변경][도색추가] KTX-청룡 2세대 ([#675](https://github.com/DTS-NewGRF/DTS/issues/675))
 * [열차변경] [가상] KTX-청룡 수송량 변경 ([#676](https://github.com/DTS-NewGRF/DTS/issues/676))
 * [열차변경] 통일호 일반실 도색 추가 ([#678](https://github.com/DTS-NewGRF/DTS/issues/678))
+* [버그] KTX, KTX-산천 특정 방향에서 그래픽 문제 ([#679](https://github.com/DTS-NewGRF/DTS/issues/679))
 
 ## 인게임 등록
 ```
