@@ -8,7 +8,8 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.65] 2025.07.14 이후 공개
+[1.65] 2025.08.16 <br>
+* [열차변경] SRT-320 중련용 그래픽 추가 (8bpp) ([#682](https://github.com/DTS-NewGRF/DTS/issues/682))
 
 ## 최근 등록 릴리즈
 [1.64] 2025.07.13 <br>

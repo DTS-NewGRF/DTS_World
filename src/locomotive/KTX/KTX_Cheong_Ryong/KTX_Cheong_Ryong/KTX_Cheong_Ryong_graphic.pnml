@@ -144,11 +144,11 @@ spriteset(set_SRT_320_engineT, "src/locomotive/KTX/KTX_Cheong_Ryong/KTX_Cheong_R
 }
 
 spriteset(set_SRT_320_engineT_TCD, "src/locomotive/KTX/KTX_Cheong_Ryong/KTX_Cheong_Ryong/SRT_320.png"){
-    DTS_temp(80, 0)
+    DTS_temp(80, 270)
 }
 
 spriteset(set_SRT_320_engineT_TCD_r, "src/locomotive/KTX/KTX_Cheong_Ryong/KTX_Cheong_Ryong/SRT_320.png"){
-    DTS_temp_r(80, 0)
+    DTS_temp_r(80, 270)
 }
 
 /*--------------------------------------------------------------------
