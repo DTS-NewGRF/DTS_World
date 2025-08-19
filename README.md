@@ -8,9 +8,10 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.65] 2025.08.17 <br>
+[1.65] 2025.08.19 <br>
 * [열차변경] SRT-320 중련용 그래픽 추가 (8bpp) ([#682](https://github.com/DTS-NewGRF/DTS/issues/682))
   * [버그] SRT-320 TC1 그래픽 문제 수정 ([#683](https://github.com/DTS-NewGRF/DTS/issues/683))
+* [열차변경] 서울교통공사 5000호대, 7000호대, 8000호대 전동차 그래픽 변경 [8bpp, 2CC] ([#684](https://github.com/DTS-NewGRF/DTS/issues/684))
 
 ## 최근 등록 릴리즈
 [1.64] 2025.07.13 <br>
