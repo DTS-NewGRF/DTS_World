@@ -4,47 +4,47 @@ Graphics
 /*--------------------------------------------------------------------
 40ft Green
 --------------------------------------------------------------------*/
-spriteset(set_FLAT_CAR_empty_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_empty_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 0)
 }
 
-spriteset(set_FLAT_CAR_40ft_loaded_01_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_40ft_loaded_01_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 27)
 }
 
-spriteset(set_FLAT_CAR_40ft_loaded_02_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_40ft_loaded_02_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 54)
 }
 
-spriteset(set_FLAT_CAR_40ft_loaded_03_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_40ft_loaded_03_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 81)
 }
 
-spriteset(set_FLAT_CAR_40ft_loaded_04_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_40ft_loaded_04_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 108)
 }
 
-spriteset(set_FLAT_CAR_40ft_loaded_05_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_40ft_loaded_05_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 135)
 }
 
-spriteset(set_FLAT_CAR_40ft_loaded_06_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_40ft_loaded_06_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 162)
 }
 
-spriteset(set_FLAT_CAR_40ft_loaded_07_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_40ft_loaded_07_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 189)
 }
 
-spriteset(set_FLAT_CAR_40ft_loaded_08_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_40ft_loaded_08_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 216)
 }
 
-spriteset(set_FLAT_CAR_40ft_loaded_09_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_40ft_loaded_09_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 243)
 }
 
-spriteset(set_FLAT_CAR_40ft_loaded_10_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_40ft_loaded_10_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 243)
 }
 
@@ -164,150 +164,150 @@ spritegroup sg_FLAT_CAR_40ft_10_wagon {
 /*--------------------------------------------------------------------
 20ft loading
 --------------------------------------------------------------------*/
-spriteset(set_FLAT_CAR_20ft_loading_01_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_01_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 270)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_02_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_02_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 297)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_03_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_03_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 324)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_04_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_04_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 351)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_05_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_05_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 378)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_06_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_06_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 405)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_07_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_07_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 432)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_08_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_08_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 459)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_09_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_09_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 486)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_10_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_10_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 513)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_11_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_11_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 540)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_12_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_12_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 567)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_13_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_13_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 594)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_14_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_14_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 621)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_15_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_15_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 648)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_16_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_16_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 675)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_17_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_17_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 702)
 }
 
-spriteset(set_FLAT_CAR_20ft_loading_18_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loading_18_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(80, 729)
 }
 
 /*--------------------------------------------------------------------
 20ft loaded
 --------------------------------------------------------------------*/
-spriteset(set_FLAT_CAR_20ft_loaded_01_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_01_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 270)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_02_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_02_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 297)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_03_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_03_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 324)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_04_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_04_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 351)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_05_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_05_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 378)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_06_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_06_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 405)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_07_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_07_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 432)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_08_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_08_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 459)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_09_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_09_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 486)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_10_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_10_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 513)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_11_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_11_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 540)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_12_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_12_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 567)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_13_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_13_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 594)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_14_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_14_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 621)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_15_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_15_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 648)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_16_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_16_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 675)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_17_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_17_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 702)
 }
 
-spriteset(set_FLAT_CAR_20ft_loaded_18_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_20ft_loaded_18_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 729)
 }
 
@@ -551,11 +551,11 @@ spritegroup sg_FLAT_CAR_20ft_18_wagon {
 /*--------------------------------------------------------------------
 40ft 패기형
 --------------------------------------------------------------------*/
-spriteset(set_FLAT_CAR_40ftP_loaded_01_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_40ftP_loaded_01_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 27)
 }
 
-spriteset(set_FLAT_CAR_40ftP_loaded_02_wagon, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_40ftP_loaded_02_wagon, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     DTS_temp(299, 54)
 }
 
@@ -587,7 +587,7 @@ spritegroup sg_FLAT_CAR_40ftP_02_wagon {
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_FLAT_CAR_purchase, "src\wagon\Flat_car\Flat_1F_Car\Flat_1F.png") {
+spriteset(set_FLAT_CAR_purchase, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     tmpl_wagon_purchase(0, 0)
 }
 

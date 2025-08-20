@@ -59,7 +59,7 @@ spritelayout set_Buffer_Pebble_3 {
     }
 }
 
-switch(FEAT_OBJECTS, SELF, sw_buffer_pebble, view) {
+switch(FEAT_OBJECTS, SELF, sw_Buffer_Pebble, view) {
     1: set_Buffer_Pebble_0;
     2: set_Buffer_Pebble_1;
     3: set_Buffer_Pebble_2;

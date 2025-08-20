@@ -2,12 +2,12 @@
 switch
 --------------------------------------------------------------------*/
 //표지판
-spritelayout set_Buffer_signboard_0 {
+spritelayout set_Buffer_Signboard_0 {
     ground {
         sprite: GROUNDSPRITE_NORMAL;
     }
     building {
-        sprite: set_Buffer_signboard(0);
+        sprite: set_Buffer_Signboard(0);
         xextent: 1;
         yextent: 3;
         zextent: 12;
@@ -16,12 +16,12 @@ spritelayout set_Buffer_signboard_0 {
         zoffset: 0;
     }
 }
-spritelayout set_Buffer_signboard_1 {
+spritelayout set_Buffer_Signboard_1 {
     ground {
         sprite: GROUNDSPRITE_NORMAL;
     }
     building {
-        sprite: set_Buffer_signboard(1);
+        sprite: set_Buffer_Signboard(1);
         xextent: 5;
         yextent: 5;
         zextent: 12;
@@ -30,12 +30,12 @@ spritelayout set_Buffer_signboard_1 {
         zoffset: 0;
     }
 }
-spritelayout set_Buffer_signboard_2 {
+spritelayout set_Buffer_Signboard_2 {
     ground {
         sprite: GROUNDSPRITE_NORMAL;
     }
     building {
-        sprite: set_Buffer_signboard(2);
+        sprite: set_Buffer_Signboard(2);
         xextent: 5;
         yextent: 5;
         zextent: 12;
@@ -44,12 +44,12 @@ spritelayout set_Buffer_signboard_2 {
         zoffset: 0;
     }
 }
-spritelayout set_Buffer_signboard_3 {
+spritelayout set_Buffer_Signboard_3 {
     ground {
         sprite: GROUNDSPRITE_NORMAL;
     }
     building {
-        sprite: set_Buffer_signboard(3);
+        sprite: set_Buffer_Signboard(3);
         xextent: 5;
         yextent: 5;
         zextent: 12;
@@ -59,9 +59,9 @@ spritelayout set_Buffer_signboard_3 {
     }
 }
 
-switch(FEAT_OBJECTS, SELF, sw_Buffer_signboard, view) {
-    1: set_Buffer_signboard_0;
-    2: set_Buffer_signboard_1;
-    3: set_Buffer_signboard_2;
-    set_Buffer_signboard_3;
+switch(FEAT_OBJECTS, SELF, sw_Buffer_Signboard, view) {
+    1: set_Buffer_Signboard_0;
+    2: set_Buffer_Signboard_1;
+    3: set_Buffer_Signboard_2;
+    set_Buffer_Signboard_3;
 }

@@ -1,19 +1,19 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_FLAT_TANK_CAR_empty_wagon, "src\wagon\Flat_car\Flat_Tank_Car\Flat_Tank_Car.png") {
+spriteset(set_FLAT_TANK_CAR_empty_wagon, "src/wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
     DTS_temp(80, 0)
 }
 
-spriteset(set_FLAT_TANK_CAR_loaded_wagon, "src\wagon\Flat_car\Flat_Tank_Car\Flat_Tank_Car.png") {
+spriteset(set_FLAT_TANK_CAR_loaded_wagon, "src/wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
     DTS_temp(80, 27)
 }
 
-spriteset(set_FLAT_TANK_CAR_loading_01_wagon, "src\wagon\Flat_car\Flat_Tank_Car\Flat_Tank_Car.png") {
+spriteset(set_FLAT_TANK_CAR_loading_01_wagon, "src/wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
     DTS_temp(80, 54)
 }
 
-spriteset(set_FLAT_TANK_CAR_loading_02_wagon, "src\wagon\Flat_car\Flat_Tank_Car\Flat_Tank_Car.png") {
+spriteset(set_FLAT_TANK_CAR_loading_02_wagon, "src/wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
     DTS_temp(80, 81)
 }
 
@@ -46,7 +46,7 @@ spritegroup sg_FLAT_TANK_CAR_02_wagon {
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_FLAT_TANK_CAR_purchase, "src\wagon\Flat_car\Flat_Tank_Car\Flat_Tank_Car.png") {
+spriteset(set_FLAT_TANK_CAR_purchase, "src/wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
     tmpl_wagon_purchase(0, 0)
 }
 

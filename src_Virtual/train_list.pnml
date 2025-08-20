@@ -1,10 +1,6 @@
-//wagon #include "wagon/passenger_wagon/passenger_wagon.pnml"
-#include "wagon/Coach_2F_wagon/Coach_2F_wagon.pnml"
-
 //locomotive
 #include "locomotive/DFX/DFX.pnml"
 #include "locomotive/DPX/DPX.pnml"
-#include "locomotive/DTX/DTX.pnml"
 #include "locomotive/HYEL/HYEL.pnml"
 #include "locomotive/Transparency/Transparency.pnml"
 

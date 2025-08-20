@@ -1,12 +1,3 @@
-//wagon
-#include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
-#include "wagon/Generatar/Generatar.pnml"
-#include "wagon/Luggage/Luggage.pnml"
-#include "wagon/Mail/Mail.pnml"
-#include "wagon/Flat_car/Flat_1F_Car/Flat_1F_Car.pnml"
-#include "wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.pnml"
-
-//locomotive
 #include "locomotive/CDC/CDC.pnml"
 #include "locomotive/CL_150/CL_150.pnml"
 #include "locomotive/CTX/CTX.pnml"
@@ -16,6 +7,7 @@
 #include "locomotive/DHC_PP/DHC_PP.pnml"
 #include "locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.pnml"
 #include "locomotive/Diesel_Car/Special_Diesel_Car/Special_Diesel_Car.pnml"
+#include "locomotive/DTX/DTX.pnml"
 #include "locomotive/EEC_EMU/EEC_EMU.pnml"
 #include "locomotive/FEL_8500/FEL_8500.pnml"
 #include "locomotive/Glory/Glory.pnml"
@@ -37,6 +29,16 @@
 #include "locomotive/RDC/RDC.pnml"
 #include "locomotive/TTX/TTX.pnml"
 #include "locomotive/VHST_600X/VHST_600X.pnml"
+
+//wagon
+#include "wagon/Coach_2F_wagon/Coach_2F_wagon.pnml"
+#include "wagon/Flat_car/Flat_1F_Car/Flat_1F_Car.pnml"
+#include "wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.pnml"
+#include "wagon/Generatar/Generatar.pnml"
+#include "wagon/Luggage/Luggage.pnml"
+#include "wagon/Mail/Mail.pnml"
+#include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
+#include "wagon/World/Flat_2F_Car/Flat_2F_Car.pnml"
 
 // Metro
 #include "metro/AREX/AREX.pnml"

@@ -4,7 +4,7 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_DTX_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/DTX.png"){
+spriteset(set_DTX_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX.png"){
     tmpl_purchase(0, 0)
 }
 

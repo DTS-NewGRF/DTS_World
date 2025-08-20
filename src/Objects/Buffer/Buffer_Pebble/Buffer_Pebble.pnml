@@ -26,7 +26,7 @@ item(FEAT_OBJECTS, DTS_Buffer_Pebble, 1001) {
         num_views:              4;
     }
     graphics {
-        default: sw_buffer_pebble;
+        default: sw_Buffer_Pebble;
         tile_check: CB_RESULT_LOCATION_ALLOW;
     }
 }

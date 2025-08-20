@@ -2,10 +2,10 @@
 오브젝트
 --------------------------------------------------------------------*/
 // Graphics
-#include "platforms_graphic.pnml"
+#include "Platforms_graphic.pnml"
 
 // Switch
-#include "platforms_switch.pnml"
+#include "Platforms_switch.pnml"
 
 /*--------------------------------------------------------------------
 오브젝트

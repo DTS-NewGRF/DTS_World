@@ -1,0 +1,4 @@
+// Buffer
+#include "objects/Buffer/Buffer_Concrete/Buffer_Concrete.pnml"
+#include "objects/Buffer/Buffer_Pebble/Buffer_Pebble.pnml"
+#include "objects/Buffer/Buffer_Signboard/Buffer_Signboard.pnml"

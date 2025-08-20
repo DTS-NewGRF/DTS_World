@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
 경유지 리스트
 --------------------------------------------------------------------*/
-#include "Platforms/platforms.pnml"
-#include "Simple/Simple.pnml"
+#include "waypoint/Platforms/Platforms.pnml"
+#include "waypoint/Simple/Simple.pnml"

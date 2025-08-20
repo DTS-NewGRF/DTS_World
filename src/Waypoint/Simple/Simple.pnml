@@ -2,7 +2,7 @@
 경유지 간소화
 ------------------------------------------------------------------------------*/
 if (bool_simplise_waypoint > 0) {
-    replacenew simplewaypointnew(OTTD_GUI, "src/Waypoint/Simple/Simple.png", 78) {
+    replacenew simplewaypointnew(OTTD_GUI, "src/waypoint/Simple/Simple.png", 78) {
         [40,  0,    1,    1,    0,    0]    // 2860
         [0,   0,   19,   23,  -21,   -4]    // 2861
         [40,  0,    1,    1,    0,    0]    // 2862

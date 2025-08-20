@@ -1,5 +1,3 @@
-#include "wagon/Flat_2F_Car/Flat_2F_Car.pnml"
-
 //locomotive
 #include "locomotive/NHSRCL_E5/NHSRCL_E5.pnml"
 #include "locomotive/NSW_TrainLink_D/NSW_TrainLink_D.pnml"

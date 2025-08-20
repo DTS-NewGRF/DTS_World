@@ -10,7 +10,7 @@
 /*--------------------------------------------------------------------
 오브젝트
 --------------------------------------------------------------------*/
-item(FEAT_OBJECTS, DTS_Buffer_signboard, 1002) {
+item(FEAT_OBJECTS, DTS_Buffer_Signboard, 1002) {
     property {
         class:                  "DWAP";
         classname:              string(STR_OBJ_BUFFER);
@@ -26,7 +26,7 @@ item(FEAT_OBJECTS, DTS_Buffer_signboard, 1002) {
         num_views:              4;
     }
     graphics {
-        default: sw_Buffer_signboard;
+        default: sw_Buffer_Signboard;
         tile_check: CB_RESULT_LOCATION_ALLOW;
     }
 }
