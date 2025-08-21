@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+한큐전철 9300형
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_9300_engineH, "src/metro/Hankyu/9X00_series/9300_series/Hankyu_9300.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Hankyu_9300_engineH_r, "src/metro/Hankyu/9X00_series/9300_series/Hankyu_9300.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Hankyu_9300_wagon, "src/metro/Hankyu/9X00_series/9300_series/Hankyu_9300.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Hankyu_9300_wagon_r, "src/metro/Hankyu/9X00_series/9300_series/Hankyu_9300.png") {
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_Hankyu_9300_panto_wagon, "src/metro/Hankyu/9X00_series/9300_series/Hankyu_9300.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Hankyu_9300_panto_wagon_r, "src/metro/Hankyu/9X00_series/9300_series/Hankyu_9300.png") {
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_Hankyu_9300_engineT_r, "src/metro/Hankyu/9X00_series/9300_series/Hankyu_9300.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_Hankyu_9300_engineT, "src/metro/Hankyu/9X00_series/9300_series/Hankyu_9300.png"){
+    DTS_temp(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_Hankyu_9300_purchase, "src/metro/Hankyu/9X00_series/9300_series/Hankyu_9300.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_9300_purchase, cargo_subtype) {
+    set_Hankyu_9300_purchase;
+}

@@ -1,8 +1,0 @@
-//locomotive
-#include "locomotive/DFX/DFX.pnml"
-#include "locomotive/DPX/DPX.pnml"
-#include "locomotive/HYEL/HYEL.pnml"
-#include "locomotive/Transparency/Transparency.pnml"
-
-//Showcase
-#include "Showcase/Showcase.pnml"

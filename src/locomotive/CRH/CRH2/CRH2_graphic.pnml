@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_CRH2_engineH, "src/locomotive/CRH/CRH2/CRH2.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CRH2_panto_wagon, "src/locomotive/CRH/CRH2/CRH2.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_CRH2_wagon, "src/locomotive/CRH/CRH2/CRH2.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_CRH2_panto_wagon_r, "src/locomotive/CRH/CRH2/CRH2.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_CRH2_engineT, "src/locomotive/CRH/CRH2/CRH2.png"){
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_CRH2_purchase, "src/locomotive/CRH/CRH2/CRH2.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH2_purchase, cargo_subtype) {
+    set_CRH2_purchase;
+}

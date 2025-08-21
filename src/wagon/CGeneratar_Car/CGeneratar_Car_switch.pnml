@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색
+switch(FEAT_TRAINS, SELF, sw_CGeneratar_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_CGeneratar_Car_Green);    //녹색
+    return string(STR_REFIT_LIVERY_CGeneratar_Car_White);
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_CGeneratar_wagon, cargo_subtype) {
+    1: set_CGeneratar_Car_Green;    //녹색
+    set_CGeneratar_Car_White;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_CGeneratar_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_CGeneratar_wagon; //default
+    }

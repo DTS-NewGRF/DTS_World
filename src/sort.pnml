@@ -593,8 +593,8 @@ sort(FEAT_TRAINS, [
     Tong_il_Normal,                          //2472
     Pidulgi_Service,                         //2473
     Tong_il_Special,                         //2474
-    CTS_SPassenger_Car,                      //2031
-    ETS_SPassenger_Car,                      //2061
+    CSPassenger_Car,                         //2031
+    ESPassenger_Car,                         //2061
     Generatar_2cc,                           //2003
     Generatar_Real_OutLook,                  //2395
     Generatar_Real_Stream_lined,             //2394

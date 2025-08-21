@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_800_engineH, "src/locomotive/Shinkansen/Shinkansen_800/Shinkansen_800.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Shinkansen_800_panto_wagon, "src/locomotive/Shinkansen/Shinkansen_800/Shinkansen_800.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Shinkansen_800_panto_wagon_r, "src/locomotive/Shinkansen/Shinkansen_800/Shinkansen_800.png"){
+    DTS_temp_r(80, 27)
+}
+
+spriteset(set_Shinkansen_800_wagon, "src/locomotive/Shinkansen/Shinkansen_800/Shinkansen_800.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Shinkansen_800_engineT, "src/locomotive/Shinkansen/Shinkansen_800/Shinkansen_800.png"){
+    DTS_temp(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_800_purchase, "src/locomotive/Shinkansen/Shinkansen_800/Shinkansen_800.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_800_purchase, cargo_subtype) {
+    set_Shinkansen_800_purchase;
+}

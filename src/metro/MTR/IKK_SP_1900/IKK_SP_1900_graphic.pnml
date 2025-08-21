@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_MTR_IKK_SP_1900_engineH, "src/metro/MTR/IKK_SP_1900/IKK_SP_1900.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_MTR_IKK_SP_1900_panto_wagon, "src/metro/MTR/IKK_SP_1900/IKK_SP_1900.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_MTR_IKK_SP_1900_wagon, "src/metro/MTR/IKK_SP_1900/IKK_SP_1900.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_MTR_IKK_SP_1900_engineT, "src/metro/MTR/IKK_SP_1900/IKK_SP_1900.png"){
+    DTS_temp(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_MTR_IKK_SP_1900_purchase, "src/metro/MTR/IKK_SP_1900/IKK_SP_1900.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_IKK_SP_1900_purchase, cargo_subtype) {
+    set_MTR_IKK_SP_1900_purchase;
+}

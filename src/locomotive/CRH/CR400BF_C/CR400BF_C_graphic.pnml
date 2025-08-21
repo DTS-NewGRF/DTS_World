@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------------
+구매
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+Graphics - Original
+--------------------------------------------------------------------*/
+spriteset(set_CR400BF_C_engineH, "src/locomotive/CRH/CR400BF_C/CR400BF_C.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CR400BF_C_panto_wagon, "src/locomotive/CRH/CR400BF_C/CR400BF_C.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_CR400BF_C_wagon, "src/locomotive/CRH/CR400BF_C/CR400BF_C.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_CR400BF_C_panto_wagon_r, "src/locomotive/CRH/CR400BF_C/CR400BF_C.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_CR400BF_C_engineT, "src/locomotive/CRH/CR400BF_C/CR400BF_C.png"){
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+Graphics - Olympics
+--------------------------------------------------------------------*/
+spriteset(set_CR400BF_CO_engineH, "src/locomotive/CRH/CR400BF_C/CR400BF_C_W.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CR400BF_CO_panto_wagon, "src/locomotive/CRH/CR400BF_C/CR400BF_C_W.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_CR400BF_CO_wagon, "src/locomotive/CRH/CR400BF_C/CR400BF_C_W.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_CR400BF_CO_panto_wagon_r, "src/locomotive/CRH/CR400BF_C/CR400BF_C_W.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_CR400BF_CO_engineT, "src/locomotive/CRH/CR400BF_C/CR400BF_C_W.png"){
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_CR400BF_C_purchase, "src/locomotive/CRH/CR400BF_C/CR400BF_C.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_purchase, cargo_subtype) {
+    set_CR400BF_C_purchase;
+}

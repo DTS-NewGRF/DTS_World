@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+Cammall DC 기본차량
+--------------------------------------------------------------------*/
+spriteset(set_MTR_DC_Cammall_engineH, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_MTR_DC_Cammall_panto_wagon, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_MTR_DC_Cammall_wagon, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_MTR_DC_Cammall_engineT, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
+    DTS_temp(80, 81)
+}
+
+/*--------------------------------------------------------------------
+Cammall DC 개조차량
+--------------------------------------------------------------------*/
+spriteset(set_MTR_DC_Cammall_remodin_engineH, "src/metro/MTR/Cammall_DC/Cammall_DC_remoding.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_MTR_DC_Cammall_remodin_panto_wagon, "src/metro/MTR/Cammall_DC/Cammall_DC_remoding.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_MTR_DC_Cammall_remodin_wagon, "src/metro/MTR/Cammall_DC/Cammall_DC_remoding.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_MTR_DC_Cammall_remodin_engineT, "src/metro/MTR/Cammall_DC/Cammall_DC_remoding.png"){
+    DTS_temp(80, 81)
+}
+
+/*--------------------------------------------------------------------
+Cammall DC 디즈니선
+--------------------------------------------------------------------*/
+spriteset(set_MTR_DC_Cammall_Disney_engineH, "src/metro/MTR/Cammall_DC/Cammall_DC_Disney.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_MTR_DC_Cammall_Disney_panto_wagon, "src/metro/MTR/Cammall_DC/Cammall_DC_Disney.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_MTR_DC_Cammall_Disney_wagon, "src/metro/MTR/Cammall_DC/Cammall_DC_Disney.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_MTR_DC_Cammall_Disney_engineT, "src/metro/MTR/Cammall_DC/Cammall_DC_Disney.png"){
+    DTS_temp(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_MTR_DC_Cammall_purchase, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_purchase, cargo_subtype) {
+    set_MTR_DC_Cammall_purchase;
+}

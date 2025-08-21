@@ -1,0 +1,168 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_YMT_100_purchase, "src/metro/YMT/YMT_100/YMT_100_A.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. YMT 100 A
+--------------------------------------------------------------------*/
+spriteset(set_YMT_100_AH_purchase, "src/metro/YMT/YMT_100/YMT_100_A.png"){
+    tmpl_purchase_for_dualhead(0, 54)
+}
+
+spriteset(set_YMT_100_A_engineH, "src/metro/YMT/YMT_100/YMT_100_A.png"){
+    engine(80, 0)
+}
+
+spriteset(set_YMT_100_A_1F_wagon, "src/metro/YMT/YMT_100/YMT_100_A.png") {
+    wagon_1F(80, 27)
+}
+
+spriteset(set_YMT_100_A_1F_wagon_r, "src/metro/YMT/YMT_100/YMT_100_A.png") {
+    wagon_1F_r(80, 27)
+}
+
+spriteset(set_YMT_100_A_2F_wagon, "src/metro/YMT/YMT_200/YMT_2F.png") {
+    wagon_2F(80, 0)
+}
+
+spriteset(set_YMT_100_A_2F_wagon_r, "src/metro/YMT/YMT_200/YMT_2F.png") {
+    wagon_2F_r(80, 0)
+}
+
+spriteset(set_YMT_100_A_engineT, "src/metro/YMT/YMT_100/YMT_100_A.png"){
+    engine_r(80, 54)
+}
+
+/*--------------------------------------------------------------------
+2. YMT 100 B
+--------------------------------------------------------------------*/
+spriteset(set_YMT_100_BH_purchase, "src/metro/YMT/YMT_100/YMT_100_B.png"){
+    tmpl_purchase_for_dualhead(0, 54)
+}
+
+spriteset(set_YMT_100_B_engineH, "src/metro/YMT/YMT_100/YMT_100_B.png"){
+    engine(80, 0)
+}
+
+spriteset(set_YMT_100_B_1F_wagon, "src/metro/YMT/YMT_100/YMT_100_B.png") {
+    wagon_1F(80, 27)
+}
+
+spriteset(set_YMT_100_B_1F_wagon_r, "src/metro/YMT/YMT_100/YMT_100_B.png") {
+    wagon_1F_r(80, 27)
+}
+
+spriteset(set_YMT_100_B_2F_wagon, "src/metro/YMT/YMT_200/YMT_2F.png") {
+    wagon_2F(80, 27)
+}
+
+spriteset(set_YMT_100_B_2F_wagon_r, "src/metro/YMT/YMT_200/YMT_2F.png") {
+    wagon_2F_r(80, 27)
+}
+
+spriteset(set_YMT_100_B_engineT, "src/metro/YMT/YMT_100/YMT_100_B.png"){
+    engine_r(80, 54)
+}
+
+/*--------------------------------------------------------------------
+3. YMT 100 C
+--------------------------------------------------------------------*/
+spriteset(set_YMT_100_CH_purchase, "src/metro/YMT/YMT_100/YMT_100_C.png"){
+    tmpl_purchase_for_dualhead(0, 54)
+}
+
+spriteset(set_YMT_100_C_engineH, "src/metro/YMT/YMT_100/YMT_100_C.png"){
+    engine(80, 0)
+}
+
+spriteset(set_YMT_100_C_1F_wagon, "src/metro/YMT/YMT_100/YMT_100_C.png") {
+    wagon_1F(80, 27)
+}
+
+spriteset(set_YMT_100_C_1F_wagon_r, "src/metro/YMT/YMT_100/YMT_100_C.png") {
+    wagon_1F_r(80, 27)
+}
+
+spriteset(set_YMT_100_C_2F_wagon, "src/metro/YMT/YMT_200/YMT_2F.png") {
+    wagon_2F(80, 54)
+}
+
+spriteset(set_YMT_100_C_2F_wagon_r, "src/metro/YMT/YMT_200/YMT_2F.png") {
+    wagon_2F_r(80, 54)
+}
+
+spriteset(set_YMT_100_C_engineT, "src/metro/YMT/YMT_100/YMT_100_C.png"){
+    engine_r(80, 54)
+}
+
+/*--------------------------------------------------------------------
+4. YMT 100 D
+--------------------------------------------------------------------*/
+spriteset(set_YMT_100_DH_purchase, "src/metro/YMT/YMT_100/YMT_100_D.png"){
+    tmpl_purchase_for_dualhead(0, 54)
+}
+
+spriteset(set_YMT_100_D_engineH, "src/metro/YMT/YMT_100/YMT_100_D.png"){
+    engine(80, 0)
+}
+
+spriteset(set_YMT_100_D_1F_wagon, "src/metro/YMT/YMT_100/YMT_100_D.png") {
+    wagon_1F(80, 27)
+}
+
+spriteset(set_YMT_100_D_1F_wagon_r, "src/metro/YMT/YMT_100/YMT_100_D.png") {
+    wagon_1F_r(80, 27)
+}
+
+spriteset(set_YMT_100_D_2F_wagon, "src/metro/YMT/YMT_200/YMT_2F.png") {
+    wagon_2F(80, 81)
+}
+
+spriteset(set_YMT_100_D_2F_wagon_r, "src/metro/YMT/YMT_200/YMT_2F.png") {
+    wagon_2F_r(80, 81)
+}
+
+spriteset(set_YMT_100_D_engineT, "src/metro/YMT/YMT_100/YMT_100_D.png"){
+    engine_r(80, 54)
+}
+
+/*--------------------------------------------------------------------
+5. YMT 100 E
+--------------------------------------------------------------------*/
+spriteset(set_YMT_100_EH_purchase, "src/metro/YMT/YMT_100/YMT_100_E.png"){
+    tmpl_purchase_for_dualhead(0, 54)
+}
+
+spriteset(set_YMT_100_E_engineH, "src/metro/YMT/YMT_100/YMT_100_E.png"){
+    engine(80, 0)
+}
+
+spriteset(set_YMT_100_E_1F_wagon, "src/metro/YMT/YMT_100/YMT_100_E.png") {
+    wagon_1F(80, 27)
+}
+
+spriteset(set_YMT_100_E_1F_wagon_r, "src/metro/YMT/YMT_100/YMT_100_E.png") {
+    wagon_1F_r(80, 27)
+}
+
+spriteset(set_YMT_100_E_2F_wagon, "src/metro/YMT/YMT_200/YMT_2F.png") {
+    wagon_2F(80, 108)
+}
+
+spriteset(set_YMT_100_E_2F_wagon_r, "src/metro/YMT/YMT_200/YMT_2F.png") {
+    wagon_2F_r(80, 108)
+}
+
+spriteset(set_YMT_100_E_engineT, "src/metro/YMT/YMT_100/YMT_100_E.png"){
+    engine_r(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_YMT_100_purchase, cargo_subtype) {
+    set_YMT_100_purchase;
+}

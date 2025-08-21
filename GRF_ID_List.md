@@ -47,7 +47,7 @@
 |2028|HEMU_430X_6Car|
 |2029|VHST_600X_8Car|
 |2030|Korail_4th_G1_4Car|
-|2031|CTS_SPassenger_Car|
+|2031|CSPassenger_Car|
 |2032|CGeneratar_Car|
 |2033|CLuggage_Car|
 |2034|CRH1_8Car|
@@ -77,7 +77,7 @@
 |2058|Hyundai_Rotem_R_8Car|
 |2059|IKK_SP_1900_8Car|
 |2060|H2_WJ_4Car|
-|2061|ETS_SPassenger_Car|
+|2061|ESPassenger_Car|
 |2062|Shinkansen_500_16Car|
 |2063|AGV_11Car|
 |2064|BB15000|

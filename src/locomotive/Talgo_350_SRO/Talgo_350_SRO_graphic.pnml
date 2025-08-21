@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+Talgo 350 SRO
+--------------------------------------------------------------------*/
+spriteset(set_Talgo_350_SRO_engineH, "src/locomotive/Talgo_350_SRO/Talgo_350_SRO.png"){
+	DTS_temp(80, 0)
+}
+
+spriteset(set_Talgo_350_SRO_wagon_start, "src/locomotive/Talgo_350_SRO/Talgo_350_SRO.png"){
+	DTS_temp(80, 27)
+}
+
+spriteset(set_Talgo_350_SRO_wagon, "src/locomotive/Talgo_350_SRO/Talgo_350_SRO.png") {
+	DTS_temp(80, 54)
+}
+
+spriteset(set_Talgo_350_SRO_wagon_r, "src/locomotive/Talgo_350_SRO/Talgo_350_SRO.png") {
+	DTS_temp_r(80, 54)
+}
+
+spriteset(set_Talgo_350_SRO_wagon_end, "src/locomotive/Talgo_350_SRO/Talgo_350_SRO.png"){
+	DTS_temp(80, 81)
+}
+
+spriteset(set_Talgo_350_SRO_engineT, "src/locomotive/Talgo_350_SRO/Talgo_350_SRO.png"){
+	DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Talgo_350_SRO_purchase, "src/locomotive/Talgo_350_SRO/Talgo_350_SRO.png"){
+	tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Talgo_350_SRO_purchase, cargo_subtype) {
+	set_Talgo_350_SRO_purchase;
+}

@@ -1,0 +1,96 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+알 보라크
+--------------------------------------------------------------------*/
+spriteset(set_Al_Boraq_engineH, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Al_Boraq_engineH_r, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Al_Boraq_wagon_F1, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Al_Boraq_wagon_F1_r, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_Al_Boraq_wagon_F2, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_mini_7_Highspeed(80, 81)
+}
+
+spriteset(set_Al_Boraq_wagon_F2_r, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_mini_7_Highspeed_r(80, 81)
+}
+
+spriteset(set_Al_Boraq_wagon_3, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_mini_7_Highspeed(80, 108)
+}
+
+spriteset(set_Al_Boraq_wagon_3_r, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_mini_7_Highspeed_r(80, 108)
+}
+
+spriteset(set_Al_Boraq_wagon_C4, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_mini_7_Highspeed(80, 135)
+}
+
+spriteset(set_Al_Boraq_wagon_C4_r, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_mini_7_Highspeed_r(80, 135)
+}
+
+spriteset(set_Al_Boraq_wagon_5, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_mini_7_Highspeed(80, 162)
+}
+
+spriteset(set_Al_Boraq_wagon_5_r, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_mini_7_Highspeed_r(80, 162)
+}
+
+spriteset(set_Al_Boraq_wagon_6, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_mini_7_Highspeed(80, 189)
+}
+
+spriteset(set_Al_Boraq_wagon_6_r, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_mini_7_Highspeed_r(80, 189)
+}
+
+spriteset(set_Al_Boraq_wagon_7, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_mini_7_Highspeed(80, 216)
+}
+
+spriteset(set_Al_Boraq_wagon_7_r, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_mini_7_Highspeed_r(80, 216)
+}
+
+spriteset(set_Al_Boraq_wagon_8, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_Al_Boraq_wagon_8_r, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_r(80, 243)
+}
+
+spriteset(set_Al_Boraq_engineT_r, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp(80, 270)
+}
+
+spriteset(set_Al_Boraq_engineT, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp(80, 297)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Al_Boraq_purchase, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Al_Boraq_purchase, cargo_subtype) {
+    set_Al_Boraq_purchase;
+}

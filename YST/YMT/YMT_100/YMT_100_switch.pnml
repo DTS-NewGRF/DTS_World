@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_YTRO_100_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_YMT_100_B);    // YMT 100 B도색
+    2: return string(STR_REFIT_LIVERY_YMT_100_C);    // YMT 100 C도색
+    3: return string(STR_REFIT_LIVERY_YMT_100_D);    // YMT 100 D도색
+    4: return string(STR_REFIT_LIVERY_YMT_100_E);    // YMT 100 E도색
+    return string(STR_REFIT_LIVERY_YMT_100_A);
+}
+
+switch(FEAT_TRAINS, SELF, sw_YMT_100_engineH, cargo_subtype) {
+    1: set_YMT_100_B_engineH;    // YMT 100 B도색
+    2: set_YMT_100_C_engineH;    // YMT 100 C도색
+    3: set_YMT_100_D_engineH;    // YMT 100 D도색
+    4: set_YMT_100_E_engineH;    // YMT 100 E도색
+    set_YMT_100_A_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_YMT_100_engineT, cargo_subtype) {
+    1: set_YMT_100_B_engineT;    // YMT 100 B도색
+    2: set_YMT_100_C_engineT;    // YMT 100 C도색
+    3: set_YMT_100_D_engineT;    // YMT 100 D도색
+    4: set_YMT_100_E_engineT;    // YMT 100 E도색
+    set_YMT_100_A_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_YMT_100_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_YMT_100_engineT;
+    sw_YMT_100_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_YMT_100_1F_wagon_front, cargo_subtype) {
+    1: set_YMT_100_B_1F_wagon;    // YMT 100 B도색
+    2: set_YMT_100_C_1F_wagon;    // YMT 100 C도색
+    3: set_YMT_100_D_1F_wagon;    // YMT 100 D도색
+    4: set_YMT_100_E_1F_wagon;    // YMT 100 E도색
+    set_YMT_100_A_1F_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_YMT_100_1F_wagon_tail, cargo_subtype) {
+    1: set_YMT_100_B_1F_wagon_r;    // YMT 100 B도색
+    2: set_YMT_100_C_1F_wagon_r;    // YMT 100 C도색
+    3: set_YMT_100_D_1F_wagon_r;    // YMT 100 D도색
+    4: set_YMT_100_E_1F_wagon_r;    // YMT 100 E도색
+    set_YMT_100_A_1F_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_YMT_100_1F_wagon, position_in_consist) {
+    1: sw_YMT_100_1F_wagon_tail;
+    sw_YMT_100_1F_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_YMT_100_2F_wagon_front, cargo_subtype) {
+    1: set_YMT_100_B_2F_wagon;    // YMT 100 B도색
+    2: set_YMT_100_C_2F_wagon;    // YMT 100 C도색
+    3: set_YMT_100_D_2F_wagon;    // YMT 100 D도색
+    4: set_YMT_100_E_2F_wagon;    // YMT 100 E도색
+    set_YMT_100_A_2F_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_YMT_100_2F_wagon_tail, cargo_subtype) {
+    1: set_YMT_100_B_2F_wagon_r;    // YMT 100 B도색
+    2: set_YMT_100_C_2F_wagon_r;    // YMT 100 C도색
+    3: set_YMT_100_D_2F_wagon_r;    // YMT 100 D도색
+    4: set_YMT_100_E_2F_wagon_r;    // YMT 100 E도색
+    set_YMT_100_A_2F_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_YMT_100_2F_wagon, position_in_consist) {
+    1: sw_YMT_100_2F_wagon_tail;
+    sw_YMT_100_2F_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_YMT_100_wagon_attach, vehicle_type_id) {
+    YST_1F_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    YST_2F_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

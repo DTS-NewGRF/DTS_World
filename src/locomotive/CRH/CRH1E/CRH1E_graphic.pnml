@@ -1,0 +1,37 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+CRH1E
+--------------------------------------------------------------------*/
+spriteset(set_CRH1E_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1E/CRH1E.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CRH1E_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1E/CRH1E.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_CRH1E_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1E/CRH1E.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_CRH1E_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1E/CRH1E.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_CRH1E_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1E/CRH1E.png"){
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_CRH1E_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1E/CRH1E.png"){
+    tmpl_purchase(0, 0)
+}
+
+
+switch(FEAT_TRAINS, SELF, sw_CRH1E_purchase, cargo_subtype) {
+    set_CRH1E_purchase;
+}

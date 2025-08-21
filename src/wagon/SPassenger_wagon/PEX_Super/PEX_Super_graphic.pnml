@@ -5,8 +5,16 @@ spriteset(set_PEX_Super_wagon_NA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon
     DTS_temp(80, 0)
 }
 
+spriteset(set_PEX_Super_wagon_NA_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_N_wagon.png") {
+    DTS_temp_r(80, 0)
+}
+
 spriteset(set_PEX_Super_wagon_NB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_N_wagon.png") {
     DTS_temp(80, 27)
+}
+
+spriteset(set_PEX_Super_wagon_NB_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_N_wagon.png") {
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_PEX_Super_wagon_NC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_N_wagon.png") {
@@ -21,8 +29,16 @@ spriteset(set_PEX_Super_wagon_SNA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wago
     DTS_temp(80, 0)
 }
 
+spriteset(set_PEX_Super_wagon_SNA_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_SN_wagon.png") {
+    DTS_temp_r(80, 0)
+}
+
 spriteset(set_PEX_Super_wagon_SNB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_SN_wagon.png") {
     DTS_temp(80, 27)
+}
+
+spriteset(set_PEX_Super_wagon_SNB_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_SN_wagon.png") {
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_PEX_Super_wagon_DA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_D_wagon.png") {
@@ -36,6 +52,11 @@ spriteset(set_PEX_Super_wagon_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon
 spriteset(set_PEX_Super_wagon_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_B_wagon.png") {
     DTS_temp(80, 0)
 }
+
+spriteset(set_PEX_Super_wagon_B_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_B_wagon.png") {
+    DTS_temp_r(80, 0)
+}
+
 
 spriteset(set_PEX_Super_wagon_SA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_S_wagon.png") {
     DTS_temp(80, 0)

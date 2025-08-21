@@ -1,7 +1,0 @@
-//locomotive
-#include "locomotive/Keisei_AE_series/Keisei_AE_series.pnml"
-#include "locomotive/Shinkansen/Shinkansen.pnml"
-
-//Metro
-#include "metro/Nishitetsu/Nishitetsu.pnml"
-#include "metro/Hankyu/Hankyu.pnml"

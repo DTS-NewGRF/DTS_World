@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------------
+Graphic
+--------------------------------------------------------------------*/
+spriteset(set_MTR_Hyundai_Rotem_R_engineH, "src/metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_MTR_Hyundai_Rotem_R_panto_wagon, "src/metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_MTR_Hyundai_Rotem_R_Nomal_wagon, "src/metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_MTR_Hyundai_Rotem_R_special_wagon, "src/metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_MTR_Hyundai_Rotem_R_engineT, "src/metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.png"){
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_MTR_Hyundai_Rotem_R_purchase, "src/metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_Hyundai_Rotem_R_purchase, cargo_subtype) {
+    set_MTR_Hyundai_Rotem_R_purchase;
+}

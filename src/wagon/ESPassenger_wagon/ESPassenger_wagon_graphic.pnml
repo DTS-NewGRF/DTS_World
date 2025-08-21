@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+SNCF_Corail coach_Original color
+--------------------------------------------------------------------*/
+spriteset(set_Original_1nd_wagon, "src/wagon/ESPassenger_wagon/ESPassenger_wagon.png") {
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Original_2nd_wagon, "src/wagon/ESPassenger_wagon/ESPassenger_wagon.png") {
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Original_Bar_wagon, "src/wagon/ESPassenger_wagon/ESPassenger_wagon.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Original_HF_wagon, "src/wagon/ESPassenger_wagon/ESPassenger_wagon.png") {
+    DTS_temp(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_ESPassenger_wagon_purchase, "src/wagon/ESPassenger_wagon/ESPassenger_wagon.png"){
+	tmpl_wagon_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_ESPassenger_wagon_purchase, cargo_subtype) {
+    set_ESPassenger_wagon_purchase;
+}

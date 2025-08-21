@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+E6
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_E6_engineH, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Shinkansen_E6_engineH_r, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Shinkansen_E6_panto_wagon_A, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Shinkansen_E6_panto_wagon_A_r, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Shinkansen_E6_wagon, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_Shinkansen_E6_wagon_r, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_Shinkansen_E6_panto_wagon_B, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_Shinkansen_E6_panto_wagon_B_r, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_Shinkansen_E6_engineT_r, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_Shinkansen_E6_engineT, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp(80, 216)
+}
+
+spriteset(set_Shinkansen_E6_engineT_E5H5, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp(80, 243)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_E6_purchase, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E6_purchase, cargo_subtype) {
+    set_Shinkansen_E6_purchase;
+}

@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+대만고속철도
+--------------------------------------------------------------------*/
+spriteset(set_THSR_700T_engineH, "src/locomotive/THSR_700T/THSR_700T.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_THSR_700T_panto_wagon, "src/locomotive/THSR_700T/THSR_700T.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_THSR_700T_wagon, "src/locomotive/THSR_700T/THSR_700T.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_THSR_700T_panto_wagon_r, "src/locomotive/THSR_700T/THSR_700T.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_THSR_700T_engineT, "src/locomotive/THSR_700T/THSR_700T.png"){
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_THSR_700T_purchase, "src/locomotive/THSR_700T/THSR_700T.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_THSR_700T_purchase, cargo_subtype) {
+    set_THSR_700T_purchase;
+}

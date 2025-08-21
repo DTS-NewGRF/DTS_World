@@ -586,10 +586,10 @@ STR_Group_Post_Car_NAME                                :한국 우편차
 STR_Post_Car_NAME                                      :한국 우편차
 STR_Express_Post_Car_NAME                              :한국 고속 우편차
 STR_PEX_Super_Post_Car_NAME                            :PEX-SUPER 우편객차
-STR_CTS_SPASS_NAME                                     :중국 객차 차량
+STR_CTSPASS_NAME                                       :중국 객차 차량
 STR_CGeneratar_Car_NAME                                :중국 발전차
 STR_CLuggage_Car_NAME                                  :중국 수화물차
-STR_ETS_SPASS_NAME                                     :유럽 객차 차량
+STR_ETSPASS_NAME                                       :유럽 객차 차량
 STR_VTS_SPASS_NAME                                     :가상 객차 차량
 STR_FLAT_1F_NAME                                       :평판화차
 STR_FLAT_Tank_NAME                                     :평판유조 화차
@@ -1461,19 +1461,19 @@ STR_REFIT_LIVERY_Post_Car_POST_1973                    : 우편차 전용도색
 STR_REFIT_LIVERY_Post_Car_POST_1994                    : 우편차 표준도색
 STR_REFIT_LIVERY_Express_Post_Car_POST_M_1993          : 무궁화 구도색
 STR_REFIT_LIVERY_Express_Post_Car_POST_M_2005          : 무궁화 신도색
-STR_REFIT_LIVERY_SWagon_1F_Red                         : 25형 1층 빨강 도색
-STR_REFIT_LIVERY_SWagon_1F_Green                       : 25형 1층 녹색 도색
-STR_REFIT_LIVERY_Swagon_1F_White                       : 25형 1층 흰색 도색
-STR_REFIT_LIVERY_Swagon_2F                             : 25형 2층
-STR_REFIT_LIVERY_Swagon_Bed_3nd                        : 25형 3등석 침대차량
-STR_REFIT_LIVERY_Swagon_Bed_2nd                        : 25형 2등석 침대차량
-STR_REFIT_LIVERY_Swagon_Bed_1nd                        : 25형 1등석 침대차량
-STR_REFIT_LIVERY_Generatar_Car_White                   : 발전차 흰색도색
-STR_REFIT_LIVERY_Generatar_Car_Green                   : 발전차 녹색도색
-STR_REFIT_LIVERY_Luggage_Car_Red                       : 수화물차 빨강도색
-STR_REFIT_LIVERY_Luggage_Car_Green                     : 수화물차 녹색도색
-STR_REFIT_LIVERY_Luggage_Car_WhiteA                    : 수화물차 흰색도색 A
-STR_REFIT_LIVERY_Luggage_Car_WhiteB                    : 수화물차 흰색도색 B
+STR_REFIT_LIVERY_CSPassenger_wagon_1F_Red              : 25형 1층 빨강 도색
+STR_REFIT_LIVERY_CSPassenger_wagon_1F_Green            : 25형 1층 녹색 도색
+STR_REFIT_LIVERY_CSPassenger_wagon_1F_White            : 25형 1층 흰색 도색
+STR_REFIT_LIVERY_CSPassenger_wagon_2F                  : 25형 2층
+STR_REFIT_LIVERY_CSPassenger_wagon_Bed_3nd             : 25형 3등석 침대차량
+STR_REFIT_LIVERY_CSPassenger_wagon_Bed_2nd             : 25형 2등석 침대차량
+STR_REFIT_LIVERY_CSPassenger_wagon_Bed_1nd             : 25형 1등석 침대차량
+STR_REFIT_LIVERY_CGeneratar_Car_White                  : 중국 발전차 흰색도색
+STR_REFIT_LIVERY_CGeneratar_Car_Green                  : 중국 발전차 녹색도색
+STR_REFIT_LIVERY_CLuggage_Car_Red                      : 중국 수화물차 빨강도색
+STR_REFIT_LIVERY_CLuggage_Car_Green                    : 중국 수화물차 녹색도색
+STR_REFIT_LIVERY_CLuggage_Car_WhiteA                   : 중국 수화물차 흰색도색 A
+STR_REFIT_LIVERY_CLuggage_Car_WhiteB                   : 중국 수화물차 흰색도색 B
 STR_REFIT_LIVERY_Original_1nd_Passenger_Car            : 1등석
 STR_REFIT_LIVERY_Original_2nd_Passenger_Car            : 2등석
 STR_REFIT_LIVERY_Original_Bar_Passenger_Car            : 식당칸

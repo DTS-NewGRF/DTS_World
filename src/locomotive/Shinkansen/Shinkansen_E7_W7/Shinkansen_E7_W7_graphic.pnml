@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+E7
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_E7_W7_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_E7_W7/Shinkansen_E7_W7.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Shinkansen_E7_W7_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_E7_W7/Shinkansen_E7_W7.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Shinkansen_E7_W7_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_E7_W7/Shinkansen_E7_W7.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Shinkansen_E7_W7_green_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_E7_W7/Shinkansen_E7_W7.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Shinkansen_E7_W7_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_E7_W7/Shinkansen_E7_W7.png"){
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_E7_W7_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_E7_W7/Shinkansen_E7_W7.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E7_W7_purchase, cargo_subtype) {
+	set_Shinkansen_E7_W7_purchase;
+}

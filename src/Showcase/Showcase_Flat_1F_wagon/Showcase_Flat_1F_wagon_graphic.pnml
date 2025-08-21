@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+평판 차량
+--------------------------------------------------------------------*/
+spriteset(set_Showcase_Flat_1F_Poter2_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Showcase/Showcase_Flat_1F_wagon/Showcase_Flat_1F_wagon_porter2.png"){
+    DTS_temp(80, 0)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Showcase_Flat_1F_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Showcase/Showcase_Flat_1F_wagon/Showcase_Flat_1F_wagon_porter2.png"){
+    tmpl_single_purchase(0, 0)
+}

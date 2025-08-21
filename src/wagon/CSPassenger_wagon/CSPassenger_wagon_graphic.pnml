@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_CSPassenger_wagon_1F_Red, "src/wagon/CSPassenger_wagon/CSPassenger_wagon_1F.png") {
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CSPassenger_wagon_1F_Green, "src/wagon/CSPassenger_wagon/CSPassenger_wagon_1F.png") {
+    DTS_temp(80, 27)
+}
+
+spriteset(set_CSPassenger_wagon_1F_White, "src/wagon/CSPassenger_wagon/CSPassenger_wagon_1F.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_CSPassenger_wagon_2F, "src/wagon/CSPassenger_wagon/CSPassenger_wagon_2F.png") {
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CSPassenger_wagon_Bed_3nd, "src/wagon/CSPassenger_wagon/CSPassenger_wagon_Bed.png") {
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CSPassenger_wagon_Bed_2nd, "src/wagon/CSPassenger_wagon/CSPassenger_wagon_Bed.png") {
+    DTS_temp(80, 27)
+}
+
+spriteset(set_CSPassenger_wagon_Bed_1nd, "src/wagon/CSPassenger_wagon/CSPassenger_wagon_Bed.png") {
+    DTS_temp(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_CSPassenger_wagon_purchase, "src/wagon/CSPassenger_wagon/CSPassenger_wagon_1F.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_CSPassenger_wagon_purchase, cargo_subtype) {
+    set_CSPassenger_wagon_purchase;
+}

@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+한큐전철 8000형
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_8000_engineH, "src/metro/Hankyu/8X00_series/8000_series/Hankyu_8000.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Hankyu_8000_engineH_r, "src/metro/Hankyu/8X00_series/8000_series/Hankyu_8000.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Hankyu_8000_wagon, "src/metro/Hankyu/8X00_series/8000_series/Hankyu_8000.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Hankyu_8000_wagon_r, "src/metro/Hankyu/8X00_series/8000_series/Hankyu_8000.png") {
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_Hankyu_8000_panto_wagon, "src/metro/Hankyu/8X00_series/8000_series/Hankyu_8000.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Hankyu_8000_panto_wagon_r, "src/metro/Hankyu/8X00_series/8000_series/Hankyu_8000.png") {
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_Hankyu_8000_engineT_r, "src/metro/Hankyu/8X00_series/8000_series/Hankyu_8000.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_Hankyu_8000_engineT, "src/metro/Hankyu/8X00_series/8000_series/Hankyu_8000.png"){
+    DTS_temp(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_Hankyu_8000_purchase, "src/metro/Hankyu/8X00_series/8000_series/Hankyu_8000.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_8000_purchase, cargo_subtype) {
+    set_Hankyu_8000_purchase;
+}

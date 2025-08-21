@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+니시테츠 3000형
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_3000_engineH, "src/metro/Nishitetsu/3000_series/Nishitetsu_3000.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Nishitetsu_3000_engineT, "src/metro/Nishitetsu/3000_series/Nishitetsu_3000.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Nishitetsu_3000_panto_wagon, "src/metro/Nishitetsu/3000_series/Nishitetsu_3000.png") {
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Nishitetsu_3000_wagon, "src/metro/Nishitetsu/3000_series/Nishitetsu_3000.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Nishitetsu_3000_panto_engineT, "src/metro/Nishitetsu/3000_series/Nishitetsu_3000.png"){
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_3000_purchase, "src/metro/Nishitetsu/3000_series/Nishitetsu_3000.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_3000_purchase, cargo_subtype) {
+    set_Nishitetsu_3000_purchase;
+}
