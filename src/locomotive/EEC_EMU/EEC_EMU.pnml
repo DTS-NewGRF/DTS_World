@@ -54,7 +54,7 @@ item(FEAT_TRAINS, EEC_EMU_10Car, 2559){
         default:                        sw_EEC_EMU_10car_reversed;
         articulated_part:               sw_articulated_EEC_EMU_10car;
         purchase:                       sw_EEC_EMU_purchase;
-        speed:                          sw_EEC_EMU_speed;
+        speed:                          sw_Regular_110_speed;
         cargo_subtype_text:             sw_EEC_EMU_cargo_subtype_text;
         loading_speed:                  25;
         sound_effect:                   sw_DCMOTERBASICstart_sound;

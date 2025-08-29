@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Gwangjumetro_1000_4Car, 2415){
         default:                        sw_Gwangjumetro_1000_4car_reversed;
         articulated_part:               sw_articulated_Gwangjumetro_1000_4car;
         purchase:                       sw_Gwangjumetro_1000_purchase;
-        speed:                          sw_Gwangjumetro_1000_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

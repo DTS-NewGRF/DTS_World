@@ -26,7 +26,7 @@ switch(FEAT_TRAINS, SELF, sw_ALSTOM_IGBT_Start_sound, extra_callback_info1) {
 /*--------------------------------------------------------------------
 ALSTOMGTOstart.wav
 적용열차
-- 부산교통공사 2000호대
+- 부산교통공사 2000호대 1세대
 - 서울교통공사 4000호대 2세대 GTO
 - 서울교통공사 7000호대
 - 서울교통공사 8000호대
@@ -387,6 +387,18 @@ switch(FEAT_TRAINS, SELF, sw_MITSUBISHIigbtstart_sound, extra_callback_info1) {
     }
 
 /*--------------------------------------------------------------------
+MITSUBISHIigbt2start.wav
+적용열차
+- 부산교통공사 4000호대
+- 부산김해경전철
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_MITSUBISHIigbt2start_Busanmetro_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/MITSUBISHIigbt2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/BTC_DOOR_CLOSE.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
 MTU396TCstart.wav
 적용열차
 - DHC PP 새마을호
@@ -634,6 +646,7 @@ TOSHIBAIGBTPMSMstart.wav
 - HYEL-15, 100, 150, 300, 350, 400
 - HYEL-무궁화, 무궁화 DD
 - 부산교통공사 2세대 1000호대 2,3차분
+- 부산교통공사 2세대 2000호대
 - 부산교통공사 3세대 1000호대
 - 서울교통공사 4세대 5000, 8000호대
 - 서울교통공사 3세대 8000호대 VVVF 전동차

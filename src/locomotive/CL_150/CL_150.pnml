@@ -71,7 +71,7 @@ item(FEAT_TRAINS, CL_150_4Car, 2173){
         default:                        sw_CL_150_4car_reversed;
         articulated_part:               sw_articulated_CL_150_4car;
         purchase:                       sw_CL_150_purchase;
-        speed:                          sw_CL_150_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, CL_150_G2_4Car, 2457){
         default:                        sw_CL_150_G2_4car_reversed;
         articulated_part:               sw_articulated_CL_150_G2_4car;
         purchase:                       sw_CL_150_G2_purchase;
-        speed:                          sw_CL_150_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -181,7 +181,7 @@ item(FEAT_TRAINS, CL_150_6Car, 2174){
         default:                        sw_CL_150_6car_reversed;
         articulated_part:               sw_articulated_CL_150_6car;
         purchase:                       sw_CL_150_purchase;
-        speed:                          sw_CL_150_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -235,7 +235,7 @@ item(FEAT_TRAINS, CL_150_G2_6Car, 2458){
         default:                        sw_CL_150_G2_6car_reversed;
         articulated_part:               sw_articulated_CL_150_G2_6car;
         purchase:                       sw_CL_150_G2_purchase;
-        speed:                          sw_CL_150_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -291,7 +291,7 @@ item(FEAT_TRAINS, CL_150_8Car, 2175){
         default:                        sw_CL_150_8car_reversed;
         articulated_part:               sw_articulated_CL_150_8car;
         purchase:                       sw_CL_150_purchase;
-        speed:                          sw_CL_150_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -345,7 +345,7 @@ item(FEAT_TRAINS, CL_150_G2_8Car, 2459){
         default:                        sw_CL_150_G2_8car_reversed;
         articulated_part:               sw_articulated_CL_150_G2_8car;
         purchase:                       sw_CL_150_G2_purchase;
-        speed:                          sw_CL_150_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -401,7 +401,7 @@ item(FEAT_TRAINS, CL_180_8Car, 2176){
         default:                        sw_CL_180_8car_reversed;
         articulated_part:               sw_articulated_CL_180_8car;
         purchase:                       sw_CL_150_purchase;
-        speed:                          sw_CL_180_speed;
+        speed:                          sw_High_180_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -455,7 +455,7 @@ item(FEAT_TRAINS, CL_180_G2_8Car, 2460){
         default:                        sw_CL_180_G2_8car_reversed;
         articulated_part:               sw_articulated_CL_180_G2_8car;
         purchase:                       sw_CL_150_G2_purchase;
-        speed:                          sw_CL_180_speed;
+        speed:                          sw_High_180_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -510,7 +510,7 @@ item(FEAT_TRAINS, CL_150_Premium_10Car, 2463){
         default:                        sw_CL_150_Premium_10car_reversed;
         articulated_part:               sw_articulated_CL_150_Premium_10car;
         purchase:                       sw_CL_150_Premium_purchase;
-        speed:                          sw_CL_150_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -565,7 +565,7 @@ item(FEAT_TRAINS, CL_180_Premium_10Car, 2464){
         default:                        sw_CL_150_Premium_10car_reversed;
         articulated_part:               sw_articulated_CL_180_Premium_10car;
         purchase:                       sw_CL_150_Premium_purchase;
-        speed:                          sw_CL_180_speed;
+        speed:                          sw_High_180_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

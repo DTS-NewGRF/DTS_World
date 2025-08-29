@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Korail_Third_10Car, 2253){
         default:                        sw_Korail_Third_10car_reversed;
         articulated_part:               sw_articulated_Korail_Third_10car;
         purchase:                       sw_Korail_Third_purchase;
-        speed:                          sw_Korail_Third_speed;
+        speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

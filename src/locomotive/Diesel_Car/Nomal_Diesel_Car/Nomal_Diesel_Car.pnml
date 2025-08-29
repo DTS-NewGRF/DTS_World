@@ -70,7 +70,7 @@ item(FEAT_TRAINS, Nomal_Diesel_Car, 2467){
     graphics {
         default:                        sw_Nomal_Diesel_engine_1Car;
         purchase:                       sw_Nomal_Diesel_purchase;
-        speed:                          sw_Nomal_Diesel_Car_speed;
+        speed:                          sw_Regular_100_speed;
         cargo_capacity:                 sw_Nomal_Diesel_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, Nomal_Diesel_2Car_addcar, 2539){
     graphics {
         default:                        sw_Nomal_Diesel_engine_2car;
         purchase:                       sw_Nomal_Diesel_2car_purchase;
-        speed:                          sw_Nomal_Diesel_Car_speed;
+        speed:                          sw_Regular_100_speed;
         cargo_capacity:                 sw_Nomal_Diesel_2car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -182,7 +182,7 @@ item(FEAT_TRAINS, Nomal_Diesel_2Car, 2540){
         default:                        sw_Nomal_Diesel_engine_1985_2car_reversed;
         purchase:                       sw_Nomal_Diesel_1985_2car_purchase;
         articulated_part:               sw_articulated_Nomal_Diesel_engine_2car;
-        speed:                          sw_Nomal_Diesel_Car_speed;
+        speed:                          sw_Regular_100_speed;
         cargo_capacity:                 sw_Nomal_Diesel_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;

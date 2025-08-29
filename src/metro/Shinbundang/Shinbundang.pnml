@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Shinbundang_6Car, 2241){
         default:                        sw_Shinbundang_6car_reversed;
         articulated_part:               sw_articulated_Shinbundang_6car;
         purchase:                       sw_Shinbundang_purchase;
-        speed:                          sw_Shinbundang_speed;
+        speed:                          sw_Metro_110_speed;
         cargo_subtype_text:             sw_Shinbundang_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;

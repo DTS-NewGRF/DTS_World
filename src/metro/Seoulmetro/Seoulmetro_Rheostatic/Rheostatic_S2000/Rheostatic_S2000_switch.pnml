@@ -222,9 +222,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Rheostatic_S2000_10Car, extra_callback
     1..9: Rheostatic_S2000_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_Rheostatic_S2000_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
-    return 100;
-    }

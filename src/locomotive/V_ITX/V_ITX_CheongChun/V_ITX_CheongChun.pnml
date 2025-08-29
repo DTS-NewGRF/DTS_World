@@ -74,7 +74,7 @@ item(FEAT_TRAINS, V_ITX_CheongChun_6Car, 2353){
         default:                        sw_V_ITX_CheongChun_6car_reversed;
         articulated_part:               sw_articulated_V_ITX_CheongChun_6car;
         purchase:                       sw_V_ITX_CheongChun_purchase;
-        speed:                          sw_V_ITX_CheongChun_speed;
+        speed:                          sw_High_180_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_V_ITX_CheongChun_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBAStart_sound;
@@ -129,7 +129,7 @@ item(FEAT_TRAINS, V_ITX_CheongChun_10Car, 2355){
         default:                        sw_V_ITX_CheongChun_10car_reversed;
         articulated_part:               sw_articulated_V_ITX_CheongChun_10car;
         purchase:                       sw_V_ITX_CheongChun_purchase;
-        speed:                          sw_V_ITX_CheongChun_speed;
+        speed:                          sw_High_180_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_V_ITX_CheongChun_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBAStart_sound;

@@ -60,9 +60,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Nextrain_1000_4car, extra_callback_inf
     1..3: Nextrain_4Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_Nextrain_1000_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
-    return 110;
-    }

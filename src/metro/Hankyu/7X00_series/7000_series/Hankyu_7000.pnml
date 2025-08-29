@@ -72,7 +72,7 @@ item(FEAT_TRAINS, Hankyu_7000_2Car, 2448){
         default:                        sw_Hankyu_7000_2car_wagon;
         articulated_part:               sw_articulated_Hankyu_7000_2car;
         purchase:                       sw_Hankyu_7000_purchase;
-        speed:                          sw_Hankyu_7000_speed;
+        speed:                          sw_Metro_115_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -127,7 +127,7 @@ item(FEAT_TRAINS, Hankyu_7000_4Car, 2449){
         default:                        sw_Hankyu_7000_4car_wagon;
         articulated_part:               sw_articulated_Hankyu_7000_4car;
         purchase:                       sw_Hankyu_7000_purchase;
-        speed:                          sw_Hankyu_7000_speed;
+        speed:                          sw_Metro_115_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -182,7 +182,7 @@ item(FEAT_TRAINS, Hankyu_7000_6Car, 2450){
         default:                        sw_Hankyu_7000_6car_wagon;
         articulated_part:               sw_articulated_Hankyu_7000_6car;
         purchase:                       sw_Hankyu_7000_purchase;
-        speed:                          sw_Hankyu_7000_speed;
+        speed:                          sw_Metro_115_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -237,7 +237,7 @@ item(FEAT_TRAINS, Hankyu_7000_8Car, 2451){
         default:                        sw_Hankyu_7000_8car_wagon;
         articulated_part:               sw_articulated_Hankyu_7000_8car;
         purchase:                       sw_Hankyu_7000_purchase;
-        speed:                          sw_Hankyu_7000_speed;
+        speed:                          sw_Metro_115_speed;
         power:                          sw_Hankyu_7000_8Car_power_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;

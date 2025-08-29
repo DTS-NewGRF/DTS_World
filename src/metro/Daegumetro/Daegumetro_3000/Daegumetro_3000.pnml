@@ -18,6 +18,7 @@ item(FEAT_TRAINS, Daegumetro_3000_3Car, 2424){
         track_type:                     GMNO;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Daegumetro;
         
         //spec
         speed:                          70km/h;

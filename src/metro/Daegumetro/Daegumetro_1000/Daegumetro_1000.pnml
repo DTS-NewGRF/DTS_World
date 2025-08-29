@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Daegumetro_1000_6Car, 2384){
         default:                        sw_Daegumetro_1000_6car_reversed;
         articulated_part:               sw_articulated_Daegumetro_1000_6car;
         purchase:                       sw_Daegumetro_1000_purchase;
-        speed:                          sw_Daegumetro_1000_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

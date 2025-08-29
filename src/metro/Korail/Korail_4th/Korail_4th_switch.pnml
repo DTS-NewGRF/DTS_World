@@ -518,14 +518,3 @@ switch(FEAT_TRAINS, SELF, sw_Korail_4th_8Car_sound, cargo_subtype) {
     3: sw_HYUNDAIROTEMPMSMstart_sound;
     sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
 }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_Korail_4th_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
-    return 110;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Korail_4th_392000_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
-    return 100;
-    }

@@ -53,7 +53,7 @@ item(FEAT_TRAINS, KTX_1_20Car, 2322){
         default:                        sw_KTX_1_20car_reversed;
         articulated_part:               sw_articulated_KTX_1_20car;
         purchase:                       sw_KTX_1_purchase;
-        speed:                          sw_KTX_1_speed;
+        speed:                          sw_High_305_speed;
         length:                         sw_KTX_1_20Car_length_in_custom;
         cargo_capacity:                 sw_KTX_1_capacity_in_custom;
         loading_speed:                  25;

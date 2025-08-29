@@ -72,7 +72,7 @@ item(FEAT_TRAINS, DTX_Sejong_10Car, 2494){
         default:                        sw_DTX_Sejong_10car_reversed;
         articulated_part:               sw_articulated_DTX_Sejong_10car;
         purchase:                       sw_DTX_Sejong_purchase;
-        speed:                          sw_DTX_Sejong_speed;
+        speed:                          sw_High_330_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, DTX_Sejong_20Car, 2495){
         default:                        sw_DTX_Sejong_20car_reversed;
         articulated_part:               sw_articulated_DTX_Sejong_20car;
         purchase:                       sw_DTX_Sejong_purchase;
-        speed:                          sw_DTX_Sejong_speed;
+        speed:                          sw_High_330_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

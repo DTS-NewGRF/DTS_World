@@ -1,20 +1,20 @@
 /*--------------------------------------------------------------------
-부산교통공사 2000호대 전동차
+부산교통공사 2000호대 2세대 전동차
 --------------------------------------------------------------------*/
 // Graphics
-#include "Busanmetro_2000_graphic.pnml"
+#include "Busanmetro_2nd_2000_graphic.pnml"
 
 // Switch
-#include "Busanmetro_2000_switch.pnml"
+#include "Busanmetro_2nd_2000_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Busanmetro_2000_6Car, 2381){
+item(FEAT_TRAINS, Busanmetro_2nd_2000_6Car, 2565){
     property {
-        name:                           string(STR_Busanmetro_2000_6Car_NAME);
+        name:                           string(STR_Busanmetro_2nd_2000_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1997, 1, 1);
+        introduction_date:              date(2026, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -22,7 +22,7 @@ item(FEAT_TRAINS, Busanmetro_2000_6Car, 2381){
         
         //spec
         speed:                          100km/h;
-        power:                          2400 kW;
+        power:                          2520 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -34,7 +34,7 @@ item(FEAT_TRAINS, Busanmetro_2000_6Car, 2381){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 108;
+        cargo_capacity:                 113;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -50,14 +50,13 @@ item(FEAT_TRAINS, Busanmetro_2000_6Car, 2381){
         }
 
     graphics {
-        default:                        sw_Busanmetro_2000_6car_reversed;
-        articulated_part:               sw_articulated_Busanmetro_2000_6car;
-        purchase:                       sw_Busanmetro_2000_purchase;
-        speed:                          sw_Busanmetro_2000_speed;
+        default:                        sw_Busanmetro_2nd_2000_6car_reversed;
+        articulated_part:               sw_articulated_Busanmetro_2nd_2000_6car;
+        purchase:                       sw_Busanmetro_2nd_2000_purchase;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Busanmetro_2000_cargo_subtype_text;
-        sound_effect:                   sw_Busanmetro_2000_sound;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_Busanmetro_sound;
         }
         }

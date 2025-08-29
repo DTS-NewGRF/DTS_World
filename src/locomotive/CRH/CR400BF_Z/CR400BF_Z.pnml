@@ -72,7 +72,7 @@ item(FEAT_TRAINS, CR400BF_Z_8Car, 2049){
         default:                        sw_CR400BF_Z_8car;
         articulated_part:               sw_articulated_CR400BF_Z_8car;
         purchase:                       sw_CR400BF_Z_purchase;
-        speed:                          sw_CR400BF_Z_speed;
+        speed:                          sw_High_350_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, CR400BF_Z_17Car, 2153){
         default:                        sw_CR400BF_Z_17car;
         articulated_part:               sw_articulated_CR400BF_Z_17car;
         purchase:                       sw_CR400BF_Z_purchase;
-        speed:                          sw_CR400BF_Z_speed;
+        speed:                          sw_High_350_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

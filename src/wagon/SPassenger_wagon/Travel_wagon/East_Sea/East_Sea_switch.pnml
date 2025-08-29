@@ -15,9 +15,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_East_Sea_5Car, extra_callback_info1) {
     1..4: East_Sea_5Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 속도
-switch(FEAT_TRAINS, SELF, sw_East_Sea_speed, Use_Passengercar_Real_speed) {
-   1: return 120;
-   return 0;
-   }

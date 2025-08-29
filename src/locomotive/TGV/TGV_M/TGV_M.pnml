@@ -52,7 +52,7 @@ item(FEAT_TRAINS, TGV_M_11Car, 2082){
         default:                        sw_TGV_M_10car_reversed;
         articulated_part:               sw_articulated_TGV_M_10car;
         purchase:                       sw_TGV_M_purchase;
-        speed:                          sw_TGV_M_speed;
+        speed:                          sw_High_320_speed;
         length:                         sw_TGV_M_wagon_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;

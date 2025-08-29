@@ -18,6 +18,7 @@ item(FEAT_TRAINS, Busanmetro_4000_6Car, 2412){
         track_type:                     LAGT;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Busanmetro;
         
         //spec
         speed:                          60km/h;
@@ -57,6 +58,6 @@ item(FEAT_TRAINS, Busanmetro_4000_6Car, 2412){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Busanmetro_4000_sound;
+        sound_effect:                   sw_MITSUBISHIigbt2start_Busanmetro_sound;
         }
         }

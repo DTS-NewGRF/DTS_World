@@ -55,7 +55,7 @@ item(FEAT_TRAINS, V_KTX_Chowol_8Car, 2406){
         default:                        sw_V_KTX_Chowol_8car_reversed;
         articulated_part:               sw_articulated_V_KTX_Chowol_8car;
         purchase:                       set_V_KTX_Chowol_purchase;
-        speed:                          sw_V_KTX_Chowol_speed;
+        speed:                          sw_High_368_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }

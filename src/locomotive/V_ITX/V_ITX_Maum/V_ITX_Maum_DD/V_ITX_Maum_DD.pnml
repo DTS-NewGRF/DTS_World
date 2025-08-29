@@ -74,7 +74,7 @@ item(FEAT_TRAINS, V_ITX_Maum_DD_4Car, 2311){
         default:                        sw_V_ITX_Maum_DD_4car_reversed;
         articulated_part:               sw_articulated_V_ITX_Maum_DD_4car;
         purchase:                       sw_V_ITX_Maum_DD_purchase;
-        speed:                          sw_V_ITX_Maum_DD_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
@@ -128,7 +128,7 @@ item(FEAT_TRAINS, V_ITX_Maum_DD_6Car, 2011){
         default:                        sw_V_ITX_Maum_DD_6car_reversed;
         articulated_part:               sw_articulated_V_ITX_Maum_DD_6car;
         purchase:                       sw_V_ITX_Maum_DD_purchase;
-        speed:                          sw_V_ITX_Maum_DD_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
@@ -182,7 +182,7 @@ item(FEAT_TRAINS, V_ITX_Maum_DD_8Car, 2550){
         default:                        sw_V_ITX_Maum_DD_8car_reversed;
         articulated_part:               sw_articulated_V_ITX_Maum_DD_8car;
         purchase:                       sw_V_ITX_Maum_DD_purchase;
-        speed:                          sw_V_ITX_Maum_DD_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
@@ -236,7 +236,7 @@ item(FEAT_TRAINS, V_ITX_Maum_DD_10Car, 2551){
         default:                        sw_V_ITX_Maum_DD_10car_reversed;
         articulated_part:               sw_articulated_V_ITX_Maum_DD_10car;
         purchase:                       sw_V_ITX_Maum_DD_purchase;
-        speed:                          sw_V_ITX_Maum_DD_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }

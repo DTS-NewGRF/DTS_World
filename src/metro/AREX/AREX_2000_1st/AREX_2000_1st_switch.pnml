@@ -33,9 +33,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_AREX_2000_1st_6car, extra_callback_inf
     1..5: APEX_2000_1st_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_AREX_2000_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
-    return 110;
-    }

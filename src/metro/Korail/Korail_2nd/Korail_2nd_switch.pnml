@@ -178,9 +178,3 @@ switch(FEAT_TRAINS, SELF, sw_Korail_2nd_10Car_sound, cargo_subtype) {
     5: sw_TOSHIBAGTOKStrart_sound;
     sw_TOSHIBAGTOKStrart_sound;
 }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_Korail_2nd_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
-    return 110;
-    }

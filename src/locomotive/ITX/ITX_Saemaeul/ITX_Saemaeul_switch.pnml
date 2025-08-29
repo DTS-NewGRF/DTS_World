@@ -35,9 +35,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_ITX_Saemaeul_6car, extra_callback_info
     1..5: ITX_Saemaeul_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
-    return 150;
-    }

@@ -577,19 +577,3 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_5000_sound, cargo_subtype) {
     1: sw_DAWONSYSIGBTstart_sound;
     sw_ABBGTOstart_sound;
 }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_GTO_10Car_speed, cargo_subtype) {
-    2: return 100;
-       110;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_GTO_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
-    return sw_Seoulmetro_1st_VVVF_GTO_10Car_speed;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
-    return 100;
-    }

@@ -53,7 +53,7 @@ item(FEAT_TRAINS, V_KTX_Sancheon_10Car, 2547){
         default:                        sw_V_KTX_Sancheon_10car_reversed;
         articulated_part:               sw_articulated_V_KTX_Sancheon_10car;
         purchase:                       sw_V_KTX_Sancheon_purchase;
-        speed:                          sw_V_KTX_Sancheon_speed;
+        speed:                          sw_High_305_speed;
         length:                         sw_V_KTX_Sancheon_wagon_length_in_custom;
         cargo_capacity:                 sw_V_KTX_Sancheon_capacity_in_custom;
         loading_speed:                  25;

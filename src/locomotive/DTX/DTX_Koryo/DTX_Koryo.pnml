@@ -71,7 +71,7 @@ item(FEAT_TRAINS, DTX_Koryo_8Car, 2486){
         default:                        sw_DTX_Koryo_8car_reversed;
         articulated_part:               sw_articulated_DTX_Koryo_8car;
         purchase:                       sw_DTX_Koryo_purchase;
-        speed:                          sw_DTX_Koryo_speed;
+        speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -124,7 +124,7 @@ item(FEAT_TRAINS, DTX_Koryo_10Car, 2487){
         default:                        sw_DTX_Koryo_10car_reversed;
         articulated_part:               sw_articulated_DTX_Koryo_10car;
         purchase:                       sw_DTX_Koryo_purchase;
-        speed:                          sw_DTX_Koryo_speed;
+        speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -177,7 +177,7 @@ item(FEAT_TRAINS, DTX_Koryo_16Car, 2488){
         default:                        sw_DTX_Koryo_16car_reversed;
         articulated_part:               sw_articulated_DTX_Koryo_16car;
         purchase:                       sw_DTX_Koryo_purchase;
-        speed:                          sw_DTX_Koryo_speed;
+        speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -230,7 +230,7 @@ item(FEAT_TRAINS, DTX_Koryo_20Car, 2489){
         default:                        sw_DTX_Koryo_20car_reversed;
         articulated_part:               sw_articulated_DTX_Koryo_20car;
         purchase:                       sw_DTX_Koryo_purchase;
-        speed:                          sw_DTX_Koryo_speed;
+        speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

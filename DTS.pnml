@@ -10,7 +10,7 @@ grf {
     name :                             string(STR_GRF_NAME_WITH_VER);
     desc :                             string(STR_GRF_DESC);
     url :                              string(STR_GRF_URL);
-    version :                          20250821;
+    version :                          20250829;
     min_compatible_version :           20250202;
 	
 	// Parameters 매개변수
@@ -19,6 +19,9 @@ grf {
 
 // 사운드
     #include "src/sound.pnml"
+
+// 속도변수
+    #include "src/speed.pnml"
 
 // 화물테이블
 cargotable {

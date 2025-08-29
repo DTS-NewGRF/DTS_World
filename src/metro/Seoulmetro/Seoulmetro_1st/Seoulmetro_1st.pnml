@@ -72,7 +72,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_4Car, 2283){
         default:                        sw_Seoulmetro_1st_4car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_1st_4car;
         purchase:                       sw_Seoulmetro_1st_2000_purchase;
-        speed:                          sw_Seoulmetro_1st_VVVF_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_9000_4Car, 2364){
         default:                        sw_Seoulmetro_1st_9000_4car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_1st_9000_4car;
         purchase:                       sw_Seoulmetro_1st_9000_purchase;
-        speed:                          sw_Seoulmetro_1st_VVVF_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -180,7 +180,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_2000_6Car, 2284){
         default:                        sw_Seoulmetro_1st_2000_6car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_1st_2000_6car;
         purchase:                       sw_Seoulmetro_1st_2000_purchase;
-        speed:                          sw_Seoulmetro_1st_VVVF_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -234,7 +234,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_4000_6Car, 2256){
         default:                        sw_Seoulmetro_1st_4000_6car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_1st_4000_6car;
         purchase:                       sw_Seoulmetro_1st_4000_purchase;
-        speed:                          sw_Seoulmetro_1st_VVVF_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -288,7 +288,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_8000_6Car, 2308){
         default:                        sw_Seoulmetro_1st_VVVF_8000_6car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_1st_8000_6Car;
         purchase:                       sw_Seoulmetro_1st_7000_purchase;
-        speed:                          sw_Seoulmetro_1st_VVVF_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -343,7 +343,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_9000_6Car, 2365){
         default:                        sw_Seoulmetro_1st_VVVF_9000_6car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_1st_9000_6car;
         purchase:                       sw_Seoulmetro_1st_9000_purchase;
-        speed:                          sw_Seoulmetro_1st_VVVF_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -397,7 +397,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_5000_8Car, 2300){
         default:                        sw_Seoulmetro_1st_5000_8car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_1st_5000_8Car;
         purchase:                       sw_Seoulmetro_1st_5000_purchase;
-        speed:                          sw_Seoulmetro_1st_VVVF_speed;
+        speed:                          sw_Metro_100_speed;
         cargo_subtype_text:             sw_Seoulmetro_1st_5000_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -452,7 +452,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_6000_8Car, 2310){
         default:                        sw_Seoulmetro_1st_6000_8car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_1st_6000_8Car;
         purchase:                       sw_Seoulmetro_1st_6000_purchase;
-        speed:                          sw_Seoulmetro_1st_VVVF_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -506,7 +506,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_7000_8Car, 2309){
         default:                        sw_Seoulmetro_1st_7000_8car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_1st_7000_8Car;
         purchase:                       sw_Seoulmetro_1st_7000_purchase;
-        speed:                          sw_Seoulmetro_1st_VVVF_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -561,7 +561,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_1000_4000_10Car, 2257){
         default:                        sw_Seoulmetro_1st_10car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_1st_1000_4000_10car;
         purchase:                       sw_Seoulmetro_1st_1000_purchase;
-        speed:                          sw_Seoulmetro_1st_VVVF_GTO_speed;
+        speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -616,7 +616,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_2000_3000_10Car, 2285){
         default:                        sw_Seoulmetro_1st_2000_3000_10car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_1st_2000_3000_10car;
         purchase:                       sw_Seoulmetro_1st_2000_3000_purchase;
-        speed:                          sw_Seoulmetro_1st_VVVF_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

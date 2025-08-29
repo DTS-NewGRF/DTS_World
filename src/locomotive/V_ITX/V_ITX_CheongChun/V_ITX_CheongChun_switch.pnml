@@ -84,9 +84,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_V_ITX_CheongChun_10car, extra_callback
     1..9: V_ITX_CheongChun_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_V_ITX_CheongChun_speed, Use_max_virtual_speed) {
-    1: return Semi_High_SPEED_Train;
-    return 180;
-    }

@@ -72,7 +72,7 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_DD_6Car, 2013){
         default:                        sw_V_ITX_Saemaeul_DD_6car_reversed;
         articulated_part:               sw_articulated_V_ITX_Saemaeul_DD_6car;
         purchase:                       sw_V_ITX_Saemaeul_DD_purchase;
-        speed:                          sw_V_ITX_Saemaeul_DD_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_DD_8Car, 2233){
         default:                        sw_V_ITX_Saemaeul_DD_8car_reversed;
         articulated_part:               sw_articulated_V_ITX_Saemaeul_DD_8car;
         purchase:                       sw_V_ITX_Saemaeul_DD_purchase;
-        speed:                          sw_V_ITX_Saemaeul_DD_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -218,9 +218,3 @@ switch(FEAT_TRAINS, SELF, sw_V_KTX_Sancheon_capacity_in_custom, cargo_subtype) {
     6: return 41;
        38;
 }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Sancheon_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
-    return 305;
-    }

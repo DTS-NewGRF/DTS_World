@@ -52,9 +52,3 @@ switch(FEAT_TRAINS, SELF, sw_DEL7600_engine, current_year) {
 switch (FEAT_TRAINS, SELF, sw_DEL7600_engine_1Car, position_in_vehid_chain % 1) {
     sw_DEL7600_engine; //default
     }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_DEL7600_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
-    return 150;
-    }

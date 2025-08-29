@@ -53,7 +53,7 @@ item(FEAT_TRAINS, MTR_CRRC_8Car, 2056){
         default:                        sw_MTR_CRRC_8car;
         articulated_part:               sw_articulated_MTR_CRRC_8car;
         purchase:                       sw_MTR_CRRC_purchase;
-        speed:                          sw_Parameter_MTR_CRRC_speed;
+        speed:                          sw_Metro_130_speed;
         loading_speed:                  25;
         cost_factor:					10;
         running_cost_factor:            150;

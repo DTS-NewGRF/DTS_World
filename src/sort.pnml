@@ -120,7 +120,8 @@ sort(FEAT_TRAINS, [
     Busanmetro_1st_1000_8Car,                //2378
     Busanmetro_2st_1000_8Car,                //2379
     Busanmetro_3rd_1000_8Car,                //2380
-    Busanmetro_2000_6Car,                    //2381
+    Busanmetro_1st_2000_6Car,                //2381
+    Busanmetro_2nd_2000_6Car,                //2565
     Busanmetro_3000_4Car,                    //2382
     Busanmetro_4000_6Car,                    //2412
 

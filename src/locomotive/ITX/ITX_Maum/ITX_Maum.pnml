@@ -74,7 +74,7 @@ item(FEAT_TRAINS, ITX_Maum_4Car, 2166){
         default:                        sw_ITX_Maum_4car_reversed;
         articulated_part:               sw_articulated_ITX_Maum_4car;
         purchase:                       sw_ITX_Maum_purchase;
-        speed:                          sw_ITX_Maum_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_ITX_Maum_cargo_subtype_text;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
@@ -129,7 +129,7 @@ item(FEAT_TRAINS, ITX_Maum_6Car, 2010){
         default:                        sw_ITX_Maum_6car_reversed;
         articulated_part:               sw_articulated_ITX_Maum_6car;
         purchase:                       sw_ITX_Maum_purchase;
-        speed:                          sw_ITX_Maum_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
@@ -183,7 +183,7 @@ item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
         default:                        sw_ITX_Maum_4_4car_reversed;
         articulated_part:               sw_articulated_ITX_Maum_4_4car;
         purchase:                       sw_ITX_Maum_purchase;
-        speed:                          sw_ITX_Maum_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_ITX_Maum_4_4_cargo_subtype_text;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
@@ -238,7 +238,7 @@ item(FEAT_TRAINS, ITX_Maum_4_6Car, 2258){
         default:                        sw_ITX_Maum_4_6car_reversed;
         articulated_part:               sw_articulated_ITX_Maum_4_6car;
         purchase:                       sw_ITX_Maum_purchase;
-        speed:                          sw_ITX_Maum_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
@@ -292,7 +292,7 @@ item(FEAT_TRAINS, ITX_Maum_6_4Car, 2259){
         default:                        sw_ITX_Maum_6_4car_reversed;
         articulated_part:               sw_articulated_ITX_Maum_6_4car;
         purchase:                       sw_ITX_Maum_purchase;
-        speed:                          sw_ITX_Maum_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }

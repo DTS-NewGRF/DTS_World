@@ -67,7 +67,7 @@ item (FEAT_TRAINS, Pidulgi_Normal, 2469){
         default:                        sw_Pidulgi_Normal_wagon_1Car;
         purchase:                       sw_Pidulgi_Normal_purchase;
         cargo_capacity:                 sw_Pidulgi_Normal_capacity_in_custom;
-        speed:                          sw_Pidulgi_Normal_speed;
+        speed:                          sw_wagon_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;

@@ -59,9 +59,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Avelia_Liberty_11car, extra_callback_i
     1..10: Avelia_Liberty_11Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_Avelia_Liberty_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
-    return 320;
-    }

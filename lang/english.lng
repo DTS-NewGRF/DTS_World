@@ -329,7 +329,8 @@ STR_Busanmetro_1st_1000_6Car_NAME                      :[6car] Busanmetro 1st 10
 STR_Busanmetro_1st_1000_8Car_NAME                      :[8car] Busanmetro 1st 1000
 STR_Busanmetro_2nd_1000_8Car_NAME                      :[8car] Busanmetro 2nd 1000
 STR_Busanmetro_3rd_1000_8Car_NAME                      :[8car] Busanmetro 3rd 1000
-STR_Busanmetro_2000_6Car_NAME                          :[6car] Busanmetro 2000
+STR_Busanmetro_1st_2000_6Car_NAME                      :[6car] Busanmetro 1st 2000
+STR_Busanmetro_2nd_2000_6Car_NAME                      :[6car] Busanmetro 2nd 2000
 STR_Busanmetro_3000_4Car_NAME                          :[4car] Busanmetro 3000
 STR_Busanmetro_4000_6Car_NAME                          :[6car] Busanmetro 4000
 STR_Daegumetro_1000_6Car_NAME                          :[6car] Daegumetro 1000

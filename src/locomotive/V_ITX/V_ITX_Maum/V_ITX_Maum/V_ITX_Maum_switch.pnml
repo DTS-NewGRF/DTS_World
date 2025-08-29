@@ -83,9 +83,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_V_ITX_Maum_10car, extra_callback_info1
     1..9: V_ITX_Maum_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_V_ITX_Maum_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
-    return 150;
-    }

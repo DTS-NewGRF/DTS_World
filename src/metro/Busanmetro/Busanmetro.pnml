@@ -29,6 +29,7 @@ item(FEAT_TRAINS, Busanmetro, 2242){
 #include "Busanmetro_1000/Busanmetro_1st_1000/Busanmetro_1st_1000.pnml"
 #include "Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000.pnml"
 #include "Busanmetro_1000/Busanmetro_3rd_1000/Busanmetro_3rd_1000.pnml"
-#include "Busanmetro_2000/Busanmetro_2000.pnml"
+#include "Busanmetro_2000/Busanmetro_1st_2000/Busanmetro_1st_2000.pnml"
+#include "Busanmetro_2000/Busanmetro_2nd_2000/Busanmetro_2nd_2000.pnml"
 #include "Busanmetro_3000/Busanmetro_3000.pnml"
 #include "Busanmetro_4000/Busanmetro_4000.pnml"

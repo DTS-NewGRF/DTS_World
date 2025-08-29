@@ -6,9 +6,3 @@
 
 //열차
 #include "GT26CW_switch_Wagon.pnml"
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_GT26CW_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
-    return 150;
-    }

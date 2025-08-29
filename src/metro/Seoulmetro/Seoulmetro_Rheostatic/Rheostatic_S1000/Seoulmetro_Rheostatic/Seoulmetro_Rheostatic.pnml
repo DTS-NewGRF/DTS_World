@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Seoulmetro_Rheostatic_10Car, 2377){
         default:                        sw_Seoulmetro_Rheostatic_S1000_10car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_Rheostatic_S1000_10car;
         purchase:                       sw_Seoulmetro_Rheostatic_S1000_purchase;
-        speed:                          sw_Seoulmetro_Rheostatic_S1000_speed;
+        speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

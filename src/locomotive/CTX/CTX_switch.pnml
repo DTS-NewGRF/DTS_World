@@ -20,9 +20,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_CTX_P_10car, extra_callback_info1) {
     1..9: CTX_P_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_CTX_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
-    return 305;
-    }

@@ -53,7 +53,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_6Car, 2327){
         default:                        sw_ITX_Saemaeul_6car_reversed;
         articulated_part:               sw_articulated_ITX_Saemaeul_6car;
         purchase:                       sw_ITX_Saemaeul_purchase;
-        speed:                          sw_ITX_Saemaeul_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

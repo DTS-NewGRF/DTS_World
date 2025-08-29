@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Shinkansen_E8_7Car, 2095){
         default:                        sw_Shinkansen_E8_7car_reversed;
         articulated_part:               sw_articulated_Shinkansen_E8_7car;
         purchase:                       sw_Shinkansen_E8_purchase;
-        speed:                          sw_Shinkansen_E8_speed;
+        speed:                          sw_High_300_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

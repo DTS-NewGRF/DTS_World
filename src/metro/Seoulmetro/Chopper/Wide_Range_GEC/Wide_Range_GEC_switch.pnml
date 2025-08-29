@@ -124,9 +124,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Chopper_Wide_Range_GEC_10Car, extra_ca
     1..9: Chopper_Wide_Range_GEC_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_Chopper_Wide_Range_GEC_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
-    return 100;
-    }

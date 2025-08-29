@@ -50,7 +50,7 @@ item (FEAT_TRAINS, East_Sea_5Car, 2561){
         default:                        sw_East_Sea_5Car;
         articulated_part:               sw_articulated_East_Sea_5Car;
         purchase:                       set_East_Sea_purchase;
-        speed:                          sw_East_Sea_speed;
+        speed:                          sw_wagon_120_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;

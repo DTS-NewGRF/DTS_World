@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Nextrain_3Car, 2421){
         default:                        sw_Nextrain_1000_3car_reversed;
         articulated_part:               sw_articulated_Nextrain_1000_3car;
         purchase:                       sw_Nextrain_1000_purchase;
-        speed:                          sw_Nextrain_1000_speed;
+        speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Nextrain_4Car, 2422){
         default:                        sw_Nextrain_1000_4car_reversed;
         articulated_part:               sw_articulated_Nextrain_1000_4car;
         purchase:                       sw_Nextrain_1000_purchase;
-        speed:                          sw_Nextrain_1000_speed;
+        speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

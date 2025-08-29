@@ -397,7 +397,7 @@
 |2378|Busanmetro_1st_1000_8Car|
 |2379|Busanmetro_2st_1000_8Car|
 |2380|Busanmetro_3rd_1000_8Car|
-|2381|Busanmetro_2000_6Car|
+|2381|Busanmetro_1st_2000_6Car|
 |2382|Busanmetro_3000_4Car|
 |2383|[그룹명] Daegumetro|
 |2384|Daegumetro_1000_6Car|
@@ -581,10 +581,11 @@
 |2562|[그룹명] HYEL_Gangsan|
 |2563|HYEL_Gangsan_6Car|
 |2564|HYEL_Gangsan_8Car|
+|2565|Busanmetro_2nd_2000_6Car|
 |2199|[공백] 1.70이후 부여|
 |2323|[공백] 1.70이후 부여|
 |2326|[공백] 1.70이후 부여|
-|2565~2999|[공백]|
+|2566~2999|[공백]|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

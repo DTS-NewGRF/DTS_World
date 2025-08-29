@@ -66,7 +66,7 @@ item (FEAT_TRAINS, Tong_il_Normal, 2472){
     graphics {
         default:                        sw_Tong_il_Normal_wagon_1Car;
         purchase:                       sw_Tong_il_Normal_purchase;
-        speed:                          sw_Tong_il_Normal_speed;
+        speed:                          sw_wagon_120_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;

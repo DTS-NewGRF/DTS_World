@@ -1,0 +1,38 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Busanmetro_2nd_2000_6car, position_in_vehid_chain % 6) {
+    1:set_Busanmetro_2nd_2000_wagon;
+    2:set_Busanmetro_2nd_2000_panto_wagon;
+    3:set_Busanmetro_2nd_2000_wagon;
+    4:set_Busanmetro_2nd_2000_panto_wagon;
+    5:set_Busanmetro_2nd_2000_engineT;
+    set_Busanmetro_2nd_2000_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Busanmetro_2nd_2000_6car_r, position_in_vehid_chain % 6) {
+    1:set_Busanmetro_2nd_2000_panto_wagon_r;
+    2:set_Busanmetro_2nd_2000_wagon_r;
+    3:set_Busanmetro_2nd_2000_panto_wagon_r;
+    4:set_Busanmetro_2nd_2000_wagon_r;
+    5:set_Busanmetro_2nd_2000_engineH_r;
+    set_Busanmetro_2nd_2000_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Busanmetro_2nd_2000_6car_flipped, vehicle_is_flipped){
+    0: sw_Busanmetro_2nd_2000_6car_r;
+    sw_Busanmetro_2nd_2000_6car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Busanmetro_2nd_2000_6car_reversed, vehicle_is_reversed){
+    0: sw_Busanmetro_2nd_2000_6car;
+    sw_Busanmetro_2nd_2000_6car_flipped;
+}
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_Busanmetro_2nd_2000_6car, extra_callback_info1) {
+    1..5: Busanmetro_2nd_2000_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

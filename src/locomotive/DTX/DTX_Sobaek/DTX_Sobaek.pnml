@@ -73,7 +73,7 @@ item(FEAT_TRAINS, DTX_Sobaek_4Car, 2526){
         default:                        sw_DTX_Sobaek_4car;
         articulated_part:               sw_articulated_DTX_Sobaek_4car;
         purchase:                       sw_DTX_Sobaek_purchase;
-        speed:                          sw_DTX_Sobaek_150_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

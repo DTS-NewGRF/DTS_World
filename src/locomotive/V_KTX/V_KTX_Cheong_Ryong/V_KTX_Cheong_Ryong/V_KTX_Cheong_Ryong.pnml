@@ -74,7 +74,7 @@ item(FEAT_TRAINS, V_KTX_Cheong_Ryong_8Car, 2022){
         default:                        sw_V_KTX_Cheong_Ryong_8car_reversed;
         articulated_part:               sw_articulated_V_KTX_Cheong_Ryong_8car;
         purchase:                       sw_V_KTX_Cheong_Ryong_purchase;
-        speed:                          sw_V_KTX_Cheong_Ryong_speed;
+        speed:                          sw_High_320_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_V_KTX_Cheong_Ryong_cargo_subtype_text;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
@@ -129,7 +129,7 @@ item(FEAT_TRAINS, V_KTX_Cheong_Ryong_16Car, 2528){
         default:                        sw_V_KTX_Cheong_Ryong_16car_reversed;
         articulated_part:               sw_articulated_V_KTX_Cheong_Ryong_16car;
         purchase:                       sw_V_KTX_Cheong_Ryong_JR_purchase;
-        speed:                          sw_V_KTX_Cheong_Ryong_speed;
+        speed:                          sw_High_320_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }

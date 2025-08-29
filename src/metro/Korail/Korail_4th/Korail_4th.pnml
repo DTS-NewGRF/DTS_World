@@ -72,7 +72,7 @@ item(FEAT_TRAINS, Korail_392000_2Car, 2139){
         default:                        sw_Korail_392000_2car;
         articulated_part:               sw_articulated_Korail_392000_2car;
         purchase:                       sw_Korail_392000_purchase;
-        speed:                          sw_Korail_4th_392000_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -127,7 +127,7 @@ item(FEAT_TRAINS, Korail_392000_4Car, 2140){
         default:                        sw_Korail_392000_4car;
         articulated_part:               sw_articulated_Korail_392000_4car;
         purchase:                       sw_Korail_392000_purchase;
-        speed:                          sw_Korail_4th_392000_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -182,7 +182,7 @@ item(FEAT_TRAINS, Korail_4th_G1_4Car, 2030){
         default:                        sw_Korail_4th_G1_4car_reversed;
         articulated_part:               sw_articulated_Korail_4th_G1_4car;
         purchase:                       sw_Korail_4th_G1_purchase;
-        speed:                          sw_Korail_4th_speed;
+        speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -237,7 +237,7 @@ item(FEAT_TRAINS, Korail_4th_4Car, 2124){
         default:                        sw_Korail_4th_4car_reversed;
         articulated_part:               sw_articulated_Korail_4th_4car;
         purchase:                       sw_Korail_4th_purchase;
-        speed:                          sw_Korail_4th_speed;
+        speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -292,7 +292,7 @@ item(FEAT_TRAINS, Korail_4th_6Car, 2217){
         default:                        sw_Korail_4th_6car_reversed;
         articulated_part:               sw_articulated_Korail_4th_6car;
         purchase:                       sw_Korail_4th_purchase;
-        speed:                          sw_Korail_4th_speed;
+        speed:                          sw_Metro_110_speed;
         cargo_capacity:                 sw_Korail_4th_6car_capacity_in_custom;
         power:                          sw_Korail_4th_6car_power_in_custom;
         loading_speed:                  25;
@@ -349,7 +349,7 @@ item(FEAT_TRAINS, Korail_4th_8Car, 2461){
         default:                        sw_Korail_4th_8car_reversed;
         articulated_part:               sw_articulated_Korail_4th_8car;
         purchase:                       sw_Korail_4th_G2_2CC_purchase;
-        speed:                          sw_Korail_4th_speed;
+        speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -404,7 +404,7 @@ item(FEAT_TRAINS, Korail_4th_10Car, 2218){
         default:                        sw_Korail_4th_10car_reversed;
         articulated_part:               sw_articulated_Korail_4th_10car;
         purchase:                       sw_Korail_4th_purchase;
-        speed:                          sw_Korail_4th_speed;
+        speed:                          sw_Metro_110_speed;
         cargo_capacity:                 sw_Korail_4th_10car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;

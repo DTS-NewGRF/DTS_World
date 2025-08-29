@@ -1029,9 +1029,3 @@ switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_power_in_custom, cargo_subtype) {
     2: return 3052; // 2276kw 마력<->킬로와트 변환
        3963; // 2955kw 마력<->킬로와트 변환
 }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
-    return 150;
-    }

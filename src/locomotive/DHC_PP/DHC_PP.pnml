@@ -72,7 +72,7 @@ item(FEAT_TRAINS, DHC_PP_4Car, 2357){
         default:                        sw_DHC_PP_4Car_reversed;
         articulated_part:               sw_articulated_DHC_PP_4car;
         purchase:                       sw_DHC_PP_purchase;
-        speed:                          sw_DHC_PP_speed;
+        speed:                          sw_Regular_150_speed;
         cargo_subtype_text:             sw_DHC_PP_4Car_cargo_subtype_text;
         cargo_capacity:                 sw_DHC_PP_4Car_capacity_in_custom;
         loading_speed:                  25;
@@ -129,7 +129,7 @@ item(FEAT_TRAINS, DHC_PP_5Car, 2358){
         default:                        sw_DHC_PP_5Car_reversed;
         articulated_part:               sw_articulated_DHC_PP_5car;
         purchase:                       sw_DHC_PP_FF_purchase;
-        speed:                          sw_DHC_PP_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -184,7 +184,7 @@ item(FEAT_TRAINS, DHC_PP_6Car, 2359){
         default:                        sw_DHC_PP_6Car_reversed;
         articulated_part:               sw_articulated_DHC_PP_6car;
         purchase:                       sw_DHC_PP_purchase;
-        speed:                          sw_DHC_PP_speed;
+        speed:                          sw_Regular_150_speed;
         power:                          sw_DHC_PP_6Car_power_in_custom;
         cargo_subtype_text:             sw_DHC_PP_6Car_cargo_subtype_text;
         cargo_capacity:                 sw_DHC_PP_6Car_capacity_in_custom;
@@ -242,7 +242,7 @@ item(FEAT_TRAINS, DHC_PP_7Car, 2360){
         default:                        sw_DHC_PP_7Car_reversed;
         articulated_part:               sw_articulated_DHC_PP_7car;
         purchase:                       sw_DHC_PP_purchase;
-        speed:                          sw_DHC_PP_speed;
+        speed:                          sw_Regular_150_speed;
         cargo_subtype_text:             sw_DHC_PP_7Car_cargo_subtype_text;
         cargo_capacity:                 sw_DHC_PP_7Car_capacity_in_custom;
         loading_speed:                  25;
@@ -299,7 +299,7 @@ item(FEAT_TRAINS, DHC_PP_8Car, 2361){
         default:                        sw_DHC_PP_8Car_reversed;
         articulated_part:               sw_articulated_DHC_PP_8car;
         purchase:                       sw_DHC_PP_8Car_purchase;
-        speed:                          sw_DHC_PP_speed;
+        speed:                          sw_Regular_150_speed;
         cargo_subtype_text:             sw_DHC_PP_8Car_cargo_subtype_text;
         cargo_capacity:                 sw_DHC_PP_8Car_capacity_in_custom;
         loading_speed:                  25;
@@ -356,7 +356,7 @@ item(FEAT_TRAINS, DHC_PP_14Car, 2362){
         default:                        sw_DHC_PP_14Car_reversed;
         articulated_part:               sw_articulated_DHC_PP_14car;
         purchase:                       sw_DHC_PP_OL_purchase;
-        speed:                          sw_DHC_PP_speed;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -411,7 +411,7 @@ item(FEAT_TRAINS, DHC_PP_16Car, 2363){
         default:                        sw_DHC_PP_16Car_reversed;
         articulated_part:               sw_articulated_DHC_PP_16car;
         purchase:                       sw_DHC_PP_purchase;
-        speed:                          sw_DHC_PP_speed;
+        speed:                          sw_Regular_150_speed;
         cargo_subtype_text:             sw_DHC_PP_16Car_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;

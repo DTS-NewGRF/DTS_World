@@ -39,9 +39,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Nishitetsu_2000_6car, extra_callback_i
     1..5: Nishitetsu_2000_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 속도변수
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_2000_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
-    return 110;
-    }

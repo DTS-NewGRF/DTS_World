@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Nishitetsu_8000_6Car, 2103){
         default:                        sw_Nishitetsu_8000_6car;
         articulated_part:               sw_articulated_Nishitetsu_8000_6car;
         purchase:                       sw_Nishitetsu_8000_purchase;
-        speed:                          sw_Nishitetsu_8000_speed;
+        speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

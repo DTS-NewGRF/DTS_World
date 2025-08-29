@@ -72,7 +72,7 @@ item(FEAT_TRAINS, Chopper_GEC_6Car, 2274){
         default:                        sw_Chopper_GEC_6Car_reversed;
         articulated_part:               sw_articulated_Chopper_GEC_6Car;
         purchase:                       sw_Chopper_GEC_purchase;
-        speed:                          sw_Chopper_GEC_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, Chopper_GEC_10Car, 2275){
         default:                        sw_Chopper_GEC_10Car_reversed;
         articulated_part:               sw_articulated_Chopper_GEC_10Car;
         purchase:                       sw_Chopper_GEC_purchase;
-        speed:                          sw_Chopper_GEC_speed;
+        speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
