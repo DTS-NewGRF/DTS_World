@@ -27,7 +27,3 @@ spriteset(set_CRH380B_engineT, "src/locomotive/CRH/CRH380B/CRH380B.png"){
 spriteset(set_CRH380B_purchase, "src/locomotive/CRH/CRH380B/CRH380B.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_CRH380B_purchase, cargo_subtype) {
-    set_CRH380B_purchase;
-}

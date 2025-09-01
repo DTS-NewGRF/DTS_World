@@ -51,7 +51,7 @@ item(FEAT_TRAINS, TGV_La_Poste_10Car, 2081){
 	graphics {
         default:                        sw_TGV_La_Poste_10car_reversed;
         articulated_part:               sw_articulated_TGV_La_Poste_10car;
-        purchase:                       sw_TGV_La_Poste_purchase;
+        purchase:                       set_TGV_La_Poste_purchase;
         speed:                          sw_High_269_speed;
         length:                         sw_TGV_La_Poste_wagon_length_in_custom;
         loading_speed:                  25;

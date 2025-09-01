@@ -49,7 +49,3 @@ spriteset(set_Vibrant_Express_engineT, "src/locomotive/CRH/CRH380A/Vibrant_Expre
 spriteset(set_CRH380A_purchase, "src/locomotive/CRH/CRH380A/CRH380A.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_CRH380A_purchase, cargo_subtype) {
-    set_CRH380A_purchase;
-}

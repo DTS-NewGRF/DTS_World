@@ -63,11 +63,6 @@ spriteset(set_V_ITX_CheongChan_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_V_ITX_CheongChan_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_V_ITX_CheongChan_purchase, cargo_subtype) {
-    set_V_ITX_CheongChan_purchase;
 }

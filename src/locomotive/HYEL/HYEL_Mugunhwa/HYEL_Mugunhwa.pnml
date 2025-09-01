@@ -22,7 +22,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa, 2194){
         }
 
     graphics {
-        purchase:                       sw_HYEL_Mugunhwa_purchase;
+        purchase:                       set_HYEL_Mugunhwa_purchase;
         }
         }
 
@@ -72,7 +72,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_4Car, 2167){
     graphics {
         default:                        sw_HYEL_Mugunhwa_4car;
         articulated_part:               sw_articulated_HYEL_Mugunhwa_4car;
-        purchase:                       sw_HYEL_Mugunhwa_purchase;
+        purchase:                       set_HYEL_Mugunhwa_purchase;
         speed:                          Regular_Speed_Train;
         cost_factor:                    10;
         loading_speed:                  25;
@@ -127,7 +127,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_6Car, 2168){
     graphics {
         default:                        sw_HYEL_Mugunhwa_6car;
         articulated_part:               sw_articulated_HYEL_Mugunhwa_6car;
-        purchase:                       sw_HYEL_Mugunhwa_purchase;
+        purchase:                       set_HYEL_Mugunhwa_purchase;
         speed:                          Regular_Speed_Train;
         cost_factor:                    10;
         loading_speed:                  25;

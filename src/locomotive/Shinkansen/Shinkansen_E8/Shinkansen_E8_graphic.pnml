@@ -54,7 +54,3 @@ spriteset(set_Shinkansen_E8_engineT_E5H5, "src/locomotive/Shinkansen/Shinkansen_
 spriteset(set_Shinkansen_E8_purchase, "src/locomotive/Shinkansen/Shinkansen_E8/Shinkansen_E8.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_E8_purchase, cargo_subtype) {
-    set_Shinkansen_E8_purchase;
-}

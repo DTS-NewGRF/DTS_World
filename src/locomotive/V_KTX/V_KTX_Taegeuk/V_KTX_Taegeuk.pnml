@@ -22,7 +22,7 @@ item(FEAT_TRAINS, V_KTX_Taegeuk, 2478){
         }
 
     graphics {
-        purchase:                       sw_V_KTX_Taegeuk_purchase;
+        purchase:                       set_V_KTX_Taegeuk_purchase;
         }
         }
 
@@ -70,7 +70,7 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_8Car, 2479){
 	graphics {
         default:                        sw_V_KTX_Taegeuk_8car_reversed;
         articulated_part:               sw_articulated_V_KTX_Taegeuk_8car;
-        purchase:                       sw_V_KTX_Taegeuk_purchase;
+        purchase:                       set_V_KTX_Taegeuk_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -122,7 +122,7 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_10Car, 2480){
 	graphics {
         default:                        sw_V_KTX_Taegeuk_10car_reversed;
         articulated_part:               sw_articulated_V_KTX_Taegeuk_10car;
-        purchase:                       sw_V_KTX_Taegeuk_purchase;
+        purchase:                       set_V_KTX_Taegeuk_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -174,7 +174,7 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_16Car, 2481){
 	graphics {
         default:                        sw_V_KTX_Taegeuk_16car_reversed;
         articulated_part:               sw_articulated_V_KTX_Taegeuk_16car;
-        purchase:                       sw_V_KTX_Taegeuk_purchase;
+        purchase:                       set_V_KTX_Taegeuk_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -226,7 +226,7 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_20Car, 2482){
 	graphics {
         default:                        sw_V_KTX_Taegeuk_20car_reversed;
         articulated_part:               sw_articulated_V_KTX_Taegeuk_20car;
-        purchase:                       sw_V_KTX_Taegeuk_purchase;
+        purchase:                       set_V_KTX_Taegeuk_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

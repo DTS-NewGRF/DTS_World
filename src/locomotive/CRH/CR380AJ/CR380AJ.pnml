@@ -52,7 +52,7 @@ item(FEAT_TRAINS, CRH380AJ_8Car, 2044){
     graphics {
         default:                        sw_CRH380AJ_8car;
         articulated_part:               sw_articulated_CRH380AJ_8car;
-        purchase:                       sw_CRH380AJ_purchase;
+        purchase:                       set_CRH380AJ_purchase;
         speed:                          sw_High_350_speed;
         cost_factor:                    10;
         running_cost_factor:            150;

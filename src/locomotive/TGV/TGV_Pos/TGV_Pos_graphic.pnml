@@ -208,7 +208,3 @@ spriteset(set_TGV_Carmillon_engineT, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmill
 spriteset(set_TGV_Pos_purchase, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_TGV_POS_purchase, cargo_subtype) {
-    set_TGV_Pos_purchase;
-}

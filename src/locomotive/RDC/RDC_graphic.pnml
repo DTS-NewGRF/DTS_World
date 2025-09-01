@@ -249,11 +249,6 @@ spriteset(set_RDC_Gyeongbuk_Nadri_engineT, "src/locomotive/RDC/RDC_Gyeongbuk_Nad
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_RDC_purchase, "src/locomotive/RDC/RDC.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_RDC_purchase, cargo_subtype) {
-    set_RDC_purchase;
 }

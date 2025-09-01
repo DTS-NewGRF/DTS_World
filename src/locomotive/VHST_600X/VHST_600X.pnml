@@ -21,7 +21,7 @@ item(FEAT_TRAINS, VHST_600X, 2371){
         }
 
     graphics {
-        purchase:                       sw_VHST_600X_purchase;
+        purchase:                       set_VHST_600X_purchase;
         }
         }
 
@@ -69,7 +69,7 @@ item(FEAT_TRAINS, VHST_600X_8Car, 2029){
 	graphics {
         default:                        sw_VHST_600X_8car;
         articulated_part:               sw_articulated_VHST_600X_8car;
-        purchase:                       sw_VHST_600X_purchase;
+        purchase:                       set_VHST_600X_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -121,7 +121,7 @@ item(FEAT_TRAINS, VHST_600X_16Car, 2372){
 	graphics {
         default:                        sw_VHST_600X_16car;
         articulated_part:               sw_articulated_VHST_600X_16car;
-        purchase:                       sw_VHST_600X_purchase;
+        purchase:                       set_VHST_600X_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -2,7 +2,7 @@
 Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
-1. ICE 4 Red
+ICE 4 Red
 --------------------------------------------------------------------*/
 spriteset(set_ICE4_R_engineH, "src/locomotive/ICE/ICE4/ICE4_R.png"){
     ICEengine(80, 0)
@@ -25,7 +25,7 @@ spriteset(set_ICE4_R_engineT, "src/locomotive/ICE/ICE4/ICE4_R.png"){
 }
 
 /*--------------------------------------------------------------------
-2. ICE 4 Green
+ICE 4 Green
 --------------------------------------------------------------------*/
 spriteset(set_ICE4_G_engineH, "src/locomotive/ICE/ICE4/ICE4_G.png"){
     ICEengine(80, 0)
@@ -52,8 +52,4 @@ spriteset(set_ICE4_G_engineT, "src/locomotive/ICE/ICE4/ICE4_G.png"){
 --------------------------------------------------------------------*/
 spriteset(set_ICE4_purchase, "src/locomotive/ICE/ICE4/ICE4_R.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE4_purchase, cargo_subtype) {
-    set_ICE4_purchase;
 }

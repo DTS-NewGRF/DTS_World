@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-/*--------------------------------------------------------------------
-NHSRCL E5
---------------------------------------------------------------------*/
 spriteset(set_NHSRCL_E5_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NHSRCL_E5/NHSRCL_E5.png"){
     DTS_temp(80, 0)
 }
@@ -25,8 +22,4 @@ spriteset(set_NHSRCL_E5_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomo
 --------------------------------------------------------------------*/
 spriteset(set_NHSRCL_E5_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NHSRCL_E5/NHSRCL_E5.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_NHSRCL_E5_purchase, cargo_subtype) {
-    set_NHSRCL_E5_purchase;
 }

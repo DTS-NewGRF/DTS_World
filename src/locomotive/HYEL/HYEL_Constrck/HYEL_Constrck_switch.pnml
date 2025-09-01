@@ -13,7 +13,7 @@ switch (FEAT_TRAINS, SELF, sw_HYEL_Constrck_12car, position_in_vehid_chain % 12)
      9:set_HYEL_Constrck_FLAT_CAR;
     10:set_HYEL_Constrck_FLAT_CAR;
     11:set_HYEL_Constrck_FLAT_CAR;
-    set_HYEL_150_engine; //default
+    set_Locomotive_Common_engine; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_HYEL_Constrck_12car_r, position_in_vehid_chain % 12) {
@@ -28,7 +28,7 @@ switch (FEAT_TRAINS, SELF, sw_HYEL_Constrck_12car_r, position_in_vehid_chain % 1
      9:set_HYEL_Constrck_FLAT_CAR;
     10:set_HYEL_Constrck_FLAT_CAR;
     11:set_Express_Luggage_GL_r;
-    set_HYEL_150_engine_r; //default
+    set_Locomotive_Common_engine_r; //default
     }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_Constrck_12car_flipped, vehicle_is_flipped){

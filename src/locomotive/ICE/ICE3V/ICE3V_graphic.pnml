@@ -2,7 +2,7 @@
 Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
-1. ICE 3V Red,
+ICE 3V Red
 --------------------------------------------------------------------*/
 spriteset(set_ICE3V_R_engineH, "src/locomotive/ICE/ICE3V/ICE3V_R.png"){
     ICEengine(80, 0)
@@ -29,7 +29,7 @@ spriteset(set_ICE3V_R_engineT, "src/locomotive/ICE/ICE3V/ICE3V_R.png"){
 }
 
 /*--------------------------------------------------------------------
-2. ICE 3V Green,
+ICE 3V Green
 --------------------------------------------------------------------*/
 spriteset(set_ICE3V_G_engineH, "src/locomotive/ICE/ICE3V/ICE3V_G.png"){
     ICEengine(80, 0)
@@ -60,8 +60,4 @@ spriteset(set_ICE3V_G_engineT, "src/locomotive/ICE/ICE3V/ICE3V_G.png"){
 --------------------------------------------------------------------*/
 spriteset(set_ICE3V_purchase, "src/locomotive/ICE/ICE3V/ICE3V_R.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE3V_purchase, cargo_subtype) {
-    set_ICE3V_purchase;
 }

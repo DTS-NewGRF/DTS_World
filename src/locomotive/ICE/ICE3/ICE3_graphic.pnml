@@ -2,7 +2,7 @@
 Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
-1. ICE 3 Red,
+ICE 3 Red
 --------------------------------------------------------------------*/
 spriteset(set_ICE3_R_engineH, "src/locomotive/ICE/ICE3/ICE3_R.png"){
     ICEengine(80, 0)
@@ -33,7 +33,7 @@ spriteset(set_ICE3_R_engineT, "src/locomotive/ICE/ICE3/ICE3_R.png"){
 }
 
 /*--------------------------------------------------------------------
-2. ICE 3 Green,
+ICE 3 Green
 --------------------------------------------------------------------*/
 spriteset(set_ICE3_G_engineH, "src/locomotive/ICE/ICE3/ICE3_G.png"){
     ICEengine(80, 0)
@@ -64,7 +64,7 @@ spriteset(set_ICE3_G_engineT, "src/locomotive/ICE/ICE3/ICE3_G.png"){
 }
 
 /*--------------------------------------------------------------------
-3. ICE 3M Red,
+ICE 3M Red
 --------------------------------------------------------------------*/
 spriteset(set_ICE3M_R_engineH, "src/locomotive/ICE/ICE3/ICE3_R.png"){
     ICEengine(80, 0)
@@ -95,7 +95,7 @@ spriteset(set_ICE3M_R_engineT, "src/locomotive/ICE/ICE3/ICE3_R.png"){
 }
 
 /*--------------------------------------------------------------------
-4. ICE 3M Green,
+ICE 3M Green
 --------------------------------------------------------------------*/
 spriteset(set_ICE3M_G_engineH, "src/locomotive/ICE/ICE3/ICE3_G.png"){
     ICEengine(80, 0)
@@ -126,7 +126,7 @@ spriteset(set_ICE3M_G_engineT, "src/locomotive/ICE/ICE3/ICE3_G.png"){
 }
 
 /*--------------------------------------------------------------------
-5. ICE 3 Blue (Europa)
+ICE 3 Blue (Europa)
 --------------------------------------------------------------------*/
 spriteset(set_ICE3M_B_engineH, "src/locomotive/ICE/ICE3/ICE3_B.png"){
     ICEengine(80, 0)
@@ -161,8 +161,4 @@ spriteset(set_ICE3M_B_engineT, "src/locomotive/ICE/ICE3/ICE3_B.png"){
 --------------------------------------------------------------------*/
 spriteset(set_ICE3_purchase, "src/locomotive/ICE/ICE3/ICE3_R.png"){
 	tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE3_purchase, cargo_subtype) {
-	set_ICE3_purchase;
 }

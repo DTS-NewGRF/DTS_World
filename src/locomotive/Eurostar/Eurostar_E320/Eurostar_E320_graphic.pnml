@@ -19,7 +19,3 @@ spriteset(set_Eurostar_E320_engineT, "src/locomotive/Eurostar/Eurostar_E320/Euro
 spriteset(set_Eurostar_E320_purchase, "src/locomotive/Eurostar/Eurostar_E320/Eurostar_E320.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E320_purchase, cargo_subtype) {
-	set_Eurostar_E320_purchase;
-}

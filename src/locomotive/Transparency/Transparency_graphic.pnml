@@ -8,7 +8,6 @@ spriteset(set_Transparency_engine, "src/locomotive/Transparency/Transparency.png
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Transparency_purchase, "src/locomotive/Transparency/Transparency.png"){
     tmpl_single_purchase(0, 0)
 }

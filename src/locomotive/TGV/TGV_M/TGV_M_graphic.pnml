@@ -208,7 +208,3 @@ spriteset(set_TGV_M_Rame_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locom
 spriteset(set_TGV_M_purchase, "src/locomotive/TGV/TGV_M/TGV_M.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_TGV_M_purchase, cargo_subtype) {
-    set_TGV_M_purchase;
-}

@@ -22,7 +22,7 @@ item(FEAT_TRAINS, V_KTX_Onnuri, 2508){
         }
 
     graphics {
-        purchase:                       sw_V_KTX_Onnuri_purchase;
+        purchase:                       set_V_KTX_Onnuri_purchase;
         }
         }
 
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, V_KTX_Onnuri_8Car, 2509){
     graphics {
         default:                        sw_V_KTX_Onnuri_8car_reversed;
         articulated_part:               sw_articulated_V_KTX_Onnuri_8car;
-        purchase:                       sw_V_KTX_Onnuri_purchase;
+        purchase:                       set_V_KTX_Onnuri_purchase;
         speed:                          sw_High_368_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, V_KTX_Onnuri_10Car, 2510){
     graphics {
         default:                        sw_V_KTX_Onnuri_10car_reversed;
         articulated_part:               sw_articulated_V_KTX_Onnuri_10car;
-        purchase:                       sw_V_KTX_Onnuri_purchase;
+        purchase:                       set_V_KTX_Onnuri_purchase;
         speed:                          sw_High_368_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -179,7 +179,7 @@ item(FEAT_TRAINS, V_KTX_Onnuri_16Car, 2529){
     graphics {
         default:                        sw_V_KTX_Onnuri_16car_reversed;
         articulated_part:               sw_articulated_V_KTX_Onnuri_16car;
-        purchase:                       sw_V_KTX_Onnuri_purchase;
+        purchase:                       set_V_KTX_Onnuri_purchase;
         speed:                          sw_High_368_speed;
         loading_speed:                  25;
         cost_factor:                    10;

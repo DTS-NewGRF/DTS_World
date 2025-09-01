@@ -16,7 +16,6 @@ spriteset(set_Special_Diesel_engine_1994, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "s
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Special_Diesel_1969_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Special_Diesel_Car/Special_Diesel_Car.png") {
     tmpl_single_purchase(0, 0)
 }
@@ -29,21 +28,9 @@ spriteset(set_Special_Diesel_1994_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, 
     tmpl_single_purchase(0, 54)
 }
 
-switch(FEAT_TRAINS, SELF, sw_Special_Diesel_1969_purchase, cargo_subtype) {
-    set_Special_Diesel_1969_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Special_Diesel_1986_purchase, cargo_subtype) {
-    set_Special_Diesel_1986_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Special_Diesel_1994_purchase, cargo_subtype) {
-    set_Special_Diesel_1994_purchase;
-}
-
 // 구매차량 등장년도
 switch(FEAT_TRAINS, SELF, sw_Special_Diesel_purchase, current_year) {
-    0..1985: sw_Special_Diesel_1969_purchase;
-    1986..1993: sw_Special_Diesel_1986_purchase;
-    sw_Special_Diesel_1994_purchase;
+    0..1985: set_Special_Diesel_1969_purchase;
+    1986..1993: set_Special_Diesel_1986_purchase;
+    set_Special_Diesel_1994_purchase;
     }

@@ -17,7 +17,7 @@ spriteset(set_AGV_panto_wagon_r, "src/locomotive/AGV/AGV.png"){
     DTS_temp(80, 81)
 }
 
-spriteset(set_AGV_engineT, "src/locomotive//AGV/AGV.png"){
+spriteset(set_AGV_engineT, "src/locomotive/AGV/AGV.png"){
     DTS_temp(80, 108)
 }
 
@@ -26,8 +26,4 @@ spriteset(set_AGV_engineT, "src/locomotive//AGV/AGV.png"){
 --------------------------------------------------------------------*/
 spriteset(set_AGV_purchase, "src/locomotive/AGV/AGV.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_AGV_purchase, cargo_subtype) {
-    set_AGV_purchase;
 }

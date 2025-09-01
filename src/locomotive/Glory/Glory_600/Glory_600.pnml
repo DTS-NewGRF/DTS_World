@@ -21,7 +21,7 @@ item(FEAT_TRAINS, Glory_600, 2369){
         }
 
     graphics {
-        purchase:                       sw_Glory_600_purchase;
+        purchase:                       set_Glory_600_purchase;
         }
         }
 
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Glory_600_8Car, 2133){
     graphics {
         default:                        sw_Glory_600_8car;
         articulated_part:               sw_articulated_Glory_600_8car;
-        purchase:                       sw_Glory_600_purchase;
+        purchase:                       set_Glory_600_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Glory_600_16Car, 2370){
     graphics {
         default:                        sw_Glory_600_16car;
         articulated_part:               sw_articulated_Glory_600_16car;
-        purchase:                       sw_Glory_600_purchase;
+        purchase:                       set_Glory_600_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

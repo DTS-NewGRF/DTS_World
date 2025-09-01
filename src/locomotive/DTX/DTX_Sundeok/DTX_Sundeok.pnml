@@ -22,7 +22,7 @@ item(FEAT_TRAINS, DTX_Sundeok, 2503){
         }
 
     graphics {
-        purchase:                       sw_DTX_Sundeok_purchase;
+        purchase:                       set_DTX_Sundeok_purchase;
         }
         }
 
@@ -70,7 +70,7 @@ item(FEAT_TRAINS, DTX_Sundeok_8Car, 2504){
 	graphics {
         default:                        sw_DTX_Sundeok_8car_reversed;
         articulated_part:               sw_articulated_DTX_Sundeok_8car;
-        purchase:                       sw_DTX_Sundeok_purchase;
+        purchase:                       set_DTX_Sundeok_purchase;
         speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, DTX_Sundeok_10Car, 2505){
 	graphics {
         default:                        sw_DTX_Sundeok_10car_reversed;
         articulated_part:               sw_articulated_DTX_Sundeok_10car;
-        purchase:                       sw_DTX_Sundeok_purchase;
+        purchase:                       set_DTX_Sundeok_purchase;
         speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -176,7 +176,7 @@ item(FEAT_TRAINS, DTX_Sundeok_16Car, 2506){
 	graphics {
         default:                        sw_DTX_Sundeok_16car_reversed;
         articulated_part:               sw_articulated_DTX_Sundeok_16car;
-        purchase:                       sw_DTX_Sundeok_purchase;
+        purchase:                       set_DTX_Sundeok_purchase;
         speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -229,7 +229,7 @@ item(FEAT_TRAINS, DTX_Sundeok_20Car, 2507){
 	graphics {
         default:                        sw_DTX_Sundeok_20car_reversed;
         articulated_part:               sw_articulated_DTX_Sundeok_20car;
-        purchase:                       sw_DTX_Sundeok_purchase;
+        purchase:                       set_DTX_Sundeok_purchase;
         speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;

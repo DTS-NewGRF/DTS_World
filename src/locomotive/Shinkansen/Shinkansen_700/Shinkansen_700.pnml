@@ -21,7 +21,7 @@ item(FEAT_TRAINS, Shinkansen_700, 2198){
         }
 
     graphics {
-        purchase:                       sw_Shinkansen_700_purchase;
+        purchase:                       set_Shinkansen_700_purchase;
         }
         }
 
@@ -70,7 +70,7 @@ item(FEAT_TRAINS, Shinkansen_700_16Car, 2087){
 	graphics {
         default:                        sw_Shinkansen_700_16car;
         articulated_part:               sw_articulated_Shinkansen_700_16car;
-        purchase:                       sw_Shinkansen_700_purchase;
+        purchase:                       set_Shinkansen_700_purchase;
         speed:                          sw_High_285_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, Shinkansen_700_8Car, 2143){
 	graphics {
         default:                        sw_Shinkansen_700_8car;
         articulated_part:               sw_articulated_Shinkansen_700_8car;
-        purchase:                       sw_Shinkansen_700_RS_purchase;
+        purchase:                       set_Shinkansen_700_RS_purchase;
         speed:                          sw_High_285_speed;
         loading_speed:                  25;
         cost_factor:                    10;

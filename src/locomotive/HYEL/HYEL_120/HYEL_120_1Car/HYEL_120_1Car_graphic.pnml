@@ -11,7 +11,3 @@ spriteset(set_HYEL_120_1Car_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/loc
 spriteset(set_HYEL_120_1Car_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_120/HYEL_120_1Car/HYEL_120_1Car.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_120_1Car_purchase, cargo_subtype) {
-	set_HYEL_120_1Car_purchase;
-}

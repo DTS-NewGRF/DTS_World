@@ -57,11 +57,3 @@ spriteset(set_Shinkansen_N700_Tokaido_Sanyo_purchase, "src/locomotive/Shinkansen
 spriteset(set_Shinkansen_N700_Sanyo_Kyushu_purchase, "src/locomotive/Shinkansen/Shinkansen_N700/Sanyo_Kyushu.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700_Tokaido_Sanyo_purchase, cargo_subtype) {
-    set_Shinkansen_N700_Tokaido_Sanyo_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700_Sanyo_Kyushu_purchase, cargo_subtype) {
-    set_Shinkansen_N700_Sanyo_Kyushu_purchase;
-}

@@ -11,7 +11,7 @@ switch (FEAT_TRAINS, SELF, sw_CRH380AJ_8car, position_in_vehid_chain % 8) {
     7:set_CRH380AJ_engineT;
     set_CRH380AJ_engineH; //default
     }
-
+    
 switch (FEAT_TRAINS, SELF, sw_articulated_CRH380AJ_8car, extra_callback_info1) {
     1..7: CRH380AJ_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

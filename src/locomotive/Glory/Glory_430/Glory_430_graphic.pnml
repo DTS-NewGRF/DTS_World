@@ -19,11 +19,6 @@ spriteset(set_Glory_430_engineT, "src/locomotive/Glory/Glory_430/Glory_430.png")
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Glory_430_purchase, "src/locomotive/Glory/Glory_430/Glory_430.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Glory_430_purchase, cargo_subtype) {
-    set_Glory_430_purchase;
 }

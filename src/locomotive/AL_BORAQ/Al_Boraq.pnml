@@ -51,7 +51,7 @@ item(FEAT_TRAINS, Al_Boraq_10Car, 2120){
 	graphics {
         default:                        sw_Al_Boraq_10car_reversed;
         articulated_part:               sw_articulated_Al_Boraq_10car;
-        purchase:                       sw_Al_Boraq_purchase;
+        purchase:                       set_Al_Boraq_purchase;
         speed:                          sw_High_320_speed;
         length:                         sw_Al_Boraq_wagon_length_in_custom;
         loading_speed:                  25;

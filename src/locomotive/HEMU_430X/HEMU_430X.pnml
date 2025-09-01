@@ -21,7 +21,7 @@ item(FEAT_TRAINS, HEMU_430X, 2205){
         }
 
     graphics {
-        purchase:                       sw_HEMU_430X_purchase;
+        purchase:                       set_HEMU_430X_purchase;
         }
         }
 
@@ -69,7 +69,7 @@ item(FEAT_TRAINS, HEMU_430X_6Car, 2028){
     graphics {
         default:                        sw_HEMU_430_6car;
         articulated_part:               sw_articulated_HEMU_430_6car;
-        purchase:                       sw_HEMU_430X_purchase;
+        purchase:                       set_HEMU_430X_purchase;
         speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -122,7 +122,7 @@ item(FEAT_TRAINS, HEMU_430X_8Car, 2127){
     graphics {
         default:                        sw_HEMU_430_8car;
         articulated_part:               sw_articulated_HEMU_430_8car;
-        purchase:                       sw_HEMU_430X_purchase;
+        purchase:                       set_HEMU_430X_purchase;
         speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;

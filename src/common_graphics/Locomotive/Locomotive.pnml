@@ -1,0 +1,8 @@
+/*--------------------------------------------------------------------
+공통 그래픽-Locomotive
+--------------------------------------------------------------------*/
+#include "Locomotive_Common/Locomotive_Common.pnml"
+#include "Locomotive_Common_1/Locomotive_Common_1.pnml"
+#include "Locomotive_Common_2/Locomotive_Common_2.pnml"
+#include "Locomotive_Common_3/Locomotive_Common_3.pnml"
+#include "Locomotive_Common_4/Locomotive_Common_4.pnml"

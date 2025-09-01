@@ -52,7 +52,7 @@ item(FEAT_TRAINS, CRH1E_16Car, 2035){
     graphics {
         default:                        sw_CRH1E_16car;
         articulated_part:               sw_articulated_CRH1E_16car;
-        purchase:                       sw_CRH1E_purchase;
+        purchase:                       set_CRH1E_purchase;
         speed:                          sw_High_250_speed;
         loading_speed:                  25;
         cost_factor:                    10;

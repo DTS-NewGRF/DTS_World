@@ -30,7 +30,3 @@ spriteset(set_Shinkansen_500_engineT, "src/locomotive/Shinkansen/Shinkansen_500/
 spriteset(set_Shinkansen_500_purchase, "src/locomotive/Shinkansen/Shinkansen_500/Shinkansen_500.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_purchase, cargo_subtype) {
-    set_Shinkansen_500_purchase;
-}

@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 [가상] ITX-마음
 --------------------------------------------------------------------*/
-// Graphics
-#include "V_ITX_Maum_graphic.pnml"
-
 // Switch
 #include "V_ITX_Maum_switch.pnml"
 
@@ -22,7 +19,7 @@ item(FEAT_TRAINS, V_ITX_Maum, 2549){
         }
 
     graphics {
-        purchase:                       sw_V_ITX_Maum_purchase;
+        purchase:                       set_Locomotive_Common_3_purchase;
         }
         }
 
@@ -73,7 +70,7 @@ item(FEAT_TRAINS, V_ITX_Maum_8Car, 2131){
     graphics {
         default:                        sw_V_ITX_Maum_8car_reversed;
         articulated_part:               sw_articulated_V_ITX_Maum_8car;
-        purchase:                       sw_V_ITX_Maum_purchase;
+        purchase:                       set_Locomotive_Common_3_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
@@ -127,7 +124,7 @@ item(FEAT_TRAINS, V_ITX_Maum_10Car, 2238){
     graphics {
         default:                        sw_V_ITX_Maum_10car_reversed;
         articulated_part:               sw_articulated_V_ITX_Maum_10car;
-        purchase:                       sw_V_ITX_Maum_purchase;
+        purchase:                       set_Locomotive_Common_3_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;

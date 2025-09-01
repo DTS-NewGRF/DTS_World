@@ -61,7 +61,3 @@ spriteset(set_Renfe_S_130_Aprosiyob_engineT, "src/locomotive/Renfe/Renfe_S_130/R
 spriteset(set_Renfe_S_130_purchase, "src/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_purchase, cargo_subtype) {
-    set_Renfe_S_130_purchase;
-}

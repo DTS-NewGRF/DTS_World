@@ -27,8 +27,3 @@ spriteset(set_Renfe_S_103_engineT, "src/locomotive/Renfe/Renfe_S_103/Renfe_S_103
 spriteset(set_Renfe_S_103_purchase, "src/locomotive/Renfe/Renfe_S_103/Renfe_S_103.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_103_purchase, cargo_subtype) {
-    set_Renfe_S_103_purchase;
-}
-

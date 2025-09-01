@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------------
+Locomotive_Common
+- HYEL-150 기본도색
+--------------------------------------------------------------------*/
+spriteset(set_Locomotive_Common_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/common_graphics/Locomotive/Locomotive_Common/Locomotive_Common.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Locomotive_Common_engine_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/common_graphics/Locomotive/Locomotive_Common/Locomotive_Common.png"){
+    DTS_temp_r(80, 0)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Locomotive_Common_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/common_graphics/Locomotive/Locomotive_Common/Locomotive_Common.png"){
+    tmpl_purchase(0, 0)
+}

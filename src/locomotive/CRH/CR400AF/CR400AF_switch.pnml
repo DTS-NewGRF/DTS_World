@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 8량
 switch (FEAT_TRAINS, SELF, sw_CR400AF_8car, position_in_vehid_chain % 8) {
     1:set_CR400AF_wagon;
     2:set_CR400AF_panto_wagon;
@@ -12,6 +13,7 @@ switch (FEAT_TRAINS, SELF, sw_CR400AF_8car, position_in_vehid_chain % 8) {
     set_CR400AF_engineH; //default
     }
 
+// 16량
 switch (FEAT_TRAINS, SELF, sw_CR400AF_16car, position_in_vehid_chain % 16) {
     1:set_CR400AF_wagon;
     2:set_CR400AF_panto_wagon;
@@ -31,6 +33,7 @@ switch (FEAT_TRAINS, SELF, sw_CR400AF_16car, position_in_vehid_chain % 16) {
     set_CR400AF_engineH; //default
     }
 
+// 17량
 switch (FEAT_TRAINS, SELF, sw_CR400AF_17car, position_in_vehid_chain % 17) {
     1:set_CR400AF_wagon;
     2:set_CR400AF_wagon;
@@ -51,6 +54,7 @@ switch (FEAT_TRAINS, SELF, sw_CR400AF_17car, position_in_vehid_chain % 17) {
     set_CR400AF_engineH; //default
     }
 
+// 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_CR400AF_8car, extra_callback_info1) {
     1..7: CR400AF_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

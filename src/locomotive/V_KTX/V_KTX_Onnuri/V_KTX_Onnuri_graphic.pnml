@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-/*--------------------------------------------------------------------
-[가상] KTX-온누리
---------------------------------------------------------------------*/
 spriteset(set_V_KTX_Onnuri_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/V_KTX/V_KTX_Onnuri/V_KTX_Onnuri.png"){
     DTS_temp(80, 0)
 }
@@ -79,11 +76,6 @@ spriteset(set_V_KTX_Onnuri_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/loc
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_V_KTX_Onnuri_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/V_KTX/V_KTX_Onnuri/V_KTX_Onnuri.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Onnuri_purchase, cargo_subtype) {
-    set_V_KTX_Onnuri_purchase;
 }

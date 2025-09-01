@@ -27,7 +27,3 @@ spriteset(set_Shinkansen_800_engineT, "src/locomotive/Shinkansen/Shinkansen_800/
 spriteset(set_Shinkansen_800_purchase, "src/locomotive/Shinkansen/Shinkansen_800/Shinkansen_800.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_800_purchase, cargo_subtype) {
-    set_Shinkansen_800_purchase;
-}

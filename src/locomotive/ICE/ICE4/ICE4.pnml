@@ -21,7 +21,7 @@ item(FEAT_TRAINS, ICE4, 2196){
         }
 
     graphics {
-        purchase:                       sw_ICE4_purchase;
+        purchase:                       set_ICE4_purchase;
         }
         }
 
@@ -70,7 +70,7 @@ item(FEAT_TRAINS, ICE4_7Car, 2071){
 	graphics {
         default:                        sw_ICE4_7car;
         articulated_part:               sw_articulated_ICE4_7car;
-        purchase:                       sw_ICE4_purchase;
+        purchase:                       set_ICE4_purchase;
         speed:                          sw_High_250_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -124,7 +124,7 @@ item(FEAT_TRAINS, ICE4_12Car, 2123){
 	graphics {
         default:                        sw_ICE4_12car;
         articulated_part:               sw_articulated_ICE4_12car;
-        purchase:                       sw_ICE4_purchase;
+        purchase:                       set_ICE4_purchase;
         speed:                          sw_High_250_speed;
         loading_speed:                  25;
         cost_factor:                    10;

@@ -20,7 +20,6 @@ spriteset(set_DEL4400_engine_D, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomot
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_DEL4400_A_purchase, "src/locomotive/DEL4400/DEL4400.png"){
     tmpl_single_purchase(0, 0)
 }
@@ -29,16 +28,16 @@ spriteset(set_DEL4400_B_purchase, "src/locomotive/DEL4400/DEL4400.png"){
     tmpl_single_purchase(0, 27)
 }
 
-switch(FEAT_TRAINS, SELF, sw_DEL4400_A_purchase, cargo_subtype) {
+// 등장년도
+switch(FEAT_TRAINS, SELF, sw_DEL4400_2001_purchase, cargo_subtype) {
     set_DEL4400_A_purchase;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DEL4400_B_purchase, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_DEL4400_2004_purchase, cargo_subtype) {
     set_DEL4400_B_purchase;
 }
 
-// 구매차량 등장년도
 switch(FEAT_TRAINS, SELF, sw_DEL4400_purchase, current_year) {
-    0..2003: sw_DEL4400_A_purchase;
-    sw_DEL4400_B_purchase;
+    0..2003: sw_DEL4400_2001_purchase;
+    sw_DEL4400_2004_purchase;
     }

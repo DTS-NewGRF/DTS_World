@@ -22,7 +22,7 @@ item(FEAT_TRAINS, KTX_Sancheon, 2317){
         }
 
     graphics {
-        purchase:                       sw_KTX_Sancheon_purchase;
+        purchase:                       set_KTX_Sancheon_purchase;
         }
         }
 
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, KTX_Sancheon_10Car, 2024){
 	graphics {
         default:                        sw_KTX_Sancheon_10car_reversed;
         articulated_part:               sw_articulated_KTX_Sancheon_10car;
-        purchase:                       sw_KTX_Sancheon_purchase;
+        purchase:                       set_KTX_Sancheon_purchase;
         speed:                          sw_High_305_speed;
         length:                         sw_KTX_Sancheon_wagon_length_in_custom;
         cargo_capacity:                 sw_KTX_Sancheon_capacity_in_custom;
@@ -128,7 +128,7 @@ item(FEAT_TRAINS, KTX_Sancheon_20Car, 2319){
 	graphics {
         default:                        sw_KTX_Sancheon_20car_reversed;
         articulated_part:               sw_articulated_KTX_Sancheon_20car;
-        purchase:                       sw_KTX_Sancheon_purchase;
+        purchase:                       set_KTX_Sancheon_purchase;
         speed:                          sw_High_305_speed;
         length:                         sw_KTX_Sancheon_20Car_length_in_custom;
         loading_speed:                  25;

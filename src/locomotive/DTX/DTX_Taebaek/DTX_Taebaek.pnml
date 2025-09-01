@@ -22,7 +22,7 @@ item(FEAT_TRAINS, DTX_Taebaek, 2431){
         }
 
     graphics {
-        purchase:                       sw_DTX_Taebaek_purchase;
+        purchase:                       set_DTX_Taebaek_purchase;
         }
         }
 
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, DTX_Taebaek_6Car, 2462){
     graphics {
         default:                        sw_DTX_Taebaek_6car;
         articulated_part:               sw_articulated_DTX_Taebaek_6car;
-        purchase:                       sw_DTX_Taebaek_purchase;
+        purchase:                       set_DTX_Taebaek_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -124,7 +124,7 @@ item(FEAT_TRAINS, DTX_Taebaek_8Car, 2134){
     graphics {
         default:                        sw_DTX_Taebaek_8car;
         articulated_part:               sw_articulated_DTX_Taebaek_8car;
-        purchase:                       sw_DTX_Taebaek_purchase;
+        purchase:                       set_DTX_Taebaek_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -177,7 +177,7 @@ item(FEAT_TRAINS, DTX_Taebaek_10Car, 2432){
     graphics {
         default:                        sw_DTX_Taebaek_10car;
         articulated_part:               sw_articulated_DTX_Taebaek_10car;
-        purchase:                       sw_DTX_Taebaek_purchase;
+        purchase:                       set_DTX_Taebaek_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

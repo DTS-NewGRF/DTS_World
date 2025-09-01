@@ -30,8 +30,3 @@ spriteset(set_CRH1E_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive
 spriteset(set_CRH1E_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1E/CRH1E.png"){
     tmpl_purchase(0, 0)
 }
-
-
-switch(FEAT_TRAINS, SELF, sw_CRH1E_purchase, cargo_subtype) {
-    set_CRH1E_purchase;
-}

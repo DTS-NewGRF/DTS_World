@@ -98,7 +98,3 @@ spriteset(set_DTX_Koryo_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomo
 spriteset(set_DTX_Koryo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Koryo/DTX_Koryo.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_DTX_Koryo_purchase, cargo_subtype) {
-    set_DTX_Koryo_purchase;
-}

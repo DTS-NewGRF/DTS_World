@@ -1,40 +1,46 @@
 /*--------------------------------------------------------------------
 Metro_Common_1
+- 서울교통공사 2세대 1000호대
+- 서울교통공사 5세대 8000호대
+- 서울교통공사 6세대 4000호대
 --------------------------------------------------------------------*/
-spriteset(set_Metro_Common_1_purchase, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
-    tmpl_purchase(0, 0)
-}
-
-spriteset(set_Metro_Common_1_engineH, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+spriteset(set_Metro_Common_1_engineH, "src/common_graphics/Metro_Common_1/Metro_Common_1.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_Metro_Common_1_engineH_r, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+spriteset(set_Metro_Common_1_engineH_r, "src/common_graphics/Metro_Common_1/Metro_Common_1.png"){
     DTS_temp(80, 27)
 }
 
-spriteset(set_Metro_Common_1_wagon, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+spriteset(set_Metro_Common_1_wagon, "src/common_graphics/Metro_Common_1/Metro_Common_1.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_Metro_Common_1_wagon_r, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+spriteset(set_Metro_Common_1_wagon_r, "src/common_graphics/Metro_Common_1/Metro_Common_1.png"){
     DTS_temp_r(80, 54)
 }
 
-spriteset(set_Metro_Common_1_panto_wagon, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+spriteset(set_Metro_Common_1_panto_wagon, "src/common_graphics/Metro_Common_1/Metro_Common_1.png"){
     DTS_temp(80, 81)
 }
 
-spriteset(set_Metro_Common_1_panto_wagon_r, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+spriteset(set_Metro_Common_1_panto_wagon_r, "src/common_graphics/Metro_Common_1/Metro_Common_1.png"){
     DTS_temp_r(80, 81)
 }
 
-spriteset(set_Metro_Common_1_engineT_r, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+spriteset(set_Metro_Common_1_engineT_r, "src/common_graphics/Metro_Common_1/Metro_Common_1.png"){
     DTS_temp(80, 108)
 }
 
-spriteset(set_Metro_Common_1_engineT, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+spriteset(set_Metro_Common_1_engineT, "src/common_graphics/Metro_Common_1/Metro_Common_1.png"){
     DTS_temp(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Metro_Common_1_purchase, "src/common_graphics/Metro_Common_1/Metro_Common_1.png"){
+    tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------

@@ -53,7 +53,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_6Car, 2109){
     graphics {
         default:                        sw_HYEL_Mugunhwa_DD_6car;
         articulated_part:               sw_articulated_HYEL_Mugunhwa_DD_6car;
-        purchase:                       sw_HYEL_Mugunhwa_DD_purchase;
+        purchase:                       set_HYEL_Mugunhwa_DD_purchase;
         speed:                          Regular_Speed_Train;
         cost_factor:                    10;
         loading_speed:                  25;

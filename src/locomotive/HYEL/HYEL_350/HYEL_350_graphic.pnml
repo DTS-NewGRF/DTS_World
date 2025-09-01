@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-/*--------------------------------------------------------------------
-HYEL-350
---------------------------------------------------------------------*/
 spriteset(set_HYEL_350_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_350/HYEL_350.png"){
     DTS_temp(80, 0)
 }
@@ -97,8 +94,4 @@ spriteset(set_HYEL_350_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomot
 --------------------------------------------------------------------*/
 spriteset(set_HYEL_350_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_350/HYEL_350.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_350_purchase, cargo_subtype) {
-    set_HYEL_350_purchase;
 }

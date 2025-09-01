@@ -77,7 +77,3 @@ spriteset(set_Shinkansen_0_renewal_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, 
 spriteset(set_Shinkansen_0_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_0_purchase, cargo_subtype) {
-    set_Shinkansen_0_purchase;
-}

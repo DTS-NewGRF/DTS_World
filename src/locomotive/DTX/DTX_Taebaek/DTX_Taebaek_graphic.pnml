@@ -19,11 +19,6 @@ spriteset(set_DTX_Taebaek_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/loco
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_DTX_Taebaek_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Taebaek/DTX_Taebaek.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_DTX_Taebaek_purchase, cargo_subtype) {
-    set_DTX_Taebaek_purchase;
 }

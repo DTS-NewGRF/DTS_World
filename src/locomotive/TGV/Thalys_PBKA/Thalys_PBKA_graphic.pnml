@@ -218,20 +218,8 @@ spriteset(set_Thalys_PBKA_2021_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "sr
 }
 
 // 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2006_purchase, cargo_subtype) {
-    set_Thalys_PBKA_2006_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_purchase, cargo_subtype) {
-    set_Thalys_PBKA_2016_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_purchase, cargo_subtype) {
-    set_Thalys_PBKA_2021_purchase;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_purchase, current_year) {
-    0..2015: sw_Thalys_PBKA_2006_purchase;
-    2016..2020: sw_Thalys_PBKA_2016_purchase;
-    sw_Thalys_PBKA_2021_purchase;
+    0..2015: set_Thalys_PBKA_2006_purchase;
+    2016..2020: set_Thalys_PBKA_2016_purchase;
+    set_Thalys_PBKA_2021_purchase;
     }

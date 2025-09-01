@@ -53,7 +53,7 @@ item(FEAT_TRAINS, GTX_8Car, 2017){
     graphics {
         default:                        sw_GTX_8car;
         articulated_part:               sw_articulated_GTX_8car;
-        purchase:                       sw_GTX_purchase;
+        purchase:                       set_GTX_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
         sound_effect:                   sw_TOSHIBASicStart_sound;

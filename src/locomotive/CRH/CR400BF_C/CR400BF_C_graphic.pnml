@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-구매
+Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
 Graphics - Original
@@ -52,8 +52,4 @@ spriteset(set_CR400BF_CO_engineT, "src/locomotive/CRH/CR400BF_C/CR400BF_C_W.png"
 --------------------------------------------------------------------*/
 spriteset(set_CR400BF_C_purchase, "src/locomotive/CRH/CR400BF_C/CR400BF_C.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_CR400BF_C_purchase, cargo_subtype) {
-    set_CR400BF_C_purchase;
 }

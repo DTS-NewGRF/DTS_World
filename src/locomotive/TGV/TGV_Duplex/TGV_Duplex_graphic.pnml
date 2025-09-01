@@ -243,7 +243,3 @@ spriteset(set_TGV_Duplex_Ouigo_engineT, "src/locomotive/TGV/TGV_Duplex/TGV_Duple
 spriteset(set_TGV_Duplex_purchase, "src/locomotive/TGV/TGV_Duplex/TGV_Duplex.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_TGV_Duplex_purchase, cargo_subtype) {
-    set_TGV_Duplex_purchase;
-}

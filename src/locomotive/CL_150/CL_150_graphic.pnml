@@ -457,7 +457,6 @@ spriteset(set_CL_150_Premium_2cc_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "s
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_CL_150_purchase, "src/locomotive/CL_150/CL_150.png"){
     tmpl_purchase(0, 0)
 }
@@ -468,16 +467,4 @@ spriteset(set_CL_150_G2_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locom
 
 spriteset(set_CL_150_Premium_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_Premium.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_CL_150_purchase, cargo_subtype) {
-    set_CL_150_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_CL_150_G2_purchase, cargo_subtype) {
-    set_CL_150_G2_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_CL_150_Premium_purchase, cargo_subtype) {
-    set_CL_150_Premium_purchase;
 }

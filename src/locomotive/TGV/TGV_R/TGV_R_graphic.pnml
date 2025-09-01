@@ -208,7 +208,3 @@ spriteset(set_TGV_R_Carmillon_engineT, "src/locomotive/TGV/TGV_R/TGV_R_Carmillon
 spriteset(set_TGV_R_purchase, "src/locomotive/TGV/TGV_R/TGV_R_Atlantic.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_TGV_R_purchase, cargo_subtype) {
-    set_TGV_R_purchase;
-}

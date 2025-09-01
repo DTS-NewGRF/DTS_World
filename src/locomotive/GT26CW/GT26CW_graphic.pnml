@@ -64,11 +64,6 @@ spriteset(set_GT26CW_engine_2023, "src/locomotive/GT26CW/GT26CW.png"){
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_GT26CW_purchase, "src/locomotive/GT26CW/GT26CW.png"){
     tmpl_single_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_GT26CW_purchase, cargo_subtype) {
-    set_GT26CW_purchase;
 }

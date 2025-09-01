@@ -51,7 +51,7 @@ item(FEAT_TRAINS, NHSRCL_E5_10Car, 2116){
     graphics {
         default:                        sw_NHSRCL_E5_10car;
         articulated_part:               sw_articulated_NHSRCL_E5_10car;
-        purchase:                       sw_NHSRCL_E5_purchase;
+        purchase:                       set_NHSRCL_E5_purchase;
         speed:                          sw_High_320_speed;
         loading_speed:                  25;
         cost_factor:                    10;

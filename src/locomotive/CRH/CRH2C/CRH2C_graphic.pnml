@@ -27,7 +27,3 @@ spriteset(set_CRH2C_engineT, "src/locomotive/CRH/CRH2C/CRH2C.png"){
 spriteset(set_CRH2C_purchase, "src/locomotive/CRH/CRH2C/CRH2C.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_CRH2C_purchase, cargo_subtype) {
-    set_CRH2C_purchase;
-}

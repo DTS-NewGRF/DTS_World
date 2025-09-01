@@ -52,7 +52,7 @@ item(FEAT_TRAINS, V_ITX_Chowol_8Car, 2018){
 	graphics {
         default:                        sw_V_ITX_Chowol_8car_reversed;
         articulated_part:               sw_articulated_sw_V_ITX_Chowol_8car;
-        purchase:                       sw_V_ITX_Chowol_purchase;
+        purchase:                       set_V_ITX_Chowol_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
         cost_factor:                    10;

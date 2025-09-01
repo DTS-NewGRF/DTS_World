@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_ICE1_purchase, "src/locomotive/ICE/ICE1/ICE1.png"){
-    tmpl_purchase(0, 0)
-}
-
 spriteset(set_ICE1_engineH, "src/locomotive/ICE/ICE1/ICE1.png"){
     ICEengine(80, 0)
 }
@@ -24,6 +20,6 @@ spriteset(set_ICE1_engineT, "src/locomotive/ICE/ICE1/ICE1.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_ICE1_purchase, cargo_subtype) {
-	set_ICE1_purchase;
+spriteset(set_ICE1_purchase, "src/locomotive/ICE/ICE1/ICE1.png"){
+    tmpl_purchase(0, 0)
 }

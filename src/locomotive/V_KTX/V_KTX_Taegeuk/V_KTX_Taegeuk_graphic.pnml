@@ -92,11 +92,6 @@ spriteset(set_V_KTX_Taegeuk_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/lo
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_V_KTX_Taegeuk_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/V_KTX/V_KTX_Taegeuk/V_KTX_Taegeuk.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Taegeuk_purchase, cargo_subtype) {
-    set_V_KTX_Taegeuk_purchase;
 }

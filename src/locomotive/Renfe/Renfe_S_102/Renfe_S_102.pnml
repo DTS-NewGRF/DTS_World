@@ -51,7 +51,7 @@ item(FEAT_TRAINS, Renfe_S_102_14Car, 2073){
 	graphics {
         default:                        sw_Renfe_S_102_14car;
         articulated_part:               sw_articulated_Renfe_S_102_14car;
-        purchase:                       sw_Renfe_S_102_purchase;
+        purchase:                       set_Renfe_S_102_purchase;
         speed:                          sw_High_300_speed;
         loading_speed:                  25;
         cost_factor:                    10;

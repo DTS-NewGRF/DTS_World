@@ -27,7 +27,3 @@ spriteset(set_CR400BF_engineT, "src/locomotive/CRH/CR400BF/CR400BF.png"){
 spriteset(set_CR400BF_purchase, "src/locomotive/CRH/CR400BF/CR400BF.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_CR400BF_purchase, cargo_subtype) {
-    set_CR400BF_purchase;
-}

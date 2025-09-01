@@ -426,16 +426,11 @@ spriteset(set_DHC_PP_ON_engineT_OPMCD, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_DHC_PP_FF_purchase, "src/locomotive/DHC_PP/DHC_PP_FF.png"){
     tmpl_purchase(0, 0)
 }
 
 spriteset(set_DHC_PP_FL_purchase, "src/locomotive/DHC_PP/DHC_PP_FL.png"){
-    tmpl_purchase(0, 0)
-}
-
-spriteset(set_DHC_PP_OF_purchase, "src/locomotive/DHC_PP/DHC_PP_OF.png"){
     tmpl_purchase(0, 0)
 }
 
@@ -452,29 +447,25 @@ spriteset(set_DHC_PP_ON_purchase, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
 }
 
 // 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_FF_purchase, cargo_subtype) {
-    set_DHC_PP_FF_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_FL_purchase, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_1988_purchase, cargo_subtype) {
     set_DHC_PP_FL_purchase;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_OL_purchase, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_1994_purchase, cargo_subtype) {
     set_DHC_PP_OL_purchase;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_New_purchase, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_2005_purchase, cargo_subtype) {
     set_DHC_PP_New_purchase;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DHC_PP_purchase, current_year) {
-    0..2004: sw_DHC_PP_OL_purchase;
-    sw_DHC_PP_New_purchase;
+    0..2004: sw_DHC_PP_1994_purchase;
+    sw_DHC_PP_2005_purchase;
     }
 
 switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_purchase, current_year) {
-    0..1993: sw_DHC_PP_FL_purchase;
-    1994..2004: sw_DHC_PP_OL_purchase;
-    sw_DHC_PP_New_purchase;
+    0..1993: sw_DHC_PP_1988_purchase;
+    1994..2004: sw_DHC_PP_1994_purchase;
+    sw_DHC_PP_2005_purchase;
     }

@@ -71,7 +71,3 @@ spriteset(set_Avelia_Liberty_engineT, "src/locomotive/Avelia_Liberty/Avelia_Libe
 spriteset(set_Avelia_Liberty_purchase, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Avelia_Liberty_purchase, cargo_subtype) {
-    set_Avelia_Liberty_purchase;
-}

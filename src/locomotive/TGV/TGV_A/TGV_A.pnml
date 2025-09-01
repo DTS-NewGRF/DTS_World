@@ -51,7 +51,7 @@ item(FEAT_TRAINS, TGV_A_12Car, 2080){
 	graphics {
         default:                        sw_TGV_A_wagon_12car_reversed;
         articulated_part:               sw_articulated_TGV_A_wagon_12car;
-        purchase:                       sw_TGV_A_purchase;
+        purchase:                       set_TGV_A_purchase;
         speed:                          sw_High_320_speed;
         length:                         sw_TGV_A_wagon_length_in_custom;
         cargo_capacity:                 sw_TGV_A_capacity_in_custom;

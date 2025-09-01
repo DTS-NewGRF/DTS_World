@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 1. HYEL_100
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_purchase, "src/locomotive/HYEL/HYEL_100/HYEL_100_H2.png"){
-    tmpl_single_purchase(0, 0)
-}
-
 spriteset(set_HYEL_100_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
     DTS_temp(80, 0)
 }
@@ -26,6 +22,6 @@ spriteset(set_HYEL_100_H2_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100_H2.png"
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_HYEL_100_purchase, cargo_subtype) {
-	set_HYEL_100_purchase;
+spriteset(set_HYEL_100_purchase, "src/locomotive/HYEL/HYEL_100/HYEL_100_H2.png"){
+    tmpl_single_purchase(0, 0)
 }

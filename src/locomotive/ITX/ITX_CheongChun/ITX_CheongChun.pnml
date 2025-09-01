@@ -54,7 +54,7 @@ item(FEAT_TRAINS, ITX_CheongChun_8Car, 2354){
     graphics {
         default:                        sw_ITX_CheongChun_8car_reversed;
         articulated_part:               sw_articulated_ITX_CheongChun_8car;
-        purchase:                       sw_ITX_CheongChun_purchase;
+        purchase:                       set_Locomotive_Common_2_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_ITX_CheongChun_cargo_subtype_text;

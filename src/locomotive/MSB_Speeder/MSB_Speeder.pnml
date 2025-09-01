@@ -51,7 +51,7 @@ item(FEAT_TRAINS, MSB_Speeder, 2178){
     
 	graphics {
         default:                        sw_MSB_Speeder_engine_1Car;
-        purchase:                       sw_MSB_Speeder_purchase;
+        purchase:                       set_MSB_Speeder_purchase;
         cost_factor:                    10;
         running_cost_factor:            150;
         }

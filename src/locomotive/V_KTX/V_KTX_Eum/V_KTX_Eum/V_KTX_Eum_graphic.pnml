@@ -262,11 +262,6 @@ spriteset(set_V_KTX_Eum_SM3_engineT, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/V
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_V_KTX_Eum_purchase, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Eum_purchase, cargo_subtype) {
-    set_V_KTX_Eum_purchase;
 }

@@ -19,7 +19,3 @@ spriteset(set_HYEL_Mugunhwa_engineT, "src/locomotive/HYEL/HYEL_Mugunhwa/HYEL_Mug
 spriteset(set_HYEL_Mugunhwa_purchase, "src/locomotive/HYEL/HYEL_Mugunhwa/HYEL_Mugunhwa.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_Mugunhwa_purchase, cargo_subtype) {
-    set_HYEL_Mugunhwa_purchase;
-}

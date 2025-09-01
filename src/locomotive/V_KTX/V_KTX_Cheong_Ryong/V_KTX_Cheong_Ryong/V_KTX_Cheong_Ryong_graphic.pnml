@@ -545,11 +545,3 @@ spriteset(set_V_KTX_Cheong_Ryong_purchase, "src/locomotive/V_KTX/V_KTX_Cheong_Ry
 spriteset(set_V_KTX_Cheong_Ryong_JR_purchase, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_JR.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_purchase, cargo_subtype) {
-    set_V_KTX_Cheong_Ryong_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_JR_purchase, cargo_subtype) {
-    set_V_KTX_Cheong_Ryong_JR_purchase;
-}

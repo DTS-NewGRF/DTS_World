@@ -21,7 +21,7 @@ item(FEAT_TRAINS, RDC, 2348){
         }
 
     graphics {
-        purchase:                       sw_RDC_purchase;
+        purchase:                       set_RDC_purchase;
         }
         }
 
@@ -70,7 +70,7 @@ item(FEAT_TRAINS, RDC_3Car, 2349){
 	graphics {
         default:                        sw_RDC_3car_reversed;
         articulated_part:               sw_articulated_RDC_3car;
-        purchase:                       sw_RDC_purchase;
+        purchase:                       set_RDC_purchase;
         speed:                          sw_Regular_120_speed;
         cargo_subtype_text:             sw_RDC_3Car_cargo_subtype_text;
         loading_speed:                  25;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, RDC_4Car, 2350){
 	graphics {
         default:                        sw_RDC_4car_reversed;
         articulated_part:               sw_articulated_RDC_4car;
-        purchase:                       sw_RDC_purchase;
+        purchase:                       set_RDC_purchase;
         speed:                          sw_Regular_120_speed;
         cargo_subtype_text:             sw_RDC_4car_cargo_subtype_text;
         loading_speed:                  25;

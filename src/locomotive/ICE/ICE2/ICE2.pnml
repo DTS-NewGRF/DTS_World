@@ -51,7 +51,7 @@ item(FEAT_TRAINS, ICE2_8Car, 2068){
 	graphics {
         default:                        sw_ICE2_8car_reversed;
         articulated_part:               sw_articulated_ICE2_8car;
-        purchase:                       sw_ICE2_purchase;
+        purchase:                       set_ICE2_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

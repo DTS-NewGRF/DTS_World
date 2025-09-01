@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-/*--------------------------------------------------------------------
-HYEL 400
---------------------------------------------------------------------*/
 spriteset(set_HYEL_400_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_400/HYEL_400.png"){
     DTS_temp(80, 0)
 }
@@ -45,8 +42,4 @@ spriteset(set_HYEL_400_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomot
 --------------------------------------------------------------------*/
 spriteset(set_HYEL_400_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_400/HYEL_400.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_400_purchase, cargo_subtype) {
-	set_HYEL_400_purchase;
 }

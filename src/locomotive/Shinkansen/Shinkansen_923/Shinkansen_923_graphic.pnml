@@ -27,7 +27,3 @@ spriteset(set_Shinkansen_923_engineT, "src/locomotive/Shinkansen/Shinkansen_923/
 spriteset(set_Shinkansen_923_purchase, "src/locomotive/Shinkansen/Shinkansen_923/Shinkansen_923.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_923_purchase, cargo_subtype) {
-    set_Shinkansen_923_purchase;
-}

@@ -170,7 +170,6 @@ spriteset(set_Eurostar_E300_2015_engineT, "src/locomotive/Eurostar/Eurostar_E300
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Eurostar_E300_1993_purchase, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png"){
     tmpl_purchase(0, 0)
 }
@@ -180,15 +179,7 @@ spriteset(set_Eurostar_E300_2015_purchase, "src/locomotive/Eurostar/Eurostar_E30
 }
 
 // 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_1993_purchase, cargo_subtype) {
-    set_Eurostar_E300_1993_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_2015_purchase, cargo_subtype) {
-    set_Eurostar_E300_2015_purchase;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_purchase, current_year) {
-    0..2014: sw_Eurostar_E300_1993_purchase;
-    sw_Eurostar_E300_2015_purchase;
+    0..2014: set_Eurostar_E300_1993_purchase;
+    set_Eurostar_E300_2015_purchase;
     }

@@ -51,7 +51,7 @@ item(FEAT_TRAINS, Shinkansen_923_7Car, 2096){
 	graphics {
         default:                        sw_Shinkansen_923_7car;
         articulated_part:               sw_articulated_Shinkansen_923_7car;
-        purchase:                       sw_Shinkansen_923_purchase;
+        purchase:                       set_Shinkansen_923_purchase;
         speed:                          sw_High_285_speed_Test;
         cost_factor:                    10;
         running_cost_factor:            150;

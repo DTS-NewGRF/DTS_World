@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_HXD3C_purchase, "src/locomotive/HXD3C/HXD3C.png"){
-    tmpl_single_purchase(0, 0)
-}
-
 spriteset(set_HXD3C_engine, "src/locomotive/HXD3C/HXD3C.png"){
     DTS_temp(80, 0)
 }
@@ -12,6 +8,6 @@ spriteset(set_HXD3C_engine, "src/locomotive/HXD3C/HXD3C.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_HXD3C_purchase, cargo_subtype) {
-    set_HXD3C_purchase;
+spriteset(set_HXD3C_purchase, "src/locomotive/HXD3C/HXD3C.png"){
+    tmpl_single_purchase(0, 0)
 }

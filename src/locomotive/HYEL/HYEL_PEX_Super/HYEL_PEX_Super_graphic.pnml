@@ -140,11 +140,6 @@ spriteset(set_HYEL_PEX_Super_RPC2_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_HYEL_PEX_Super_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
     tmpl_wagon_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_purchase, cargo_subtype) {
-    set_HYEL_PEX_Super_purchase;
 }

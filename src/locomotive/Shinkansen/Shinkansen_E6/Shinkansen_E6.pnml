@@ -51,7 +51,7 @@ item(FEAT_TRAINS, Shinkansen_E6_7Car, 2093){
     graphics {
         default:                        sw_Shinkansen_E6_7car_reversed;
         articulated_part:               sw_articulated_Shinkansen_E6_7car;
-        purchase:                       sw_Shinkansen_E6_purchase;
+        purchase:                       set_Shinkansen_E6_purchase;
         speed:                          sw_High_320_speed;
         loading_speed:                  25;
         cost_factor:                    10;

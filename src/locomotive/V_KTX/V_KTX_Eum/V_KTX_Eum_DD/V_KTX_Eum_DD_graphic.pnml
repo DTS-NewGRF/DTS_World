@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-/*--------------------------------------------------------------------
-V_KTX_Eum_DD
---------------------------------------------------------------------*/
 spriteset(set_V_KTX_Eum_DD_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum_DD/V_KTX_Eum_DD.png", "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum_DD/V_KTX_Eum_DD_2CC.png"){
     DTS_temp(80, 0)
 }
@@ -55,11 +52,6 @@ spriteset(set_V_KTX_Eum_DD_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/loc
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_V_KTX_Eum_DD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum_DD/V_KTX_Eum_DD.png", "src/locomotive/V_KTX/V_KTX_Eum/V_KTX_Eum_DD/V_KTX_Eum_DD_2CC.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Eum_DD_purchase, cargo_subtype) {
-    set_V_KTX_Eum_DD_purchase;
 }

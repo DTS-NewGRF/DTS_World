@@ -22,7 +22,7 @@ item(FEAT_TRAINS, CR400AF, 2206){
         }
 
     graphics {
-        purchase:                       sw_CR400AF_purchase;
+        purchase:                       set_CR400AF_purchase;
         }
         }
 
@@ -70,7 +70,7 @@ item(FEAT_TRAINS, CR400AF_8Car, 2045){
     graphics {
         default:                        sw_CR400AF_8car;
         articulated_part:               sw_articulated_CR400AF_8car;
-        purchase:                       sw_CR400AF_purchase;
+        purchase:                       set_CR400AF_purchase;
         speed:                          sw_High_350_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -122,7 +122,7 @@ item(FEAT_TRAINS, CR400AF_16Car, 2148){
     graphics {
         default:                        sw_CR400AF_16car;
         articulated_part:               sw_articulated_CR400AF_16car;
-        purchase:                       sw_CR400AF_purchase;
+        purchase:                       set_CR400AF_purchase;
         speed:                          sw_High_350_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -175,7 +175,7 @@ item(FEAT_TRAINS, CR400AF_17Car, 2149){
     graphics {
         default:                        sw_CR400AF_17car;
         articulated_part:               sw_articulated_CR400AF_17car;
-        purchase:                       sw_CR400AF_purchase;
+        purchase:                       set_CR400AF_purchase;
         speed:                          sw_High_350_speed;
         loading_speed:                  25;
         cost_factor:                    10;

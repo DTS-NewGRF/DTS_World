@@ -52,7 +52,7 @@ item(FEAT_TRAINS, V_KTX_Sancheon_DD_10Car, 2025){
     graphics {
         default:                        sw_V_KTX_Sancheon_DD_10car_reversed;
         articulated_part:               sw_articulated_V_KTX_Sancheon_DD_10car;
-        purchase:                       sw_V_KTX_Sancheon_DD_purchase;
+        purchase:                       set_V_KTX_Sancheon_DD_purchase;
         speed:                          sw_High_305_speed;
         loading_speed:                  25;
         cost_factor:                    10;

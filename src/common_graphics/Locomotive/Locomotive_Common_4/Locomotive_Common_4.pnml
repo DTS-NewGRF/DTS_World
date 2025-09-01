@@ -1,0 +1,74 @@
+/*--------------------------------------------------------------------
+Locomotive_Common_4
+- ITX-새마을
+--------------------------------------------------------------------*/
+spriteset(set_Locomotive_Common_4_engineH, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Locomotive_Common_4_engineH_r, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Locomotive_Common_4_panto_wagon_M1, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Locomotive_Common_4_panto_wagon_M1_r, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Locomotive_Common_4_wagon_M, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_Locomotive_Common_4_wagon_M_r, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_Locomotive_Common_4_wagon_TM, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_Locomotive_Common_4_wagon_TM_r, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png") {
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_Locomotive_Common_4_wagon_DUP1, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_Locomotive_Common_4_wagon_DUP1_r, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png") {
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_Locomotive_Common_4_wagon_DUP2, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png") {
+    DTS_temp(80, 189)
+}
+
+spriteset(set_Locomotive_Common_4_wagon_DUP2_r, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png") {
+    DTS_temp_r(80, 189)
+}
+
+spriteset(set_Locomotive_Common_4_panto_wagon_M2, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png") {
+    DTS_temp(80, 216)
+}
+
+spriteset(set_Locomotive_Common_4_panto_wagon_M2_r, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png") {
+    DTS_temp(80, 243)
+}
+
+spriteset(set_Locomotive_Common_4_engineT_r, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png"){
+    DTS_temp(80, 270)
+}
+
+spriteset(set_Locomotive_Common_4_engineT, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png"){
+    DTS_temp(80, 297)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Locomotive_Common_4_purchase, "src/common_graphics/Locomotive/Locomotive_Common_4/Locomotive_Common_4.png"){
+    tmpl_purchase(0, 0)
+}

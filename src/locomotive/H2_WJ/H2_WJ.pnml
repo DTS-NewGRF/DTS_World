@@ -21,7 +21,7 @@ item(FEAT_TRAINS, H2_WJ, 2190){
         }
 
     graphics {
-        purchase:                       sw_H2_WJ_purchase;
+        purchase:                       set_H2_WJ_purchase;
         }
         }
 
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, H2_WJ_2Car, 2008){
 	graphics {
         default:                        sw_H2_WJ_2car;
         articulated_part:               sw_articulated_H2_WJ_2car;
-        purchase:                       sw_H2_WJ_purchase;
+        purchase:                       set_H2_WJ_purchase;
         speed:                          sw_Regular_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, H2_WJ_4Car, 2060){
 	graphics {
         default:                        sw_H2_WJ_4car;
         articulated_part:               sw_articulated_H2_WJ_4car;
-        purchase:                       sw_H2_WJ_purchase;
+        purchase:                       set_H2_WJ_purchase;
         speed:                          sw_Regular_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;

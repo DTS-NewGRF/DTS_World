@@ -52,7 +52,7 @@ item(FEAT_TRAINS, HYEL_120_1Car, 2128){
         
     graphics {
         default:                        sw_HYEL_120_engine_1Car;
-        purchase:                       sw_HYEL_120_1Car_purchase;
+        purchase:                       set_HYEL_120_1Car_purchase;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

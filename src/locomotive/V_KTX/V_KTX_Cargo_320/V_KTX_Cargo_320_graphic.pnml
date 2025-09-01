@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-/*--------------------------------------------------------------------
-[가상] KTX-Cargo 320
---------------------------------------------------------------------*/
 spriteset(set_V_KTX_Cargo_320_engineH, "src/locomotive/V_KTX/V_KTX_Cargo_320/V_KTX_Cargo_320.png"){
     DTS_temp(80, 0)
 }
@@ -79,11 +76,6 @@ spriteset(set_V_KTX_Cargo_320_engineT_TCD_r, "src/locomotive/V_KTX/V_KTX_Cargo_3
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_V_KTX_Cargo_320_purchase, "src/locomotive/V_KTX/V_KTX_Cargo_320/V_KTX_Cargo_320.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Cargo_320_purchase, cargo_subtype) {
-    set_V_KTX_Cargo_320_purchase;
 }

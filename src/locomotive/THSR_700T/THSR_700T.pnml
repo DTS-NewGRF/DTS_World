@@ -51,7 +51,7 @@ item(FEAT_TRAINS, THSR_700T_12Car, 2118){
 	graphics {
         default:                        sw_THSR_700T_12car;
         articulated_part:               sw_articulated_THSR_700T_12car;
-        purchase:                       sw_THSR_700T_purchase;
+        purchase:                       set_THSR_700T_purchase;
         speed:                          sw_High_300_speed;
         loading_speed:                  25;
         cost_factor:                    10;

@@ -34,7 +34,3 @@ spriteset(set_DTX_Sejong_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/loc
 spriteset(set_DTX_Sejong_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Sejong/DTX_Sejong.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_DTX_Sejong_purchase, cargo_subtype) {
-    set_DTX_Sejong_purchase;
-}

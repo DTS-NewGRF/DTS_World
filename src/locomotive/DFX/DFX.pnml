@@ -50,7 +50,7 @@ item(FEAT_TRAINS, DFX_10Car, 2112){
 	graphics {
         default:                        sw_DFX_10car;
         articulated_part:               sw_articulated_DFX_10car;
-        purchase:                       sw_DFX_purchase;
+        purchase:                       set_DFX_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

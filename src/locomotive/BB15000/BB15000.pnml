@@ -50,7 +50,7 @@ item(FEAT_TRAINS, BB15000, 2064){
         
     graphics {
         default:                        sw_BB15000_engine_1Car;
-        purchase:                       sw_BB15000_purchase;
+        purchase:                       set_BB15000_purchase;
         speed:                          sw_Regular_160_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;

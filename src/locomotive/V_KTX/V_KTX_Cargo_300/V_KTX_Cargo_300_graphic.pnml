@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-/*--------------------------------------------------------------------
-V-KTX-카고 300
---------------------------------------------------------------------*/
 spriteset(set_V_KTX_Cargo_300_engineH, "src/locomotive/V_KTX/V_KTX_Cargo_300/V_KTX_Cargo_300.png"){
     DTS_temp(80, 0)
 }
@@ -19,11 +16,6 @@ spriteset(set_V_KTX_Cargo_300_engineT, "src/locomotive/V_KTX/V_KTX_Cargo_300/V_K
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_V_KTX_Cargo_300_purchase, "src/locomotive/V_KTX/V_KTX_Cargo_300/V_KTX_Cargo_300.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Cargo_300_purchase, cargo_subtype) {
-    set_V_KTX_Cargo_300_purchase;
 }

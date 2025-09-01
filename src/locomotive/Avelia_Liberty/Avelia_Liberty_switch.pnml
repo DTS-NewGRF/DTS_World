@@ -40,6 +40,7 @@ switch(FEAT_TRAINS, PARENT, sw_Avelia_Liberty_11car_reversed, vehicle_is_reverse
     sw_Avelia_Liberty_11car_flipped;
 }
 
+// 수송량
 switch(FEAT_TRAINS, SELF, sw_Avelia_Liberty_wagon_length_in_custom, position_in_vehid_chain % 11) {
      1: 8;
      2: 7;

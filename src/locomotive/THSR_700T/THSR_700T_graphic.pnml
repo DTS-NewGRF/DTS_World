@@ -30,7 +30,3 @@ spriteset(set_THSR_700T_engineT, "src/locomotive/THSR_700T/THSR_700T.png"){
 spriteset(set_THSR_700T_purchase, "src/locomotive/THSR_700T/THSR_700T.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_THSR_700T_purchase, cargo_subtype) {
-    set_THSR_700T_purchase;
-}

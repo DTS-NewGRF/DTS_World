@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_FEL_8500_purchase, "src/locomotive/FEL_8500/FEL_8500.png"){
-    tmpl_single_purchase(0, 0)
-}
-
 spriteset(set_FEL_8500_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
     DTS_temp(80, 0)
 }
@@ -44,6 +40,6 @@ spriteset(set_FEL_8500_G_New_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_FEL_8500_purchase, cargo_subtype) {
-	set_FEL_8500_purchase;
+spriteset(set_FEL_8500_purchase, "src/locomotive/FEL_8500/FEL_8500.png"){
+    tmpl_single_purchase(0, 0)
 }

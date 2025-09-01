@@ -22,7 +22,7 @@ item(FEAT_TRAINS, DTX_Sobaek, 2429){
         }
 
     graphics {
-        purchase:                       sw_DTX_Sobaek_purchase;
+        purchase:                       set_DTX_Sobaek_purchase;
         }
         }
 
@@ -72,7 +72,7 @@ item(FEAT_TRAINS, DTX_Sobaek_4Car, 2526){
 	graphics {
         default:                        sw_DTX_Sobaek_4car;
         articulated_part:               sw_articulated_DTX_Sobaek_4car;
-        purchase:                       sw_DTX_Sobaek_purchase;
+        purchase:                       set_DTX_Sobaek_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -127,7 +127,7 @@ item(FEAT_TRAINS, DTX_Sobaek_6Car, 2527){
 	graphics {
         default:                        sw_DTX_Sobaek_6car;
         articulated_part:               sw_articulated_DTX_Sobaek_6car;
-        purchase:                       sw_DTX_Sobaek_purchase;
+        purchase:                       set_DTX_Sobaek_purchase;
         speed:                          sw_DTX_Sobaek_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -183,7 +183,7 @@ item(FEAT_TRAINS, DTX_Sobaek_8Car, 2135){
 	graphics {
         default:                        sw_DTX_Sobaek_8car;
         articulated_part:               sw_articulated_DTX_Sobaek_8car;
-        purchase:                       sw_DTX_Sobaek_purchase;
+        purchase:                       set_DTX_Sobaek_purchase;
         speed:                          sw_DTX_Sobaek_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -239,7 +239,7 @@ item(FEAT_TRAINS, DTX_Sobaek_10Car, 2430){
 	graphics {
         default:                        sw_DTX_Sobaek_10car;
         articulated_part:               sw_articulated_DTX_Sobaek_10car;
-        purchase:                       sw_DTX_Sobaek_purchase;
+        purchase:                       set_DTX_Sobaek_purchase;
         speed:                          sw_DTX_Sobaek_speed;
         loading_speed:                  25;
         cost_factor:                    10;

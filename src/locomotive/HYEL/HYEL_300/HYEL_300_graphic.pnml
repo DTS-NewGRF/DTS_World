@@ -39,7 +39,3 @@ HYEL 300 PEX-Super
 spriteset(set_HYEL_300_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_300/HYEL_300.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_300_purchase, cargo_subtype) {
-    set_HYEL_300_purchase;
-}

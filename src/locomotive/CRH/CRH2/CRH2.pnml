@@ -52,7 +52,7 @@ item(FEAT_TRAINS, CRH2_8Car, 2037){
     graphics {
         default:                        sw_CRH2_8car;
         articulated_part:               sw_articulated_CRH2_8car;
-        purchase:                       sw_CRH2_purchase;
+        purchase:                       set_CRH2_purchase;
         speed:                          sw_High_250_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -105,7 +105,7 @@ item(FEAT_TRAINS, CRH2_16Car, 2144){
     graphics {
         default:                        sw_CRH2_16car;
         articulated_part:               sw_articulated_CRH2_16car;
-        purchase:                       sw_CRH2_purchase;
+        purchase:                       set_CRH2_purchase;
         speed:                          sw_High_250_speed;
         loading_speed:                  25;
         cost_factor:                    10;

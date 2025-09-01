@@ -22,7 +22,7 @@ item(FEAT_TRAINS, V_ITX_CheongChan, 2490){
         }
 
     graphics {
-        purchase:                       sw_V_ITX_CheongChan_purchase;
+        purchase:                       set_V_ITX_CheongChan_purchase;
         }
         }
 
@@ -73,7 +73,7 @@ item(FEAT_TRAINS, V_ITX_CheongChan_6Car, 2491){
     graphics {
         default:                        sw_V_ITX_CheongChan_6car_reversed;
         articulated_part:               sw_articulated_V_ITX_CheongChan_6car;
-        purchase:                       sw_V_ITX_CheongChan_purchase;
+        purchase:                       set_V_ITX_CheongChan_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
@@ -127,7 +127,7 @@ item(FEAT_TRAINS, V_ITX_CheongChan_8Car, 2492){
     graphics {
         default:                        sw_V_ITX_CheongChan_8car_reversed;
         articulated_part:               sw_articulated_V_ITX_CheongChan_8car;
-        purchase:                       sw_V_ITX_CheongChan_purchase;
+        purchase:                       set_V_ITX_CheongChan_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;

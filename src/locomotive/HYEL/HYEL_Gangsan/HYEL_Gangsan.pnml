@@ -22,7 +22,7 @@ item(FEAT_TRAINS, HYEL_Gangsan, 2562){
         }
 
     graphics {
-        purchase:                       sw_HYEL_Gangsan_purchase;
+        purchase:                       set_HYEL_Gangsan_purchase;
         }
         }
 
@@ -72,7 +72,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_3Car, 2281){
     graphics {
         default:                        sw_HYEL_Gangsan_3car_reversed;
         articulated_part:               sw_articulated_HYEL_Gangsan_3car;
-        purchase:                       sw_HYEL_Gangsan_purchase;
+        purchase:                       set_HYEL_Gangsan_purchase;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_4Car, 2282){
     graphics {
         default:                        sw_HYEL_Gangsan_4car_reversed;
         articulated_part:               sw_articulated_HYEL_Gangsan_4car;
-        purchase:                       sw_HYEL_Gangsan_purchase;
+        purchase:                       set_HYEL_Gangsan_purchase;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
@@ -180,7 +180,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_6Car, 2563){
     graphics {
         default:                        sw_HYEL_Gangsan_6car_reversed;
         articulated_part:               sw_articulated_HYEL_Gangsan_6car;
-        purchase:                       sw_HYEL_Gangsan_purchase;
+        purchase:                       set_HYEL_Gangsan_purchase;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
@@ -234,7 +234,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_8Car, 2564){
     graphics {
         default:                        sw_HYEL_Gangsan_8car_reversed;
         articulated_part:               sw_articulated_HYEL_Gangsan_8car;
-        purchase:                       sw_HYEL_Gangsan_purchase;
+        purchase:                       set_HYEL_Gangsan_purchase;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;

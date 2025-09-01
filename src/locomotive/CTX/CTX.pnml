@@ -51,7 +51,7 @@ item(FEAT_TRAINS, CTX_P_10Car, 2125){
 	graphics {
         default:                        sw_CTX_P_10car;
         articulated_part:               sw_articulated_CTX_P_10car;
-        purchase:                       sw_CTX_purchase;
+        purchase:                       set_CTX_purchase;
         speed:                          sw_High_305_speed;
         loading_speed:                  25;
         cost_factor:                    10;

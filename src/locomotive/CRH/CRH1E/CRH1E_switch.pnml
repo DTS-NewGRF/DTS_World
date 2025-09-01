@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_CRH1E_16car, position_in_vehid_chain % 16) {
     1:set_CRH1E_panto_wagon;
     2:set_CRH1E_wagon;
@@ -20,6 +21,7 @@ switch (FEAT_TRAINS, SELF, sw_CRH1E_16car, position_in_vehid_chain % 16) {
     set_CRH1E_engineH; //default
     }
 
+// 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_CRH1E_16car, extra_callback_info1) {
     1..15: CRH1E_16Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

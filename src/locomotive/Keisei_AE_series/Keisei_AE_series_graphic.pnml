@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-/*--------------------------------------------------------------------
-케이세이 AE형
---------------------------------------------------------------------*/
 spriteset(set_Kse2_engineH, "src/locomotive/Keisei_AE_series/Keisei_AE_series.png"){
     DTS_temp(80, 0)
 }
@@ -33,8 +30,4 @@ spriteset(set_Kse2_engineT, "src/locomotive/Keisei_AE_series/Keisei_AE_series.pn
 --------------------------------------------------------------------*/
 spriteset(set_Kse2_purchase, "src/locomotive/Keisei_AE_series/Keisei_AE_series.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Kse2_purchase, cargo_subtype) {
-    set_Kse2_purchase;
 }

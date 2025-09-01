@@ -50,18 +50,10 @@ spriteset(set_N700S_K_engineT, "src/locomotive/Shinkansen/Shinkansen_N700_S/N700
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Shinkansen_N700_S_purchase, "src/locomotive/Shinkansen/Shinkansen_N700_S/N700S.png"){
+spriteset(set_Shinkansen_N700S_S_purchase, "src/locomotive/Shinkansen/Shinkansen_N700_S/N700S.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_Shinkansen_N700_K_purchase, "src/locomotive/Shinkansen/Shinkansen_N700_S/N700S_K.png"){
+spriteset(set_Shinkansen_N700S_K_purchase, "src/locomotive/Shinkansen/Shinkansen_N700_S/N700S_K.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700S_S_purchase, cargo_subtype) {
-    set_Shinkansen_N700_S_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700S_K_purchase, cargo_subtype) {
-    set_Shinkansen_N700_K_purchase;
 }

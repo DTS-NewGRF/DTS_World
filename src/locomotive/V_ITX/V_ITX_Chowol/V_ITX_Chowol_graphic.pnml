@@ -39,11 +39,6 @@ spriteset(set_V_ITX_Chowol_engineT, "src/locomotive/V_ITX/V_ITX_Chowol/V_ITX_Cho
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_V_ITX_Chowol_purchase, "src/locomotive/V_ITX/V_ITX_Chowol/V_ITX_Chowol.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_V_ITX_Chowol_purchase, cargo_subtype) {
-    set_V_ITX_Chowol_purchase;
 }

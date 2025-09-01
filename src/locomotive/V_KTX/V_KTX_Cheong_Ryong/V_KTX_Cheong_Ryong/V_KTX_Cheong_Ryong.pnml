@@ -22,7 +22,7 @@ item(FEAT_TRAINS, V_KTX_Cheong_Ryong, 2306){
         }
 
     graphics {
-        purchase:                       sw_V_KTX_Cheong_Ryong_purchase;
+        purchase:                       set_V_KTX_Cheong_Ryong_purchase;
         }
         }
 
@@ -73,7 +73,7 @@ item(FEAT_TRAINS, V_KTX_Cheong_Ryong_8Car, 2022){
     graphics {
         default:                        sw_V_KTX_Cheong_Ryong_8car_reversed;
         articulated_part:               sw_articulated_V_KTX_Cheong_Ryong_8car;
-        purchase:                       sw_V_KTX_Cheong_Ryong_purchase;
+        purchase:                       set_V_KTX_Cheong_Ryong_purchase;
         speed:                          sw_High_320_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_V_KTX_Cheong_Ryong_cargo_subtype_text;
@@ -97,7 +97,7 @@ item(FEAT_TRAINS, V_KTX_Cheong_Ryong_16Car, 2528){
         //spec
         speed:                          362km/h;
         power:                          13668 kW;
-        weight:                         40 ton;
+        weight:                         560 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -128,7 +128,7 @@ item(FEAT_TRAINS, V_KTX_Cheong_Ryong_16Car, 2528){
     graphics {
         default:                        sw_V_KTX_Cheong_Ryong_16car_reversed;
         articulated_part:               sw_articulated_V_KTX_Cheong_Ryong_16car;
-        purchase:                       sw_V_KTX_Cheong_Ryong_JR_purchase;
+        purchase:                       set_V_KTX_Cheong_Ryong_JR_purchase;
         speed:                          sw_High_320_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;

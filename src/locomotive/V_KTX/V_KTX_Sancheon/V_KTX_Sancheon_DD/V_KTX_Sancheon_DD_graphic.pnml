@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-/*--------------------------------------------------------------------
-KTX_Sancheon_DD
---------------------------------------------------------------------*/
 spriteset(set_V_KTX_Sancheon_DD_engineH, "src/locomotive/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png"){
     DTS_temp(80, 0)
 }
@@ -63,11 +60,6 @@ spriteset(set_V_KTX_Sancheon_DD_engineT, "src/locomotive/V_KTX/V_KTX_Sancheon/V_
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_V_KTX_Sancheon_DD_purchase, "src/locomotive/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Sancheon_DD_purchase, cargo_subtype) {
-    set_V_KTX_Sancheon_DD_purchase;
 }

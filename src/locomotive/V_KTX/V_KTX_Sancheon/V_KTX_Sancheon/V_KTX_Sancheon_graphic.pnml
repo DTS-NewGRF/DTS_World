@@ -272,11 +272,6 @@ spriteset(set_V_KTX_Gyeonggang_White_engineT, "src/locomotive/V_KTX/V_KTX_Sanche
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_V_KTX_Sancheon_purchase, "src/locomotive/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon/V_KTX_Honam_Sky_blue.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Sancheon_purchase, cargo_subtype) {
-    set_V_KTX_Sancheon_purchase;
 }

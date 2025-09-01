@@ -2,7 +2,7 @@
 Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
-1. ICE 2 Red
+ICE 2 Red
 --------------------------------------------------------------------*/
 spriteset(set_ICE2_R_engineH, "src/locomotive/ICE/ICE2/ICE2_R.png"){
     ICEengine(80, 0)
@@ -37,7 +37,7 @@ spriteset(set_ICE2_R_engineT, "src/locomotive/ICE/ICE2/ICE2_R.png"){
 }
 
 /*--------------------------------------------------------------------
-2. ICE 2 Green
+ICE 2 Green
 --------------------------------------------------------------------*/
 spriteset(set_ICE2_G_engineH, "src/locomotive/ICE/ICE2/ICE2_G.png"){
     ICEengine(80, 0)
@@ -76,8 +76,4 @@ spriteset(set_ICE2_G_engineT, "src/locomotive/ICE/ICE2/ICE2_G.png"){
 --------------------------------------------------------------------*/
 spriteset(set_ICE2_purchase, "src/locomotive/ICE/ICE2/ICE2_R.png"){
     tmpl_single_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE2_purchase, cargo_subtype) {
-    set_ICE2_purchase;
 }

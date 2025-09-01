@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 8량
 switch (FEAT_TRAINS, SELF, sw_CRH380B_8car, position_in_vehid_chain % 8) {
     1:set_CRH380B_panto_wagon;
     2:set_CRH380B_wagon;
@@ -12,6 +13,7 @@ switch (FEAT_TRAINS, SELF, sw_CRH380B_8car, position_in_vehid_chain % 8) {
     set_CRH380B_engineH; //default
     }
 
+// 16량
 switch (FEAT_TRAINS, SELF, sw_CRH380B_16car, position_in_vehid_chain % 16) {
     1:set_CRH380B_wagon;
     2:set_CRH380B_wagon;
@@ -31,6 +33,7 @@ switch (FEAT_TRAINS, SELF, sw_CRH380B_16car, position_in_vehid_chain % 16) {
     set_CRH380B_engineH; //default
     }
 
+// 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_CRH380B_8car, extra_callback_info1) {
     1..7: CRH380B_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

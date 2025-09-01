@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_NJ2_purchase, "src/locomotive/NJ2/NJ2.png"){
-    tmpl_single_purchase(0, 0)
-}
-
 spriteset(set_NJ2_engine, "src/locomotive/NJ2/NJ2.png"){
     DTS_temp(80, 0)
 }
@@ -12,6 +8,6 @@ spriteset(set_NJ2_engine, "src/locomotive/NJ2/NJ2.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_NJ2_purchase, cargo_subtype) {
-    set_NJ2_purchase;
+spriteset(set_NJ2_purchase, "src/locomotive/NJ2/NJ2.png"){
+    tmpl_single_purchase(0, 0)
 }

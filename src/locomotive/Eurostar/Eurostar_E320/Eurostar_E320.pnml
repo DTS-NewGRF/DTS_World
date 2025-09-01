@@ -51,7 +51,7 @@ item(FEAT_TRAINS, Eurostar_E320_16Car, 2066){
     graphics {
         default:                        sw_Eurostar_E320_16car;
         articulated_part:               sw_articulated_Eurostar_E320_16car;
-        purchase:                       sw_Eurostar_E320_purchase;
+        purchase:                       set_Eurostar_E320_purchase;
         speed:                          sw_High_320_speed;
         loading_speed:                  25;
         cost_factor:                    10;

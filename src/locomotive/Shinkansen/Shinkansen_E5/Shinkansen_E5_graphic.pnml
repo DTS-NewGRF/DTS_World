@@ -117,7 +117,3 @@ spriteset(set_Shinkansen_H5_engineT_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/
 spriteset(set_Shinkansen_E5_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_purchase, cargo_subtype) {
-    set_Shinkansen_E5_purchase;
-}

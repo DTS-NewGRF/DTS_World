@@ -1,5 +1,5 @@
 // 그래픽
-#include "graphic/Graphic.pnml"
+#include "common_graphics/Common_Graphics.pnml"
 
 // 열차
 #include "locomotive/AGV/AGV.pnml"

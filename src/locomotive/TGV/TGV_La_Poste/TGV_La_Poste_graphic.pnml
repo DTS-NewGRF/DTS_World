@@ -71,7 +71,3 @@ spriteset(set_TGV_La_Poste_engineT, "src/locomotive/TGV/TGV_La_Poste/TGV_La_Post
 spriteset(set_TGV_La_Poste_purchase, "src/locomotive/TGV/TGV_La_Poste/TGV_La_Poste.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_TGV_La_Poste_purchase, cargo_subtype) {
-    set_TGV_La_Poste_purchase;
-}

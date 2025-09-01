@@ -52,7 +52,7 @@ item(FEAT_TRAINS, CRH380A_8Car, 2040){
     graphics {
         default:                        sw_CRH380A_8car;
         articulated_part:               sw_articulated_CRH380A_8car;
-        purchase:                       sw_CRH380A_purchase;
+        purchase:                       set_CRH380A_purchase;
         speed:                          sw_High_350_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -106,7 +106,7 @@ item(FEAT_TRAINS, CRH380A_16Car, 2145){
     graphics {
         default:                        sw_CRH380A_16car;
         articulated_part:               sw_articulated_CRH380A_16car;
-        purchase:                       sw_CRH380A_purchase;
+        purchase:                       set_CRH380A_purchase;
         speed:                          sw_High_350_speed;
         loading_speed:                  25;
         cost_factor:                    10;

@@ -184,7 +184,3 @@ spriteset(set_V_KTX_Cheong_Ryong_DD_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
 spriteset(set_V_KTX_Cheong_Ryong_DD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/locomotive/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_DD_purchase, cargo_subtype) {
-    set_V_KTX_Cheong_Ryong_DD_purchase;
-}

@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_DFX_purchase, "src/locomotive/DFX/DFX.png"){
-    tmpl_purchase(0, 0)
-}
-
 spriteset(set_DFX_engineH, "src/locomotive/DFX/DFX.png"){
     DTS_temp(80, 0)
 }
@@ -20,6 +16,6 @@ spriteset(set_DFX_engineT, "src/locomotive/DFX/DFX.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_DFX_purchase, cargo_subtype) {
-    set_DFX_purchase;
+spriteset(set_DFX_purchase, "src/locomotive/DFX/DFX.png"){
+    tmpl_purchase(0, 0)
 }

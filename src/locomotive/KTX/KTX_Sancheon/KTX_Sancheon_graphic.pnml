@@ -414,11 +414,6 @@ spriteset(set_KTX_Sancheon_BP_engine_PCMD, "src/locomotive/KTX/KTX_Sancheon/KTX_
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_KTX_Sancheon_purchase, "src/locomotive/KTX/KTX_Sancheon/KTX_Sancheon_A1.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_purchase, cargo_subtype) {
-    set_KTX_Sancheon_purchase;
 }

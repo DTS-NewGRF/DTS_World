@@ -90,7 +90,3 @@ spriteset(set_Al_Boraq_engineT, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
 spriteset(set_Al_Boraq_purchase, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_purchase, cargo_subtype) {
-    set_Al_Boraq_purchase;
-}

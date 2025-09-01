@@ -57,11 +57,3 @@ spriteset(set_Shinkansen_700_purchase, "src/locomotive/Shinkansen/Shinkansen_700
 spriteset(set_Shinkansen_700_RS_purchase, "src/locomotive/Shinkansen/Shinkansen_700/700_RS.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_700_purchase, cargo_subtype) {
-    set_Shinkansen_700_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_700_RS_purchase, cargo_subtype) {
-    set_Shinkansen_700_RS_purchase;
-}

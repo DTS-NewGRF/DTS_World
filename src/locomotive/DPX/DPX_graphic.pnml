@@ -701,7 +701,3 @@ spritegroup sg_DPX_wagon_12_r {
 spriteset(set_DPX_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DPX/DPX.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_DPX_purchase, cargo_subtype) {
-    set_DPX_purchase;
-}
