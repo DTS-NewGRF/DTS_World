@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Incheonmetro_1000_1st_8Car, 2387){
         //spec
         speed:                          100km/h;
         power:                          3200 kW;
-        weight:                         20 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

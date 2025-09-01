@@ -4,6 +4,7 @@
 // 도색명
 // 10량
 // 편성그래픽
+// 8량
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_6th_7000_8car, position_in_vehid_chain % 8) {
     1:set_Seoulmetro_5th_5000_wagon;
     2:set_Seoulmetro_5th_5000_panto_wagon;
@@ -39,5 +40,10 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_6th_7000_8car_reversed, vehicle_is_rev
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_6th_7000_8car, extra_callback_info1) {
     1..7: Seoulmetro_6th_7000_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_6th_4000_10car, extra_callback_info1) {
+    1..9: Seoulmetro_6th_4000_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }

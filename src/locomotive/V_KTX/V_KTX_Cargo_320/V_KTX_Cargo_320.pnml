@@ -42,7 +42,7 @@ item(FEAT_TRAINS, V_KTX_Cargo_320_8Car, 2553){
         //spec
         speed:                          320km/h;
         power:                          14400 kW;
-        weight:                         35 ton;
+        weight:                         296 ton;
         tractive_effort_coefficient:    0.775;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, V_KTX_Cargo_320_16Car, 2554){
         //spec
         speed:                          320km/h;
         power:                          28800 kW;
-        weight:                         35 ton;
+        weight:                         592 ton;
         tractive_effort_coefficient:    0.775;
         air_drag_coefficient:           0.01;
         

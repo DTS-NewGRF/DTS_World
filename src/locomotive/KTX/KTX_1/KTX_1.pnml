@@ -23,7 +23,7 @@ item(FEAT_TRAINS, KTX_1_20Car, 2322){
         //spec
         speed:                          300km/h;
         power:                          13200 kW;
-        weight:                         136 ton;
+        weight:                         695 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

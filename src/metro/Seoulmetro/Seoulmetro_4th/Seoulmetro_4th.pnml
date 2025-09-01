@@ -42,7 +42,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_4Car, 2295){
         //spec
         speed:                          120km/h;
         power:                          1680 kW;
-        weight:                         20 ton;
+        weight:                         132 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_8000_6Car, 2400){
         //spec
         speed:                          120km/h;
         power:                          2520 kW;
-        weight:                         20 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -150,7 +150,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_9000_6Car, 2366){
         //spec
         speed:                          120km/h;
         power:                          2520 kW;
-        weight:                         20 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -204,7 +204,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_5000_8Car, 2302){
         //spec
         speed:                          120km/h;
         power:                          3360 kW;
-        weight:                         20 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -258,7 +258,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_7000_8Car, 2315){
         //spec
         speed:                          120km/h;
         power:                          3360 kW;
-        weight:                         20 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -313,7 +313,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_2000_10Car, 2293){
         //spec
         speed:                          120km/h;
         power:                          4200 kW;
-        weight:                         20 ton;
+        weight:                         330 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -367,7 +367,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_4000_10Car, 2297){
         //spec
         speed:                          120km/h;
         power:                          4200 kW;
-        weight:                         20 ton;
+        weight:                         330 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

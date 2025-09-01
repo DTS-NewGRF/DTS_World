@@ -138,6 +138,11 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_5th_6car, extra_callback_in
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
+switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_5th_8000_6car, extra_callback_info1) {
+    1..5: Seoulmetro_5th_8000_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
 switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_5th_5000_8car, extra_callback_info1) {
     1..7: Seoulmetro_5th_5000_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

@@ -22,7 +22,7 @@ item(FEAT_TRAINS, TTX_6Car, 2019){
         //spec
         speed:                          181km/h;
         power:                          4000 kW;
-        weight:                         60 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

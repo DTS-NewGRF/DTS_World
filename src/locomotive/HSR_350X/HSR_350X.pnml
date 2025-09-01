@@ -41,7 +41,7 @@ item(FEAT_TRAINS, HSR_350X_7Car, 2027){
         //spec
         speed:                          362km/h;
         power:                          8000 kW;
-        weight:                         40 ton;
+        weight:                         245 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, HSR_350X_14Car, 2005){
         //spec
         speed:                          362km/h;
         power:                          8000 kW;
-        weight:                         40 ton;
+        weight:                         490 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

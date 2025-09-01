@@ -23,7 +23,7 @@ item(FEAT_TRAINS, V_KTX_Chowol_8Car, 2406){
         //spec
         speed:                          370km/h;
         power:                          13800 kW;
-        weight:                         40 ton;
+        weight:                         296 ton;
         tractive_effort_coefficient:    0.775;
         air_drag_coefficient:           0.01;
         

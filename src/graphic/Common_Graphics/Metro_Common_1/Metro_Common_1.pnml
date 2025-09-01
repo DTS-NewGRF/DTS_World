@@ -1,0 +1,107 @@
+/*--------------------------------------------------------------------
+Metro_Common_1
+--------------------------------------------------------------------*/
+spriteset(set_Metro_Common_1_purchase, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Metro_Common_1_engineH, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Metro_Common_1_engineH_r, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Metro_Common_1_wagon, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Metro_Common_1_wagon_r, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_Metro_Common_1_panto_wagon, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Metro_Common_1_panto_wagon_r, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_Metro_Common_1_engineT_r, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_Metro_Common_1_engineT, "src/graphic/Common_Graphics/Metro_Common_1/Metro_Common_1.png"){
+    DTS_temp(80, 135)
+}
+
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 6량
+switch (FEAT_TRAINS, SELF, sw_Metro_Common_1_6car, position_in_vehid_chain % 10) {
+    1:set_Metro_Common_1_wagon;
+    2:set_Metro_Common_1_panto_wagon;
+    3:set_Metro_Common_1_wagon;
+    4:set_Metro_Common_1_panto_wagon;
+    5:set_Metro_Common_1_engineT;
+    set_Metro_Common_1_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Metro_Common_1_6car_r, position_in_vehid_chain % 10) {
+    1:set_Metro_Common_1_panto_wagon_r;
+    2:set_Metro_Common_1_wagon_r;
+    3:set_Metro_Common_1_panto_wagon_r;
+    4:set_Metro_Common_1_wagon_r;
+    5:set_Metro_Common_1_engineH_r;
+    set_Metro_Common_1_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Metro_Common_1_6car_flipped, vehicle_is_flipped){
+    0: sw_Metro_Common_1_6car_r;
+    sw_Metro_Common_1_6car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Metro_Common_1_6car_reversed, vehicle_is_reversed){
+    0: sw_Metro_Common_1_6car;
+    sw_Metro_Common_1_6car_flipped;
+}
+
+// 10량
+switch (FEAT_TRAINS, SELF, sw_Metro_Common_1_10car, position_in_vehid_chain % 10) {
+    1:set_Metro_Common_1_wagon;
+    2:set_Metro_Common_1_panto_wagon;
+    3:set_Metro_Common_1_wagon;
+    4:set_Metro_Common_1_panto_wagon;
+    5:set_Metro_Common_1_wagon;
+    6:set_Metro_Common_1_wagon;
+    7:set_Metro_Common_1_wagon;
+    8:set_Metro_Common_1_panto_wagon;
+    9:set_Metro_Common_1_engineT;
+    set_Metro_Common_1_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Metro_Common_1_10car_r, position_in_vehid_chain % 10) {
+    1:set_Metro_Common_1_panto_wagon_r;
+    2:set_Metro_Common_1_wagon_r;
+    3:set_Metro_Common_1_wagon_r;
+    4:set_Metro_Common_1_wagon_r;
+    5:set_Metro_Common_1_panto_wagon_r;
+    6:set_Metro_Common_1_wagon_r;
+    7:set_Metro_Common_1_panto_wagon_r;
+    8:set_Metro_Common_1_wagon_r;
+    9:set_Metro_Common_1_engineH_r;
+    set_Metro_Common_1_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Metro_Common_1_10car_flipped, vehicle_is_flipped){
+    0: sw_Metro_Common_1_10car_r;
+    sw_Metro_Common_1_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Metro_Common_1_10car_reversed, vehicle_is_reversed){
+    0: sw_Metro_Common_1_10car;
+    sw_Metro_Common_1_10car_flipped;
+}

@@ -42,7 +42,7 @@ item(FEAT_TRAINS, ITX_Maum_4Car, 2166){
         //spec
         speed:                          165km/h;
         power:                          1000 kW;
-        weight:                         45 ton;
+        weight:                         140 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -97,7 +97,7 @@ item(FEAT_TRAINS, ITX_Maum_6Car, 2010){
         //spec
         speed:                          165km/h;
         power:                          1000 kW;
-        weight:                         45 ton;
+        weight:                         210 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -151,7 +151,7 @@ item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
         //spec
         speed:                          165km/h;
         power:                          1000 kW;
-        weight:                         45 ton;
+        weight:                         280 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -206,7 +206,7 @@ item(FEAT_TRAINS, ITX_Maum_4_6Car, 2258){
         //spec
         speed:                          165km/h;
         power:                          1000 kW;
-        weight:                         45 ton;
+        weight:                         350 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -260,7 +260,7 @@ item(FEAT_TRAINS, ITX_Maum_6_4Car, 2259){
         //spec
         speed:                          165km/h;
         power:                          1000 kW;
-        weight:                         45 ton;
+        weight:                         350 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

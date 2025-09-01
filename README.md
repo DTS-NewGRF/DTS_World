@@ -8,7 +8,7 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.65] 2025.08.29 <br>
+[1.65] 2025.09.01 <br>
 [이슈 외 작업]
 * [속도] 변수 통합. 
   * 기존 열차이름_speed -> metro_110_speed 처럼 변경. / 지하철, 일반열차, 고속열차, 객차 등으로 구분적용. 
@@ -19,6 +19,10 @@
   * [버그] SRT-320 TC1 그래픽 문제 수정 ([#683](https://github.com/DTS-NewGRF/DTS/issues/683))
 * [열차변경] 서울교통공사 5000호대, 7000호대, 8000호대 전동차 그래픽 변경 [8bpp, 2CC] ([#684](https://github.com/DTS-NewGRF/DTS/issues/684))
 * [열차추가] 부산교통공사 2000호대 2세대 전동차 (8bpp, 회사 색상) ([#685](https://github.com/DTS-NewGRF/DTS/issues/685))
+* [열차추가] 서울교통공사 1000호대 2세대 VVVF 전동차, 서울교통공사 4000호대 6세대 VVVF 전동차. 서울교통공사 8000호대 5세대 VVVF 전동차 [8bpp, 2CC] ([#686](https://github.com/DTS-NewGRF/DTS/issues/686))
+* 열차변경] 대한민국 통근형 VVVF 전동차 중량 변경 ([#687](https://github.com/DTS-NewGRF/DTS/issues/687))
+* [열차변경] 대한민국 간선형 전동차 중량 변경 ([#688](https://github.com/DTS-NewGRF/DTS/issues/688))
+* [열차변경] 대한민국 고속차량 중량 변경 ([#689](https://github.com/DTS-NewGRF/DTS/issues/689))
 
 ## 최근 등록 릴리즈
 [1.64] 2025.07.13 <br>

@@ -22,7 +22,7 @@ item(FEAT_TRAINS, Daejeonmetro_1000_4Car, 2416){
         //spec
         speed:                          100km/h;
         power:                          1680 kW;
-        weight:                         20 ton;
+        weight:                         132 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

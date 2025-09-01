@@ -648,9 +648,9 @@ TOSHIBAIGBTPMSMstart.wav
 - 부산교통공사 2세대 1000호대 2,3차분
 - 부산교통공사 2세대 2000호대
 - 부산교통공사 3세대 1000호대
-- 서울교통공사 4세대 5000, 8000호대
 - 서울교통공사 3세대 8000호대 VVVF 전동차
-- 서울교통공사 5세대 4000, 7000호대
+- 서울교통공사 4세대 5000, 8000호대
+- 서울교통공사 5세대 4000, 7000, 8000호대
 - 서울교통공사 6세대 7000호대
 - 서울교통공사 7세대 7000호대
 - 한국철도공사 6세대
@@ -775,6 +775,8 @@ switch(FEAT_TRAINS, SELF, sw_WOOJIN_IGBT_2start_sound, extra_callback_info1) {
 WOOJINMITSUBISHIIGBT2start.wav
 적용열차
 - CL-150, 180
+- 서울교통공사 1000호대 2세대
+- 서울교통공사 4000호대 6세대
 - 한국철도공사 5세대 VVVF전동차 소프트웨어 개선
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_WOOJINMITSUBISHIIGBT2start_sound, extra_callback_info1) {

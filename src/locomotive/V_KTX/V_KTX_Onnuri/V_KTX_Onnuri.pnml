@@ -42,7 +42,7 @@ item(FEAT_TRAINS, V_KTX_Onnuri_8Car, 2509){
         //spec
         speed:                          370km/h;
         power:                          13800 kW;
-        weight:                         40 ton;
+        weight:                         280 ton;
         tractive_effort_coefficient:    0.775;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, V_KTX_Onnuri_10Car, 2510){
         //spec
         speed:                          370km/h;
         power:                          18400 kW;
-        weight:                         40 ton;
+        weight:                         350 ton;
         tractive_effort_coefficient:    0.775;
         air_drag_coefficient:           0.01;
         
@@ -150,7 +150,7 @@ item(FEAT_TRAINS, V_KTX_Onnuri_16Car, 2529){
         //spec
         speed:                          370km/h;
         power:                          27600 kW;
-        weight:                         40 ton;
+        weight:                         560 ton;
         tractive_effort_coefficient:    0.775;
         air_drag_coefficient:           0.01;
         

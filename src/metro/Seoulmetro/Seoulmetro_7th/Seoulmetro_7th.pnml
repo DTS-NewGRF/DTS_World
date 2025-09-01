@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Seoulmetro_7th_7000_8Car, 2404){
         //spec
         speed:                          120km/h;
         power:                          3360 kW;
-        weight:                         20 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

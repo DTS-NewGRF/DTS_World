@@ -42,7 +42,7 @@ item(FEAT_TRAINS, Korail_2nd_6car, 2235){
         //spec
         speed:                          120km/h;
         power:                          2400 kW;
-        weight:                         20 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -97,7 +97,7 @@ item(FEAT_TRAINS, Korail_2nd_10car, 2237){
         //spec
         speed:                          120km/h;
         power:                          4000 kW;
-        weight:                         20 ton;
+        weight:                         330 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

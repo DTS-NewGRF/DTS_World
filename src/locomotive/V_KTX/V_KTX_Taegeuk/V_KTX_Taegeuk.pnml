@@ -41,8 +41,8 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_8Car, 2479){
         
         //spec
         speed:                          600km/h;
-        power:                          40000 kW;
-        weight:                         60 ton;
+        power:                          16000 kW;
+        weight:                         360 ton;
         tractive_effort_coefficient:    0.86;
         
         //Model
@@ -93,8 +93,8 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_10Car, 2480){
         
         //spec
         speed:                          600km/h;
-        power:                          40000 kW;
-        weight:                         60 ton;
+        power:                          20000 kW;
+        weight:                         450 ton;
         tractive_effort_coefficient:    0.86;
         
         //Model
@@ -145,8 +145,8 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_16Car, 2481){
         
         //spec
         speed:                          600km/h;
-        power:                          40000 kW;
-        weight:                         60 ton;
+        power:                          32000 kW;
+        weight:                         720 ton;
         tractive_effort_coefficient:    0.86;
         
         //Model
@@ -198,7 +198,7 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_20Car, 2482){
         //spec
         speed:                          600km/h;
         power:                          40000 kW;
-        weight:                         60 ton;
+        weight:                         900 ton;
         tractive_effort_coefficient:    0.86;
         
         //Model

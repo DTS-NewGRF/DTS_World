@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Daegumetro_2000_6Car, 2385){
         //spec
         speed:                          100km/h;
         power:                          2520 kW;
-        weight:                         20 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

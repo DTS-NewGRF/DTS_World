@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Busanmetro_3rd_1000_8Car, 2380){
         //spec
         speed:                          100km/h;
         power:                          3360 kW;
-        weight:                         20 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

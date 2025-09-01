@@ -23,7 +23,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_6Car, 2327){
         //spec
         speed:                          181km/h;
         power:                          3000 kW;
-        weight:                         40 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

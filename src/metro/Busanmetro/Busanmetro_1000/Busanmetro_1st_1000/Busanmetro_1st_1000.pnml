@@ -42,7 +42,7 @@ item(FEAT_TRAINS, Busanmetro_1st_1000_6Car, 2244){
         //spec
         speed:                          100km/h;
         power:                          2640 kW;
-        weight:                         20 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, Busanmetro_1st_1000_8Car, 2378){
         //spec
         speed:                          100km/h;
         power:                          3960 kW;
-        weight:                         20 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

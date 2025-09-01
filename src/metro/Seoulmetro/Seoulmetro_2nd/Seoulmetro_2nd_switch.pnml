@@ -65,6 +65,7 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_2000_10car_10car_engineT_r, cargo_su
 }
 
 // 편성그래픽
+// 4량
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_4car, position_in_vehid_chain % 4) {
     1:set_Seoulmetro_2nd_2000_panto_wagon;
     2:set_Seoulmetro_2nd_2000_panto_wagon;
@@ -89,6 +90,7 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_2nd_4car_reversed, vehicle_is_reversed
     sw_Seoulmetro_2nd_4car_flipped;
 }
 
+// 6량
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_6car, position_in_vehid_chain % 6) {
     1:set_Seoulmetro_2nd_2000_wagon;
     2:set_Seoulmetro_2nd_2000_panto_wagon;
@@ -117,6 +119,7 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_2nd_6car_reversed, vehicle_is_reversed
     sw_Seoulmetro_2nd_6car_flipped;
 }
 
+// 8량 8000호대
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_8000_6car, position_in_vehid_chain % 6) {
     1:set_Seoulmetro_2nd_7000_wagon;
     2:set_Seoulmetro_2nd_7000_panto_wagon;
@@ -145,6 +148,7 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_2nd_8000_6car_reversed, vehicle_is_rev
     sw_Seoulmetro_2nd_8000_6car_flipped;
 }
 
+// 8량 7000호대
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_7000_8car, position_in_vehid_chain % 8) {
     1:set_Seoulmetro_2nd_7000_wagon;
     2:set_Seoulmetro_2nd_7000_panto_wagon;
@@ -177,6 +181,7 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_2nd_7000_8car_reversed, vehicle_is_rev
     sw_Seoulmetro_2nd_7000_8car_flipped;
 }
 
+// 10량 2000호대
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_2000_10car, position_in_vehid_chain % 10) {
     1:sw_Seoulmetro_2nd_2000_10car_wagon;
     2:sw_Seoulmetro_2nd_2000_10car_panto_wagon;
@@ -213,6 +218,7 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_2nd_2000_10car_reversed, vehicle_is_re
     sw_Seoulmetro_2nd_2000_10car_flipped;
 }
 
+// 10량 3000호대
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_3000_10car, position_in_vehid_chain % 10) {
     1:set_Seoulmetro_2nd_3000_wagon;
     2:set_Seoulmetro_2nd_3000_panto_wagon;
@@ -249,6 +255,7 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_2nd_3000_10car_reversed, vehicle_is_re
     sw_Seoulmetro_2nd_3000_10car_flipped;
 }
 
+// 10량 4000호대
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_10car, position_in_vehid_chain % 10) {
     1:set_Seoulmetro_2nd_4000_panto_wagon;
     2:set_Seoulmetro_2nd_4000_panto_wagon;
@@ -303,6 +310,11 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_2nd_8000_6car, extra_callba
 
 switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_2nd_7000_8car, extra_callback_info1) {
     1..7: Seoulmetro_2nd_7000_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_2nd_1000_10car, extra_callback_info1) {
+    1..9: Seoulmetro_2nd_1000_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 

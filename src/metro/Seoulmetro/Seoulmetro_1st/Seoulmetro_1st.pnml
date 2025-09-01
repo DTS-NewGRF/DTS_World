@@ -42,7 +42,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_4Car, 2283){
         //spec
         speed:                          120km/h;
         power:                          1680 kW;
-        weight:                         20 ton;
+        weight:                         132 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_9000_4Car, 2364){
         //spec
         speed:                          120km/h;
         power:                          1680 kW;
-        weight:                         20 ton;
+        weight:                         132 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -150,7 +150,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_2000_6Car, 2284){
         //spec
         speed:                          120km/h;
         power:                          2520 kW;
-        weight:                         20 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -204,7 +204,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_4000_6Car, 2256){
         //spec
         speed:                          120km/h;
         power:                          2400 kW;
-        weight:                         20 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -258,7 +258,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_8000_6Car, 2308){
         //spec
         speed:                          120km/h;
         power:                          2400 kW;
-        weight:                         20 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -313,7 +313,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_9000_6Car, 2365){
         //spec
         speed:                          120km/h;
         power:                          2520 kW;
-        weight:                         20 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -367,7 +367,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_5000_8Car, 2300){
         //spec
         speed:                          120km/h;
         power:                          3200 kW;
-        weight:                         20 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -422,7 +422,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_6000_8Car, 2310){
         //spec
         speed:                          120km/h;
         power:                          3200 kW;
-        weight:                         20 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -476,7 +476,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_7000_8Car, 2309){
         //spec
         speed:                          120km/h;
         power:                          3200 kW;
-        weight:                         20 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -531,7 +531,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_1000_4000_10Car, 2257){
         //spec
         speed:                          120km/h;
         power:                          4000 kW;
-        weight:                         20 ton;
+        weight:                         330 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -586,7 +586,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_2000_3000_10Car, 2285){
         //spec
         speed:                          120km/h;
         power:                          4200 kW;
-        weight:                         20 ton;
+        weight:                         330 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

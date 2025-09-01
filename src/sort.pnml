@@ -216,6 +216,7 @@ sort(FEAT_TRAINS, [
     Seoulmetro_2nd_6Car,                     //2287
     Seoulmetro_2nd_8000_6Car,                //2312
     Seoulmetro_2nd_7000_8Car,                //2313
+    Seoulmetro_2nd_1000_10Car,               //2566
     Seoulmetro_2nd_2000_10Car,               //2288
     Seoulmetro_2nd_3000_10Car,               //2296
     Seoulmetro_2nd_10Car,                    //2261
@@ -235,10 +236,13 @@ sort(FEAT_TRAINS, [
     Seoulmetro_4th_4000_10Car,               //2297
     Seoulmetro_5th,                          //2398
     Seoulmetro_5th_2000_6Car,                //2290
+    Seoulmetro_5th_8000_6Car,                //2569
     Seoulmetro_5th_5000_8Car,                //2401
     Seoulmetro_5th_7000_8Car,                //2303
     Seoulmetro_5th_4000_10Car,               //2399
+    Seoulmetro_6th,                          //2567
     Seoulmetro_6th_7000_8Car,                //2560
+    Seoulmetro_6th_4000_10Car,               //2568
     Seoulmetro_7th_7000_8Car,                //2404
 
     //홍콩 MTR

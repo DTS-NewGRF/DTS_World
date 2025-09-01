@@ -23,7 +23,7 @@ item(FEAT_TRAINS, V_KTX_Sancheon_10Car, 2547){
         //spec
         speed:                          300km/h;
         power:                          8800 kW;
-        weight:                         136 ton;
+        weight:                         350 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

@@ -42,7 +42,7 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_DD_6Car, 2013){
         //spec
         speed:                          181km/h;
         power:                          10000 kW;
-        weight:                         40 ton;
+        weight:                         270 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_DD_8Car, 2233){
         //spec
         speed:                          181km/h;
         power:                          10000 kW;
-        weight:                         40 ton;
+        weight:                         360 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

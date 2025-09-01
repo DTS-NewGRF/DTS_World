@@ -22,7 +22,7 @@ item(FEAT_TRAINS, GTX_8Car, 2017){
         //spec
         speed:                          181km/h;
         power:                          6240 kW;
-        weight:                         40 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

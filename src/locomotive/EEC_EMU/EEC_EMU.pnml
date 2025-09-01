@@ -22,7 +22,7 @@ item(FEAT_TRAINS, EEC_EMU_10Car, 2559){
         //spec
         speed:                          110km/h;
         power:                          2880 kW;
-        weight:                         45 ton;
+        weight:                         400 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

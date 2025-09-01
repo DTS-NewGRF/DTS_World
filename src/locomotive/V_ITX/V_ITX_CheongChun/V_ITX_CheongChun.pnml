@@ -42,7 +42,7 @@ item(FEAT_TRAINS, V_ITX_CheongChun_6Car, 2353){
         //spec
         speed:                          181km/h;
         power:                          3000 kW;
-        weight:                         45 ton;
+        weight:                         210 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -97,7 +97,7 @@ item(FEAT_TRAINS, V_ITX_CheongChun_10Car, 2355){
         //spec
         speed:                          181km/h;
         power:                          5000 kW;
-        weight:                         45 ton;
+        weight:                         350 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

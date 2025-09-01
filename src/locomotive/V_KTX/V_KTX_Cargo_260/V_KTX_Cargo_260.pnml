@@ -42,7 +42,7 @@ item(FEAT_TRAINS, V_KTX_Cargo_260_6Car, 2556){
         //spec
         speed:                          260km/h;
         power:                          9600 kW;
-        weight:                         35 ton;
+        weight:                         222 ton;
         tractive_effort_coefficient:    0.579;
         air_drag_coefficient:           0.01;
         
@@ -95,7 +95,7 @@ item(FEAT_TRAINS, V_KTX_Cargo_260_12Car, 2557){
         //spec
         speed:                          260km/h;
         power:                          19200 kW;
-        weight:                         35 ton;
+        weight:                         444 ton;
         tractive_effort_coefficient:    0.579;
         air_drag_coefficient:           0.01;
         

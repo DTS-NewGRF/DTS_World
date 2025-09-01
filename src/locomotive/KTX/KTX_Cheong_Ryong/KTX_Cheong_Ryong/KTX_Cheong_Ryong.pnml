@@ -42,7 +42,7 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_8Car, 2229){
         //spec
         speed:                          362km/h;
         power:                          13668 kW;
-        weight:                         40 ton;
+        weight:                         280 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -98,7 +98,7 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_16Car, 2428){
         //spec
         speed:                          362km/h;
         power:                          27336 kW;
-        weight:                         40 ton;
+        weight:                         560 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

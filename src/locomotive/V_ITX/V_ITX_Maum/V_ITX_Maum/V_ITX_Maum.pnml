@@ -42,7 +42,7 @@ item(FEAT_TRAINS, V_ITX_Maum_8Car, 2131){
         //spec
         speed:                          165km/h;
         power:                          1000 kW;
-        weight:                         45 ton;
+        weight:                         320 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, V_ITX_Maum_10Car, 2238){
         //spec
         speed:                          165km/h;
         power:                          1000 kW;
-        weight:                         45 ton;
+        weight:                         400 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

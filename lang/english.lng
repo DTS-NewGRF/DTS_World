@@ -429,6 +429,7 @@ STR_Seoulmetro_2nd_4Car_NAME                           :[4Car] Seoulmetro 2nd 20
 STR_Seoulmetro_2nd_6Car_NAME                           :[6Car] Seoulmetro 2nd 2000
 STR_Seoulmetro_2nd_8000_6Car_NAME                      :[6Car] Seoulmetro 2nd 8000
 STR_Seoulmetro_2nd_7000_8Car_NAME                      :[8Car] Seoulmetro 2nd 7000
+STR_Seoulmetro_2nd_1000_10Car_NAME                     :[10Car] Seoulmetro 2nd 1000
 STR_Seoulmetro_2nd_2000_10Car_NAME                     :[10Car] Seoulmetro 2nd 2000
 STR_Seoulmetro_2nd_3000_10Car_NAME                     :[10Car] Seoulmetro 2nd 3000
 STR_Seoulmetro_2nd_10Car_NAME                          :[10Car] Seoulmetro 2nd 
@@ -449,10 +450,13 @@ STR_Seoulmetro_4th_2000_10Car_NAME                     :[10Car] Seoulmetro 4th 2
 STR_Seoulmetro_4th_4000_10Car_NAME                     :[10Car] Seoulmetro 4th 4000
 STR_Group_Seoulmetro_5th_NAME                          :Seoulmetro 5th
 STR_Seoulmetro_5th_2000_6Car_NAME                      :[6Car] Seoulmetro 5th 2000
+STR_Seoulmetro_5th_8000_6Car_NAME                      :[6Car] Seoulmetro 5th 8000
 STR_Seoulmetro_5th_5000_8Car_NAME                      :[8Car] Seoulmetro 5th 5000
 STR_Seoulmetro_5th_7000_8Car_NAME                      :[8Car] Seoulmetro 5th 7000
 STR_Seoulmetro_5th_4000_10Car_NAME                     :[10Car] Seoulmetro 5th 4000
+STR_Group_Seoulmetro_6th_NAME                          :Seoulmetro 6th
 STR_Seoulmetro_6th_7000_8Car_NAME                      :[8Car] Seoulmetro 6th 7000
+STR_Seoulmetro_6th_4000_10Car_NAME                     :[10Car] Seoulmetro 6th 4000
 STR_Seoulmetro_7th_7000_8Car_NAME                      :[8Car] Seoulmetro 7th 7000
 STR_Shinbundang_6Car_NAME                              :[6Car] Shinbundang line D000 series 
 STR_Sillim_Line_3Car_NAME                              :[3Car] Sillim Line

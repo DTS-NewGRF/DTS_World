@@ -582,10 +582,14 @@
 |2563|HYEL_Gangsan_6Car|
 |2564|HYEL_Gangsan_8Car|
 |2565|Busanmetro_2nd_2000_6Car|
+|2566|Seoulmetro_2nd_1000_10Car|
+|2567|[그룹명] Seoulmetro_6th|
+|2568|Seoulmetro_6th_4000_10Car|
+|2569|Seoulmetro_5th_8000_6Car|
 |2199|[공백] 1.70이후 부여|
 |2323|[공백] 1.70이후 부여|
 |2326|[공백] 1.70이후 부여|
-|2566~2999|[공백]|
+|2570~2999|[공백]|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

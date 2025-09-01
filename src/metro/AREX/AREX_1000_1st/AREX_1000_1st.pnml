@@ -23,7 +23,7 @@ item(FEAT_TRAINS, APEX_1000_1st_6Car, 2340){
         //spec
         speed:                          165km/h;
         power:                          2520 kW;
-        weight:                         40 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

@@ -41,7 +41,7 @@ item(FEAT_TRAINS, Nextrain_3Car, 2421){
         //spec
         speed:                          110km/h;
         power:                          1680 kW;
-        weight:                         20 ton;
+        weight:                         99 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -95,7 +95,7 @@ item(FEAT_TRAINS, Nextrain_4Car, 2422){
         //spec
         speed:                          110km/h;
         power:                          1680 kW;
-        weight:                         20 ton;
+        weight:                         132 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

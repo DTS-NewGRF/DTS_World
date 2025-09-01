@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Nuriro_4Car, 2324){
         //spec
         speed:                          151km/h;
         power:                          1000 kW;
-        weight:                         45 ton;
+        weight:                         132 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -78,7 +78,7 @@ item(FEAT_TRAINS, Nuriro_8Car, 2325){
         //spec
         speed:                          165km/h;
         power:                          2000 kW;
-        weight:                         45 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
