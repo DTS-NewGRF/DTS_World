@@ -1,7 +1,3 @@
-// 그래픽
-#include "common_graphics/Common_Graphics.pnml"
-
-// 열차
 #include "locomotive/AGV/AGV.pnml"
 #include "locomotive/AL_BORAQ/Al_Boraq.pnml"
 #include "locomotive/Avelia_Liberty/Avelia_Liberty.pnml"

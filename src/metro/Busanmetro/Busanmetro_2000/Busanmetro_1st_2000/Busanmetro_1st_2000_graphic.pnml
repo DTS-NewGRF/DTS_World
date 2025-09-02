@@ -39,11 +39,6 @@ spriteset(set_Busanmetro_1st_2000_engineT, "src/metro/Busanmetro/Busanmetro_2000
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Busanmetro_1st_2000_purchase, "src/metro/Busanmetro/Busanmetro_2000/Busanmetro_1st_2000/Busanmetro_1st_2000.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Busanmetro_1st_2000_purchase, cargo_subtype) {
-    set_Busanmetro_1st_2000_purchase;
 }

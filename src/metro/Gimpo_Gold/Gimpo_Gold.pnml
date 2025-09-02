@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Gimpo_Gold_2Car, 2410){
     graphics {
         default:                        sw_Gimpo_Gold_2car;
         articulated_part:               sw_articulated_Gimpo_Gold_2car;
-        purchase:                       sw_Gimpo_Gold_purchase;
+        purchase:                       set_Gimpo_Gold_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

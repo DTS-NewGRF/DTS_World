@@ -13,15 +13,7 @@ spriteset(set_Daegumetro_2008_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
 }
 
 // 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Daegumetro_1995_purchase, cargo_subtype) {
-    set_Daegumetro_1995_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Daegumetro_2008_purchase, cargo_subtype) {
-    set_Daegumetro_2008_purchase;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Daegumetro_purchase, current_year) {
-    0..2007: sw_Daegumetro_1995_purchase;
-    sw_Daegumetro_2008_purchase;
+    0..2007: set_Daegumetro_1995_purchase;
+    set_Daegumetro_2008_purchase;
     }

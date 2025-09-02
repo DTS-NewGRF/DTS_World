@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Dongbuk_2Car, 2433){
     graphics {
         default:                        sw_Dongbuk_2car;
         articulated_part:               sw_articulated_Dongbuk_2car;
-        purchase:                       sw_Dongbuk_purchase;
+        purchase:                       set_Dongbuk_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

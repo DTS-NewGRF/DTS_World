@@ -22,7 +22,7 @@ item(FEAT_TRAINS, Seoulmetro_First_S1000, 2374){
         }
 
     graphics {
-        purchase:                       sw_Seoulmetro_First_S1000_purchase;
+        purchase:                       set_Seoulmetro_First_S1000_purchase;
         }
         }
 
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Seoulmetro_First_S1000_6Car, 2375){
     graphics {
         default:                        sw_Seoulmetro_First_S1000_6car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_First_S1000_6car;
-        purchase:                       sw_Seoulmetro_First_S1000_purchase;
+        purchase:                       set_Seoulmetro_First_S1000_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, Seoulmetro_First_S1000_10Car, 2376){
     graphics {
         default:                        sw_Seoulmetro_First_S1000_10car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_First_S1000_10car;
-        purchase:                       sw_Seoulmetro_First_S1000_purchase;
+        purchase:                       set_Seoulmetro_First_S1000_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;

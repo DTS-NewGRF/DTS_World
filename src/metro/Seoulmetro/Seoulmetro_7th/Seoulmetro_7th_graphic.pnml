@@ -39,11 +39,6 @@ spriteset(set_Seoulmetro_7th_7000_engineT, "src/metro/Seoulmetro/Seoulmetro_7th/
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Seoulmetro_7th_7000_purchase, "src/metro/Seoulmetro/Seoulmetro_7th/Seoulmetro_7th_7000.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_7th_7000_purchase, cargo_subtype) {
-    set_Seoulmetro_7th_7000_purchase;
 }

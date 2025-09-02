@@ -47,7 +47,7 @@ item(FEAT_TRAINS, CGeneratar_Car, 2032){
 
 	graphics {
         default:                        sw_CGeneratar_wagon_1Car;
-        purchase:                       sw_CGeneratar_Car_purchase;
+        purchase:                       set_CGeneratar_Car_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;

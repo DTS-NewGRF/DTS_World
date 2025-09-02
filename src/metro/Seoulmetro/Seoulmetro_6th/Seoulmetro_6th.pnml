@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 서울교통공사 6세대
 --------------------------------------------------------------------*/
-// Graphics
-#include "Seoulmetro_6th_graphic.pnml"
-
 // Switch
 #include "Seoulmetro_6th_switch.pnml"
 
@@ -22,7 +19,7 @@ item(FEAT_TRAINS, Seoulmetro_6th, 2567){
         }
 
     graphics {
-        purchase:                       sw_Seoulmetro_5th_7000_purchase;
+        purchase:                       set_Seoulmetro_5th_5000_purchase;
         }
         }
 
@@ -71,7 +68,7 @@ item(FEAT_TRAINS, Seoulmetro_6th_7000_8Car, 2560){
     graphics {
         default:                        sw_Seoulmetro_6th_7000_8car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_6th_7000_8car;
-        purchase:                       sw_Seoulmetro_6th_7000_purchase;
+        purchase:                       set_Seoulmetro_5th_5000_purchase;
         speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -123,9 +120,9 @@ item(FEAT_TRAINS, Seoulmetro_6th_4000_10Car, 2568){
         }
 
     graphics {
-        default:                        sw_Metro_Common_1_10car_reversed;
+        default:                        sw_Seoulmetro_6th_4000_10car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_6th_4000_10car;
-        purchase:                       set_Metro_Common_1_purchase;
+        purchase:                       set_Seoulmetro_2nd_1000_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;

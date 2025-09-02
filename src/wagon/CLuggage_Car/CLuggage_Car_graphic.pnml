@@ -23,7 +23,3 @@ spriteset(set_CLuggage_Car_WhiteB, "src/wagon/CLuggage_Car/CLuggage_Car.png") {
 spriteset(set_CLuggage_Car_purchase, "src/wagon/CLuggage_Car/CLuggage_Car.png"){
     tmpl_wagon_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_CLuggage_Car_purchase, cargo_subtype) {
-    set_CLuggage_Car_purchase;
-}

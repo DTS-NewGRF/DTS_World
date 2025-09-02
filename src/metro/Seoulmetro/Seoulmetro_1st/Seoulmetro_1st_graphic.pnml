@@ -327,7 +327,6 @@ spriteset(set_Seoulmetro_1st_9000_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Seoulmetro_1st_purchase, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_1000.png"){
     tmpl_purchase(0, 0)
 }
@@ -360,45 +359,13 @@ spriteset(set_Seoulmetro_1st_9000_purchase, "src/metro/Seoulmetro/Seoulmetro_1st
     tmpl_purchase(0, 0)
 }
 
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_purchase, cargo_subtype) {
-    set_Seoulmetro_1st_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_2000_purchase, cargo_subtype) {
-    set_Seoulmetro_1st_2000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_3000_purchase, cargo_subtype) {
-    set_Seoulmetro_1st_3000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_4000_purchase, cargo_subtype) {
-    set_Seoulmetro_1st_4000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_5000_purchase, cargo_subtype) {
-    set_Seoulmetro_1st_5000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_6000_purchase, cargo_subtype) {
-    set_Seoulmetro_1st_6000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_7000_purchase, cargo_subtype) {
-    set_Seoulmetro_1st_7000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_9000_purchase, cargo_subtype) {
-    set_Seoulmetro_1st_9000_purchase;
-}
-
 // 구매차량 등장년도
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_1000_purchase, current_year) {
-    0..1997: sw_Seoulmetro_1st_4000_purchase;
-    sw_Seoulmetro_1st_purchase;
+    0..1997: set_Seoulmetro_1st_4000_purchase;
+    set_Seoulmetro_1st_purchase;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_2000_3000_purchase, current_year) {
-    0..2008: sw_Seoulmetro_1st_2000_purchase;
-    sw_Seoulmetro_1st_3000_purchase;
+    0..2008: set_Seoulmetro_1st_2000_purchase;
+    set_Seoulmetro_1st_3000_purchase;
     }

@@ -590,7 +590,3 @@ spritegroup sg_FLAT_CAR_40ftP_02_wagon {
 spriteset(set_FLAT_CAR_purchase, "src/wagon/Flat_car/Flat_1F_Car/Flat_1F.png") {
     tmpl_wagon_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_FLAT_1F_purchase, cargo_subtype) {
-    set_FLAT_CAR_purchase;
-}

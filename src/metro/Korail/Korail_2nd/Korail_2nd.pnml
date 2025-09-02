@@ -22,7 +22,7 @@ item(FEAT_TRAINS, Korail_2nd, 2234){
         }
 
     graphics {
-        purchase:                       sw_Korail_2nd_purchase;
+        purchase:                       set_Korail_2nd_purchase;
         }
         }
 
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Korail_2nd_6car, 2235){
     graphics {
         default:                        sw_Korail_2nd_6car_reversed;
         articulated_part:               sw_articulated_Korail_2nd_6car;
-        purchase:                       sw_Korail_2nd_purchase;
+        purchase:                       set_Korail_2nd_purchase;
         speed:                          sw_Metro_110_speed;
         cargo_subtype_text:             sw_Korail_2nd_6Car_cargo_subtype_text;
         loading_speed:                  25;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, Korail_2nd_10car, 2237){
     graphics {
         default:                        sw_Korail_2nd_10car_reversed;
         articulated_part:               sw_articulated_Korail_2nd_10car;
-        purchase:                       sw_Korail_2nd_purchase;
+        purchase:                       set_Korail_2nd_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;

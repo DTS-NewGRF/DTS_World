@@ -48,7 +48,7 @@ item(FEAT_TRAINS, PEX_Super_Generatar_Car, 2542){
 
 	graphics {
         default:                        sw_sw_PEX_Super_Generatar_wagon_1Car;
-        purchase:                       sw_PEX_Super_Generatar_Car_purchase;
+        purchase:                       set_PEX_Super_Generatar_Car_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;

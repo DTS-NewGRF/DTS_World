@@ -22,7 +22,7 @@ item(FEAT_TRAINS, Nishitetsu_6000, 2186){
         }
 
     graphics {
-        purchase:                       sw_Nishitetsu_6000_purchase;
+        purchase:                       set_Nishitetsu_6000_purchase;
         }
         }
 
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Nishitetsu_6000_3Car, 2101){
         graphics {
         default:                        sw_Nishitetsu_6000_3car;
         articulated_part:               sw_articulated_Nishitetsu_6000_3car;
-        purchase:                       sw_Nishitetsu_6000_purchase;
+        purchase:                       set_Nishitetsu_6000_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Nishitetsu_6000_4Car, 2119){
         graphics {
         default:                        sw_Nishitetsu_6000_4car;
         articulated_part:               sw_articulated_Nishitetsu_6000_4car;
-        purchase:                       sw_Nishitetsu_6000_purchase;
+        purchase:                       set_Nishitetsu_6000_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -179,7 +179,7 @@ item(FEAT_TRAINS, Nishitetsu_6050_3Car, 2181){
         graphics {
         default:                        sw_Nishitetsu_6050_3car;
         articulated_part:               sw_articulated_Nishitetsu_6050_3car;
-        purchase:                       sw_Nishitetsu_6050_purchase;
+        purchase:                       set_Nishitetsu_6050_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -233,7 +233,7 @@ item(FEAT_TRAINS, Nishitetsu_6050_4Car, 2182){
         graphics {
         default:                        sw_Nishitetsu_6050_4car;
         articulated_part:               sw_articulated_Nishitetsu_6050_4car;
-        purchase:                       sw_Nishitetsu_6050_purchase;
+        purchase:                       set_Nishitetsu_6050_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;

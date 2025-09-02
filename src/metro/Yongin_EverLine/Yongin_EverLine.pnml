@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Yongin_EverLine_2Car, 2411){
     graphics {
         default:                        set_Yongin_EverLine_engineH;
         articulated_part:               sw_articulated_Yongin_EverLine_2car;
-        purchase:                       sw_Yongin_EverLine_purchase;
+        purchase:                       set_Yongin_EverLine_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

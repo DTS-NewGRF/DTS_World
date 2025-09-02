@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Seoulmetro_7th_7000_8Car, 2404){
     graphics {
         default:                        sw_Seoulmetro_7th_7000_8car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_7th_7000_8car;
-        purchase:                       sw_Seoulmetro_7th_7000_purchase;
+        purchase:                       set_Seoulmetro_7th_7000_purchase;
         speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;

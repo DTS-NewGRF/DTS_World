@@ -15,11 +15,6 @@ spriteset(set_Busan_Gimhae_LRT_engineT, "src/metro/Busanmetro/Busan_Gimhae_LRT/B
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Busan_Gimhae_LRT_purchase, "src/metro/Busanmetro/Busan_Gimhae_LRT/Busan_Gimhae_LRT.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Busan_Gimhae_LRT_purchase, cargo_subtype) {
-    set_Busan_Gimhae_LRT_purchase;
 }

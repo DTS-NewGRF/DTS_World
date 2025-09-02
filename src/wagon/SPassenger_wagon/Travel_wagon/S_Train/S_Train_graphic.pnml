@@ -73,25 +73,16 @@ spriteset(set_S_Train_New_5wagon, "src/wagon/SPassenger_wagon/Travel_wagon/S_Tra
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
-spriteset(set_S_Train_Old_wagon_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/S_Train/S_Train_Old_B.png"){
+spriteset(set_S_Train_2013_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/S_Train/S_Train_Old_B.png"){
     tmpl_wagon_purchase(0, 0)
 }
 
-spriteset(set_S_Train_New_wagon_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/S_Train/S_Train_New.png"){
+spriteset(set_S_Train_2020_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/S_Train/S_Train_New.png"){
     tmpl_wagon_purchase(0, 0)
 }
 
 // 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_S_Train_2013_purchase, cargo_subtype) {
-    set_S_Train_Old_wagon_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_S_Train_2020_purchase, cargo_subtype) {
-    set_S_Train_New_wagon_purchase;
-}
-
 switch(FEAT_TRAINS, SELF, sw_S_Train_purchase, current_year) {
-    0..2019: sw_S_Train_2013_purchase;
-    sw_S_Train_2020_purchase;
+    0..2019: set_S_Train_2013_purchase;
+    set_S_Train_2020_purchase;
     }

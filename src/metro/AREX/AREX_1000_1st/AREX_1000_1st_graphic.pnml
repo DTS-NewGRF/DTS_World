@@ -58,7 +58,6 @@ spriteset(set_AREX_1000_1st_New_engineT, "src/metro/AREX/AREX_1000_1st/AREX_1000
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_AREX_1000_New_1st_purchase, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
     tmpl_purchase(0, 0)
 }
@@ -68,15 +67,7 @@ spriteset(set_AREX_1000_Old_1st_purchase, "src/metro/AREX/AREX_1000_1st/AREX_100
 }
 
 // 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_AREX_1000_New_1st_purchase, cargo_subtype) {
-    set_AREX_1000_New_1st_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_AREX_1000_Old_1st_purchase, cargo_subtype) {
-    set_AREX_1000_Old_1st_purchase;
-}
-
 switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_purchase, current_year) {
-    0..2019: sw_AREX_1000_Old_1st_purchase;
-    sw_AREX_1000_New_1st_purchase;
+    0..2019: set_AREX_1000_Old_1st_purchase;
+    set_AREX_1000_New_1st_purchase;
     }

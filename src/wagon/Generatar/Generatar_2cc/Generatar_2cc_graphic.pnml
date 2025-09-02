@@ -43,7 +43,3 @@ spriteset(set_Generatar_2cc_HJ, "src/wagon/Generatar/Generatar_2cc/Generatar_2cc
 spriteset(set_Generatar_2cc_purchase, "src/wagon/Generatar/Generatar_2cc/Generatar_2cc.png"){
     tmpl_wagon_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Generatar_2cc_purchase, cargo_subtype) {
-    set_Generatar_2cc_purchase;
-}

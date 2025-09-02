@@ -74,11 +74,6 @@ spriteset(set_Seoulmetro_First_S1000_Aircon_engineT, "src/metro/Seoulmetro/Seoul
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Seoulmetro_First_S1000_purchase, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S1000/Seoulmetro_First/Seoulmetro_First_1000_Aircon.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_purchase, cargo_subtype) {
-    set_Seoulmetro_First_S1000_purchase;
 }

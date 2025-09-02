@@ -31,11 +31,6 @@ spriteset(set_Sillim_Line_engineT, "src/metro/Sillim_Line/Sillim_Line.png"){
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Sillim_Line_purchase, "src/metro/Sillim_Line/Sillim_Line.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Sillim_Line_purchase, cargo_subtype) {
-    set_Sillim_Line_purchase;
 }

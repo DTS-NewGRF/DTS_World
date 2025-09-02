@@ -40,7 +40,6 @@ spriteset(set_Lady_Bird_9wagon, "src/wagon/SPassenger_wagon/Travel_wagon/Lady_Bi
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Lady_Bird_wagon_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/Lady_Bird/Lady_Bird.png"){
     tmpl_wagon_purchase(0, 0)
 }

@@ -46,7 +46,7 @@ item(FEAT_TRAINS, CSPassenger_Car, 2031){
 
 	graphics {
         default:                        sw_CSPassenger_wagon_1Car;
-        purchase:                       sw_CSPassenger_wagon_purchase;
+        purchase:                       set_CSPassenger_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;

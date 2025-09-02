@@ -46,7 +46,7 @@ item(FEAT_TRAINS, CLuggage_Car, 2033){
 
 	graphics {
         default:                        sw_CLuggage_wagon_1Car;
-        purchase:                       sw_CLuggage_Car_purchase;
+        purchase:                       set_CLuggage_Car_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;

@@ -45,7 +45,3 @@ spriteset(set_TR_CNR_Changchun_South_Island_engineT, "src/metro/MTR/CNR_Changchu
 spriteset(set_MTR_CNR_Changchun_purchase, "src/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_purchase, cargo_subtype) {
-    set_MTR_CNR_Changchun_purchase;
-}

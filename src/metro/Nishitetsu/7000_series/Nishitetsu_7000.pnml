@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Nishitetsu_7000_2Car, 2102){
 	graphics {
         default:                        sw_Nishitetsu_7000_2car;
         articulated_part:               sw_articulated_Nishitetsu_7000_2car;
-        purchase:                       sw_Nishitetsu_7000_purchase;
+        purchase:                       set_Nishitetsu_7000_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;

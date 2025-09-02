@@ -42,7 +42,3 @@ spriteset(set_Hankyu_8300_engineT, "src/metro/Hankyu/8X00_series/8300_series/Han
 spriteset(set_Hankyu_8300_purchase, "src/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Hankyu_8300_purchase, cargo_subtype) {
-    set_Hankyu_8300_purchase;
-}

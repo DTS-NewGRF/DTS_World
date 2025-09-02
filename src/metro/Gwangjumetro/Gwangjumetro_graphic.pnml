@@ -31,11 +31,6 @@ spriteset(set_Gwangjumetro_1000_engineT, "src/metro/Gwangjumetro/Gwangjumetro_10
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Gwangjumetro_1000_purchase, "src/metro/Gwangjumetro/Gwangjumetro_1000.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Gwangjumetro_1000_purchase, cargo_subtype) {
-    set_Gwangjumetro_1000_purchase;
 }

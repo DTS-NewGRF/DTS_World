@@ -21,7 +21,7 @@ item(FEAT_TRAINS, IMR_001, 2535){
         }
 
     graphics {
-        purchase:                       sw_IMR_001_purchase;
+        purchase:                       set_IMR_001_purchase;
         }
         }
 
@@ -70,7 +70,7 @@ item(FEAT_TRAINS, IMR_001_6Car, 2536){
     graphics {
         default:                        sw_IMR_001_6car_reversed;
         articulated_part:               sw_articulated_IMR_001_6car;
-        purchase:                       sw_IMR_001_purchase;
+        purchase:                       set_IMR_001_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, IMR_001_8Car, 2537){
     graphics {
         default:                        sw_IMR_001_8car_reversed;
         articulated_part:               sw_articulated_IMR_001_8car;
-        purchase:                       sw_IMR_001_purchase;
+        purchase:                       set_IMR_001_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

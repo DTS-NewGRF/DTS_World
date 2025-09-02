@@ -45,7 +45,3 @@ spriteset(set_Standard_Metro_C_engineT, "src/metro/standard/Standard_Cross.png")
 spriteset(set_Standard_Metro_purchase, "src/metro/standard/Standard_Long.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_purchase, cargo_subtype) {
-    set_Standard_Metro_purchase;
-}

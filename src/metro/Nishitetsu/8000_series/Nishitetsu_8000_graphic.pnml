@@ -26,8 +26,3 @@ spriteset(set_Nishitetsu_8000_engineT, "src/metro/Nishitetsu/8000_series/Nishite
 spriteset(set_Nishitetsu_8000_purchase, "src/metro/Nishitetsu/8000_series/Nishitetsu_8000.png"){
     tmpl_purchase(0, 0)
 }
-
-
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_8000_purchase, cargo_subtype) {
-    set_Nishitetsu_8000_purchase;
-}

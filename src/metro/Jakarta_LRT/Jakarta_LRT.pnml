@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Jakarta_LRT_2Car, 2434){
     graphics {
         default:                        sw_Jakarta_LRT_2car;
         articulated_part:               sw_articulated_Jakarta_LRT_2car;
-        purchase:                       sw_Jakarta_LRT_purchase;
+        purchase:                       set_Jakarta_LRT_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -19,7 +19,7 @@ item(FEAT_TRAINS, V_ITX_Maum, 2549){
         }
 
     graphics {
-        purchase:                       set_Locomotive_Common_3_purchase;
+        purchase:                       set_ITX_Maum_purchase;
         }
         }
 
@@ -38,7 +38,7 @@ item(FEAT_TRAINS, V_ITX_Maum_8Car, 2131){
         
         //spec
         speed:                          165km/h;
-        power:                          1000 kW;
+        power:                          4000 kW;
         weight:                         320 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -70,7 +70,7 @@ item(FEAT_TRAINS, V_ITX_Maum_8Car, 2131){
     graphics {
         default:                        sw_V_ITX_Maum_8car_reversed;
         articulated_part:               sw_articulated_V_ITX_Maum_8car;
-        purchase:                       set_Locomotive_Common_3_purchase;
+        purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
@@ -92,7 +92,7 @@ item(FEAT_TRAINS, V_ITX_Maum_10Car, 2238){
         
         //spec
         speed:                          165km/h;
-        power:                          1000 kW;
+        power:                          5000 kW;
         weight:                         400 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -124,7 +124,7 @@ item(FEAT_TRAINS, V_ITX_Maum_10Car, 2238){
     graphics {
         default:                        sw_V_ITX_Maum_10car_reversed;
         articulated_part:               sw_articulated_V_ITX_Maum_10car;
-        purchase:                       set_Locomotive_Common_3_purchase;
+        purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;

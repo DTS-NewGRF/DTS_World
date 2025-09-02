@@ -39,11 +39,6 @@ spriteset(set_Incheonmetro_1000_3rd_engineT, "src/metro/Incheonmetro/Incheonmetr
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Incheonmetro_1000_3rd_purchase, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Incheonmetro_1000_3rd_purchase, cargo_subtype) {
-    set_Incheonmetro_1000_3rd_purchase;
 }

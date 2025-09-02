@@ -54,7 +54,7 @@ item(FEAT_TRAINS, APEX_2000_1st_6Car, 2339){
     graphics {
         default:                        sw_AREX_2000_1st_6car_reversed;
         articulated_part:               sw_articulated_AREX_2000_1st_6car;
-        purchase:                       sw_AREX_2000_1st_purchase;
+        purchase:                       set_AREX_2000_1st_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;

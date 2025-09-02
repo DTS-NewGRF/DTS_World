@@ -22,7 +22,7 @@ item(FEAT_TRAINS, Nishitetsu_5000, 2185){
         }
 
     graphics {
-        purchase:                       sw_Nishitetsu_5000_purchase;
+        purchase:                       set_Nishitetsu_5000_purchase;
         }
         }
 
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Nishitetsu_5000_3Car, 2100){
     graphics {
         default:                        sw_Nishitetsu_5000_3car;
         articulated_part:               sw_articulated_Nishitetsu_5000_3car;
-        purchase:                       sw_Nishitetsu_5000_purchase;
+        purchase:                       set_Nishitetsu_5000_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, Nishitetsu_5000_4Car, 2107){
     graphics {
         default:                        sw_Nishitetsu_5000_4car;
         articulated_part:               sw_articulated_Nishitetsu_5000_4car;
-        purchase:                       sw_Nishitetsu_5000_purchase;
+        purchase:                       set_Nishitetsu_5000_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;

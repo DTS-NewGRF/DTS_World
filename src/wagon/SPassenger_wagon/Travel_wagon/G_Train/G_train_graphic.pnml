@@ -50,25 +50,16 @@ spriteset(set_G_Train_New_5wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Tra
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
-spriteset(set_G_Train_Old_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_Old.png"){
+spriteset(set_G_Train_2015_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_Old.png"){
     tmpl_wagon_purchase(0, 0)
 }
 
-spriteset(set_G_Train_New_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_New.png"){
+spriteset(set_G_Train_2023_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_New.png"){
     tmpl_wagon_purchase(0, 0)
 }
 
 // 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_G_Train_2015_purchase, cargo_subtype) {
-    set_G_Train_Old_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_G_Train_2023_purchase, cargo_subtype) {
-    set_G_Train_New_purchase;
-}
-
 switch(FEAT_TRAINS, SELF, sw_G_Train_purchase, current_year) {
-    0..2022: sw_G_Train_2015_purchase;
-    sw_G_Train_2023_purchase;
+    0..2022: set_G_Train_2015_purchase;
+    set_G_Train_2023_purchase;
     }

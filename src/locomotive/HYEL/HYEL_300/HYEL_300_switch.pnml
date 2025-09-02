@@ -9,10 +9,11 @@ switch(FEAT_TRAINS, SELF, sw_HYEL_300_cargo_subtype_text, cargo_subtype) {
 }
 
 // 열차
+// HYEL-150 기본 기관차 사용.
 switch(FEAT_TRAINS, SELF, sw_HYEL_300_engineH, cargo_subtype) {
-    1: set_HYEL_300_engineH;
-    2: set_HYEL_300_engineH;
-    set_HYEL_300_engineH;
+    1: set_HYEL_150_engine; // HYEL-150 기본 기관차 사용.
+    2: set_HYEL_150_engine; // HYEL-150 기본 기관차 사용.
+    set_HYEL_150_engine;    // HYEL-150 기본 기관차 사용.
 }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_300_wagon_N, cargo_subtype) {
@@ -43,7 +44,7 @@ switch(FEAT_TRAINS, SELF, sw_HYEL_300_wagon_Tail, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_HYEL_300_engineH_r, cargo_subtype) {
     1: set_PEX_Super_wagon_NA_r;
     2: set_PEX_Super_wagon_NB_r;
-    set_HYEL_300_engineH_r;
+    set_HYEL_150_engine_r; // HYEL-150 기본 기관차 사용.
 }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_300_wagon_N_r, cargo_subtype) {
@@ -65,8 +66,8 @@ switch(FEAT_TRAINS, SELF, sw_HYEL_300_wagon_B_r, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_300_wagon_Tail_r, cargo_subtype) {
-    1: set_HYEL_300_engineH_r;
-    2: set_HYEL_300_engineH_r;
+    1: set_HYEL_150_engine_r; // HYEL-150 기본 기관차 사용.
+    2: set_HYEL_150_engine_r; // HYEL-150 기본 기관차 사용.
     set_HYEL_300_wagon_tail_r;
 }
 

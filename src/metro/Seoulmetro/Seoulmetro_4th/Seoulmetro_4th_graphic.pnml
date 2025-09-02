@@ -142,11 +142,6 @@ spriteset(set_Seoulmetro_4th_7000_engineT, "src/metro/Seoulmetro/Seoulmetro_4th/
 }
 
 /*--------------------------------------------------------------------
-서울교통공사 8000호대
---------------------------------------------------------------------*/
-// 귀속 서울교통공사 5세대 5000호대 ("src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_5000.png")
-
-/*--------------------------------------------------------------------
 서울교통공사 9000호대
 --------------------------------------------------------------------*/
 spriteset(set_Seoulmetro_4th_9000_engineH, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_9000.png"){
@@ -184,7 +179,6 @@ spriteset(set_Seoulmetro_4th_9000_engineT, "src/metro/Seoulmetro/Seoulmetro_4th/
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Seoulmetro_4th_2000_purchase, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_2000.png"){
     tmpl_purchase(0, 0)
 }
@@ -203,28 +197,4 @@ spriteset(set_Seoulmetro_4th_7000_purchase, "src/metro/Seoulmetro/Seoulmetro_4th
 
 spriteset(set_Seoulmetro_4th_9000_purchase, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_9000.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_2000_purchase, cargo_subtype) {
-    set_Seoulmetro_4th_2000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_4000_purchase, cargo_subtype) {
-    set_Seoulmetro_4th_4000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_5000_purchase, cargo_subtype) {
-    set_Seoulmetro_4th_5000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_7000_purchase, cargo_subtype) {
-    set_Seoulmetro_4th_7000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_8000_purchase, cargo_subtype) {
-    set_Seoulmetro_5th_5000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_9000_purchase, cargo_subtype) {
-    set_Seoulmetro_4th_9000_purchase;
 }

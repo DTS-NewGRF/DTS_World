@@ -28,7 +28,6 @@ spriteset(set_wine_cinema_6wagon, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_wine_cinema_wagon_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Cinema/Wine_Cinema.png"){
     tmpl_wagon_purchase(0, 0)
 }

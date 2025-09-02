@@ -80,11 +80,6 @@ spriteset(set_Saemaeul_2cc_14wagon, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeu
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Saemaeul_2cc_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png"){
     tmpl_wagon_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Saemaeul_2cc_purchase, cargo_subtype) {
-    set_Saemaeul_2cc_purchase;
 }

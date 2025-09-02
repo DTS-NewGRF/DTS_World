@@ -47,7 +47,7 @@ item(FEAT_TRAINS, PEX_Super_Post_Car, 2307){
 
 	graphics {
         default:                        sw_sw_PEX_Super_Post_wagon_1Car;
-        purchase:                       sw_PEX_Super_Post_Car_purchase;
+        purchase:                       set_PEX_Super_Post_Car_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;

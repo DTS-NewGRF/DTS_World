@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 쇼케이스 평판화차-미국형
 --------------------------------------------------------------------*/
-// Graphics
-#include "Showcase_Flat_2F_wagon_graphic.pnml"
-
 // Switch
 #include "Showcase_Flat_2F_wagon_switch.pnml"
 

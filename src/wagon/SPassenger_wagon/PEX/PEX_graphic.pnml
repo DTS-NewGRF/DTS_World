@@ -40,7 +40,6 @@ spriteset(set_PEX_wagon_S, "src/wagon/SPassenger_wagon/PEX/PEX_S_wagon.png") {
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_PEX_N_wagon_purchase, "src/wagon/SPassenger_wagon/PEX/PEX_N_wagon.png"){
     tmpl_wagon_purchase(0, 0)
 }
@@ -59,24 +58,4 @@ spriteset(set_PEX_B_wagon_purchase, "src/wagon/SPassenger_wagon/PEX/PEX_B_wagon.
 
 spriteset(set_PEX_S_wagon_purchase, "src/wagon/SPassenger_wagon/PEX/PEX_S_wagon.png"){
     tmpl_wagon_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_PEX_N_wagon_purchase, cargo_subtype) {
-    set_PEX_N_wagon_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_PEX_SN_wagon_purchase, cargo_subtype) {
-    set_PEX_SN_wagon_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_PEX_D_wagon_purchase, cargo_subtype) {
-    set_PEX_D_wagon_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_PEX_B_wagon_purchase, cargo_subtype) {
-    set_PEX_B_wagon_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_PEX_S_wagon_purchase, cargo_subtype) {
-    set_PEX_S_wagon_purchase;
 }

@@ -22,12 +22,12 @@ item(FEAT_TRAINS, Seoulmetro_5th, 2398){
         }
 
     graphics {
-        purchase:                       sw_Seoulmetro_5th_7000_purchase;
+        purchase:                       set_Seoulmetro_5th_7000_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
-열차정보 8량
+열차정보 6량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_5th_2000_6Car, 2290){
     property {
@@ -69,9 +69,9 @@ item(FEAT_TRAINS, Seoulmetro_5th_2000_6Car, 2290){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_5th_6car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_5th_6car;
-        purchase:                       sw_Seoulmetro_5th_2000_purchase;
+        default:                        sw_Seoulmetro_5th_2000_6car_reversed;
+        articulated_part:               sw_articulated_Seoulmetro_5th_2000_6car;
+        purchase:                       set_Seoulmetro_5th_2000_purchase;
         speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -123,9 +123,9 @@ item(FEAT_TRAINS, Seoulmetro_5th_8000_6Car, 2569){
         }
 
     graphics {
-        default:                        sw_Metro_Common_1_6car_reversed;
+        default:                        sw_Seoulmetro_5th_8000_6car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_5th_8000_6car;
-        purchase:                       set_Metro_Common_1_purchase;
+        purchase:                       set_Seoulmetro_2nd_1000_purchase;
         speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -179,7 +179,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_5000_8Car, 2401){
     graphics {
         default:                        sw_Seoulmetro_5th_5000_8car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_5th_5000_8car;
-        purchase:                       sw_Seoulmetro_5th_5000_purchase;
+        purchase:                       set_Seoulmetro_5th_5000_purchase;
         speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -233,7 +233,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_7000_8Car, 2303){
     graphics {
         default:                        sw_Seoulmetro_5th_7000_8car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_5th_7000_8car;
-        purchase:                       sw_Seoulmetro_5th_7000_purchase;
+        purchase:                       set_Seoulmetro_5th_7000_purchase;
         speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -287,7 +287,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_4000_10Car, 2399){
     graphics {
         default:                        sw_Seoulmetro_5th_4000_10car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_5th_4000_10car;
-        purchase:                       sw_Seoulmetro_5th_4000_purchase;
+        purchase:                       set_Seoulmetro_5th_4000_purchase;
         speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;

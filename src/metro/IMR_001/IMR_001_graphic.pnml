@@ -47,11 +47,6 @@ spriteset(set_IMR_001_engineT, "src/metro/IMR_001/IMR_001.png"){
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_IMR_001_purchase, "src/metro/IMR_001/IMR_001.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_IMR_001_purchase, cargo_subtype) {
-    set_IMR_001_purchase;
 }

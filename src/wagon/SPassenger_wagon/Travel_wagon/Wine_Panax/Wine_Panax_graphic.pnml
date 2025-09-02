@@ -32,7 +32,6 @@ spriteset(set_wine_Panax_7wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_wine_Panax_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Panax/wine_Panax.png"){
     tmpl_wagon_purchase(0, 0)
 }

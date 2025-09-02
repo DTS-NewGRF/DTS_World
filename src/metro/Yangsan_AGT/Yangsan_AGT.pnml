@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Yangsan_AGT_2Car, 2543){
     graphics {
         default:                        sw_Yangsan_AGT_2car;
         articulated_part:               sw_articulated_Yangsan_AGT_2car;
-        purchase:                       sw_Yangsan_AGT_purchase;
+        purchase:                       set_Yangsan_AGT_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

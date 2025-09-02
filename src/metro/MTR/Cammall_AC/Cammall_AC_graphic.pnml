@@ -23,7 +23,3 @@ spriteset(set_MTR_AC_Cammall_engineT, "src/metro/MTR/Cammall_AC/Cammall_AC.png")
 spriteset(set_MTR_AC_Cammall_purchase, "src/metro/MTR/Cammall_AC/Cammall_AC.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_MTR_AC_Cammall_purchase, cargo_subtype) {
-    set_MTR_AC_Cammall_purchase;
-}

@@ -55,11 +55,6 @@ spriteset(set_Korail_Rheostatic_K1000_engineT_TC2B, "src/metro/Korail/Korail_Rhe
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Korail_Rheostatic_purchase, "src/metro/Korail/Korail_Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_purchase, cargo_subtype) {
-    set_Korail_Rheostatic_purchase;
 }

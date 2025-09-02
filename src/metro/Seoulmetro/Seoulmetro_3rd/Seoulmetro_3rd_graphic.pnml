@@ -179,7 +179,6 @@ spriteset(set_Seoulmetro_3rd_8000_engineT, "src/metro/Seoulmetro/Seoulmetro_3rd/
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Seoulmetro_3rd_2000_purchase, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_2000.png"){
     tmpl_purchase(0, 0)
 }
@@ -198,22 +197,6 @@ spriteset(set_Seoulmetro_3rd_7000_purchase, "src/metro/Seoulmetro/Seoulmetro_3rd
 
 spriteset(set_Seoulmetro_3rd_8000_purchase, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_8000.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_2000_purchase, cargo_subtype) {
-    set_Seoulmetro_3rd_2000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_4000_purchase, cargo_subtype) {
-    set_Seoulmetro_3rd_4000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_5000_purchase, cargo_subtype) {
-    set_Seoulmetro_3rd_5000_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_7000_purchase, cargo_subtype) {
-    set_Seoulmetro_3rd_7000_purchase;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_8000_purchase, cargo_subtype) {

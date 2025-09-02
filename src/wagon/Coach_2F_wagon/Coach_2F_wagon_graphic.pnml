@@ -21,7 +21,3 @@ spriteset(set_Coach_2F_Taegeuk_Wagon, "src/wagon/Coach_2F_wagon/Coach_2F_wagon.p
 spriteset(set_Coach_2F_Wagon_purchase, "src/wagon/Coach_2F_wagon/Coach_2F_wagon.png"){
     tmpl_wagon_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Coach_2F_Wagon_purchase, cargo_subtype) {
-    set_Coach_2F_Wagon_purchase;
-}

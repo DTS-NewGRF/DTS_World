@@ -22,7 +22,7 @@ item(FEAT_TRAINS, Korail_First, 3000){
         }
 
     graphics {
-        purchase:                       sw_Korail_First_purchase;
+        purchase:                       set_Korail_First_purchase;
         }
         }
 
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Korail_First_4Car, 3001){
     graphics {
         default:                        sw_Korail_First_4car_reversed;
         articulated_part:               sw_articulated_Korail_First_4car;
-        purchase:                       sw_Korail_K1000_Initial_purchase;
+        purchase:                       set_Korail_K1000_Initial_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Korail_First_6Car, 3002){
     graphics {
         default:                        sw_Korail_First_6car_reversed;
         articulated_part:               sw_articulated_Korail_First_6car;
-        purchase:                       sw_Korail_K1000_Initial_purchase;
+        purchase:                       set_Korail_K1000_Initial_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -179,7 +179,7 @@ item(FEAT_TRAINS, Korail_First_8Car, 3003){
     graphics {
         default:                        sw_Korail_First_8car_reversed;
         articulated_part:               sw_articulated_Korail_First_8car;
-        purchase:                       sw_Korail_K1000_Initial_purchase;
+        purchase:                       set_Korail_K1000_Initial_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -233,7 +233,7 @@ item(FEAT_TRAINS, Korail_First_10Car, 3004){
     graphics {
         default:                        sw_Korail_First_10car_reversed;
         articulated_part:               sw_articulated_Korail_First_10car;
-        purchase:                       sw_Korail_First_purchase;
+        purchase:                       set_Korail_First_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;

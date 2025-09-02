@@ -22,7 +22,7 @@ item(FEAT_TRAINS, ITX_Maum, 2193){
         }
 
     graphics {
-        purchase:                       set_Locomotive_Common_3_purchase;
+        purchase:                       set_ITX_Maum_purchase;
         }
         }
 
@@ -41,7 +41,7 @@ item(FEAT_TRAINS, ITX_Maum_4Car, 2166){
         
         //spec
         speed:                          165km/h;
-        power:                          1000 kW;
+        power:                          2000 kW;
         weight:                         140 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -73,7 +73,7 @@ item(FEAT_TRAINS, ITX_Maum_4Car, 2166){
     graphics {
         default:                        sw_ITX_Maum_4car_reversed;
         articulated_part:               sw_articulated_ITX_Maum_4car;
-        purchase:                       set_Locomotive_Common_3_purchase;
+        purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_ITX_Maum_cargo_subtype_text;
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, ITX_Maum_6Car, 2010){
         
         //spec
         speed:                          165km/h;
-        power:                          1000 kW;
+        power:                          3000 kW;
         weight:                         210 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -128,7 +128,7 @@ item(FEAT_TRAINS, ITX_Maum_6Car, 2010){
     graphics {
         default:                        sw_ITX_Maum_6car_reversed;
         articulated_part:               sw_articulated_ITX_Maum_6car;
-        purchase:                       set_Locomotive_Common_3_purchase;
+        purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
@@ -150,7 +150,7 @@ item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
         
         //spec
         speed:                          165km/h;
-        power:                          1000 kW;
+        power:                          4000 kW;
         weight:                         280 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -182,7 +182,7 @@ item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
     graphics {
         default:                        sw_ITX_Maum_4_4car_reversed;
         articulated_part:               sw_articulated_ITX_Maum_4_4car;
-        purchase:                       set_Locomotive_Common_3_purchase;
+        purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_ITX_Maum_4_4_cargo_subtype_text;
@@ -205,7 +205,7 @@ item(FEAT_TRAINS, ITX_Maum_4_6Car, 2258){
         
         //spec
         speed:                          165km/h;
-        power:                          1000 kW;
+        power:                          5000 kW;
         weight:                         350 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -237,7 +237,7 @@ item(FEAT_TRAINS, ITX_Maum_4_6Car, 2258){
     graphics {
         default:                        sw_ITX_Maum_4_6car_reversed;
         articulated_part:               sw_articulated_ITX_Maum_4_6car;
-        purchase:                       set_Locomotive_Common_3_purchase;
+        purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
@@ -259,7 +259,7 @@ item(FEAT_TRAINS, ITX_Maum_6_4Car, 2259){
         
         //spec
         speed:                          165km/h;
-        power:                          1000 kW;
+        power:                          5000 kW;
         weight:                         350 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -291,7 +291,7 @@ item(FEAT_TRAINS, ITX_Maum_6_4Car, 2259){
     graphics {
         default:                        sw_ITX_Maum_6_4car_reversed;
         articulated_part:               sw_articulated_ITX_Maum_6_4car;
-        purchase:                       set_Locomotive_Common_3_purchase;
+        purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;

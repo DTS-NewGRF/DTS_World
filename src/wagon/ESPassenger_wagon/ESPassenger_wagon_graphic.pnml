@@ -26,7 +26,3 @@ spriteset(set_Original_HF_wagon, "src/wagon/ESPassenger_wagon/ESPassenger_wagon.
 spriteset(set_ESPassenger_wagon_purchase, "src/wagon/ESPassenger_wagon/ESPassenger_wagon.png"){
 	tmpl_wagon_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_ESPassenger_wagon_purchase, cargo_subtype) {
-    set_ESPassenger_wagon_purchase;
-}

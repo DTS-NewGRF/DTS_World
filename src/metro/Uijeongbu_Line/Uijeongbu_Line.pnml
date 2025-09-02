@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Uijeongbu_Line_2Car, 2413){
     graphics {
         default:                        sw_Uijeongbu_Line_2car_reversed;
         articulated_part:               sw_articulated_Uijeongbu_Line_2car;
-        purchase:                       sw_Uijeongbu_Line_purchase;
+        purchase:                       set_Uijeongbu_Line_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

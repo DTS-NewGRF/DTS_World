@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Busanmetro_2nd_2000_6Car, 2565){
     graphics {
         default:                        sw_Busanmetro_2nd_2000_6car_reversed;
         articulated_part:               sw_articulated_Busanmetro_2nd_2000_6car;
-        purchase:                       sw_Busanmetro_2nd_2000_purchase;
+        purchase:                       set_Busanmetro_2nd_2000_purchase;
         speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;

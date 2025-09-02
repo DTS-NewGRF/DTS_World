@@ -109,7 +109,6 @@ spriteset(set_Shinbundang_G3_engineT, "src/metro/Shinbundang/Shinbundang_G3.png"
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Shinbundang_G1_purchase, "src/metro/Shinbundang/Shinbundang_G1.png"){
     tmpl_purchase(0, 0)
 }
@@ -118,16 +117,8 @@ spriteset(set_Shinbundang_G2_purchase, "src/metro/Shinbundang/Shinbundang_G2.png
     tmpl_purchase(0, 0)
 }
 
-switch(FEAT_TRAINS, SELF, sw_Shinbundang_G1_purchase, cargo_subtype) {
-    set_Shinbundang_G1_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinbundang_G2_purchase, cargo_subtype) {
-    set_Shinbundang_G2_purchase;
-}
-
 // 구매차량 등장년도
 switch(FEAT_TRAINS, SELF, sw_Shinbundang_purchase, current_year) {
-    0..2010: sw_Shinbundang_G1_purchase;
-    sw_Shinbundang_G2_purchase;
+    0..2010: set_Shinbundang_G1_purchase;
+    set_Shinbundang_G2_purchase;
     }

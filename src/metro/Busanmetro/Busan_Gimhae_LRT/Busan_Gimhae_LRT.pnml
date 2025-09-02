@@ -54,7 +54,7 @@ item(FEAT_TRAINS, Busan_Gimhae_LRT_2Car, 2407){
     graphics {
         default:                        sw_Busan_Gimhae_LRT_2car;
         articulated_part:               sw_articulated_Busan_Gimhae_LRT_2car;
-        purchase:                       sw_Busan_Gimhae_LRT_purchase;
+        purchase:                       set_Busan_Gimhae_LRT_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -4,14 +4,6 @@ Graphics
 /*--------------------------------------------------------------------
 HYEL 300
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_300_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_300/HYEL_300.png"){
-    DTS_temp(80, 0)
-}
-
-spriteset(set_HYEL_300_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_300/HYEL_300.png"){
-    DTS_temp_r(80, 0)
-}
-
 spriteset(set_HYEL_300_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_300/HYEL_300.png") {
     DTS_temp(80, 27)
 }

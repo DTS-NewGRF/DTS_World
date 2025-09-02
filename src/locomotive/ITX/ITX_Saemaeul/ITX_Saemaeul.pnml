@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------------
 ITX-새마을
 --------------------------------------------------------------------*/
+// Graphics
+#include "ITX_Saemaeul_graphic.pnml"
+
 // Switch
 #include "ITX_Saemaeul_switch.pnml"
 
@@ -49,7 +52,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_6Car, 2327){
 	graphics {
         default:                        sw_ITX_Saemaeul_6car_reversed;
         articulated_part:               sw_articulated_ITX_Saemaeul_6car;
-        purchase:                       set_Locomotive_Common_4_purchase;
+        purchase:                       set_ITX_Saemaeul_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;

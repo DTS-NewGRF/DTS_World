@@ -19,7 +19,7 @@ item(FEAT_TRAINS, V_ITX_CheongChun, 2352){
         }
 
     graphics {
-        purchase:                       set_Locomotive_Common_2_purchase;
+        purchase:                       set_ITX_CheongChun_purchase;
         }
         }
 
@@ -70,9 +70,10 @@ item(FEAT_TRAINS, V_ITX_CheongChun_6Car, 2353){
     graphics {
         default:                        sw_V_ITX_CheongChun_6car_reversed;
         articulated_part:               sw_articulated_V_ITX_CheongChun_6car;
-        purchase:                       set_Locomotive_Common_2_purchase;
+        purchase:                       set_ITX_CheongChun_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
+        cargo_subtype_text:             sw_ITX_CheongChun_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBAStart_sound;
         }
         }
@@ -124,9 +125,10 @@ item(FEAT_TRAINS, V_ITX_CheongChun_10Car, 2355){
     graphics {
         default:                        sw_V_ITX_CheongChun_10car_reversed;
         articulated_part:               sw_articulated_V_ITX_CheongChun_10car;
-        purchase:                       set_Locomotive_Common_2_purchase;
+        purchase:                       set_ITX_CheongChun_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
+        cargo_subtype_text:             sw_ITX_CheongChun_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBAStart_sound;
         }
         }

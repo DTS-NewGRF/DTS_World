@@ -141,19 +141,10 @@ spriteset(set_Korail_K1000_Old_engineT, "src/metro/Korail/Korail_Rheostatic/Kora
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Korail_First_purchase, "src/metro/Korail/Korail_Rheostatic/Korail_First/Korail_First_K1000_Old.png"){
     tmpl_purchase(0, 0)
 }
 
 spriteset(set_Korail_K1000_Initial_purchase, "src/metro/Korail/Korail_Rheostatic/Korail_First/Korail_First_K1000_Initial.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_K1000_Initial_purchase, cargo_subtype) {
-    set_Korail_K1000_Initial_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_First_purchase, cargo_subtype) {
-    set_Korail_First_purchase;
 }

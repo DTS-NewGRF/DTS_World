@@ -22,7 +22,7 @@ item(FEAT_TRAINS, Hankyu_8000, 2211){
         }
 
     graphics {
-        purchase:                       sw_Hankyu_8000_purchase;
+        purchase:                       set_Hankyu_8000_purchase;
         }
         }
 
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Hankyu_8000_2Car, 2212){
         graphics {
         default:                        sw_Hankyu_8000_2car_reversed;
         articulated_part:               sw_articulated_Hankyu_8000_2car;
-        purchase:                       sw_Hankyu_8000_purchase;
+        purchase:                       set_Hankyu_8000_purchase;
         speed:                          sw_Metro_110_speed;
         cargo_capacity:                 sw_Hankyu_8000_2car_capacity_in_custom;
         loading_speed:                  25;
@@ -127,7 +127,7 @@ item(FEAT_TRAINS, Hankyu_8000_8Car, 2213){
         graphics {
         default:                        sw_Hankyu_8000_8car_reversed;
         articulated_part:               sw_articulated_Hankyu_8000_8car;
-        purchase:                       sw_Hankyu_8000_purchase;
+        purchase:                       set_Hankyu_8000_purchase;
         speed:                          sw_Metro_110_speed;
         cargo_capacity:                 sw_Hankyu_8000_8car_capacity_in_custom;
         loading_speed:                  25;

@@ -50,7 +50,3 @@ spriteset(set_Hankyu_6300_engineT, "src/metro/Hankyu/6X00_series/6300_series/Han
 spriteset(set_Hankyu_6300_purchase, "src/metro/Hankyu/6X00_series/6300_series/Hankyu_6300.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_Hankyu_6300_purchase, cargo_subtype) {
-    set_Hankyu_6300_purchase;
-}

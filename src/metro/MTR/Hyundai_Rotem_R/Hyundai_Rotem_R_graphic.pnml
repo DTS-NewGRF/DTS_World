@@ -27,7 +27,3 @@ spriteset(set_MTR_Hyundai_Rotem_R_engineT, "src/metro/MTR/Hyundai_Rotem_R/Hyunda
 spriteset(set_MTR_Hyundai_Rotem_R_purchase, "src/metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_MTR_Hyundai_Rotem_R_purchase, cargo_subtype) {
-    set_MTR_Hyundai_Rotem_R_purchase;
-}

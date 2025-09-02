@@ -16,7 +16,6 @@ spriteset(set_East_Sea_wagon_ES1, "src/wagon/SPassenger_wagon/Travel_wagon/East_
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_East_Sea_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/East_Sea/East_Sea.png"){
     tmpl_wagon_purchase(0, 0)
 }

@@ -136,11 +136,6 @@ spriteset(set_Mugunghwa_2cc_25wagon, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunh
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Mugunghwa_2cc_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_2CC/Mugunhwa_2CC_wagon.png"){
     tmpl_wagon_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Mugunghwa_2cc_purchase, cargo_subtype) {
-    set_Mugunghwa_2cc_purchase;
 }

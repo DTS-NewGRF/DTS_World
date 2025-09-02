@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Hankyu_1000_8Car, 2263){
         graphics {
         default:                        sw_Hankyu_1000_8car_reversed;
         articulated_part:               sw_articulated_Hankyu_1000_8car;
-        purchase:                       sw_Hankyu_1000_purchase;
+        purchase:                       set_Hankyu_1000_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;

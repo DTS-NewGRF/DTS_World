@@ -22,7 +22,7 @@ item(FEAT_TRAINS, Korail_6th, 2530){
         }
 
     graphics {
-        purchase:                       sw_Korail_6th_purchase;
+        purchase:                       set_Korail_6th_purchase;
         }
         }
 
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Korail_6th_4Car, 2531){
     graphics {
         default:                        sw_Korail_6th_4car_reversed;
         articulated_part:               sw_articulated_Korail_6th_4car;
-        purchase:                       sw_Korail_6th_purchase;
+        purchase:                       set_Korail_6th_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Korail_6th_6Car, 2532){
     graphics {
         default:                        sw_Korail_6th_6car_reversed;
         articulated_part:               sw_articulated_Korail_6th_6car;
-        purchase:                       sw_Korail_6th_purchase;
+        purchase:                       set_Korail_6th_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -179,7 +179,7 @@ item(FEAT_TRAINS, Korail_6th_8Car, 2533){
     graphics {
         default:                        sw_Korail_6th_8car_reversed;
         articulated_part:               sw_articulated_Korail_6th_8car;
-        purchase:                       sw_Korail_6th_purchase;
+        purchase:                       set_Korail_6th_purchase;
         speed:                          sw_Metro_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;

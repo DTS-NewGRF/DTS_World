@@ -48,7 +48,7 @@ item(FEAT_TRAINS, Generatar_2cc, 2003){
 
 	graphics {
         default:                        sw_Generatar_2cc_1Car;
-        purchase:                       sw_Generatar_2cc_purchase;
+        purchase:                       set_Generatar_2cc_purchase;
         length:                         sw_Generatar_2cc_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;

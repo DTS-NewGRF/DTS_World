@@ -60,7 +60,6 @@ spriteset(set_Tong_il_Normal_T_1997, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wa
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Tong_il_Normal_1963_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png"){
     tmpl_wagon_purchase(0, 0)
 }
@@ -86,35 +85,11 @@ spriteset(set_Tong_il_Normal_1997_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, 
 }
 
 // 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1963_purchase, cargo_subtype) {
-    set_Tong_il_Normal_1963_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1968_purchase, cargo_subtype) {
-    set_Tong_il_Normal_1968_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1974_purchase, cargo_subtype) {
-    set_Tong_il_Normal_1974_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1984_purchase, cargo_subtype) {
-    set_Tong_il_Normal_1984_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1994_purchase, cargo_subtype) {
-    set_Tong_il_Normal_1994_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1997_purchase, cargo_subtype) {
-    set_Tong_il_Normal_1997_purchase;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_purchase, current_year) {
-    0..1967: sw_Tong_il_Normal_1963_purchase;
-    1968..1973: sw_Tong_il_Normal_1968_purchase;
-    1974..1983: sw_Tong_il_Normal_1974_purchase;
-    1984..1993: sw_Tong_il_Normal_1984_purchase;
-    1994..1996: sw_Tong_il_Normal_1994_purchase;
-    sw_Tong_il_Normal_1997_purchase;
+    0..1967: set_Tong_il_Normal_1963_purchase;
+    1968..1973: set_Tong_il_Normal_1968_purchase;
+    1974..1983: set_Tong_il_Normal_1974_purchase;
+    1984..1993: set_Tong_il_Normal_1984_purchase;
+    1994..1996: set_Tong_il_Normal_1994_purchase;
+    set_Tong_il_Normal_1997_purchase;
     }

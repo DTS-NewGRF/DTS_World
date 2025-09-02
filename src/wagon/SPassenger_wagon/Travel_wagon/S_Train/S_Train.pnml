@@ -67,7 +67,7 @@ item (FEAT_TRAINS, S_Train_New_4Car, 2332){
     graphics {
         default:                        sw_S_Train_New_4car;
         articulated_part:               sw_articulated_S_Train_New_4car;
-        purchase:                       set_S_Train_New_wagon_purchase;
+        purchase:                       set_S_Train_2020_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;

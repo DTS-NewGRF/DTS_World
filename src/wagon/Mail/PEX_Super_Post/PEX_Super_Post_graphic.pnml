@@ -12,7 +12,6 @@ spriteset(set_PEX_Super_Post_Car_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wag
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_PEX_Super_Post_Car_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/PEX_Super_Post/PEX_Super_Post.png"){
     tmpl_wagon_purchase(0, 0)
 }

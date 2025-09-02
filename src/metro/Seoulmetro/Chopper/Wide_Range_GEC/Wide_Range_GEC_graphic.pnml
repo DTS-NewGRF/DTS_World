@@ -74,11 +74,6 @@ spriteset(set_Chopper_Wide_Range_GEC_Rheostatic_engineT, "src/metro/Seoulmetro/C
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Chopper_Wide_Range_GEC_purchase, "src/metro/Seoulmetro/Chopper/Wide_Range_GEC/Wide_Range_GEC_Rheostatic.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Chopper_Wide_Range_GEC_purchase, cargo_subtype) {
-    set_Chopper_Wide_Range_GEC_purchase;
 }

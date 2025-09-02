@@ -23,7 +23,3 @@ spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_engineT, "src/metro/MTR/Hyundai_Rotem
 spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_purchase, "src/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
     tmpl_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_MTR_Hyundai_Rotem_Mitsubishi_purchase, cargo_subtype) {
-    set_MTR_Hyundai_Rotem_Mitsubishi_purchase;
-}

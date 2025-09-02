@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Daegumetro_3000_3Car, 2424){
     graphics {
         default:                        sw_Daegumetro_3000_3car;
         articulated_part:               sw_articulated_Daegumetro_3000_3car;
-        purchase:                       sw_Daegumetro_3000_purchase;
+        purchase:                       set_Daegumetro_3000_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

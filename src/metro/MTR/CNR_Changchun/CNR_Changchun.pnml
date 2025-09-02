@@ -52,7 +52,7 @@ item(FEAT_TRAINS, MTR_CNR_Changchun_8Car, 2055){
 	graphics {
         default:                        sw_MTR_CNR_Changchun_8car;
         articulated_part:               sw_articulated_MTR_CNR_Changchun_8car;
-        purchase:                       sw_MTR_CNR_Changchun_purchase;
+        purchase:                       set_MTR_CNR_Changchun_purchase;
         speed:                          sw_Metro_80_speed;
         loading_speed:                  25;
         cost_factor:                    10;

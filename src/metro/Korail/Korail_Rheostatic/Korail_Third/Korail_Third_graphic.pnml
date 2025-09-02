@@ -98,11 +98,6 @@ spriteset(set_Korail_Third_New_engineT, "src/metro/Korail/Korail_Rheostatic/Kora
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Korail_Third_purchase, "src/metro/Korail/Korail_Rheostatic/Korail_Third/Korail_Third_New.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_Third_purchase, cargo_subtype) {
-    set_Korail_Third_purchase;
 }

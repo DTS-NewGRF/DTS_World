@@ -82,11 +82,6 @@ spriteset(set_EDUCATION_New_9wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wag
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_EDUCATION_wagon_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_Old.png"){
-    tmpl_wagon_purchase(0, 0)
-}
-
-spriteset(set_EDUCATION_New_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_New.png") {
     tmpl_wagon_purchase(0, 0)
 }

@@ -100,7 +100,6 @@ spriteset(set_Generatar_Real_OutLook_MC, "src/wagon/Generatar/Generatar_Real/Gen
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Generatar_Real_OutLook_1969_purchase, "src/wagon/Generatar/Generatar_Real/Generatar_Real_OutLook/Generatar_Real_OutLook.png"){
     tmpl_wagon_purchase(0, 0)
 }
@@ -130,40 +129,12 @@ spriteset(set_Generatar_Real_OutLook_2006_purchase, "src/wagon/Generatar/Generat
 }
 
 // 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1969_purchase, cargo_subtype) {
-    set_Generatar_Real_OutLook_1969_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1981_purchase, cargo_subtype) {
-    set_Generatar_Real_OutLook_1981_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1983_purchase, cargo_subtype) {
-    set_Generatar_Real_OutLook_1983_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1986_purchase, cargo_subtype) {
-    set_Generatar_Real_OutLook_1986_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1994_purchase, cargo_subtype) {
-    set_Generatar_Real_OutLook_1994_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1996_purchase, cargo_subtype) {
-    set_Generatar_Real_OutLook_1996_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_2006_purchase, cargo_subtype) {
-    set_Generatar_Real_OutLook_2006_purchase;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_purchase, current_year) {
-    0..1980: sw_Generatar_Real_OutLook_1969_purchase;
-    1981..1982: sw_Generatar_Real_OutLook_1981_purchase;
-    1983..1985: sw_Generatar_Real_OutLook_1983_purchase;
-    1986..1993: sw_Generatar_Real_OutLook_1986_purchase;
-    1994..1995: sw_Generatar_Real_OutLook_1994_purchase;
-    1996..2005: sw_Generatar_Real_OutLook_1996_purchase;
-    sw_Generatar_Real_OutLook_2006_purchase;
+    0..1980: set_Generatar_Real_OutLook_1969_purchase;
+    1981..1982: set_Generatar_Real_OutLook_1981_purchase;
+    1983..1985: set_Generatar_Real_OutLook_1983_purchase;
+    1986..1993: set_Generatar_Real_OutLook_1986_purchase;
+    1994..1995: set_Generatar_Real_OutLook_1994_purchase;
+    1996..2005: set_Generatar_Real_OutLook_1996_purchase;
+    set_Generatar_Real_OutLook_2006_purchase;
     }

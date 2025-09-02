@@ -34,11 +34,6 @@ spriteset(set_Daegumetro_3000_Urban_engineT, "src/metro/Daegumetro/Daegumetro_30
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Daegumetro_3000_purchase, "src/metro/Daegumetro/Daegumetro_3000/Daegumetro_3000.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Daegumetro_3000_purchase, cargo_subtype) {
-    set_Daegumetro_3000_purchase;
 }

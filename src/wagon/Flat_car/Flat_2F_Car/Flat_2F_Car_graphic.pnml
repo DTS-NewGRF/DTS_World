@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 1. Graphics - 40ft
 --------------------------------------------------------------------*/
-spriteset(set_FLAT_2F_CAR_purchase, "src/wagon/Flat_car/Flat_2F_Car/Flat_2F_Car.png") {
-    tmpl_Flat_2F_purchase(0, 0)
-}
-
 spriteset(set_FLAT_2F_CAR_empty_wagon, "src/wagon/Flat_car/Flat_2F_Car/Flat_2F_Car.png") {
     flat_2F_4040_Car(80, 0)
 }
@@ -126,8 +122,8 @@ spriteset(set_FLAT_2F_CAR_4053ft_loaded_09_wagon, "src/wagon/Flat_car/Flat_2F_Ca
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_FLAT_2F_purchase, cargo_subtype) {
-    set_FLAT_2F_CAR_purchase;
+spriteset(set_FLAT_2F_CAR_purchase, "src/wagon/Flat_car/Flat_2F_Car/Flat_2F_Car.png") {
+    tmpl_Flat_2F_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------

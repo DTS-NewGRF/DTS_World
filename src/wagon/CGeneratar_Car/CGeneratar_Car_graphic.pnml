@@ -15,7 +15,3 @@ spriteset(set_CGeneratar_Car_Green, "src/wagon/CGeneratar_Car/CGeneratar_Car.png
 spriteset(set_CGeneratar_Car_purchase, "src/wagon/CGeneratar_Car/CGeneratar_Car.png"){
     tmpl_wagon_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_CGeneratar_Car_purchase, cargo_subtype) {
-    set_CGeneratar_Car_purchase;
-}

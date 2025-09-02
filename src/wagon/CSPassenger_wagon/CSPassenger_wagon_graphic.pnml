@@ -35,7 +35,3 @@ spriteset(set_CSPassenger_wagon_Bed_1nd, "src/wagon/CSPassenger_wagon/CSPassenge
 spriteset(set_CSPassenger_wagon_purchase, "src/wagon/CSPassenger_wagon/CSPassenger_wagon_1F.png"){
     tmpl_wagon_purchase(0, 0)
 }
-
-switch(FEAT_TRAINS, SELF, sw_CSPassenger_wagon_purchase, cargo_subtype) {
-    set_CSPassenger_wagon_purchase;
-}

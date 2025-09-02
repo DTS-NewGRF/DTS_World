@@ -47,11 +47,6 @@ spriteset(set_Korail_6th_engineT, "src/metro/Korail/Korail_6th/Korail_6th.png"){
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Korail_6th_purchase, "src/metro/Korail/Korail_6th/Korail_6th.png"){
     tmpl_purchase(0, 0)
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_6th_purchase, cargo_subtype) {
-    set_Korail_6th_purchase;
 }

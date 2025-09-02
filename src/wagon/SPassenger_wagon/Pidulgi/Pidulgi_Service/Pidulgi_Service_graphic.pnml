@@ -12,7 +12,6 @@ spriteset(set_Pidulgi_Service_1964, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wag
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Pidulgi_Service_1960_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Service/Pidulgi_Service.png") {
     tmpl_wagon_purchase(0, 0)
 }
@@ -22,15 +21,7 @@ spriteset(set_Pidulgi_Service_1964_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
 }
 
 // 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1960_purchase, cargo_subtype) {
-    set_Pidulgi_Service_1960_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1964_purchase, cargo_subtype) {
-    set_Pidulgi_Service_1964_purchase;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_purchase, current_year) {
-    0..1963: sw_Pidulgi_Service_1960_purchase;
-    sw_Pidulgi_Service_1964_purchase;
+    0..1963: set_Pidulgi_Service_1960_purchase;
+    set_Pidulgi_Service_1964_purchase;
     }

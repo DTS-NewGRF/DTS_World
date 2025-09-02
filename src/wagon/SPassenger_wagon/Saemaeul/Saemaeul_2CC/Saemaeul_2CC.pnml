@@ -47,7 +47,7 @@ item (FEAT_TRAINS, Saemaeul_2cc, 2132){
 
     graphics {
         default:                        sw_Saemaeul_2cc_1Car;
-        purchase:                       sw_Saemaeul_2cc_purchase;
+        purchase:                       set_Saemaeul_2cc_purchase;
         cargo_capacity:                 sw_Saemaeul_2cc_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;

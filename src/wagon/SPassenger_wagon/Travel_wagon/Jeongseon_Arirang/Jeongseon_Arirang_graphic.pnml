@@ -12,7 +12,6 @@ spriteset(set_JA_A_New_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPa
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_JA_A_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Jeongseon_Arirang/Jeongseon_Arirang.png"){
     tmpl_wagon_purchase(0, 0)
 }

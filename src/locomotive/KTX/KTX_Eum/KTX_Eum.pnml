@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------------
 KTX-이음
 --------------------------------------------------------------------*/
+// Graphics
+#include "KTX_Eum_graphic.pnml"
+
 // Switch
 #include "KTX_Eum_switch.pnml"
 
@@ -19,7 +22,7 @@ item(FEAT_TRAINS, KTX_Eum, 2425){
         }
 
     graphics {
-        purchase:                       set_Locomotive_Common_1_purchase;
+        purchase:                       set_KTX_Eum_purchase;
         }
         }
 
@@ -70,7 +73,7 @@ item(FEAT_TRAINS, KTX_Eum_6Car, 2423){
     graphics {
         default:                        sw_KTX_Eum_6car_reversed;
         articulated_part:               sw_articulated_KTX_Eum_6car;
-        purchase:                       set_Locomotive_Common_1_purchase;
+        purchase:                       set_KTX_Eum_purchase;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
@@ -123,7 +126,7 @@ item(FEAT_TRAINS, KTX_Eum_12Car, 2426){
     graphics {
         default:                        sw_KTX_Eum_12car_reversed;
         articulated_part:               sw_articulated_KTX_Eum_12car;
-        purchase:                       set_Locomotive_Common_1_purchase;
+        purchase:                       set_KTX_Eum_purchase;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }

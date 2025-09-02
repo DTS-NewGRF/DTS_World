@@ -4,6 +4,7 @@
 // 도색명
 // 10량
 // 편성그래픽
+// 4량
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_2000_4car, position_in_vehid_chain % 4) {
     1:set_Seoulmetro_4th_2000_panto_wagon;
     2:set_Seoulmetro_4th_2000_panto_wagon;
@@ -11,6 +12,8 @@ switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_2000_4car, position_in_vehid_chain 
     set_Seoulmetro_4th_2000_engineH; //default
     }
 
+// 6량 8000호대
+// 서울교통공사 5세대 5000호대 열차 사용
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_8000_6car, position_in_vehid_chain % 6) {
     1:set_Seoulmetro_5th_5000_wagon;
     2:set_Seoulmetro_5th_5000_panto_wagon;
@@ -39,6 +42,7 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_8000_6car_reversed, vehicle_is_rev
     sw_Seoulmetro_4th_8000_6car_flipped;
 }
 
+// 6량 9000호대
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_9000_6car, position_in_vehid_chain % 6) {
     1:set_Seoulmetro_4th_9000_panto_wagon;
     2:set_Seoulmetro_4th_9000_wagon;
@@ -67,6 +71,7 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_9000_6car_reversed, vehicle_is_rev
     sw_Seoulmetro_4th_9000_6car_flipped;
 }
 
+// 8량 5000호대
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_5000_8car, position_in_vehid_chain % 8) {
     1:set_Seoulmetro_4th_5000_wagon_2_4_5D_6;
     2:set_Seoulmetro_4th_5000_wagon_3_7;
@@ -99,6 +104,7 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_5000_8car_reversed, vehicle_is_rev
     sw_Seoulmetro_4th_5000_8car_flipped;
 }
 
+// 8량 7000호대
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_7000_8car, position_in_vehid_chain % 8) {
     1:set_Seoulmetro_4th_7000_wagon;
     2:set_Seoulmetro_4th_7000_panto_wagon;
@@ -131,6 +137,7 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_7000_8car_reversed, vehicle_is_rev
     sw_Seoulmetro_4th_7000_8car_flipped;
 }
 
+// 10량 2000호대
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_2000_10car, position_in_vehid_chain % 10) {
     1:set_Seoulmetro_4th_2000_wagon;
     2:set_Seoulmetro_4th_2000_panto_wagon;
@@ -167,6 +174,7 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_2000_10car_reversed, vehicle_is_re
     sw_Seoulmetro_4th_2000_10car_flipped;
 }
 
+// 10량 4000호대
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_4000_10car, position_in_vehid_chain % 10) {
     1:set_Seoulmetro_4th_4000_wagon;
     2:set_Seoulmetro_4th_4000_panto_wagon;

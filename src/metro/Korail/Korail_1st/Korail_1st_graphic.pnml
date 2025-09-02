@@ -210,7 +210,6 @@ spriteset(set_Korail_1st_3000_New_engineT, "src/metro/Korail/Korail_1st/Korail_1
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-// 구매차량 그래픽
 spriteset(set_Korail_1st_3X1K_purchase, "src/metro/Korail/Korail_1st/Korail_1st_3X1K.png"){
     tmpl_purchase(0, 0)
 }
@@ -227,30 +226,14 @@ spriteset(set_Korail_1st_2030_purchase, "src/metro/Korail/Korail_1st/Korail_1st_
     tmpl_purchase(0, 0)
 }
 
-switch(FEAT_TRAINS, SELF, sw_Korail_1st_3X1K_purchase, cargo_subtype) {
-    set_Korail_1st_3X1K_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_1st_319K_purchase, cargo_subtype) {
-    set_Korail_1st_319K_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_1st_2030_purchase, cargo_subtype) {
-    set_Korail_1st_2030_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_1st_5000_purchase, cargo_subtype) {
-    set_Korail_1st_5000_purchase;
-}
-
 // 구매차량 등장년도
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_6Car_purchase, current_year) {
-    0..2004: sw_Korail_1st_2030_purchase;
-    sw_Korail_1st_3X1K_purchase;
+    0..2004: set_Korail_1st_2030_purchase;
+    set_Korail_1st_3X1K_purchase;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_10Car_purchase, current_year) {
-    0..1994: sw_Korail_1st_2030_purchase;
-    1996..2004: sw_Korail_1st_5000_purchase;
-    sw_Korail_1st_3X1K_purchase;
+    0..1994: set_Korail_1st_2030_purchase;
+    1996..2004: set_Korail_1st_5000_purchase;
+    set_Korail_1st_3X1K_purchase;
     }
