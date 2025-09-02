@@ -22,6 +22,7 @@
 * [열차추가] 서울교통공사 1000호대 2세대 VVVF 전동차, 서울교통공사 4000호대 6세대 VVVF 전동차. 서울교통공사 8000호대 5세대 VVVF 전동차 [8bpp, 2CC] ([#686](https://github.com/DTS-NewGRF/DTS/issues/686))
 * 열차변경] 대한민국 통근형 VVVF 전동차 중량 변경 ([#687](https://github.com/DTS-NewGRF/DTS/issues/687))
 * [열차변경] 대한민국 간선형 전동차 중량 변경 ([#688](https://github.com/DTS-NewGRF/DTS/issues/688))
+  * [버그] ITX-마음, ITX-마음 DD의 힘이 모두 1,000kw인 문제 ([#690](https://github.com/DTS-NewGRF/DTS/issues/690))
 * [열차변경] 대한민국 고속차량 중량 변경 ([#689](https://github.com/DTS-NewGRF/DTS/issues/689))
 
 ## 최근 등록 릴리즈
