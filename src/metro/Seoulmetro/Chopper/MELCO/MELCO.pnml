@@ -42,7 +42,7 @@ item(FEAT_TRAINS, Chopper_MELCO_4Car, 2270){
         //spec
         speed:                          120km/h;
         power:                          2400 kW;
-        weight:                         20 ton;
+        weight:                         160 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, Chopper_MELCO_6Car, 2271){
         //spec
         speed:                          120km/h;
         power:                          2400 kW;
-        weight:                         20 ton;
+        weight:                         240 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -150,7 +150,7 @@ item(FEAT_TRAINS, Chopper_MELCO_10Car, 2272){
         //spec
         speed:                          120km/h;
         power:                          3600 kW;
-        weight:                         20 ton;
+        weight:                         400 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

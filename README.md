@@ -8,7 +8,7 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.65] 2025.09.01 <br>
+[1.65] 2025.09.04 <br>
 [이슈 외 작업]
 * [속도] 변수 통합. 
   * 기존 열차이름_speed -> metro_110_speed 처럼 변경. / 지하철, 일반열차, 고속열차, 객차 등으로 구분적용. 
@@ -24,6 +24,8 @@
 * [열차변경] 대한민국 간선형 전동차 중량 변경 ([#688](https://github.com/DTS-NewGRF/DTS/issues/688))
   * [버그] ITX-마음, ITX-마음 DD의 힘이 모두 1,000kw인 문제 ([#690](https://github.com/DTS-NewGRF/DTS/issues/690))
 * [열차변경] 대한민국 고속차량 중량 변경 ([#689](https://github.com/DTS-NewGRF/DTS/issues/689))
+* [열차변경] 대한민국 저항제어, 강철제 초퍼제어 전동차 중량 변경 ([#691](https://github.com/DTS-NewGRF/DTS/issues/691))
+* [선로] 코드 사전 추가 (KLAG, KLMN)
 
 ## 최근 등록 릴리즈
 [1.64] 2025.07.13 <br>

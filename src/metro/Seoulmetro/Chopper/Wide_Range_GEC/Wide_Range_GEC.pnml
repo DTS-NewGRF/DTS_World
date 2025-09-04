@@ -42,7 +42,7 @@ item(FEAT_TRAINS, Chopper_Wide_Range_GEC_6Car, 2277){
         //spec
         speed:                          120km/h;
         power:                          2592 kW;
-        weight:                         20 ton;
+        weight:                         240 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, Chopper_Wide_Range_GEC_10Car, 2278){
         //spec
         speed:                          120km/h;
         power:                          3888 kW;
-        weight:                         20 ton;
+        weight:                         400 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

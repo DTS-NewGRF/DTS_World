@@ -42,7 +42,7 @@ item(FEAT_TRAINS, Rheostatic_S2000_4Car, 2266){
         //spec
         speed:                          120km/h;
         power:                          1800 kW;
-        weight:                         20 ton;
+        weight:                         160 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -97,7 +97,7 @@ item(FEAT_TRAINS, Rheostatic_S2000_6Car, 2267){
         //spec
         speed:                          120km/h;
         power:                          1800 kW;
-        weight:                         20 ton;
+        weight:                         240 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -152,7 +152,7 @@ item(FEAT_TRAINS, Rheostatic_S2000_10Car, 2268){
         //spec
         speed:                          120km/h;
         power:                          3600 kW;
-        weight:                         20 ton;
+        weight:                         400 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

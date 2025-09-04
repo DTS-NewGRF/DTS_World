@@ -45,8 +45,8 @@ railtypetable {
     RAIL, ELRL,
     KR_3RD_RAIL: ["3RDR"],
     KR_3LIM_RAIL: ["3LIM"],
-    LAGT,
-    GMNO,
+    LAGT, KLAG,
+    GMNO, KLMN,
     }
 
 // Load Template

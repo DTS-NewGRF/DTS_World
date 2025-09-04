@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Korail_Rheostatic_10Car, 2254){
         //spec
         speed:                          120km/h;
         power:                          2880 kW;
-        weight:                         20 ton;
+        weight:                         400 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
