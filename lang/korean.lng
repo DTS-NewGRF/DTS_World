@@ -813,6 +813,9 @@ STR_REFIT_LIVERY_KTX_Cheong_Ryong                      : 청룡
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_2nd                  : 청룡 2세대
 STR_REFIT_LIVERY_SRT_320                               : SRT 320
 STR_REFIT_LIVERY_KTX_Eum                               : KTX-이음
+STR_REFIT_LIVERY_KTX_Eum_1st_2nd                       : KTX-이음 1세대+2세대
+STR_REFIT_LIVERY_KTX_Eum_2nd_1st                       : KTX-이음 2세대+1세대
+STR_REFIT_LIVERY_KTX_Eum_2nd                           : KTX-이음 2세대
 STR_REFIT_LIVERY_KTX_Sancheon_A1                       : KTX-산천 A타입 초도분
 STR_REFIT_LIVERY_KTX_Sancheon_A2                       : KTX-산천 A타입 후기분
 STR_REFIT_LIVERY_KTX_Sancheon_B                        : KTX-산천 B타입
