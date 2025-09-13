@@ -7,12 +7,13 @@
 2024년 1월 `Diversity Train Set 다양성 열차세트 / DTS`로 이름을 변경하여 다양한 열차들을 수용하는데 적극적으로 추가진행하고 있다.<br>
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
-## 최근 등록 프리 릴리즈
-[1.65] 2025.09.07 <br>
+## 최근 등록 릴리즈
+[1.65] 2025.09.13 <br>
 [이슈 외 작업]
 * [속도] 변수 통합. 
   * 기존 열차이름_speed -> metro_110_speed 처럼 변경. / 지하철, 일반열차, 고속열차, 객차 등으로 구분적용. 
   * speed.pnml로 정리되었음.
+* [2025.09.13] 경유지, 오브젝트 선로셋 이관을 위한 삭제예정 문구 추가
 
 [이슈 작업]
 * [열차변경] SRT-320 중련용 그래픽 추가 (8bpp) ([#682](https://github.com/DTS-NewGRF/DTS/issues/682))
@@ -20,7 +21,7 @@
 * [열차변경] 서울교통공사 5000호대, 7000호대, 8000호대 전동차 그래픽 변경 [8bpp, 2CC] ([#684](https://github.com/DTS-NewGRF/DTS/issues/684))
 * [열차추가] 부산교통공사 2000호대 2세대 전동차 (8bpp, 회사 색상) ([#685](https://github.com/DTS-NewGRF/DTS/issues/685))
 * [열차추가] 서울교통공사 1000호대 2세대 VVVF 전동차, 서울교통공사 4000호대 6세대 VVVF 전동차. 서울교통공사 8000호대 5세대 VVVF 전동차 [8bpp, 2CC] ([#686](https://github.com/DTS-NewGRF/DTS/issues/686))
-* 열차변경] 대한민국 통근형 VVVF 전동차 중량 변경 ([#687](https://github.com/DTS-NewGRF/DTS/issues/687))
+* [열차변경] 대한민국 통근형 VVVF 전동차 중량 변경 ([#687](https://github.com/DTS-NewGRF/DTS/issues/687))
 * [열차변경] 대한민국 간선형 전동차 중량 변경 ([#688](https://github.com/DTS-NewGRF/DTS/issues/688))
   * [버그] ITX-마음, ITX-마음 DD의 힘이 모두 1,000kw인 문제 ([#690](https://github.com/DTS-NewGRF/DTS/issues/690))
 * [열차변경] 대한민국 고속차량 중량 변경 ([#689](https://github.com/DTS-NewGRF/DTS/issues/689))
@@ -29,32 +30,6 @@
 * [열차변경][도색추가] KTX-이음 2세대 ([#693](https://github.com/DTS-NewGRF/DTS/issues/693))
 * [열차변경][그래픽 변경] KTX-청룡 2세대 ([#695](https://github.com/DTS-NewGRF/DTS/issues/695))
   * [버그] KTX-청룡 2세대 TC 그래픽 오류 ([#696](https://github.com/DTS-NewGRF/DTS/issues/696))
-
-## 최근 등록 릴리즈
-[1.64] 2025.07.13 <br>
-[이슈 외 작업]
-* 사운드 파일 정리
-  * Sound.pnml의 스위치 코드로 정리
-  * `sw_열차이름_sound` -> `sw_사운드파일명_sound` 코드명 변경
-  * 부산교통공사는 기존수익사운드가 다르므로 `sw_사운드파일명_Busanmetro_sound`로 정의함
-
-[이슈 작업]
-* [버그] HYEL-150 그래픽 문제 ([#666](https://github.com/DTS-NewGRF/DTS/issues/666))
-* [열차변경] [단량]8600호대 전기기관차 컨셉 변경 ([#667](https://github.com/DTS-NewGRF/DTS/issues/667))
-* [버그] [4량] 한국철도공사 200000호대 전동차 (누리로) 의 중량이 지나치게 높게 되어있는 현상 ([#668](https://github.com/DTS-NewGRF/DTS/issues/668))
-* [열차변경] [2량]8600호대 전기기관차 컨셉 변경 ([#669](https://github.com/DTS-NewGRF/DTS/issues/669))
-* [열차변경] [3량]8600호대 전기기관차 & [4량]8600호대 전기기관차 컨셉 변경 ([#670](https://github.com/DTS-NewGRF/DTS/issues/670))
-  * [버그] HYEL-강산 운전객차가 후부에 위치할 때 그래픽 오류 ([#671](https://github.com/DTS-NewGRF/DTS/issues/671))
-  * [버그] [3량] HYEL-강산의 수송량 수정 ([#672](https://github.com/DTS-NewGRF/DTS/issues/672))
-  * [버그] HYEL-강산 M칸 그래픽 문제 ([#677](https://github.com/DTS-NewGRF/DTS/issues/677))
-* [열차변경] HYEL-강산 편성 수 추가 ([#673](https://github.com/DTS-NewGRF/DTS/issues/673))
-* [열차추가] SRT 320 ([#674](https://github.com/DTS-NewGRF/DTS/issues/674))
-* [열차변경][도색추가] KTX-청룡 2세대 ([#675](https://github.com/DTS-NewGRF/DTS/issues/675))
-* [열차변경] [가상] KTX-청룡 수송량 변경 ([#676](https://github.com/DTS-NewGRF/DTS/issues/676))
-* [열차변경] 통일호 일반실 도색 추가 ([#678](https://github.com/DTS-NewGRF/DTS/issues/678))
-* [버그] KTX, KTX-산천 특정 방향에서 그래픽 문제 ([#679](https://github.com/DTS-NewGRF/DTS/issues/679))
-* [열차변경] HYEL-무궁화 그래픽 변경 ([#680](https://github.com/DTS-NewGRF/DTS/issues/680))
-* [열차변경] HYEL-무궁화 DD 그래픽 변경 ([#681](https://github.com/DTS-NewGRF/DTS/issues/681))
 
 ## 인게임 등록
 ```

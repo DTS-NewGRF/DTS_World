@@ -604,25 +604,25 @@ STR_Showcase_Flat_1F_NAME                              :[Showcase] Flat Car
 STR_Showcase_Flat_2F_NAME                              :[Showcase] Flat Car - American
 
 # Object's name
-STR_OBJ_BUFFER                                         :Buffers
-STR_OBJ_BUFFER_Concrete                                :Concrete Buffers
-STR_OBJ_BUFFER_pebble                                  :pebble Buffers
-STR_OBJ_BUFFER_signboard                               :Train stopper Gravel track with signboard
+STR_OBJ_BUFFER                                         :{RED}[To be Deleted] {BLACK}Buffers
+STR_OBJ_BUFFER_Concrete                                :{RED}[To be Deleted] {BLACK}Concrete Buffers
+STR_OBJ_BUFFER_pebble                                  :{RED}[To be Deleted] {BLACK}pebble Buffers
+STR_OBJ_BUFFER_signboard                               :{RED}[To be Deleted] {BLACK}Train stopper Gravel track with signboard
 
 # Waypoint's name
-STR_Waypoint                                           :NoUse Station
-STR_Waypoint_Nousestation_HighA                        :NoUse High Station A
-STR_Waypoint_Nousestation_HighB                        :NoUse High Station B
-STR_Waypoint_Nousestation_LowA                         :NoUse Low Station A
-STR_Waypoint_Nousestation_LowB                         :NoUse Low Station B
-STR_Waypoint_Nousestation_ALowA                        :NoUse Low Asphalt Station A
-STR_Waypoint_Nousestation_ALowB                        :NoUse Low Asphalt Station B
-STR_Waypoint_Nousestation_HighA_Snow                   :NoUse High Snow Station A
-STR_Waypoint_Nousestation_HighB_Snow                   :NoUse High Snow Station B
-STR_Waypoint_Nousestation_LowA_Snow                    :NoUse Low Snow Station A
-STR_Waypoint_Nousestation_LowB_Snow                    :NoUse Low Snow Station B
-STR_Waypoint_Nousestation_ALowA_Snow                   :NoUse Low Asphalt Snow Station A
-STR_Waypoint_Nousestation_ALowB_Snow                   :NoUse Low Asphalt Snow Station B
+STR_Waypoint                                           :{RED}[To be Deleted] {BLACK}NoUse Station
+STR_Waypoint_Nousestation_HighA                        :{RED}[To be Deleted] {BLACK}NoUse High Station A
+STR_Waypoint_Nousestation_HighB                        :{RED}[To be Deleted] {BLACK}NoUse High Station B
+STR_Waypoint_Nousestation_LowA                         :{RED}[To be Deleted] {BLACK}NoUse Low Station A
+STR_Waypoint_Nousestation_LowB                         :{RED}[To be Deleted] {BLACK}NoUse Low Station B
+STR_Waypoint_Nousestation_ALowA                        :{RED}[To be Deleted] {BLACK}NoUse Low Asphalt Station A
+STR_Waypoint_Nousestation_ALowB                        :{RED}[To be Deleted] {BLACK}NoUse Low Asphalt Station B
+STR_Waypoint_Nousestation_HighA_Snow                   :{RED}[To be Deleted] {BLACK}NoUse High Snow Station A
+STR_Waypoint_Nousestation_HighB_Snow                   :{RED}[To be Deleted] {BLACK}NoUse High Snow Station B
+STR_Waypoint_Nousestation_LowA_Snow                    :{RED}[To be Deleted] {BLACK}NoUse Low Snow Station A
+STR_Waypoint_Nousestation_LowB_Snow                    :{RED}[To be Deleted] {BLACK}NoUse Low Snow Station B
+STR_Waypoint_Nousestation_ALowA_Snow                   :{RED}[To be Deleted] {BLACK}NoUse Low Asphalt Snow Station A
+STR_Waypoint_Nousestation_ALowB_Snow                   :{RED}[To be Deleted] {BLACK}NoUse Low Asphalt Snow Station B
 
 # Parameters
 STR_PARAM_max_virtual_speed_NAME                       :Virtual speed
