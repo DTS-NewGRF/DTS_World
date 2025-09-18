@@ -139,13 +139,3 @@ param {
             def_value: 1;
             }
     }
-
-param {
-        bool_simplise_waypoint {
-            type: bool;
-            name: string(STR_PARAM_Simple_Waypoint_NAME);
-            desc: string(STR_PARAM_Simple_Waypoint_DESC);
-            bit: 1;
-            def_value: 1;
-        }
-    }

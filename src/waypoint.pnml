@@ -2,4 +2,3 @@
 경유지 리스트
 --------------------------------------------------------------------*/
 #include "waypoint/Platforms/Platforms.pnml"
-#include "waypoint/Simple/Simple.pnml"

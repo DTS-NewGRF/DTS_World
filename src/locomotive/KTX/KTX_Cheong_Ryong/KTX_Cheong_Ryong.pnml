@@ -74,7 +74,7 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_8Car, 2229){
         default:                        sw_KTX_Cheong_Ryong_8car_reversed;
         articulated_part:               sw_articulated_KTX_Cheong_Ryong_8car;
         purchase:                       KTX_Cheong_Ryong_purchase;
-        speed:                          sw_High_305_speed;
+        speed:                          sw_High_320_speed;
         cargo_capacity:                 sw_KTX_Cheong_Ryong_capacity_in_custom;
         loading_speed:                  25;
         cargo_subtype_text:             sw_KTX_Cheong_Ryong_cargo_subtype_text;
@@ -130,7 +130,7 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_16Car, 2428){
         default:                        sw_KTX_Cheong_Ryong_16car_reversed;
         articulated_part:               sw_articulated_KTX_Cheong_Ryong_16car;
         purchase:                       KTX_Cheong_Ryong_purchase;
-        speed:                          sw_High_305_speed;
+        speed:                          sw_High_320_speed;
         cargo_capacity:                 sw_KTX_Cheong_Ryong_capacity_in_custom;
         loading_speed:                  25;
         cargo_subtype_text:             sw_KTX_Cheong_Ryong_cargo_subtype_text;
