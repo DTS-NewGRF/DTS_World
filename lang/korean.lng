@@ -1043,6 +1043,8 @@ STR_REFIT_LIVERY_Korail_4th_G3_392000                  : 한국철도공사 4세
 STR_REFIT_LIVERY_Korail_4th_G3_393000                  : 393000호대
 STR_REFIT_LIVERY_Korail_5th_Nomal                      : 기본형
 STR_REFIT_LIVERY_Korail_5th_Update_software            : 소프트웨어개선
+STR_REFIT_LIVERY_Korail_6th_Concept1                   : 시안1
+STR_REFIT_LIVERY_Korail_6th_Concept1_2cc               : 시안1 2cc
 STR_REFIT_LIVERY_Korail_First_K1000_Initial            : 초기저항 철도청 초기도색 [비냉방]
 STR_REFIT_LIVERY_Korail_First_K1000_Initial_Aircon_A   : 초기저항 철도청 초기도색 [냉방개조]
 STR_REFIT_LIVERY_Korail_First_K1000_Initial_Aircon_B   : 초기저항 철도청 초기도색 [냉방개조] 중기저항객차 편성

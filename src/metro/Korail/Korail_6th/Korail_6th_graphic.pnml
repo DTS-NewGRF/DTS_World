@@ -45,8 +45,51 @@ spriteset(set_Korail_6th_engineT, "src/metro/Korail/Korail_6th/Korail_6th.png"){
 }
 
 /*--------------------------------------------------------------------
+Korail_6세대 전동차 2CC
+--------------------------------------------------------------------*/
+spriteset(set_Korail_6th_2cc_engineH, "src/metro/Korail/Korail_6th/Korail_6th_2cc.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Korail_6th_2cc_engineH_r, "src/metro/Korail/Korail_6th/Korail_6th_2cc.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Korail_6th_2cc_wagon, "src/metro/Korail/Korail_6th/Korail_6th_2cc.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Korail_6th_2cc_wagon_r, "src/metro/Korail/Korail_6th/Korail_6th_2cc.png"){
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_Korail_6th_2cc_wagon_only_4car, "src/metro/Korail/Korail_6th/Korail_6th_2cc.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Korail_6th_2cc_wagon_only_4car_r, "src/metro/Korail/Korail_6th/Korail_6th_2cc.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_Korail_6th_2cc_panto_wagon, "src/metro/Korail/Korail_6th/Korail_6th_2cc.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_Korail_6th_2cc_panto_wagon_r, "src/metro/Korail/Korail_6th/Korail_6th_2cc.png"){
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_Korail_6th_2cc_engineT_r, "src/metro/Korail/Korail_6th/Korail_6th_2cc.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_Korail_6th_2cc_engineT, "src/metro/Korail/Korail_6th/Korail_6th_2cc.png"){
+    DTS_temp(80, 162)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_Korail_6th_purchase, "src/metro/Korail/Korail_6th/Korail_6th.png"){
+spriteset(set_Korail_6th_purchase, "src/metro/Korail/Korail_6th/Korail_6th_2cc.png"){
     tmpl_purchase(0, 0)
 }

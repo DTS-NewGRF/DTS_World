@@ -51,7 +51,7 @@ switch(FEAT_TRAINS, SELF, sw_Regular_110_speed, Use_max_virtual_speed) {
     return 110;
     }
 
-switch(FEAT_TRAINS, SELF, sw_wagon_110_speed, Use_max_virtual_speed) {
+switch(FEAT_TRAINS, SELF, sw_wagon_110_speed, Use_Passengercar_Real_speed) {
     1: return 110;
     return 0;
     }
@@ -77,7 +77,7 @@ switch(FEAT_TRAINS, SELF, sw_Regular_120_speed, Use_max_virtual_speed) {
     return 120;
     }
 
-switch(FEAT_TRAINS, SELF, sw_wagon_120_speed, Use_max_virtual_speed) {
+switch(FEAT_TRAINS, SELF, sw_wagon_120_speed, Use_Passengercar_Real_speed) {
     1: return 120;
     return 0;
     }
@@ -106,7 +106,7 @@ switch(FEAT_TRAINS, SELF, sw_Regular_150_speed, Use_max_virtual_speed) {
     return 150;
     }
 
-switch(FEAT_TRAINS, SELF, sw_wagon_150_speed, Use_max_virtual_speed) {
+switch(FEAT_TRAINS, SELF, sw_wagon_150_speed, Use_Passengercar_Real_speed) {
     1: return 150;
     return 0;
     }

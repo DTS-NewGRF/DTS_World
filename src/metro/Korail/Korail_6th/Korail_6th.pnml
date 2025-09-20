@@ -73,6 +73,7 @@ item(FEAT_TRAINS, Korail_6th_4Car, 2531){
         articulated_part:               sw_articulated_Korail_6th_4car;
         purchase:                       set_Korail_6th_purchase;
         speed:                          sw_Metro_110_speed;
+        cargo_subtype_text:             sw_Korail_6th_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -127,6 +128,7 @@ item(FEAT_TRAINS, Korail_6th_6Car, 2532){
         articulated_part:               sw_articulated_Korail_6th_6car;
         purchase:                       set_Korail_6th_purchase;
         speed:                          sw_Metro_110_speed;
+        cargo_subtype_text:             sw_Korail_6th_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -181,6 +183,7 @@ item(FEAT_TRAINS, Korail_6th_8Car, 2533){
         articulated_part:               sw_articulated_Korail_6th_8car;
         purchase:                       set_Korail_6th_purchase;
         speed:                          sw_Metro_110_speed;
+        cargo_subtype_text:             sw_Korail_6th_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
