@@ -85,6 +85,10 @@ spriteset(set_Generatar_Real_Stream_lined_GY, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP
     DTS_temp_mini_7(80, 108)
 }
 
+spriteset(set_Generatar_Real_Stream_lined_LMM, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    DTS_temp_mini_7(80, 540)
+}
+
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
@@ -108,11 +112,16 @@ spriteset(set_Generatar_Real_Stream_lined_2024_purchase, ZOOM_LEVEL_NORMAL, BIT_
     tmpl_wagon_purchase(0, 108)
 }
 
+spriteset(set_Generatar_Real_Stream_lined_2025_purchase, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png"){
+    tmpl_wagon_purchase(0, 540)
+}
+
 // 구매차량 등장년도
 switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_purchase, current_year) {
     0..1990: set_Generatar_Real_Stream_lined_1990_purchase;
     1991..1995: set_Generatar_Real_Stream_lined_1991_purchase;
     1996..2005: set_Generatar_Real_Stream_lined_1996_purchase;
     2006..2023: set_Generatar_Real_Stream_lined_2006_purchase;
-    set_Generatar_Real_Stream_lined_2024_purchase;
+    2024: set_Generatar_Real_Stream_lined_2024_purchase;
+    set_Generatar_Real_Stream_lined_2025_purchase;
     }
