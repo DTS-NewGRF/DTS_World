@@ -184,7 +184,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_5000_8Car, 2401){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
+        sound_effect:                   sw_DAWONSYS_HITSCHI_PMSM_sound;
         }
         }
 

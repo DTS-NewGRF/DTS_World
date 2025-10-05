@@ -73,7 +73,7 @@ item(FEAT_TRAINS, Seoulmetro_6th_7000_8Car, 2560){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
+        sound_effect:                   sw_DAWONSYS_HITSCHI_PMSM_sound;
         }
         }
 
