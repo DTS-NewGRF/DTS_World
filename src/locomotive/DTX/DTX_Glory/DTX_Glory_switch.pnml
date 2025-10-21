@@ -3,121 +3,144 @@
 --------------------------------------------------------------------*/
 //도색명
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_DTX_Glory_Origin);
-    return string(STR_REFIT_LIVERY_DTX_Glory_2Year);
+    1: return string(STR_REFIT_LIVERY_DTX_Glory_1Year);
+    2: return string(STR_REFIT_LIVERY_DTX_Glory_2Year);
+    return string(STR_REFIT_LIVERY_DTX_Glory_APEC_2025);
 }
 
 // 열차
 // 20량
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_engineH, cargo_subtype) {
     1: set_DTX_Glory_engineH;
-    set_DTX_Glory_2year_engineH;
+    2: set_DTX_Glory_2year_engineH;
+    set_DTX_Glory_APEC_2025_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T1, cargo_subtype) {
     1: set_DTX_Glory_wagon_T1;
-    set_DTX_Glory_2year_wagon_T1;
+    2: set_DTX_Glory_2year_wagon_T1;
+    set_DTX_Glory_APEC_2025_wagon_T1;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T2, cargo_subtype) {
     1: set_DTX_Glory_wagon_T2;
-    set_DTX_Glory_2year_wagon_T2;
+    2: set_DTX_Glory_2year_wagon_T2;
+    set_DTX_Glory_APEC_2025_wagon_T2;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T3, cargo_subtype) {
     1: set_DTX_Glory_wagon_T3;
-    set_DTX_Glory_2year_wagon_T3;
+    2: set_DTX_Glory_2year_wagon_T3;
+    set_DTX_Glory_APEC_2025_wagon_T3;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T4, cargo_subtype) {
     1: set_DTX_Glory_wagon_T4;
-    set_DTX_Glory_2year_wagon_T4;
+    2: set_DTX_Glory_2year_wagon_T4;
+    set_DTX_Glory_APEC_2025_wagon_T4;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T5, cargo_subtype) {
     1: set_DTX_Glory_wagon_T5;
-    set_DTX_Glory_2year_wagon_T5;
+    2: set_DTX_Glory_2year_wagon_T5;
+    set_DTX_Glory_APEC_2025_wagon_T5;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T6, cargo_subtype) {
     1: set_DTX_Glory_wagon_T6;
-    set_DTX_Glory_2year_wagon_T6;
+    2: set_DTX_Glory_2year_wagon_T6;
+    set_DTX_Glory_APEC_2025_wagon_T6;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T7, cargo_subtype) {
     1: set_DTX_Glory_wagon_T7;
-    set_DTX_Glory_2year_wagon_T7;
+    2: set_DTX_Glory_2year_wagon_T7;
+    set_DTX_Glory_APEC_2025_wagon_T7;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T8, cargo_subtype) {
     1: set_DTX_Glory_wagon_T8;
-    set_DTX_Glory_2year_wagon_T8;
+    2: set_DTX_Glory_2year_wagon_T8;
+    set_DTX_Glory_APEC_2025_wagon_T8;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T9, cargo_subtype) {
     1: set_DTX_Glory_wagon_T9;
-    set_DTX_Glory_2year_wagon_T9;
+    2: set_DTX_Glory_2year_wagon_T9;
+    set_DTX_Glory_APEC_2025_wagon_T9;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_engineT, cargo_subtype) {
     1: set_DTX_Glory_engineT;
-    set_DTX_Glory_2year_engineT;
+    2: set_DTX_Glory_2year_engineT;
+    set_DTX_Glory_APEC_2025_engineT;
 }
 
 // 20량 뒤집힘
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_engineH_r, cargo_subtype) {
     1: set_DTX_Glory_engineH_r;
-    set_DTX_Glory_2year_engineH_r;
+    2: set_DTX_Glory_2year_engineH_r;
+    set_DTX_Glory_APEC_2025_engineH_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T1_r, cargo_subtype) {
     1: set_DTX_Glory_wagon_T1_r;
-    set_DTX_Glory_2year_wagon_T1_r;
+    2: set_DTX_Glory_2year_wagon_T1_r;
+    set_DTX_Glory_APEC_2025_wagon_T1_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T2_r, cargo_subtype) {
     1: set_DTX_Glory_wagon_T2_r;
-    set_DTX_Glory_2year_wagon_T2_r;
+    2: set_DTX_Glory_2year_wagon_T2_r;
+    set_DTX_Glory_APEC_2025_wagon_T2_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T3_r, cargo_subtype) {
     1: set_DTX_Glory_wagon_T3_r;
-    set_DTX_Glory_2year_wagon_T3_r;
+    2: set_DTX_Glory_2year_wagon_T3_r;
+    set_DTX_Glory_APEC_2025_wagon_T3_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T4_r, cargo_subtype) {
     1: set_DTX_Glory_wagon_T4_r;
-    set_DTX_Glory_2year_wagon_T4_r;
+    2: set_DTX_Glory_2year_wagon_T4_r;
+    set_DTX_Glory_APEC_2025_wagon_T4_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T5_r, cargo_subtype) {
     1: set_DTX_Glory_wagon_T5_r;
-    set_DTX_Glory_2year_wagon_T5_r;
+    2: set_DTX_Glory_2year_wagon_T5_r;
+    set_DTX_Glory_APEC_2025_wagon_T5_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T6_r, cargo_subtype) {
     1: set_DTX_Glory_wagon_T6_r;
-    set_DTX_Glory_2year_wagon_T6_r;
+    2: set_DTX_Glory_2year_wagon_T6_r;
+    set_DTX_Glory_APEC_2025_wagon_T6_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T7_r, cargo_subtype) {
     1: set_DTX_Glory_wagon_T7_r;
-    set_DTX_Glory_2year_wagon_T7_r;
+    2: set_DTX_Glory_2year_wagon_T7_r;
+    set_DTX_Glory_APEC_2025_wagon_T7_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T8_r, cargo_subtype) {
     1: set_DTX_Glory_wagon_T8_r;
-    set_DTX_Glory_2year_wagon_T8_r;
+    2: set_DTX_Glory_2year_wagon_T8_r;
+    set_DTX_Glory_APEC_2025_wagon_T8_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_T9_r, cargo_subtype) {
     1: set_DTX_Glory_wagon_T9_r;
-    set_DTX_Glory_2year_wagon_T9_r;
+    2: set_DTX_Glory_2year_wagon_T9_r;
+    set_DTX_Glory_APEC_2025_wagon_T9_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_engineT_r, cargo_subtype) {
     1: set_DTX_Glory_engineT_r;
-    set_DTX_Glory_2year_engineT_r;
+    2: set_DTX_Glory_2year_engineT_r;
+    set_DTX_Glory_APEC_2025_engineT_r;
 }
 
 // 편성그래픽
@@ -184,15 +207,15 @@ switch (FEAT_TRAINS, SELF, sw_articulated_DTX_Glory_20car, extra_callback_info1)
     }
 
 // 유지비 변수
-switch(FEAT_TRAINS, SELF, sw_DTX_Glory_running_cost_factor_2140, Use_max_virtual_speed) {
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_running_cost_factor_2025, Use_max_virtual_speed) {
     0;
     }
 
-switch(FEAT_TRAINS, SELF, sw_DTX_Glory_running_cost_factor_3140, Use_max_virtual_speed) {
+switch(FEAT_TRAINS, SELF, sw_DTX_Glory_running_cost_factor_2125, Use_max_virtual_speed) {
     150;
     }
 
 switch(FEAT_TRAINS, SELF, sw_DTX_Glory_running_cost_factor, current_year) {
-    0..3139: sw_DTX_Glory_running_cost_factor_2140;
-    sw_DTX_Glory_running_cost_factor_3140;
+    0..2124: sw_DTX_Glory_running_cost_factor_2025;
+    sw_DTX_Glory_running_cost_factor_2125;
     }

@@ -950,8 +950,9 @@ STR_REFIT_LIVERY_Shinkansen_E5_E6                      : 신칸센 E5+E6계
 STR_REFIT_LIVERY_Shinkansen_E5_E8                      : 신칸센 E5+E8계
 STR_REFIT_LIVERY_Shinkansen_H5_E6                      : 신칸센 H5+E6계
 STR_REFIT_LIVERY_Shinkansen_H5_E8                      : 신칸센 H5+E8계
-STR_REFIT_LIVERY_DTX_Glory_Origin                      : 기본도색
+STR_REFIT_LIVERY_DTX_Glory_1Year                       : 1주년 도색
 STR_REFIT_LIVERY_DTX_Glory_2Year                       : 2주년 도색
+STR_REFIT_LIVERY_DTX_Glory_APEC_2025                   : APEC 2025
 STR_REFIT_LIVERY_DTX_Sobaek_150                        : 151km/h
 STR_REFIT_LIVERY_DTX_Sobaek_260                        : 260km/h
 STR_REFIT_LIVERY_HYEL_100                              : 수소열차

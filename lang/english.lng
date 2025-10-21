@@ -950,8 +950,9 @@ STR_REFIT_LIVERY_Shinkansen_E5_E6                      : Shinkansen E5+E6
 STR_REFIT_LIVERY_Shinkansen_E5_E8                      : Shinkansen E5+E8
 STR_REFIT_LIVERY_Shinkansen_H5_E6                      : Shinkansen H5+E6
 STR_REFIT_LIVERY_Shinkansen_H5_E8                      : Shinkansen H5+E8
-STR_REFIT_LIVERY_DTX_Glory_Origin                      : Original
+STR_REFIT_LIVERY_DTX_Glory_1Year                       : 1Year Livery
 STR_REFIT_LIVERY_DTX_Glory_2Year                       : 2Year Livery
+STR_REFIT_LIVERY_DTX_Glory_APEC_2025                   : APEC 2025
 STR_REFIT_LIVERY_DTX_Sobaek_150                        : 151km/h
 STR_REFIT_LIVERY_DTX_Sobaek_260                        : 260km/h
 STR_REFIT_LIVERY_HYEL_100                              : Hydrogen Train
