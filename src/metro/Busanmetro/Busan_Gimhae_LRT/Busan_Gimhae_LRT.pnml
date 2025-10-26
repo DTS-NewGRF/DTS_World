@@ -58,6 +58,6 @@ item(FEAT_TRAINS, Busan_Gimhae_LRT_2Car, 2407){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_MITSUBISHIigbt2start_Busanmetro_sound;
+        sound_effect:                   sw_MITSUBISHIigbt2start_sound;
         }
         }
