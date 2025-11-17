@@ -123,7 +123,7 @@ switch(FEAT_TRAINS, SELF, sw_Regular_160_speed, Use_max_virtual_speed) {
 속도 180
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_180_speed, Use_max_virtual_speed) {
-    1: return Semi_High_SPEED_Train;
+    1: return Regular_High_Speed_Train;
     return 180;
     }
 

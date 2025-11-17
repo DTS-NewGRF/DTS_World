@@ -626,33 +626,35 @@ STR_Waypoint_Nousestation_ALowB_Snow                   :{RED}[삭제예정] {BLA
 
 # Parameters
 STR_PARAM_max_virtual_speed_NAME                       :가상속도 적용
-STR_PARAM_max_virtual_speed_DESC                       :가상속도를 적용할지 체크합니다. (기본:현실속도)
+STR_PARAM_max_virtual_speed_DESC                       :가상속도를 적용할지 체크합니다.{}- 기본:현실속도
 STR_PARAM_Metro_SPEED_Train_NAME                       :가상 지하철 속도변수
-STR_PARAM_Metro_SPEED_Train_DESC                       :가상 지하철의 속도를 조정합니다. (기본:121km/h)
+STR_PARAM_Metro_SPEED_Train_DESC                       :가상 지하철의 속도를 조정합니다.{}- 기본:121km/h
 STR_PARAM_Regular_SPEED_Train_NAME                     :가상 일반열차 속도변수
-STR_PARAM_Regular_SPEED_Train_DESC                     :가상 일반열차의 속도를 조정합니다. (기본:151km/h)
+STR_PARAM_Regular_SPEED_Train_DESC                     :가상 일반열차의 속도를 조정합니다.{}- 기본:151km/h
+STR_PARAM_Regular_High_SPEED_Train_NAME                :가상 일반 준고속열차 속도변수
+STR_PARAM_Regular_High_SPEED_Train_DESC                :가상 일반 준고속열차의 속도를 조정합니다.{}- 기본:181km/h{}- 대상열차 : GTX, TTX
 STR_PARAM_Semi_High_SPEED_Train_NAME                   :가상 준고속열차 속도변수
-STR_PARAM_Semi_High_SPEED_Train_DESC                   :가상 준고속열차의 속도를 조정합니다. (기본:181km/h)
+STR_PARAM_Semi_High_SPEED_Train_DESC                   :가상 준고속열차의 속도를 조정합니다.{}- 기본:250km/h
 STR_PARAM_High_SPEED_Train_NAME                        :가상 고속열차 속도변수
-STR_PARAM_High_SPEED_Train_DESC                        :가상 고속열차의 속도를 조정합니다. (기본:331km/h)
-STR_PARAM_High_SPEED_Train_430_NAME                    :가상 고속열차 속도변수 (430km/h 열차속도조절)
-STR_PARAM_High_SPEED_Train_430_DESC                    :가상 고속열차의 속도를 조정합니다. (기본:430km/h)
+STR_PARAM_High_SPEED_Train_DESC                        :가상 고속열차의 속도를 조정합니다.{}- 기본:331km/h
+STR_PARAM_High_SPEED_Train_430_NAME                    :가상 초고속 열차 속도변수
+STR_PARAM_High_SPEED_Train_430_DESC                    :가상 초고속 열차의 속도를 조정합니다.{}- 기본:430km/h{}- 대상열차 : 430km/h 고속열차
 STR_PARAM_High_SPEED_Train_Test_NAME                   :가상 검측차 고속열차 속도변수
-STR_PARAM_High_SPEED_Train_Test_DESC                   :가상 검측차 고속열차의 속도를 조정합니다. (기본:600km/h)
+STR_PARAM_High_SPEED_Train_Test_DESC                   :가상 검측차 고속열차의 속도를 조정합니다.{}- 기본:600km/h
 STR_PARAM_Chinese_NAME                                 :중국형 열차 사용 금지
-STR_PARAM_Chinese_DESC                                 :중국형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Chinese_DESC                                 :중국형 열차를 사용시 체크하세요.{}- 기본:미사용
 STR_PARAM_Hong_Kong_NAME                               :홍콩형 열차 사용 금지
-STR_PARAM_Hong_Kong_DESC                               :홍콩형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Hong_Kong_DESC                               :홍콩형 열차를 사용시 체크하세요.{}- 기본:미사용
 STR_PARAM_European_NAME                                :유럽형 열차 사용 금지
-STR_PARAM_European_DESC                                :유럽형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_European_DESC                                :유럽형 열차를 사용시 체크하세요.{}- 기본:미사용
 STR_PARAM_Japanese_NAME                                :일본형 열차 사용 금지
-STR_PARAM_Japanese_DESC                                :일본형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Japanese_DESC                                :일본형 열차를 사용시 체크하세요.{}- 기본:미사용
 STR_PARAM_World_NAME                                   :월드형 열차 사용 금지
-STR_PARAM_World_DESC                                   :월드형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_World_DESC                                   :월드형 열차를 사용시 체크하세요.{}- 기본:미사용
 STR_PARAM_Maintenance_NAME                             :유지보수차량 사용 금지
-STR_PARAM_Maintenance_DESC                             :유지보수차량 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Maintenance_DESC                             :유지보수차량 사용시 체크하세요.{}- 기본:미사용
 STR_PARAM_Passengercar_Real_speed_NAME                 :객차의 속도를 제어합니다.
-STR_PARAM_Passengercar_Real_speed_DESC                 :실제 객차 속도를 희망시 체크하세요. (기본:객차속도제한)
+STR_PARAM_Passengercar_Real_speed_DESC                 :실제 객차 속도를 희망시 체크하세요.{}- 기본:객차속도제한
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] A-Train

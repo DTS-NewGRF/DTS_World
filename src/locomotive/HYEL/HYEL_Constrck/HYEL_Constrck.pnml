@@ -54,6 +54,7 @@ item(FEAT_TRAINS, HYEL_Constrck, 2320){
         default:                        sw_HYEL_Constrck_12car_reversed;
         articulated_part:               sw_articulated_HYEL_Constrck;
         purchase:                       set_HYEL_Constrck_purchase;
+        speed:                          sw_High_180_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         loading_speed:                  25;

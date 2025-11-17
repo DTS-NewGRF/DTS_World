@@ -53,6 +53,7 @@ item(FEAT_TRAINS, HYEL_150, 2141){
     graphics {
         default:                        sw_HYEL_150_engine_1Car;
         purchase:                       set_HYEL_150_purchase;
+        speed:                          sw_High_180_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

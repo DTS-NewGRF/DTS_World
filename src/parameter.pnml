@@ -34,13 +34,24 @@ param {
     }
 
 param {
+        Regular_High_Speed_Train {
+            type: int;
+            name: string(STR_PARAM_Regular_High_SPEED_Train_NAME);
+            desc: string(STR_PARAM_Regular_High_SPEED_Train_DESC);
+            min_value: 180;
+            max_value: 259;
+            def_value: 180;
+            }
+    }
+
+param {
         Semi_High_SPEED_Train {
             type: int;
             name: string(STR_PARAM_Semi_High_SPEED_Train_NAME);
             desc: string(STR_PARAM_Semi_High_SPEED_Train_DESC);
-            min_value: 180;
-            max_value: 259;
-            def_value: 180;
+            min_value: 249;
+            max_value: 379;
+            def_value: 249;
             }
     }
 

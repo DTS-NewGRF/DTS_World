@@ -73,6 +73,7 @@ item(FEAT_TRAINS, HYEL_300_8Car, 2110){
         default:                        sw_HYEL_300_8car_reversed;
         articulated_part:               sw_articulated_HYEL_300_8car;
         purchase:                       set_HYEL_300_purchase;
+        speed:                          sw_High_180_speed;
         cargo_capacity:                 sw_HYEL_300_8car_capacity_in_custom;
         cost_factor:                    10;
         loading_speed:                  25;
@@ -129,6 +130,7 @@ item(FEAT_TRAINS, HYEL_300_10Car, 2484){
         default:                        sw_HYEL_300_10car_reversed;
         articulated_part:               sw_articulated_HYEL_300_10car;
         purchase:                       set_HYEL_300_purchase;
+        speed:                          sw_High_180_speed;
         cargo_capacity:                 sw_HYEL_300_10car_capacity_in_custom;
         cost_factor:                    10;
         loading_speed:                  25;

@@ -52,6 +52,7 @@ item(FEAT_TRAINS, Shinkansen_800_6Car, 2088){
         default:                        sw_Shinkansen_800_6car;
         articulated_part:               sw_articulated_Shinkansen_800_6car;
         purchase:                       set_Shinkansen_800_purchase;
+        speed:                          sw_High_250_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

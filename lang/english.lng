@@ -626,33 +626,35 @@ STR_Waypoint_Nousestation_ALowB_Snow                   :{RED}[To be Deleted] {BL
 
 # Parameters
 STR_PARAM_max_virtual_speed_NAME                       :Virtual speed
-STR_PARAM_max_virtual_speed_DESC                       :Please check Virtual Speed. (Default: noVirtual speed)
+STR_PARAM_max_virtual_speed_DESC                       :Please check Virtual Speed.{}- Default: noVirtual speed
 STR_PARAM_Metro_SPEED_Train_NAME                       :Metro Train Virtual Speed Variable
-STR_PARAM_Metro_SPEED_Train_DESC                       :Adjust the Virtual speed of the Metro-speed train (Default:121km/h)
+STR_PARAM_Metro_SPEED_Train_DESC                       :Adjust the Virtual speed of the Metro-speed train{}- Default:121km/h
 STR_PARAM_Regular_SPEED_Train_NAME                     :Regular Train Virtual speed Variable
-STR_PARAM_Regular_SPEED_Train_DESC                     :Adjust the Virtual speed of the Regular-speed train (Default:151km/h)
+STR_PARAM_Regular_SPEED_Train_DESC                     :Adjust the Virtual speed of the Regular-speed train{}- Default:151km/h
+STR_PARAM_Regular_High_SPEED_Train_NAME                :Regular High Train Virtual speed Variable
+STR_PARAM_Regular_High_SPEED_Train_DESC                :Adjust the Virtual speed of the Regular High speed train{}- Default:181km/h
 STR_PARAM_Semi_High_SPEED_Train_NAME                   :Semi High Virtual speed Train Speed variable
-STR_PARAM_Semi_High_SPEED_Train_DESC                   :Adjust the Virtual speed of the Semi High Speed Train (Default:181km/h)
+STR_PARAM_Semi_High_SPEED_Train_DESC                   :Adjust the Virtual speed of the Semi High Speed Train{}- Default:250km/h
 STR_PARAM_High_SPEED_Train_NAME                        :High Virtual speed Train
-STR_PARAM_High_SPEED_Train_DESC                        :Adjust the Virtual speed of the high-speed train (Default:331km/h)
-STR_PARAM_High_SPEED_Train_430_NAME                    :High Virtual speed Train (430km/h train speed control)
-STR_PARAM_High_SPEED_Train_430_DESC                    :Adjust the Virtual speed of the high-speed train (Default:430km/h)
+STR_PARAM_High_SPEED_Train_DESC                        :Adjust the Virtual speed of the high-speed train{}- Default:331km/h
+STR_PARAM_High_SPEED_Train_430_NAME                    :High Virtual 430 speed Train
+STR_PARAM_High_SPEED_Train_430_DESC                    :Adjust the Virtual speed of the high-speed train{}- Default:430km/h{}- 430km/h train speed control
 STR_PARAM_High_SPEED_Train_Test_NAME                   :Test High Virtual speed Train
-STR_PARAM_High_SPEED_Train_Test_DESC                   :Adjust the Virtual speed of the Test high-speed train (Default:600km/h)
+STR_PARAM_High_SPEED_Train_Test_DESC                   :Adjust the Virtual speed of the Test high-speed train{}- Default:600km/h
 STR_PARAM_Chinese_NAME                                 :No Chinese trains allowed.
-STR_PARAM_Chinese_DESC                                 :Please check when using Chinese trains. (Default: unused)
+STR_PARAM_Chinese_DESC                                 :Please check when using Chinese trains.{}- Default: unused
 STR_PARAM_Hong_Kong_NAME                               :No Hong Kong trains allowed.
-STR_PARAM_Hong_Kong_DESC                               :Please check when using Hong Kong trains. (Default: unused)
+STR_PARAM_Hong_Kong_DESC                               :Please check when using Hong Kong trains.{}- Default: unused
 STR_PARAM_European_NAME                                :No European trains allowed.
-STR_PARAM_European_DESC                                :Please check when using European trains. (Default: unused)
+STR_PARAM_European_DESC                                :Please check when using European trains.{}- Default: unused
 STR_PARAM_Japanese_NAME                                :No Japanese trains allowed.
-STR_PARAM_Japanese_DESC                                :Please check when using Japanese trains. (Default: unused)
+STR_PARAM_Japanese_DESC                                :Please check when using Japanese trains.{}- Default: unused
 STR_PARAM_World_NAME                                   :No World trains allowed.
-STR_PARAM_World_DESC                                   :Please check when using World trains. (Default: unused)
+STR_PARAM_World_DESC                                   :Please check when using World trains.{}- Default: unused
 STR_PARAM_Maintenance_NAME                             :No Maintenance trains allowed.
-STR_PARAM_Maintenance_DESC                             :Please check when using Maintenance trains. (Default: unused)
+STR_PARAM_Maintenance_DESC                             :Please check when using Maintenance trains.{}- Default: unused
 STR_PARAM_Passengercar_Real_speed_NAME                 :Controls the speed of the carriage.
-STR_PARAM_Passengercar_Real_speed_DESC                 :Check the actual carriage speed if desired. (Basic: Passenger car speed limit)
+STR_PARAM_Passengercar_Real_speed_DESC                 :Check the actual carriage speed if desired.{}- Basic: Passenger car speed limit
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}train configuration {}{GREEN} A-Train Passenger Car
