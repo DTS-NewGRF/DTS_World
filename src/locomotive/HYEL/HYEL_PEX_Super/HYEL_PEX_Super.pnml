@@ -74,7 +74,7 @@ item (FEAT_TRAINS, HYEL_PEX_Super_8Car, 2436){
         default:                        sw_HYEL_PEX_Super_8car_reversed;
         articulated_part:               sw_articulated_HYEL_PEX_Super_8car;
         purchase:                       set_HYEL_PEX_Super_purchase;
-        speed:                          sw_High_250_speed;
+        speed:                          sw_High_260_speed;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
@@ -131,7 +131,7 @@ item (FEAT_TRAINS, HYEL_PEX_Super_10Car, 2437){
         default:                        sw_HYEL_PEX_Super_10car_reversed;
         articulated_part:               sw_articulated_HYEL_PEX_Super_10car;
         purchase:                       set_HYEL_PEX_Super_purchase;
-        speed:                          sw_High_250_speed;
+        speed:                          sw_High_260_speed;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
@@ -188,7 +188,7 @@ item (FEAT_TRAINS, HYEL_PEX_Super_14Car, 2438){
         default:                        sw_HYEL_PEX_Super_14car_reversed;
         articulated_part:               sw_articulated_HYEL_PEX_Super_14car;
         purchase:                       set_HYEL_PEX_Super_purchase;
-        speed:                          sw_High_250_speed;
+        speed:                          sw_High_260_speed;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;

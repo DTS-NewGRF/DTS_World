@@ -55,7 +55,7 @@ item(FEAT_TRAINS, V_KTX_Eum_DD_6Car, 2021){
         default:                        sw_V_KTX_Eum_DD_6car_reversed;
         articulated_part:               sw_articulated_V_KTX_Eum_DD_6car;
         purchase:                       set_V_KTX_Eum_DD_purchase;
-        speed:                          sw_High_250_speed;
+        speed:                          sw_High_260_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }

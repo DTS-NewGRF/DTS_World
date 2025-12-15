@@ -74,7 +74,7 @@ item(FEAT_TRAINS, KTX_Eum_6Car, 2423){
         default:                        sw_KTX_Eum_6car_reversed;
         articulated_part:               sw_articulated_KTX_Eum_6car;
         purchase:                       set_KTX_Eum_purchase;
-        speed:                          sw_High_250_speed;
+        speed:                          sw_High_260_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_KTX_Eum_6car_cargo_subtype_text;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
@@ -129,7 +129,7 @@ item(FEAT_TRAINS, KTX_Eum_12Car, 2426){
         default:                        sw_KTX_Eum_12car_reversed;
         articulated_part:               sw_articulated_KTX_Eum_12car;
         purchase:                       set_KTX_Eum_purchase;
-        speed:                          sw_High_250_speed;
+        speed:                          sw_High_260_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_KTX_Eum_12car_cargo_subtype_text;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;

@@ -8,7 +8,7 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.66] 2025.12.14 <br>
+[1.66] 2025.12.15 <br>
 [이슈외작업]
 * 경유지 간소화 매개변수 및 삭제. 이용시 DTS-Track을 통해 사용해야함. (2025.09.18)
 * 객차 속도변수 코드 변경 수정. 객차 속도변수에 의한 미적용 수정. (2025.09.20)
@@ -30,6 +30,8 @@
 * [버그] 부산김해경전철 전동차 수익 사운드가 잘못 지정됨 ([#703](https://github.com/DTS-NewGRF/DTS/issues/703))(2025.10.26)
 * [버그] HYEL-150 바다도색 그래픽이 나타나지 않음 ([#704](https://github.com/DTS-NewGRF/DTS/issues/704))(2025.11.08)
 * [열차변경] 부산교통공사 2000호대 2세대 전동차 그래픽 변경 ([#705](https://github.com/DTS-NewGRF/DTS/issues/704))(2025.12.14)
+* [버그] HYEL-150 최고속도가 180km/h가 됨 ([#706](https://github.com/DTS-NewGRF/DTS/issues/706))(2025.12.15)
+* [버그] KTX-이음 시리즈 및 KTX-카고 260, HYEL PEX-SUPER의 최고속도가 250km/h가 됨 ([#707](https://github.com/DTS-NewGRF/DTS/issues/705))(2025.12.15)
 
 ## 인게임 등록
 ```
