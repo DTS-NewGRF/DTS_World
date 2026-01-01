@@ -8,30 +8,11 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.66] 2025.12.15 <br>
-[이슈외작업]
-* 경유지 간소화 매개변수 및 삭제. 이용시 DTS-Track을 통해 사용해야함. (2025.09.18)
-* 객차 속도변수 코드 변경 수정. 객차 속도변수에 의한 미적용 수정. (2025.09.20)
-* 사운드 이슈 작성 템플릿 추가 (2025.10.05)
-* 261km/h이상 고속열차 가상속도 300급 설정에 의한 변경 가능 (2025.10.07)
-* DTX-영광 출력 조정 (2025.10.29)
-* 준고속열차 260km/h. 매개변수값으로 380km/h까지 조정가능. (2025.11.17)
-* 매개변수 추가 (2025.11.17)
-  * 일반 준고속열차 180km/h. 매개변수값으로 260km/h까지 조정가능.
-  * 대상 : GTX, TTX, HYEL (150, 300, 건설차량)
-
+[1.67] 2026.01.01 <br>
 [이슈작업]
-* [버그] KTX-청룡 최고속도가 306km/h임 ([#697](https://github.com/DTS-NewGRF/DTS/issues/697))(2025.09.18)
-* [열차변경][도색추가] 한국철도공사 6세대 VVVF 전동차 도색 추가 (2CC) ([#698](https://github.com/DTS-NewGRF/DTS/issues/698))(2025.09.20)
-* [열차변경][도색추가] 유선형 고속일반&고속장대형 발전차 도색 추가 ([#699](https://github.com/DTS-NewGRF/DTS/issues/699))(2025.09.29)
-* [사운드변경] 서울교통공사 5000호대 5세대, 7000호대 6세대, 7000호대 7세대, 8000호대 4세대 ([#700](https://github.com/DTS-NewGRF/DTS/issues/700))(2025.10.05)
-  * [사운드변경] 서울교통공사 5000호대 5세대, 7000호대 6세대, 7000호대 7세대, 8000호대 4세대 ([#701](https://github.com/DTS-NewGRF/DTS/issues/701))(2025.10.07)
-* [열차추가] DTX 영광 - 신규도색 추가 ([#702](https://github.com/DTS-NewGRF/DTS/issues/702))(2025.10.21)
-* [버그] 부산김해경전철 전동차 수익 사운드가 잘못 지정됨 ([#703](https://github.com/DTS-NewGRF/DTS/issues/703))(2025.10.26)
-* [버그] HYEL-150 바다도색 그래픽이 나타나지 않음 ([#704](https://github.com/DTS-NewGRF/DTS/issues/704))(2025.11.08)
-* [열차변경] 부산교통공사 2000호대 2세대 전동차 그래픽 변경 ([#705](https://github.com/DTS-NewGRF/DTS/issues/704))(2025.12.14)
-* [버그] HYEL-150 최고속도가 180km/h가 됨 ([#706](https://github.com/DTS-NewGRF/DTS/issues/706))(2025.12.15)
-* [버그] KTX-이음 시리즈 및 KTX-카고 260, HYEL PEX-SUPER의 최고속도가 250km/h가 됨 ([#707](https://github.com/DTS-NewGRF/DTS/issues/705))(2025.12.15)
+* [열차변경] KTX-청룡 2세대 그래픽 변경 ([#708](https://github.com/DTS-NewGRF/DTS/issues/708))(2026.01.01)
+* [열차변경] SRT 320 이관 (실존 → 가상) ([#709](https://github.com/DTS-NewGRF/DTS/issues/709))(2026.01.01)
+* [열차변경] SRT 320 그래픽 변경 (32bpp) ([#710](https://github.com/DTS-NewGRF/DTS/issues/710))(2026.01.01)
 
 ## 인게임 등록
 ```

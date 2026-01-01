@@ -3,225 +3,242 @@
 --------------------------------------------------------------------*/
 //도색명
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_BK);
-    2: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_A);
-    3: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_B);
-    8: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_C);
-    9: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_E);
-    4: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_ICE);
-    5: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_Euro);
-    6: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_THRS);
-    7: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_JR);
+     1: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_BK);
+     2: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_A);
+     3: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_B);
+     8: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_C);
+     9: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_D);
+    10: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_E);
+     4: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_ICE);
+     5: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_Euro);
+     6: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_THRS);
+     7: return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_JR);
     return string(STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_CC);
 }
 
 // 8량
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_engineH, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_engineH;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_engineH;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_engineH;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_engineH;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_engineH;
-    4: set_V_KTX_Cheong_Ryong_DB_engineH;
-    5: set_V_KTX_Cheong_Ryong_EURO_engineH;
-    6: set_V_KTX_Cheong_Ryong_THSR_engineH;
-    7: set_V_KTX_Cheong_Ryong_JR_engineH;
+     1: set_V_KTX_Cheong_Ryong_BK_engineH;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_engineH;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_engineH;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_engineH;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_engineH;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_engineH;
+     4: set_V_KTX_Cheong_Ryong_DB_engineH;
+     5: set_V_KTX_Cheong_Ryong_EURO_engineH;
+     6: set_V_KTX_Cheong_Ryong_THSR_engineH;
+     7: set_V_KTX_Cheong_Ryong_JR_engineH;
     set_V_KTX_Cheong_Ryong_CC_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M1, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_wagon_M1;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M1;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M1;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M1;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M1;
-    4: set_V_KTX_Cheong_Ryong_DB_wagon_M1;
-    5: set_V_KTX_Cheong_Ryong_EURO_wagon_M1;
-    6: set_V_KTX_Cheong_Ryong_THSR_wagon_M1;
-    7: set_V_KTX_Cheong_Ryong_JR_wagon_M1;
+     1: set_V_KTX_Cheong_Ryong_BK_wagon_M1;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M1;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M1;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M1;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_wagon_M1;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M1;
+     4: set_V_KTX_Cheong_Ryong_DB_wagon_M1;
+     5: set_V_KTX_Cheong_Ryong_EURO_wagon_M1;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M1;
+     7: set_V_KTX_Cheong_Ryong_JR_wagon_M1;
     set_V_KTX_Cheong_Ryong_CC_wagon_M1;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M2_3car, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_wagon_M2;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M2;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M2;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M2_3;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_1;
-    4: set_V_KTX_Cheong_Ryong_DB_wagon_M2;
-    5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2;
-    6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2;
-    7: set_V_KTX_Cheong_Ryong_JR_wagon_M2;
+     1: set_V_KTX_Cheong_Ryong_BK_wagon_M2;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M2;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M2;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M2_3;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_wagon_M2;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_1;
+     4: set_V_KTX_Cheong_Ryong_DB_wagon_M2;
+     5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2;
+     7: set_V_KTX_Cheong_Ryong_JR_wagon_M2;
     set_V_KTX_Cheong_Ryong_CC_wagon_M2;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M2_5car, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_wagon_M2;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M2;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M2;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M2_5;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_1;
-    4: set_V_KTX_Cheong_Ryong_DB_wagon_M2;
-    5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2;
-    6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2;
-    7: set_V_KTX_Cheong_Ryong_JR_wagon_M2;
+     1: set_V_KTX_Cheong_Ryong_BK_wagon_M2;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M2;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M2;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M2_5;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_wagon_M2;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_1;
+     4: set_V_KTX_Cheong_Ryong_DB_wagon_M2;
+     5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2;
+     7: set_V_KTX_Cheong_Ryong_JR_wagon_M2;
     set_V_KTX_Cheong_Ryong_CC_wagon_M2;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M2_6car, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_wagon_M2;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M2;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M2;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M2_6;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_2;
-    4: set_V_KTX_Cheong_Ryong_DB_wagon_M2;
-    5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2;
-    6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2;
-    7: set_V_KTX_Cheong_Ryong_JR_wagon_M2;
+     1: set_V_KTX_Cheong_Ryong_BK_wagon_M2;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M2;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M2;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M2_6;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_wagon_M2;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_2;
+     4: set_V_KTX_Cheong_Ryong_DB_wagon_M2;
+     5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2;
+     7: set_V_KTX_Cheong_Ryong_JR_wagon_M2;
     set_V_KTX_Cheong_Ryong_CC_wagon_M2;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M3, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_wagon_M3;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M3;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M3;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M3;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M3;
-    4: set_V_KTX_Cheong_Ryong_DB_wagon_M3;
-    5: set_V_KTX_Cheong_Ryong_EURO_wagon_M3;
-    6: set_V_KTX_Cheong_Ryong_THSR_wagon_M3;
-    7: set_V_KTX_Cheong_Ryong_JR_wagon_M3;
+     1: set_V_KTX_Cheong_Ryong_BK_wagon_M3;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M3;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M3;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M3;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_wagon_M3;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M3;
+     4: set_V_KTX_Cheong_Ryong_DB_wagon_M3;
+     5: set_V_KTX_Cheong_Ryong_EURO_wagon_M3;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M3;
+     7: set_V_KTX_Cheong_Ryong_JR_wagon_M3;
     set_V_KTX_Cheong_Ryong_CC_wagon_M3;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M4, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_wagon_M4;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M4;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M4;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M4;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M4;
-    4: set_V_KTX_Cheong_Ryong_DB_wagon_M4;
-    5: set_V_KTX_Cheong_Ryong_EURO_wagon_M4;
-    6: set_V_KTX_Cheong_Ryong_THSR_wagon_M4;
-    7: set_V_KTX_Cheong_Ryong_JR_wagon_M4;
+     1: set_V_KTX_Cheong_Ryong_BK_wagon_M4;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M4;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M4;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M4;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_wagon_M4;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M4;
+     4: set_V_KTX_Cheong_Ryong_DB_wagon_M4;
+     5: set_V_KTX_Cheong_Ryong_EURO_wagon_M4;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M4;
+     7: set_V_KTX_Cheong_Ryong_JR_wagon_M4;
     set_V_KTX_Cheong_Ryong_CC_wagon_M4;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_engineT, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_engineT;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_engineT;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_engineT;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_engineT;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_engineT;
-    4: set_V_KTX_Cheong_Ryong_DB_engineT;
-    5: set_V_KTX_Cheong_Ryong_EURO_engineT;
-    6: set_V_KTX_Cheong_Ryong_THSR_engineT;
-    7: set_V_KTX_Cheong_Ryong_JR_engineT;
+     1: set_V_KTX_Cheong_Ryong_BK_engineT;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_engineT;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_engineT;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_engineT;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_engineT;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_engineT;
+     4: set_V_KTX_Cheong_Ryong_DB_engineT;
+     5: set_V_KTX_Cheong_Ryong_EURO_engineT;
+     6: set_V_KTX_Cheong_Ryong_THSR_engineT;
+     7: set_V_KTX_Cheong_Ryong_JR_engineT;
     set_V_KTX_Cheong_Ryong_CC_engineT;
 }
 
 // 8량 뒤집힘
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_engineH_r, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_engineH_r;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_engineH_r;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_engineH_r;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_engineH_r;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_engineH_r;
-    4: set_V_KTX_Cheong_Ryong_DB_engineH_r;
-    5: set_V_KTX_Cheong_Ryong_EURO_engineH_r;
-    6: set_V_KTX_Cheong_Ryong_THSR_engineH_r;
-    7: set_V_KTX_Cheong_Ryong_JR_engineH_r;
+     1: set_V_KTX_Cheong_Ryong_BK_engineH_r;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_engineH_r;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_engineH_r;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_engineH_r;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_engineH_r;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_engineH_r;
+     4: set_V_KTX_Cheong_Ryong_DB_engineH_r;
+     5: set_V_KTX_Cheong_Ryong_EURO_engineH_r;
+     6: set_V_KTX_Cheong_Ryong_THSR_engineH_r;
+     7: set_V_KTX_Cheong_Ryong_JR_engineH_r;
     set_V_KTX_Cheong_Ryong_CC_engineH_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M1_r, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_wagon_M1_r;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M1_r;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M1_r;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M1_r;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M1_r;
-    4: set_V_KTX_Cheong_Ryong_DB_wagon_M1_r;
-    5: set_V_KTX_Cheong_Ryong_EURO_wagon_M1_r;
-    6: set_V_KTX_Cheong_Ryong_THSR_wagon_M1_r;
-    7: set_V_KTX_Cheong_Ryong_JR_wagon_M1_r;
+     1: set_V_KTX_Cheong_Ryong_BK_wagon_M1_r;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M1_r;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M1_r;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M1_r;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_wagon_M1_r;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M1_r;
+     4: set_V_KTX_Cheong_Ryong_DB_wagon_M1_r;
+     5: set_V_KTX_Cheong_Ryong_EURO_wagon_M1_r;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M1_r;
+     7: set_V_KTX_Cheong_Ryong_JR_wagon_M1_r;
     set_V_KTX_Cheong_Ryong_CC_wagon_M1_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M2_3Car_r, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_wagon_M2_r;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M2_r;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M2_r;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M2_3_r;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_1_r;
-    4: set_V_KTX_Cheong_Ryong_DB_wagon_M2_r;
-    5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2_r;
-    6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2_r;
-    7: set_V_KTX_Cheong_Ryong_JR_wagon_M2_r;
+     1: set_V_KTX_Cheong_Ryong_BK_wagon_M2_r;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M2_r;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M2_r;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M2_3_r;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_wagon_M2_r;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_1_r;
+     4: set_V_KTX_Cheong_Ryong_DB_wagon_M2_r;
+     5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2_r;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2_r;
+     7: set_V_KTX_Cheong_Ryong_JR_wagon_M2_r;
     set_V_KTX_Cheong_Ryong_CC_wagon_M2_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M2_5Car_r, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_wagon_M2_r;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M2_r;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M2_r;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M2_5_r;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_1_r;
-    4: set_V_KTX_Cheong_Ryong_DB_wagon_M2_r;
-    5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2_r;
-    6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2_r;
-    7: set_V_KTX_Cheong_Ryong_JR_wagon_M2_r;
+     1: set_V_KTX_Cheong_Ryong_BK_wagon_M2_r;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M2_r;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M2_r;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M2_5_r;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_wagon_M2_r;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_1_r;
+     4: set_V_KTX_Cheong_Ryong_DB_wagon_M2_r;
+     5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2_r;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2_r;
+     7: set_V_KTX_Cheong_Ryong_JR_wagon_M2_r;
     set_V_KTX_Cheong_Ryong_CC_wagon_M2_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M2_6Car_r, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_wagon_M2_r;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M2_r;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M2_r;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M2_6_r;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_2_r;
-    4: set_V_KTX_Cheong_Ryong_DB_wagon_M2_r;
-    5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2_r;
-    6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2_r;
-    7: set_V_KTX_Cheong_Ryong_JR_wagon_M2_r;
+     1: set_V_KTX_Cheong_Ryong_BK_wagon_M2_r;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M2_r;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M2_r;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M2_6_r;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_wagon_M2_r;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M2_2_r;
+     4: set_V_KTX_Cheong_Ryong_DB_wagon_M2_r;
+     5: set_V_KTX_Cheong_Ryong_EURO_wagon_M2_r;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M2_r;
+     7: set_V_KTX_Cheong_Ryong_JR_wagon_M2_r;
     set_V_KTX_Cheong_Ryong_CC_wagon_M2_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M3_r, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_wagon_M3_r;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M3_r;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M3_r;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M3_r;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M3_r;
-    4: set_V_KTX_Cheong_Ryong_DB_wagon_M3_r;
-    5: set_V_KTX_Cheong_Ryong_EURO_wagon_M3_r;
-    6: set_V_KTX_Cheong_Ryong_THSR_wagon_M3_r;
-    7: set_V_KTX_Cheong_Ryong_JR_wagon_M3_r;
+     1: set_V_KTX_Cheong_Ryong_BK_wagon_M3_r;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M3_r;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M3_r;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M3_r;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_wagon_M3_r;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M3_r;
+     4: set_V_KTX_Cheong_Ryong_DB_wagon_M3_r;
+     5: set_V_KTX_Cheong_Ryong_EURO_wagon_M3_r;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M3_r;
+     7: set_V_KTX_Cheong_Ryong_JR_wagon_M3_r;
     set_V_KTX_Cheong_Ryong_CC_wagon_M3_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_wagon_M4_r, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_wagon_M4_r;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M4_r;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M4_r;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M4_r;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M4_r;
-    4: set_V_KTX_Cheong_Ryong_DB_wagon_M4_r;
-    5: set_V_KTX_Cheong_Ryong_EURO_wagon_M4_r;
-    6: set_V_KTX_Cheong_Ryong_THSR_wagon_M4_r;
-    7: set_V_KTX_Cheong_Ryong_JR_wagon_M4_r;
+     1: set_V_KTX_Cheong_Ryong_BK_wagon_M4_r;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_wagon_M4_r;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_wagon_M4_r;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_wagon_M4_r;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_wagon_M4_r;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_wagon_M4_r;
+     4: set_V_KTX_Cheong_Ryong_DB_wagon_M4_r;
+     5: set_V_KTX_Cheong_Ryong_EURO_wagon_M4_r;
+     6: set_V_KTX_Cheong_Ryong_THSR_wagon_M4_r;
+     7: set_V_KTX_Cheong_Ryong_JR_wagon_M4_r;
     set_V_KTX_Cheong_Ryong_CC_wagon_M4_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_engineT_r, cargo_subtype) {
-    1: set_V_KTX_Cheong_Ryong_BK_engineT_r;
-    2: set_V_KTX_Cheong_Ryong_SRT_A_engineT_r;
-    3: set_V_KTX_Cheong_Ryong_SRT_B_engineT_r;
-    8: set_V_KTX_Cheong_Ryong_SRT_C_engineT_r;
-    9: set_V_KTX_Cheong_Ryong_SRT_E_engineT_r;
-    4: set_V_KTX_Cheong_Ryong_DB_engineT_r;
-    5: set_V_KTX_Cheong_Ryong_EURO_engineT_r;
-    6: set_V_KTX_Cheong_Ryong_THSR_engineT_r;
-    7: set_V_KTX_Cheong_Ryong_JR_engineT_r;
+     1: set_V_KTX_Cheong_Ryong_BK_engineT_r;
+     2: set_V_KTX_Cheong_Ryong_SRT_A_engineT_r;
+     3: set_V_KTX_Cheong_Ryong_SRT_B_engineT_r;
+     8: set_V_KTX_Cheong_Ryong_SRT_C_engineT_r;
+     9: set_V_KTX_Cheong_Ryong_SRT_D_engineT_r;
+    10: set_V_KTX_Cheong_Ryong_SRT_E_engineT_r;
+     4: set_V_KTX_Cheong_Ryong_DB_engineT_r;
+     5: set_V_KTX_Cheong_Ryong_EURO_engineT_r;
+     6: set_V_KTX_Cheong_Ryong_THSR_engineT_r;
+     7: set_V_KTX_Cheong_Ryong_JR_engineT_r;
     set_V_KTX_Cheong_Ryong_CC_engineT_r;
 }
 
