@@ -9,6 +9,9 @@
 
 ## 최근 등록 릴리즈
 [1.67] 2026.01.10 <br>
+[이슈외작업]
+* [DTS-Track] 지하선로 추가 대응
+
 [이슈작업]
 * [열차변경] KTX-청룡 2세대 그래픽 변경 ([#708](https://github.com/DTS-NewGRF/DTS/issues/708))(2026.01.01)
 * [열차변경] SRT 320 이관 (실존 → 가상) ([#709](https://github.com/DTS-NewGRF/DTS/issues/709))(2026.01.01)
