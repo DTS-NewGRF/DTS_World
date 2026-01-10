@@ -8,11 +8,12 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.67] 2026.01.01 <br>
+[1.67] 2026.01.10 <br>
 [이슈작업]
 * [열차변경] KTX-청룡 2세대 그래픽 변경 ([#708](https://github.com/DTS-NewGRF/DTS/issues/708))(2026.01.01)
 * [열차변경] SRT 320 이관 (실존 → 가상) ([#709](https://github.com/DTS-NewGRF/DTS/issues/709))(2026.01.01)
 * [열차변경] SRT 320 그래픽 변경 (32bpp) ([#710](https://github.com/DTS-NewGRF/DTS/issues/710))(2026.01.01)
+* [열차변경] KTX-청룡 2세대 수송량 변경 및 등장년도 변경, SRT 320 등장년도 변경 ([#711](https://github.com/DTS-NewGRF/DTS/issues/711))(2026.01.10)
 
 ## 인게임 등록
 ```

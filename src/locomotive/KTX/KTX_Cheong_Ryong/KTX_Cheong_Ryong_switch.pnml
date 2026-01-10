@@ -24,7 +24,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_2027_cargo_subtype_text, cargo_sub
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_cargo_subtype_text, current_year) {
     0..2023: sw_KTX_Cheong_Ryong_2022_cargo_subtype_text;
-    2024..2026: sw_KTX_Cheong_Ryong_2024_cargo_subtype_text;
+    2024..2025: sw_KTX_Cheong_Ryong_2024_cargo_subtype_text;
     sw_KTX_Cheong_Ryong_2027_cargo_subtype_text;
     }
 
@@ -378,7 +378,7 @@ switch(FEAT_TRAINS, PARENT, sw_KTX_Cheong_Ryong_2027_8car_reversed, vehicle_is_r
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_8car_reversed, current_year) {
     0..2023: sw_KTX_Cheong_Ryong_2022_8car_reversed;
-    2024..2026: sw_KTX_Cheong_Ryong_2024_8car_reversed;
+    2024..2025: sw_KTX_Cheong_Ryong_2024_8car_reversed;
     sw_KTX_Cheong_Ryong_2027_8car_reversed;
     }
 
@@ -531,7 +531,7 @@ switch(FEAT_TRAINS, PARENT, sw_KTX_Cheong_Ryong_2027_16car_reversed, vehicle_is_
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_16car_reversed, current_year) {
     0..2023: sw_KTX_Cheong_Ryong_2022_16car_reversed;
-    2024..2026: sw_KTX_Cheong_Ryong_2024_16car_reversed;
+    2024..2025: sw_KTX_Cheong_Ryong_2024_16car_reversed;
     sw_KTX_Cheong_Ryong_2027_16car_reversed;
     }
 
@@ -548,7 +548,7 @@ switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Cheong_Ryong_16car, extra_callback
 
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_capacity_in_custom, cargo_subtype) {
-    2: return 61;
+    2: return 63;
     3: return 63;
        65;
 }

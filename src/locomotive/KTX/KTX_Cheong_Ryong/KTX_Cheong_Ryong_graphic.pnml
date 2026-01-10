@@ -272,6 +272,6 @@ spriteset(set_KTX_Cheong_Ryong_2nd_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
 // 구매차량 등장년도
 switch(FEAT_TRAINS, SELF, KTX_Cheong_Ryong_purchase, current_year) {
     0..2023: set_KTX_Eum_purchase;
-    2024..2026: set_KTX_Cheong_Ryong_purchase;
+    2024..2025: set_KTX_Cheong_Ryong_purchase;
     set_KTX_Cheong_Ryong_2nd_purchase;
     }
