@@ -18,7 +18,6 @@ item(FEAT_TRAINS, Busan_Gimhae_LRT_2Car, 2407){
         track_type:                     KR_3RD_RAIL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Busanmetro;
         
         //spec
         speed:                          70km/h;
