@@ -549,6 +549,7 @@ STR_Rail_Cruise_Haerang_NAME                           :[8Car] Rail Cruise Haera
 STR_Group_S_Train_NAME                                 :S-Trian
 STR_S_Train_4Car_NAME                                  :[4Car] S-Train Passenger
 STR_S_Train_5Car_NAME                                  :[5Car] S-Train Passenger
+STR_TLX_5Car_NAME                                      :[5Car] TLX Travel train
 STR_V_Train_NAME                                       :[3Car] V-Train Passenger Car
 STR_Wine_Cinema_NAME                                   :[6Car]Wine Cinema Passenger Car
 STR_Wine_Panax_NAME                                    :[7Car] Wine Panax Passenger Car
@@ -668,6 +669,7 @@ STR_REFIT_train_configuration_JA_a_Passenger           :{BLACK}train configurati
 STR_REFIT_train_configuration_Lady_Bird_Passenger      :{BLACK}train configuration {}{GREEN} Lady Bird Passenger Car
 STR_REFIT_train_configuration_Rail_Cruise_Haerang      :{BLACK}train configuration {}{GREEN} Rail Cruise Haerang
 STR_REFIT_train_configuration_S_Train_Passenger        :{BLACK}train configuration {}{GREEN} S-Train
+STR_REFIT_train_configuration_TLX_Passenger            :{BLACK}train configuration {}{GREEN} TLX
 STR_REFIT_train_configuration_V_Train_Passenger        :{BLACK}train configuration {}{GREEN} V-Train Passenger Car
 STR_REFIT_train_configuration_Wine_Cinema_Passenger    :{BLACK}train configuration {}{GREEN} Wine Cinema Passenger Car
 STR_REFIT_train_configuration_Wine_Panax_Passenger     :{BLACK}train configuration {}{GREEN} Wine Panax Passenger Car

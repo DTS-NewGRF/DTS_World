@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_TLX_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/TLX/TLX.png") {
+    DTS_temp(80, 0)
+}
+
+spriteset(set_TLX_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/TLX/TLX.png") {
+    DTS_temp(80, 27)
+}
+
+spriteset(set_TLX_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/TLX/TLX.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_TLX_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/TLX/TLX.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_TLX_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/TLX/TLX.png") {
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_TLX_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/TLX/TLX.png"){
+    tmpl_wagon_purchase(0, 0)
+}

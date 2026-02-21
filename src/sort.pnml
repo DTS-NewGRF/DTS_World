@@ -568,6 +568,7 @@ sort(FEAT_TRAINS, [
     S_Train,                                 //2331
     S_Train_New_4Car,                        //2332
     S_Train_5Car,                            //2163
+    TLX_5Car,                                //2570
     V_Train_3Car,                            //2397
     Wine_Cinema_Passenger_Car,               //2161
     Wine_Panax_Passenger_Car,                //2160
