@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+ITX-청천
+--------------------------------------------------------------------*/
+spriteset(set_V_ITX_CheongChan_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_ITX_CheongChan_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_ITX_CheongChan_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_ITX_CheongChan_panto_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_V_ITX_CheongChan_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_ITX_CheongChan_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_ITX_CheongChan_wagon_T, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_ITX_CheongChan_wagon_T_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png") {
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_V_ITX_CheongChan_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_ITX_CheongChan_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png") {
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_V_ITX_CheongChan_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_ITX_CheongChan_panto_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png"){
+    DTS_temp_r(80, 216)
+}
+
+spriteset(set_V_ITX_CheongChan_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_V_ITX_CheongChan_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png"){
+    DTS_temp(80, 270)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_V_ITX_CheongChan_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_CheongChan/V_ITX_CheongChan.png"){
+    tmpl_purchase(0, 0)
+}

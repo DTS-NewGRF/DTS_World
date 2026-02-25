@@ -1,0 +1,357 @@
+/*--------------------------------------------------------------------
+HYEL-무궁화
+--------------------------------------------------------------------*/
+// Graphics
+#include "HYEL_Mugunhwa_graphic.pnml"
+
+// Switch
+#include "HYEL_Mugunhwa_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Mugunhwa, 2194){
+    property {
+        name:                           string(STR_Group_HYEL_Mugunhwa_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          1600 kW;
+        variant_group:                  HYEL_Logo;
+        }
+
+    graphics {
+        purchase:                       set_HYEL_Mugunhwa_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Mugunhwa_4Car, 2167){
+    property {
+        name:                           string(STR_HYEL_Mugunhwa_4Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_Mugunhwa;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          1600 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 68;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_Mugunhwa_4car;
+        articulated_part:               sw_articulated_HYEL_Mugunhwa_4car;
+        purchase:                       set_HYEL_Mugunhwa_purchase;
+        speed:                          Regular_Speed_Train;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Mugunhwa_6Car, 2168){
+    property {
+        name:                           string(STR_HYEL_Mugunhwa_6Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_Mugunhwa;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          2400 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 69;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_Mugunhwa_6car;
+        articulated_part:               sw_articulated_HYEL_Mugunhwa_6car;
+        purchase:                       set_HYEL_Mugunhwa_purchase;
+        speed:                          Regular_Speed_Train;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Mugunhwa_8Car, 2587){
+    property {
+        name:                           string(STR_HYEL_Mugunhwa_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_Mugunhwa;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          1600 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 68;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_Mugunhwa_8car;
+        articulated_part:               sw_articulated_HYEL_Mugunhwa_8car;
+        purchase:                       set_HYEL_Mugunhwa_purchase;
+        speed:                          Regular_Speed_Train;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Mugunhwa_10Car, 2588){
+    property {
+        name:                           string(STR_HYEL_Mugunhwa_10Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_Mugunhwa;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          2400 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 69;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_Mugunhwa_10car;
+        articulated_part:               sw_articulated_HYEL_Mugunhwa_10car;
+        purchase:                       set_HYEL_Mugunhwa_purchase;
+        speed:                          Regular_Speed_Train;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Mugunhwa_4Car, 2167){
+    property {
+        name:                           string(STR_HYEL_Mugunhwa_4Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_Mugunhwa;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          1600 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 68;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_Mugunhwa_4car;
+        articulated_part:               sw_articulated_HYEL_Mugunhwa_4car;
+        purchase:                       set_HYEL_Mugunhwa_purchase;
+        speed:                          Regular_Speed_Train;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Mugunhwa_6Car, 2168){
+    property {
+        name:                           string(STR_HYEL_Mugunhwa_6Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_Mugunhwa;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          2400 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 69;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_Mugunhwa_6car;
+        articulated_part:               sw_articulated_HYEL_Mugunhwa_6car;
+        purchase:                       set_HYEL_Mugunhwa_purchase;
+        speed:                          Regular_Speed_Train;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
+        }
+        }

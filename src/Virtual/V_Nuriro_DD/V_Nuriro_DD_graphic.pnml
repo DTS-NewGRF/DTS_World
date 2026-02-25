@@ -1,0 +1,181 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+V_Nuriro_DD Old
+--------------------------------------------------------------------*/
+spriteset(set_V_Nuriro_DD_Old_engineH, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_Old.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_Nuriro_DD_Old_engineH_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_Old.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_Nuriro_DD_Old_wagon_T1, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_Old.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_Nuriro_DD_Old_wagon_T1_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_Old.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_Nuriro_DD_Old_wagon_M, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_Old.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_Nuriro_DD_Old_wagon_M_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_Old.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_Nuriro_DD_Old_wagon_T2, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_Old.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_Nuriro_DD_Old_wagon_T2_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_Old.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_Nuriro_DD_Old_engineT_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_Old.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_Nuriro_DD_Old_engineT, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_Old.png"){
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
+V_Nuriro_DD New
+--------------------------------------------------------------------*/
+spriteset(set_V_Nuriro_DD_New_engineH, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_New.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_Nuriro_DD_New_engineH_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_New.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_Nuriro_DD_New_wagon_T1, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_New.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_Nuriro_DD_New_wagon_T1_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_New.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_Nuriro_DD_New_wagon_M, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_New.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_Nuriro_DD_New_wagon_M_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_New.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_Nuriro_DD_New_wagon_T2, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_New.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_Nuriro_DD_New_wagon_T2_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_New.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_Nuriro_DD_New_engineT_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_New.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_Nuriro_DD_New_engineT, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_New.png"){
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
+V_Nuriro_DD O-Train
+--------------------------------------------------------------------*/
+spriteset(set_V_Nuriro_DD_O_Train_engineH, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_O_Train.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_Nuriro_DD_O_Train_engineH_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_O_Train.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_Nuriro_DD_O_Train_wagon_T1, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_O_Train.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_Nuriro_DD_O_Train_wagon_T1_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_O_Train.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_Nuriro_DD_O_Train_wagon_M, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_O_Train.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_Nuriro_DD_O_Train_wagon_M_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_O_Train.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_Nuriro_DD_O_Train_wagon_T2, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_O_Train.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_Nuriro_DD_O_Train_wagon_T2_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_O_Train.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_Nuriro_DD_O_Train_engineT_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_O_Train.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_Nuriro_DD_O_Train_engineT, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_O_Train.png"){
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
+V_Nuriro_DD ITX-Saemaeul
+--------------------------------------------------------------------*/
+spriteset(set_V_Nuriro_DD_ITX_Saemaeul_engineH, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_ITX_Saemaeul.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_Nuriro_DD_ITX_Saemaeul_engineH_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_ITX_Saemaeul.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_Nuriro_DD_ITX_Saemaeul_wagon_T1, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_ITX_Saemaeul.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_Nuriro_DD_ITX_Saemaeul_wagon_T1_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_ITX_Saemaeul.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_Nuriro_DD_ITX_Saemaeul_wagon_M, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_ITX_Saemaeul.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_Nuriro_DD_ITX_Saemaeul_wagon_M_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_ITX_Saemaeul.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_Nuriro_DD_ITX_Saemaeul_wagon_T2, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_ITX_Saemaeul.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_Nuriro_DD_ITX_Saemaeul_wagon_T2_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_ITX_Saemaeul.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_Nuriro_DD_ITX_Saemaeul_engineT_r, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_ITX_Saemaeul.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_Nuriro_DD_ITX_Saemaeul_engineT, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_ITX_Saemaeul.png"){
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_V_Nuriro_DD_purchase, "src/Virtual/V_Nuriro_DD/V_Nuriro_DD_Old.png"){
+    tmpl_purchase(0, 0)
+}

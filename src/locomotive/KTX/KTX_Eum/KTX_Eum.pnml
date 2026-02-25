@@ -22,7 +22,7 @@ item(FEAT_TRAINS, KTX_Eum, 2425){
         }
 
     graphics {
-        purchase:                       set_KTX_Eum_purchase;
+        purchase:                       set_KTX_Eum_Logo_purchase;
         }
         }
 

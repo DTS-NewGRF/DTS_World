@@ -22,7 +22,7 @@ item(FEAT_TRAINS, KTX_Sancheon, 2317){
         }
 
     graphics {
-        purchase:                       set_KTX_Sancheon_purchase;
+        purchase:                       set_KTX_Sancheon_Logo_purchase;
         }
         }
 

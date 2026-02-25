@@ -1,0 +1,76 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+EMU900
+--------------------------------------------------------------------*/
+spriteset(set_EMU900_engineH, "src/metro/EMU900/EMU900.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_EMU900_engineH_r, "src/metro/EMU900/EMU900.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_EMU900_wagon_M, "src/metro/EMU900/EMU900.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_EMU900_wagon_M_r, "src/metro/EMU900/EMU900.png"){
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_EMU900_wagon_M1To, "src/metro/EMU900/EMU900.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_EMU900_wagon_M1To_r, "src/metro/EMU900/EMU900.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_EMU900_wagon_M2To, "src/metro/EMU900/EMU900.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_EMU900_wagon_M2To_r, "src/metro/EMU900/EMU900.png"){
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_EMU900_panto_wagon_T1, "src/metro/EMU900/EMU900.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_EMU900_panto_wagon_T1_r, "src/metro/EMU900/EMU900.png"){
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_EMU900_panto_wagon_T2, "src/metro/EMU900/EMU900.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_EMU900_panto_wagon_T2_r, "src/metro/EMU900/EMU900.png"){
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_EMU900_panto_wagon_T2To, "src/metro/EMU900/EMU900.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_EMU900_panto_wagon_T2To_r, "src/metro/EMU900/EMU900.png"){
+    DTS_temp_r(80, 189)
+}
+
+spriteset(set_EMU900_engineT_r, "src/metro/EMU900/EMU900.png"){
+    DTS_temp(80, 216)
+}
+
+spriteset(set_EMU900_engineT, "src/metro/EMU900/EMU900.png"){
+    DTS_temp(80, 243)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_EMU900_purchase, "src/metro/EMU900/EMU900.png"){
+    tmpl_purchase(0, 0)
+}

@@ -1,0 +1,73 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Chowol_engineH, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_KTX_Chowol_engineH_r, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_KTX_Chowol_wagon_M1, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_KTX_Chowol_wagon_M1_r, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_KTX_Chowol_wagon_M2, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_KTX_Chowol_wagon_M2_r, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_KTX_Chowol_wagon_M3, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Chowol_wagon_M3_r, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_V_KTX_Chowol_wagon_DUP1, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Chowol_wagon_DUP1_r, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_V_KTX_Chowol_wagon_DUP2, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_KTX_Chowol_wagon_DUP2_r, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp_r(80, 189)
+}
+
+spriteset(set_V_KTX_Chowol_wagon_M4, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp(80, 216)
+}
+
+spriteset(set_V_KTX_Chowol_wagon_M4_r, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_V_KTX_Chowol_engineT_r, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp(80, 270)
+}
+
+spriteset(set_V_KTX_Chowol_engineT, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    DTS_temp(80, 297)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Chowol_purchase, "src/Virtual/V_KTX/V_KTX_Chowol/V_KTX_Chowol.png"){
+    tmpl_purchase(0, 0)
+}

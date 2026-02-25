@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------------
+HYEL
+--------------------------------------------------------------------*/
+// Graphics
+#include "HYEL_graphic.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Logo, 2519){
+    property {
+        name:                           string(STR_Group_HYEL_Logo_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          40000 kW;
+        variant_group:                  Virtual;
+        }
+
+    graphics {
+        purchase:                       set_HYEL_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "HYEL_15/HYEL_15.pnml"
+#include "HYEL_100/HYEL_100.pnml"
+#include "HYEL_120/HYEL_120.pnml"
+#include "HYEL_150/HYEL_150.pnml"
+#include "HYEL_300/HYEL_300.pnml"
+#include "HYEL_350/HYEL_350.pnml"
+#include "HYEL_400/HYEL_400.pnml"
+#include "HYEL_Constrck/HYEL_Constrck.pnml"
+#include "HYEL_Gangsan/HYEL_Gangsan.pnml"
+#include "HYEL_Mugunhwa/HYEL_Mugunhwa.pnml"
+#include "HYEL_Mugunhwa_DD/HYEL_Mugunhwa_DD.pnml"
+#include "HYEL_PEX_Super/HYEL_PEX_Super.pnml"

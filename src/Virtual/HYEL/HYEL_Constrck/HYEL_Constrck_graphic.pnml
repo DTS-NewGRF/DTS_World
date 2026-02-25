@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+HYEL Constrck
+--------------------------------------------------------------------*/
+// 차장차 귀속 사용주소 (set_Luggage_Real_GL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png")
+// 차장차 뒤집힘 귀속 사용주소 (set_Luggage_Real_GL_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png")
+
+spriteset(set_HYEL_Constrck_FLAT_CAR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_Constrck/HYEL_Constrck.png") {
+    DTS_temp(80, 0)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_Constrck_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_Constrck/HYEL_Constrck.png"){
+    tmpl_purchase(0, 0)
+}

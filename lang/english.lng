@@ -104,56 +104,11 @@ STR_NEL_8200_NAME                                      :NEL 8200
 STR_Group_Nuriro_NAME                                  :Korail 200000 series EMU (NURIRO)
 STR_Nuriro_4Car_NAME                                   :[4Car] Korail 200000 series EMU (NURIRO)
 STR_Nuriro_8Car_NAME                                   :[8Car] Korail 200000 series EMU (NURIRO)
-STR_Nuriro_DD_4Car_NAME                                :[4Car] Nuriro DD
 STR_OEL_8000_NAME                                      :OEL 8000
 STR_Group_RDC_NAME                                     :RDC Diesel
 STR_RDC_3Car_NAME                                      :[3Car] RDC Diesel
 STR_RDC_4Car_NAME                                      :[4Car] RDC Diesel
 STR_TTX_6Car_NAME                                      :[6Car] TTX
-STR_Group_V_ITX_CheongChan_NAME                        :ITX-CheongChan
-STR_V_ITX_CheongChan_6Car_NAME                         :[6Car] ITX-CheongChan
-STR_V_ITX_CheongChan_8Car_NAME                         :[8Car] ITX-CheongChan
-STR_Group_V_ITX_CheongChun_NAME                        :ITX-CheongChun
-STR_V_ITX_CheongChun_6Car_NAME                         :[6Car] ITX-CheongChun
-STR_V_ITX_CheongChun_10Car_NAME                        :[10Car] ITX-CheongChun
-STR_V_ITX_Chowol_8Car_NAME                             :[8Car] ITX-CheongChun DD
-STR_Group_V_ITX_Maum_NAME                              :{GREEN}[Virtual] {BLACK}ITX-Maum
-STR_V_ITX_Maum_8Car_NAME                               :[8Car] ITX-Maum
-STR_V_ITX_Maum_10Car_NAME                              :[10Car] ITX-Maum
-STR_Group_V_ITX_Maum_DD_NAME                           :ITX-Maum DD
-STR_V_ITX_Maum_DD_4Car_NAME                            :[4Car] ITX-Maum DD
-STR_V_ITX_Maum_DD_6Car_NAME                            :[6Car] ITX-Maum DD
-STR_V_ITX_Maum_DD_8Car_NAME                            :[6Car] ITX-Maum DD
-STR_V_ITX_Maum_DD_10Car_NAME                           :[6Car] ITX-Maum DD
-STR_V_ITX_Saemaeul_8Car_NAME                           :[8Car] ITX-Saemaeul
-STR_Group_V_ITX_Saemaeul_DD_NAME                       :ITX-Saemaeul DD
-STR_V_ITX_Saemaeul_DD_6Car_NAME                        :[6Car] ITX-Saemaeul DD
-STR_V_ITX_Saemaeul_DD_8Car_NAME                        :[8Car] ITX-Saemaeul DD
-STR_Group_V_KTX_Cargo_260_NAME                         :[Virtual] KTX-Cargo 260
-STR_V_KTX_Cargo_260_6Car_NAME                          :[6Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 260
-STR_V_KTX_Cargo_260_12Car_NAME                         :[12Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 260
-STR_V_KTX_Cargo_300_10Car_NAME                         :[10Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 300
-STR_Group_V_KTX_Cargo_320_NAME                         :[Virtual] KTX-Cargo 320
-STR_V_KTX_Cargo_320_8Car_NAME                          :[8Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 320
-STR_V_KTX_Cargo_320_16Car_NAME                         :[16Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 320
-STR_Group_V_KTX_Cheong_Ryong_NAME                      :[Virtual] KTX-Cheong Ryong
-STR_V_KTX_Cheong_Ryong_8Car_NAME                       :[8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
-STR_V_KTX_Cheong_Ryong_16Car_NAME                      :[16Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
-STR_V_KTX_Cheong_Ryong_DD_8Car_NAME                    :[8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong DD
-STR_V_KTX_Chowol_8Car_NAME                             :[8Car] KTX-Chowol
-STR_V_KTX_Eum_6Car_NAME                                :[6Car]{GREEN}[Virtual] {BLACK} KTX-EUM
-STR_V_KTX_Eum_DD_6Car_NAME                             :[6Car]{GREEN}[Virtual] {BLACK} KTX-EUM DD
-STR_Group_V_KTX_Onnuri_NAME                            :KTX-Onnuri
-STR_V_KTX_Onnuri_8Car_NAME                             :[8Car] KTX-Onnuri
-STR_V_KTX_Onnuri_10Car_NAME                            :[10Car] KTX-Onnuri
-STR_V_KTX_Onnuri_16Car_NAME                            :[16Car] KTX-Onnuri
-STR_V_KTX_Sancheon_10Car_NAME                          :[10Car]{GREEN}[Virtual] {BLACK} KTX-Sancheon
-STR_V_KTX_Sancheon_DD_10Car_NAME                       :[10Car] KTX-Sancheon DD
-STR_Group_V_KTX_Taegeuk_NAME                           :KTX Taegeuk
-STR_V_KTX_Taegeuk_8Car_NAME                            :[8Car] KTX Taegeuk
-STR_V_KTX_Taegeuk_10Car_NAME                           :[10Car] KTX Taegeuk
-STR_V_KTX_Taegeuk_16Car_NAME                           :[16Car] KTX Taegeuk
-STR_V_KTX_Taegeuk_20Car_NAME                           :[20Car] KTX Taegeuk
 STR_Group_VHST_600X_NAME                               :VHST-600X
 STR_VHST_600X_8Car_NAME                                :[8Car] VHST-600X
 STR_VHST_600X_16Car_NAME                               :[16Car] VHST-600X
@@ -274,6 +229,7 @@ STR_Group_DTX_Taebaek_NAME                             :DTX-Taebaek
 STR_DTX_Taebaek_6Car_NAME                              :[6Car] DTX-Taebaek
 STR_DTX_Taebaek_8Car_NAME                              :[8Car] DTX-Taebaek
 STR_DTX_Taebaek_10Car_NAME                             :[10Car] DTX-Taebaek
+STR_Group_Virtual_NAME                                 :{GREEN}[Virtual]
 STR_HYEL_15_NAME                                       :HYEL-15
 STR_HYEL_100_NAME                                      :HYEL-100
 STR_Group_HYEL_120_NAME                                :HYEL-120
@@ -298,14 +254,84 @@ STR_HYEL_Gangsan_3Car_NAME                             :[3Car] HYEL-Gangsan
 STR_HYEL_Gangsan_4Car_NAME                             :[4Car] HYEL-Gangsan
 STR_HYEL_Gangsan_6Car_NAME                             :[6Car] HYEL-Gangsan
 STR_HYEL_Gangsan_8Car_NAME                             :[8Car] HYEL-Gangsan
+STR_HYEL_Gangsan_10Car_NAME                            :[10Car] HYEL-Gangsan
 STR_Group_HYEL_Mugunhwa_NAME                           :HYEL-Mugunhwa
 STR_HYEL_Mugunhwa_4Car_NAME                            :[4Car] HYEL-Mugunhwa
 STR_HYEL_Mugunhwa_6Car_NAME                            :[6Car] HYEL-Mugunhwa
+STR_HYEL_Mugunhwa_8Car_NAME                            :[8Car] HYEL-Mugunhwa
+STR_HYEL_Mugunhwa_10Car_NAME                           :[10Car] HYEL-Mugunhwa
+STR_Group_HYEL_Mugunhwa_DD_NAME                        :HYEL-Mugunhwa DD
 STR_HYEL_Mugunhwa_DD_6Car_NAME                         :[6Car] HYEL-Mugunhwa DD
+STR_HYEL_Mugunhwa_DD_8Car_NAME                         :[8Car] HYEL-Mugunhwa DD
+STR_HYEL_Mugunhwa_DD_10Car_NAME                        :[10Car] HYEL-Mugunhwa DD
 STR_Group_HYEL_PEX_Super_NAME                          :HYEL PEX-SUPER (Premium EXpress Super)
 STR_HYEL_PEX_Super_8Car_NAME                           :HYEL PEX-SUPER 8Car
 STR_HYEL_PEX_Super_10Car_NAME                          :HYEL PEX-SUPER 10Car
 STR_HYEL_PEX_Super_14Car_NAME                          :HYEL PEX-SUPER 14Car
+STR_Group_V_ITX_CheongChan_NAME                        :ITX-CheongChan
+STR_V_ITX_CheongChan_6Car_NAME                         :[6Car] ITX-CheongChan
+STR_V_ITX_CheongChan_8Car_NAME                         :[8Car] ITX-CheongChan
+STR_V_ITX_CheongChan_10Car_NAME                        :[10Car] ITX-CheongChan
+STR_Group_V_ITX_CheongChun_NAME                        :ITX-CheongChun
+STR_V_ITX_CheongChun_6Car_NAME                         :[6Car] ITX-CheongChun
+STR_V_ITX_CheongChun_10Car_NAME                        :[10Car] ITX-CheongChun
+STR_Group_V_ITX_CheongChun_DD_NAME                     :ITX-CheongChun DD
+STR_V_ITX_CheongChun_DD_8Car_NAME                      :[8Car] ITX-CheongChun DD
+STR_V_ITX_CheongChun_DD_10Car_NAME                     :[10Car] ITX-CheongChun DD
+STR_Group_V_ITX_Maum_NAME                              :{GREEN}[Virtual] {BLACK}ITX-Maum
+STR_V_ITX_Maum_8Car_NAME                               :[8Car] ITX-Maum
+STR_V_ITX_Maum_10Car_NAME                              :[10Car] ITX-Maum
+STR_Group_V_ITX_Maum_DD_NAME                           :ITX-Maum DD
+STR_V_ITX_Maum_DD_4Car_NAME                            :[4Car] ITX-Maum DD
+STR_V_ITX_Maum_DD_6Car_NAME                            :[6Car] ITX-Maum DD
+STR_V_ITX_Maum_DD_8Car_NAME                            :[6Car] ITX-Maum DD
+STR_V_ITX_Maum_DD_10Car_NAME                           :[6Car] ITX-Maum DD
+STR_Group_V_ITX_Saemaeul_NAME                          :{GREEN}[Virtual] {BLACK}ITX-Saemaeul
+STR_V_ITX_Saemaeul_8Car_NAME                           :[8Car] ITX-Saemaeul
+STR_V_ITX_Saemaeul_10Car_NAME                          :[10Car] ITX-Saemaeul
+STR_Group_V_ITX_Saemaeul_DD_NAME                       :ITX-Saemaeul DD
+STR_V_ITX_Saemaeul_DD_6Car_NAME                        :[6Car] ITX-Saemaeul DD
+STR_V_ITX_Saemaeul_DD_8Car_NAME                        :[8Car] ITX-Saemaeul DD
+STR_V_ITX_Saemaeul_DD_10Car_NAME                       :[10Car] ITX-Saemaeul DD
+STR_Group_V_Nuriro_NAME                                :{GREEN}[Virtual] {BLACK} Nuriro
+STR_V_Nuriro_6Car_NAME                                 :[6Car] Nuriro
+STR_V_Nuriro_8Car_NAME                                 :[8Car] Nuriro
+STR_V_Nuriro_10Car_NAME                                :[10Car] Nuriro
+STR_V_Nuriro_DD_4Car_NAME                              :[4Car] Nuriro DD
+STR_V_Nuriro_DD_6Car_NAME                              :[6Car] Nuriro DD
+STR_V_Nuriro_DD_8Car_NAME                              :[8Car] Nuriro DD
+STR_V_Nuriro_DD_10Car_NAME                             :[10Car] Nuriro DD
+STR_Group_V_KTX_Cargo_NAME                             :[Virtual] KTX-Cargo
+STR_Group_V_KTX_Cargo_260_NAME                         :[Virtual] KTX-Cargo 260
+STR_V_KTX_Cargo_260_6Car_NAME                          :[6Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 260
+STR_V_KTX_Cargo_260_12Car_NAME                         :[12Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 260
+STR_V_KTX_Cargo_300_10Car_NAME                         :[10Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 300
+STR_Group_V_KTX_Cargo_320_NAME                         :[Virtual] KTX-Cargo 320
+STR_V_KTX_Cargo_320_8Car_NAME                          :[8Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 320
+STR_V_KTX_Cargo_320_16Car_NAME                         :[16Car]{GREEN}[Virtual] {BLACK}KTX-Cargo 320
+STR_Group_V_KTX_Cheong_Ryong_NAME                      :[Virtual] KTX-Cheong Ryong
+STR_V_KTX_Cheong_Ryong_8Car_NAME                       :[8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
+STR_V_KTX_Cheong_Ryong_16Car_NAME                      :[16Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
+STR_V_KTX_Cheong_Ryong_DD_8Car_NAME                    :[8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong DD
+STR_V_KTX_Chowol_8Car_NAME                             :[8Car] KTX-Chowol
+STR_Group_V_KTX_Eum_NAME                               :KTX-EUM
+STR_V_KTX_Eum_6Car_NAME                                :[6Car]KTX-EUM
+STR_V_KTX_Eum_8Car_NAME                                :[8Car]KTX-EUM
+STR_V_KTX_Eum_10Car_NAME                               :[10Car]KTX-EUM
+STR_V_KTX_Eum_DD_6Car_NAME                             :[6Car]KTX-EUM DD
+STR_V_KTX_Eum_DD_8Car_NAME                             :[8Car]KTX-EUM DD
+STR_V_KTX_Eum_DD_10Car_NAME                            :[10Car]KTX-EUM DD
+STR_Group_V_KTX_Onnuri_NAME                            :KTX-Onnuri
+STR_V_KTX_Onnuri_8Car_NAME                             :[8Car] KTX-Onnuri
+STR_V_KTX_Onnuri_10Car_NAME                            :[10Car] KTX-Onnuri
+STR_V_KTX_Onnuri_16Car_NAME                            :[16Car] KTX-Onnuri
+STR_V_KTX_Sancheon_10Car_NAME                          :[10Car]{GREEN}[Virtual] {BLACK} KTX-Sancheon
+STR_V_KTX_Sancheon_DD_10Car_NAME                       :[10Car] KTX-Sancheon DD
+STR_Group_V_KTX_Taegeuk_NAME                           :KTX Taegeuk
+STR_V_KTX_Taegeuk_8Car_NAME                            :[8Car] KTX Taegeuk
+STR_V_KTX_Taegeuk_10Car_NAME                           :[10Car] KTX Taegeuk
+STR_V_KTX_Taegeuk_16Car_NAME                           :[16Car] KTX Taegeuk
+STR_V_KTX_Taegeuk_20Car_NAME                           :[20Car] KTX Taegeuk
 STR_Transparency_NAME                                  :Transparency Vehicle
 
 # World / locomotive's name
@@ -529,6 +555,7 @@ STR_Nishitetsu_9000_3Car_NAME                          :[3Car] Nishitetsu 9000
 
 # World / Metro's name
 STR_Jakarta_LRT_2Car_NAME                              :[2Car] Jakarta LRT
+STR_EMU900_10Car_NAME                                  :[10Car] EMU900
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                            :Travel Train

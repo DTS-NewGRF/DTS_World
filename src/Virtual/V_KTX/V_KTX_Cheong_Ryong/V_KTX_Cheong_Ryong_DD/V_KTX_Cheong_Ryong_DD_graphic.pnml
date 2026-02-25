@@ -1,0 +1,186 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+V_KTX_Cheong_Ryong_DD_CC
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_engineH, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_engineH_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_wagon_M1, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_wagon_M1_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_wagon_M2, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_wagon_M2_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_wagon_M2_1, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_wagon_M2_1_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png") {
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_wagon_M3, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_wagon_M3_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png") {
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_wagon_M4, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png") {
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_wagon_M4_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png") {
+    DTS_temp(80, 216)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_engineT_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_CC_engineT, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_CC.png"){
+    DTS_temp(80, 270)
+}
+
+/*--------------------------------------------------------------------
+V_KTX_Cheong_Ryong_DD_BK
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_engineH, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_engineH_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_wagon_M1, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_wagon_M1_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_wagon_M2, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_wagon_M2_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_wagon_M2_1, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_wagon_M2_1_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png") {
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_wagon_M3, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_wagon_M3_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png") {
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_wagon_M4, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png") {
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_wagon_M4_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png") {
+    DTS_temp(80, 216)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_engineT_r, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_BK_engineT, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_BK.png"){
+    DTS_temp(80, 270)
+}
+
+/*--------------------------------------------------------------------
+V_KTX_Cheong_Ryong_DD
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Cheong_Ryong_DD_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M2_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M2_1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png") {
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M3_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png") {
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png") {
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_wagon_M4_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png") {
+    DTS_temp(80, 216)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_V_KTX_Cheong_Ryong_DD_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png"){
+    DTS_temp(80, 270)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Cheong_Ryong_DD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD.png", "src/Virtual/V_KTX/V_KTX_Cheong_Ryong/V_KTX_Cheong_Ryong_DD/V_KTX_Cheong_Ryong_DD_2cc.png"){
+    tmpl_purchase(0, 0)
+}

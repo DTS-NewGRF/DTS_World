@@ -147,6 +147,10 @@ spriteset(set_ITX_Maum_High1_engineT_DTC2_r, "src/locomotive/ITX/ITX_Maum/ITX_Ma
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_ITX_Maum_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_Maum/ITX_Maum_Logo.png"){
+    tmpl_purchase(0, 0)
+}
+
 spriteset(set_ITX_Maum_purchase, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
     tmpl_purchase(0, 0)
 }

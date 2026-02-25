@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_Mugunhwa_engineH, "src/Virtual/HYEL/HYEL_Mugunhwa/HYEL_Mugunhwa.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_HYEL_Mugunhwa_wagon, "src/Virtual/HYEL/HYEL_Mugunhwa/HYEL_Mugunhwa.png") {
+    DTS_temp(80, 27)
+}
+
+spriteset(set_HYEL_Mugunhwa_engineT, "src/Virtual/HYEL/HYEL_Mugunhwa/HYEL_Mugunhwa.png"){
+    DTS_temp(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_Mugunhwa_purchase, "src/Virtual/HYEL/HYEL_Mugunhwa/HYEL_Mugunhwa.png"){
+    tmpl_purchase(0, 0)
+}

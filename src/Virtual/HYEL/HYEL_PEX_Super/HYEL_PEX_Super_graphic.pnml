@@ -1,0 +1,145 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_PEX_Super_WPC1_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_HYEL_PEX_Super_WPC1_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_HYEL_PEX_Super_RPC1_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_HYEL_PEX_Super_RPC1_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_HYEL_PEX_Super_T_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_HYEL_PEX_Super_T_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_HYEL_PEX_Super_RT_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_HYEL_PEX_Super_RT_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_HYEL_PEX_Super_ST_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_HYEL_PEX_Super_ST_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_HYEL_PEX_Super_HT_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 189)
+}
+
+spriteset(set_HYEL_PEX_Super_HT_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 189)
+}
+
+spriteset(set_HYEL_PEX_Super_F_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 216)
+}
+
+spriteset(set_HYEL_PEX_Super_F_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 216)
+}
+
+spriteset(set_HYEL_PEX_Super_RF_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 243)
+}
+
+spriteset(set_HYEL_PEX_Super_RF_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 243)
+}
+
+spriteset(set_HYEL_PEX_Super_RES_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 270)
+}
+
+spriteset(set_HYEL_PEX_Super_RES_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 270)
+}
+
+spriteset(set_HYEL_PEX_Super_SD1_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 297)
+}
+
+spriteset(set_HYEL_PEX_Super_SD1_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 297)
+}
+
+spriteset(set_HYEL_PEX_Super_SD2_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 324)
+}
+
+spriteset(set_HYEL_PEX_Super_SD2_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 324)
+}
+
+spriteset(set_HYEL_PEX_Super_RD1_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 351)
+}
+
+spriteset(set_HYEL_PEX_Super_RD1_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 351)
+}
+
+spriteset(set_HYEL_PEX_Super_RD2_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 378)
+}
+
+spriteset(set_HYEL_PEX_Super_RD2_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 378)
+}
+
+spriteset(set_HYEL_PEX_Super_S_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 405)
+}
+
+spriteset(set_HYEL_PEX_Super_S_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 405)
+}
+
+spriteset(set_HYEL_PEX_Super_RS_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp(80, 432)
+}
+
+spriteset(set_HYEL_PEX_Super_RS_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
+    DTS_temp_r(80, 432)
+}
+
+spriteset(set_HYEL_PEX_Super_WPC2_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 459)
+}
+
+spriteset(set_HYEL_PEX_Super_WPC2_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 486)
+}
+
+spriteset(set_HYEL_PEX_Super_RPC2_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 513)
+}
+
+spriteset(set_HYEL_PEX_Super_RPC2_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 540)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_PEX_Super_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    tmpl_wagon_purchase(0, 0)
+}

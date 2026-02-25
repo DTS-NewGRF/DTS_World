@@ -19,6 +19,10 @@ spriteset(set_Glory_600_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomo
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_Glory_600_purchase_Logo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory/Glory_600/Glory_600_Logo.png"){
+    tmpl_purchase(0, 0)
+}
+
 spriteset(set_Glory_600_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory/Glory_600/Glory_600.png"){
     tmpl_purchase(0, 0)
 }

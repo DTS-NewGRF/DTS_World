@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Sancheon_DD_engineH, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_engineH_r, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_wagon_T1, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_wagon_T1_r, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png"){
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_wagon_T2, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_wagon_T2_r, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png") {
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_wagon_T3, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_wagon_T3_r, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_wagon_T4, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_wagon_T4_r, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png") {
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_wagon_T5, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_wagon_T5_r, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png"){
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_engineT_r, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_KTX_Sancheon_DD_engineT, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png"){
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Sancheon_DD_purchase, "src/Virtual/V_KTX/V_KTX_Sancheon/V_KTX_Sancheon_DD/V_KTX_Sancheon_DD.png"){
+    tmpl_purchase(0, 0)
+}

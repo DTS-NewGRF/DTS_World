@@ -22,7 +22,7 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong, 2427){
         }
 
     graphics {
-        purchase:                       KTX_Cheong_Ryong_purchase;
+        purchase:                       set_KTX_Cheong_Ryong_Logo_purchase;
         }
         }
 

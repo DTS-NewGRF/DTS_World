@@ -28,13 +28,13 @@
 |2009|APEX_2000_4th_6Car|
 |2010|ITX_Maum_6Car|
 |2011|V_ITX_Maum_DD_6Car|
-|2012|Nuriro_DD_4Car|
+|2012|V_Nuriro_DD_4Car|
 |2013|V_ITX_Saemaeul_DD_6Car|
 |2014|GT26CW|
 |2015|DEL7600|
 |2016|FEL_8500|
 |2017|GTX_8Car|
-|2018|V_ITX_Chowol_8Car|
+|2018|V_ITX_CheongChun_DD_8Car|
 |2019|TTX_6Car|
 |2020|V_KTX_Eum_6Car|
 |2021|V_KTX_Eum_DD_6Car|
@@ -587,12 +587,39 @@
 |2568|Seoulmetro_6th_4000_10Car|
 |2569|Seoulmetro_5th_8000_6Car|
 |2570|TLX_5Car|
-|2199|[공백] 1.70이후 부여|
-|2323|[공백] 1.70이후 부여|
-|2326|[공백] 1.70이후 부여|
-|2571~2999|[공백]|
+|2571|EMU900_10Car|
+|2572|Virtual|
+|2573|V_ITX_Saemaeul|
+|2574|V_ITX_Saemaeul_10Car|
+|2575|V_ITX_Saemaeul_DD_10Car|
+|2576|V_ITX_Saemaeul_DD_10Car|
+|2577|[그룹명] V_ITX_CheongChun_DD|
+|2578|V_ITX_CheongChun_DD_10Car|
+|2579|[그룹명] V_Nuriro|
+|2580|V_Nuriro_6Car|
+|2581|V_Nuriro_8Car|
+|2582|V_Nuriro_10Car|
+|2583|V_Nuriro_DD_6Car|
+|2584|V_Nuriro_DD_8Car|
+|2585|V_Nuriro_DD_10Car|
+|2586|HYEL_Gangsan_10Car|
+|2587|HYEL_Mugunhwa_8Car|
+|2588|HYEL_Mugunhwa_10Car|
+|2589|HYEL_Mugunhwa_DD|
+|2590|HYEL_Mugunhwa_DD_8Car|
+|2591|HYEL_Mugunhwa_DD_10Car|
+|2592|[그룹명] Group_V_KTX_Eum|
+|2593|V_KTX_Eum_8Car|
+|2594|V_KTX_Eum_10Car|
+|2595|V_KTX_Eum_DD_8Car|
+|2596|V_KTX_Eum_DD_10Car|
+|2597|[그룹명] V_KTX_Cargo|
+|2598~2999|[공백]|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|
 |3003|Korail_First_8Car|
 |3004|Korail_First_10Car|
+|2199|[공백] 1.70이후 부여|
+|2323|[공백] 1.70이후 부여|
+|2326|[공백] 1.70이후 부여|

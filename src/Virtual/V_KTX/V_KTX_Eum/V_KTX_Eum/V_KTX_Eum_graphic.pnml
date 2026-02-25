@@ -1,0 +1,267 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+V_KTX_Eum_W
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Eum_W_engineH, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_KTX_Eum_W_engineH_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_KTX_Eum_W_wagon_M1, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_KTX_Eum_W_wagon_M1_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_KTX_Eum_W_wagon_M2, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_KTX_Eum_W_wagon_M2_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_KTX_Eum_W_wagon_M3, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Eum_W_wagon_M3_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Eum_W_engineT_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_KTX_Eum_W_engineT, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png"){
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
+V_KTX_Eum_BK
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Eum_BK_engineH, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_BK.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_KTX_Eum_BK_engineH_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_BK.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_KTX_Eum_BK_wagon_M1, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_BK.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_KTX_Eum_BK_wagon_M1_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_BK.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_KTX_Eum_BK_wagon_M2, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_BK.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_KTX_Eum_BK_wagon_M2_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_BK.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_KTX_Eum_BK_wagon_M3, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_BK.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Eum_BK_wagon_M3_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_BK.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Eum_BK_engineT_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_BK.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_KTX_Eum_BK_engineT, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_BK.png"){
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
+V_KTX_Eum_MD
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Eum_MD_engineH, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_MD.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_KTX_Eum_MD_engineH_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_MD.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_KTX_Eum_MD_wagon_M1, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_MD.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_KTX_Eum_MD_wagon_M1_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_MD.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_KTX_Eum_MD_wagon_M2, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_MD.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_KTX_Eum_MD_wagon_M2_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_MD.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_KTX_Eum_MD_wagon_M3, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_MD.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Eum_MD_wagon_M3_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_MD.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Eum_MD_engineT_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_MD.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_KTX_Eum_MD_engineT, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_MD.png"){
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
+V_KTX_Eum_SM1
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Eum_SM1_engineH, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_KTX_Eum_SM1_engineH_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_KTX_Eum_SM1_wagon_M1, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_KTX_Eum_SM1_wagon_M1_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_KTX_Eum_SM1_wagon_M2, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_KTX_Eum_SM1_wagon_M2_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_KTX_Eum_SM1_wagon_M3, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Eum_SM1_wagon_M3_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Eum_SM1_engineT_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_KTX_Eum_SM1_engineT, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM1.png"){
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
+V_KTX_Eum_SM2
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Eum_SM2_engineH, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM2.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_KTX_Eum_SM2_engineH_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM2.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_KTX_Eum_SM2_wagon_M1, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM2.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_KTX_Eum_SM2_wagon_M1_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM2.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_KTX_Eum_SM2_wagon_M2, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM2.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_KTX_Eum_SM2_wagon_M2_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM2.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_KTX_Eum_SM2_wagon_M3, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM2.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Eum_SM2_wagon_M3_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM2.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Eum_SM2_engineT_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM2.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_KTX_Eum_SM2_engineT, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM2.png"){
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
+V_KTX_Eum_SM3
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Eum_SM3_engineH, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM3.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_V_KTX_Eum_SM3_engineH_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM3.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_V_KTX_Eum_SM3_wagon_M1, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM3.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_V_KTX_Eum_SM3_wagon_M1_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM3.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_V_KTX_Eum_SM3_wagon_M2, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM3.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_V_KTX_Eum_SM3_wagon_M2_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM3.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_V_KTX_Eum_SM3_wagon_M3, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM3.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_V_KTX_Eum_SM3_wagon_M3_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM3.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_V_KTX_Eum_SM3_engineT_r, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM3.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_V_KTX_Eum_SM3_engineT, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_SM3.png"){
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_V_KTX_Eum_purchase, "src/Virtual/V_KTX/V_KTX_Eum/V_KTX_Eum/V_KTX_Eum_W.png"){
+    tmpl_purchase(0, 0)
+}

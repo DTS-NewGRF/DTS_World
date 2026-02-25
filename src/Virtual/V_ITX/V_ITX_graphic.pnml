@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_V_ITX_2012_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX_2012.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_V_ITX_2014_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/V_ITX/V_ITX.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_V_ITX_purchase, current_year) {
+    0..2013: set_V_ITX_2012_purchase;
+    set_V_ITX_2014_purchase;
+    }

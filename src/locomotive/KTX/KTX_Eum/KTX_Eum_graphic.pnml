@@ -155,6 +155,10 @@ spriteset(set_KTX_Eum_2nd_engineT_TCD_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "sr
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_KTX_Eum_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum/KTX_Eum_Logo.png"){
+    tmpl_purchase(0, 0)
+}
+
 spriteset(set_KTX_Eum_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX/KTX_Eum/KTX_Eum_2cc.png"){
     tmpl_purchase(0, 0)
 }

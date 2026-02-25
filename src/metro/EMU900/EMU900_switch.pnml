@@ -1,0 +1,47 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+// 6량
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_EMU900_10car, position_in_vehid_chain % 10) {
+    1:set_EMU900_wagon_M1To;
+    2:set_EMU900_panto_wagon_T1;
+    3:set_EMU900_wagon_M;
+    4:set_EMU900_wagon_M;
+    5:set_EMU900_panto_wagon_T2To;
+    6:set_EMU900_wagon_M;
+    7:set_EMU900_panto_wagon_T2;
+    8:set_EMU900_wagon_M2To;
+    9:set_EMU900_engineT;
+    set_EMU900_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_EMU900_10car_r, position_in_vehid_chain % 10) {
+    1:set_EMU900_wagon_M2To_r;
+    2:set_EMU900_panto_wagon_T2_r;
+    3:set_EMU900_wagon_M_r;
+    4:set_EMU900_panto_wagon_T2To_r;
+    5:set_EMU900_wagon_M_r;
+    6:set_EMU900_wagon_M_r;
+    7:set_EMU900_panto_wagon_T1_r;
+    8:set_EMU900_wagon_M1To_r;
+    9:set_EMU900_engineH_r;
+    set_EMU900_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_EMU900_10car_flipped, vehicle_is_flipped){
+    0: sw_EMU900_10car_r;
+    sw_EMU900_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_EMU900_10car_reversed, vehicle_is_reversed){
+    0: sw_EMU900_10car;
+    sw_EMU900_10car_flipped;
+}
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_EMU900_10car, extra_callback_info1) {
+    1..9: EMU900_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

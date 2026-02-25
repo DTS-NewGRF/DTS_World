@@ -69,6 +69,10 @@ spriteset(set_PEX_Super_wagon_SB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_PEX_Super_purchase_Logo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_Logo.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
 spriteset(set_PEX_Super_N_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/PEX_Super/PEX_Super_N_wagon.png"){
     tmpl_wagon_purchase(0, 0)
 }

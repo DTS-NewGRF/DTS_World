@@ -261,6 +261,10 @@ spriteset(set_SRT_320_engineT_TCD_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/lo
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_KTX_Cheong_Ryong_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Cheong_Ryong/KTX_Cheong_Ryong_Logo.png"){
+    tmpl_purchase(0, 0)
+}
+
 spriteset(set_KTX_Cheong_Ryong_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Cheong_Ryong/KTX_Cheong_Ryong.png", "src/locomotive/KTX/KTX_Cheong_Ryong/KTX_Cheong_Ryong_2CC.png"){
     tmpl_purchase(0, 0)
 }

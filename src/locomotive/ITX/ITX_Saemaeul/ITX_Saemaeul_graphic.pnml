@@ -69,6 +69,10 @@ spriteset(set_ITX_Saemaeul_engineT, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeu
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_ITX_Saemaeul_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul_Logo.png"){
+    tmpl_purchase(0, 0)
+}
+
 spriteset(set_ITX_Saemaeul_purchase, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png"){
     tmpl_purchase(0, 0)
 }

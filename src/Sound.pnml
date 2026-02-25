@@ -714,8 +714,9 @@ switch(FEAT_TRAINS, SELF, sw_TOSHIBASicStart_sound, extra_callback_info1) {
 /*--------------------------------------------------------------------
 TOSHIBAStart.wav
 적용열차
-- ITX-새마을 DD, 청춘, 초월
+- ITX-새마을 DD, 청춘, 청춘 DD
 - TTX
+- 타이완철도유한회사 EMU900
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_TOSHIBAStart_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAStart.wav");

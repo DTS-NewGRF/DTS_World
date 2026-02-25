@@ -1,0 +1,97 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_350_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_HYEL_350_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_HYEL_350_wagon_T1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_HYEL_350_wagon_T1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_HYEL_350_wagon_T2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_HYEL_350_wagon_T2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_HYEL_350_wagon_T3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_HYEL_350_wagon_T3_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_HYEL_350_wagon_T4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_HYEL_350_wagon_T4_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_HYEL_350_wagon_T5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_HYEL_350_wagon_T5_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_HYEL_350_wagon_T6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp(80, 189)
+}
+
+spriteset(set_HYEL_350_wagon_T6_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp_r(80, 189)
+}
+
+spriteset(set_HYEL_350_wagon_T7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp(80, 216)
+}
+
+spriteset(set_HYEL_350_wagon_T7_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp_r(80, 216)
+}
+
+spriteset(set_HYEL_350_wagon_T8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp(80, 243)
+}
+
+spriteset(set_HYEL_350_wagon_T8_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp_r(80, 243)
+}
+
+spriteset(set_HYEL_350_wagon_T9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp(80, 270)
+}
+
+spriteset(set_HYEL_350_wagon_T9_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png") {
+    DTS_temp_r(80, 270)
+}
+
+spriteset(set_HYEL_350_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png"){
+    DTS_temp(80, 297)
+}
+
+spriteset(set_HYEL_350_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png"){
+    DTS_temp(80, 324)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_350_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_350/HYEL_350.png"){
+    tmpl_purchase(0, 0)
+}

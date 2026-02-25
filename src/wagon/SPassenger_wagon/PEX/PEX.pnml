@@ -20,7 +20,7 @@ item(FEAT_TRAINS, PEX, 2333){
         }
 
     graphics {
-        purchase:                       set_PEX_N_wagon_purchase;
+        purchase:                       set_PEX_purchase_Logo;
         }
         }
 

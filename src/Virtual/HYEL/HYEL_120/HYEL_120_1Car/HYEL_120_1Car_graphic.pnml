@@ -1,0 +1,13 @@
+/*--------------------------------------------------------------------
+HYEL_120
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_120_1Car_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_120/HYEL_120_1Car/HYEL_120_1Car.png"){
+    DTS_temp(80, 0)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_120_1Car_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Virtual/HYEL/HYEL_120/HYEL_120_1Car/HYEL_120_1Car.png"){
+    tmpl_purchase(0, 0)
+}

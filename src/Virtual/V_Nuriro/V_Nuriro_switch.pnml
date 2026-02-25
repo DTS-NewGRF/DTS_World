@@ -1,0 +1,119 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색명
+// 편성그래픽
+// 6량
+switch (FEAT_TRAINS, SELF, sw_V_Nuriro_6Car, position_in_vehid_chain % 6) {
+    1:sw_Nuriro_4Car_wagon_2;
+    2:sw_Nuriro_4Car_wagon_3;
+    3:sw_Nuriro_4Car_wagon_3;
+    4:sw_Nuriro_4Car_wagon_2;
+    5:sw_Nuriro_4Car_engineT;
+    sw_Nuriro_4Car_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_V_Nuriro_6Car_r, position_in_vehid_chain % 6) {
+    1:sw_Nuriro_4Car_wagon_2_r;
+    2:sw_Nuriro_4Car_wagon_3_r;
+    3:sw_Nuriro_4Car_wagon_3_r;
+    4:sw_Nuriro_4Car_wagon_2_r;
+    5:sw_Nuriro_4Car_engineH_r;
+    sw_Nuriro_4Car_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_V_Nuriro_6Car_flipped, vehicle_is_flipped){
+    0: sw_V_Nuriro_6Car_r;
+    sw_V_Nuriro_6Car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_V_Nuriro_6Car_reversed, vehicle_is_reversed){
+    0: sw_V_Nuriro_6Car;
+    sw_V_Nuriro_6Car_flipped;
+}
+
+// 8량
+switch (FEAT_TRAINS, SELF, sw_V_Nuriro_8Car, position_in_vehid_chain % 8) {
+    1:sw_Nuriro_4Car_wagon_3;
+    2:sw_Nuriro_4Car_wagon_2;
+    3:sw_Nuriro_4Car_wagon_3;
+    4:sw_Nuriro_4Car_wagon_3;
+    5:sw_Nuriro_4Car_wagon_2;
+    6:sw_Nuriro_4Car_wagon_3;
+    7:sw_Nuriro_4Car_engineT;
+    sw_Nuriro_4Car_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_V_Nuriro_8Car_r, position_in_vehid_chain % 8) {
+    1:sw_Nuriro_4Car_wagon_3_r;
+    2:sw_Nuriro_4Car_wagon_2_r;
+    3:sw_Nuriro_4Car_wagon_3_r;
+    4:sw_Nuriro_4Car_wagon_3_r;
+    5:sw_Nuriro_4Car_wagon_2_r;
+    6:sw_Nuriro_4Car_wagon_3_r;
+    7:sw_Nuriro_4Car_engineH_r;
+    sw_Nuriro_4Car_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_V_Nuriro_8Car_flipped, vehicle_is_flipped){
+    0: sw_V_Nuriro_8Car_r;
+    sw_V_Nuriro_8Car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_V_Nuriro_8Car_reversed, vehicle_is_reversed){
+    0: sw_V_Nuriro_8Car;
+    sw_V_Nuriro_8Car_flipped;
+}
+
+// 10량
+switch (FEAT_TRAINS, SELF, sw_V_Nuriro_10Car, position_in_vehid_chain % 10) {
+    1:sw_Nuriro_4Car_wagon_3;
+    2:sw_Nuriro_4Car_wagon_2;
+    3:sw_Nuriro_4Car_wagon_3;
+    4:sw_Nuriro_4Car_wagon_3;
+    5:sw_Nuriro_4Car_wagon_3;
+    6:sw_Nuriro_4Car_wagon_3;
+    7:sw_Nuriro_4Car_wagon_2;
+    8:sw_Nuriro_4Car_wagon_3;
+    9:sw_Nuriro_4Car_engineT;
+    sw_Nuriro_4Car_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_V_Nuriro_10Car_r, position_in_vehid_chain % 10) {
+    1:sw_Nuriro_4Car_wagon_3_r;
+    2:sw_Nuriro_4Car_wagon_2_r;
+    3:sw_Nuriro_4Car_wagon_3_r;
+    4:sw_Nuriro_4Car_wagon_3_r;
+    5:sw_Nuriro_4Car_wagon_3_r;
+    6:sw_Nuriro_4Car_wagon_3_r;
+    7:sw_Nuriro_4Car_wagon_2_r;
+    8:sw_Nuriro_4Car_wagon_3_r;
+    9:sw_Nuriro_4Car_engineH_r;
+    sw_Nuriro_4Car_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_V_Nuriro_10Car_flipped, vehicle_is_flipped){
+    0: sw_V_Nuriro_10Car_r;
+    sw_V_Nuriro_10Car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_V_Nuriro_10Car_reversed, vehicle_is_reversed){
+    0: sw_V_Nuriro_10Car;
+    sw_V_Nuriro_10Car_flipped;
+}
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_V_Nuriro_6Car, extra_callback_info1) {
+    1..5: V_Nuriro_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_V_Nuriro_8Car, extra_callback_info1) {
+    1..7: V_Nuriro_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_V_Nuriro_10Car, extra_callback_info1) {
+    1..9: V_Nuriro_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

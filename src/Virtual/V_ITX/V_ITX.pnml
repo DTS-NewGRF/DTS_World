@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------------
+[가상] ITX
+--------------------------------------------------------------------*/
+// Graphics
+#include "V_ITX_graphic.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, V_ITX_Logo, 2548){
+    property {
+        name:                           string(STR_Group_V_ITX_Logo_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2592 kW;
+        variant_group:                  Virtual;
+        }
+
+    graphics {
+        purchase:                       sw_V_ITX_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "V_ITX_CheongChan/V_ITX_CheongChan.pnml"
+#include "V_ITX_CheongChun/V_ITX_CheongChun.pnml"
+#include "V_ITX_CheongChun_DD/V_ITX_CheongChun_DD.pnml"
+#include "V_ITX_Maum/V_ITX_Maum.pnml"
+#include "V_ITX_Saemaeul/V_ITX_Saemaeul.pnml"

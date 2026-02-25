@@ -4,6 +4,6 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_Travel_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/Travel_Group.png"){
+spriteset(set_Travel_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Travel_Group.png"){
     tmpl_wagon_purchase(0, 0)
 }

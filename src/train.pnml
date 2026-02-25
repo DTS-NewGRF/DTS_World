@@ -25,13 +25,10 @@
 #include "locomotive/HEMU_430X/HEMU_430X.pnml"
 #include "locomotive/HSR_350X/HSR_350X.pnml"
 #include "locomotive/HXD3C/HXD3C.pnml"
-#include "locomotive/HYEL/HYEL.pnml"
 #include "locomotive/ICE/ICE.pnml"
 #include "locomotive/ITX/ITX.pnml"
 #include "locomotive/Keisei_AE_series/Keisei_AE_series.pnml"
 #include "locomotive/KTX/KTX.pnml"
-#include "locomotive/V_ITX/V_ITX.pnml"
-#include "locomotive/V_KTX/V_KTX.pnml"
 #include "locomotive/MSB_Speeder/MSB_Speeder.pnml"
 #include "locomotive/NEL_8100/NEL_8100.pnml"
 #include "locomotive/NEL_8200/NEL_8200.pnml"
@@ -39,7 +36,6 @@
 #include "locomotive/NJ2/NJ2.pnml"
 #include "locomotive/NSW_TrainLink_D/NSW_TrainLink_D.pnml"
 #include "locomotive/Nuriro/Nuriro.pnml"
-#include "locomotive/Nuriro_DD/Nuriro_DD.pnml"
 #include "locomotive/OEL_8000/OEL_8000.pnml"
 #include "locomotive/Shinkansen/Shinkansen.pnml"
 #include "locomotive/RDC/RDC.pnml"
@@ -58,6 +54,7 @@
 #include "metro/Daegumetro/Daegumetro.pnml"
 #include "metro/Daejeonmetro/Daejeonmetro.pnml"
 #include "metro/Dongbuk/Dongbuk.pnml"
+#include "metro/EMU900/EMU900.pnml"
 #include "metro/Gimpo_Gold/Gimpo_Gold.pnml"
 #include "metro/Gwangjumetro/Gwangjumetro.pnml"
 #include "metro/Hankyu/Hankyu.pnml"
@@ -77,6 +74,9 @@
 #include "metro/Uijeongbu_Line/Uijeongbu_Line.pnml"
 #include "metro/Yangsan_AGT/Yangsan_AGT.pnml"
 #include "metro/Yongin_EverLine/Yongin_EverLine.pnml"
+
+//Virtual
+#include "Virtual/Virtual.pnml"
 
 //Showcase
 #include "Showcase/Showcase.pnml"

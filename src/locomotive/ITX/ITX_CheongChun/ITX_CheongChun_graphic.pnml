@@ -107,6 +107,10 @@ spriteset(set_ITX_CheongChun_D_engineT, "src/locomotive/ITX/ITX_CheongChun/ITX_C
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_ITX_CheongChun_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun_Logo.png"){
+    tmpl_purchase(0, 0)
+}
+
 spriteset(set_ITX_CheongChun_purchase, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun.png"){
     tmpl_purchase(0, 0)
 }
