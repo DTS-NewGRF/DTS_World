@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 DFX
 --------------------------------------------------------------------*/
-// Graphics
-#include "DFX_graphic.pnml"
-
 // Switch
 #include "DFX_switch.pnml"
 
@@ -12,8 +9,8 @@ DFX
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DFX_10Car, 2112){
     property {
-        name:                           string(STR_DFX_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -50,7 +47,7 @@ item(FEAT_TRAINS, DFX_10Car, 2112){
 	graphics {
         default:                        sw_DFX_10car;
         articulated_part:               sw_articulated_DFX_10car;
-        purchase:                       set_DFX_purchase;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

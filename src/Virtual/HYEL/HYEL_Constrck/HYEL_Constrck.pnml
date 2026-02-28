@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 HYEL_Constrck
 --------------------------------------------------------------------*/
-// Graphics
-#include "HYEL_Constrck_graphic.pnml"
-
 // Switch
 #include "HYEL_Constrck_switch.pnml"
 
@@ -12,8 +9,8 @@ HYEL_Constrck
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_Constrck, 2320){
     property {
-        name:                           string(STR_HYEL_Constrck_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -51,9 +48,9 @@ item(FEAT_TRAINS, HYEL_Constrck, 2320){
         }
         
     graphics {
-        default:                        sw_HYEL_Constrck_12car_reversed;
+        default:                        sw_HYEL_Constrck_12car;
         articulated_part:               sw_articulated_HYEL_Constrck;
-        purchase:                       set_HYEL_Constrck_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_180_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;

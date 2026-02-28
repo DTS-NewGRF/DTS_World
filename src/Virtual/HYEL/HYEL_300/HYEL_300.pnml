@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 HYEL-300
 --------------------------------------------------------------------*/
-// Graphics
-#include "HYEL_300_graphic.pnml"
-
 // Switch
 #include "HYEL_300_switch.pnml"
 
@@ -12,7 +9,7 @@ HYEL-300
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_300, 2483){
     property {
-        name:                           string(STR_Group_HYEL_300_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -22,7 +19,7 @@ item(FEAT_TRAINS, HYEL_300, 2483){
         }
 
     graphics {
-        purchase:                       set_HYEL_300_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -31,8 +28,8 @@ item(FEAT_TRAINS, HYEL_300, 2483){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_300_8Car, 2110){
     property {
-        name:                           string(STR_HYEL_300_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -70,15 +67,14 @@ item(FEAT_TRAINS, HYEL_300_8Car, 2110){
         }
         
     graphics {
-        default:                        sw_HYEL_300_8car_reversed;
+        default:                        sw_HYEL_300_8car;
         articulated_part:               sw_articulated_HYEL_300_8car;
-        purchase:                       set_HYEL_300_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_180_speed;
         cargo_capacity:                 sw_HYEL_300_8car_capacity_in_custom;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_HYEL_300_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }
@@ -88,8 +84,8 @@ item(FEAT_TRAINS, HYEL_300_8Car, 2110){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_300_10Car, 2484){
     property {
-        name:                           string(STR_HYEL_300_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -127,15 +123,14 @@ item(FEAT_TRAINS, HYEL_300_10Car, 2484){
         }
         
     graphics {
-        default:                        sw_HYEL_300_10car_reversed;
+        default:                        sw_HYEL_300_10car;
         articulated_part:               sw_articulated_HYEL_300_10car;
-        purchase:                       set_HYEL_300_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_180_speed;
         cargo_capacity:                 sw_HYEL_300_10car_capacity_in_custom;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_HYEL_300_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }

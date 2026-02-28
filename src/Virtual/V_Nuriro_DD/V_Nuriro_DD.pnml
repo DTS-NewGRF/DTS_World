@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 누리로 DD
 --------------------------------------------------------------------*/
-// Graphics
-#include "V_Nuriro_DD_graphic.pnml"
-
 // Switch
 #include "V_Nuriro_DD_switch.pnml"
 
@@ -12,8 +9,8 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_Nuriro_DD_4Car, 2012){
     property {
-        name:                           string(STR_V_Nuriro_DD_4Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -50,14 +47,13 @@ item(FEAT_TRAINS, V_Nuriro_DD_4Car, 2012){
         }
 
 	graphics {
-        default:                        sw_V_Nuriro_DD_4car_reversed;
+        default:                        sw_V_Nuriro_DD_4car;
         articulated_part:               sw_articulated_V_Nuriro_DD_4car;
-        purchase:                       set_V_Nuriro_DD_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_V_Nuriro_DD_cargo_subtype_text;
         sound_effect:                   sw_HITACHIStart_sound;
         }
         }
@@ -67,8 +63,8 @@ item(FEAT_TRAINS, V_Nuriro_DD_4Car, 2012){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_Nuriro_DD_6Car, 2583){
     property {
-        name:                           string(STR_V_Nuriro_DD_6Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -105,14 +101,13 @@ item(FEAT_TRAINS, V_Nuriro_DD_6Car, 2583){
         }
 
 	graphics {
-        default:                        sw_V_Nuriro_DD_6car_reversed;
+        default:                        sw_V_Nuriro_DD_6car;
         articulated_part:               sw_articulated_V_Nuriro_DD_6car;
-        purchase:                       set_V_Nuriro_DD_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_V_Nuriro_DD_cargo_subtype_text;
         sound_effect:                   sw_HITACHIStart_sound;
         }
         }
@@ -122,8 +117,8 @@ item(FEAT_TRAINS, V_Nuriro_DD_6Car, 2583){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_Nuriro_DD_8Car, 2584){
     property {
-        name:                           string(STR_V_Nuriro_DD_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -160,14 +155,13 @@ item(FEAT_TRAINS, V_Nuriro_DD_8Car, 2584){
         }
 
 	graphics {
-        default:                        sw_V_Nuriro_DD_8car_reversed;
+        default:                        sw_V_Nuriro_DD_8car;
         articulated_part:               sw_articulated_V_Nuriro_DD_8car;
-        purchase:                       set_V_Nuriro_DD_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_V_Nuriro_DD_cargo_subtype_text;
         sound_effect:                   sw_HITACHIStart_sound;
         }
 }
@@ -177,8 +171,8 @@ item(FEAT_TRAINS, V_Nuriro_DD_8Car, 2584){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_Nuriro_DD_10Car, 2585){
     property {
-        name:                           string(STR_V_Nuriro_DD_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -215,14 +209,13 @@ item(FEAT_TRAINS, V_Nuriro_DD_10Car, 2585){
         }
 
 	graphics {
-        default:                        sw_V_Nuriro_DD_10car_reversed;
+        default:                        sw_V_Nuriro_DD_10car;
         articulated_part:               sw_articulated_V_Nuriro_DD_10car;
-        purchase:                       set_V_Nuriro_DD_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_V_Nuriro_DD_cargo_subtype_text;
         sound_effect:                   sw_HITACHIStart_sound;
         }
         }

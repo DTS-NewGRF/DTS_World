@@ -3,16 +3,8 @@
 --------------------------------------------------------------------*/
 //편성그래픽
 switch (FEAT_TRAINS, SELF, sw_V_KTX_Cargo_300_10car, position_in_vehid_chain % 10) {
-    1:set_V_KTX_Cargo_300_wagon;
-    2:set_V_KTX_Cargo_300_wagon;
-    3:set_V_KTX_Cargo_300_wagon;
-    4:set_V_KTX_Cargo_300_wagon;
-    5:set_V_KTX_Cargo_300_wagon;
-    6:set_V_KTX_Cargo_300_wagon;
-    7:set_V_KTX_Cargo_300_wagon;
-    8:set_V_KTX_Cargo_300_wagon;
-    9:set_V_KTX_Cargo_300_engineT;
-    set_V_KTX_Cargo_300_engineH; //default
+    1..9:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
 
 // 편성량

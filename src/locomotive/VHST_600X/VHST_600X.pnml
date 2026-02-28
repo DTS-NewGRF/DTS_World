@@ -12,7 +12,7 @@ VHST-600X
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, VHST_600X, 2371){
     property {
-        name:                           string(STR_Group_VHST_600X_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -21,7 +21,7 @@ item(FEAT_TRAINS, VHST_600X, 2371){
         }
 
     graphics {
-        purchase:                       set_VHST_600X_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -30,8 +30,8 @@ item(FEAT_TRAINS, VHST_600X, 2371){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, VHST_600X_8Car, 2029){
     property {
-        name:                           string(STR_VHST_600X_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2100, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -69,7 +69,7 @@ item(FEAT_TRAINS, VHST_600X_8Car, 2029){
 	graphics {
         default:                        sw_VHST_600X_8car;
         articulated_part:               sw_articulated_VHST_600X_8car;
-        purchase:                       set_VHST_600X_purchase;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -82,8 +82,8 @@ item(FEAT_TRAINS, VHST_600X_8Car, 2029){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, VHST_600X_16Car, 2372){
     property {
-        name:                           string(STR_VHST_600X_16Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2100, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -121,7 +121,7 @@ item(FEAT_TRAINS, VHST_600X_16Car, 2372){
 	graphics {
         default:                        sw_VHST_600X_16car;
         articulated_part:               sw_articulated_VHST_600X_16car;
-        purchase:                       set_VHST_600X_purchase;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

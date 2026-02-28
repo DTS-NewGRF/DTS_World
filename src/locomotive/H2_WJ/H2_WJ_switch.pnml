@@ -7,10 +7,8 @@ switch (FEAT_TRAINS, SELF, sw_H2_WJ_2car, position_in_vehid_chain % 2) {
     }
 
 switch (FEAT_TRAINS, SELF, sw_H2_WJ_4car, position_in_vehid_chain % 4) {
-    1:set_H2_WJ_wagon;
-    2:set_H2_WJ_wagon;
-    3:set_H2_WJ_engineT;
-    set_H2_WJ_engineH; //default
+    1..3:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_H2_WJ_2car, extra_callback_info1) {

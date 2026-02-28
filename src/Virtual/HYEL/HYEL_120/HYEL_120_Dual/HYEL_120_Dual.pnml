@@ -1,19 +1,13 @@
 /*--------------------------------------------------------------------
 HYEL-120_Dual
 --------------------------------------------------------------------*/
-// Graphics
-#include "HYEL_120_Dual_graphic.pnml"
-
-// Switch
-#include "HYEL_120_Dual_switch.pnml"
-
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_120_Dual, 2280){
     property {
-        name:                           string(STR_HYEL_120_Dual_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2031, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -51,9 +45,8 @@ item(FEAT_TRAINS, HYEL_120_Dual, 2280){
         }
         
     graphics {
-        default:                        sw_HYEL_120_Dual_engine;
-        articulated_part:               sw_articulated_HYEL_120_Dual;
-        purchase:                       set_HYEL_120_Dual_purchase;
+        default:                        set_Deleted_engineH;
+        purchase:                       set_Deleted_purchase;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -2,44 +2,9 @@
 스위치
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_HYEL_Constrck_12car, position_in_vehid_chain % 12) {
-     1:set_Express_Luggage_GL;
-     2:set_HYEL_Constrck_FLAT_CAR;
-     3:set_HYEL_Constrck_FLAT_CAR;
-     4:set_HYEL_Constrck_FLAT_CAR;
-     5:set_HYEL_Constrck_FLAT_CAR;
-     6:set_HYEL_Constrck_FLAT_CAR;
-     7:set_HYEL_Constrck_FLAT_CAR;
-     8:set_HYEL_Constrck_FLAT_CAR;
-     9:set_HYEL_Constrck_FLAT_CAR;
-    10:set_HYEL_Constrck_FLAT_CAR;
-    11:set_HYEL_Constrck_FLAT_CAR;
-    set_HYEL_150_engine; //default // HYEL-150 기본 기관차 사용.
+    1..11:set_Deleted_wagon;
+    set_Deleted_engineH; //default // HYEL-150 기본 기관차 사용.
     }
-
-switch (FEAT_TRAINS, SELF, sw_HYEL_Constrck_12car_r, position_in_vehid_chain % 12) {
-     1:set_HYEL_Constrck_FLAT_CAR;
-     2:set_HYEL_Constrck_FLAT_CAR;
-     3:set_HYEL_Constrck_FLAT_CAR;
-     4:set_HYEL_Constrck_FLAT_CAR;
-     5:set_HYEL_Constrck_FLAT_CAR;
-     6:set_HYEL_Constrck_FLAT_CAR;
-     7:set_HYEL_Constrck_FLAT_CAR;
-     8:set_HYEL_Constrck_FLAT_CAR;
-     9:set_HYEL_Constrck_FLAT_CAR;
-    10:set_HYEL_Constrck_FLAT_CAR;
-    11:set_Express_Luggage_GL_r;
-    set_HYEL_150_engine_r; //default // HYEL-150 기본 기관차 사용.
-    }
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_Constrck_12car_flipped, vehicle_is_flipped){
-    0: sw_HYEL_Constrck_12car_r;
-    sw_HYEL_Constrck_12car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_HYEL_Constrck_12car_reversed, vehicle_is_reversed){
-    0: sw_HYEL_Constrck_12car;
-    sw_HYEL_Constrck_12car_flipped;
-}
 
 switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_Constrck, extra_callback_info1) {
     1..11: HYEL_Constrck;

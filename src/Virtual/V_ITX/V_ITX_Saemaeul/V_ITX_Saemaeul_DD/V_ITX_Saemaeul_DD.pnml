@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 ITX-새마을 DD
 --------------------------------------------------------------------*/
-// Graphics
-#include "V_ITX_Saemaeul_DD_graphic.pnml"
-
 // Switch
 #include "V_ITX_Saemaeul_DD_switch.pnml"
 
@@ -12,7 +9,7 @@ ITX-새마을 DD
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_ITX_Saemaeul_DD, 2231){
     property {
-        name:                           string(STR_Group_V_ITX_Saemaeul_DD_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -22,7 +19,7 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_DD, 2231){
         }
 
     graphics {
-        purchase:                       set_V_ITX_Saemaeul_DD_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -31,8 +28,8 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_DD, 2231){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_ITX_Saemaeul_DD_6Car, 2013){
     property {
-        name:                           string(STR_V_ITX_Saemaeul_DD_6Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -69,9 +66,9 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_DD_6Car, 2013){
         }
 
 	graphics {
-        default:                        sw_V_ITX_Saemaeul_DD_6car_reversed;
+        default:                        sw_V_ITX_Saemaeul_DD_6car;
         articulated_part:               sw_articulated_V_ITX_Saemaeul_DD_6car;
-        purchase:                       set_V_ITX_Saemaeul_DD_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -85,8 +82,8 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_DD_6Car, 2013){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_ITX_Saemaeul_DD_8Car, 2233){
     property {
-        name:                           string(STR_V_ITX_Saemaeul_DD_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -123,9 +120,9 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_DD_8Car, 2233){
         }
 
 	graphics {
-        default:                        sw_V_ITX_Saemaeul_DD_8car_reversed;
+        default:                        sw_V_ITX_Saemaeul_DD_8car;
         articulated_part:               sw_articulated_V_ITX_Saemaeul_DD_8car;
-        purchase:                       set_V_ITX_Saemaeul_DD_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -139,8 +136,8 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_DD_8Car, 2233){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_ITX_Saemaeul_DD_10Car, 2575){
     property {
-        name:                           string(STR_V_ITX_Saemaeul_DD_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -177,9 +174,9 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_DD_10Car, 2575){
         }
 
 	graphics {
-        default:                        sw_V_ITX_Saemaeul_DD_10car_reversed;
+        default:                        sw_V_ITX_Saemaeul_DD_10car;
         articulated_part:               sw_articulated_V_ITX_Saemaeul_DD_10car;
-        purchase:                       set_V_ITX_Saemaeul_DD_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;

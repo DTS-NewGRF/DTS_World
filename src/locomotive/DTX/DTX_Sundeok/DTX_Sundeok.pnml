@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 DTX 선덕
 --------------------------------------------------------------------*/
-// Graphics
-#include "DTX_Sundeok_graphic.pnml"
-
 // Switch
 #include "DTX_Sundeok_switch.pnml"
 
@@ -12,7 +9,7 @@ DTX 선덕
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTX_Sundeok, 2503){
     property {
-        name:                           string(STR_Group_DTX_Sundeok_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -22,7 +19,7 @@ item(FEAT_TRAINS, DTX_Sundeok, 2503){
         }
 
     graphics {
-        purchase:                       set_DTX_Sundeok_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -31,8 +28,8 @@ item(FEAT_TRAINS, DTX_Sundeok, 2503){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTX_Sundeok_8Car, 2504){
     property {
-        name:                           string(STR_DTX_Sundeok_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2035, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -68,9 +65,9 @@ item(FEAT_TRAINS, DTX_Sundeok_8Car, 2504){
         }
         
 	graphics {
-        default:                        sw_DTX_Sundeok_8car_reversed;
+        default:                        sw_DTX_Sundeok_8car;
         articulated_part:               sw_articulated_DTX_Sundeok_8car;
-        purchase:                       set_DTX_Sundeok_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -84,8 +81,8 @@ item(FEAT_TRAINS, DTX_Sundeok_8Car, 2504){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTX_Sundeok_10Car, 2505){
     property {
-        name:                           string(STR_DTX_Sundeok_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2035, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -121,9 +118,9 @@ item(FEAT_TRAINS, DTX_Sundeok_10Car, 2505){
         }
         
 	graphics {
-        default:                        sw_DTX_Sundeok_10car_reversed;
+        default:                        sw_DTX_Sundeok_10car;
         articulated_part:               sw_articulated_DTX_Sundeok_10car;
-        purchase:                       set_DTX_Sundeok_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -137,8 +134,8 @@ item(FEAT_TRAINS, DTX_Sundeok_10Car, 2505){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTX_Sundeok_16Car, 2506){
     property {
-        name:                           string(STR_DTX_Sundeok_16Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2035, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -174,9 +171,9 @@ item(FEAT_TRAINS, DTX_Sundeok_16Car, 2506){
         }
         
 	graphics {
-        default:                        sw_DTX_Sundeok_16car_reversed;
+        default:                        sw_DTX_Sundeok_16car;
         articulated_part:               sw_articulated_DTX_Sundeok_16car;
-        purchase:                       set_DTX_Sundeok_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -190,8 +187,8 @@ item(FEAT_TRAINS, DTX_Sundeok_16Car, 2506){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTX_Sundeok_20Car, 2507){
     property {
-        name:                           string(STR_DTX_Sundeok_20Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2035, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -227,9 +224,9 @@ item(FEAT_TRAINS, DTX_Sundeok_20Car, 2507){
         }
         
 	graphics {
-        default:                        sw_DTX_Sundeok_20car_reversed;
+        default:                        sw_DTX_Sundeok_20car;
         articulated_part:               sw_articulated_DTX_Sundeok_20car;
-        purchase:                       set_DTX_Sundeok_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;

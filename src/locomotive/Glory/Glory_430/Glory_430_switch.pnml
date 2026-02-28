@@ -2,35 +2,13 @@
 스위치
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_Glory_430_10car, position_in_vehid_chain % 10) {
-    1:set_Glory_430_wagon;
-    2:set_Glory_430_wagon;
-    3:set_Glory_430_wagon;
-    4:set_Glory_430_wagon;
-    5:set_Glory_430_wagon;
-    6:set_Glory_430_wagon;
-    7:set_Glory_430_wagon;
-    8:set_Glory_430_wagon;
-    9:set_Glory_430_engineT;
-    set_Glory_430_engineH; //default
+    1..9:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_Glory_430_16car, position_in_vehid_chain % 16) {
-    1:set_Glory_430_wagon;
-    2:set_Glory_430_wagon;
-    3:set_Glory_430_wagon;
-    4:set_Glory_430_wagon;
-    5:set_Glory_430_wagon;
-    6:set_Glory_430_wagon;
-    7:set_Glory_430_wagon;
-    8:set_Glory_430_wagon;
-    9:set_Glory_430_wagon;
-    10:set_Glory_430_wagon;
-    11:set_Glory_430_wagon;
-    12:set_Glory_430_wagon;
-    13:set_Glory_430_wagon;
-    14:set_Glory_430_wagon;
-    15:set_Glory_430_engineT;
-    set_Glory_430_engineH; //default
+    1..15:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_Glory_430_10car, extra_callback_info1) {

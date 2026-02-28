@@ -1,19 +1,13 @@
 /*--------------------------------------------------------------------
 HYEL-150
 --------------------------------------------------------------------*/
-// Graphics
-#include "HYEL_150_graphic.pnml"
-
-// Switch
-#include "HYEL_150_switch.pnml"
-
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_150, 2141){
     property {
-        name:                           string(STR_HYEL_150_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -51,13 +45,12 @@ item(FEAT_TRAINS, HYEL_150, 2141){
         }
         
     graphics {
-        default:                        sw_HYEL_150_engine_1Car;
-        purchase:                       set_HYEL_150_purchase;
+        default:                        set_Deleted_engineH;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_260_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_HYEL_150_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }

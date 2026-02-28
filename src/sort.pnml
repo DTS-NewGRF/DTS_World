@@ -2,32 +2,6 @@
 정렬
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
-    //DTX 열차 그룹
-    DTX_Logo,                                //2501
-    DTX_Sobaek,                              //2429
-    DTX_Sobaek_4Car,                         //2526
-    DTX_Sobaek_6Car,                         //2527
-    DTX_Sobaek_8Car,                         //2135
-    DTX_Sobaek_10Car,                        //2430
-    DTX_Taebaek,                             //2431
-    DTX_Taebaek_6Car,                        //2462
-    DTX_Taebaek_8Car,                        //2134
-    DTX_Taebaek_10Car,                       //2432
-    DTX_Sejong,                              //2493
-    DTX_Sejong_10Car,                        //2494
-    DTX_Sejong_20Car,                        //2495
-    DTX_Koryo,                               //2485
-    DTX_Koryo_8Car,                          //2486
-    DTX_Koryo_10Car,                         //2487
-    DTX_Koryo_16Car,                         //2488
-    DTX_Koryo_20Car,                         //2489
-    DTX_Sundeok,                             //2503
-    DTX_Sundeok_8Car,                        //2504
-    DTX_Sundeok_10Car,                       //2505
-    DTX_Sundeok_16Car,                       //2506
-    DTX_Sundeok_20Car,                       //2507
-    DTX_Glory_20Car,                         //2558
-
     //ITX 열차 그룹
     ITX_Logo,                                //2512
     ITX_Maum,                                //2193
@@ -294,126 +268,13 @@ sort(FEAT_TRAINS, [
     CR400BF_Z,                               //2209
     CR400BF_Z_8Car,                          //2049
     CR400BF_Z_17Car,                         //2153
-
-    //가상열차
-    Virtual,                                 //2572
-    HYEL_Logo,                               //2519
-    HYEL_15,                                 //2115
-    HYEL_100,                                //2108
-    HYEL_120,                                //2279
-    HYEL_120_1Car,                           //2128
-    HYEL_120_Dual,                           //2280
-    HYEL_Gangsan,                            //2562
-    HYEL_Gangsan_3Car,                       //2281
-    HYEL_Gangsan_4Car,                       //2282
-    HYEL_Gangsan_6Car,                       //2563
-    HYEL_Gangsan_8Car,                       //2564
-    HYEL_Gangsan_10Car,                      //2586
-    HYEL_150,                                //2141
-    HYEL_300,                                //2483
-    HYEL_300_8Car,                           //2110
-    HYEL_300_10Car,                          //2484
-    HYEL_Constrck,                           //2320
-    HYEL_Mugunhwa,                           //2194
-    HYEL_Mugunhwa_4Car,                      //2167
-    HYEL_Mugunhwa_6Car,                      //2168
-    HYEL_Mugunhwa_DD,                        //2589
-    HYEL_Mugunhwa_DD_6Car,                   //2109
-    HYEL_Mugunhwa_DD_8Car,                   //2590
-    HYEL_Mugunhwa_DD_10Car,                  //2591
-    HYEL_PEX_Super,                          //2435
-    HYEL_PEX_Super_8Car,                     //2436
-    HYEL_PEX_Super_10Car,                    //2437
-    HYEL_PEX_Super_14Car,                    //2438
-    HYEL_350,                                //2496
-    HYEL_350_8Car,                           //2497
-    HYEL_350_10Car,                          //2498
-    HYEL_350_16Car,                          //2499
-    HYEL_350_20Car,                          //2500
-    HYEL_400,                                //2341
-    HYEL_400_8Car,                           //2111
-    HYEL_400_10Car,                          //2342
-    HYEL_400_16Car,                          //2343
-    V_ITX_Logo,                              //2548
-    V_ITX_Maum,                              //2549
-    V_ITX_Maum_8Car,                         //2131
-    V_ITX_Maum_10Car,                        //2238
-    V_ITX_Maum_DD,                           //2262
-    V_ITX_Maum_DD_4Car,                      //2311
-    V_ITX_Maum_DD_6Car,                      //2011
-    V_ITX_Maum_DD_8Car,                      //2550
-    V_ITX_Maum_DD_10Car,                     //2551
-    V_ITX_Saemaeul,                          //2573
-    V_ITX_Saemaeul_8Car,                     //2328
-    V_ITX_Saemaeul_10Car,                    //2574
-    V_ITX_Saemaeul_DD,                       //2231
-    V_ITX_Saemaeul_DD_6Car,                  //2013
-    V_ITX_Saemaeul_DD_8Car,                  //2233
-    V_ITX_Saemaeul_DD_10Car,                 //2575
-    V_ITX_CheongChan,                        //2490
-    V_ITX_CheongChan_6Car,                   //2491
-    V_ITX_CheongChan_8Car,                   //2492
-    V_ITX_CheongChan_10Car,                  //2576
-    V_ITX_CheongChun,                        //2352
-    V_ITX_CheongChun_6Car,                   //2353
-    V_ITX_CheongChun_10Car,                  //2355
-    V_ITX_CheongChun_DD,                     //2577
-    V_ITX_CheongChun_DD_8Car,                //2018
-    V_ITX_CheongChun_DD_10Car,               //2578
-    V_Nuriro,                                //2579
-    V_Nuriro_6Car,                           //2580
-    V_Nuriro_8Car,                           //2581
-    V_Nuriro_10Car,                          //2582
-    V_Nuriro_DD_4Car,                        //2012
-    V_Nuriro_DD_6Car,                        //2583
-    V_Nuriro_DD_8Car,                        //2584
-    V_Nuriro_DD_10Car,                       //2585
-    V_KTX_Logo,                              //2546
-    Group_V_KTX_Eum,                         //2592
-    V_KTX_Eum_6Car,                          //2020
-    V_KTX_Eum_8Car,                          //2593
-    V_KTX_Eum_10Car,                         //2594
-    V_KTX_Eum_DD_6Car,                       //2021
-    V_KTX_Cargo,                             //2597
-    V_KTX_Cargo_260,                         //2555
-    V_KTX_Cargo_260_6Car,                    //2556
-    V_KTX_Cargo_260_12Car,                   //2557
-    V_KTX_Cargo_300_10Car,                   //2026
-    V_KTX_Cargo_320,                         //2552
-    V_KTX_Cargo_320_8Car,                    //2553
-    V_KTX_Cargo_320_16Car,                   //2554
-    V_KTX_Cheong_Ryong,                      //2306
-    V_KTX_Cheong_Ryong_8Car,                 //2022
-    V_KTX_Cheong_Ryong_16Car,                //2528
-    V_KTX_Cheong_Ryong_DD_8Car,              //2023
-    V_KTX_Chowol_8Car,                       //2406
-    V_KTX_Onnuri,                            //2508
-    V_KTX_Onnuri_8Car,                       //2509
-    V_KTX_Onnuri_10Car,                      //2510
-    V_KTX_Onnuri_16Car,                      //2529
-    V_KTX_Sancheon_10Car,                    //2547
-    V_KTX_Sancheon_DD_10Car,                 //2025
-    V_KTX_Taegeuk,                           //2478
-    V_KTX_Taegeuk_8Car,                      //2479
-    V_KTX_Taegeuk_10Car,                     //2480
-    V_KTX_Taegeuk_16Car,                     //2481
-    V_KTX_Taegeuk_20Car,                     //2482
-
+    
     //지하철
     AUTS_6Car,                               //2007
     Daejeonmetro_1000_4Car,                  //2416
     Dongbuk_2Car,                            //2433
     Gimpo_Gold_2Car,                         //2410
     Gwangjumetro_1000_4Car,                  //2415
-    IMR_001,                                 //2535
-    IMR_001_6Car,                            //2536
-    IMR_001_8Car,                            //2537
-    MEL_150,                                 //2191
-    MEL_150_4Car,                            //2136
-    MEL_150_6Car,                            //2236
-    MEL_150_8Car,                            //2165
-    MEL_150_10Car,                           //2137
-    MEL_150_12Car,                           //2138
     Group_Nextrain,                          //2420
     Nextrain_3Car,                           //2421
     Nextrain_4Car,                           //2422
@@ -425,28 +286,12 @@ sort(FEAT_TRAINS, [
     Yongin_EverLine_2Car,                    //2411
     Jakarta_LRT_2Car,                        //2434
     EMU900_10Car,                            //2571
-
-    //통근열차
-    H2_WJ,                                   //2190
-    H2_WJ_2Car,                              //2008
-    H2_WJ_4Car,                              //2060
-
+    
     //일반열차
     CDC,                                     //2344
     CDC_3Car,                                //2345
     CDC_4Car,                                //2346
     CDC_5Car,                                //2347
-    CL_150,                                  //2192
-    CL_150_4Car,                             //2173
-    CL_150_G2_4Car,                          //2457
-    CL_150_6Car,                             //2174
-    CL_150_G2_6Car,                          //2458
-    CL_150_8Car,                             //2175
-    CL_150_G2_8Car,                          //2459
-    CL_180_8Car,                             //2176
-    CL_180_G2_8Car,                          //2460
-    CL_150_Premium_10Car,                    //2463
-    CL_180_Premium_10Car,                    //2464
     DEL4400,                                 //2396
     DEL7000,                                 //2298
     DEL7600,                                 //2015
@@ -466,6 +311,7 @@ sort(FEAT_TRAINS, [
     EEC_EMU_10Car,                           //2559
     FEL_8500,                                //2016
     GT26CW,                                  //2014
+    H2_WJ_2Car,                              //2008
     NEL_8100,                                //2299
     NEL_8200,                                //2177
     OEL8000,                                 //2417
@@ -479,7 +325,6 @@ sort(FEAT_TRAINS, [
     NSW_TrainLink_D,                         //2195
     NSW_TrainLink_D_4Car,                    //2117
     NSW_TrainLink_D_6Car,                    //2142
-    Transparency,                            //2520
 
     //준고속 180
     GTX_8Car,                                //2017
@@ -547,24 +392,13 @@ sort(FEAT_TRAINS, [
     Avelia_Liberty_11Car,                    //2122
 
     //고속열차 430
-    Glory_430,                               //2367
-    Glory_430_10Car,                         //2321
-    Glory_430_16Car,                         //2368
     HEMU_430X,                               //2205
     HEMU_430X_6Car,                          //2028
     HEMU_430X_8Car,                          //2127
 
     //고속열차 600
-    Glory_600,                               //2369
-    Glory_600_8Car,                          //2133
-    Glory_600_16Car,                         //2370
-    VHST_600X,                               //2371
-    VHST_600X_8Car,                          //2029
-    VHST_600X_16Car,                         //2372
     CRH380AJ_8Car,                           //2044
     Shinkansen_923_7Car,                     //2096
-    DFX_10Car,                               //2112
-    DPX_14Car,                               //2351
 
     //유지보수차량
     MSB_Speeder,                             //2178
@@ -592,7 +426,6 @@ sort(FEAT_TRAINS, [
     V_Train_3Car,                            //2397
     Wine_Cinema_Passenger_Car,               //2161
     Wine_Panax_Passenger_Car,                //2160
-    Coach_2F,                                //2106
     Mugunhwa_2cc,                            //2245
     Mugunhwa_Real_Normal,                    //2389
     Mugunhwa_Real_Special,                   //2390
@@ -600,18 +433,6 @@ sort(FEAT_TRAINS, [
     Saemaeul_2cc,                            //2132
     Saemaeul_Real_Normal_Special,            //2392
     Saemaeul_Real_Service,                   //2393
-    PEX,                                     //2333
-    PEX_N,                                   //2334
-    PEX_SN,                                  //2335
-    PEX_D,                                   //2336
-    PEX_B,                                   //2337
-    PEX_S,                                   //2338
-    PEX_Super,                               //2439
-    PEX_Super_N,                             //2440
-    PEX_Super_SN,                            //2441
-    PEX_Super_D,                             //2442
-    PEX_Super_B,                             //2443
-    PEX_Super_S,                             //2444
     Group_Pidulgi,                           //2468
     Pidulgi_Normal,                          //2469
     Pidulgi_Service,                         //2470
@@ -636,21 +457,4 @@ sort(FEAT_TRAINS, [
     FLAT_1F,                                 //2129
     FLAT_2F,                                 //2114
     FLAT_TANK,                               //2130
-    Group_Showcase,                          //2521
-    Showcase_Flat_1F,                        //2522
-    Showcase_Flat_2F,                        //2523
-
-    //경유지
-    Waypoint_Hight_Staion_A,                 //2000
-    Waypoint_Hight_Staion_B,                 //2001
-    Waypoint_Low_Staion_A,                   //2002
-    Waypoint_Low_Staion_B,                   //2003
-    Waypoint_ALow_Staion_A,                  //2004
-    Waypoint_ALowt_Staion_B,                 //2005
-    Waypoint_Hight_Snow_Staion_A,            //2006
-    Waypoint_Hight_Snow_Staion_B,            //2007
-    Waypoint_Low_Snow_Staion_A,              //2008
-    Waypoint_Low_Snow_Staion_B,              //2009
-    Waypoint_ALow_Snow_Staion_A,             //2010
-    Waypoint_ALow_Snow_Staion_B,             //2011
     ]);

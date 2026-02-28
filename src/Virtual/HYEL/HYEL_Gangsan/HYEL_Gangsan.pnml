@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 HYEL-강산
 --------------------------------------------------------------------*/
-// Graphics
-#include "HYEL_Gangsan_graphic.pnml"
-
 // Switch
 #include "HYEL_Gangsan_switch.pnml"
 
@@ -12,7 +9,7 @@ HYEL-강산
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_Gangsan, 2562){
     property {
-        name:                           string(STR_Group_HYEL_Gangsan_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -22,7 +19,7 @@ item(FEAT_TRAINS, HYEL_Gangsan, 2562){
         }
 
     graphics {
-        purchase:                       set_HYEL_Gangsan_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -31,8 +28,8 @@ item(FEAT_TRAINS, HYEL_Gangsan, 2562){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_Gangsan_3Car, 2281){
     property {
-        name:                           string(STR_HYEL_Gangsan_3Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2031, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -70,9 +67,9 @@ item(FEAT_TRAINS, HYEL_Gangsan_3Car, 2281){
         }
         
     graphics {
-        default:                        sw_HYEL_Gangsan_3car_reversed;
+        default:                        sw_HYEL_Gangsan_3car;
         articulated_part:               sw_articulated_HYEL_Gangsan_3car;
-        purchase:                       set_HYEL_Gangsan_purchase;
+        purchase:                       set_Deleted_purchase;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
@@ -85,8 +82,8 @@ item(FEAT_TRAINS, HYEL_Gangsan_3Car, 2281){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_Gangsan_4Car, 2282){
     property {
-        name:                           string(STR_HYEL_Gangsan_4Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2031, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -124,9 +121,9 @@ item(FEAT_TRAINS, HYEL_Gangsan_4Car, 2282){
         }
         
     graphics {
-        default:                        sw_HYEL_Gangsan_4car_reversed;
+        default:                        sw_HYEL_Gangsan_4car;
         articulated_part:               sw_articulated_HYEL_Gangsan_4car;
-        purchase:                       set_HYEL_Gangsan_purchase;
+        purchase:                       set_Deleted_purchase;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
@@ -139,8 +136,8 @@ item(FEAT_TRAINS, HYEL_Gangsan_4Car, 2282){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_Gangsan_6Car, 2563){
     property {
-        name:                           string(STR_HYEL_Gangsan_6Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2031, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -178,9 +175,9 @@ item(FEAT_TRAINS, HYEL_Gangsan_6Car, 2563){
         }
         
     graphics {
-        default:                        sw_HYEL_Gangsan_6car_reversed;
+        default:                        sw_HYEL_Gangsan_6car;
         articulated_part:               sw_articulated_HYEL_Gangsan_6car;
-        purchase:                       set_HYEL_Gangsan_purchase;
+        purchase:                       set_Deleted_purchase;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
@@ -193,8 +190,8 @@ item(FEAT_TRAINS, HYEL_Gangsan_6Car, 2563){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_Gangsan_8Car, 2564){
     property {
-        name:                           string(STR_HYEL_Gangsan_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2031, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -232,9 +229,9 @@ item(FEAT_TRAINS, HYEL_Gangsan_8Car, 2564){
         }
         
     graphics {
-        default:                        sw_HYEL_Gangsan_8car_reversed;
+        default:                        sw_HYEL_Gangsan_8car;
         articulated_part:               sw_articulated_HYEL_Gangsan_8car;
-        purchase:                       set_HYEL_Gangsan_purchase;
+        purchase:                       set_Deleted_purchase;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
@@ -247,8 +244,8 @@ item(FEAT_TRAINS, HYEL_Gangsan_8Car, 2564){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_Gangsan_10Car, 2586){
     property {
-        name:                           string(STR_HYEL_Gangsan_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2031, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -286,9 +283,9 @@ item(FEAT_TRAINS, HYEL_Gangsan_10Car, 2586){
         }
         
     graphics {
-        default:                        sw_HYEL_Gangsan_10car_reversed;
+        default:                        sw_HYEL_Gangsan_10car;
         articulated_part:               sw_articulated_HYEL_Gangsan_10car;
-        purchase:                       set_HYEL_Gangsan_purchase;
+        purchase:                       set_Deleted_purchase;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;

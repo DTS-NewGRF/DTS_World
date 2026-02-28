@@ -3,73 +3,15 @@
 --------------------------------------------------------------------*/
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_V_KTX_Cargo_260_6car, position_in_vehid_chain % 6) {
-    1:set_V_KTX_Cargo_260_wagon_M1;
-    2:set_V_KTX_Cargo_260_wagon_M2;
-    3:set_V_KTX_Cargo_260_wagon_M2;
-    4:set_V_KTX_Cargo_260_wagon_M3;
-    5:set_V_KTX_Cargo_260_engineT;
-    set_V_KTX_Cargo_260_engineH; //default
+    1..5:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_V_KTX_Cargo_260_6car_r, position_in_vehid_chain % 6) {
-    1:set_V_KTX_Cargo_260_wagon_M3_r;
-    2:set_V_KTX_Cargo_260_wagon_M2_r;
-    3:set_V_KTX_Cargo_260_wagon_M2_r;
-    4:set_V_KTX_Cargo_260_wagon_M1_r;
-    5:set_V_KTX_Cargo_260_engineH_r;
-    set_V_KTX_Cargo_260_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Cargo_260_6car_flipped, vehicle_is_flipped){
-    0: sw_V_KTX_Cargo_260_6car_r;
-    sw_V_KTX_Cargo_260_6car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_V_KTX_Cargo_260_6car_reversed, vehicle_is_reversed){
-    0: sw_V_KTX_Cargo_260_6car;
-    sw_V_KTX_Cargo_260_6car_flipped;
-}
 
 // 12량
 switch (FEAT_TRAINS, SELF, sw_V_KTX_Cargo_260_12car, position_in_vehid_chain % 12) {
-     1:set_V_KTX_Cargo_260_wagon_M1_r2;
-     2:set_V_KTX_Cargo_260_wagon_M2;
-     3:set_V_KTX_Cargo_260_wagon_M2;
-     4:set_V_KTX_Cargo_260_wagon_M3_r2;
-     5:set_V_KTX_Cargo_260_engineT_TCD_r;
-     6:set_V_KTX_Cargo_260_engineT_TCD;
-     7:set_V_KTX_Cargo_260_wagon_M1;
-     8:set_V_KTX_Cargo_260_wagon_M2;
-     9:set_V_KTX_Cargo_260_wagon_M2;
-    10:set_V_KTX_Cargo_260_wagon_M3;
-    11:set_V_KTX_Cargo_260_engineT;
-    set_V_KTX_Cargo_260_engineH; //default
+    1..11:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_V_KTX_Cargo_260_12car_r, position_in_vehid_chain % 12) {
-     1:set_V_KTX_Cargo_260_wagon_M3_2;
-     2:set_V_KTX_Cargo_260_wagon_M2_r;
-     3:set_V_KTX_Cargo_260_wagon_M2_r;
-     4:set_V_KTX_Cargo_260_wagon_M1_2;
-     5:set_V_KTX_Cargo_260_engineT_TCD_r;
-     6:set_V_KTX_Cargo_260_engineT_TCD;
-     7:set_V_KTX_Cargo_260_wagon_M3_r;
-     8:set_V_KTX_Cargo_260_wagon_M2_r;
-     9:set_V_KTX_Cargo_260_wagon_M2_r;
-    10:set_V_KTX_Cargo_260_wagon_M1_r;
-    11:set_V_KTX_Cargo_260_engineH_r;
-    set_V_KTX_Cargo_260_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, swV_KTX_Cargo_260_12car_flipped, vehicle_is_flipped){
-    0: sw_V_KTX_Cargo_260_12car_r;
-    sw_V_KTX_Cargo_260_12car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_V_KTX_Cargo_260_12car_reversed, vehicle_is_reversed){
-    0: sw_V_KTX_Cargo_260_12car;
-    swV_KTX_Cargo_260_12car_flipped;
-}
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_V_KTX_Cargo_260_6car, extra_callback_info1) {

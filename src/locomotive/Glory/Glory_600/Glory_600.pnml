@@ -12,7 +12,7 @@ Glory 600
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Glory_600, 2369){
     property {
-        name:                           string(STR_Group_Glory_600_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -21,7 +21,7 @@ item(FEAT_TRAINS, Glory_600, 2369){
         }
 
     graphics {
-        purchase:                       set_Glory_600_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -30,7 +30,7 @@ item(FEAT_TRAINS, Glory_600, 2369){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Glory_600_8Car, 2133){
     property {
-        name:                           string(STR_Glory_600_8Car_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2130, 1, 1);
         track_type:                     RAIL;
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Glory_600_8Car, 2133){
     graphics {
         default:                        sw_Glory_600_8car;
         articulated_part:               sw_articulated_Glory_600_8car;
-        purchase:                       set_Glory_600_purchase;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -84,7 +84,7 @@ item(FEAT_TRAINS, Glory_600_8Car, 2133){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Glory_600_16Car, 2370){
     property {
-        name:                           string(STR_Glory_600_16Car_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2130, 1, 1);
         track_type:                     RAIL;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Glory_600_16Car, 2370){
     graphics {
         default:                        sw_Glory_600_16car;
         articulated_part:               sw_articulated_Glory_600_16car;
-        purchase:                       set_Glory_600_purchase;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

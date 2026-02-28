@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 [가상] KTX-온누리
 --------------------------------------------------------------------*/
-// Graphics
-#include "V_KTX_Onnuri_graphic.pnml"
-
 // Switch
 #include "V_KTX_Onnuri_switch.pnml"
 
@@ -12,7 +9,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Onnuri, 2508){
     property {
-        name:                           string(STR_Group_V_KTX_Onnuri_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -22,7 +19,7 @@ item(FEAT_TRAINS, V_KTX_Onnuri, 2508){
         }
 
     graphics {
-        purchase:                       set_V_KTX_Onnuri_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -31,8 +28,8 @@ item(FEAT_TRAINS, V_KTX_Onnuri, 2508){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Onnuri_8Car, 2509){
     property {
-        name:                           string(STR_V_KTX_Onnuri_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2032, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -69,9 +66,9 @@ item(FEAT_TRAINS, V_KTX_Onnuri_8Car, 2509){
         }
 
     graphics {
-        default:                        sw_V_KTX_Onnuri_8car_reversed;
+        default:                        sw_V_KTX_Onnuri_8car;
         articulated_part:               sw_articulated_V_KTX_Onnuri_8car;
-        purchase:                       set_V_KTX_Onnuri_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_368_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -85,8 +82,8 @@ item(FEAT_TRAINS, V_KTX_Onnuri_8Car, 2509){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Onnuri_10Car, 2510){
     property {
-        name:                           string(STR_V_KTX_Onnuri_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2032, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -123,9 +120,9 @@ item(FEAT_TRAINS, V_KTX_Onnuri_10Car, 2510){
         }
 
     graphics {
-        default:                        sw_V_KTX_Onnuri_10car_reversed;
+        default:                        sw_V_KTX_Onnuri_10car;
         articulated_part:               sw_articulated_V_KTX_Onnuri_10car;
-        purchase:                       set_V_KTX_Onnuri_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_368_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -139,8 +136,8 @@ item(FEAT_TRAINS, V_KTX_Onnuri_10Car, 2510){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Onnuri_16Car, 2529){
     property {
-        name:                           string(STR_V_KTX_Onnuri_16Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2032, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -177,9 +174,9 @@ item(FEAT_TRAINS, V_KTX_Onnuri_16Car, 2529){
         }
 
     graphics {
-        default:                        sw_V_KTX_Onnuri_16car_reversed;
+        default:                        sw_V_KTX_Onnuri_16car;
         articulated_part:               sw_articulated_V_KTX_Onnuri_16car;
-        purchase:                       set_V_KTX_Onnuri_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_368_speed;
         loading_speed:                  25;
         cost_factor:                    10;

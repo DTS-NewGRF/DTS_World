@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 [가상] KTX-산천
 --------------------------------------------------------------------*/
-// Graphics
-#include "V_KTX_Sancheon_graphic.pnml"
-
 // Switch
 #include "V_KTX_Sancheon_switch.pnml"
 
@@ -12,8 +9,8 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Sancheon_10Car, 2547){
     property {
-        name:                           string(STR_V_KTX_Sancheon_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2015, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -50,16 +47,15 @@ item(FEAT_TRAINS, V_KTX_Sancheon_10Car, 2547){
         }
 
 	graphics {
-        default:                        sw_V_KTX_Sancheon_10car_reversed;
+        default:                        sw_V_KTX_Sancheon_10car;
         articulated_part:               sw_articulated_V_KTX_Sancheon_10car;
-        purchase:                       set_V_KTX_Sancheon_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_305_speed;
         length:                         sw_V_KTX_Sancheon_wagon_length_in_custom;
         cargo_capacity:                 sw_V_KTX_Sancheon_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_V_KTX_Sancheon_cargo_subtype_text;
         sound_effect:                   sw_KTXSCstart_sound;
         }
         }

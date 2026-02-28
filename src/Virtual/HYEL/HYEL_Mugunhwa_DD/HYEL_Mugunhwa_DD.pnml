@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 HYEL-무궁화 DD
 --------------------------------------------------------------------*/
-// Graphics
-#include "HYEL_Mugunhwa_DD_graphic.pnml"
-
 // Switch
 #include "HYEL_Mugunhwa_DD_switch.pnml"
 
@@ -12,7 +9,7 @@ HYEL-무궁화 DD
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_Mugunhwa_DD, 2589){
     property {
-        name:                           string(STR_Group_HYEL_Mugunhwa_DD_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -22,7 +19,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD, 2589){
         }
 
     graphics {
-        purchase:                       set_HYEL_Mugunhwa_DD_purchase;
+        purchase:                       set_Deleted_purchaseㄴ;
         }
         }
 
@@ -31,8 +28,8 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD, 2589){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_Mugunhwa_DD_6Car, 2109){
     property {
-        name:                           string(STR_HYEL_Mugunhwa_DD_6Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2035, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -72,7 +69,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_6Car, 2109){
     graphics {
         default:                        sw_HYEL_Mugunhwa_DD_6car;
         articulated_part:               sw_articulated_HYEL_Mugunhwa_DD_6car;
-        purchase:                       set_HYEL_Mugunhwa_DD_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          Regular_Speed_Train;
         cost_factor:                    10;
         loading_speed:                  25;
@@ -86,8 +83,8 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_6Car, 2109){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_Mugunhwa_DD_8Car, 2590){
     property {
-        name:                           string(STR_HYEL_Mugunhwa_DD_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2035, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -127,7 +124,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_8Car, 2590){
     graphics {
         default:                        sw_HYEL_Mugunhwa_DD_8car;
         articulated_part:               sw_articulated_HYEL_Mugunhwa_DD_8car;
-        purchase:                       set_HYEL_Mugunhwa_DD_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          Regular_Speed_Train;
         cost_factor:                    10;
         loading_speed:                  25;
@@ -141,8 +138,8 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_8Car, 2590){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_Mugunhwa_DD_10Car, 2591){
     property {
-        name:                           string(STR_HYEL_Mugunhwa_DD_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2035, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -182,7 +179,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_10Car, 2591){
     graphics {
         default:                        sw_HYEL_Mugunhwa_DD_10car;
         articulated_part:               sw_articulated_HYEL_Mugunhwa_DD_10car;
-        purchase:                       set_HYEL_Mugunhwa_DD_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          Regular_Speed_Train;
         cost_factor:                    10;
         loading_speed:                  25;

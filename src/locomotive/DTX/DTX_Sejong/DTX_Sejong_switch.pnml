@@ -6,97 +6,15 @@
 // 편성그래픽
 // 10량
 switch (FEAT_TRAINS, SELF, sw_DTX_Sejong_10car, position_in_vehid_chain % 10) {
-    1:set_DTX_Sejong_wagon;
-    2:set_DTX_Sejong_wagon;
-    3:set_DTX_Sejong_wagon;
-    4:set_DTX_Sejong_wagon;
-    5:set_DTX_Sejong_wagon;
-    6:set_DTX_Sejong_wagon;
-    7:set_DTX_Sejong_wagon;
-    8:set_DTX_Sejong_wagon;
-    9:set_DTX_Sejong_engineT;
-    set_DTX_Sejong_engineH; //default
+    1..9:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_DTX_Sejong_10car_r, position_in_vehid_chain % 10) {
-    1:set_DTX_Sejong_wagon_r;
-    2:set_DTX_Sejong_wagon_r;
-    3:set_DTX_Sejong_wagon_r;
-    4:set_DTX_Sejong_wagon_r;
-    5:set_DTX_Sejong_wagon_r;
-    6:set_DTX_Sejong_wagon_r;
-    7:set_DTX_Sejong_wagon_r;
-    8:set_DTX_Sejong_wagon_r;
-    9:set_DTX_Sejong_engineH_r;
-    set_DTX_Sejong_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_DTX_Sejong_10car_flipped, vehicle_is_flipped){
-    0: sw_DTX_Sejong_10car_r;
-    sw_DTX_Sejong_10car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_DTX_Sejong_10car_reversed, vehicle_is_reversed){
-    0: sw_DTX_Sejong_10car;
-    sw_DTX_Sejong_10car_flipped;
-}
 
 // 20량
 switch (FEAT_TRAINS, SELF, sw_DTX_Sejong_20car, position_in_vehid_chain % 20) {
-     1:set_DTX_Sejong_wagon;
-     2:set_DTX_Sejong_wagon;
-     3:set_DTX_Sejong_wagon;
-     4:set_DTX_Sejong_wagon;
-     5:set_DTX_Sejong_wagon;
-     6:set_DTX_Sejong_wagon;
-     7:set_DTX_Sejong_wagon;
-     8:set_DTX_Sejong_wagon;
-     9:set_DTX_Sejong_wagon;
-    10:set_DTX_Sejong_wagon;
-    11:set_DTX_Sejong_wagon;
-    12:set_DTX_Sejong_wagon;
-    13:set_DTX_Sejong_wagon;
-    14:set_DTX_Sejong_wagon;
-    15:set_DTX_Sejong_wagon;
-    16:set_DTX_Sejong_wagon;
-    17:set_DTX_Sejong_wagon;
-    18:set_DTX_Sejong_wagon;
-    19:set_DTX_Sejong_engineT;
-    set_DTX_Sejong_engineH; //default
+    1..19:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_DTX_Sejong_20car_r, position_in_vehid_chain % 20) {
-     1:set_DTX_Sejong_wagon_r;
-     2:set_DTX_Sejong_wagon_r;
-     3:set_DTX_Sejong_wagon_r;
-     4:set_DTX_Sejong_wagon_r;
-     5:set_DTX_Sejong_wagon_r;
-     6:set_DTX_Sejong_wagon_r;
-     7:set_DTX_Sejong_wagon_r;
-     8:set_DTX_Sejong_wagon_r;
-     9:set_DTX_Sejong_wagon_r;
-    10:set_DTX_Sejong_wagon_r;
-    11:set_DTX_Sejong_wagon_r;
-    12:set_DTX_Sejong_wagon_r;
-    13:set_DTX_Sejong_wagon_r;
-    14:set_DTX_Sejong_wagon_r;
-    15:set_DTX_Sejong_wagon_r;
-    16:set_DTX_Sejong_wagon_r;
-    17:set_DTX_Sejong_wagon_r;
-    18:set_DTX_Sejong_wagon_r;
-    19:set_DTX_Sejong_engineH_r;
-    set_DTX_Sejong_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_DTX_Sejong_20car_flipped, vehicle_is_flipped){
-    0: sw_DTX_Sejong_20car_r;
-    sw_DTX_Sejong_20car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_DTX_Sejong_20car_reversed, vehicle_is_reversed){
-    0: sw_DTX_Sejong_20car;
-    sw_DTX_Sejong_20car_flipped;
-}
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_DTX_Sejong_10car, extra_callback_info1) {

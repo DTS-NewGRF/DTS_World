@@ -12,7 +12,7 @@ CL-150
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CL_150, 2192){
     property {
-        name:                           string(STR_Group_CL_150_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -21,7 +21,7 @@ item(FEAT_TRAINS, CL_150, 2192){
         }
 
     graphics {
-        purchase:                       set_CL_150_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -30,8 +30,8 @@ item(FEAT_TRAINS, CL_150, 2192){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CL_150_4Car, 2173){
     property {
-        name:                           string(STR_CL_150_4Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -68,9 +68,9 @@ item(FEAT_TRAINS, CL_150_4Car, 2173){
         }
 
     graphics {
-        default:                        sw_CL_150_4car_reversed;
+        default:                        sw_CL_150_4car;
         articulated_part:               sw_articulated_CL_150_4car;
-        purchase:                       set_CL_150_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -84,8 +84,8 @@ item(FEAT_TRAINS, CL_150_4Car, 2173){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CL_150_G2_4Car, 2457){
     property {
-        name:                           string(STR_CL_150_G2_4Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2030, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -122,14 +122,13 @@ item(FEAT_TRAINS, CL_150_G2_4Car, 2457){
         }
 
     graphics {
-        default:                        sw_CL_150_G2_4car_reversed;
+        default:                        sw_CL_150_4car;
         articulated_part:               sw_articulated_CL_150_G2_4car;
-        purchase:                       set_CL_150_G2_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_CL_150_G2_cargo_subtype_text;
         cargo_capacity:                 sw_CL_150_G2_4Car_capacity_in_custom;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
@@ -140,8 +139,8 @@ item(FEAT_TRAINS, CL_150_G2_4Car, 2457){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CL_150_6Car, 2174){
     property {
-        name:                           string(STR_CL_150_6Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -178,9 +177,9 @@ item(FEAT_TRAINS, CL_150_6Car, 2174){
         }
 
     graphics {
-        default:                        sw_CL_150_6car_reversed;
+        default:                        sw_CL_150_6car;
         articulated_part:               sw_articulated_CL_150_6car;
-        purchase:                       set_CL_150_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -194,8 +193,8 @@ item(FEAT_TRAINS, CL_150_6Car, 2174){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CL_150_G2_6Car, 2458){
     property {
-        name:                           string(STR_CL_150_G2_6Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2030, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -232,14 +231,13 @@ item(FEAT_TRAINS, CL_150_G2_6Car, 2458){
         }
 
     graphics {
-        default:                        sw_CL_150_G2_6car_reversed;
+        default:                        sw_CL_150_6car;
         articulated_part:               sw_articulated_CL_150_G2_6car;
-        purchase:                       set_CL_150_G2_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_CL_150_G2_cargo_subtype_text;
         cargo_capacity:                 sw_CL_150_G2_6Car_capacity_in_custom;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
@@ -250,8 +248,8 @@ item(FEAT_TRAINS, CL_150_G2_6Car, 2458){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CL_150_8Car, 2175){
     property {
-        name:                           string(STR_CL_150_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -288,9 +286,9 @@ item(FEAT_TRAINS, CL_150_8Car, 2175){
         }
 
     graphics {
-        default:                        sw_CL_150_8car_reversed;
+        default:                        sw_CL_150_8car;
         articulated_part:               sw_articulated_CL_150_8car;
-        purchase:                       set_CL_150_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -304,8 +302,8 @@ item(FEAT_TRAINS, CL_150_8Car, 2175){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CL_150_G2_8Car, 2459){
     property {
-        name:                           string(STR_CL_150_G2_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2030, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -342,14 +340,13 @@ item(FEAT_TRAINS, CL_150_G2_8Car, 2459){
         }
 
     graphics {
-        default:                        sw_CL_150_G2_8car_reversed;
+        default:                        sw_CL_150_8car;
         articulated_part:               sw_articulated_CL_150_G2_8car;
-        purchase:                       set_CL_150_G2_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_CL_150_G2_cargo_subtype_text;
         cargo_capacity:                 sw_CL_150_G2_8Car_capacity_in_custom;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
@@ -360,8 +357,8 @@ item(FEAT_TRAINS, CL_150_G2_8Car, 2459){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CL_180_8Car, 2176){
     property {
-        name:                           string(STR_CL_180_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -398,9 +395,9 @@ item(FEAT_TRAINS, CL_180_8Car, 2176){
         }
 
     graphics {
-        default:                        sw_CL_180_8car_reversed;
+        default:                        sw_CL_150_8car;
         articulated_part:               sw_articulated_CL_180_8car;
-        purchase:                       set_CL_150_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -414,8 +411,8 @@ item(FEAT_TRAINS, CL_180_8Car, 2176){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CL_180_G2_8Car, 2460){
     property {
-        name:                           string(STR_CL_180_G2_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2030, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -452,14 +449,13 @@ item(FEAT_TRAINS, CL_180_G2_8Car, 2460){
         }
 
     graphics {
-        default:                        sw_CL_180_G2_8car_reversed;
+        default:                        sw_CL_150_8car;
         articulated_part:               sw_articulated_CL_180_G2_8car;
-        purchase:                       set_CL_150_G2_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_CL_180_G2_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
@@ -469,8 +465,8 @@ item(FEAT_TRAINS, CL_180_G2_8Car, 2460){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CL_150_Premium_10Car, 2463){
     property {
-        name:                           string(STR_CL_150_Premium_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2031, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -507,14 +503,13 @@ item(FEAT_TRAINS, CL_150_Premium_10Car, 2463){
         }
 
     graphics {
-        default:                        sw_CL_150_Premium_10car_reversed;
+        default:                        sw_CL_150_Premium_10car;
         articulated_part:               sw_articulated_CL_150_Premium_10car;
-        purchase:                       set_CL_150_Premium_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_CL_150_Premium_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
@@ -524,8 +519,8 @@ item(FEAT_TRAINS, CL_150_Premium_10Car, 2463){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CL_180_Premium_10Car, 2464){
     property {
-        name:                           string(STR_CL_180_Premium_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2031, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -562,14 +557,13 @@ item(FEAT_TRAINS, CL_180_Premium_10Car, 2464){
         }
 
     graphics {
-        default:                        sw_CL_150_Premium_10car_reversed;
+        default:                        sw_CL_150_Premium_10car;
         articulated_part:               sw_articulated_CL_180_Premium_10car;
-        purchase:                       set_CL_150_Premium_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_CL_150_Premium_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }

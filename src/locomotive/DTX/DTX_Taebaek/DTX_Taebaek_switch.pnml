@@ -3,36 +3,18 @@
 --------------------------------------------------------------------*/
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_DTX_Taebaek_6car, position_in_vehid_chain % 6) {
-    1:set_DTX_Taebaek_wagon;
-    2:set_DTX_Taebaek_wagon;
-    3:set_DTX_Taebaek_wagon;
-    4:set_DTX_Taebaek_wagon;
-    5:set_DTX_Taebaek_engineT;
-    set_DTX_Taebaek_engineH; //default
+    1..5:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_DTX_Taebaek_8car, position_in_vehid_chain % 8) {
-    1:set_DTX_Taebaek_wagon;
-    2:set_DTX_Taebaek_wagon;
-    3:set_DTX_Taebaek_wagon;
-    4:set_DTX_Taebaek_wagon;
-    5:set_DTX_Taebaek_wagon;
-    6:set_DTX_Taebaek_wagon;
-    7:set_DTX_Taebaek_engineT;
-    set_DTX_Taebaek_engineH; //default
+    1..7:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_DTX_Taebaek_10car, position_in_vehid_chain % 10) {
-    1:set_DTX_Taebaek_wagon;
-    2:set_DTX_Taebaek_wagon;
-    3:set_DTX_Taebaek_wagon;
-    4:set_DTX_Taebaek_wagon;
-    5:set_DTX_Taebaek_wagon;
-    6:set_DTX_Taebaek_wagon;
-    7:set_DTX_Taebaek_wagon;
-    8:set_DTX_Taebaek_wagon;
-    9:set_DTX_Taebaek_engineT;
-    set_DTX_Taebaek_engineH; //default
+    1..9:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
 
 // 편성량

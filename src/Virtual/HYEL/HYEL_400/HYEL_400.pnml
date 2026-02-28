@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 HYEL-400
 --------------------------------------------------------------------*/
-// Graphics
-#include "HYEL_400_graphic.pnml"
-
 // Switch
 #include "HYEL_400_switch.pnml"
 
@@ -12,7 +9,7 @@ HYEL-400
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_400, 2341){
     property {
-        name:                           string(STR_Group_HYEL_400_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -23,7 +20,7 @@ item(FEAT_TRAINS, HYEL_400, 2341){
         }
 
     graphics {
-        purchase:                       set_HYEL_400_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -32,8 +29,8 @@ item(FEAT_TRAINS, HYEL_400, 2341){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_400_8Car, 2111){
     property {
-        name:                           string(STR_HYEL_400_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -71,9 +68,9 @@ item(FEAT_TRAINS, HYEL_400_8Car, 2111){
         }
         
     graphics {
-        default:                        sw_HYEL_400_8car_reversed;
+        default:                        sw_HYEL_400_8car;
         articulated_part:               sw_articulated_HYEL_400_8car;
-        purchase:                       set_HYEL_400_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_430_speed;
         cost_factor:                    10;
         loading_speed:                  25;
@@ -87,8 +84,8 @@ item(FEAT_TRAINS, HYEL_400_8Car, 2111){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_400_10Car, 2342){
     property {
-        name:                           string(STR_HYEL_400_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -126,9 +123,9 @@ item(FEAT_TRAINS, HYEL_400_10Car, 2342){
         }
         
     graphics {
-        default:                        sw_HYEL_400_10car_reversed;
+        default:                        sw_HYEL_400_10car;
         articulated_part:               sw_articulated_HYEL_400_10car;
-        purchase:                       set_HYEL_400_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_430_speed;
         cost_factor:                    10;
         loading_speed:                  25;
@@ -142,8 +139,8 @@ item(FEAT_TRAINS, HYEL_400_10Car, 2342){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_400_16Car, 2343){
     property {
-        name:                           string(STR_HYEL_400_16Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -181,9 +178,9 @@ item(FEAT_TRAINS, HYEL_400_16Car, 2343){
         }
         
     graphics {
-        default:                        sw_HYEL_400_16car_reversed;
+        default:                        sw_HYEL_400_16car;
         articulated_part:               sw_articulated_HYEL_400_16car;
-        purchase:                       set_HYEL_400_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_430_speed;
         cost_factor:                    10;
         loading_speed:                  25;

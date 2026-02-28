@@ -1,18 +1,12 @@
 /*--------------------------------------------------------------------
 PEX Super
 --------------------------------------------------------------------*/
-// Graphics
-#include "PEX_Super_graphic.pnml"
-
-// Switch
-#include "PEX_Super_switch.pnml"
-
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, PEX_Super, 2439){
     property {
-        name:                           string(STR_Group_PEX_Super_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -20,8 +14,7 @@ item(FEAT_TRAINS, PEX_Super, 2439){
         }
 
     graphics {
-        purchase:                       set_PEX_Super_purchase_Logo;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -30,8 +23,8 @@ item(FEAT_TRAINS, PEX_Super, 2439){
 --------------------------------------------------------------------*/  
 item (FEAT_TRAINS, PEX_Super_N, 2440){
     property {
-        name:                           string(STR_PEX_Super_N_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -65,12 +58,11 @@ item (FEAT_TRAINS, PEX_Super_N, 2440){
     }
 
     graphics {
-        default:                        sw_PEX_Super_N_wagon_1Car;
-        purchase:                       set_PEX_Super_N_wagon_purchase;
+        default:                        set_Deleted_wagon;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
         }
     }
 
@@ -79,8 +71,8 @@ item (FEAT_TRAINS, PEX_Super_N, 2440){
 --------------------------------------------------------------------*/  
 item (FEAT_TRAINS, PEX_Super_SN, 2441){
     property {
-        name:                           string(STR_PEX_Super_SN_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -114,12 +106,11 @@ item (FEAT_TRAINS, PEX_Super_SN, 2441){
     }
 
     graphics {
-        default:                        sw_PEX_Super_SN_wagon_1Car;
-        purchase:                       set_PEX_Super_SN_wagon_purchase;
+        default:                        set_Deleted_wagon;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
         }
     }
 
@@ -128,8 +119,8 @@ item (FEAT_TRAINS, PEX_Super_SN, 2441){
 --------------------------------------------------------------------*/  
 item (FEAT_TRAINS, PEX_Super_D, 2442){
     property {
-        name:                           string(STR_PEX_Super_D_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -163,12 +154,11 @@ item (FEAT_TRAINS, PEX_Super_D, 2442){
     }
 
     graphics {
-        default:                        sw_PEX_Super_D_wagon_1Car;
-        purchase:                       set_PEX_Super_D_wagon_purchase;
+        default:                        set_Deleted_wagon;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
         }
     }
 
@@ -177,8 +167,8 @@ item (FEAT_TRAINS, PEX_Super_D, 2442){
 --------------------------------------------------------------------*/  
 item (FEAT_TRAINS, PEX_Super_B, 2443){
     property {
-        name:                           string(STR_PEX_Super_B_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -212,12 +202,11 @@ item (FEAT_TRAINS, PEX_Super_B, 2443){
     }
 
     graphics {
-        default:                        sw_PEX_Super_wagon_B_1Car;
-        purchase:                       set_PEX_Super_B_wagon_purchase;
+        default:                        set_Deleted_wagon;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
         }
     }
 
@@ -226,8 +215,8 @@ item (FEAT_TRAINS, PEX_Super_B, 2443){
 --------------------------------------------------------------------*/  
 item (FEAT_TRAINS, PEX_Super_S, 2444){
     property {
-        name:                           string(STR_PEX_Super_S_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -261,11 +250,10 @@ item (FEAT_TRAINS, PEX_Super_S, 2444){
     }
 
     graphics {
-        default:                        sw_PEX_Super_S_wagon_1Car;
-        purchase:                       set_PEX_Super_S_wagon_purchase;
+        default:                        set_Deleted_wagon;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
         }
     }

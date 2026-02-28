@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 MEL-150
 --------------------------------------------------------------------*/
-// Graphics
-#include "MEL_150_graphic.pnml"
-
 // Switch
 #include "MEL_150_switch.pnml"
 
@@ -12,7 +9,7 @@ MEL-150
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, MEL_150, 2191){
     property {
-        name:                           string(STR_Group_MEL_150_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -21,7 +18,7 @@ item(FEAT_TRAINS, MEL_150, 2191){
         }
 
     graphics {
-        purchase:                       set_MEL_150_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -30,8 +27,8 @@ item(FEAT_TRAINS, MEL_150, 2191){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, MEL_150_4Car, 2136){
     property {
-        name:                           string(STR_MEL_150_4Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -68,9 +65,9 @@ item(FEAT_TRAINS, MEL_150_4Car, 2136){
         }
 
     graphics {
-        default:                        sw_MEL_150_4car_reversed;
+        default:                        sw_MEL_150_4car;
         articulated_part:               sw_articulated_MEL_150_4car;
-        purchase:                       set_MEL_150_purchase;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -83,8 +80,8 @@ item(FEAT_TRAINS, MEL_150_4Car, 2136){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, MEL_150_6Car, 2236){
     property {
-        name:                           string(STR_MEL_150_6Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -121,9 +118,9 @@ item(FEAT_TRAINS, MEL_150_6Car, 2236){
         }
 
     graphics {
-        default:                        sw_MEL_150_6car_reversed;
+        default:                        sw_MEL_150_6car;
         articulated_part:               sw_articulated_MEL_150_6car;
-        purchase:                       set_MEL_150_purchase;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -136,8 +133,8 @@ item(FEAT_TRAINS, MEL_150_6Car, 2236){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, MEL_150_8Car, 2165){
     property {
-        name:                           string(STR_MEL_150_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -174,9 +171,9 @@ item(FEAT_TRAINS, MEL_150_8Car, 2165){
         }
 
     graphics {
-        default:                        sw_MEL_150_8car_reversed;
+        default:                        sw_MEL_150_8car;
         articulated_part:               sw_articulated_MEL_150_8car;
-        purchase:                       set_MEL_150_purchase;
+        purchase:                       set_Deleted_purchase;
         cargo_capacity:                 sw_MEL_150_8Car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -191,8 +188,8 @@ item(FEAT_TRAINS, MEL_150_8Car, 2165){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, MEL_150_10Car, 2137){
     property {
-        name:                           string(STR_MEL_150_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -229,9 +226,9 @@ item(FEAT_TRAINS, MEL_150_10Car, 2137){
         }
 
     graphics {
-        default:                        sw_MEL_150_10car_reversed;
+        default:                        sw_MEL_150_10car;
         articulated_part:               sw_articulated_MEL_150_10car;
-        purchase:                       set_MEL_150_purchase;
+        purchase:                       set_Deleted_purchase;
         cargo_capacity:                 sw_MEL_150_10Car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -246,8 +243,8 @@ item(FEAT_TRAINS, MEL_150_10Car, 2137){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, MEL_150_12Car, 2138){
     property {
-        name:                           string(STR_MEL_150_12Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -284,9 +281,9 @@ item(FEAT_TRAINS, MEL_150_12Car, 2138){
         }
 
     graphics {
-        default:                        sw_MEL_150_12car_reversed;
+        default:                        sw_MEL_150_12car;
         articulated_part:               sw_articulated_MEL_150_12car;
-        purchase:                       set_MEL_150_purchase;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

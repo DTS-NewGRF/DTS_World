@@ -1,15 +1,12 @@
 /*--------------------------------------------------------------------
 가상
 --------------------------------------------------------------------*/
-// Graphics
-#include "Virtual_graphic.pnml"
-
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Virtual, 2572){
     property {
-        name:                           string(STR_Group_Virtual_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -18,7 +15,7 @@ item(FEAT_TRAINS, Virtual, 2572){
         }
         
     graphics {
-        purchase:                       set_Virtual_purchase;
+        purchase:                       set_Deleted_purchase;
         }
     }
 

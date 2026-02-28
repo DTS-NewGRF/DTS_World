@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 [가상] KTX-이음
 --------------------------------------------------------------------*/
-// Graphics
-#include "V_KTX_Eum_graphic.pnml"
-
 // Switch
 #include "V_KTX_Eum_switch.pnml"
 
@@ -12,8 +9,8 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Eum_6Car, 2020){
     property {
-        name:                           string(STR_V_KTX_Eum_6Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -52,12 +49,11 @@ item(FEAT_TRAINS, V_KTX_Eum_6Car, 2020){
         }
         
     graphics {
-        default:                        sw_V_KTX_Eum_6car_reversed;
+        default:                        sw_V_KTX_Eum_6car;
         articulated_part:               sw_articulated_V_KTX_Eum_6car;
-        purchase:                       set_V_KTX_Eum_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_260_speed;
         loading_speed:                  25;
-        cargo_subtype_text:             sw_V_KTX_Eum_6car_cargo_subtype_text;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }
@@ -67,8 +63,8 @@ item(FEAT_TRAINS, V_KTX_Eum_6Car, 2020){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Eum_8Car, 2593){
     property {
-        name:                           string(STR_V_KTX_Eum_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -107,12 +103,11 @@ item(FEAT_TRAINS, V_KTX_Eum_8Car, 2593){
         }
         
     graphics {
-        default:                        sw_V_KTX_Eum_8car_reversed;
+        default:                        sw_V_KTX_Eum_8car;
         articulated_part:               sw_articulated_V_KTX_Eum_8car;
-        purchase:                       set_KTX_Eum_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_260_speed;
         loading_speed:                  25;
-        cargo_subtype_text:             sw_V_KTX_Eum_cargo_subtype_text;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }
@@ -122,8 +117,8 @@ item(FEAT_TRAINS, V_KTX_Eum_8Car, 2593){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Eum_10Car, 2594){
     property {
-        name:                           string(STR_V_KTX_Eum_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -162,12 +157,11 @@ item(FEAT_TRAINS, V_KTX_Eum_10Car, 2594){
         }
         
     graphics {
-        default:                        sw_V_KTX_Eum_10car_reversed;
+        default:                        sw_V_KTX_Eum_10car;
         articulated_part:               sw_articulated_V_KTX_Eum_10car;
-        purchase:                       set_KTX_Eum_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_260_speed;
         loading_speed:                  25;
-        cargo_subtype_text:             sw_V_KTX_Eum_cargo_subtype_text;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }

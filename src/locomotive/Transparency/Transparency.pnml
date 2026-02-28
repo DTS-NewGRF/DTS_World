@@ -1,19 +1,13 @@
 /*--------------------------------------------------------------------
 투명기관차
 --------------------------------------------------------------------*/
-// Graphics
-#include "Transparency_graphic.pnml"
-
-// Switch
-#include "Transparency_switch.pnml"
-
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Transparency, 2520){
     property {
-        name:                           string(STR_Transparency_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -50,8 +44,8 @@ item(FEAT_TRAINS, Transparency, 2520){
         }
         
     graphics {
-        default:                        sw_Transparency_engine_1Car;
-        purchase:                       set_Transparency_purchase;
+        default:                        set_Deleted_wagon;
+        purchase:                       set_Deleted_purchase;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

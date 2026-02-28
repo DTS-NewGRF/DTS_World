@@ -1,19 +1,13 @@
 /*--------------------------------------------------------------------
 PEX-Super 발전차량
 --------------------------------------------------------------------*/
-// Graphics
-#include "PEX_Super_Generatar_graphic.pnml"
-
-// Switch
-#include "PEX_Super_Generatar_switch.pnml"
-
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, PEX_Super_Generatar_Car, 2542){
     property {
-        name:                           string(STR_PEX_Super_Generatar_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -47,12 +41,11 @@ item(FEAT_TRAINS, PEX_Super_Generatar_Car, 2542){
         }
 
 	graphics {
-        default:                        sw_sw_PEX_Super_Generatar_wagon_1Car;
-        purchase:                       set_PEX_Super_Generatar_Car_purchase;
+        default:                        set_Deleted_wagon;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_capacity:                 0;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_Super_Generatar_Car);
         }
         }

@@ -9,7 +9,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_ITX_Saemaeul, 2573){
     property {
-        name:                           string(STR_Group_V_ITX_Saemaeul_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -19,7 +19,7 @@ item(FEAT_TRAINS, V_ITX_Saemaeul, 2573){
         }
 
     graphics {
-        purchase:                       set_ITX_Saemaeul_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -28,8 +28,8 @@ item(FEAT_TRAINS, V_ITX_Saemaeul, 2573){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_ITX_Saemaeul_8Car, 2328){
     property {
-        name:                           string(STR_V_ITX_Saemaeul_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2013, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -66,9 +66,9 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_8Car, 2328){
         }
 
 	graphics {
-        default:                        sw_V_ITX_Saemaeul_8car_reversed;
+        default:                        sw_V_ITX_Saemaeul_8car;
         articulated_part:               sw_articulated_V_ITX_Saemaeul_8car;
-        purchase:                       set_ITX_Saemaeul_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -80,7 +80,7 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_8Car, 2328){
 item(FEAT_TRAINS, V_ITX_Saemaeul_10Car, 2574){
     property {
         name:                           string(STR_V_ITX_Saemaeul_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2013, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -117,9 +117,9 @@ item(FEAT_TRAINS, V_ITX_Saemaeul_10Car, 2574){
         }
 
 	graphics {
-        default:                        sw_V_ITX_Saemaeul_10car_reversed;
+        default:                        sw_V_ITX_Saemaeul_10car;
         articulated_part:               sw_articulated_V_ITX_Saemaeul_10car;
-        purchase:                       set_ITX_Saemaeul_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;

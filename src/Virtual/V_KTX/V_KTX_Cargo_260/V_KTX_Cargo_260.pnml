@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 [가상] KTX-이음 260
 --------------------------------------------------------------------*/
-// Graphics
-#include "V_KTX_Cargo_260_graphic.pnml"
-
 // Switch
 #include "V_KTX_Cargo_260_switch.pnml"
 /*--------------------------------------------------------------------
@@ -11,7 +8,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Cargo, 2597){
     property {
-        name:                           string(STR_Group_V_KTX_Cargo_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -21,7 +18,7 @@ item(FEAT_TRAINS, V_KTX_Cargo, 2597){
         }
 
     graphics {
-        purchase:                       set_V_KTX_Cargo_260_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -30,7 +27,7 @@ item(FEAT_TRAINS, V_KTX_Cargo, 2597){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Cargo_260, 2555){
     property {
-        name:                           string(STR_Group_V_KTX_Cargo_260_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -40,7 +37,7 @@ item(FEAT_TRAINS, V_KTX_Cargo_260, 2555){
         }
 
     graphics {
-        purchase:                       set_V_KTX_Cargo_260_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -49,8 +46,8 @@ item(FEAT_TRAINS, V_KTX_Cargo_260, 2555){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Cargo_260_6Car, 2556){
     property {
-        name:                           string(STR_V_KTX_Cargo_260_6Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -89,9 +86,9 @@ item(FEAT_TRAINS, V_KTX_Cargo_260_6Car, 2556){
         }
         
     graphics {
-        default:                        sw_V_KTX_Cargo_260_6car_reversed;
+        default:                        sw_V_KTX_Cargo_260_6car;
         articulated_part:               sw_articulated_V_KTX_Cargo_260_6car;
-        purchase:                       set_V_KTX_Cargo_260_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_260_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
@@ -103,8 +100,8 @@ item(FEAT_TRAINS, V_KTX_Cargo_260_6Car, 2556){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Cargo_260_12Car, 2557){
     property {
-        name:                           string(STR_V_KTX_Cargo_260_12Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -143,9 +140,9 @@ item(FEAT_TRAINS, V_KTX_Cargo_260_12Car, 2557){
         }
         
     graphics {
-        default:                        sw_V_KTX_Cargo_260_12car_reversed;
+        default:                        sw_V_KTX_Cargo_260_12car;
         articulated_part:               sw_articulated_V_KTX_Cargo_260_12car;
-        purchase:                       set_V_KTX_Cargo_260_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_260_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;

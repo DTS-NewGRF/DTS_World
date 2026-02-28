@@ -4,21 +4,16 @@
 #include "locomotive/BB15000/BB15000.pnml"
 #include "locomotive/CRH/CRH.pnml"
 #include "locomotive/CDC/CDC.pnml"
-#include "locomotive/CL_150/CL_150.pnml"
 #include "locomotive/CTX/CTX.pnml"
 #include "locomotive/DEL4400/DEL4400.pnml"
 #include "locomotive/DEL7000/DEL7000.pnml"
 #include "locomotive/DEL7600/DEL7600.pnml"
-#include "locomotive/DFX/DFX.pnml"
 #include "locomotive/DHC_PP/DHC_PP.pnml"
 #include "locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.pnml"
 #include "locomotive/Diesel_Car/Special_Diesel_Car/Special_Diesel_Car.pnml"
-#include "locomotive/DPX/DPX.pnml"
-#include "locomotive/DTX/DTX.pnml"
 #include "locomotive/EEC_EMU/EEC_EMU.pnml"
 #include "locomotive/Eurostar/Eurostar.pnml"
 #include "locomotive/FEL_8500/FEL_8500.pnml"
-#include "locomotive/Glory/Glory.pnml"
 #include "locomotive/GT26CW/GT26CW.pnml"
 #include "locomotive/GTX/GTX.pnml"
 #include "locomotive/H2_WJ/H2_WJ.pnml"
@@ -43,9 +38,7 @@
 #include "locomotive/Talgo_350_SRO/Talgo_350_SRO.pnml"
 #include "locomotive/TGV/TGV.pnml"
 #include "locomotive/THSR_700T/THSR_700T.pnml"
-#include "locomotive/Transparency/Transparency.pnml"
 #include "locomotive/TTX/TTX.pnml"
-#include "locomotive/VHST_600X/VHST_600X.pnml"
 
 // Metro
 #include "metro/AREX/AREX.pnml"
@@ -58,11 +51,9 @@
 #include "metro/Gimpo_Gold/Gimpo_Gold.pnml"
 #include "metro/Gwangjumetro/Gwangjumetro.pnml"
 #include "metro/Hankyu/Hankyu.pnml"
-#include "metro/IMR_001/IMR_001.pnml"
 #include "metro/Incheonmetro/Incheonmetro.pnml"
 #include "metro/Jakarta_LRT/Jakarta_LRT.pnml"
 #include "metro/Korail/Korail.pnml"
-#include "metro/MEL_150/MEL_150.pnml"
 #include "metro/MTR/MTR.pnml"
 #include "metro/Nextrain/Nextrain.pnml"
 #include "metro/Nishitetsu/Nishitetsu.pnml"
@@ -75,16 +66,12 @@
 #include "metro/Yangsan_AGT/Yangsan_AGT.pnml"
 #include "metro/Yongin_EverLine/Yongin_EverLine.pnml"
 
-//Virtual
-#include "Virtual/Virtual.pnml"
-
 //Showcase
 #include "Showcase/Showcase.pnml"
 
 //wagon
 #include "wagon/CGeneratar_Car/CGeneratar_Car.pnml"
 #include "wagon/CLuggage_Car/CLuggage_Car.pnml"
-#include "wagon/Coach_2F_wagon/Coach_2F_wagon.pnml"
 #include "wagon/CSPassenger_wagon/CSPassenger_wagon.pnml"
 #include "wagon/ESPassenger_wagon/ESPassenger_wagon.pnml"
 #include "wagon/Flat_car/Flat_1F_Car/Flat_1F_Car.pnml"
@@ -97,3 +84,16 @@
 
 // Sorting
 #include "sort.pnml"
+
+// 삭제예정 열차 그래픽
+spriteset(set_Deleted_purchase, "Deleted_Train_Image.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Deleted_engineH, "Deleted_Train_Image.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Deleted_wagon, "Deleted_Train_Image.png") {
+    DTS_temp(80, 27)
+}

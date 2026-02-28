@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 [가상] KTX-태극
 --------------------------------------------------------------------*/
-// Graphics
-#include "V_KTX_Taegeuk_graphic.pnml"
-
 // Switch
 #include "V_KTX_Taegeuk_switch.pnml"
 
@@ -12,7 +9,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Taegeuk, 2478){
     property {
-        name:                           string(STR_Group_V_KTX_Taegeuk_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -22,7 +19,7 @@ item(FEAT_TRAINS, V_KTX_Taegeuk, 2478){
         }
 
     graphics {
-        purchase:                       set_V_KTX_Taegeuk_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -31,8 +28,8 @@ item(FEAT_TRAINS, V_KTX_Taegeuk, 2478){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Taegeuk_8Car, 2479){
     property {
-        name:                           string(STR_V_KTX_Taegeuk_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2130, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -68,9 +65,9 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_8Car, 2479){
         }
         
 	graphics {
-        default:                        sw_V_KTX_Taegeuk_8car_reversed;
+        default:                        sw_V_KTX_Taegeuk_8car;
         articulated_part:               sw_articulated_V_KTX_Taegeuk_8car;
-        purchase:                       set_V_KTX_Taegeuk_purchase;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -83,8 +80,8 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_8Car, 2479){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Taegeuk_10Car, 2480){
     property {
-        name:                           string(STR_V_KTX_Taegeuk_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2130, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -120,9 +117,9 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_10Car, 2480){
         }
         
 	graphics {
-        default:                        sw_V_KTX_Taegeuk_10car_reversed;
+        default:                        sw_V_KTX_Taegeuk_10car;
         articulated_part:               sw_articulated_V_KTX_Taegeuk_10car;
-        purchase:                       set_V_KTX_Taegeuk_purchase;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -135,8 +132,8 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_10Car, 2480){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Taegeuk_16Car, 2481){
     property {
-        name:                           string(STR_V_KTX_Taegeuk_16Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2130, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -172,9 +169,9 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_16Car, 2481){
         }
         
 	graphics {
-        default:                        sw_V_KTX_Taegeuk_16car_reversed;
+        default:                        sw_V_KTX_Taegeuk_16car;
         articulated_part:               sw_articulated_V_KTX_Taegeuk_16car;
-        purchase:                       set_V_KTX_Taegeuk_purchase;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -187,8 +184,8 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_16Car, 2481){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_KTX_Taegeuk_20Car, 2482){
     property {
-        name:                           string(STR_V_KTX_Taegeuk_20Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2130, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -224,9 +221,9 @@ item(FEAT_TRAINS, V_KTX_Taegeuk_20Car, 2482){
         }
         
 	graphics {
-        default:                        sw_V_KTX_Taegeuk_20car_reversed;
+        default:                        sw_V_KTX_Taegeuk_20car;
         articulated_part:               sw_articulated_V_KTX_Taegeuk_20car;
-        purchase:                       set_V_KTX_Taegeuk_purchase;
+        purchase:                       set_Deleted_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

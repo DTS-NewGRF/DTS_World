@@ -12,7 +12,7 @@ HYEL PEX-Super
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_PEX_Super, 2435){
     property {
-        name:                           string(STR_Group_HYEL_PEX_Super_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -23,7 +23,7 @@ item(FEAT_TRAINS, HYEL_PEX_Super, 2435){
         }
 
     graphics {
-        purchase:                       set_HYEL_PEX_Super_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -32,8 +32,8 @@ item(FEAT_TRAINS, HYEL_PEX_Super, 2435){
 --------------------------------------------------------------------*/  
 item (FEAT_TRAINS, HYEL_PEX_Super_8Car, 2436){
     property {
-        name:                           string(STR_HYEL_PEX_Super_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -71,15 +71,14 @@ item (FEAT_TRAINS, HYEL_PEX_Super_8Car, 2436){
         }
         
     graphics {
-        default:                        sw_HYEL_PEX_Super_8car_reversed;
+        default:                        sw_HYEL_PEX_Super_8car;
         articulated_part:               sw_articulated_HYEL_PEX_Super_8car;
-        purchase:                       set_HYEL_PEX_Super_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_260_speed;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
         cargo_capacity:                 sw_HYEL_PEX_Super_8car_capacity_in_custom;
-        cargo_subtype_text:             sw_HYEL_PEX_Super_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
@@ -89,8 +88,8 @@ item (FEAT_TRAINS, HYEL_PEX_Super_8Car, 2436){
 --------------------------------------------------------------------*/  
 item (FEAT_TRAINS, HYEL_PEX_Super_10Car, 2437){
     property {
-        name:                           string(STR_HYEL_PEX_Super_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -128,15 +127,14 @@ item (FEAT_TRAINS, HYEL_PEX_Super_10Car, 2437){
         }
         
     graphics {
-        default:                        sw_HYEL_PEX_Super_10car_reversed;
+        default:                        sw_HYEL_PEX_Super_10car;
         articulated_part:               sw_articulated_HYEL_PEX_Super_10car;
-        purchase:                       set_HYEL_PEX_Super_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_260_speed;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
         cargo_capacity:                 sw_HYEL_PEX_Super_10car_capacity_in_custom;
-        cargo_subtype_text:             sw_HYEL_PEX_Super_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
@@ -146,8 +144,8 @@ item (FEAT_TRAINS, HYEL_PEX_Super_10Car, 2437){
 --------------------------------------------------------------------*/  
 item (FEAT_TRAINS, HYEL_PEX_Super_14Car, 2438){
     property {
-        name:                           string(STR_HYEL_PEX_Super_14Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -185,15 +183,14 @@ item (FEAT_TRAINS, HYEL_PEX_Super_14Car, 2438){
         }
         
     graphics {
-        default:                        sw_HYEL_PEX_Super_14car_reversed;
+        default:                        sw_HYEL_PEX_Super_14car;
         articulated_part:               sw_articulated_HYEL_PEX_Super_14car;
-        purchase:                       set_HYEL_PEX_Super_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_260_speed;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
         cargo_capacity:                 sw_HYEL_PEX_Super_14car_capacity_in_custom;
-        cargo_subtype_text:             sw_HYEL_PEX_Super_14Car_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }

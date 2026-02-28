@@ -1,19 +1,13 @@
 /*--------------------------------------------------------------------
 YFX
 --------------------------------------------------------------------*/
-// Graphics
-#include "Coach_2F_wagon_Graphic.pnml"
-
-// Switch
-#include "Coach_2F_wagon_Switch.pnml"
-
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Coach_2F, 2106){
     property {
-        name:                           string(STR_VTS_SPASS_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(1994, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -45,12 +39,10 @@ item(FEAT_TRAINS, Coach_2F, 2106){
         }
 
 	graphics {
-        default:                        sw_Coach_2F_Wagon_1Car;
-        purchase:                       set_Coach_2F_Wagon_purchase;
+        default:                        set_Deleted_purchase;
+        purchase:                       set_Deleted_wagon;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_Coach_2F_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Coach);
         }
         }

@@ -6,7 +6,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Group_V_KTX_Eum, 2592){
     property {
-        name:                           string(STR_Group_V_KTX_Eum_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -16,7 +16,7 @@ item(FEAT_TRAINS, Group_V_KTX_Eum, 2592){
         }
         
     graphics {
-        purchase:                       set_KTX_Eum_Logo_purchase;
+        purchase:                       set_Deleted_purchase;
         }
     }
 

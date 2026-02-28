@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 [가상] ITX-청천
 --------------------------------------------------------------------*/
-// Graphics
-#include "V_ITX_CheongChan_graphic.pnml"
-
 // Switch
 #include "V_ITX_CheongChan_switch.pnml"
 
@@ -12,7 +9,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_ITX_CheongChan, 2490){
     property {
-        name:                           string(STR_Group_V_ITX_CheongChan_NAME);
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -22,7 +19,7 @@ item(FEAT_TRAINS, V_ITX_CheongChan, 2490){
         }
 
     graphics {
-        purchase:                       set_V_ITX_CheongChan_purchase;
+        purchase:                       set_Deleted_purchase;
         }
         }
 
@@ -31,8 +28,8 @@ item(FEAT_TRAINS, V_ITX_CheongChan, 2490){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_ITX_CheongChan_6Car, 2491){
     property {
-        name:                           string(STR_V_ITX_CheongChan_6Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -71,9 +68,9 @@ item(FEAT_TRAINS, V_ITX_CheongChan_6Car, 2491){
         }
         
     graphics {
-        default:                        sw_V_ITX_CheongChan_6car_reversed;
+        default:                        sw_V_ITX_CheongChan_6car;
         articulated_part:               sw_articulated_V_ITX_CheongChan_6car;
-        purchase:                       set_V_ITX_CheongChan_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
@@ -85,8 +82,8 @@ item(FEAT_TRAINS, V_ITX_CheongChan_6Car, 2491){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_ITX_CheongChan_8Car, 2492){
     property {
-        name:                           string(STR_V_ITX_CheongChan_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -125,9 +122,9 @@ item(FEAT_TRAINS, V_ITX_CheongChan_8Car, 2492){
         }
         
     graphics {
-        default:                        sw_V_ITX_CheongChan_8car_reversed;
+        default:                        sw_V_ITX_CheongChan_8car;
         articulated_part:               sw_articulated_V_ITX_CheongChan_8car;
-        purchase:                       set_V_ITX_CheongChan_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
@@ -139,8 +136,8 @@ item(FEAT_TRAINS, V_ITX_CheongChan_8Car, 2492){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, V_ITX_CheongChan_10Car, 2576){
     property {
-        name:                           string(STR_V_ITX_CheongChan_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -179,9 +176,9 @@ item(FEAT_TRAINS, V_ITX_CheongChan_10Car, 2576){
         }
         
     graphics {
-        default:                        sw_V_ITX_CheongChan_10car_reversed;
+        default:                        sw_V_ITX_CheongChan_10car;
         articulated_part:               sw_articulated_V_ITX_CheongChan_10car;
-        purchase:                       set_V_ITX_CheongChan_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_180_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;

@@ -5,69 +5,15 @@
 // 편성그래픽
 // 6량
 switch (FEAT_TRAINS, SELF, sw_V_ITX_CheongChun_6car, position_in_vehid_chain % 6) {
-    1:set_ITX_CheongChun_panto_wagon_M1;
-    2:set_ITX_CheongChun_wagon_M1;
-    3:set_ITX_CheongChun_wagon_M2;
-    4:set_ITX_CheongChun_panto_wagon_M2;
-    5:sw_ITX_CheongChun_engineT;
-    sw_ITX_CheongChun_engineH; //default
+    1..5:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_V_ITX_CheongChun_6car_r, position_in_vehid_chain % 6) {
-    1:set_ITX_CheongChun_panto_wagon_M2_r;
-    2:set_ITX_CheongChun_wagon_M2_r;
-    3:set_ITX_CheongChun_wagon_M1_r;
-    4:set_ITX_CheongChun_panto_wagon_M1_r;
-    5:sw_ITX_CheongChun_engineH_r;
-    sw_ITX_CheongChun_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_V_ITX_CheongChun_6car_flipped, vehicle_is_flipped){
-    0: sw_V_ITX_CheongChun_6car_r;
-    sw_V_ITX_CheongChun_6car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_V_ITX_CheongChun_6car_reversed, vehicle_is_reversed){
-    0: sw_V_ITX_CheongChun_6car;
-    sw_V_ITX_CheongChun_6car_flipped;
-}
 
 // 10량
 switch (FEAT_TRAINS, SELF, sw_V_ITX_CheongChun_10car, position_in_vehid_chain % 10) {
-    1:set_ITX_CheongChun_panto_wagon_M1;
-    2:set_ITX_CheongChun_wagon_M1;
-    3:set_ITX_CheongChun_wagon_T1;
-    4:set_ITX_CheongChun_wagon_T2;
-    5:set_ITX_CheongChun_wagon_MC;
-    6:set_ITX_CheongChun_wagon_T3;
-    7:set_ITX_CheongChun_wagon_M2;
-    8:set_ITX_CheongChun_panto_wagon_M2;
-    9:sw_ITX_CheongChun_engineT;
-    sw_ITX_CheongChun_engineH; //default
+    1..9:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_V_ITX_CheongChun_10car_r, position_in_vehid_chain % 10) {
-    1:set_ITX_CheongChun_panto_wagon_M2_r;
-    2:set_ITX_CheongChun_wagon_M2_r;
-    3:set_ITX_CheongChun_wagon_T3_r;
-    4:set_ITX_CheongChun_wagon_MC_r;
-    5:set_ITX_CheongChun_wagon_T2_r;
-    6:set_ITX_CheongChun_wagon_T1_r;
-    7:set_ITX_CheongChun_wagon_M1_r;
-    8:set_ITX_CheongChun_panto_wagon_M1_r;
-    9:sw_ITX_CheongChun_engineH_r;
-    sw_ITX_CheongChun_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_V_ITX_CheongChun_10car_flipped, vehicle_is_flipped){
-    0: sw_V_ITX_CheongChun_10car_r;
-    sw_V_ITX_CheongChun_10car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_V_ITX_CheongChun_10car_reversed, vehicle_is_reversed){
-    0: sw_V_ITX_CheongChun_10car;
-    sw_V_ITX_CheongChun_10car_flipped;
-}
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_V_ITX_CheongChun_6car, extra_callback_info1) {

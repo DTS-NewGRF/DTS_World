@@ -1,19 +1,13 @@
 /*--------------------------------------------------------------------
 쇼케이스 평판화차
 --------------------------------------------------------------------*/
-// Graphics
-#include "Showcase_Flat_1F_wagon_graphic.pnml"
-
-// Switch
-#include "Showcase_Flat_1F_wagon_switch.pnml"
-
 /*--------------------------------------------------------------------
 화물차량 정보
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Showcase_Flat_1F, 2522){
     property {
-        name:                           string(STR_Showcase_Flat_1F_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(1967, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -48,8 +42,8 @@ item(FEAT_TRAINS, Showcase_Flat_1F, 2522){
         }
 
 	graphics {
-        default:                        sw_ShowCase_FLAT_1F_wagon_1Car;
-        purchase:                       sw_ShowCase_FLAT_1F_purchase;
+        default:                        set_Deleted_wagon;
+        purchase:                       set_Deleted_purchase;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;
