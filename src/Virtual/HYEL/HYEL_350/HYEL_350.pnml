@@ -19,7 +19,7 @@ item(FEAT_TRAINS, HYEL_350, 2496){
         }
 
     graphics {
-        purchase:                       set_Deleted_purchaseㄴ;
+        purchase:                       set_Deleted_purchase;
         }
         }
 

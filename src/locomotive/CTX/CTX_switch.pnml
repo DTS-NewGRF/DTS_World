@@ -3,16 +3,8 @@
 --------------------------------------------------------------------*/
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_CTX_P_10car, position_in_vehid_chain % 10) {
-    1:set_CTX_HC_R_wagon_start;
-    2:set_CTX_HC_R_wagon_A;
-    3:set_CTX_HC_R_wagon_A;
-    4:set_CTX_HC_R_wagon_A;
-    5:set_CTX_HC_R_wagon_B;
-    6:set_CTX_HC_R_wagon_B;
-    7:set_CTX_HC_R_wagon_B;
-    8:set_CTX_HC_R_wagon_end;
-    9:set_CTX_HC_R_engineT;
-    set_CTX_HC_R_engineH; //default
+    1..9:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
 
 // 편성량

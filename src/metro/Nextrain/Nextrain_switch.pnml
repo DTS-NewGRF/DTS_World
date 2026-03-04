@@ -4,51 +4,15 @@
 // 편성그래픽
 // 3량
 switch (FEAT_TRAINS, SELF, sw_Nextrain_1000_3car, position_in_vehid_chain % 3) {
-    1:set_Nextrain_1000_wagon;
-    2:set_Nextrain_1000_engineT;
-    set_Nextrain_1000_engineH; //default
+    1..2:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_Nextrain_1000_3car_r, position_in_vehid_chain % 3) {
-    1:set_Nextrain_1000_wagon_r;
-    2:set_Nextrain_1000_engineH_r;
-    set_Nextrain_1000_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Nextrain_1000_3car_flipped, vehicle_is_flipped){
-    0: sw_Nextrain_1000_3car_r;
-    sw_Nextrain_1000_3car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Nextrain_1000_3car_reversed, vehicle_is_reversed){
-    0: sw_Nextrain_1000_3car;
-    sw_Nextrain_1000_3car_flipped;
-}
 
 // 4량
 switch (FEAT_TRAINS, SELF, sw_Nextrain_1000_4car, position_in_vehid_chain % 4) {
-    1:set_Nextrain_1000_wagon;
-    2:set_Nextrain_1000_wagon;
-    3:set_Nextrain_1000_engineT;
-    set_Nextrain_1000_engineH; //default
+    1..3:set_Deleted_wagon;
+    set_Deleted_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_Nextrain_1000_4car_r, position_in_vehid_chain % 4) {
-    1:set_Nextrain_1000_wagon_r;
-    2:set_Nextrain_1000_wagon_r;
-    3:set_Nextrain_1000_engineH_r;
-    set_Nextrain_1000_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Nextrain_1000_4car_flipped, vehicle_is_flipped){
-    0: sw_Nextrain_1000_4car_r;
-    sw_Nextrain_1000_4car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Nextrain_1000_4car_reversed, vehicle_is_reversed){
-    0: sw_Nextrain_1000_4car;
-    sw_Nextrain_1000_4car_flipped;
-}
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Nextrain_1000_3car, extra_callback_info1) {

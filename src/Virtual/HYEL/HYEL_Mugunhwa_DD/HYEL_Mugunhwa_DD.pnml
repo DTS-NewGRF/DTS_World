@@ -19,7 +19,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD, 2589){
         }
 
     graphics {
-        purchase:                       set_Deleted_purchaseㄴ;
+        purchase:                       set_Deleted_purchase;
         }
         }
 

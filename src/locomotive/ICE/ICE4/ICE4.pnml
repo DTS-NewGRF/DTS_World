@@ -18,6 +18,7 @@ item(FEAT_TRAINS, ICE4, 2196){
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         power:                          700 kW;
+        variant_group:                  ICE_Logo;
         }
 
     graphics {

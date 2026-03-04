@@ -18,6 +18,7 @@ item(FEAT_TRAINS, TGV_R_10Car, 2154){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  TGV_Logo;
         
         //spec
         speed:                          320km/h;

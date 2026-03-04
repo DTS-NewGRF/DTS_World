@@ -4,7 +4,6 @@
 #include "locomotive/BB15000/BB15000.pnml"
 #include "locomotive/CRH/CRH.pnml"
 #include "locomotive/CDC/CDC.pnml"
-#include "locomotive/CTX/CTX.pnml"
 #include "locomotive/DEL4400/DEL4400.pnml"
 #include "locomotive/DEL7000/DEL7000.pnml"
 #include "locomotive/DEL7600/DEL7600.pnml"
@@ -55,7 +54,6 @@
 #include "metro/Jakarta_LRT/Jakarta_LRT.pnml"
 #include "metro/Korail/Korail.pnml"
 #include "metro/MTR/MTR.pnml"
-#include "metro/Nextrain/Nextrain.pnml"
 #include "metro/Nishitetsu/Nishitetsu.pnml"
 #include "metro/Seoulmetro/Seoulmetro.pnml"
 #include "metro/Shinbundang/Shinbundang.pnml"
@@ -65,9 +63,6 @@
 #include "metro/Uijeongbu_Line/Uijeongbu_Line.pnml"
 #include "metro/Yangsan_AGT/Yangsan_AGT.pnml"
 #include "metro/Yongin_EverLine/Yongin_EverLine.pnml"
-
-//Showcase
-#include "Showcase/Showcase.pnml"
 
 //wagon
 #include "wagon/CGeneratar_Car/CGeneratar_Car.pnml"
@@ -84,6 +79,23 @@
 
 // Sorting
 #include "sort.pnml"
+
+// 삭제예정 열차들
+#include "locomotive/DTX/DTX.pnml"
+#include "Virtual/Virtual.pnml"
+#include "locomotive/Glory/Glory.pnml"
+#include "locomotive/DFX/DFX.pnml"
+#include "locomotive/DPX/DPX.pnml"
+#include "metro/Nextrain/Nextrain.pnml"
+#include "locomotive/CTX/CTX.pnml"
+#include "locomotive/VHST_600X/VHST_600X.pnml"
+#include "metro/IMR_001/IMR_001.pnml"
+#include "metro/MEL_150/MEL_150.pnml"
+#include "locomotive/CL_150/CL_150.pnml"
+#include "locomotive/Transparency/Transparency.pnml"
+#include "Showcase/Showcase.pnml"
+#include "wagon/SPassenger_wagon/PEX/PEX.pnml"
+#include "wagon/SPassenger_wagon/PEX_Super/PEX_Super.pnml"
 
 // 삭제예정 열차 그래픽
 spriteset(set_Deleted_purchase, "Deleted_Train_Image.png"){

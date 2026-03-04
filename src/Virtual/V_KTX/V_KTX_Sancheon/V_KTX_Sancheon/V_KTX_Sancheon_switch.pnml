@@ -3,7 +3,7 @@
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_V_KTX_Sancheon_10car, position_in_vehid_chain % 10) {
     1..9:set_Deleted_wagon;
-    sw_V_KTX_Sancheon_10Car_engineH; //default
+    set_Deleted_engineH; //default
     }
 
 // 편성량

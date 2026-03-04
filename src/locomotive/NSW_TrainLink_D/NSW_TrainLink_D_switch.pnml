@@ -1,6 +1,8 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
+// 4량
 switch (FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_4car, position_in_vehid_chain % 4) {
     1:set_NSW_TrainLink_D_wagon_A;
     2:set_NSW_TrainLink_D_wagon_B;
@@ -8,11 +10,24 @@ switch (FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_4car, position_in_vehid_chain % 4)
     set_NSW_TrainLink_D_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_NSW_TrainLink_D_4car, extra_callback_info1) {
-    1..3: NSW_TrainLink_D_4Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+switch (FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_4car_r, position_in_vehid_chain % 4) {
+    1:set_NSW_TrainLink_D_wagon_B_r;
+    2:set_NSW_TrainLink_D_wagon_A_r;
+    3:set_NSW_TrainLink_D_engineH_r;
+    set_NSW_TrainLink_D_engineT_r; //default
     }
 
+switch(FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_4car_flipped, vehicle_is_flipped){
+    0: sw_NSW_TrainLink_D_4car_r;
+    sw_NSW_TrainLink_D_4car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_NSW_TrainLink_D_4car_reversed, vehicle_is_reversed){
+    0: sw_NSW_TrainLink_D_4car;
+    sw_NSW_TrainLink_D_4car_flipped;
+}
+
+// 6량
 switch (FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_6car, position_in_vehid_chain % 6) {
     1:set_NSW_TrainLink_D_wagon_A;
     2:set_NSW_TrainLink_D_panto_wagon;
@@ -20,6 +35,31 @@ switch (FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_6car, position_in_vehid_chain % 6)
     4:set_NSW_TrainLink_D_wagon_B;
     5:set_NSW_TrainLink_D_engineT;
     set_NSW_TrainLink_D_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_6car_r, position_in_vehid_chain % 6) {
+    1:set_NSW_TrainLink_D_wagon_B_r;
+    2:set_NSW_TrainLink_D_wagon_B_r;
+    3:set_NSW_TrainLink_D_panto_wagon_r;
+    4:set_NSW_TrainLink_D_wagon_A_r;
+    5:set_NSW_TrainLink_D_engineH_r;
+    set_NSW_TrainLink_D_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_6car_flipped, vehicle_is_flipped){
+    0: sw_NSW_TrainLink_D_6car_r;
+    sw_NSW_TrainLink_D_6car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_NSW_TrainLink_D_6car_reversed, vehicle_is_reversed){
+    0: sw_NSW_TrainLink_D_6car;
+    sw_NSW_TrainLink_D_6car_flipped;
+}
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_NSW_TrainLink_D_4car, extra_callback_info1) {
+    1..3: NSW_TrainLink_D_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_NSW_TrainLink_D_6car, extra_callback_info1) {

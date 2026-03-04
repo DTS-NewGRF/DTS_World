@@ -17,7 +17,6 @@ switch (FEAT_TRAINS, SELF, sw_HYEL_350_16car, position_in_vehid_chain % 16) {
     set_Deleted_engineH; //default
     }
 
-sw
 switch (FEAT_TRAINS, SELF, sw_HYEL_350_20car, position_in_vehid_chain % 20) {
     1..19:set_Deleted_wagon;
     set_Deleted_engineH; //default

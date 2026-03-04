@@ -18,6 +18,7 @@ item(FEAT_TRAINS, Renfe_S_103_8Car, 2074){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Renfe_Logo;
         
         //spec
         speed:                          362km/h;

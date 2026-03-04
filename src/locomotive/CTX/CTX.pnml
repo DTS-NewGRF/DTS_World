@@ -12,8 +12,8 @@ CTX
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CTX_P_10Car, 2125){
     property {
-        name:                           string(STR_CTX_P_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260301_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, CTX_P_10Car, 2125){
 	graphics {
         default:                        sw_CTX_P_10car;
         articulated_part:               sw_articulated_CTX_P_10car;
-        purchase:                       set_CTX_purchase;
+        purchase:                       set_Deleted_purchase;
         speed:                          sw_High_305_speed;
         loading_speed:                  25;
         cost_factor:                    10;

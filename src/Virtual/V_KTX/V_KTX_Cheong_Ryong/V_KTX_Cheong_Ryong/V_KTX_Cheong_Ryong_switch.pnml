@@ -3,13 +3,13 @@
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_8car, position_in_vehid_chain % 8) {
     1..7:set_Deleted_wagon;
-    sw_V_KTX_Cheong_Ryong_engineH; //default
+    set_Deleted_engineH; //default
     }
 
 // 16량
 switch (FEAT_TRAINS, SELF, sw_V_KTX_Cheong_Ryong_16car, position_in_vehid_chain % 16) {
     1..15:set_Deleted_wagon;
-    set_V_KTX_Cheong_Ryong_JR_engineH; //default
+    set_Deleted_engineH; //default
     }
 
 // 편성량

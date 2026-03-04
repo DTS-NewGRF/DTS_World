@@ -17,7 +17,8 @@ item(FEAT_TRAINS, Shinkansen_E6_7Car, 2093){
         introduction_date:              date(2013, 3, 16);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;        
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Shinkansen_Logo;
         
         //spec
         speed:                          320km/h;

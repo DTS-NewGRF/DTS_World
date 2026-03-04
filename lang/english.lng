@@ -23,13 +23,17 @@ STR_Group_MTR_Logo_NAME                                :Hong Kong MTR
 STR_Group_Hankyu_Logo_NAME                             :Hankyu
 STR_Group_Nishitetsu_Logo_NAME                         :Nishitetsu
 STR_Group_CRH_Logo_NAME                                :CRH
+STR_Group_ICE_Logo_NAME                                :ICE
+STR_Group_Shinkansen_Logo_NAME                         :Shinkansen
+STR_Group_TGV_Logo_NAME                                :TGV
+STR_Group_Renfe_Logo_NAME                              :Renfe
+STR_Group_Eurostar_Logo_NAME                           :Eurostar
 
 # Korea / locomotive's name
 STR_Group_CDC_NAME                                     :CDC Diesel
 STR_CDC_3Car_NAME                                      :[3Car] CDC Diesel
 STR_CDC_4Car_NAME                                      :[4Car] CDC Diesel
 STR_CDC_5Car_NAME                                      :[5Car] CDC Diesel
-STR_CTX_P_10Car_NAME                                   :[10Car] CTX
 STR_DEL4400_NAME                                       :DEL4400
 STR_DEL7000_NAME                                       :DEL7000
 STR_DEL7600_NAME                                       :DEL7600
@@ -50,7 +54,9 @@ STR_EEC_EMU_10Car_NAME                                 :[10Car] EEC EMU
 STR_FEL_8500_NAME                                      :FEL 8500
 STR_GT26CW_NAME                                        :GT26CW
 STR_GTX_8Car_NAME                                      :[8Car] GTX
+STR_Group_H2_WJ_NAME                                   :H2 by WOOJIN
 STR_H2_WJ_2Car_NAME                                    :[2Car] H2 by WOOJIN
+STR_H2_WJ_4Car_NAME                                    :[4Car] H2 by WOOJIN
 STR_Group_HEMU_430X_NAME                               :HEMU-430X
 STR_HEMU_430X_6Car_NAME                                :[6Car] HEMU-430X
 STR_HEMU_430X_8Car_NAME                                :[8Car] HEMU-430X
@@ -251,9 +257,6 @@ STR_Korail_Second_8Car_NAME                            :[8Car] Korail Rheostatic
 STR_Korail_Second_10Car_NAME                           :[10Car] Korail Rheostatic [Second]
 STR_Korail_Third_10Car_NAME                            :[10Car] Korail Rheostatic [Third]
 STR_Korail_Rheostatic_10Car_NAME                       :[10Car] Korail Rheostatic [Rheostatic]
-STR_Group_Nextrain_NAME                                :Nextrain Metro
-STR_Nextrain_3Car_NAME                                 :[3Car] Nextrain
-STR_Nextrain_4Car_NAME                                 :[4Car] Nextrain
 STR_Group_Chopper_GEC_NAME                             :Seoulmetro 2000 GEC chopper
 STR_Chopper_GEC_6Car_NAME                              :[6Car] Seoulmetro 2000 GEC chopper
 STR_Chopper_GEC_10Car_NAME                             :[10Car] Seoulmetro 2000 GEC chopper

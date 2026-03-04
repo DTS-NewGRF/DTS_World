@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------------
 HYEL PEX-Super
 --------------------------------------------------------------------*/
-// Graphics
-#include "HYEL_PEX_Super_graphic.pnml"
-
 // Switch
 #include "HYEL_PEX_Super_switch.pnml"
 
