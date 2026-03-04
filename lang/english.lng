@@ -2,9 +2,9 @@
 
 
 # GRF name and description
-STR_GRF_NAME_WITH_VER                                  :Diversity Train Set {VERSION}
-STR_GRF_DESC                                           :Diversity Train Set
-STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS/releases
+STR_GRF_NAME_WITH_VER                                  :World Diversity Train Set {VERSION}
+STR_GRF_DESC                                           :World Diversity Train Set
+STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS_World/releases
 
 # Deleted / locomotive's name
 STR_To_Be_Deleted_20260301_NAME                        :[2024.3] {RED} To Be Deleted
