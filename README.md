@@ -1,5 +1,5 @@
 # World Diversity Train Set 월드 다양성 열차세트 /DTS_World
-![DTS_board](https://github.com/DTS-NewGRF/DTS_World/blob/minengallery/docs/DTS_board.png)
+![DTS_board](https://github.com/DTS-NewGRF/DTS_World/blob/main/docs/DTS_board.png)
 **월드 다양성 열차세트**는 <br>
 약 2016년에 [YST set](https://github.com/evepoi/YST)에서 최초로 시작했다.<br>
 2022년 4월 2일 `[YST]는 중단되었다.`<br>
