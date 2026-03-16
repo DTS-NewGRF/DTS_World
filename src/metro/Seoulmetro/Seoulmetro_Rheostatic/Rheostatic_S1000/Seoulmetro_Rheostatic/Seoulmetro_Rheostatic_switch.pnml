@@ -73,8 +73,7 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_engineT_r, cargo_subtyp
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_10car, position_in_vehid_chain % 10) {
     1:sw_Seoulmetro_Rheostatic_S1000_wagon_MAMB;
     2:sw_Seoulmetro_Rheostatic_S1000_wagon_AB;
-    3:sw_Seoulmetro_Rheostatic_S1000_wagon_MA_T;
-    4:sw_Seoulmetro_Rheostatic_S1000_wagon_MA_T;
+    3..4:sw_Seoulmetro_Rheostatic_S1000_wagon_MA_T;
     5:sw_Seoulmetro_Rheostatic_S1000_wagon_A;
     6:sw_Seoulmetro_Rheostatic_S1000_wagon_MA_T;
     7:sw_Seoulmetro_Rheostatic_S1000_wagon_MAMB;
@@ -88,8 +87,7 @@ switch (FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_10car_r, position_in_v
     2:sw_Seoulmetro_Rheostatic_S1000_wagon_MAMB_r;
     3:sw_Seoulmetro_Rheostatic_S1000_wagon_MA_T_r;
     4:sw_Seoulmetro_Rheostatic_S1000_wagon_A_r;
-    5:sw_Seoulmetro_Rheostatic_S1000_wagon_MA_T_r;
-    6:sw_Seoulmetro_Rheostatic_S1000_wagon_MA_T_r;
+    5..6:sw_Seoulmetro_Rheostatic_S1000_wagon_MA_T_r;
     7:ssw_Seoulmetro_Rheostatic_S1000_wagon_AB_r;
     8:sw_Seoulmetro_Rheostatic_S1000_wagon_MAMB_r;
     9:sw_Seoulmetro_Rheostatic_S1000_engineH_r;

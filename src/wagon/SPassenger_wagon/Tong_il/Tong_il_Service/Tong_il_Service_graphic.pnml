@@ -32,36 +32,6 @@ spriteset(set_Tong_il_Service_S_1997, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/w
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Tong_il_Service_1966_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
-    tmpl_wagon_purchase(0, 0)
-}
-
-spriteset(set_Tong_il_Service_1968_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
-    tmpl_wagon_purchase(0, 54)
-}
-
-spriteset(set_Tong_il_Service_1975_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
-    tmpl_wagon_purchase(0, 81)
-}
-
-spriteset(set_Tong_il_Service_1984_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
-    tmpl_wagon_purchase(0, 108)
-}
-
-spriteset(set_Tong_il_Service_1994_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
-    tmpl_wagon_purchase(0, 135)
-}
-
-spriteset(set_Tong_il_Service_1997_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
+spriteset(sw_Tong_il_Service_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
     tmpl_wagon_purchase(0, 162)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_purchase, current_year) {
-    0..1967: set_Tong_il_Service_1966_purchase;
-    1968..1974: set_Tong_il_Service_1968_purchase;
-    1975..1983: set_Tong_il_Service_1975_purchase;
-    1984..1993: set_Tong_il_Service_1984_purchase;
-    1994..1996: set_Tong_il_Service_1994_purchase;
-    set_Tong_il_Service_1997_purchase;
-    }

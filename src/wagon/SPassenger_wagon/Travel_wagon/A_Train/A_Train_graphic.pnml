@@ -61,16 +61,6 @@ alternative_sprites(set_A_Train_New_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, 
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_A_Train_2015_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_Old.png"){
+spriteset(sw_A_Train_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New_32bpp.png") {
     tmpl_wagon_purchase(0, 0)
 }
-
-spriteset(set_A_Train_2022_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New_32bpp.png") {
-    tmpl_wagon_purchase(0, 0)
-}
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_A_Train_purchase, current_year) {
-    0..2021: set_A_Train_2015_purchase;
-    set_A_Train_2022_purchase;
-    }

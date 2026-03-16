@@ -250,17 +250,13 @@ switch(FEAT_TRAINS, PARENT, sw_CDC_4car_reversed, vehicle_is_reversed){
 
 // 5량
 switch (FEAT_TRAINS, SELF, sw_CDC_5car, position_in_vehid_chain % 5) {
-    1:sw_CDC_5car_wagon;
-    2:sw_CDC_5car_wagon;
-    3:sw_CDC_5car_wagon;
+    1..3:sw_CDC_5car_wagon;
     4:sw_CDC_5car_engineT;
     sw_CDC_5car_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_CDC_5car_r, position_in_vehid_chain % 5) {
-    1:sw_CDC_5car_wagon_r;
-    2:sw_CDC_5car_wagon_r;
-    3:sw_CDC_5car_wagon_r;
+    1..3:sw_CDC_5car_wagon_r;
     4:sw_CDC_5car_engineH_r;
     sw_CDC_5car_engineT_r; //default
     }

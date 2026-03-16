@@ -31,15 +31,13 @@ switch(FEAT_TRAINS, PARENT, sw_NSW_TrainLink_D_4car_reversed, vehicle_is_reverse
 switch (FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_6car, position_in_vehid_chain % 6) {
     1:set_NSW_TrainLink_D_wagon_A;
     2:set_NSW_TrainLink_D_panto_wagon;
-    3:set_NSW_TrainLink_D_wagon_B;
-    4:set_NSW_TrainLink_D_wagon_B;
+    3..4:set_NSW_TrainLink_D_wagon_B;
     5:set_NSW_TrainLink_D_engineT;
     set_NSW_TrainLink_D_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_6car_r, position_in_vehid_chain % 6) {
-    1:set_NSW_TrainLink_D_wagon_B_r;
-    2:set_NSW_TrainLink_D_wagon_B_r;
+    1..2:set_NSW_TrainLink_D_wagon_B_r;
     3:set_NSW_TrainLink_D_panto_wagon_r;
     4:set_NSW_TrainLink_D_wagon_A_r;
     5:set_NSW_TrainLink_D_engineH_r;

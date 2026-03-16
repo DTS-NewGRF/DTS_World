@@ -16,33 +16,6 @@ spriteset(set_DEL7000_engine_C, "src/locomotive/DEL7000/DEL7000.png"){
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_DEL7000_A_purchase, "src/locomotive/DEL7000/DEL7000.png"){
-    tmpl_single_purchase(0, 0)
-}
-
-spriteset(set_DEL7000_B_purchase, "src/locomotive/DEL7000/DEL7000.png"){
-    tmpl_single_purchase(0, 27)
-}
-
-spriteset(set_DEL7000_C_purchase, "src/locomotive/DEL7000/DEL7000.png"){
+spriteset(sw_DEL7000_purchase, "src/locomotive/DEL7000/DEL7000.png"){
     tmpl_single_purchase(0, 54)
 }
-
-// 등장년도
-switch(FEAT_TRAINS, SELF, sw_DEL7000_1986_purchase, cargo_subtype) {
-    set_DEL7000_A_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DEL7000_1996_purchase, cargo_subtype) {
-    set_DEL7000_B_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DEL7000_2005_purchase, cargo_subtype) {
-    set_DEL7000_C_purchase;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DEL7000_purchase, current_year) {
-    0..1995: sw_DEL7000_1986_purchase;
-    1996..2004: sw_DEL7000_1996_purchase;
-    sw_DEL7000_2005_purchase;
-    }

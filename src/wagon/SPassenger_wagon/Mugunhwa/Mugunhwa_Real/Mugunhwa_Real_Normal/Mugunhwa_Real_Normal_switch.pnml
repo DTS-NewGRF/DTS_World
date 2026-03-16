@@ -2,13 +2,89 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-#include "Mugunhwa_Real_Normal_switch_Year.pnml"
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG1);
+     1: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG2);
+     2: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I1);
+     3: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I2);
+     4: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N1);
+     5: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N2);
+     6: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N3);
+     7: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O1);
+     8: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O2);
+     9: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O3);
+    10: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O4);
+    11: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L1);
+    12: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L2);
+    13: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN1);
+    14: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN2);
+    15: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN3);
+    16: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN4);
+    17: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN5);
+    18: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN6);
+    19: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SA);
+    20: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SB);
+    21: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN1);
+    22: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN2);
+    23: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN1);
+    24: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN2);
+    return CB_RESULT_NO_TEXT;
+}
 
 //열차
-#include "Mugunhwa_Real_Normal_switch_wagon.pnml"
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_wagon, cargo_subtype) {
+     1: set_Mugunhwa_Real_Normal_MG2;
+     2: set_Mugunhwa_Real_Normal_I1;
+     3: set_Mugunhwa_Real_Normal_I2;
+     4: set_Mugunhwa_Real_Normal_N1;
+     5: set_Mugunhwa_Real_Normal_N2;
+     6: set_Mugunhwa_Real_Normal_N3;
+     7: set_Mugunhwa_Real_Normal_O1;
+     8: set_Mugunhwa_Real_Normal_O2;
+     9: set_Mugunhwa_Real_Normal_O3;
+    10: set_Mugunhwa_Real_Normal_O4;
+    11: set_Mugunhwa_Real_Normal_L1;
+    12: set_Mugunhwa_Real_Normal_L2;
+    13: set_Mugunhwa_Real_Normal_NN1;
+    14: set_Mugunhwa_Real_Normal_NN2;
+    15: set_Mugunhwa_Real_Normal_NN3;
+    16: set_Mugunhwa_Real_Normal_NN4;
+    17: set_Mugunhwa_Real_Normal_NN5;
+    18: set_Mugunhwa_Real_Normal_NN6;
+    19: set_Mugunhwa_Real_Normal_SA;
+    20: set_Mugunhwa_Real_Normal_SB;
+    21: set_Mugunhwa_Real_Normal_LN1;
+    22: set_Mugunhwa_Real_Normal_LN2;
+    23: set_Mugunhwa_Real_Normal_GN1;
+    24: set_Mugunhwa_Real_Normal_GN2;
+    set_Mugunhwa_Real_Normal_MG1;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Mugunhwa_Real_Normal_wagon; //default
+    }
 
 //수송량
-#include "Mugunhwa_Real_Normal_switch_capacity.pnml"
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_capacity_in_custom, cargo_subtype) {
+    6: return 68;
+   12: return 68;
+   17: return 68;
+   19: return 68;
+   20: return 64;
+   22: return 68;
+   24: return 68;
+   72;
+}
 
 //속도
-#include "Mugunhwa_Real_Normal_switch_speed.pnml"
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_speed_nomal, cargo_subtype) {
+    4..6: sw_wagon_150_speed;
+    9..22: sw_wagon_150_speed;
+   sw_wagon_120_speed;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_speed, Use_Passengercar_Real_speed) {
+   1: sw_Mugunhwa_Real_Normal_speed_nomal;
+   return 0;
+   }

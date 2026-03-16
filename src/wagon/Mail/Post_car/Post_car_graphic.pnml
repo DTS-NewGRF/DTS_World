@@ -12,16 +12,6 @@ spriteset(set_Post_Car_POST_1994, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Post_Car_1973_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/Post_car/Post_car.png"){
-    tmpl_wagon_purchase(0, 0)
-}
-
-spriteset(set_Post_Car_1994_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/Post_car/Post_car.png"){
+spriteset(sw_Post_Car_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/Post_car/Post_car.png"){
     tmpl_wagon_purchase(0, 27)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Post_Car_purchase, current_year) {
-    0..1993: set_Post_Car_1973_purchase;
-    set_Post_Car_1994_purchase;
-    }

@@ -3,9 +3,7 @@
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_E8_7car, position_in_vehid_chain % 7) {
     1:set_Shinkansen_E8_panto_wagon_A;
-    2:set_Shinkansen_E8_wagon;
-    3:set_Shinkansen_E8_wagon;
-    4:set_Shinkansen_E8_wagon;
+    2..4:set_Shinkansen_E8_wagon;
     5:set_Shinkansen_E8_panto_wagon_B;
     6:set_Shinkansen_E8_engineT;
     set_Shinkansen_E8_engineH; //default
@@ -13,9 +11,7 @@ switch (FEAT_TRAINS, SELF, sw_Shinkansen_E8_7car, position_in_vehid_chain % 7) {
 
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_E8_7car_r, position_in_vehid_chain % 7) {
     1:set_Shinkansen_E8_panto_wagon_B_r;
-    2:set_Shinkansen_E8_wagon_r;
-    3:set_Shinkansen_E8_wagon_r;
-    4:set_Shinkansen_E8_wagon_r;
+    2..4:set_Shinkansen_E8_wagon_r;
     5:set_Shinkansen_E8_panto_wagon_A_r;
     6:set_Shinkansen_E8_engineH_r;
     set_Shinkansen_E8_engineT_r; //default

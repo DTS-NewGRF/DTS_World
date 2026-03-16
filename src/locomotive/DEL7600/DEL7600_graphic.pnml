@@ -16,21 +16,6 @@ spriteset(set_DEL7600_A_Train_New_engine, "src/locomotive/DEL7600/DEL7600.png"){
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_DEL7600_2014_purchase, "src/locomotive/DEL7600/DEL7600.png"){
-    tmpl_single_purchase(0, 0)
-}
-
-spriteset(set_DEL7600_2015_purchase, "src/locomotive/DEL7600/DEL7600.png"){
-    tmpl_single_purchase(0, 27)
-}
-
-spriteset(set_DEL7600_2022_purchase, "src/locomotive/DEL7600/DEL7600.png"){
+spriteset(sw_DEL7600_purchase, "src/locomotive/DEL7600/DEL7600.png"){
     tmpl_single_purchase(0, 54)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_DEL7600_purchase, current_year) {
-    0..2014: set_DEL7600_2014_purchase;
-    2015..2021: set_DEL7600_2015_purchase;
-    set_DEL7600_2022_purchase;
-    }

@@ -20,16 +20,6 @@ spriteset(set_Luggage_Olny_1999_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wago
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Luggage_Olny_1998_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Olny/Luggage_Olny.png") {
-    tmpl_wagon_purchase(0, 0)
-}
-
-spriteset(set_Luggage_Olny_2005_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Olny/Luggage_Olny.png") {
+spriteset(sw_Luggage_Olny_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Olny/Luggage_Olny.png") {
     tmpl_wagon_purchase(0, 54)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Luggage_Olny_purchase, current_year) {
-    0..2004: set_Luggage_Olny_1998_purchase;
-    set_Luggage_Olny_2005_purchase;
-    }

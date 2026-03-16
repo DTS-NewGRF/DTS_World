@@ -28,10 +28,7 @@ switch(FEAT_TRAINS, SELF, sw_MTR_AD_Tranz_CAF_A_wagon, cargo_subtype) {
 
 switch (FEAT_TRAINS, SELF, sw_MTR_AD_Tranz_CAF_A_8car, position_in_vehid_chain % 8) {
     1:sw_MTR_AD_Tranz_CAF_A_panto_wagon;
-    2:sw_MTR_AD_Tranz_CAF_A_wagon;
-    3:sw_MTR_AD_Tranz_CAF_A_wagon;
-    4:sw_MTR_AD_Tranz_CAF_A_wagon;
-    5:sw_MTR_AD_Tranz_CAF_A_wagon;
+    2..5:sw_MTR_AD_Tranz_CAF_A_wagon;
     6:sw_MTR_AD_Tranz_CAF_A_panto_wagon;
     7:sw_MTR_AD_Tranz_CAF_A_engineT;
     sw_MTR_AD_Tranz_CAF_A_engineH; //default

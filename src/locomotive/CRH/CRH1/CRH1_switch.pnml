@@ -4,10 +4,7 @@
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_CRH1_8car, position_in_vehid_chain % 8) {
     1:set_CRH1_panto_wagon;
-    2:set_CRH1_wagon;
-    3:set_CRH1_wagon;
-    4:set_CRH1_wagon;
-    5:set_CRH1_wagon;
+    2..5:set_CRH1_wagon;
     6:set_CRH1_panto_wagon_r;
     7:set_CRH1_engineT;
     set_CRH1_engineH; //default

@@ -2,20 +2,7 @@
 스위치
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_Eurostar_E320_16car, position_in_vehid_chain % 16) {
-    1:set_Eurostar_E320_wagon;
-    2:set_Eurostar_E320_wagon;
-    3:set_Eurostar_E320_wagon;
-    4:set_Eurostar_E320_wagon;
-    5:set_Eurostar_E320_wagon;
-    6:set_Eurostar_E320_wagon;
-    7:set_Eurostar_E320_wagon;
-    8:set_Eurostar_E320_wagon;
-    9:set_Eurostar_E320_wagon;
-    10:set_Eurostar_E320_wagon;
-    11:set_Eurostar_E320_wagon;
-    12:set_Eurostar_E320_wagon;
-    13:set_Eurostar_E320_wagon;
-    14:set_Eurostar_E320_wagon;
+    1..14:set_Eurostar_E320_wagon;
     15:set_Eurostar_E320_engineT;
     set_Eurostar_E320_engineH; //default
     }

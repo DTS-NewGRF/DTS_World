@@ -38,15 +38,9 @@ switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_end, cargo_subtype) {
 
 switch (FEAT_TRAINS, SELF, sw_Renfe_S_130_13car, position_in_vehid_chain % 13) {
     1:sw_Renfe_S_130_wagon_start;
-    2:sw_Renfe_S_130_wagon;
-    3:sw_Renfe_S_130_wagon;
+    2..3:sw_Renfe_S_130_wagon;
     4:sw_Renfe_S_130_wagon_bar;
-    5:sw_Renfe_S_130_wagon;
-    6:sw_Renfe_S_130_wagon;
-    7:sw_Renfe_S_130_wagon;
-    8:sw_Renfe_S_130_wagon;
-    9:sw_Renfe_S_130_wagon;
-    10:sw_Renfe_S_130_wagon;
+    5..10:sw_Renfe_S_130_wagon;
     11:sw_Renfe_S_130_wagon_end;
     12:sw_Renfe_S_130_engineT;
     sw_Renfe_S_130_engineH; //default

@@ -2,7 +2,23 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-#include "Luggage_Olny_switch_Year.pnml"
+switch(FEAT_TRAINS, SELF, sw_Luggage_Olny_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Luggage_Olny_1998_G);
+    1: return string(STR_REFIT_LIVERY_Luggage_Olny_1999_G);
+    2: return string(STR_REFIT_LIVERY_Luggage_Olny_1998_B);
+    3: return string(STR_REFIT_LIVERY_Luggage_Olny_1999_B);
+    return CB_RESULT_NO_TEXT;
+}
 
 //열차
-#include "Luggage_Olny_switch_wagon.pnml"
+switch(FEAT_TRAINS, SELF, sw_Luggage_Olny_wagon, cargo_subtype) {
+    1: set_Luggage_Olny_1999_G;
+    2: set_Luggage_Olny_1998_B;
+    3: set_Luggage_Olny_1999_B;
+    set_Luggage_Olny_1998_G;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Luggage_Olny_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Luggage_Olny_wagon; //default
+    }

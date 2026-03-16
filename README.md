@@ -9,7 +9,7 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_World/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.67] 2026.03.04 <br>
+[1.67] 2026.03.16 <br>
 [이슈외작업]
 * [DTS-Track] 지하선로, 협궤선로 추가 대응
 * [가상열차] 삭제예정 그래픽 적용 및 추가 구입 불가 설정. 곧 삭제예정.
@@ -26,6 +26,7 @@
   * [버그] 타이완철로유한회사 EMU900 그래픽 문제 수정 ([#715](https://github.com/DTS-NewGRF/DTS_World/issues/715))(2026.02.25)
   * [버그] 타이완철로유한회사 EMU900 그래픽 문제 수정 (2) ([#716](https://github.com/DTS-NewGRF/DTS_World/issues/716))(2026.03.01)
 * [열차변경] NSW TrainLink D set 그래픽 리메이크 ([#717](https://github.com/DTS-NewGRF/DTS_World/issues/717))(2026.03.01)
+* [버그] Dual head 디젤액압동차의 출력이 낮은 문제 ([#718](https://github.com/DTS-NewGRF/DTS_World/issues/718))(2026.03.16)
 
 ## 인게임 등록
 ```

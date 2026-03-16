@@ -40,36 +40,6 @@ spriteset(set_Saemaeul_Real_Service_NSC, "src/wagon/SPassenger_wagon/Saemaeul/Sa
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Saemaeul_Real_Service_1969_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
-    tmpl_wagon_purchase(0, 0)
-}
-
-spriteset(set_Saemaeul_Real_Service_1986_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
-    tmpl_wagon_purchase(0, 54)
-}
-
-spriteset(set_Saemaeul_Real_Service_1990_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
-    tmpl_wagon_purchase(0, 108)
-}
-
-spriteset(set_Saemaeul_Real_Service_1995_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
-    tmpl_wagon_purchase(0, 135)
-}
-
-spriteset(set_Saemaeul_Real_Service_2006_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
-    tmpl_wagon_purchase(0, 189)
-}
-
-spriteset(set_Saemaeul_Real_Service_2007_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
+spriteset(sw_Saemaeul_Real_Service_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
     tmpl_wagon_purchase(0, 216)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_purchase, current_year) {
-    0..1985: set_Saemaeul_Real_Service_1969_purchase;
-    1986..1989: set_Saemaeul_Real_Service_1986_purchase;
-    1990..1994: set_Saemaeul_Real_Service_1990_purchase;
-    1995..2005: set_Saemaeul_Real_Service_1995_purchase;
-    2006: set_Saemaeul_Real_Service_2006_purchase;
-    set_Saemaeul_Real_Service_2007_purchase;
-    }

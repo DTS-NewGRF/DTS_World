@@ -5,8 +5,7 @@
 switch (FEAT_TRAINS, SELF, sw_CR400BF_Z_8car, position_in_vehid_chain % 8) {
     1:set_CR400BF_Z_wagon;
     2:set_CR400BF_Z_panto_wagon;
-    3:set_CR400BF_Z_wagon;
-    4:set_CR400BF_Z_wagon;
+    3..4:set_CR400BF_Z_wagon;
     5:set_CR400BF_Z_panto_wagon_r;
     6:set_CR400BF_Z_wagon;
     7:set_CR400BF_Z_engineT;
@@ -15,19 +14,9 @@ switch (FEAT_TRAINS, SELF, sw_CR400BF_Z_8car, position_in_vehid_chain % 8) {
 
 // 17량
 switch (FEAT_TRAINS, SELF, sw_CR400BF_Z_17car, position_in_vehid_chain % 17) {
-    1:set_CR400BF_Z_wagon;
-    2:set_CR400BF_Z_wagon;
-    3:set_CR400BF_Z_wagon;
-    4:set_CR400BF_Z_wagon;
-    5:set_CR400BF_Z_wagon;
+    1..5:set_CR400BF_Z_wagon;
     6:set_CR400BF_Z_panto_wagon_r;
-    7:set_CR400BF_Z_wagon;
-    8:set_CR400BF_Z_wagon;
-    9:set_CR400BF_Z_wagon;
-    10:set_CR400BF_Z_wagon;
-    11:set_CR400BF_Z_wagon;
-    12:set_CR400BF_Z_wagon;
-    13:set_CR400BF_Z_wagon;
+    7..13:set_CR400BF_Z_wagon;
     14:set_CR400BF_Z_panto_wagon_r;
     15:set_CR400BF_Z_wagon;
     16:set_CR400BF_Z_engineT;

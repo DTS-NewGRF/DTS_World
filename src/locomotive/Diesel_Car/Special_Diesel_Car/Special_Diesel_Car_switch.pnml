@@ -2,7 +2,21 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-#include "Special_Diesel_Car_switch_Year.pnml"
+switch(FEAT_TRAINS, SELF, sw_Special_Diesel_Car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Special_Diesel_Car_1969);
+    1: return string(STR_REFIT_LIVERY_Special_Diesel_Car_1986);
+    2: return string(STR_REFIT_LIVERY_Special_Diesel_Car_1994);
+    return CB_RESULT_NO_TEXT;
+}
 
-//열차
-#include "Special_Diesel_Car_switch_Wagon.pnml"
+// 열차
+switch(FEAT_TRAINS, SELF, sw_Special_Diesel_engine, cargo_subtype) {
+    1: set_Special_Diesel_engine_1986;
+    2: set_Special_Diesel_engine_1994;
+    set_Special_Diesel_engine_1969;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Special_Diesel_engine_1Car, position_in_vehid_chain % 1) {
+    sw_Special_Diesel_engine; //default
+    }

@@ -4,16 +4,6 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_Incheonmetro_1998_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Incheonmetro/Incheonmetro_1998.png"){
+spriteset(sw_Incheonmetro_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Incheonmetro/Incheonmetro_2009.png"){
     tmpl_single_purchase(0, 0)
-}
-
-spriteset(set_Incheonmetro_2009_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Incheonmetro/Incheonmetro_2009.png"){
-    tmpl_single_purchase(0, 0)
-}
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Incheonmetro_purchase, current_year) {
-    0..2008: set_Incheonmetro_1998_purchase;
-    set_Incheonmetro_2009_purchase;
 }

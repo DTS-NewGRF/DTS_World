@@ -104,41 +104,6 @@ spriteset(set_Mugunhwa_Real_Normal_GN2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Mugunhwa_Real_Normal_1977_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png"){
+spriteset(sw_Mugunhwa_Real_Normal_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal_32bpp.png"){
     tmpl_wagon_purchase(0, 0)
 }
-
-spriteset(set_Mugunhwa_Real_Normal_1980_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png"){
-    tmpl_wagon_purchase(0, 54)
-}
-
-spriteset(set_Mugunhwa_Real_Normal_1994_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png"){
-    tmpl_wagon_purchase(0, 108)
-}
-
-spriteset(set_Mugunhwa_Real_Normal_2000_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png"){
-    tmpl_wagon_purchase(0, 297)
-}
-
-spriteset(set_Mugunhwa_Real_Normal_2006_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png"){
-    tmpl_wagon_purchase(0, 351)
-}
-
-spriteset(set_Mugunhwa_Real_Normal_2011_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png"){
-    tmpl_wagon_purchase(0, 567)
-}
-
-spriteset(set_Mugunhwa_Real_Normal_2024_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal_32bpp.png"){
-    tmpl_wagon_purchase(0, 0)
-}
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_purchase, current_year) {
-    0..1979: set_Mugunhwa_Real_Normal_1977_purchase;
-    1980..1993: set_Mugunhwa_Real_Normal_1980_purchase;
-    1994..1999: set_Mugunhwa_Real_Normal_1994_purchase;
-    2000..2005: set_Mugunhwa_Real_Normal_2000_purchase;
-    2006..2010: set_Mugunhwa_Real_Normal_2006_purchase;
-    2011..2023: set_Mugunhwa_Real_Normal_2011_purchase;
-    set_Mugunhwa_Real_Normal_2024_purchase;
-    }

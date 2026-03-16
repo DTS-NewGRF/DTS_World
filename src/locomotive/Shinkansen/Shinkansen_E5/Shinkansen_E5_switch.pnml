@@ -251,9 +251,7 @@ switch(FEAT_TRAINS, SELF, sw_Shinkansen_E6_E8_engineT_r, cargo_subtype) {
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_E5_10car, position_in_vehid_chain % 10) {
     1:sw_Shinkansen_E5_wagon;
     2:sw_Shinkansen_E5_panto_wagon_A;
-    3:sw_Shinkansen_E5_wagon;
-    4:sw_Shinkansen_E5_wagon;
-    5:sw_Shinkansen_E5_wagon;
+    3..5:sw_Shinkansen_E5_wagon;
     6:sw_Shinkansen_E5_panto_wagon_B;
     7:sw_Shinkansen_E5_green_wagon;
     8:sw_Shinkansen_E5_wagon;
@@ -265,9 +263,7 @@ switch (FEAT_TRAINS, SELF, sw_Shinkansen_E5_10car_r, position_in_vehid_chain % 1
     1:sw_Shinkansen_E5_wagon_r;
     2:sw_Shinkansen_E5_green_wagon_r;
     3:sw_Shinkansen_E5_panto_wagon_B_r;
-    4:sw_Shinkansen_E5_wagon_r;
-    5:sw_Shinkansen_E5_wagon_r;
-    6:sw_Shinkansen_E5_wagon_r;
+    4..6:sw_Shinkansen_E5_wagon_r;
     7:sw_Shinkansen_E5_panto_wagon_A_r;
     8:sw_Shinkansen_E5_wagon_r;
     9:sw_Shinkansen_E5_engineH_r;
@@ -287,18 +283,14 @@ switch(FEAT_TRAINS, PARENT, sw_Shinkansen_E5_10car_reversed, vehicle_is_reversed
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_E5_17car, position_in_vehid_chain % 17) {
     1:sw_Shinkansen_E5_E6_E8_wagon;
     2:sw_Shinkansen_E5_E6_E8_panto_wagon_A;
-    3:sw_Shinkansen_E5_E6_E8_wagon;
-    4:sw_Shinkansen_E5_E6_E8_wagon;
-    5:sw_Shinkansen_E5_E6_E8_wagon;
+    3..5:sw_Shinkansen_E5_E6_E8_wagon;
     6:sw_Shinkansen_E5_E6_E8_panto_wagon_B;
     7:sw_Shinkansen_E5_E6_E8_green_wagon;
     8:sw_Shinkansen_E5_E6_E8_wagon;
     9:sw_Shinkansen_E5_E6_E8_engineT;
     10:sw_Shinkansen_E6_E8_engineH;
     11:sw_Shinkansen_E6_E8_panto_wagon_A;
-    12:sw_Shinkansen_E6_E8_wagon;
-    13:sw_Shinkansen_E6_E8_wagon;
-    14:sw_Shinkansen_E6_E8_wagon;
+    12..14:sw_Shinkansen_E6_E8_wagon;
     15:sw_Shinkansen_E6_E8_panto_wagon_B;
     16:sw_Shinkansen_E6_E8_engineT;
     sw_Shinkansen_E5_E6_E8_engineH; //default
@@ -306,18 +298,14 @@ switch (FEAT_TRAINS, SELF, sw_Shinkansen_E5_17car, position_in_vehid_chain % 17)
 
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_E5_17car_r, position_in_vehid_chain % 17) {
     1:sw_Shinkansen_E6_E8_panto_wagon_B_r;
-    2:sw_Shinkansen_E6_E8_wagon_r;
-    3:sw_Shinkansen_E6_E8_wagon_r;
-    4:sw_Shinkansen_E6_E8_wagon_r;
+    2..4:sw_Shinkansen_E6_E8_wagon_r;
     5:sw_Shinkansen_E6_E8_panto_wagon_A_r;
     6:sw_Shinkansen_E6_E8_engineH_r;
     7:sw_Shinkansen_E5_E6_E8_engineT_2;
     8:sw_Shinkansen_E5_E6_E8_wagon_r;
     9:sw_Shinkansen_E5_E6_E8_green_wagon_r;
     10:sw_Shinkansen_E5_E6_E8_panto_wagon_B_r;
-    11:sw_Shinkansen_E5_E6_E8_wagon_r;
-    12:sw_Shinkansen_E5_E6_E8_wagon_r;
-    13:sw_Shinkansen_E5_E6_E8_wagon_r;
+    11..13:sw_Shinkansen_E5_E6_E8_wagon_r;
     14:sw_Shinkansen_E5_E6_E8_panto_wagon_A_r;
     15:sw_Shinkansen_E5_E6_E8_wagon_r;
     16:sw_Shinkansen_E5_E6_E8_engineH_r;

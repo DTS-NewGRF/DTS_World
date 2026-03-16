@@ -4,21 +4,6 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_Korail_1963_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_1963.png"){
+spriteset(sw_Korail_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_2003.png"){
     tmpl_single_purchase(0, 0)
 }
-
-spriteset(set_Korail_1994_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_1994.png"){
-    tmpl_single_purchase(0, 0)
-}
-
-spriteset(set_Korail_2003_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_2003.png"){
-    tmpl_single_purchase(0, 0)
-}
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Korail_purchase, current_year) {
-    0..1993: set_Korail_1963_purchase;
-    1994..2002: set_Korail_1994_purchase;
-    set_Korail_2003_purchase;
-    }

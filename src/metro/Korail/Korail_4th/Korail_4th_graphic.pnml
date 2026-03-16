@@ -351,12 +351,6 @@ spriteset(set_Korail_4th_G2_2CC_purchase, "src/metro/Korail/Korail_4th/Korail_4t
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_Korail_4th_G3_purchase, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+spriteset(sw_Korail_4th_purchase, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
     tmpl_purchase(0, 0)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Korail_4th_purchase, current_year) {
-    0..2020: set_Korail_4th_G2_purchase;
-    set_Korail_4th_G3_purchase;
-    }

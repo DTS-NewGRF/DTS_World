@@ -128,56 +128,6 @@ spriteset(set_Mugunhwa_Real_Service_NRS, "src/wagon/SPassenger_wagon/Mugunhwa/Mu
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Mugunhwa_Real_Service_1977_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
-    tmpl_wagon_purchase(0, 0)
-}
-
-spriteset(set_Mugunhwa_Real_Service_1980_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
-    tmpl_wagon_purchase(0, 54)
-}
-
-spriteset(set_Mugunhwa_Real_Service_1981_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
-    tmpl_wagon_purchase(0, 108)
-}
-
-spriteset(set_Mugunhwa_Real_Service_1993_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
-    tmpl_wagon_purchase(0, 162)
-}
-
-spriteset(set_Mugunhwa_Real_Service_1995_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
-    tmpl_wagon_purchase(0, 189)
-}
-
-spriteset(set_Mugunhwa_Real_Service_2001_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
-    tmpl_wagon_purchase(0, 567)
-}
-
-spriteset(set_Mugunhwa_Real_Service_2005_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
-    tmpl_wagon_purchase(0, 648)
-}
-
-spriteset(set_Mugunhwa_Real_Service_2006_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
-    tmpl_wagon_purchase(0, 702)
-}
-
-spriteset(set_Mugunhwa_Real_Service_2007_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
-    tmpl_wagon_purchase(0, 729)
-}
-
-spriteset(set_Mugunhwa_Real_Service_2011_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
+spriteset(sw_Mugunhwa_Real_Service_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
     tmpl_wagon_purchase(0, 783)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_purchase, current_year) {
-    0..1979: set_Mugunhwa_Real_Service_1977_purchase;
-    1980: set_Mugunhwa_Real_Service_1980_purchase;
-    1981..1994: set_Mugunhwa_Real_Service_1981_purchase;
-    1993..1994: set_Mugunhwa_Real_Service_1993_purchase;
-    1995..2000: set_Mugunhwa_Real_Service_1995_purchase;
-    2001..2004: set_Mugunhwa_Real_Service_2001_purchase;
-    2005: set_Mugunhwa_Real_Service_2005_purchase;
-    2006: set_Mugunhwa_Real_Service_2006_purchase;
-    2007..2010: set_Mugunhwa_Real_Service_2007_purchase;
-    set_Mugunhwa_Real_Service_2011_purchase;
-    }

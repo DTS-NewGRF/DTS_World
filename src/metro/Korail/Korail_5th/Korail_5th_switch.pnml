@@ -12,9 +12,7 @@ switch (FEAT_TRAINS, SELF, sw_Korail_5th_10car, position_in_vehid_chain % 10) {
     2:set_Korail_5th_panto_wagon;
     3:set_Korail_5th_wagon;
     4:set_Korail_5th_panto_wagon;
-    5:set_Korail_5th_wagon;
-    6:set_Korail_5th_wagon;
-    7:set_Korail_5th_wagon;
+    5..7:set_Korail_5th_wagon;
     8:set_Korail_5th_panto_wagon;
     9:set_Korail_5th_engineT;
     set_Korail_5th_engineH; //default
@@ -22,9 +20,7 @@ switch (FEAT_TRAINS, SELF, sw_Korail_5th_10car, position_in_vehid_chain % 10) {
 
 switch (FEAT_TRAINS, SELF, sw_Korail_5th_10car_r, position_in_vehid_chain % 10) {
     1:set_Korail_5th_panto_wagon;
-    2:set_Korail_5th_wagon;
-    3:set_Korail_5th_wagon;
-    4:set_Korail_5th_wagon;
+    2..4:set_Korail_5th_wagon;
     5:set_Korail_5th_panto_wagon;
     6:set_Korail_5th_wagon;
     7:set_Korail_5th_panto_wagon;

@@ -2,10 +2,8 @@
 스위치
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_TTX_6car, position_in_vehid_chain % 6) {
-    1:set_TTX_wagon;
-    2:set_TTX_wagon;
-    3:set_TTX_wagon_r;
-    4:set_TTX_wagon_r;
+    1..2:set_TTX_wagon;
+    3..4:set_TTX_wagon_r;
     5:set_TTX_engineT;
     set_TTX_engineH; //default
     }

@@ -32,8 +32,7 @@ switch(FEAT_TRAINS, SELF, sw_Korail_3rd_10car_cargo_subtype_text, cargo_subtype)
 
 // 4량
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_engineH, cargo_subtype) {
-    1: set_Korail_3rd_G1_ST_engineH;      // 스테인레스 더블암 331K
-    2: set_Korail_3rd_G1_ST_engineH;      // 스테인레스 싱글암
+    1..2: set_Korail_3rd_G1_ST_engineH;      // 스테인레스 더블암 331K
     3: set_Korail_3rd_371_381_engineH;    // 경강선, 동해선
     set_Korail_3rd_G1_ST_engineH;
 }
@@ -53,16 +52,14 @@ switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_panto_wagon_B, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_engineT, cargo_subtype) {
-    1: set_Korail_3rd_G1_ST_engineT;      // 스테인레스 더블암 331K
-    2: set_Korail_3rd_G1_ST_engineT;      // 스테인레스 싱글암
+    1..2: set_Korail_3rd_G1_ST_engineT;      // 스테인레스 더블암 331K
     3: set_Korail_3rd_371_381_engineT;    // 경강선, 동해선
     set_Korail_3rd_G1_ST_engineT;
 }
 
 // 4량 뒤집힘
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_engineH_r, cargo_subtype) {
-    1: set_Korail_3rd_G1_ST_engineH_r;      // 스테인레스 더블암 331K
-    2: set_Korail_3rd_G1_ST_engineH_r;      // 스테인레스 싱글암
+    1..2: set_Korail_3rd_G1_ST_engineH_r;      // 스테인레스 더블암 331K
     3: set_Korail_3rd_371_381_engineH_r;    // 경강선, 동해선
     set_Korail_3rd_G1_ST_engineH_r;
 }
@@ -82,8 +79,7 @@ switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_panto_wagon_B_r, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_engineT_r, cargo_subtype) {
-    1: set_Korail_3rd_G1_ST_engineT_r;      // 스테인레스 더블암 331K
-    2: set_Korail_3rd_G1_ST_engineT_r;      // 스테인레스 싱글암
+    1..2: set_Korail_3rd_G1_ST_engineT_r;      // 스테인레스 더블암 331K
     3: set_Korail_3rd_371_381_engineT_r;    // 경강선, 동해선
     set_Korail_3rd_G1_ST_engineT_r;
 }
@@ -477,8 +473,7 @@ switch (FEAT_TRAINS, SELF, sw_Korail_3rd_10car, position_in_vehid_chain % 10) {
     3:sw_Korail_3rd_10Car_wagon;
     4:sw_Korail_3rd_10Car_5wagon;
     5:sw_Korail_3rd_10Car_6wagon;
-    6:sw_Korail_3rd_10Car_wagon;
-    7:sw_Korail_3rd_10Car_wagon;
+    6..7:sw_Korail_3rd_10Car_wagon;
     8:sw_Korail_3rd_10Car_panto_wagon;
     9:sw_Korail_3rd_10Car_engineT;
     sw_Korail_3rd_10Car_engineH; //default
@@ -486,8 +481,7 @@ switch (FEAT_TRAINS, SELF, sw_Korail_3rd_10car, position_in_vehid_chain % 10) {
 
 switch (FEAT_TRAINS, SELF, sw_Korail_3rd_10car_r, position_in_vehid_chain % 10) {
     1:sw_Korail_3rd_10Car_panto_wagon_r;
-    2:sw_Korail_3rd_10Car_wagon_r;
-    3:sw_Korail_3rd_10Car_wagon_r;
+    2..3:sw_Korail_3rd_10Car_wagon_r;
     4:sw_Korail_3rd_10Car_6wagon_r;
     5:sw_Korail_3rd_10Car_5wagon_r;
     6:sw_Korail_3rd_10Car_wagon_r;

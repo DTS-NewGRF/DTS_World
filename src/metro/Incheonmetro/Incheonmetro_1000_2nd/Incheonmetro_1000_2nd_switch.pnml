@@ -6,9 +6,7 @@
 switch (FEAT_TRAINS, SELF, sw_Incheonmetro_1000_2nd_8car, position_in_vehid_chain % 8) {
     1:set_Incheonmetro_1000_2nd_wagon;
     2:set_Incheonmetro_1000_2nd_panto_wagon;
-    3:set_Incheonmetro_1000_2nd_wagon;
-    4:set_Incheonmetro_1000_2nd_wagon;
-    5:set_Incheonmetro_1000_2nd_wagon;
+    3..5:set_Incheonmetro_1000_2nd_wagon;
     6:set_Incheonmetro_1000_2nd_panto_wagon;
     7:set_Incheonmetro_1000_2nd_engineT;
     set_Incheonmetro_1000_2nd_engineH; //default
@@ -16,9 +14,7 @@ switch (FEAT_TRAINS, SELF, sw_Incheonmetro_1000_2nd_8car, position_in_vehid_chai
 
 switch (FEAT_TRAINS, SELF, sw_Incheonmetro_1000_2nd_8car_r, position_in_vehid_chain % 8) {
     1:set_Incheonmetro_1000_2nd_panto_wagon_r;
-    2:set_Incheonmetro_1000_2nd_wagon_r;
-    3:set_Incheonmetro_1000_2nd_wagon_r;
-    4:set_Incheonmetro_1000_2nd_wagon_r;
+    2..4:set_Incheonmetro_1000_2nd_wagon_r;
     5:set_Incheonmetro_1000_2nd_panto_wagon_r;
     6:set_Incheonmetro_1000_2nd_wagon_r;
     7:set_Incheonmetro_1000_2nd_engineH_r;

@@ -3,30 +3,18 @@
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_N700_8car, position_in_vehid_chain % 8) {
     1:set_Sanyo_Kyushu_panto_wagon;
-    2:set_Sanyo_Kyushu_wagon;
-    3:set_Sanyo_Kyushu_wagon;
-    4:set_Sanyo_Kyushu_wagon;
-    5:set_Sanyo_Kyushu_wagon;
+    2..5:set_Sanyo_Kyushu_wagon;
     6:set_Sanyo_Kyushu_panto_wagon_r;
     7:set_Sanyo_Kyushu_engineT;
     set_Sanyo_Kyushu_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_N700_16car, position_in_vehid_chain % 16) {
-    1:set_Tokaido_Sanyo_wagon;
-    2:set_Tokaido_Sanyo_wagon;
-    3:set_Tokaido_Sanyo_wagon;
+    1..3:set_Tokaido_Sanyo_wagon;
     4:set_Tokaido_Sanyo_panto_wagon;
-    5:set_Tokaido_Sanyo_wagon;
-    6:set_Tokaido_Sanyo_wagon;
-    7:set_Tokaido_Sanyo_wagon;
-    8:set_Tokaido_Sanyo_wagon;
-    9:set_Tokaido_Sanyo_wagon;
-    10:set_Tokaido_Sanyo_wagon;
+    5..10:set_Tokaido_Sanyo_wagon;
     11:set_Tokaido_Sanyo_panto_wagon_r;
-    12:set_Tokaido_Sanyo_wagon;
-    13:set_Tokaido_Sanyo_wagon;
-    14:set_Tokaido_Sanyo_wagon;
+    12..14:set_Tokaido_Sanyo_wagon;
     15:set_Tokaido_Sanyo_engineT;
     set_Tokaido_Sanyo_engineH; //default
     }

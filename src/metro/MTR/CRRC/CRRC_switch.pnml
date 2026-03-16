@@ -28,10 +28,7 @@ switch(FEAT_TRAINS, SELF, sw_MTR_CRRC_wagon, cargo_subtype) {
 
 switch (FEAT_TRAINS, SELF, sw_MTR_CRRC_8car, position_in_vehid_chain % 8) {
     1:sw_MTR_CRRC_panto_wagon;
-    2:sw_MTR_CRRC_wagon;
-    3:sw_MTR_CRRC_wagon;
-    4:sw_MTR_CRRC_wagon;
-    5:sw_MTR_CRRC_wagon;
+    2..5:sw_MTR_CRRC_wagon;
     6:sw_MTR_CRRC_panto_wagon;
     7:sw_MTR_CRRC_engineT;
     sw_MTR_CRRC_engineH; //default

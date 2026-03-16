@@ -2,21 +2,11 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_1980_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_EEC_EMU_1980);
-    return CB_RESULT_NO_TEXT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_1996_cargo_subtype_text, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_cargo_subtype_text, cargo_subtype) {
     0: return string(STR_REFIT_LIVERY_EEC_EMU_1980);
     1: return string(STR_REFIT_LIVERY_EEC_EMU_1996);
     return CB_RESULT_NO_TEXT;
 }
-
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_cargo_subtype_text, current_year) {
-    0..1995: sw_EEC_EMU_1980_cargo_subtype_text;
-    sw_EEC_EMU_1996_cargo_subtype_text;
-    }
 
 // 열차
 // 10량

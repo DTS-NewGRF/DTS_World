@@ -33,8 +33,7 @@ switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_engineT_r, cargo_subtype) {
 switch (FEAT_TRAINS, SELF, sw_ITX_CheongChun_8car, position_in_vehid_chain % 8) {
     1:set_ITX_CheongChun_panto_wagon_M1;
     2:set_ITX_CheongChun_wagon_M1;
-    3:set_ITX_CheongChun_wagon_T1;
-    4:set_ITX_CheongChun_wagon_T2;
+    3..4:set_ITX_CheongChun_wagon_T1;
     5:set_ITX_CheongChun_wagon_M2;
     6:set_ITX_CheongChun_panto_wagon_M2;
     7:sw_ITX_CheongChun_engineT;

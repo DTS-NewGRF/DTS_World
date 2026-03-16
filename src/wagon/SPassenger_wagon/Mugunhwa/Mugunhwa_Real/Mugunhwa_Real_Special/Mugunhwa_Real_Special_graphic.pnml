@@ -72,36 +72,6 @@ spriteset(set_Mugunhwa_Real_Special_NSC, "src/wagon/SPassenger_wagon/Mugunhwa/Mu
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Mugunhwa_Real_Special_1977_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Special/Mugunhwa_Real_Special.png"){
-    tmpl_wagon_purchase(0, 0)
-}
-
-spriteset(set_Mugunhwa_Real_Special_1980_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Special/Mugunhwa_Real_Special.png"){
-    tmpl_wagon_purchase(0, 27)
-}
-
-spriteset(set_Mugunhwa_Real_Special_1993_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Special/Mugunhwa_Real_Special.png"){
-    tmpl_wagon_purchase(0, 108)
-}
-
-spriteset(set_Mugunhwa_Real_Special_1994_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Special/Mugunhwa_Real_Special.png"){
-    tmpl_wagon_purchase(0, 162)
-}
-
-spriteset(set_Mugunhwa_Real_Special_1998_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Special/Mugunhwa_Real_Special.png"){
-    tmpl_wagon_purchase(0, 324)
-}
-
-spriteset(set_Mugunhwa_Real_Special_2007_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Special/Mugunhwa_Real_Special.png"){
+spriteset(sw_Mugunhwa_Real_Special_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Special/Mugunhwa_Real_Special.png"){
     tmpl_wagon_purchase(0, 378)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_purchase, current_year) {
-    0..1979: set_Mugunhwa_Real_Special_1977_purchase;
-    1980..1992: set_Mugunhwa_Real_Special_1980_purchase;
-    1993: set_Mugunhwa_Real_Special_1993_purchase;
-    1994..1997: set_Mugunhwa_Real_Special_1994_purchase;
-    1998..2006: set_Mugunhwa_Real_Special_1998_purchase;
-    set_Mugunhwa_Real_Special_2007_purchase;
-    }

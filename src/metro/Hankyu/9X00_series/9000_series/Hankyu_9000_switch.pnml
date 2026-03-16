@@ -2,11 +2,7 @@
 스위치
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_Hankyu_9000_8car, position_in_vehid_chain % 8) {
-    1:set_Hankyu_9000_wagon;
-    2:set_Hankyu_9000_wagon;
-    3:set_Hankyu_9000_wagon;
-    4:set_Hankyu_9000_wagon;
-    5:set_Hankyu_9000_wagon;
+    1..5:set_Hankyu_9000_wagon;
     6:set_Hankyu_9000_panto_wagon;
     7:set_Hankyu_9000_engineT;
     set_Hankyu_9000_engineH; //default
@@ -14,11 +10,7 @@ switch (FEAT_TRAINS, SELF, sw_Hankyu_9000_8car, position_in_vehid_chain % 8) {
 
 switch (FEAT_TRAINS, SELF, sw_Hankyu_9000_8car_r, position_in_vehid_chain % 8) {
     1:set_Hankyu_9000_panto_wagon_r;
-    2:set_Hankyu_9000_wagon_r;
-    3:set_Hankyu_9000_wagon_r;
-    4:set_Hankyu_9000_wagon_r;
-    5:set_Hankyu_9000_wagon_r;
-    6:set_Hankyu_9000_wagon_r;
+    2..6:set_Hankyu_9000_wagon_r;
     7:set_Hankyu_9000_engineH_r;
     set_Hankyu_9000_engineT_r; //default
     }

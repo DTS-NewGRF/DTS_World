@@ -4,10 +4,7 @@
 // 8량
 switch (FEAT_TRAINS, SELF, sw_CRH380B_8car, position_in_vehid_chain % 8) {
     1:set_CRH380B_panto_wagon;
-    2:set_CRH380B_wagon;
-    3:set_CRH380B_wagon;
-    4:set_CRH380B_wagon;
-    5:set_CRH380B_wagon;
+    2..5:set_CRH380B_wagon;
     6:set_CRH380B_panto_wagon_r;
     7:set_CRH380B_engineT;
     set_CRH380B_engineH; //default
@@ -15,19 +12,9 @@ switch (FEAT_TRAINS, SELF, sw_CRH380B_8car, position_in_vehid_chain % 8) {
 
 // 16량
 switch (FEAT_TRAINS, SELF, sw_CRH380B_16car, position_in_vehid_chain % 16) {
-    1:set_CRH380B_wagon;
-    2:set_CRH380B_wagon;
-    3:set_CRH380B_wagon;
-    4:set_CRH380B_wagon;
-    5:set_CRH380B_wagon;
+    1..5:set_CRH380B_wagon;
     6:set_CRH380B_panto_wagon_r;
-    7:set_CRH380B_wagon;
-    8:set_CRH380B_wagon;
-    9:set_CRH380B_wagon;
-    10:set_CRH380B_wagon;
-    11:set_CRH380B_wagon;
-    12:set_CRH380B_wagon;
-    13:set_CRH380B_wagon;
+    7..13:set_CRH380B_wagon;
     14:set_CRH380B_panto_wagon_r;
     15:set_CRH380B_engineT;
     set_CRH380B_engineH; //default

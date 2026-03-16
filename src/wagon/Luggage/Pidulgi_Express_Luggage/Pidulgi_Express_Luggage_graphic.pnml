@@ -40,31 +40,6 @@ spriteset(set_Pidulgi_Express_Luggage_1968_LB2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32B
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Pidulgi_Express_Luggage_1960_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png"){
-    tmpl_wagon_purchase(0, 0)
-}
-
-spriteset(set_Pidulgi_Express_Luggage_1962_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png"){
-    tmpl_wagon_purchase(0, 54)
-}
-
-spriteset(set_Pidulgi_Express_Luggage_1968_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png"){
-    tmpl_wagon_purchase(0, 81)
-}
-
-spriteset(set_Pidulgi_Express_Luggage_1984_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png"){
-    tmpl_wagon_purchase(0, 108)
-}
-
-spriteset(set_Pidulgi_Express_Luggage_1994_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png"){
+spriteset(sw_Pidulgi_Express_Luggage_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png"){
     tmpl_wagon_purchase(0, 189)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Pidulgi_Express_Luggage_purchase, current_year) {
-    0..1961: set_Pidulgi_Express_Luggage_1960_purchase;
-    1962..1967: set_Pidulgi_Express_Luggage_1962_purchase;
-    1968..1983: set_Pidulgi_Express_Luggage_1968_purchase;
-    1984..1993: set_Pidulgi_Express_Luggage_1984_purchase;
-    set_Pidulgi_Express_Luggage_1994_purchase;
-    }

@@ -122,9 +122,7 @@ switch (FEAT_TRAINS, SELF, sw_Korail_2nd_10car, position_in_vehid_chain % 10) {
     2:sw_Korail_2nd_panto_wagon;
     3:sw_Korail_2nd_wagon;
     4:sw_Korail_2nd_panto_wagon;
-    5:sw_Korail_2nd_wagon;
-    6:sw_Korail_2nd_wagon;
-    7:sw_Korail_2nd_wagon;
+    5..7:sw_Korail_2nd_wagon;
     8:sw_Korail_2nd_panto_wagon;
     9:sw_Korail_2nd_engineT;
     sw_Korail_2nd_engineH; //default
@@ -132,9 +130,7 @@ switch (FEAT_TRAINS, SELF, sw_Korail_2nd_10car, position_in_vehid_chain % 10) {
 
 switch (FEAT_TRAINS, SELF, sw_Korail_2nd_10car_r, position_in_vehid_chain % 10) {
     1:sw_Korail_2nd_panto_wagon_r;
-    2:sw_Korail_2nd_wagon_r;
-    3:sw_Korail_2nd_wagon_r;
-    4:sw_Korail_2nd_wagon_r;
+    2..4:sw_Korail_2nd_wagon_r;
     5:sw_Korail_2nd_panto_wagon_r;
     6:sw_Korail_2nd_wagon_r;
     7:sw_Korail_2nd_panto_wagon_r;

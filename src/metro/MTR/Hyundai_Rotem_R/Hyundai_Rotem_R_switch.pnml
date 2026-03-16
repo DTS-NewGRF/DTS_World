@@ -2,10 +2,7 @@
 스위치
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_MTR_Hyundai_Hyundai_Rotem_R_8car, position_in_vehid_chain % 8) {
-    1:set_MTR_Hyundai_Rotem_R_panto_wagon;
-    2:set_MTR_Hyundai_Rotem_R_Nomal_wagon;
-    3:set_MTR_Hyundai_Rotem_R_Nomal_wagon;
-    4:set_MTR_Hyundai_Rotem_R_Nomal_wagon;
+    1..4:set_MTR_Hyundai_Rotem_R_panto_wagon;
     5:set_MTR_Hyundai_Rotem_R_special_wagon;
     6:set_MTR_Hyundai_Rotem_R_panto_wagon;
     7:set_MTR_Hyundai_Rotem_R_engineT;

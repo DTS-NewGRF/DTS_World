@@ -5,8 +5,7 @@
 switch (FEAT_TRAINS, SELF, sw_GTX_8car, position_in_vehid_chain % 8) {
     1:set_GTX_wagon;
     2:set_GTX_panto_wagon;
-    3:set_GTX_wagon;
-    4:set_GTX_wagon;
+    3..4:set_GTX_wagon;
     5:set_GTX_panto_wagon_r;
     6:set_GTX_wagon;
     7:set_GTX_engineT;

@@ -138,16 +138,6 @@ spriteset(set_EEC_EMU_1996_engineT, "src/locomotive/EEC_EMU/EEC_EMU_1996.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_EEC_EMU_1980_purchase, "src/locomotive/EEC_EMU/EEC_EMU_1980.png"){
+spriteset(sw_EEC_EMU_purchase, "src/locomotive/EEC_EMU/EEC_EMU_1996.png"){
     tmpl_purchase(0, 0)
 }
-
-spriteset(set_EEC_EMU_1996_purchase, "src/locomotive/EEC_EMU/EEC_EMU_1996.png"){
-    tmpl_purchase(0, 0)
-}
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_purchase, current_year) {
-    0..1995: set_EEC_EMU_1980_purchase;
-    set_EEC_EMU_1996_purchase;
-    }

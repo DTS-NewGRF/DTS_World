@@ -34,8 +34,7 @@ switch(FEAT_TRAINS, SELF, sw_Nishitetsu_1000_panto_wagon, cargo_subtype) {
 }
 
 switch (FEAT_TRAINS, SELF, sw_Nishitetsu_1000_4car, position_in_vehid_chain % 4) {
-    1:sw_Nishitetsu_1000_panto_wagon;
-    2:sw_Nishitetsu_1000_panto_wagon;
+    1..2:sw_Nishitetsu_1000_panto_wagon;
     3:sw_Nishitetsu_1000_engineT;
     sw_Nishitetsu_1000_engineH; //default
     }

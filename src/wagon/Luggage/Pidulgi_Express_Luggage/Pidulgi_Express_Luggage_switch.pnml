@@ -2,7 +2,33 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-#include "Pidulgi_Express_Luggage_switch_Year.pnml"
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Express_Luggage_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1935_L);
+    1: return string(STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1951_L);
+    2: return string(STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_L);
+    3: return string(STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_L);
+    4: return string(STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1951_LB);
+    5: return string(STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_LB);
+    6: return string(STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_LB);
+    7: return string(STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_LB2);
+    8: return string(STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_LB2);
+    return CB_RESULT_NO_TEXT;
+}
 
 //열차
-#include "Pidulgi_Express_Luggage_switch_wagon.pnml"
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Express_Luggage_wagon, cargo_subtype) {
+    1: set_Pidulgi_Express_Luggage_MADE_1951_L;
+    2: set_Pidulgi_Express_Luggage_1962_L;
+    3: set_Pidulgi_Express_Luggage_1968_L;
+    4: set_Pidulgi_Express_Luggage_MADE_1951_LB;
+    5: set_Pidulgi_Express_Luggage_1962_LB;
+    6: set_Pidulgi_Express_Luggage_1968_LB;
+    7: set_Pidulgi_Express_Luggage_1962_LB2;
+    8: set_Pidulgi_Express_Luggage_1968_LB2;
+    set_Pidulgi_Express_Luggage_MADE_1935_L;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Pidulgi_Express_Luggage_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Pidulgi_Express_Luggage_wagon; //default
+    }

@@ -84,36 +84,6 @@ spriteset(set_Saemaeul_Real_Normal_Special_LN2, "src/wagon/SPassenger_wagon/Saem
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Saemaeul_Real_Normal_Special_1969_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Normal_Special/Saemaeul_Real_Normal_Special.png"){
-    tmpl_wagon_purchase(0, 0)
-}
-
-spriteset(set_Saemaeul_Real_Normal_Special_1986_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Normal_Special/Saemaeul_Real_Normal_Special.png"){
-    tmpl_wagon_purchase(0, 108)
-}
-
-spriteset(set_Saemaeul_Real_Normal_Special_1990_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Normal_Special/Saemaeul_Real_Normal_Special.png"){
-    tmpl_wagon_purchase(0, 189)
-}
-
-spriteset(set_Saemaeul_Real_Normal_Special_1995_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Normal_Special/Saemaeul_Real_Normal_Special.png"){
-    tmpl_wagon_purchase(0, 270)
-}
-
-spriteset(set_Saemaeul_Real_Normal_Special_2006_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Normal_Special/Saemaeul_Real_Normal_Special.png"){
-    tmpl_wagon_purchase(0, 405)
-}
-
-spriteset(set_Saemaeul_Real_Normal_Special_2018_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Normal_Special/Saemaeul_Real_Normal_Special.png"){
+spriteset(sw_Saemaeul_Real_Normal_Special_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Normal_Special/Saemaeul_Real_Normal_Special.png"){
     tmpl_wagon_purchase(0, 486)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_purchase, current_year) {
-    0..1985: set_Saemaeul_Real_Normal_Special_1969_purchase;
-    1986..1989: set_Saemaeul_Real_Normal_Special_1986_purchase;
-    1990..1994: set_Saemaeul_Real_Normal_Special_1990_purchase;
-    1995..2005: set_Saemaeul_Real_Normal_Special_1995_purchase;
-    2006..2017: set_Saemaeul_Real_Normal_Special_2006_purchase;
-    set_Saemaeul_Real_Normal_Special_2018_purchase;
-    }

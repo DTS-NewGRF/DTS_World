@@ -67,8 +67,7 @@ switch(FEAT_TRAINS, SELF, sw_ICE3_wagon_bar, cargo_subtype) {
 
 switch (FEAT_TRAINS, SELF, sw_ICE3_8car, position_in_vehid_chain % 8) {
     1:sw_ICE3_wagon_start;
-    2:sw_ICE3_wagon_nomal;
-    3:sw_ICE3_wagon_nomal;
+    2..3:sw_ICE3_wagon_nomal;
     4:sw_ICE3_wagon_bar;
     5:sw_ICE3_wagon_nomal_r;
     6:sw_ICE3_wagon_end;

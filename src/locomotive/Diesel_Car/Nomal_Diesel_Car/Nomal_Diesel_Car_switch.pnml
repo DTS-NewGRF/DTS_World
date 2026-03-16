@@ -2,13 +2,169 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-#include "Nomal_Diesel_Car_switch_Year.pnml"
-#include "Nomal_Diesel_Car_switch_Year_2car.pnml"
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_Car_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1961);
+     1: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1966);
+     2: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A);
+     3: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B);
+     4: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O);
+     5: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O1);
+     6: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BA);
+     7: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BB);
+     8: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B1);
+     9: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B2);
+    10: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T);
+    11: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T1);
+    12: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M);
+    13: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1);
+    14: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B);
+    15: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1A);
+    16: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1B);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_2Car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1966_2car_C);
+    1: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_2car_L);
+    2: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_2car_C);
+    3: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_C);
+    4: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_L);
+    5: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_C);
+    6: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_L);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_Car_2car_1985_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_T);
+    1: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_M);
+    return CB_RESULT_NO_TEXT;
+}
 
 //열차
-#include "Nomal_Diesel_Car_switch_Wagon.pnml"
-#include "Nomal_Diesel_Car_switch_Wagon_2car.pnml"
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engine, cargo_subtype) {
+     1: set_Nomal_Diesel_engine_1966;
+     2: set_Nomal_Diesel_engine_1975;
+     3: set_Nomal_Diesel_engine_1975;
+     4: set_Nomal_Diesel_engine_1974_O;
+     5: set_Nomal_Diesel_engine_1974_O1;
+     6: set_Nomal_Diesel_engine_1984_B;
+     7: set_Nomal_Diesel_engine_1984_B;
+     8: set_Nomal_Diesel_engine_1980_B1;
+     9: set_Nomal_Diesel_engine_1980_B2;
+    10: set_Nomal_Diesel_engine_1985_T;
+    11: set_Nomal_Diesel_engine_1985_T1;
+    12: set_Nomal_Diesel_engine_1985_M;
+    13: set_Nomal_Diesel_engine_1985_M1;
+    14: set_Nomal_Diesel_engine_1994_B;
+    15: set_Nomal_Diesel_engine_1994_B1;
+    16: set_Nomal_Diesel_engine_1994_B1;
+    set_Nomal_Diesel_engine_1961;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineT_1985_2car, cargo_subtype) {
+    1: set_Nomal_Diesel_engine_1985_M1_Dummy;
+    set_Nomal_Diesel_engine_1985_T1_Dummy;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineT_1985_2car_r, cargo_subtype) {
+    1: set_Nomal_Diesel_engine_1985_M1_Dummy_r;
+    set_Nomal_Diesel_engine_1985_T1_Dummy_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineH_1985_2car, cargo_subtype) {
+    1: set_Nomal_Diesel_engine_1985_M1;
+    set_Nomal_Diesel_engine_1985_T1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineH_1985_2car_r, cargo_subtype) {
+    1: set_Nomal_Diesel_engine_1985_M1_r;
+    set_Nomal_Diesel_engine_1985_T1_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineH_2car, cargo_subtype) {
+    1: set_Nomal_Diesel_engine_1975;
+    2: set_Nomal_Diesel_engine_1974_O1;
+    3: set_Nomal_Diesel_engine_1984_B;
+    4: set_Nomal_Diesel_engine_1984_B;
+    5: set_Nomal_Diesel_engine_1994_B1;
+    6: set_Nomal_Diesel_engine_1994_B1;
+    set_Nomal_Diesel_engine_1975;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineT_2car, cargo_subtype) {
+    1: set_Nomal_Diesel_engine_1975_Dual;
+    2: set_Nomal_Diesel_engine_1974_O1_Dual;
+    3: set_Nomal_Diesel_engine_1984_B_Dual;
+    4: set_Nomal_Diesel_engine_1984_B_Dual;
+    5: set_Nomal_Diesel_engine_1994_B1_Dual;
+    6: set_Nomal_Diesel_engine_1994_B1_Dual;
+    set_Nomal_Diesel_engine_1975_Dual;
+}
+
+// 듀얼헤드 적용
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engine_2car, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_Nomal_Diesel_engineT_2car;
+    sw_Nomal_Diesel_engineH_2car;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Nomal_Diesel_engine_1Car, position_in_vehid_chain % 1) {
+    sw_Nomal_Diesel_engine; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Nomal_Diesel_engine_1985_2car, position_in_vehid_chain % 2) {
+    1:sw_Nomal_Diesel_engineT_1985_2car;
+    sw_Nomal_Diesel_engineH_1985_2car; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Nomal_Diesel_engine_1985_2car_r, position_in_vehid_chain % 2) {
+    1:sw_Nomal_Diesel_engineH_1985_2car_r;
+    sw_Nomal_Diesel_engineT_1985_2car_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engine_1985_2car_flipped, vehicle_is_flipped){
+    0: sw_Nomal_Diesel_engine_1985_2car_r;
+    sw_Nomal_Diesel_engine_1985_2car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Nomal_Diesel_engine_1985_2car_reversed, vehicle_is_reversed){
+    0: sw_Nomal_Diesel_engine_1985_2car;
+    sw_Nomal_Diesel_engine_1985_2car_flipped;
+}
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_Nomal_Diesel_engine_2car, extra_callback_info1) {
+    1: Nomal_Diesel_2Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 //수송량
-#include "Nomal_Diesel_Car_switch_capacity.pnml"
-#include "Nomal_Diesel_Car_switch_capacity_2car.pnml"
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_capacity_in_custom, cargo_subtype) {
+     1: return 132;
+     2: return 132;
+     3: return 174;
+     4: return 132;
+     5: return 132;
+     6: return 132;
+     7: return 174;
+     8: return 126;
+     9: return 132;
+    10: return 64;
+    11: return 84;
+    12: return 64;
+    13: return 84;
+    14: return 132;
+    15: return 132;
+    16: return 174;
+    126;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_2car_capacity_in_custom, cargo_subtype) {
+    1: return 174;
+    2: return 132;
+    3: return 132;
+    4: return 174;
+    5: return 132;
+    6: return 174;
+    132;
+}

@@ -3,16 +3,8 @@
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_Talgo_350_SRO_14car, position_in_vehid_chain % 14) {
     1:set_Talgo_350_SRO_wagon_start;
-    2:set_Talgo_350_SRO_wagon_r;
-    3:set_Talgo_350_SRO_wagon_r;
-    4:set_Talgo_350_SRO_wagon_r;
-    5:set_Talgo_350_SRO_wagon_r;
-    6:set_Talgo_350_SRO_wagon_r;
-    7:set_Talgo_350_SRO_wagon_r;
-    8:set_Talgo_350_SRO_wagon_r;
-    9:set_Talgo_350_SRO_wagon;
-    10:set_Talgo_350_SRO_wagon;
-    11:set_Talgo_350_SRO_wagon;
+    2..8:set_Talgo_350_SRO_wagon_r;
+    9..11:set_Talgo_350_SRO_wagon;
     12:set_Talgo_350_SRO_wagon_end;
     13:set_Talgo_350_SRO_engineT;
     set_Talgo_350_SRO_engineH; //default

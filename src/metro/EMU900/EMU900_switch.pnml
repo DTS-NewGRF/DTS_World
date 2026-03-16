@@ -7,8 +7,7 @@
 switch (FEAT_TRAINS, SELF, sw_EMU900_10car, position_in_vehid_chain % 10) {
     1:set_EMU900_wagon_M1To;
     2:set_EMU900_panto_wagon_T1;
-    3:set_EMU900_wagon_M;
-    4:set_EMU900_wagon_M;
+    3..4:set_EMU900_wagon_M;
     5:set_EMU900_panto_wagon_T2To;
     6:set_EMU900_wagon_M;
     7:set_EMU900_panto_wagon_T2;
@@ -22,8 +21,7 @@ switch (FEAT_TRAINS, SELF, sw_EMU900_10car_r, position_in_vehid_chain % 10) {
     2:set_EMU900_panto_wagon_T2_r;
     3:set_EMU900_wagon_M_r;
     4:set_EMU900_panto_wagon_T2To_r;
-    5:set_EMU900_wagon_M_r;
-    6:set_EMU900_wagon_M_r;
+    5..6:set_EMU900_wagon_M_r;
     7:set_EMU900_panto_wagon_T1_r;
     8:set_EMU900_wagon_M1To_r;
     9:set_EMU900_engineH_r;

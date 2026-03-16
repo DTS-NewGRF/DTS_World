@@ -4,16 +4,6 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_ITX_2012_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_2012.png"){
+spriteset(sw_ITX_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX.png"){
     tmpl_single_purchase(0, 0)
 }
-
-spriteset(set_ITX_2014_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX.png"){
-    tmpl_single_purchase(0, 0)
-}
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_ITX_purchase, current_year) {
-    0..2013: set_ITX_2012_purchase;
-    set_ITX_2014_purchase;
-    }

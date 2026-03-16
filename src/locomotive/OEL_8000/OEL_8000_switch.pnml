@@ -2,7 +2,27 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-#include "OEL_8000_switch_Year.pnml"
+switch(FEAT_TRAINS, SELF, sw_OEL8000_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_OEL8000_I1);
+    1: return string(STR_REFIT_LIVERY_OEL8000_I2);
+    2: return string(STR_REFIT_LIVERY_OEL8000_O1);
+    3: return string(STR_REFIT_LIVERY_OEL8000_O2);
+    4: return string(STR_REFIT_LIVERY_OEL8000_N1);
+    5: return string(STR_REFIT_LIVERY_OEL8000_N2);
+    return CB_RESULT_NO_TEXT;
+}
 
 //열차
-#include "OEL_8000_switch_wagon.pnml"
+switch(FEAT_TRAINS, SELF, sw_OEL8000_engine, cargo_subtype) {
+    1: set_OEL8000_engine_I2;
+    2: set_OEL8000_engine_O1;
+    3: set_OEL8000_engine_O2;
+    4: set_OEL8000_engine_N1;
+    5: set_OEL8000_engine_N2;
+    set_OEL8000_engine_I1;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_OEL8000_engine_1Car, position_in_vehid_chain % 1) {
+    sw_OEL8000_engine; //default
+    }

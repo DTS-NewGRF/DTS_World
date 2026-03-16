@@ -2,21 +2,11 @@
 스위치
 --------------------------------------------------------------------*/
 // 도색
-switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_2012_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Incheonmetro_2000_1st);
-    return CB_RESULT_NO_TEXT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_2022_cargo_subtype_text, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_cargo_subtype_text, cargo_subtype) {
     0: return string(STR_REFIT_LIVERY_Incheonmetro_2000_1st);
     1: return string(STR_REFIT_LIVERY_Incheonmetro_2000_2nd);
     return CB_RESULT_NO_TEXT;
 }
-
-switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_cargo_subtype_text, current_year) {
-    0..2021: sw_Incheonmetro_2000_2012_cargo_subtype_text;
-    sw_Incheonmetro_2000_2022_cargo_subtype_text;
-    }
 
 //객차
 switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_engineH, cargo_subtype) {

@@ -2,7 +2,19 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-#include "Post_car_switch_Year.pnml"
+switch(FEAT_TRAINS, SELF, sw_Post_Car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Post_Car_POST_1973);
+    1: return string(STR_REFIT_LIVERY_Post_Car_POST_1994);
+    return CB_RESULT_NO_TEXT;
+}
 
 //열차
-#include "Post_car_switch_wagon.pnml"
+switch(FEAT_TRAINS, SELF, sw_Post_Car_wagon, cargo_subtype) {
+    1: set_Post_Car_POST_1994;
+    set_Post_Car_POST_1973;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Post_Car_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Post_Car_wagon; //default
+    }

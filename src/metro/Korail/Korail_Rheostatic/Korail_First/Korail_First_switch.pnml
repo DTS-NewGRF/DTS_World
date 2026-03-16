@@ -12,10 +12,8 @@ switch(FEAT_TRAINS, SELF, sw_Korail_First_10car_cargo_subtype_text, cargo_subtyp
 
 // 10량
 switch(FEAT_TRAINS, SELF, sw_Korail_First_engineH, cargo_subtype) {
-    1: set_Korail_K1000_Initial_Aircon_engineH;
-    2: set_Korail_K1000_Initial_Aircon_engineH;
-    3: set_Korail_K1000_Old_engineH;
-    4: set_Korail_K1000_Old_engineH;
+    1..2: set_Korail_K1000_Initial_Aircon_engineH;
+    3..4: set_Korail_K1000_Old_engineH;
     set_Korail_K1000_Initial_engineH;
 }
 
@@ -36,27 +34,21 @@ switch(FEAT_TRAINS, SELF, sw_Korail_First_panto_wagon_MAMB, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_First_wagon_MA, cargo_subtype) {
-    1: set_Korail_K1000_Initial_Aircon_MA_wagon;
-    2: set_Korail_K1000_Initial_Aircon_MA_wagon;
-    3: set_Korail_K1000_Old_MA_wagon;
-    4: set_Korail_K1000_Old_MA_wagon;
+    1..2: set_Korail_K1000_Initial_Aircon_MA_wagon;
+    3..4: set_Korail_K1000_Old_MA_wagon;
     set_Korail_K1000_Initial_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_First_engineT, cargo_subtype) {
-    1: set_Korail_K1000_Initial_Aircon_engineT;
-    2: set_Korail_K1000_Initial_Aircon_engineT;
-    3: set_Korail_K1000_Old_engineT;
-    4: set_Korail_K1000_Old_engineT;
+    1..2: set_Korail_K1000_Initial_Aircon_engineT;
+    3..4: set_Korail_K1000_Old_engineT;
     set_Korail_K1000_Initial_engineT;
 }
 
 // 10량 뒤집힘
 switch(FEAT_TRAINS, SELF, sw_Korail_First_engineH_r, cargo_subtype) {
-    1: set_Korail_K1000_Initial_Aircon_engineH_r;
-    2: set_Korail_K1000_Initial_Aircon_engineH_r;
-    3: set_Korail_K1000_Old_engineH_r;
-    4: set_Korail_K1000_Old_engineH_r;
+    1..2: set_Korail_K1000_Initial_Aircon_engineH_r;
+    3..4: set_Korail_K1000_Old_engineH_r;
     set_Korail_K1000_Initial_engineH_r;
 }
 
@@ -77,18 +69,14 @@ switch(FEAT_TRAINS, SELF, sw_Korail_First_panto_wagon_MAMB_r, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_First_wagon_MA_r, cargo_subtype) {
-    1: set_Korail_K1000_Initial_Aircon_MA_wagon_r;
-    2: set_Korail_K1000_Initial_Aircon_MA_wagon_r;
-    3: set_Korail_K1000_Old_MA_wagon_r;
-    4: set_Korail_K1000_Old_MA_wagon_r;
+    1..2: set_Korail_K1000_Initial_Aircon_MA_wagon_r;
+    3..4: set_Korail_K1000_Old_MA_wagon_r;
     set_Korail_K1000_Initial_wagon_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_First_engineT_r, cargo_subtype) {
-    1: set_Korail_K1000_Initial_Aircon_engineT_r;
-    2: set_Korail_K1000_Initial_Aircon_engineT_r;
-    3: set_Korail_K1000_Old_engineT_r;
-    4: set_Korail_K1000_Old_engineT_r;
+    1..2: set_Korail_K1000_Initial_Aircon_engineT_r;
+    3..4: set_Korail_K1000_Old_engineT_r;
     set_Korail_K1000_Initial_engineT_r;
 }
 

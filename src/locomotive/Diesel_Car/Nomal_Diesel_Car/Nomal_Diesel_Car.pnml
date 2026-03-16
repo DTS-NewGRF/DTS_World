@@ -96,7 +96,7 @@ item(FEAT_TRAINS, Nomal_Diesel_2Car_addcar, 2539){
         
         //spec
         speed:                          100km/h;
-        power:                          269 kW;
+        power:                          538 kW;
         weight:                         50 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -151,7 +151,7 @@ item(FEAT_TRAINS, Nomal_Diesel_2Car, 2540){
         
         //spec
         speed:                          100km/h;
-        power:                          269 kW;
+        power:                          538 kW;
         weight:                         50 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;

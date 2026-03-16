@@ -47,23 +47,17 @@ switch(FEAT_TRAINS, SELF, sw_ICE2_wagon_bar_r, cargo_subtype) {
 }
 
 switch (FEAT_TRAINS, SELF, sw_ICE2_8car, position_in_vehid_chain % 8) {
-    1:sw_ICE2_wagon;
-    2:sw_ICE2_wagon;
+    1..2:sw_ICE2_wagon;
     3:sw_ICE2_wagon_bar;
-    4:sw_ICE2_wagon;
-    5:sw_ICE2_wagon;
-    6:sw_ICE2_wagon;
+    4..6:sw_ICE2_wagon;
     7:sw_ICE2_engineT;
     sw_ICE2_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_ICE2_8car_r, position_in_vehid_chain % 8) {
-    1:sw_ICE2_wagon_r;
-    2:sw_ICE2_wagon_r;
-    3:sw_ICE2_wagon_r;
+    1..3:sw_ICE2_wagon_r;
     4:sw_ICE2_wagon_bar_r;
-    5:sw_ICE2_wagon_r;
-    6:sw_ICE2_wagon_r;
+    5..6:sw_ICE2_wagon_r;
     7:sw_ICE2_engineH_r;
     sw_ICE2_engineT_r; //default
     }

@@ -4,16 +4,6 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_Daegumetro_1995_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Daegumetro/Daegumetro_1995.png"){
+spriteset(sw_Daegumetro_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Daegumetro/Daegumetro_2008.png"){
     tmpl_single_purchase(0, 0)
 }
-
-spriteset(set_Daegumetro_2008_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Daegumetro/Daegumetro_2008.png"){
-    tmpl_single_purchase(0, 0)
-}
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Daegumetro_purchase, current_year) {
-    0..2007: set_Daegumetro_1995_purchase;
-    set_Daegumetro_2008_purchase;
-    }

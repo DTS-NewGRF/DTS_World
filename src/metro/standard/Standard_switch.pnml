@@ -32,8 +32,7 @@ switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon, cargo_subtype) {
 }
 
 switch (FEAT_TRAINS, SELF, sw_Standard_Metro_4car, position_in_vehid_chain % 4) {
-    1:sw_Standard_Metro_panto_wagon;
-    2:sw_Standard_Metro_panto_wagon;
+    1..2:sw_Standard_Metro_panto_wagon;
     3:sw_Standard_Metro_engineT;
     sw_Standard_Metro_engineH; //default
     }

@@ -28,21 +28,6 @@ spriteset(set_OEL8000_engine_N2, "src/locomotive/OEL_8000/OEL_8000.png"){
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_OEL8000_1972_purchase, "src/locomotive/OEL_8000/OEL_8000.png"){
-    tmpl_single_purchase(0, 0)
-}
-
-spriteset(set_OEL8000_1995_purchase, "src/locomotive/OEL_8000/OEL_8000.png"){
-    tmpl_single_purchase(0, 54)
-}
-
-spriteset(set_OEL8000_2005_purchase, "src/locomotive/OEL_8000/OEL_8000.png"){
+spriteset(sw_OEL8000_purchase, "src/locomotive/OEL_8000/OEL_8000.png"){
     tmpl_single_purchase(0, 108)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_OEL8000_purchase, current_year) {
-    0..1994: set_OEL8000_1972_purchase;
-    1995..2004: set_OEL8000_1995_purchase;
-    set_OEL8000_2005_purchase;
-    }

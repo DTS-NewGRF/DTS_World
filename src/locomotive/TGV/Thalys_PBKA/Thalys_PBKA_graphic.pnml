@@ -205,21 +205,6 @@ spriteset(set_Thalys_PBKA_Ruby_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Thalys_PBKA_2006_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
+spriteset(sw_Thalys_PBKA_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
     tmpl_purchase(0, 0)
 }
-
-spriteset(set_Thalys_PBKA_2016_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
-    tmpl_purchase(0, 0)
-}
-
-spriteset(set_Thalys_PBKA_2021_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
-    tmpl_purchase(0, 0)
-}
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_purchase, current_year) {
-    0..2015: set_Thalys_PBKA_2006_purchase;
-    2016..2020: set_Thalys_PBKA_2016_purchase;
-    set_Thalys_PBKA_2021_purchase;
-    }

@@ -2,10 +2,103 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-#include "Mugunhwa_Real_Service_switch_Year.pnml"
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR1);
+     1: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC1);
+     2: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR2);
+     3: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC2);
+     4: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS1);
+     5: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF1);
+     6: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_SMF);
+     7: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF2);
+     8: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS2);
+     9: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDFS);
+    10: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP1);
+    11: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP2);
+    12: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSMF);
+    13: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_OPG);
+    14: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP1);
+    15: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP2);
+    16: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_WAD);
+    17: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_CAFE);
+    18: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_PC);
+    19: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_PG);
+    20: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_CP);
+    21: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_RF);
+    22: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORS);
+    23: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDC);
+    24: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_NPG);
+    25: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_NCAFE);
+    26: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_NSMF);
+    27: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_NNC);
+    28: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORC);
+    29: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRC);
+    30: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRS);
+    return CB_RESULT_NO_TEXT;
+}
 
 //열차
-#include "Mugunhwa_Real_Service_switch_wagon.pnml"
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_wagon, cargo_subtype) {
+     1: set_Mugunhwa_Real_Service_SPC1;
+     2: set_Mugunhwa_Real_Service_SPR2;
+     3: set_Mugunhwa_Real_Service_SPC2;
+     4: set_Mugunhwa_Real_Service_FS1;
+     5: set_Mugunhwa_Real_Service_SDF1;
+     6: set_Mugunhwa_Real_Service_SMF;
+     7: set_Mugunhwa_Real_Service_SDF2;
+     8: set_Mugunhwa_Real_Service_FS2;
+     9: set_Mugunhwa_Real_Service_SDFS;
+    10: set_Mugunhwa_Real_Service_OSP1;
+    11: set_Mugunhwa_Real_Service_OSP2;
+    12: set_Mugunhwa_Real_Service_OSMF;
+    13: set_Mugunhwa_Real_Service_OPG;
+    14: set_Mugunhwa_Real_Service_ROSP1;
+    15: set_Mugunhwa_Real_Service_ROSP2;
+    16: set_Mugunhwa_Real_Service_WAD;
+    17: set_Mugunhwa_Real_Service_CAFE;
+    18: set_Mugunhwa_Real_Service_PC;
+    19: set_Mugunhwa_Real_Service_PG;
+    20: set_Mugunhwa_Real_Service_CP;
+    21: set_Mugunhwa_Real_Service_RF;
+    22: set_Mugunhwa_Real_Service_ORS;
+    23: set_Mugunhwa_Real_Service_SDC;
+    24: set_Mugunhwa_Real_Service_NPG;
+    25: set_Mugunhwa_Real_Service_NCAFE;
+    26: set_Mugunhwa_Real_Service_NSMF;
+    27: set_Mugunhwa_Real_Service_NNC;
+    28: set_Mugunhwa_Real_Service_ORC;
+    29: set_Mugunhwa_Real_Service_NRC;
+    30: set_Mugunhwa_Real_Service_NRS;
+    set_Mugunhwa_Real_Service_SPR1;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Mugunhwa_Real_Service_wagon; //default
+    }
 
 //수송량
-#include "Mugunhwa_Real_Service_capacity.pnml"
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_capacity_in_custom, cargo_subtype) {
+    4: return 50;
+    5: return 50;
+    6: return 50;
+    7: return 50;
+    8: return 50;
+    9: return 50;
+   12: return 50;
+   13: return 50;
+   16: return 50;
+   17: return 50;
+   18: return 50;
+   19: return 50;
+   20: return 50;
+   21: return 50;
+   23: return 50;
+   24: return 50;
+   25: return 50;
+   26: return 50;
+   27: return 50;
+   28: return 50;
+   29: return 50;
+   28;
+}

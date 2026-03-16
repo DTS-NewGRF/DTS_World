@@ -3,8 +3,7 @@
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_800_6car, position_in_vehid_chain % 6) {
     1:set_Shinkansen_800_panto_wagon;
-    2:set_Shinkansen_800_wagon;
-    3:set_Shinkansen_800_wagon;
+    2..3:set_Shinkansen_800_wagon;
     4:set_Shinkansen_800_panto_wagon_r;
     5:set_Shinkansen_800_engineT;
     set_Shinkansen_800_engineH; //default

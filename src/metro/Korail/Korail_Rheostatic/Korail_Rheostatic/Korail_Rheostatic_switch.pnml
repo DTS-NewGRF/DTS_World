@@ -53,11 +53,9 @@ switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineT_r, cargo_subtype) {
 switch (FEAT_TRAINS, SELF, sw_Korail_Rheostatic_10car, position_in_vehid_chain % 10) {
     1:sw_Korail_Rheostatic_wagon;
     2:sw_Korail_Rheostatic_panto_wagon;
-    3:sw_Korail_Rheostatic_wagon;
-    4:sw_Korail_Rheostatic_wagon;
+    3..4:sw_Korail_Rheostatic_wagon;
     5:sw_Korail_Rheostatic_panto_wagon;
-    6:sw_Korail_Rheostatic_wagon;
-    7:sw_Korail_Rheostatic_wagon;
+    6..7:sw_Korail_Rheostatic_wagon;
     8:sw_Korail_Rheostatic_panto_wagon;
     9:sw_Korail_Rheostatic_engineT;
     sw_Korail_Rheostatic_engineH; //default
@@ -65,11 +63,9 @@ switch (FEAT_TRAINS, SELF, sw_Korail_Rheostatic_10car, position_in_vehid_chain %
 
 switch (FEAT_TRAINS, SELF, sw_Korail_Rheostatic_10car_r, position_in_vehid_chain % 10) {
     1:sw_Korail_Rheostatic_panto_wagon_r;
-    2:sw_Korail_Rheostatic_wagon_r;
-    3:sw_Korail_Rheostatic_wagon_r;
+    2..3:sw_Korail_Rheostatic_wagon_r;
     4:sw_Korail_Rheostatic_panto_wagon_r;
-    5:sw_Korail_Rheostatic_wagon_r;
-    6:sw_Korail_Rheostatic_wagon_r;
+    5..6:sw_Korail_Rheostatic_wagon_r;
     7:sw_Korail_Rheostatic_panto_wagon_r;
     8:sw_Korail_Rheostatic_wagon_r;
     9:sw_Korail_Rheostatic_engineH_r;

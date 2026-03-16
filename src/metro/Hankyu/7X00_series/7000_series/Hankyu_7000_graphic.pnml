@@ -144,26 +144,6 @@ spriteset(set_Hankyu_7000_2011_engineT, "src/metro/Hankyu/7X00_series/7000_serie
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_Hankyu_7000_1980_purchase, "src/metro/Hankyu/7X00_series/7000_series/Hankyu_7000.png"){
+spriteset(sw_Hankyu_7000_purchase, "src/metro/Hankyu/7X00_series/7000_series/Hankyu_7000_2011.png"){
     tmpl_purchase(0, 0)
 }
-
-spriteset(set_Hankyu_7000_1998_purchase, "src/metro/Hankyu/7X00_series/7000_series/Hankyu_7000_1998.png"){
-    tmpl_purchase(0, 0)
-}
-
-spriteset(set_Hankyu_7000_2009_purchase, "src/metro/Hankyu/7X00_series/7000_series/Hankyu_7000_2009.png"){
-    tmpl_purchase(0, 0)
-}
-
-spriteset(set_Hankyu_7000_2011_purchase, "src/metro/Hankyu/7X00_series/7000_series/Hankyu_7000_2011.png"){
-    tmpl_purchase(0, 0)
-}
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_purchase, current_year) {
-    0..1997: set_Hankyu_7000_1980_purchase;
-    1998..2008: set_Hankyu_7000_1998_purchase;
-    2009..2010: set_Hankyu_7000_2009_purchase;
-    set_Hankyu_7000_2011_purchase;
-    }

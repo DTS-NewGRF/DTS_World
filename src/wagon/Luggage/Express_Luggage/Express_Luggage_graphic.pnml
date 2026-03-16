@@ -97,26 +97,6 @@ spriteset(set_Express_Luggage_GL_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wag
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Express_Luggage_1999_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Express_Luggage/Express_Luggage.png"){
-    tmpl_wagon_purchase(0, 0)
-}
-
-spriteset(set_Express_Luggage_2005_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Express_Luggage/Express_Luggage.png"){
-    tmpl_wagon_purchase(0, 81)
-}
-
-spriteset(set_Express_Luggage_2018_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Express_Luggage/Express_Luggage.png"){
-    tmpl_wagon_purchase(0, 459)
-}
-
-spriteset(set_Express_Luggage_2024_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Express_Luggage/Express_Luggage.png"){
+spriteset(sw_Express_Luggage_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Express_Luggage/Express_Luggage.png"){
     tmpl_wagon_purchase(0, 567)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Express_Luggage_purchase, current_year) {
-    0..2004: set_Express_Luggage_1999_purchase;
-    2005..2017: set_Express_Luggage_2005_purchase;
-    2018..2023: set_Express_Luggage_2018_purchase;
-    set_Express_Luggage_2024_purchase;
-    }

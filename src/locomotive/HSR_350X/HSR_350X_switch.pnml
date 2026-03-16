@@ -39,15 +39,10 @@ switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_7car, extra_callback_info1) {
 switch (FEAT_TRAINS, SELF, sw_HSR_350X_14car, position_in_vehid_chain % 14) {
     1:set_HSR_350X_wagon_TM1;
     2:set_HSR_350X_wagon_TT2;
-    3:set_HSR_350X_wagon_TT3;
-    4:set_HSR_350X_wagon_TT3;
-    5:set_HSR_350X_wagon_TT3;
+    3..5:set_HSR_350X_wagon_TT3;
     6:set_HSR_350X_wagon_TM5;
     7:set_HSR_350X_wagon_TM5D;
-    8:set_HSR_350X_wagon_TT4;
-    9:set_HSR_350X_wagon_TT4;
-    10:set_HSR_350X_wagon_TT4;
-    11:set_HSR_350X_wagon_TT4;
+    8..11:set_HSR_350X_wagon_TT4;
     12:set_HSR_350X_wagon_TM5;
     13:set_HSR_350X_engineT;
     set_HSR_350X_engineH; //default
@@ -55,15 +50,10 @@ switch (FEAT_TRAINS, SELF, sw_HSR_350X_14car, position_in_vehid_chain % 14) {
 
 switch (FEAT_TRAINS, SELF, sw_HSR_350X_14car_r, position_in_vehid_chain % 14) {
     1:set_HSR_350X_wagon_TM5_r;
-    2:set_HSR_350X_wagon_TT4_r;
-    3:set_HSR_350X_wagon_TT4_r;
-    4:set_HSR_350X_wagon_TT4_r;
-    5:set_HSR_350X_wagon_TT4_r;
+    2..5:set_HSR_350X_wagon_TT4_r;
     6:set_HSR_350X_wagon_TM5D_r;
     7:set_HSR_350X_wagon_TM5_r;
-    8:set_HSR_350X_wagon_TT3_r;
-    9:set_HSR_350X_wagon_TT3_r;
-    10:set_HSR_350X_wagon_TT3_r;
+    8..10:set_HSR_350X_wagon_TT3_r;
     11:set_HSR_350X_wagon_TT2_r;
     12:set_HSR_350X_wagon_TM1_r;
     13:set_HSR_350X_engineH_r;

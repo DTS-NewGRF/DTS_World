@@ -4,12 +4,7 @@
 switch (FEAT_TRAINS, SELF, sw_THSR_700T_12car, position_in_vehid_chain % 12) {
     1:set_THSR_700T_wagon;
     2:set_THSR_700T_panto_wagon;
-    3:set_THSR_700T_wagon;
-    4:set_THSR_700T_wagon;
-    5:set_THSR_700T_wagon;
-    6:set_THSR_700T_wagon;
-    7:set_THSR_700T_wagon;
-    8:set_THSR_700T_wagon;
+    3..8:set_THSR_700T_wagon;
     9:set_THSR_700T_panto_wagon_r;
     10:set_THSR_700T_wagon;
     11:set_THSR_700T_engineT;

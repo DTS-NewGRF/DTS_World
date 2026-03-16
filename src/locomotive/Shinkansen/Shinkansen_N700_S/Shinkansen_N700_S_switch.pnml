@@ -3,28 +3,18 @@
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_N700S_6car, position_in_vehid_chain % 6) {
     1:set_N700S_K_panto_wagon;
-    2:set_N700S_K_wagon;
-    3:set_N700S_K_wagon;
+    2..3:set_N700S_K_wagon;
     4:set_N700S_K_panto_wagon_r;
     5:set_N700S_K_engineT;
     set_N700S_K_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_N700S_16car, position_in_vehid_chain % 16) {
-    1:set_N700S_T_wagon;
-    2:set_N700S_T_wagon;
-    3:set_N700S_T_wagon;
+    1..3:set_N700S_T_wagon;
     4:set_N700S_T_panto_wagon;
-    5:set_N700S_T_wagon;
-    6:set_N700S_T_wagon;
-    7:set_N700S_T_wagon;
-    8:set_N700S_T_wagon;
-    9:set_N700S_T_wagon;
-    10:set_N700S_T_wagon;
+    5..10:set_N700S_T_wagon;
     11:set_N700S_T_panto_wagon_r;
-    12:set_N700S_T_wagon;
-    13:set_N700S_T_wagon;
-    14:set_N700S_T_wagon;
+    12..14:set_N700S_T_wagon;
     15:set_N700S_T_engineT;
     set_N700S_T_engineH; //default
     }

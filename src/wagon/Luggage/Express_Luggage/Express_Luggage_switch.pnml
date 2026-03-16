@@ -2,7 +2,59 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-#include "Express_Luggage_switch_Year.pnml"
+switch(FEAT_TRAINS, SELF, sw_Express_Luggage_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Express_Luggage_VA);
+     1: return string(STR_REFIT_LIVERY_Express_Luggage_VB);
+     2: return string(STR_REFIT_LIVERY_Express_Luggage_LOM);
+     3: return string(STR_REFIT_LIVERY_Express_Luggage_LNM);
+     4: return string(STR_REFIT_LIVERY_Express_Luggage_MTB);
+     5: return string(STR_REFIT_LIVERY_Express_Luggage_A);
+     6: return string(STR_REFIT_LIVERY_Express_Luggage_B);
+     7: return string(STR_REFIT_LIVERY_Express_Luggage_C);
+     8: return string(STR_REFIT_LIVERY_Express_Luggage_D);
+     9: return string(STR_REFIT_LIVERY_Express_Luggage_OEA);
+    10: return string(STR_REFIT_LIVERY_Express_Luggage_OEB);
+    11: return string(STR_REFIT_LIVERY_Express_Luggage_OEC);
+    12: return string(STR_REFIT_LIVERY_Express_Luggage_OED);
+    13: return string(STR_REFIT_LIVERY_Express_Luggage_OR);
+    14: return string(STR_REFIT_LIVERY_Express_Luggage_YL);
+    15: return string(STR_REFIT_LIVERY_Express_Luggage_PK);
+    16: return string(STR_REFIT_LIVERY_Express_Luggage_GN);
+    17: return string(STR_REFIT_LIVERY_Express_Luggage_MP);
+    18: return string(STR_REFIT_LIVERY_Express_Luggage_EA);
+    19: return string(STR_REFIT_LIVERY_Express_Luggage_EB);
+    20: return string(STR_REFIT_LIVERY_Express_Luggage_WN);
+    21: return string(STR_REFIT_LIVERY_Express_Luggage_GL);
+    return CB_RESULT_NO_TEXT;
+}
 
 //열차
-#include "Express_Luggage_switch_wagon.pnml"
+switch(FEAT_TRAINS, SELF, sw_Express_Luggage_wagon, cargo_subtype) {
+     1: set_Express_Luggage_VB;
+     2: set_Express_Luggage_LOM;
+     3: set_Express_Luggage_LNM;
+     4: set_Express_Luggage_MTB;
+     5: set_Express_Luggage_A;
+     6: set_Express_Luggage_B;
+     7: set_Express_Luggage_C;
+     8: set_Express_Luggage_D;
+     9: set_Express_Luggage_OEA;
+    10: set_Express_Luggage_OEB;
+    11: set_Express_Luggage_OEC;
+    12: set_Express_Luggage_OED;
+    13: set_Express_Luggage_OR;
+    14: set_Express_Luggage_YL;
+    15: set_Express_Luggage_PK;
+    16: set_Express_Luggage_GN;
+    17: set_Express_Luggage_MP;
+    18: set_Express_Luggage_EA;
+    19: set_Express_Luggage_EB;
+    20: set_Express_Luggage_WN;
+    21: set_Express_Luggage_GL;
+    set_Express_Luggage_VA;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Express_Luggage_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Express_Luggage_wagon; //default
+    }

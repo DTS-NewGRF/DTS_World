@@ -4,10 +4,7 @@
 // 도색명
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Busanmetro_4000_6car, position_in_vehid_chain % 6) {
-    1:set_Busanmetro_4000_wagon;
-    2:set_Busanmetro_4000_wagon;
-    3:set_Busanmetro_4000_wagon;
-    4:set_Busanmetro_4000_wagon;
+    1..4:set_Busanmetro_4000_wagon;
     5:set_Busanmetro_4000_engineT;
     set_Busanmetro_4000_engineH; //default
     }

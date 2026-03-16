@@ -3,10 +3,7 @@
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_Renfe_S_103_8car, position_in_vehid_chain % 8) {
     1:set_Renfe_S_103_panto_wagon;
-    2:set_Renfe_S_103_wagon;
-    3:set_Renfe_S_103_wagon;
-    4:set_Renfe_S_103_wagon;
-    5:set_Renfe_S_103_wagon;
+    2..5:set_Renfe_S_103_wagon;
     6:set_Renfe_S_103_panto_wagon_r;
     7:set_Renfe_S_103_engineT;
     set_Renfe_S_103_engineH; //default

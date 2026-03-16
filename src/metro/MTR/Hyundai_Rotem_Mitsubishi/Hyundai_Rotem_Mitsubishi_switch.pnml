@@ -3,10 +3,7 @@
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_MTR_Hyundai_Rotem_Mitsubishi_8car, position_in_vehid_chain % 8) {
     1:set_MTR_Hyundai_Rotem_Mitsubishi_panto_wagon;
-    2:set_MTR_Hyundai_Rotem_Mitsubishi_wagon;
-    3:set_MTR_Hyundai_Rotem_Mitsubishi_wagon;
-    4:set_MTR_Hyundai_Rotem_Mitsubishi_wagon;
-    5:set_MTR_Hyundai_Rotem_Mitsubishi_wagon;
+    2..5:set_MTR_Hyundai_Rotem_Mitsubishi_wagon;
     6:set_MTR_Hyundai_Rotem_Mitsubishi_panto_wagon;
     7:set_MTR_Hyundai_Rotem_Mitsubishi_engineT;
     set_MTR_Hyundai_Rotem_Mitsubishi_engineH; //default

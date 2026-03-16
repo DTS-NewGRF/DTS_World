@@ -2,10 +2,40 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-#include "Tong_il_Service_switch_Year.pnml"
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Tong_il_Service_D_1966);
+    1: return string(STR_REFIT_LIVERY_Tong_il_Service_S_1966);
+    2: return string(STR_REFIT_LIVERY_Tong_il_Service_D_1968);
+    3: return string(STR_REFIT_LIVERY_Tong_il_Service_S_1975);
+    4: return string(STR_REFIT_LIVERY_Tong_il_Service_S_1984);
+    5: return string(STR_REFIT_LIVERY_Tong_il_Service_S_1994);
+    6: return string(STR_REFIT_LIVERY_Tong_il_Service_S_1997);
+    return CB_RESULT_NO_TEXT;
+}
 
 //열차
-#include "Tong_il_Service_switch_wagon.pnml"
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_wagon, cargo_subtype) {
+    1: set_Tong_il_Service_S_1966;
+    2: set_Tong_il_Service_D_1968;
+    3: set_Tong_il_Service_S_1975;
+    4: set_Tong_il_Service_S_1984;
+    5: set_Tong_il_Service_S_1994;
+    6: set_Tong_il_Service_S_1997;
+    set_Tong_il_Service_D_1966;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Tong_il_Service_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Tong_il_Service_wagon; //default
+    }
 
 //수송량
-#include "Tong_il_Service_switch_capacity.pnml"
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_capacity_in_custom, cargo_subtype) {
+   1: return 28;
+   2: return 50;
+   3: return 28;
+   4: return 28;
+   5: return 28;
+   6: return 28;
+   50;
+}

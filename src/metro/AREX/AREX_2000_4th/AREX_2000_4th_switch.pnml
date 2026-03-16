@@ -3,19 +3,13 @@
 --------------------------------------------------------------------*/
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_AREX_2000_4th_6car, position_in_vehid_chain % 6) {
-    1:set_AREX_2000_4th_wagon;
-    2:set_AREX_2000_4th_wagon;
-    3:set_AREX_2000_4th_wagon;
-    4:set_AREX_2000_4th_wagon;
+    1..4:set_AREX_2000_4th_wagon;
     5:set_AREX_2000_4th_engineT;
     set_AREX_2000_4th_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_AREX_2000_4th_6car_r, position_in_vehid_chain % 6) {
-    1:set_AREX_2000_4th_wagon_r;
-    2:set_AREX_2000_4th_wagon_r;
-    3:set_AREX_2000_4th_wagon_r;
-    4:set_AREX_2000_4th_wagon_r;
+    1..4:set_AREX_2000_4th_wagon_r;
     5:set_AREX_2000_4th_engineH_r;
     set_AREX_2000_4th_engineT_r; //default
     }

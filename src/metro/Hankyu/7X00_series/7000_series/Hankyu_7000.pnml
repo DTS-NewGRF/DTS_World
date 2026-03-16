@@ -69,7 +69,7 @@ item(FEAT_TRAINS, Hankyu_7000_2Car, 2448){
         }
 
         graphics {
-        default:                        sw_Hankyu_7000_2car_wagon;
+        default:                        sw_Hankyu_7000_2car_reversed;
         articulated_part:               sw_articulated_Hankyu_7000_2car;
         purchase:                       sw_Hankyu_7000_purchase;
         speed:                          sw_Metro_115_speed;
@@ -124,7 +124,7 @@ item(FEAT_TRAINS, Hankyu_7000_4Car, 2449){
         }
 
         graphics {
-        default:                        sw_Hankyu_7000_4car_wagon;
+        default:                        sw_Hankyu_7000_4car_reversed;
         articulated_part:               sw_articulated_Hankyu_7000_4car;
         purchase:                       sw_Hankyu_7000_purchase;
         speed:                          sw_Metro_115_speed;
@@ -179,7 +179,7 @@ item(FEAT_TRAINS, Hankyu_7000_6Car, 2450){
         }
 
         graphics {
-        default:                        sw_Hankyu_7000_6car_wagon;
+        default:                        sw_Hankyu_7000_6car_reversed;
         articulated_part:               sw_articulated_Hankyu_7000_6car;
         purchase:                       sw_Hankyu_7000_purchase;
         speed:                          sw_Metro_115_speed;
@@ -234,7 +234,7 @@ item(FEAT_TRAINS, Hankyu_7000_8Car, 2451){
         }
 
         graphics {
-        default:                        sw_Hankyu_7000_8car_wagon;
+        default:                        sw_Hankyu_7000_8car_reversed;
         articulated_part:               sw_articulated_Hankyu_7000_8car;
         purchase:                       sw_Hankyu_7000_purchase;
         speed:                          sw_Metro_115_speed;

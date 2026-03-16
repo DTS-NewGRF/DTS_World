@@ -2,7 +2,31 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-#include "Tong_il_Special_switch_Year.pnml"
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Tong_il_Special_F_1963_2);
+    1: return string(STR_REFIT_LIVERY_Tong_il_Special_F_1963_T);
+    2: return string(STR_REFIT_LIVERY_Tong_il_Special_F_1968);
+    3: return string(STR_REFIT_LIVERY_Tong_il_Special_F_1974);
+    4: return string(STR_REFIT_LIVERY_Tong_il_Special_F2_1974);
+    5: return string(STR_REFIT_LIVERY_Tong_il_Special_F2_1984);
+    6: return string(STR_REFIT_LIVERY_Tong_il_Special_F_1994);
+    7: return string(STR_REFIT_LIVERY_Tong_il_Special_F_1997);
+    return CB_RESULT_NO_TEXT;
+}
 
 //열차
-#include "Tong_il_Special_switch_wagon.pnml"
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_wagon, cargo_subtype) {
+    1: set_Tong_il_Special_F_1963_T;
+    2: set_Tong_il_Special_F_1968;
+    3: set_Tong_il_Special_F_1974;
+    4: set_Tong_il_Special_F2_1974;
+    5: set_Tong_il_Special_F2_1984;
+    6: set_Tong_il_Special_F_1994;
+    7: set_Tong_il_Special_F_1997;
+    set_Tong_il_Special_F_1963_2;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Tong_il_Special_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Tong_il_Special_wagon; //default
+    }

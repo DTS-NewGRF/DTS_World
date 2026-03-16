@@ -26,16 +26,6 @@ spriteset(set_Incheonmetro_2000_2nd_engineT, "src/metro/Incheonmetro/Incheonmetr
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_Incheonmetro_2000_2012_purchase, "src/metro/Incheonmetro/Incheonmetro_2000/Incheonmetro_2000_1st.png"){
+spriteset(sw_Incheonmetro_2000_purchase, "src/metro/Incheonmetro/Incheonmetro_2000/Incheonmetro_2000_2nd.png"){
     tmpl_purchase(0, 0)
-}
-
-spriteset(set_Incheonmetro_2000_2022_purchase, "src/metro/Incheonmetro/Incheonmetro_2000/Incheonmetro_2000_2nd.png"){
-    tmpl_purchase(0, 0)
-}
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_purchase, current_year) {
-    0..2021: set_Incheonmetro_2000_2012_purchase;
-    set_Incheonmetro_2000_2022_purchase;
 }

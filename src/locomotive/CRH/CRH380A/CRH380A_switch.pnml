@@ -35,28 +35,18 @@ switch (FEAT_TRAINS, SELF, sw_CRH380A_8car, position_in_vehid_chain % 8) {
     2:sw_CRH380A_panto_wagon;
     3:sw_CRH380A_wagon;
     4:sw_CRH380A_panto_wagon;
-    5:sw_CRH380A_wagon;
-    6:sw_CRH380A_wagon;
+    5..6:sw_CRH380A_wagon;
     7:sw_CRH380A_engineT;
     sw_CRH380A_engineH; //default
     }
 
 // 16량
 switch (FEAT_TRAINS, SELF, sw_CRH380A_16car, position_in_vehid_chain % 16) {
-    1:set_CRH380A_wagon;
-    2:set_CRH380A_wagon;
-    3:set_CRH380A_wagon;
+    1..3:set_CRH380A_wagon;
     4:set_CRH380A_panto_16wagon;
-    5:set_CRH380A_wagon;
-    6:set_CRH380A_wagon;
-    7:set_CRH380A_wagon;
-    8:set_CRH380A_wagon;
-    9:set_CRH380A_wagon;
-    10:set_CRH380A_wagon;
-    11:set_CRH380A_wagon;
+    5..11:set_CRH380A_wagon;
     12:set_CRH380A_panto_16wagon;
-    13:set_CRH380A_wagon;
-    14:set_CRH380A_wagon;
+    13..14:set_CRH380A_wagon;
     15:set_CRH380A_engineT;
     set_CRH380A_engineH; //default
     }

@@ -4,13 +4,9 @@
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_E7_W7_12car, position_in_vehid_chain % 12) {
     1:set_Shinkansen_E7_W7_wagon;
     2:set_Shinkansen_E7_W7_panto_wagon;
-    3:set_Shinkansen_E7_W7_wagon;
-    4:set_Shinkansen_E7_W7_wagon;
-    5:set_Shinkansen_E7_W7_wagon;
+    3..5:set_Shinkansen_E7_W7_wagon;
     6:set_Shinkansen_E7_W7_panto_wagon;
-    7:set_Shinkansen_E7_W7_wagon;
-    8:set_Shinkansen_E7_W7_wagon;
-    9:set_Shinkansen_E7_W7_wagon;
+    7..9:set_Shinkansen_E7_W7_wagon;
     10:set_Shinkansen_E7_W7_green_wagon;
     11:set_Shinkansen_E7_W7_engineT;
     set_Shinkansen_E7_W7_engineH; //default

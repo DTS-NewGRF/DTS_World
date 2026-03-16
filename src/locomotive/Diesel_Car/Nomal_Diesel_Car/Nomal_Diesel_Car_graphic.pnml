@@ -100,68 +100,14 @@ spriteset(set_Nomal_Diesel_engine_1985_M1_Dummy_r, "src/locomotive/Diesel_Car/No
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Nomal_Diesel_1961_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    tmpl_single_purchase(0, 0)
-}
-
-spriteset(set_Nomal_Diesel_1966_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    tmpl_single_purchase(0, 27)
-}
-
-spriteset(set_Nomal_Diesel_1966_2car_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    tmpl_single_purchase(0, 54)
-}
-
-spriteset(set_Nomal_Diesel_1974_2car_puchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    tmpl_single_purchase(0, 135)
-}
-
-spriteset(set_Nomal_Diesel_1975_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    tmpl_single_purchase(0, 54)
-}
-
-spriteset(set_Nomal_Diesel_1980_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    tmpl_single_purchase(0, 108)
-}
-
-spriteset(set_Nomal_Diesel_1984_purchase, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
-    tmpl_single_purchase(0, 81)
-}
-
-spriteset(set_Nomal_Diesel_1984_2car_purchase, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
-    tmpl_single_purchase(0, 135)
-}
-
-spriteset(set_Nomal_Diesel_1985_purchase, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
-    tmpl_single_purchase(0, 189)
-}
-
 spriteset(set_Nomal_Diesel_1985_2car_purchase, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
     tmpl_single_purchase(0, 216)
 }
 
-spriteset(set_Nomal_Diesel_1994_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
+spriteset(sw_Nomal_Diesel_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
     tmpl_single_purchase(0, 189)
 }
 
-spriteset(set_Nomal_Diesel_1994_2car_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
+spriteset(sw_Nomal_Diesel_2car_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
     tmpl_single_purchase(0, 216)
 }
-
-// 구매차량 등장년도
-switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_purchase, current_year) {
-    0..1965: set_Nomal_Diesel_1961_purchase;
-    1966..1974: set_Nomal_Diesel_1966_purchase;
-    1975..1979: set_Nomal_Diesel_1975_purchase;
-    1980..1983: set_Nomal_Diesel_1980_purchase;
-    1984: set_Nomal_Diesel_1984_purchase;
-    1985..1993: set_Nomal_Diesel_1985_purchase;
-    set_Nomal_Diesel_1994_purchase;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_2car_purchase, current_year) {
-    0..1973: set_Nomal_Diesel_1966_2car_purchase;
-    1974..1983: set_Nomal_Diesel_1974_2car_puchase;
-    1984..1993: set_Nomal_Diesel_1984_2car_purchase;
-    set_Nomal_Diesel_1994_2car_purchase;
-    }

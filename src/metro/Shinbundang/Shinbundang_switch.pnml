@@ -60,8 +60,7 @@ switch(FEAT_TRAINS, SELF, sw_Shinbundang_engineT_r, cargo_subtype) {
 
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Shinbundang_6car, position_in_vehid_chain % 6) {
-    1:sw_Shinbundang_panto_wagon;
-    2:sw_Shinbundang_panto_wagon;
+    1..2:sw_Shinbundang_panto_wagon;
     3:sw_Shinbundang_wagon;
     4:sw_Shinbundang_panto_wagon;
     5:sw_Shinbundang_engineT;
@@ -71,8 +70,7 @@ switch (FEAT_TRAINS, SELF, sw_Shinbundang_6car, position_in_vehid_chain % 6) {
 switch (FEAT_TRAINS, SELF, sw_Shinbundang_6car_r, position_in_vehid_chain % 6) {
     1:sw_Shinbundang_panto_wagon_r;
     2:sw_Shinbundang_wagon_r;
-    3:sw_Shinbundang_panto_wagon_r;
-    4:sw_Shinbundang_panto_wagon_r;
+    3..4:sw_Shinbundang_panto_wagon_r;
     5:sw_Shinbundang_engineH_r;
     sw_Shinbundang_engineT_r; //default
     }
