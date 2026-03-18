@@ -750,6 +750,7 @@ switch(FEAT_TRAINS, SELF, sw_TOYODENKIIGBT2start_sound, extra_callback_info1) {
 TOYODENKIIGBTStart.wav
 적용열차
 - 한큐 9300형
+- 서일본 125계 전동차
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_TOYODENKIIGBTStart_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOYODENKIIGBTStart.wav");

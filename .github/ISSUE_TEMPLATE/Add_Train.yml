@@ -11,13 +11,11 @@ body:
     attributes:
       label: 스프라이트
       description: 스프라이트를 올려주세요. 기본적으로 32bpp를 지원하도록 하여 적용하고 있습니다. 크로마키부분만을 투명상태로 적용해주세요.
-  - type: checkboxes
+  - type: markdown
     attributes:
-      label: '실존 & 가상열차'
-      description: '실존 & 가상여부를 체크해주세요.'
-      options:
-      - label: '실존차량'
-      - label: '가상열차'
+      value: |
+      ### 실존 차량만 등록해주세요.
+      가상열차는 DTS-Virtual에서 등록해주세요..
   - type: checkboxes
     attributes:
       label: 편성방식

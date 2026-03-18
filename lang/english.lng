@@ -340,6 +340,7 @@ STR_MTR_Hyundai_Rotem_R_8Car_NAME                      :[8Car] MTR Hyundai Rotem
 STR_MTR_IKK_SP_1900_8Car_NAME                          :[8Car] MTR IKK SP 1900
 
 # Japanese / Metro's name
+STR_125_Series_EMU_NAME                                :125 Series EMU
 STR_Hankyu_1000_8Car_NAME                              :[8Car] Hankyu New 1000
 STR_Hankyu_1300_8Car_NAME                              :[8Car] Hankyu New 1300
 STR_Group_Hankyu_6000_NAME                             :Hankyu 6000

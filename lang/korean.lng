@@ -339,6 +339,7 @@ STR_MTR_Hyundai_Rotem_R_8Car_NAME                      :[8량] 홍콩 MTR 현대
 STR_MTR_IKK_SP_1900_8Car_NAME                          :[8량] 홍콩 MTR IKK SP 1900
 
 # Japanese / Metro's name
+STR_125_Series_EMU_NAME                                :125계 전동차
 STR_Hankyu_1000_8Car_NAME                              :[8량] 한큐전철 신1000형
 STR_Hankyu_1300_8Car_NAME                              :[8량] 한큐전철 신1300형
 STR_Group_Hankyu_6000_NAME                             :한큐전철 6000형

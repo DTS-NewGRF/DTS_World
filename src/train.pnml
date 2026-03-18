@@ -52,6 +52,7 @@
 #include "metro/Hankyu/Hankyu.pnml"
 #include "metro/Incheonmetro/Incheonmetro.pnml"
 #include "metro/Jakarta_LRT/Jakarta_LRT.pnml"
+#include "metro/Japan/Japan.pnml"
 #include "metro/Korail/Korail.pnml"
 #include "metro/MTR/MTR.pnml"
 #include "metro/Nishitetsu/Nishitetsu.pnml"

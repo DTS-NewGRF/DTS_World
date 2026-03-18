@@ -603,7 +603,7 @@
 |2600|TGV_Logo|
 |2601|Renfe_Logo|
 |2602|Eurostar_Logo|
-|2603||
+|2603|WJapan_125_Series_EMU|
 |2604||
 |2605||
 |2606||
