@@ -945,6 +945,8 @@ STR_REFIT_LIVERY_Hankyu_8000_Long_Seat                 : Hankyu 8000 Long Seat
 STR_REFIT_LIVERY_Hankyu_8000_Cross_Seat                : Hankyu 8000 Cross Seat
 STR_REFIT_LIVERY_Hankyu_8300_Long_Seat                 : Hankyu 8300 Long Seat
 STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat                : Hankyu 8300 Cross Seat
+STR_REFIT_LIVERY_West_Japan_125_1panto                 : Series 125 EMU 1Panto
+STR_REFIT_LIVERY_West_Japan_125_2panto                 : Series 125 EMU 2Panto
 
 # Liveries wagon
 STR_REFIT_LIVERY_Mugunghwa_2cc_1wagon                  : Mugunghwa 2cc 1wagon

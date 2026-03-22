@@ -49,12 +49,13 @@ item(FEAT_TRAINS, WJapan_125_Series_EMU, 2603){
         }
 
     graphics {
-        default:                        set_125_Series_EMU_engineH;
+        default:                        sw_West_Japan_125_1Car;
         purchase:                       sw_125_Series_EMU_purchase;
         speed:                          sw_Metro_120_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        cargo_subtype_text:             sw_West_Japan_125_cargo_subtype_text;
         sound_effect:                   sw_TOYODENKIIGBTStart_sound;
         }
         }

@@ -9,9 +9,11 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_World/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.68] 2026.03.18 <br>
+[1.68] 2026.03.22 <br>
 [이슈작업]
 * [열차추가] JR 서일본 125계 전동차 (32bpp) ([#719](https://github.com/DTS-NewGRF/DTS_World/issues/719))(2026.03.18)
+* [열차변경] EMU 900 그래픽 변경 ([#720](https://github.com/DTS-NewGRF/DTS_World/issues/720))(2026.03.22)
+* [열차변경][도색추가] JR 서일본 125계 팬터그래프 2개 장착 차량 ([#721](https://github.com/DTS-NewGRF/DTS_World/issues/721))(2026.03.22)
 
 ## 인게임 등록
 [1.67] 2026.03.16 <br>

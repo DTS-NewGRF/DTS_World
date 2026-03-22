@@ -4,8 +4,12 @@ Graphics
 /*--------------------------------------------------------------------
 125계 전동차
 --------------------------------------------------------------------*/
-spriteset(set_125_Series_EMU_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/125_Series_EMU/125_Series_EMU.png"){
+spriteset(set_125_Series_EMU_1panto_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/125_Series_EMU/125_Series_EMU.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_125_Series_EMU_2panto_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/125_Series_EMU/125_Series_EMU.png"){
+    DTS_temp(80, 27)
 }
 
 /*--------------------------------------------------------------------

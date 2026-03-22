@@ -2,5 +2,18 @@
 스위치
 --------------------------------------------------------------------*/
 // 도색명
-// 편성그래픽
-// 편성량
+switch(FEAT_TRAINS, SELF, sw_West_Japan_125_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_West_Japan_125_1panto);
+    1: return string(STR_REFIT_LIVERY_West_Japan_125_2panto);
+}
+
+// 열차
+switch(FEAT_TRAINS, SELF, sw_West_Japan_125_engine, cargo_subtype) {
+    0: set_125_Series_EMU_1panto_engineH;
+    1: set_125_Series_EMU_2panto_engineH;
+}
+
+// 편성 그래픽
+switch (FEAT_TRAINS, SELF, sw_West_Japan_125_1Car, position_in_vehid_chain % 1) {
+    sw_West_Japan_125_engine; //default
+    }
