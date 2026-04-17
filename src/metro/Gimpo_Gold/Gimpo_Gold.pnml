@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Gimpo_Gold_2Car, 2410){
         speed:                          80km/h;
         length:                         7;
         power:                          520 kW;
-        weight:                         20 ton;
+        weight:                         46 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

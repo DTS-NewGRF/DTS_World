@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Yangsan_AGT_2Car, 2543){
         speed:                          60km/h;
         length:                         6;
         power:                          400 kW;
-        weight:                         20 ton;
+        weight:                         48 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

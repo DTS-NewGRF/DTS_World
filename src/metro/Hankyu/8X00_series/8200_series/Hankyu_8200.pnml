@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Hankyu_8200_2Car, 2445){
         //spec
         speed:                          115km/h;
         power:                          1200 kW;
-        weight:                         29 ton;
+        weight:                         58 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

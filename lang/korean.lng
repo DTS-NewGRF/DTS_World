@@ -541,6 +541,10 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}열차구성 {}{GREEN} 객차형 승객 차량용
 STR_REFIT_train_configuration_Constrck                 :{BLACK}열차구성 {}{GREEN} 건설용 컨셉을 가진 차량으로 수익 0, 유지비만 나옵니다.
 
+# Test/Mail/Passenger
+STR_REFIT_LIVERY_Test                                  : 검측차
+STR_REFIT_LIVERY_Cargo                                 : 수송차
+
 # Korea / Liveries locomotive
 STR_REFIT_LIVERY_AREX_1000_Old                         : 구도색
 STR_REFIT_LIVERY_AREX_1000_New                         : 신도색

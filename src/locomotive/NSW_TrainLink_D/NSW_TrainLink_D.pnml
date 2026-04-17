@@ -40,8 +40,8 @@ item(FEAT_TRAINS, NSW_TrainLink_D_4Car, 2117){
         
         //spec
         speed:                          160km/h;
-        power:                          8000 kW;
-        weight:                         60 ton;
+        power:                          4000 kW;
+        weight:                         240 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -95,7 +95,7 @@ item(FEAT_TRAINS, NSW_TrainLink_D_6Car, 2142){
         //spec
         speed:                          160km/h;
         power:                          8000 kW;
-        weight:                         60 ton;
+        weight:                         360 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

@@ -542,6 +542,10 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}train configurati
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configuration {}{GREEN} Coach 2F Passenger vehicles
 STR_REFIT_train_configuration_Constrck                 :{BLACK}train configuration {}{GREEN} It is a vehicle with a construction concept and generates 0 profits and only maintenance costs.
 
+# Test/Mail/Passenger
+STR_REFIT_LIVERY_Test                                  : Test Train
+STR_REFIT_LIVERY_Cargo                                 : Cargo Train
+
 # Korea / Liveries locomotive
 STR_REFIT_LIVERY_AREX_1000_Old                         : Old
 STR_REFIT_LIVERY_AREX_1000_New                         : New

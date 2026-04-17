@@ -23,7 +23,7 @@ item(FEAT_TRAINS, TGV_A_12Car, 2080){
         //spec
         speed:                          270km/h;
         power:                          10400 kW;
-        weight:                         37 ton;
+        weight:                         630 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

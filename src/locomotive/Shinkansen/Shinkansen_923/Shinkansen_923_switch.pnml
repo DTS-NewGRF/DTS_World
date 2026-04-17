@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_923_7car, position_in_vehid_chain % 7) {
     1:set_Shinkansen_923_wagon;
     2:set_Shinkansen_923_panto_wagon;
@@ -11,7 +12,14 @@ switch (FEAT_TRAINS, SELF, sw_Shinkansen_923_7car, position_in_vehid_chain % 7) 
     set_Shinkansen_923_engineH; //default
     }
 
+// 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_923_7car, extra_callback_info1) {
     1..6: Shinkansen_923_7Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
+
+// 수송량
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_923_capacity_in_custom, cargo_subtype) {
+    1: return 83;
+       0;
+}

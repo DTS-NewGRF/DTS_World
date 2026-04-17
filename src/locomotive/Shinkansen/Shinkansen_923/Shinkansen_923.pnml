@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Shinkansen_923_7Car, 2096){
         //spec
         speed:                          285km/h;
         power:                          20000 kW;
-        weight:                         40 ton;
+        weight:                         280 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -34,10 +34,10 @@ item(FEAT_TRAINS, Shinkansen_923_7Car, 2096){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 0;
+        cargo_capacity:                 1;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
+        cargo_allow_refit:              [PASS, MAIL];
         cargo_disallow_refit:           [];
         
         //Costs
@@ -54,7 +54,9 @@ item(FEAT_TRAINS, Shinkansen_923_7Car, 2096){
         articulated_part:               sw_articulated_Shinkansen_923_7car;
         purchase:                       set_Shinkansen_923_purchase;
         speed:                          sw_High_285_speed_Test;
+        cargo_capacity:                 sw_Shinkansen_923_capacity_in_custom;
         cost_factor:                    10;
         running_cost_factor:            150;
+        cargo_subtype_text:             sw_Test_Cargo_subtype_text;
         }
         }

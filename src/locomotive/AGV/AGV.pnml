@@ -21,8 +21,8 @@ item(FEAT_TRAINS, AGV_11Car, 2063){
         
         //spec
         speed:                          300km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          18000 kW;
+        weight:                         440 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

@@ -21,8 +21,8 @@ item(FEAT_TRAINS, THSR_700T_12Car, 2118){
         
         //spec
         speed:                          362km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          21670 kW;
+        weight:                         528 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

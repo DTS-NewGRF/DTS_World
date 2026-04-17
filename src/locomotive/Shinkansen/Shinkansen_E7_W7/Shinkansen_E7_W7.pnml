@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Shinkansen_E7_W7_12Car, 2094){
         //spec
         speed:                          275km/h;
         power:                          12000 kW;
-        weight:                         45 ton;
+        weight:                         540 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

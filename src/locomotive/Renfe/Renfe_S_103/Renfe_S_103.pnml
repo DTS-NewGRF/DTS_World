@@ -22,8 +22,8 @@ item(FEAT_TRAINS, Renfe_S_103_8Car, 2074){
         
         //spec
         speed:                          362km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          12000 kW;
+        weight:                         320 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

@@ -23,7 +23,7 @@ item(FEAT_TRAINS, ICE2_8Car, 2068){
         //spec
         speed:                          280km/h;
         power:                          4800 kW;
-        weight:                         51 ton;
+        weight:                         480 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

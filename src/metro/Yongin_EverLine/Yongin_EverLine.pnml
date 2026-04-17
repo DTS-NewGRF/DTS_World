@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Yongin_EverLine_2Car, 2411){
         speed:                          80km/h;
         length:                         7;
         power:                          400 kW;
-        weight:                         20 ton;
+        weight:                         22 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

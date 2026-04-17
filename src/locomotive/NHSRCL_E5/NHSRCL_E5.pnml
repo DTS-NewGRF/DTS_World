@@ -21,8 +21,8 @@ item(FEAT_TRAINS, NHSRCL_E5_10Car, 2116){
         
         //spec
         speed:                          362km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          9960 kW;
+        weight:                         450 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

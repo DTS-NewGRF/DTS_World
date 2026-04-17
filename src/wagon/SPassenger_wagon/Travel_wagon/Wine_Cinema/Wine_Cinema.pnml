@@ -21,7 +21,7 @@ item (FEAT_TRAINS, Wine_Cinema_Passenger_Car, 2161){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         120 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model

@@ -22,8 +22,8 @@ item(FEAT_TRAINS, CRH1E_16Car, 2035){
         
         //spec
         speed:                          260km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          24000 kW;
+        weight:                         640 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

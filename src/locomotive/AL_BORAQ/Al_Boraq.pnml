@@ -22,7 +22,7 @@ item(FEAT_TRAINS, Al_Boraq_10Car, 2120){
         //spec
         speed:                          330km/h;
         power:                          10000 kW;
-        weight:                         40 ton;
+        weight:                         420 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

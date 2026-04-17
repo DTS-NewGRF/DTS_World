@@ -1,0 +1,8 @@
+/*--------------------------------------------------------------------
+공통 스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_Test_Cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Cargo);
+    return string(STR_REFIT_LIVERY_Test);
+}

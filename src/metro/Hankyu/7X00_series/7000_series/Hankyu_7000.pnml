@@ -42,7 +42,7 @@ item(FEAT_TRAINS, Hankyu_7000_2Car, 2448){
         //spec
         speed:                          115km/h;
         power:                          600 kW;
-        weight:                         29 ton;
+        weight:                         58 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -97,7 +97,7 @@ item(FEAT_TRAINS, Hankyu_7000_4Car, 2449){
         //spec
         speed:                          115km/h;
         power:                          1200 kW;
-        weight:                         29 ton;
+        weight:                         116 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -152,7 +152,7 @@ item(FEAT_TRAINS, Hankyu_7000_6Car, 2450){
         //spec
         speed:                          115km/h;
         power:                          2400 kW;
-        weight:                         29 ton;
+        weight:                         174 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -207,7 +207,7 @@ item(FEAT_TRAINS, Hankyu_7000_8Car, 2451){
         //spec
         speed:                          115km/h;
         power:                          2400 kW;
-        weight:                         29 ton;
+        weight:                         232 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

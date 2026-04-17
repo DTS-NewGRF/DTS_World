@@ -23,7 +23,7 @@ item(FEAT_TRAINS, MTR_AC_Cammall_8Car, 2053){
         //spec
         speed:                          120km/h;
         power:                          2000 kW;
-        weight:                         20 ton;
+        weight:                         280 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

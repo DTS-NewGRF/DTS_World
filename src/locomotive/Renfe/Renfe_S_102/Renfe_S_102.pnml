@@ -22,8 +22,8 @@ item(FEAT_TRAINS, Renfe_S_102_14Car, 2073){
         
         //spec
         speed:                          350km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          13000 kW;
+        weight:                         500 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

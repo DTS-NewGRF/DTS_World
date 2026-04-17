@@ -24,7 +24,7 @@ item(FEAT_TRAINS, Busanmetro_4000_6Car, 2412){
         speed:                          60km/h;
         length:                         6;
         power:                          1200 kW;
-        weight:                         20 ton;
+        weight:                         144 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

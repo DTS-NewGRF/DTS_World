@@ -40,8 +40,8 @@ item(FEAT_TRAINS, Eurostar_E300_16Car, 2545){
         
         //spec
         speed:                          362km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          13000 kW;
+        weight:                         560 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -96,8 +96,8 @@ item(FEAT_TRAINS, Eurostar_E300_20Car, 2065){
         
         //spec
         speed:                          362km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          13000 kW;
+        weight:                         640 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

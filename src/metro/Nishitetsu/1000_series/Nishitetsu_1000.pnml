@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Nishitetsu_1000_4Car, 2097){
         //spec
         speed:                          110km/h;
         power:                          640 kW;
-        weight:                         34 ton;
+        weight:                         136 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

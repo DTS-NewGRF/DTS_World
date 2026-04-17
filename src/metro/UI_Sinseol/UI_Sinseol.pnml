@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Ui_Sinseol_2Car, 2409){
         speed:                          70km/h;
         length:                         7;
         power:                          520 kW;
-        weight:                         20 ton;
+        weight:                         46 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

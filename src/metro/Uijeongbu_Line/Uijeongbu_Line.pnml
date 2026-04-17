@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Uijeongbu_Line_2Car, 2413){
         speed:                          80km/h;
         length:                         7;
         power:                          500 kW;
-        weight:                         20 ton;
+        weight:                         64 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

@@ -22,8 +22,8 @@ item(FEAT_TRAINS, CRH380B_8Car, 2041){
         
         //spec
         speed:                          380km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          14000 kW;
+        weight:                         320 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -75,8 +75,8 @@ item(FEAT_TRAINS, CRH380B_16Car, 2146){
         
         //spec
         speed:                          380km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          28000 kW;
+        weight:                         640 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

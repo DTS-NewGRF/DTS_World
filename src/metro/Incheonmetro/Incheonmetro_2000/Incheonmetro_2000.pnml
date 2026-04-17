@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Incheonmetro_2000_2Car, 2408){
         speed:                          80km/h;
         length:                         7;
         power:                          760 kW;
-        weight:                         20 ton;
+        weight:                         64 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

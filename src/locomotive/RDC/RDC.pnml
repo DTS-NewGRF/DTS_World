@@ -41,7 +41,7 @@ item(FEAT_TRAINS, RDC_3Car, 2349){
         //spec
         speed:                          121km/h;
         power:                          1044 kW;
-        weight:                         50 ton;
+        weight:                         120 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, RDC_4Car, 2350){
         //spec
         speed:                          121km/h;
         power:                          1566 kW;
-        weight:                         50 ton;
+        weight:                         160 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

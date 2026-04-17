@@ -22,8 +22,8 @@ item(FEAT_TRAINS, TGV_Reseau_Duplex_10Car, 2079){
         
         //spec
         speed:                          362km/h;
-        power:                          10000 kW;
-        weight:                         40 ton;
+        power:                          10400 kW;
+        weight:                         580 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

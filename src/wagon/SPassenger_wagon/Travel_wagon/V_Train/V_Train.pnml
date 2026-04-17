@@ -21,7 +21,7 @@ item (FEAT_TRAINS, V_Train_3Car, 2397){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         60 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model

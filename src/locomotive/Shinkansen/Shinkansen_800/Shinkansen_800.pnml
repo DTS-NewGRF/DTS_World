@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Shinkansen_800_6Car, 2088){
         //spec
         speed:                          260km/h;
         power:                          6600 kW;
-        weight:                         40 ton;
+        weight:                         240 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

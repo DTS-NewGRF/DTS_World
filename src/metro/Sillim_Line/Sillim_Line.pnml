@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Sillim_Line_3Car, 2414){
         speed:                          60km/h;
         length:                         6;
         power:                          600 kW;
-        weight:                         20 ton;
+        weight:                         72 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

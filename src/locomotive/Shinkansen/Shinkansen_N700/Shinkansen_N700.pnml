@@ -42,7 +42,7 @@ item(FEAT_TRAINS, Shinkansen_N700_8Car, 2089){
         //spec
         speed:                          300km/h;
         power:                          17080 kW;
-        weight:                         44 ton;
+        weight:                         352 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -94,8 +94,8 @@ item(FEAT_TRAINS, Shinkansen_N700_16Car, 2155){
         
         //spec
         speed:                          300km/h;
-        power:                          17080 kW;
-        weight:                         44 ton;
+        power:                          34160 kW;
+        weight:                         704 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

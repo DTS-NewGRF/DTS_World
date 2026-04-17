@@ -42,7 +42,7 @@ item(FEAT_TRAINS, Shinkansen_E5_H5_10Car, 2092){
         //spec
         speed:                          320km/h;
         power:                          9960 kW;
-        weight:                         45 ton;
+        weight:                         450 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -95,8 +95,8 @@ item(FEAT_TRAINS, Shinkansen_E5_H5_E6_17Car, 2305){
         
         //spec
         speed:                          320km/h;
-        power:                          9960 kW;
-        weight:                         45 ton;
+        power:                          19920 kW;
+        weight:                         751 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

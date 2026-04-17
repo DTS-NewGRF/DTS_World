@@ -39,7 +39,7 @@ item (FEAT_TRAINS, CY_GW_6Car, 2001){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         120 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model
@@ -89,7 +89,7 @@ item (FEAT_TRAINS, CY_GW_7Car, 2419){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         140 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model

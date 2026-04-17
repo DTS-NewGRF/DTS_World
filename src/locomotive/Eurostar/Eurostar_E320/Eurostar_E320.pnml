@@ -22,8 +22,8 @@ item(FEAT_TRAINS, Eurostar_E320_16Car, 2066){
         
         //spec
         speed:                          362km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          28000 kW;
+        weight:                         560 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

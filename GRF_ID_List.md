@@ -44,7 +44,7 @@
 |2041|CRH380B_8Car|
 |2042|CRH380C_16Car|
 |2043|CRH380D_8Car|
-|2044|CRH380AJ_8Car|
+|2044|CRH380AJ_8Car_Test|
 |2045|CR400AF_8Car|
 |2046|CR400AF_Z_8Car|
 |2047|CR400BF_8Car|
@@ -96,7 +96,7 @@
 |2093|Shinkansen_E6_7Car|
 |2094|Shinkansen_E7_W7_12Car|
 |2095|Shinkansen_E8_7Car|
-|2096|Shinkansen_923_7Car|
+|2096|Shinkansen_923_7Car_Test|
 |2097|Nishitetsu_1000_4Car|
 |2098|Nishitetsu_2000_6Car|
 |2099|Nishitetsu_3000_2Car|

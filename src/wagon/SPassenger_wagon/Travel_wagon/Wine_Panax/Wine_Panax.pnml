@@ -21,7 +21,7 @@ item (FEAT_TRAINS, Wine_Panax_Passenger_Car, 2160){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         140 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model

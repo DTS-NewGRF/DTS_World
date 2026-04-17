@@ -21,7 +21,7 @@ item (FEAT_TRAINS, East_Sea_5Car, 2561){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         100 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model

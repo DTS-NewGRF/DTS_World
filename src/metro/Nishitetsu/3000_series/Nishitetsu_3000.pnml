@@ -42,7 +42,7 @@ item(FEAT_TRAINS, Nishitetsu_3000_2Car, 2099){
         //spec
         speed:                          110km/h;
         power:                          525 kW;
-        weight:                         28 ton;
+        weight:                         56 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, Nishitetsu_3000_3Car, 2083){
         //spec
         speed:                          110km/h;
         power:                          700 kW;
-        weight:                         28 ton;
+        weight:                         84 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -150,7 +150,7 @@ item(FEAT_TRAINS, Nishitetsu_3000_5Car, 2105){
         //spec
         speed:                          110km/h;
         power:                          1225 kW;
-        weight:                         28 ton;
+        weight:                         140 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

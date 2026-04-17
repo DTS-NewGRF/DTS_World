@@ -9,32 +9,34 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_World/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
+[1.69] <br>
+Coming Soon
+
+## 인게임 등록
 [1.68] <br>
 [이슈작업]
 * [열차추가] JR 서일본 125계 전동차 (32bpp) ([#719](https://github.com/DTS-NewGRF/DTS_World/issues/719))(2026.03.18)
 * [열차변경] EMU 900 그래픽 변경 ([#720](https://github.com/DTS-NewGRF/DTS_World/issues/720))(2026.03.22)
 * [열차변경][도색추가] JR 서일본 125계 팬터그래프 2개 장착 차량 ([#721](https://github.com/DTS-NewGRF/DTS_World/issues/721))(2026.03.22)
 * 중국 객차 임시 삭제 ([#722](https://github.com/DTS-NewGRF/DTS_World/issues/722))(2026.04.13)
-
-## 인게임 등록
-[1.67] 2026.03.16 <br>
-[이슈외작업]
-* [DTS-Track] 지하선로, 협궤선로 추가 대응
-* [가상열차] 삭제예정 그래픽 적용 및 추가 구입 불가 설정. 곧 삭제예정.
-* [기본셋] 가상열차와의 분리로 인해 DTS->DTS_World로 이름을 변경하였음.
-
-[이슈작업]
-* [열차변경] KTX-청룡 2세대 그래픽 변경 ([#708](https://github.com/DTS-NewGRF/DTS_World/issues/708))(2026.01.01)
-* [열차변경] SRT 320 이관 (실존 → 가상) ([#709](https://github.com/DTS-NewGRF/DTS_World/issues/709))(2026.01.01)
-* [열차변경] SRT 320 그래픽 변경 (32bpp) ([#710](https://github.com/DTS-NewGRF/DTS_World/issues/710))(2026.01.01)
-* [열차변경] KTX-청룡 2세대 수송량 변경 및 등장년도 변경, SRT 320 등장년도 변경 ([#711](https://github.com/DTS-NewGRF/DTS_World/issues/711))(2026.01.10)
-* [버그] 부산김해경전철 전동차가 부산교통공사 그룹 아래에 있음 ([#712](https://github.com/DTS-NewGRF/DTS_World/issues/712))(2026.02.01)
-* [열차추가] TLX 관광열차 (32bpp) ([#713](https://github.com/DTS-NewGRF/DTS_World/issues/713))(2026.02.21)
-* [열차추가] [1067mm 협궤 전기열차] 타이완철로유한회사 EMU900 (회사 색상) ([#714](https://github.com/DTS-NewGRF/DTS_World/issues/714))(2026.02.23)
-  * [버그] 타이완철로유한회사 EMU900 그래픽 문제 수정 ([#715](https://github.com/DTS-NewGRF/DTS_World/issues/715))(2026.02.25)
-  * [버그] 타이완철로유한회사 EMU900 그래픽 문제 수정 (2) ([#716](https://github.com/DTS-NewGRF/DTS_World/issues/716))(2026.03.01)
-* [열차변경] NSW TrainLink D set 그래픽 리메이크 ([#717](https://github.com/DTS-NewGRF/DTS_World/issues/717))(2026.03.01)
-* [버그] Dual head 디젤액압동차의 출력이 낮은 문제 ([#718](https://github.com/DTS-NewGRF/DTS_World/issues/718))(2026.03.16)
+* [열차변경] 한국 우편차, 수화물차 수송량 조정 ([#723](https://github.com/DTS-NewGRF/DTS_World/issues/723))(2026.04.17)
+* [열차변경] 중국 수화물차 수송량 조정 및 복구 ([#724](https://github.com/DTS-NewGRF/DTS_World/issues/724))(2026.04.17)
+* [열차변경] 신칸센 923형(닥터 옐로우), CRH380AJ 우편수송 가능 매개변수 추가 ([#725](https://github.com/DTS-NewGRF/DTS_World/issues/725))(2026.04.17)
+* [열차변경] 관광열차 객차들 비정상적인 중량 수정 ([#726](https://github.com/DTS-NewGRF/DTS_World/issues/726))(2026.04.17)
+* [열차변경] 경전철 전동차 중량 변경 ([#727](https://github.com/DTS-NewGRF/DTS_World/issues/727))(2026.04.17)
+* [열차변경] 니시테츠 전동차 중량 변경 ([#728](https://github.com/DTS-NewGRF/DTS_World/issues/728))(2026.04.17)
+* [열차변경] 한큐전철 전동차 중량 변경 ([#729](https://github.com/DTS-NewGRF/DTS_World/issues/729))(2026.04.17)
+* [열차변경] 홍콩 MTR 전동차 중량 변경 ([#730](https://github.com/DTS-NewGRF/DTS_World/issues/730))(2026.04.17)
+* [열차변경] CRH 중량, 성능 변경 ([#731](https://github.com/DTS-NewGRF/DTS_World/issues/731))(2026.04.17)
+* [열차변경] 유로스타 중량, 성능 변경 ([#732](https://github.com/DTS-NewGRF/DTS_World/issues/732))(2026.04.17)
+* [열차변경] ICE 중량, 성능 변경 ([#733](https://github.com/DTS-NewGRF/DTS_World/issues/733))(2026.04.17)
+* [열차변경] 렌페 중량, 성능 변경 ([#734](https://github.com/DTS-NewGRF/DTS_World/issues/734))(2026.04.17)
+* [열차변경] 신칸센 중량, 성능 변경 ([#736](https://github.com/DTS-NewGRF/DTS_World/issues/736))(2026.04.17)
+* [열차변경] 디젤동차 중량, 성능 변경 ([#737](https://github.com/DTS-NewGRF/DTS_World/issues/737))(2026.04.17)
+* [열차변경] 우진산전 수소연료전지동차 중량, 성능 변경 ([#738](https://github.com/DTS-NewGRF/DTS_World/issues/738))(2026.04.17)
+* [열차변경] NSW TrainLink D 중량,성능 변경 ([#739](https://github.com/DTS-NewGRF/DTS_World/issues/739))(2026.04.17)
+* [열차변경] 기타 나머지 열차 중량, 성능 변경 ([#740](https://github.com/DTS-NewGRF/DTS_World/issues/740))(2026.04.17)
+* [열차변경] TGV 중량, 성능 변경 ([#741](https://github.com/DTS-NewGRF/DTS_World/issues/741))(2026.04.17)
 
 ## 등록기준
 ### 공통사항

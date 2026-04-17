@@ -21,7 +21,7 @@ item (FEAT_TRAINS, TLX_5Car, 2570){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         100 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model

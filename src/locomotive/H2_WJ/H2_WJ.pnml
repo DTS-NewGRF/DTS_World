@@ -41,7 +41,7 @@ item(FEAT_TRAINS, H2_WJ_2Car, 2008){
         //spec
         speed:                          121km/h;
         power:                          2200 kW;
-        weight:                         30 ton;
+        weight:                         86 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -95,8 +95,8 @@ item(FEAT_TRAINS, H2_WJ_4Car, 2060){
         
         //spec
         speed:                          121km/h;
-        power:                          2200 kW;
-        weight:                         30 ton;
+        power:                          4400 kW;
+        weight:                         172 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

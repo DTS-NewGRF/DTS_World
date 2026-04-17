@@ -32,7 +32,7 @@ item(FEAT_TRAINS, Post_Car, 2476){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 50;
+        cargo_capacity:                 100;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [MAIL];

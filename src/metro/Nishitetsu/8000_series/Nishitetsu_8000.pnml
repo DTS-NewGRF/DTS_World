@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Nishitetsu_8000_6Car, 2103){
         //spec
         speed:                          110km/h;
         power:                          2160 kW;
-        weight:                         29 ton;
+        weight:                         174 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

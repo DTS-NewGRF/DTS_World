@@ -22,7 +22,7 @@ item(FEAT_TRAINS, Keisei_AE_series_8Car, 2084){
         //spec
         speed:                          160km/h;
         power:                          4200 kW;
-        weight:                         39 ton;
+        weight:                         312 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

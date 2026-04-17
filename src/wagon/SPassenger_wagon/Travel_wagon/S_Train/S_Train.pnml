@@ -39,7 +39,7 @@ item (FEAT_TRAINS, S_Train_New_4Car, 2332){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         80 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model
@@ -89,7 +89,7 @@ item (FEAT_TRAINS, S_Train_5Car, 2163){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         100 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model

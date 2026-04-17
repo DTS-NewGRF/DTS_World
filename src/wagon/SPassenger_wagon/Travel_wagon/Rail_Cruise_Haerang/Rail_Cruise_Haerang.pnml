@@ -21,7 +21,7 @@ item (FEAT_TRAINS, Rail_Cruise_Haerang, 2405){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         160 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model

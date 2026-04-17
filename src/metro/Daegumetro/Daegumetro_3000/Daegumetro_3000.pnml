@@ -24,7 +24,7 @@ item(FEAT_TRAINS, Daegumetro_3000_3Car, 2424){
         speed:                          70km/h;
         length:                         7;
         power:                          1050 kW;
-        weight:                         20 ton;
+        weight:                         120 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

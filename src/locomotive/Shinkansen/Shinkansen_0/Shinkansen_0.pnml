@@ -41,8 +41,8 @@ item(FEAT_TRAINS, Shinkansen_0_12Car, 2085){
         
         //spec
         speed:                          220km/h;
-        power:                          1480 kW;
-        weight:                         60 ton;
+        power:                          14800 kW;
+        weight:                         720 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -95,8 +95,8 @@ item(FEAT_TRAINS, Shinkansen_0_16Car, 2126){
         
         //spec
         speed:                          220km/h;
-        power:                          1480 kW;
-        weight:                         60 ton;
+        power:                          20720 kW;
+        weight:                         960 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

@@ -21,7 +21,7 @@ item (FEAT_TRAINS, A_Train_Passenger_Car, 2164){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         80 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model

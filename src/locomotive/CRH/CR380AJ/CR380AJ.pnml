@@ -22,8 +22,8 @@ item(FEAT_TRAINS, CRH380AJ_8Car, 2044){
         
         //spec
         speed:                          350km/h;
-        power:                          20000 kW;
-        weight:                         40 ton;
+        power:                          14000 kW;
+        weight:                         320 ton;
         tractive_effort_coefficient:    0.3;        
         air_drag_coefficient:           0.01;
         
@@ -34,10 +34,10 @@ item(FEAT_TRAINS, CRH380AJ_8Car, 2044){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 0;
+        cargo_capacity:                 1;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
+        cargo_allow_refit:              [PASS, MAIL];
         cargo_disallow_refit:           [];
         
         //Costs
@@ -54,7 +54,9 @@ item(FEAT_TRAINS, CRH380AJ_8Car, 2044){
         articulated_part:               sw_articulated_CRH380AJ_8car;
         purchase:                       set_CRH380AJ_purchase;
         speed:                          sw_High_350_speed;
+        cargo_capacity:                 sw_CRH380AJ_capacity_in_custom;
         cost_factor:                    10;
         running_cost_factor:            150;
+        cargo_subtype_text:             sw_Test_Cargo_subtype_text;
         }
         }

@@ -22,8 +22,8 @@ item(FEAT_TRAINS, CRH1A_A_8Car, 2036){
         
         //spec
         speed:                          260km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          12000 kW;
+        weight:                         320 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

@@ -41,8 +41,8 @@ item(FEAT_TRAINS, ICE4_7Car, 2071){
         
         //spec
         speed:                          260km/h;
-        power:                          700 kW;
-        weight:                         67 ton;
+        power:                          10000 kW;
+        weight:                         469 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -95,8 +95,8 @@ item(FEAT_TRAINS, ICE4_12Car, 2123){
         
         //spec
         speed:                          260km/h;
-        power:                          700 kW;
-        weight:                         67 ton;
+        power:                          20000 kW;
+        weight:                         804 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

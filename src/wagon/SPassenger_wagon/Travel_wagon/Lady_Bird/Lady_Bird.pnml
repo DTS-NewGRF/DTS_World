@@ -21,7 +21,7 @@ item (FEAT_TRAINS, Lady_Bird_Passenger_Car, 2162){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         180 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model
