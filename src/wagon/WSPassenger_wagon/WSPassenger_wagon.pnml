@@ -1,27 +1,26 @@
 /*--------------------------------------------------------------------
-고속 수화물 차량
+월드 객차차량
 --------------------------------------------------------------------*/
 // Graphics
-#include "Express_Luggage_graphic.pnml"
+#include "WSPassenger_wagon_graphic.pnml"
 
 // Switch
-#include "Express_Luggage_switch.pnml"
+#include "WSPassenger_wagon_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Express_Luggage, 2004){
+item(FEAT_TRAINS, WSPassenger_Tanzania, 2604){
     property {
-        name:                           string(STR_Express_Luggage_NAME);
+        name:                           string(STR_TRC_SungShinRST_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1999, 1, 1);
+        introduction_date:              date(2022, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Group_Luggage;
         
         //spec
         power:                          0 kW;
-        weight:                         17 ton;
+        weight:                         37 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model
@@ -31,10 +30,10 @@ item(FEAT_TRAINS, Express_Luggage, 2004){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 100;
+        cargo_capacity:                 80;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [MAIL, VALU];
+        cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
         
         //Costs
@@ -46,13 +45,13 @@ item(FEAT_TRAINS, Express_Luggage, 2004){
         }
 
 	graphics {
-        default:                        sw_Express_Luggage_wagon_1Car;
-        purchase:                       sw_Express_Luggage_purchase;
-        speed:                          sw_wagon_150_speed;
+        default:                        sw_WSPassenger_wagon_Tanzania_1Car;
+        purchase:                       set_WSPassenger_wagon_Tanzania_purchase;
+        speed:                          sw_WSPassenger_wagon_Tanzania_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_Express_Luggage_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Express_Luggage);
+        cargo_capacity:                 sw_WSPassenger_wagon_Tanzania_capacity_in_custom;
+        cargo_subtype_text:             sw_WSPassenger_wagon_Tanzania_cargo_subtype_text;
         }
         }

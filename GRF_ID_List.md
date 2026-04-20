@@ -604,8 +604,8 @@
 |2601|Renfe_Logo|
 |2602|Eurostar_Logo|
 |2603|WJapan_125_Series_EMU|
-|2604||
-|2605||
+|2604|WSPassenger_Tanzania|
+|2605|TRC_E6800|
 |2606||
 |2607||
 |2608||

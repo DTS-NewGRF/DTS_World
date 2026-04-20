@@ -388,6 +388,7 @@ sort(FEAT_TRAINS, [
     NSW_TrainLink_D,                         //2195
     NSW_TrainLink_D_4Car,                    //2117
     NSW_TrainLink_D_6Car,                    //2142
+    TRC_E6800,                               //2605
 
     //준고속 180
     GTX_8Car,                                //2017
@@ -451,6 +452,7 @@ sort(FEAT_TRAINS, [
     Tong_il_Special,                         //2474
     CSPassenger_Car,                         //2031
     ESPassenger_Car,                         //2061
+    WSPassenger_Tanzania,                    //2604
     Generatar_2cc,                           //2003
     Generatar_Real_OutLook,                  //2395
     Generatar_Real_Stream_lined,             //2394

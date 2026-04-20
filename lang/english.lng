@@ -192,6 +192,7 @@ STR_NSW_TrainLink_D_4Car_NAME                          :[4Car] NSW TrainLink D
 STR_NSW_TrainLink_D_6Car_NAME                          :[6Car] NSW TrainLink D
 STR_Talgo_350_SRO_14Car_NAME                           :[14Car] Talgo 350 SRO
 STR_THSR_700T_12Car_NAME                               :[12Car] THSR 700T
+STR_TRC_E6800_NAME                                     :TRC E6800 Electric locomotive
 
 # Korea / Metro's name
 STR_AREX_1000_1st_6Car_NAME                            :[6Car] AREX series 1000 1st
@@ -432,6 +433,7 @@ STR_Group_Tong_il_NAME                                 :Tong_il
 STR_Tong_il_Normal_NAME                                :Tong-il Regular class
 STR_Tong_il_Service_NAME                               :Tong-il restaurant car & sleeping car
 STR_Tong_il_Special_NAME                               :Tong-il First class
+STR_TRC_SungShinRST_NAME                               :TRC SungShinRST Passinger car
 STR_Group_Generatar_NAME                               :Generatar Car
 STR_Generatar_2cc_NAME                                 :Korea Generatar 2cc Car
 STR_Generatar_Real_OutLook_NAME                        :Korea Outlook & Right Angle Shape Generator Car
@@ -1169,6 +1171,9 @@ STR_REFIT_LIVERY_JA_a_New                              : New
 STR_REFIT_LIVERY_S_Train_Old_B                         : Old Blue
 STR_REFIT_LIVERY_S_Train_Old_P                         : Old Pink
 STR_REFIT_LIVERY_S_Train_New                           : New
+STR_REFIT_LIVERY_TRC_SungShinRST_ECB                   : 2nd, 3rd coach(ECB)
+STR_REFIT_LIVERY_TRC_SungShinRST_BCB                   : 1st coach(BCB)
+STR_REFIT_LIVERY_TRC_SungShinRST_BCB_K                 : 1st coach 1Door(BCB-K)
 STR_REFIT_LIVERY_Generatar_2cc                         : Generatar Car
 STR_REFIT_LIVERY_Generatar_2cc_S1                      : Early livery Overview car
 STR_REFIT_LIVERY_Generatar_2cc_L1                      : Early livery Long length Old car

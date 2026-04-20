@@ -1,0 +1,38 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색
+switch(FEAT_TRAINS, SELF, sw_WSPassenger_wagon_Tanzania_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_TRC_SungShinRST_BCB);
+    2: return string(STR_REFIT_LIVERY_TRC_SungShinRST_BCB_K);
+    return string(STR_REFIT_LIVERY_TRC_SungShinRST_ECB);
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_WSPassenger_wagon_Tanzania, cargo_subtype) {
+    1: set_WSPassenger_wagon_Tanzania_BCB_ECB;
+    2: set_WSPassenger_wagon_Tanzania_BCB_K;
+    set_WSPassenger_wagon_Tanzania_BCB_ECB;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_WSPassenger_wagon_Tanzania_1Car, position_in_vehid_chain % 1) {
+    sw_WSPassenger_wagon_Tanzania; //default
+    }
+
+// 수송량
+switch(FEAT_TRAINS, SELF, sw_WSPassenger_wagon_Tanzania_capacity_in_custom, cargo_subtype) {
+    1: return 51;
+    2: return 43;
+       80;
+}
+
+//속도
+switch(FEAT_TRAINS, SELF, sw_WSPassenger_wagon_Tanzania_speed_nomal, cargo_subtype) {
+   sw_wagon_120_speed;
+}
+
+switch(FEAT_TRAINS, SELF, sw_WSPassenger_wagon_Tanzania_speed, Use_Passengercar_Real_speed) {
+   1: sw_WSPassenger_wagon_Tanzania_speed_nomal;
+   return 0;
+   }

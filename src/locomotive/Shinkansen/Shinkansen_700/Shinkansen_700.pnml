@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Shinkansen_700_16Car, 2087){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 82;
+        cargo_capacity:                 83;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];

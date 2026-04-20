@@ -37,6 +37,7 @@
 #include "locomotive/Talgo_350_SRO/Talgo_350_SRO.pnml"
 #include "locomotive/TGV/TGV.pnml"
 #include "locomotive/THSR_700T/THSR_700T.pnml"
+#include "locomotive/TRC_E6800/TRC_E6800.pnml"
 #include "locomotive/TTX/TTX.pnml"
 
 // Metro
@@ -77,6 +78,7 @@
 #include "wagon/Luggage/Luggage.pnml"
 #include "wagon/Mail/Mail.pnml"
 #include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
+#include "wagon/WSPassenger_wagon/WSPassenger_wagon.pnml"
 
 // Sorting
 #include "sort.pnml"

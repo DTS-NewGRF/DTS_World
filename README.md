@@ -10,7 +10,15 @@
 
 ## 최근 등록 릴리즈
 [1.69] <br>
-Coming Soon
+* [버그] 신칸센 500계, 700계, N700계 16량 수송량이 잘못됨 ([#743](https://github.com/DTS-NewGRF/DTS_World/issues/743))(2026.04.20)
+* [버그] 신칸센 N700S계 니시큐슈 출력이 과함 ([#744](https://github.com/DTS-NewGRF/DTS_World/issues/744))(2026.04.20)
+* [버그] 한큐전철 7300형 전동차 6량편성 출력이 낮음 ([#745](https://github.com/DTS-NewGRF/DTS_World/issues/745))(2026.04.20)
+* [버그] 고속수화물차 수송량 조정 적용이 안되어 있음 ([#746](https://github.com/DTS-NewGRF/DTS_World/issues/746))(2026.04.20)
+* [버그] 중국 객차, 중국 발전차의 임시 삭제 처리가 복구되어 있지 않음 ([#747](https://github.com/DTS-NewGRF/DTS_World/issues/747))(2026.04.20)
+* [열차변경] JR 서일본 125계 전동차 구매창 이미지 변경 ([#748](https://github.com/DTS-NewGRF/DTS_World/issues/748))(2026.04.20)
+* [열차추가][World] 탄자니아철도공사 성신RST 객차 (32bpp) ([#749](https://github.com/DTS-NewGRF/DTS_World/issues/749))(2026.04.20)
+* [사운드변경][사운드 삭제] KTX-산천 A타입, SRT + KTX-산천 B타입 중련편성 전용 사운드 삭제 ([#750](https://github.com/DTS-NewGRF/DTS_World/issues/750))(2026.04.20)
+* [열차추가][World] 탄자니아 철도공사 E6800호대 전기기관차(32bpp) ([#751](https://github.com/DTS-NewGRF/DTS_World/issues/751))(2026.04.20)
 
 ## 인게임 등록
 [1.68] <br>

@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_WSPassenger_wagon_Tanzania_BCB_ECB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/WSPassenger_wagon/WSPassenger_wagon_Tanzania.png") {
+    DTS_temp(80, 0)
+}
+
+spriteset(set_WSPassenger_wagon_Tanzania_BCB_K, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/WSPassenger_wagon/WSPassenger_wagon_Tanzania.png") {
+    DTS_temp(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_WSPassenger_wagon_Tanzania_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/WSPassenger_wagon/WSPassenger_wagon_Tanzania.png"){
+    tmpl_wagon_purchase(0, 0)
+}

@@ -332,16 +332,18 @@ switch(FEAT_TRAINS, SELF, sw_KTXSC140000start_sound, extra_callback_info1) {
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
+
 /*--------------------------------------------------------------------
 KTXSCABstart.wav
 적용열차
 - KTX-산천 중련
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_KTXSCABstart_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/KTXSCABstart.wav");
+    SOUND_EVENT_START: sound("sounds/osfx_10.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
+
 /*--------------------------------------------------------------------
 KTXSCstart.wav
 적용열차
@@ -447,6 +449,7 @@ osfx_65.wav
 적용열차
 - DFX
 - DPX
+- KTX-산천 중련
 - KTX-태극
 - VHST-600X
 --------------------------------------------------------------------*/
@@ -507,6 +510,17 @@ SIEMENSGTOstart.wav
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_SIEMENSGTOstart_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/SIEMENSGTOstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
+SKODA_LOCO_start.wav
+적용열차
+- 탄자니아 철도공사 E6800호대 전기기관차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_SKODA_LOCO_start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/SKODA_LOCO_start.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }

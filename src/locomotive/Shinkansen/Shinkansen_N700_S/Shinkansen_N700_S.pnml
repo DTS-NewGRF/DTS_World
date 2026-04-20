@@ -41,7 +41,7 @@ item(FEAT_TRAINS, Shinkansen_N700_S_6Car, 2090){
         
         //spec
         speed:                          260km/h;
-        power:                          17080 kW;
+        power:                          11388 kW;
         weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -106,7 +106,7 @@ item(FEAT_TRAINS, Shinkansen_N700_S_16Car, 2156){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 82;
+        cargo_capacity:                 83;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];

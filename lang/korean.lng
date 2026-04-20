@@ -191,6 +191,7 @@ STR_NSW_TrainLink_D_4Car_NAME                          :[4량] NSW TrainLink D
 STR_NSW_TrainLink_D_6Car_NAME                          :[6량] NSW TrainLink D
 STR_THSR_700T_12Car_NAME                               :[12량] 타이완 고속철도 700T형
 STR_Talgo_350_SRO_14Car_NAME                           :[14량] 탈고 350 SRO (하라마인 고속철도)
+STR_TRC_E6800_NAME                                     :TRC E6800 전기기관차
 
 # Korea / Metro's name
 STR_AREX_1000_1st_6Car_NAME                            :[6량] 공항철도 1000호대 1세대 전동차
@@ -431,6 +432,7 @@ STR_Group_Tong_il_NAME                                 :통일호
 STR_Tong_il_Normal_NAME                                :통일호 일반실
 STR_Tong_il_Service_NAME                               :통일호 식당차 & 침대차
 STR_Tong_il_Special_NAME                               :통일호 특실
+STR_TRC_SungShinRST_NAME                               :TRC 성신RST 객차
 STR_Group_Generatar_NAME                               :발전차
 STR_Generatar_2cc_NAME                                 :한국 발전차 2cc
 STR_Generatar_Real_OutLook_NAME                        :한국 전망형 & 직각형 발전차
@@ -1168,6 +1170,9 @@ STR_REFIT_LIVERY_JA_a_New                              : 신도색
 STR_REFIT_LIVERY_S_Train_Old_B                         : 구도색 파랑
 STR_REFIT_LIVERY_S_Train_Old_P                         : 구도색 분홍
 STR_REFIT_LIVERY_S_Train_New                           : 신도색
+STR_REFIT_LIVERY_TRC_SungShinRST_ECB                   : 2등 객차, 3등 객차(ECB)
+STR_REFIT_LIVERY_TRC_SungShinRST_BCB                   : 1등 객차(BCB)
+STR_REFIT_LIVERY_TRC_SungShinRST_BCB_K                 : 1등 객차 1도어(BCB-K)
 STR_REFIT_LIVERY_Generatar_2cc                         : 발전차
 STR_REFIT_LIVERY_Generatar_2cc_S1                      : 전망형 발전차 초기도색
 STR_REFIT_LIVERY_Generatar_2cc_L1                      : 장대형 구형 발전차 초기도색
