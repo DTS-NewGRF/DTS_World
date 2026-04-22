@@ -184,7 +184,8 @@ item(FEAT_TRAINS, Nishitetsu_6050_3Car, 2181){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_MITSUBISHIGTO1start_sound;
+        cargo_subtype_text:             sw_Nishitetsu_6050_cargo_subtype_text;
+        sound_effect:                   sw_Nishitetsu_6050_sound;
         }
         }
 
@@ -238,6 +239,7 @@ item(FEAT_TRAINS, Nishitetsu_6050_4Car, 2182){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_MITSUBISHIGTO1start_sound;
+        cargo_subtype_text:             sw_Nishitetsu_6050_cargo_subtype_text;
+        sound_effect:                   sw_Nishitetsu_6050_sound;
         }
         }

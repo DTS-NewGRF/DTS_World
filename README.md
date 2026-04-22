@@ -19,6 +19,7 @@
 * [열차추가][World] 탄자니아철도공사 성신RST 객차 (32bpp) ([#749](https://github.com/DTS-NewGRF/DTS_World/issues/749))(2026.04.20)
 * [사운드변경][사운드 삭제] KTX-산천 A타입, SRT + KTX-산천 B타입 중련편성 전용 사운드 삭제 ([#750](https://github.com/DTS-NewGRF/DTS_World/issues/750))(2026.04.20)
 * [열차추가][World] 탄자니아 철도공사 E6800호대 전기기관차(32bpp) ([#751](https://github.com/DTS-NewGRF/DTS_World/issues/751))(2026.04.20)
+* [열차변경] 니시테츠 6050형 사운드 추가(개조) ([#752](https://github.com/DTS-NewGRF/DTS_World/issues/752))(2026.04.22)
 
 ## 인게임 등록
 [1.68] <br>

@@ -920,6 +920,8 @@ STR_REFIT_LIVERY_Nishitetsu_2000_Normal                : Nishitetsu 2000 series 
 STR_REFIT_LIVERY_Nishitetsu_2000_Express               : Nishitetsu 2000 series Express
 STR_REFIT_LIVERY_Nishitetsu_5000_MG                    : Nishitetsu 5000 series MG
 STR_REFIT_LIVERY_Nishitetsu_5000_SIV                   : Nishitetsu 5000 series SIV
+STR_REFIT_LIVERY_Nishitetsu_6050_GTO                   : GTO
+STR_REFIT_LIVERY_Nishitetsu_6050_SIC                   : SIC
 STR_REFIT_LIVERY_Nishitetsu_7000                       : Nishitetsu 7000
 STR_REFIT_LIVERY_Nishitetsu_7050                       : Nishitetsu 7050
 STR_REFIT_LIVERY_Hankyu_6000                           : Old

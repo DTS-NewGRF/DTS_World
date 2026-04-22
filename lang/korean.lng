@@ -919,6 +919,8 @@ STR_REFIT_LIVERY_Nishitetsu_2000_Normal                : 니시테츠 2000형 �
 STR_REFIT_LIVERY_Nishitetsu_2000_Express               : 니시테츠 2000형 특급도색
 STR_REFIT_LIVERY_Nishitetsu_5000_MG                    : 니시테츠 5000형 전동발전기
 STR_REFIT_LIVERY_Nishitetsu_5000_SIV                   : 니시테츠 5000형 정지형 인버터
+STR_REFIT_LIVERY_Nishitetsu_6050_GTO                   : GTO
+STR_REFIT_LIVERY_Nishitetsu_6050_SIC                   : SIC
 STR_REFIT_LIVERY_Nishitetsu_7000                       : 니시테츠 7000형
 STR_REFIT_LIVERY_Nishitetsu_7050                       : 니시테츠 7050형
 STR_REFIT_LIVERY_Hankyu_6000                           : 구도색

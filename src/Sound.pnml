@@ -358,6 +358,17 @@ switch(FEAT_TRAINS, SELF, sw_KTXSCstart_sound, extra_callback_info1) {
     }
 
 /*--------------------------------------------------------------------
+Mitsubishi_VVVF_SiC_1.wav
+적용열차
+- 니시테츠 6050
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Mitsubishi_VVVF_SiC_1_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/Mitsubishi_VVVF_SiC_1.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
 MITSUBISHICHOPPER1start.wav
 적용열차
 - 서울교통공사 2000호대 멜코초퍼 전동차
