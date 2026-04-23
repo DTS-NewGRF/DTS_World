@@ -452,27 +452,6 @@ STR_FLAT_1F_NAME                                       :평판화차
 STR_FLAT_Tank_NAME                                     :평판유조 화차
 STR_FLAT_2F_NAME                                       :평판화차 - 미국형
 
-# Object's name
-STR_OBJ_BUFFER                                         :{RED}[삭제예정] {BLACK}차막이
-STR_OBJ_BUFFER_Concrete                                :{RED}[삭제예정] {BLACK}콘크리트 차막이
-STR_OBJ_BUFFER_pebble                                  :{RED}[삭제예정] {BLACK}자갈 차막이
-STR_OBJ_BUFFER_signboard                               :{RED}[삭제예정] {BLACK}표지판 차막이
-
-# Waypoint's name
-STR_Waypoint                                           :{RED}[삭제예정] {BLACK}미사용 승강장
-STR_Waypoint_Nousestation_HighA                        :{RED}[삭제예정] {BLACK}미사용 고상홈A
-STR_Waypoint_Nousestation_HighB                        :{RED}[삭제예정] {BLACK}미사용 고상홈B
-STR_Waypoint_Nousestation_LowA                         :{RED}[삭제예정] {BLACK}미사용 저상홈A
-STR_Waypoint_Nousestation_LowB                         :{RED}[삭제예정] {BLACK}미사용 저상홈B
-STR_Waypoint_Nousestation_ALowA                        :{RED}[삭제예정] {BLACK}미사용 아스팔트 저상홈A
-STR_Waypoint_Nousestation_ALowB                        :{RED}[삭제예정] {BLACK}미사용 아스팔트 저상홈B
-STR_Waypoint_Nousestation_HighA_Snow                   :{RED}[삭제예정] {BLACK}미사용 고상홈A 아한대
-STR_Waypoint_Nousestation_HighB_Snow                   :{RED}[삭제예정] {BLACK}미사용 고상홈B 아한대
-STR_Waypoint_Nousestation_LowA_Snow                    :{RED}[삭제예정] {BLACK}미사용 저상홈A 아한대
-STR_Waypoint_Nousestation_LowB_Snow                    :{RED}[삭제예정] {BLACK}미사용 저상홈B 아한대
-STR_Waypoint_Nousestation_ALowA_Snow                   :{RED}[삭제예정] {BLACK}미사용 아스팔트 저상홈A 아한대
-STR_Waypoint_Nousestation_ALowB_Snow                   :{RED}[삭제예정] {BLACK}미사용 아스팔트 저상홈B 아한대
-
 # Parameters
 STR_PARAM_max_virtual_speed_NAME                       :가상속도 적용
 STR_PARAM_max_virtual_speed_DESC                       :가상속도를 적용할지 체크합니다.{}- 기본:현실속도

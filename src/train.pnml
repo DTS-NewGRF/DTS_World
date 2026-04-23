@@ -82,33 +82,3 @@
 
 // Sorting
 #include "sort.pnml"
-
-// 삭제예정 열차들
-#include "locomotive/DTX/DTX.pnml"
-#include "Virtual/Virtual.pnml"
-#include "locomotive/Glory/Glory.pnml"
-#include "locomotive/DFX/DFX.pnml"
-#include "locomotive/DPX/DPX.pnml"
-#include "metro/Nextrain/Nextrain.pnml"
-#include "locomotive/CTX/CTX.pnml"
-#include "locomotive/VHST_600X/VHST_600X.pnml"
-#include "metro/IMR_001/IMR_001.pnml"
-#include "metro/MEL_150/MEL_150.pnml"
-#include "locomotive/CL_150/CL_150.pnml"
-#include "locomotive/Transparency/Transparency.pnml"
-#include "Showcase/Showcase.pnml"
-#include "wagon/SPassenger_wagon/PEX/PEX.pnml"
-#include "wagon/SPassenger_wagon/PEX_Super/PEX_Super.pnml"
-
-// 삭제예정 열차 그래픽
-spriteset(set_Deleted_purchase, "Deleted_Train_Image.png"){
-    tmpl_purchase(0, 0)
-}
-
-spriteset(set_Deleted_engineH, "Deleted_Train_Image.png"){
-    DTS_temp(80, 0)
-}
-
-spriteset(set_Deleted_wagon, "Deleted_Train_Image.png") {
-    DTS_temp(80, 27)
-}

@@ -187,6 +187,7 @@ switch(FEAT_TRAINS, SELF, sw_FEL8500Start_sound, extra_callback_info1) {
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
+
 /*--------------------------------------------------------------------
 Filed_Chopper_Control.wav
 적용열차
@@ -197,6 +198,7 @@ switch(FEAT_TRAINS, SELF, sw_Filed_Chopper_Control_sound, extra_callback_info1) 
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
+
 /*--------------------------------------------------------------------
 GECCHOPPERstart.wav
 적용열차
@@ -208,6 +210,7 @@ switch(FEAT_TRAINS, SELF, sw_GECCHOPPERstart_sound, extra_callback_info1) {
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
+
 /*--------------------------------------------------------------------
 GT18BMstart.wav
 적용열차
@@ -219,6 +222,7 @@ switch(FEAT_TRAINS, SELF, sw_GT18BMstart_sound, extra_callback_info1) {
     SOUND_EVENT_STOPPED: sound("sounds/GT26CWDIESELIdle.wav");
     return CB_RESULT_NO_SOUND;
     }
+
 /*--------------------------------------------------------------------
 GT26CWDieselStart.wav
 적용열차
@@ -230,6 +234,7 @@ switch(FEAT_TRAINS, SELF, sw_GT26CWDieselStart_sound, extra_callback_info1) {
     SOUND_EVENT_STOPPED: sound("sounds/GT26CWDIESELIdle.wav");
     return CB_RESULT_NO_SOUND;
     }
+
 /*--------------------------------------------------------------------
 HITACHIStart.wav
 적용열차
@@ -241,6 +246,7 @@ switch(FEAT_TRAINS, SELF, sw_HITACHIStart_sound, extra_callback_info1) {
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
+
 /*--------------------------------------------------------------------
 HYUNDAIROTEMIGBTIPM2start.wav
 적용열차
@@ -266,6 +272,7 @@ switch(FEAT_TRAINS, SELF, sw_HYUNDAIROTEMStart_sound, extra_callback_info1) {
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
+
 /*--------------------------------------------------------------------
 HYUNDAIROTEMIGBTIPM1Kstart.wav
 적용열차
@@ -294,6 +301,7 @@ switch(FEAT_TRAINS, SELF, sw_HYUNDAIROTEMIGBTIPM1Kstart_sound, extra_callback_in
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
+
 /*--------------------------------------------------------------------
 HYUNDAIROTEMIGBTIPM1start.wav
 적용열차
@@ -311,6 +319,7 @@ switch(FEAT_TRAINS, SELF, sw_HYUNDAIROTEMIGBTIPM1start_sound, extra_callback_inf
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
+
 /*--------------------------------------------------------------------
 HYUNDAIROTEMPMSMstart.wav
 적용열차
@@ -322,6 +331,7 @@ switch(FEAT_TRAINS, SELF, sw_HYUNDAIROTEMPMSMstart_sound, extra_callback_info1) 
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
+    
 /*--------------------------------------------------------------------
 KTXSC140000start.wav
 적용열차
