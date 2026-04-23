@@ -9,6 +9,10 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_World/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
+[1.70] <br>
+* Coming soon
+
+## 인게임 등록
 [1.69] <br>
 * [버그] 신칸센 500계, 700계, N700계 16량 수송량이 잘못됨 ([#743](https://github.com/DTS-NewGRF/DTS_World/issues/743))(2026.04.20)
 * [버그] 신칸센 N700S계 니시큐슈 출력이 과함 ([#744](https://github.com/DTS-NewGRF/DTS_World/issues/744))(2026.04.20)
@@ -20,32 +24,6 @@
 * [사운드변경][사운드 삭제] KTX-산천 A타입, SRT + KTX-산천 B타입 중련편성 전용 사운드 삭제 ([#750](https://github.com/DTS-NewGRF/DTS_World/issues/750))(2026.04.20)
 * [열차추가][World] 탄자니아 철도공사 E6800호대 전기기관차(32bpp) ([#751](https://github.com/DTS-NewGRF/DTS_World/issues/751))(2026.04.20)
 * [열차변경] 니시테츠 6050형 사운드 추가(개조) ([#752](https://github.com/DTS-NewGRF/DTS_World/issues/752))(2026.04.22)
-
-## 인게임 등록
-[1.68] <br>
-[이슈작업]
-* [열차추가] JR 서일본 125계 전동차 (32bpp) ([#719](https://github.com/DTS-NewGRF/DTS_World/issues/719))(2026.03.18)
-* [열차변경] EMU 900 그래픽 변경 ([#720](https://github.com/DTS-NewGRF/DTS_World/issues/720))(2026.03.22)
-* [열차변경][도색추가] JR 서일본 125계 팬터그래프 2개 장착 차량 ([#721](https://github.com/DTS-NewGRF/DTS_World/issues/721))(2026.03.22)
-* 중국 객차 임시 삭제 ([#722](https://github.com/DTS-NewGRF/DTS_World/issues/722))(2026.04.13)
-* [열차변경] 한국 우편차, 수화물차 수송량 조정 ([#723](https://github.com/DTS-NewGRF/DTS_World/issues/723))(2026.04.17)
-* [열차변경] 중국 수화물차 수송량 조정 및 복구 ([#724](https://github.com/DTS-NewGRF/DTS_World/issues/724))(2026.04.17)
-* [열차변경] 신칸센 923형(닥터 옐로우), CRH380AJ 우편수송 가능 매개변수 추가 ([#725](https://github.com/DTS-NewGRF/DTS_World/issues/725))(2026.04.17)
-* [열차변경] 관광열차 객차들 비정상적인 중량 수정 ([#726](https://github.com/DTS-NewGRF/DTS_World/issues/726))(2026.04.17)
-* [열차변경] 경전철 전동차 중량 변경 ([#727](https://github.com/DTS-NewGRF/DTS_World/issues/727))(2026.04.17)
-* [열차변경] 니시테츠 전동차 중량 변경 ([#728](https://github.com/DTS-NewGRF/DTS_World/issues/728))(2026.04.17)
-* [열차변경] 한큐전철 전동차 중량 변경 ([#729](https://github.com/DTS-NewGRF/DTS_World/issues/729))(2026.04.17)
-* [열차변경] 홍콩 MTR 전동차 중량 변경 ([#730](https://github.com/DTS-NewGRF/DTS_World/issues/730))(2026.04.17)
-* [열차변경] CRH 중량, 성능 변경 ([#731](https://github.com/DTS-NewGRF/DTS_World/issues/731))(2026.04.17)
-* [열차변경] 유로스타 중량, 성능 변경 ([#732](https://github.com/DTS-NewGRF/DTS_World/issues/732))(2026.04.17)
-* [열차변경] ICE 중량, 성능 변경 ([#733](https://github.com/DTS-NewGRF/DTS_World/issues/733))(2026.04.17)
-* [열차변경] 렌페 중량, 성능 변경 ([#734](https://github.com/DTS-NewGRF/DTS_World/issues/734))(2026.04.17)
-* [열차변경] 신칸센 중량, 성능 변경 ([#736](https://github.com/DTS-NewGRF/DTS_World/issues/736))(2026.04.17)
-* [열차변경] 디젤동차 중량, 성능 변경 ([#737](https://github.com/DTS-NewGRF/DTS_World/issues/737))(2026.04.17)
-* [열차변경] 우진산전 수소연료전지동차 중량, 성능 변경 ([#738](https://github.com/DTS-NewGRF/DTS_World/issues/738))(2026.04.17)
-* [열차변경] NSW TrainLink D 중량,성능 변경 ([#739](https://github.com/DTS-NewGRF/DTS_World/issues/739))(2026.04.17)
-* [열차변경] 기타 나머지 열차 중량, 성능 변경 ([#740](https://github.com/DTS-NewGRF/DTS_World/issues/740))(2026.04.17)
-* [열차변경] TGV 중량, 성능 변경 ([#741](https://github.com/DTS-NewGRF/DTS_World/issues/741))(2026.04.17)
 
 ## 등록기준
 ### 공통사항
