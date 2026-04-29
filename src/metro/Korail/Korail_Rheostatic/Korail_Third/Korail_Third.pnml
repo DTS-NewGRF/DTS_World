@@ -50,7 +50,7 @@ item(FEAT_TRAINS, Korail_Third_10Car, 2253){
         }
 
     graphics {
-        default:                        sw_Korail_Third_10car_reversed;
+        default:                        sw_Korail_Third_10car;
         articulated_part:               sw_articulated_Korail_Third_10car;
         purchase:                       set_Korail_Third_purchase;
         speed:                          sw_Metro_110_speed;

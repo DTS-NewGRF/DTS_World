@@ -51,7 +51,7 @@ item(FEAT_TRAINS, Uijeongbu_Line_2Car, 2413){
         }
 
     graphics {
-        default:                        sw_Uijeongbu_Line_2car_reversed;
+        default:                        sw_Uijeongbu_Line_2car;
         articulated_part:               sw_articulated_Uijeongbu_Line_2car;
         purchase:                       set_Uijeongbu_Line_purchase;
         loading_speed:                  25;

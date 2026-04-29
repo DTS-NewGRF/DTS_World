@@ -69,7 +69,7 @@ item(FEAT_TRAINS, Hankyu_8000_2Car, 2212){
         }
 
         graphics {
-        default:                        sw_Hankyu_8000_2car_reversed;
+        default:                        sw_Hankyu_8000_2car;
         articulated_part:               sw_articulated_Hankyu_8000_2car;
         purchase:                       set_Hankyu_8000_purchase;
         speed:                          sw_Metro_110_speed;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Hankyu_8000_8Car, 2213){
         }
 
         graphics {
-        default:                        sw_Hankyu_8000_8car_reversed;
+        default:                        sw_Hankyu_8000_8car;
         articulated_part:               sw_articulated_Hankyu_8000_8car;
         purchase:                       set_Hankyu_8000_purchase;
         speed:                          sw_Metro_110_speed;

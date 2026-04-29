@@ -8,28 +8,12 @@ spriteset(set_Hankyu_6000_engineH, "src/metro/Hankyu/6X00_series/6000_series/Han
     DTS_temp(80, 0)
 }
 
-spriteset(set_Hankyu_6000_engineH_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Hankyu_6000_wagon, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000.png") {
     DTS_temp(80, 54)
 }
 
-spriteset(set_Hankyu_6000_wagon_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000.png") {
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_Hankyu_6000_panto_wagon, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000.png") {
     DTS_temp(80, 81)
-}
-
-spriteset(set_Hankyu_6000_panto_wagon_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000.png") {
-    DTS_temp_r(80, 81)
-}
-
-spriteset(set_Hankyu_6000_engineT_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_Hankyu_6000_engineT, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000.png"){
@@ -43,28 +27,12 @@ spriteset(set_Hankyu_6000_1993_engineH, "src/metro/Hankyu/6X00_series/6000_serie
     DTS_temp(80, 0)
 }
 
-spriteset(set_Hankyu_6000_1993_engineH_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Hankyu_6000_1993_wagon, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png") {
     DTS_temp(80, 54)
 }
 
-spriteset(set_Hankyu_6000_1993_wagon_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png") {
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_Hankyu_6000_1993_panto_wagon, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png") {
     DTS_temp(80, 81)
-}
-
-spriteset(set_Hankyu_6000_1993_panto_wagon_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png") {
-    DTS_temp_r(80, 81)
-}
-
-spriteset(set_Hankyu_6000_1993_engineT_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_Hankyu_6000_1993_engineT, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png"){
@@ -78,28 +46,12 @@ spriteset(set_Hankyu_6000_1998_A_engineH, "src/metro/Hankyu/6X00_series/6000_ser
     DTS_temp(80, 0)
 }
 
-spriteset(set_Hankyu_6000_1998_A_engineH_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Hankyu_6000_1998_A_wagon, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png") {
     DTS_temp(80, 54)
 }
 
-spriteset(set_Hankyu_6000_1998_A_wagon_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png") {
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_Hankyu_6000_1998_A_panto_wagon, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png") {
     DTS_temp(80, 81)
-}
-
-spriteset(set_Hankyu_6000_1998_A_panto_wagon_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png") {
-    DTS_temp_r(80, 81)
-}
-
-spriteset(set_Hankyu_6000_1998_A_engineT_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_Hankyu_6000_1998_A_engineT, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png"){
@@ -113,28 +65,12 @@ spriteset(set_Hankyu_6000_1998_B_engineH, "src/metro/Hankyu/6X00_series/6000_ser
     DTS_temp(80, 0)
 }
 
-spriteset(set_Hankyu_6000_1998_B_engineH_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Hankyu_6000_1998_B_wagon, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png") {
     DTS_temp(80, 54)
 }
 
-spriteset(set_Hankyu_6000_1998_B_wagon_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png") {
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_Hankyu_6000_1998_B_panto_wagon, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png") {
     DTS_temp(80, 81)
-}
-
-spriteset(set_Hankyu_6000_1998_B_panto_wagon_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png") {
-    DTS_temp_r(80, 81)
-}
-
-spriteset(set_Hankyu_6000_1998_B_engineT_r, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_Hankyu_6000_1998_B_engineT, "src/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png"){

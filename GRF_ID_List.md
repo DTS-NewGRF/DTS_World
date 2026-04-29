@@ -11,7 +11,9 @@
 |2008|H2_WJ_2Car|
 |2009|APEX_2000_4th_6Car|
 |2010|ITX_Maum_6Car|
-|~2013|[공백] |
+|2011|[그룹명] WJapan_227_Series_EMU_500|
+|2012|WJapan_227_Series_EMU_500_2Car|
+|2013|WJapan_227_Series_EMU_500_3Car|
 |2014|GT26CW|
 |2015|DEL7600|
 |2016|FEL_8500|
@@ -372,7 +374,7 @@
 |2408|Incheonmetro_2000_2Car|
 |2409|Ui_Sinseol_2Car|
 |2410|Gimpo_Gold_2Car|
-|2411|Yongin_EverLine_2Car|
+|2411|Yongin_EverLine|
 |2412|Busanmetro_4000_6Car|
 |2413|Uijeongbu_Line_2Car|
 |2414|Sillim_Line_3Car|

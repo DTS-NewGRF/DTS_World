@@ -69,7 +69,7 @@ item(FEAT_TRAINS, Chopper_GEC_6Car, 2274){
         }
 
     graphics {
-        default:                        sw_Chopper_GEC_6Car_reversed;
+        default:                        sw_Chopper_GEC_6Car;
         articulated_part:               sw_articulated_Chopper_GEC_6Car;
         purchase:                       set_Chopper_GEC_purchase;
         speed:                          sw_Metro_100_speed;
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, Chopper_GEC_10Car, 2275){
         }
 
     graphics {
-        default:                        sw_Chopper_GEC_10Car_reversed;
+        default:                        sw_Chopper_GEC_10Car;
         articulated_part:               sw_articulated_Chopper_GEC_10Car;
         purchase:                       set_Chopper_GEC_purchase;
         speed:                          sw_Metro_100_speed;

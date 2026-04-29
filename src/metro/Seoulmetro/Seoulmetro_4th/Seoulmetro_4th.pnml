@@ -123,7 +123,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_8000_6Car, 2400){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_4th_8000_6car_reversed;
+        default:                        sw_Seoulmetro_4th_8000_6car;
         articulated_part:               sw_articulated_Seoulmetro_4th_8000_6car;
         purchase:                       set_Seoulmetro_5th_5000_purchase;
         speed:                          sw_Metro_100_speed;
@@ -177,7 +177,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_9000_6Car, 2366){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_4th_9000_6car_reversed;
+        default:                        sw_Seoulmetro_4th_9000_6car;
         articulated_part:               sw_articulated_Seoulmetro_4th_9000_6car;
         purchase:                       set_Seoulmetro_4th_9000_purchase;
         speed:                          sw_Metro_100_speed;
@@ -231,7 +231,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_5000_8Car, 2302){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_4th_5000_8car_reversed;
+        default:                        sw_Seoulmetro_4th_5000_8car;
         articulated_part:               sw_articulated_sw_Seoulmetro_4th_5000_8car;
         purchase:                       set_Seoulmetro_4th_5000_purchase;
         speed:                          sw_Metro_100_speed;
@@ -285,7 +285,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_7000_8Car, 2315){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_4th_7000_8car_reversed;
+        default:                        sw_Seoulmetro_4th_7000_8car;
         articulated_part:               sw_articulated_sw_Seoulmetro_4th_7000_8car;
         purchase:                       set_Seoulmetro_4th_7000_purchase;
         speed:                          sw_Metro_100_speed;
@@ -340,7 +340,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_2000_10Car, 2293){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_4th_2000_10car_reversed;
+        default:                        sw_Seoulmetro_4th_2000_10car;
         articulated_part:               sw_articulated_Seoulmetro_4th_2000_10car;
         purchase:                       set_Seoulmetro_4th_2000_purchase;
         speed:                          sw_Metro_100_speed;
@@ -394,7 +394,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_4000_10Car, 2297){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_4th_4000_10car_reversed;
+        default:                        sw_Seoulmetro_4th_4000_10car;
         articulated_part:               sw_articulated_Seoulmetro_4th_4000_10car;
         purchase:                       set_Seoulmetro_4th_4000_purchase;
         speed:                          sw_Metro_110_speed;

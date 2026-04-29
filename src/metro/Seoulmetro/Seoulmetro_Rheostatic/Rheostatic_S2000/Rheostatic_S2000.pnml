@@ -69,7 +69,7 @@ item(FEAT_TRAINS, Rheostatic_S2000_4Car, 2266){
         }
 
     graphics {
-        default:                        sw_Rheostatic_S2000_4Car_reversed;
+        default:                        sw_Rheostatic_S2000_4Car;
         articulated_part:               sw_articulated_Rheostatic_S2000_4Car;
         purchase:                       set_Rheostatic_S2000_purchase;
         speed:                          sw_Metro_100_speed;
@@ -124,7 +124,7 @@ item(FEAT_TRAINS, Rheostatic_S2000_6Car, 2267){
         }
 
     graphics {
-        default:                        sw_Rheostatic_S2000_6Car_reversed;
+        default:                        sw_Rheostatic_S2000_6Car;
         articulated_part:               sw_articulated_Rheostatic_S2000_6Car;
         purchase:                       set_Rheostatic_S2000_purchase;
         speed:                          sw_Metro_100_speed;
@@ -179,7 +179,7 @@ item(FEAT_TRAINS, Rheostatic_S2000_10Car, 2268){
         }
 
     graphics {
-        default:                        sw_Rheostatic_S2000_10Car_reversed;
+        default:                        sw_Rheostatic_S2000_10Car;
         articulated_part:               sw_articulated_Rheostatic_S2000_10Car;
         purchase:                       set_Rheostatic_S2000_purchase;
         speed:                          sw_Metro_100_speed;

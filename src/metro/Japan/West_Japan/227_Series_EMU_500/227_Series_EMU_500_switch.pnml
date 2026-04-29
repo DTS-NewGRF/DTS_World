@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_West_Japan_227_EMU_500_2Car_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_West_Japan_227_R_Btype);
+    2: return string(STR_REFIT_LIVERY_West_Japan_227_H_Atype);
+    3: return string(STR_REFIT_LIVERY_West_Japan_227_H_Btype);
+    return string(STR_REFIT_LIVERY_West_Japan_227_R_Atype);
+}
+
+switch(FEAT_TRAINS, SELF, sw_West_Japan_227_EMU_500_3Car_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_West_Japan_227_L_Btype);
+    return string(STR_REFIT_LIVERY_West_Japan_227_L_Atype);
+}
+
+// MC1
+switch(FEAT_TRAINS, SELF, sw_West_Japan_227_EMU_500_engineH, cargo_subtype) {
+    1: set_227_Series_EMU_500_engineH;
+    2: set_227_Series_EMU_500_engineH_Panto2;
+    3: set_227_Series_EMU_500_engineH_Panto2;
+    set_227_Series_EMU_500_engineH;
+}
+
+// 편성그래픽
+// 2량
+switch (FEAT_TRAINS, SELF, sw_West_Japan_227_EMU_500_2car, position_in_vehid_chain % 2) {
+    1: set_227_Series_EMU_500_engineT;
+    sw_West_Japan_227_EMU_500_engineH; //default
+    }
+
+// 3량
+switch (FEAT_TRAINS, SELF, sw_West_Japan_227_EMU_500_3car, position_in_vehid_chain % 3) {
+    1: set_227_Series_EMU_500_wagon_M;
+    2: set_227_Series_EMU_500_engineT;
+    set_227_Series_EMU_500_engineH; //default
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_West_Japan_227_EMU_500_2car, extra_callback_info1) {
+    1: WJapan_227_Series_EMU_500_2Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_West_Japan_227_EMU_500_3car, extra_callback_info1) {
+    1..2: WJapan_227_Series_EMU_500_3Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+// 사운드
+switch(FEAT_TRAINS, SELF, sw_West_Japan_227_EMU_500_2Car_sound, cargo_subtype) {
+    1: sw_TOYODENKIIGBTStart_sound;
+    2: sw_TOSHIBAIGBTJ4start_sound;
+    3: sw_TOYODENKIIGBTStart_sound;
+    sw_TOSHIBAIGBTJ4start_sound;
+}
+
+switch(FEAT_TRAINS, SELF, sw_West_Japan_227_EMU_500_3Car_sound, cargo_subtype) {
+    1: sw_TOYODENKIIGBTStart_sound;
+    sw_TOSHIBAIGBTJ4start_sound;
+}

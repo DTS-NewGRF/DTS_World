@@ -69,7 +69,7 @@ item(FEAT_TRAINS, Chopper_MELCO_4Car, 2270){
         }
 
     graphics {
-        default:                        sw_Chopper_MELCO_4Car_reversed;
+        default:                        sw_Chopper_MELCO_4Car;
         articulated_part:               sw_articulated_Chopper_MELCO_4Car;
         purchase:                       set_Chopper_MELCO_purchase;
         speed:                          sw_Metro_100_speed;
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, Chopper_MELCO_6Car, 2271){
         }
 
     graphics {
-        default:                        sw_Chopper_MELCO_6Car_reversed;
+        default:                        sw_Chopper_MELCO_6Car;
         articulated_part:               sw_articulated_Chopper_MELCO_6Car;
         purchase:                       set_Chopper_MELCO_purchase;
         speed:                          sw_Metro_100_speed;
@@ -177,7 +177,7 @@ item(FEAT_TRAINS, Chopper_MELCO_10Car, 2272){
         }
 
     graphics {
-        default:                        sw_Chopper_MELCO_10Car_reversed;
+        default:                        sw_Chopper_MELCO_10Car;
         articulated_part:               sw_articulated_Chopper_MELCO_10Car;
         purchase:                       set_Chopper_MELCO_purchase;
         speed:                          sw_Metro_100_speed;

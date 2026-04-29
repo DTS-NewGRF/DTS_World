@@ -50,7 +50,7 @@ item(FEAT_TRAINS, Daegumetro_2000_6Car, 2385){
         }
 
     graphics {
-        default:                        sw_Daegumetro_2000_6car_reversed;
+        default:                        sw_Daegumetro_2000_6car;
         articulated_part:               sw_articulated_Daegumetro_2000_6car;
         purchase:                       set_Daegumetro_2000_purchase;
         speed:                          sw_Metro_100_speed;

@@ -52,7 +52,7 @@ item(FEAT_TRAINS, APEX_2000_4th_6Car, 2009){
         }
         
     graphics {
-        default:                        sw_AREX_2000_4th_6car_reversed;
+        default:                        sw_AREX_2000_4th_6car;
         articulated_part:               sw_articulated_AREX_2000_4th_6car;
         purchase:                       set_AREX_2000_4th_purchase;
         speed:                          sw_Regular_150_speed;

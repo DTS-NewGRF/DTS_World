@@ -8,20 +8,8 @@ spriteset(set_Daejeonmetro_1000_engineH, "src/metro/Daejeonmetro/Daejeonmetro_10
     DTS_temp(80, 0)
 }
 
-spriteset(set_Daejeonmetro_1000_engineH_r, "src/metro/Daejeonmetro/Daejeonmetro_1000.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Daejeonmetro_1000_wagon, "src/metro/Daejeonmetro/Daejeonmetro_1000.png"){
     DTS_temp(80, 54)
-}
-
-spriteset(set_Daejeonmetro_1000_wagon_r, "src/metro/Daejeonmetro/Daejeonmetro_1000.png"){
-    DTS_temp_r(80, 54)
-}
-
-spriteset(set_Daejeonmetro_1000_engineT_r, "src/metro/Daejeonmetro/Daejeonmetro_1000.png"){
-    DTS_temp(80, 81)
 }
 
 spriteset(set_Daejeonmetro_1000_engineT, "src/metro/Daejeonmetro/Daejeonmetro_1000.png"){

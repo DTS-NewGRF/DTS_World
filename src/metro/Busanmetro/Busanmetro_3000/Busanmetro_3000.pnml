@@ -50,7 +50,7 @@ item(FEAT_TRAINS, Busanmetro_3000_4Car, 2382){
         }
 
     graphics {
-        default:                        sw_Busanmetro_3000_4car_reversed;
+        default:                        sw_Busanmetro_3000_4car;
         articulated_part:               sw_articulated_Busanmetro_3000_4car;
         purchase:                       set_Busanmetro_3000_purchase;
         speed:                          sw_Metro_100_speed;

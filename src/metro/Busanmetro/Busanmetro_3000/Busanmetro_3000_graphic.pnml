@@ -8,20 +8,8 @@ spriteset(set_Busanmetro_3000_engineH, "src/metro/Busanmetro/Busanmetro_3000/Bus
     DTS_temp(80, 0)
 }
 
-spriteset(set_Busanmetro_3000_engineH_r, "src/metro/Busanmetro/Busanmetro_3000/Busanmetro_3000.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Busanmetro_3000_panto_wagon, "src/metro/Busanmetro/Busanmetro_3000/Busanmetro_3000.png"){
     DTS_temp(80, 54)
-}
-
-spriteset(set_Busanmetro_3000_panto_wagon_r, "src/metro/Busanmetro/Busanmetro_3000/Busanmetro_3000.png"){
-    DTS_temp_r(80, 54)
-}
-
-spriteset(set_Busanmetro_3000_engineT_r, "src/metro/Busanmetro/Busanmetro_3000/Busanmetro_3000.png"){
-    DTS_temp(80, 81)
 }
 
 spriteset(set_Busanmetro_3000_engineT, "src/metro/Busanmetro/Busanmetro_3000/Busanmetro_3000.png"){

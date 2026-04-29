@@ -8,28 +8,12 @@ spriteset(set_Rheostatic_S2000_NoRheostatic_engineH, "src/metro/Seoulmetro/Seoul
     DTS_temp(80, 0)
 }
 
-spriteset(set_Rheostatic_S2000_NoRheostatic_engineH_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Rheostatic_S2000_NoRheostatic_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_Rheostatic_S2000_NoRheostatic_panto_wagon_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_Rheostatic_S2000_NoRheostatic_wagon, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
     DTS_temp(80, 81)
-}
-
-spriteset(set_Rheostatic_S2000_NoRheostatic_wagon_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
-    DTS_temp_r(80, 81)
-}
-
-spriteset(set_Rheostatic_S2000_NoRheostatic_engineT_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_Rheostatic_S2000_NoRheostatic_engineT, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
@@ -43,16 +27,8 @@ spriteset(set_Rheostatic_S2000_Rheostatic_engineH_A, "src/metro/Seoulmetro/Seoul
     DTS_temp(80, 0)
 }
 
-spriteset(set_Rheostatic_S2000_Rheostatic_engineH_A_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Rheostatic_S2000_Rheostatic_engineH_B, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
     DTS_temp(80, 54)
-}
-
-spriteset(set_Rheostatic_S2000_Rheostatic_engineH_B_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    DTS_temp(80, 81)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
@@ -67,16 +43,8 @@ spriteset(set_Rheostatic_S2000_Rheostatic_wagon_TB, "src/metro/Seoulmetro/Seoulm
     DTS_temp(80, 162)
 }
 
-spriteset(set_Rheostatic_S2000_Rheostatic_engineT_A_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    DTS_temp(80, 189)
-}
-
 spriteset(set_Rheostatic_S2000_Rheostatic_engineT_A, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
     DTS_temp(80, 216)
-}
-
-spriteset(set_Rheostatic_S2000_Rheostatic_engineT_B_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    DTS_temp(80, 243)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_engineT_B, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){

@@ -8,20 +8,12 @@ spriteset(set_AREX_2000_1st_engineH, "src/metro/AREX/AREX_2000_1st/AREX_2000_1st
     DTS_temp(80, 0)
 }
 
-spriteset(set_AREX_2000_1st_engineH_r, "src/metro/AREX/AREX_2000_1st/AREX_2000_1st.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_AREX_2000_1st_wagon, "src/metro/AREX/AREX_2000_1st/AREX_2000_1st.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_AREX_2000_1st_panto_wagon, "src/metro/AREX/AREX_2000_1st/AREX_2000_1st.png"){
     DTS_temp(80, 81)
-}
-
-spriteset(set_AREX_2000_1st_engineT_r, "src/metro/AREX/AREX_2000_1st/AREX_2000_1st.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_AREX_2000_1st_engineT, "src/metro/AREX/AREX_2000_1st/AREX_2000_1st.png"){

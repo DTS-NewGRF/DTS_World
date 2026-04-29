@@ -8,14 +8,6 @@ spriteset(set_Uijeongbu_Line_engineH, "src/metro/Uijeongbu_Line/Uijeongbu_Line.p
     DTS_temp(80, 0)
 }
 
-spriteset(set_Uijeongbu_Line_engineH_r, "src/metro/Uijeongbu_Line/Uijeongbu_Line.png"){
-    DTS_temp(80, 27)
-}
-
-spriteset(set_Uijeongbu_Line_engineT_r, "src/metro/Uijeongbu_Line/Uijeongbu_Line.png"){
-    DTS_temp(80, 54)
-}
-
 spriteset(set_Uijeongbu_Line_engineT, "src/metro/Uijeongbu_Line/Uijeongbu_Line.png"){
     DTS_temp(80, 81)
 }

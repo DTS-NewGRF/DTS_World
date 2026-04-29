@@ -50,7 +50,7 @@ item(FEAT_TRAINS, Seoulmetro_Rheostatic_10Car, 2377){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_Rheostatic_S1000_10car_reversed;
+        default:                        sw_Seoulmetro_Rheostatic_S1000_10car;
         articulated_part:               sw_articulated_Seoulmetro_Rheostatic_S1000_10car;
         purchase:                       set_Seoulmetro_Rheostatic_S1000_purchase;
         speed:                          sw_Metro_110_speed;

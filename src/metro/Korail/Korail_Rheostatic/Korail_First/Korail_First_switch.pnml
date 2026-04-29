@@ -45,41 +45,6 @@ switch(FEAT_TRAINS, SELF, sw_Korail_First_engineT, cargo_subtype) {
     set_Korail_K1000_Initial_engineT;
 }
 
-// 10량 뒤집힘
-switch(FEAT_TRAINS, SELF, sw_Korail_First_engineH_r, cargo_subtype) {
-    1..2: set_Korail_K1000_Initial_Aircon_engineH_r;
-    3..4: set_Korail_K1000_Old_engineH_r;
-    set_Korail_K1000_Initial_engineH_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_First_wagon_MAMB_r, cargo_subtype) {
-    1: set_Korail_K1000_Initial_Aircon_MA_wagon_r;
-    2: set_Korail_K1000_Initial_Aircon_MB_wagon_r;
-    3: set_Korail_K1000_Old_MA_wagon_r;
-    4: set_Korail_K1000_Old_MB_wagon_r;
-    set_Korail_K1000_Initial_wagon_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_First_panto_wagon_MAMB_r, cargo_subtype) {
-    1: set_Korail_K1000_Initial_Aircon_MA_panto_wagon_r;
-    2: set_Korail_K1000_Initial_Aircon_MB_panto_wagon_r;
-    3: set_Korail_K1000_Old_MA_panto_wagon_r;
-    4: set_Korail_K1000_Old_MB_panto_wagon_r;
-    set_Korail_K1000_Initial_panto_wagon_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_First_wagon_MA_r, cargo_subtype) {
-    1..2: set_Korail_K1000_Initial_Aircon_MA_wagon_r;
-    3..4: set_Korail_K1000_Old_MA_wagon_r;
-    set_Korail_K1000_Initial_wagon_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_First_engineT_r, cargo_subtype) {
-    1..2: set_Korail_K1000_Initial_Aircon_engineT_r;
-    3..4: set_Korail_K1000_Old_engineT_r;
-    set_Korail_K1000_Initial_engineT_r;
-}
-
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Korail_First_4car, position_in_vehid_chain % 4) {
     1:set_Korail_K1000_Initial_wagon;
@@ -87,23 +52,6 @@ switch (FEAT_TRAINS, SELF, sw_Korail_First_4car, position_in_vehid_chain % 4) {
     3:set_Korail_K1000_Initial_engineT;
     set_Korail_K1000_Initial_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_Korail_First_4car_r, position_in_vehid_chain % 4) {
-    1:set_Korail_K1000_Initial_panto_wagon_r;
-    2:set_Korail_K1000_Initial_wagon_r;
-    3:set_Korail_K1000_Initial_engineH_r;
-    set_Korail_K1000_Initial_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Korail_First_4car_flipped, vehicle_is_flipped){
-    0: sw_Korail_First_4car_r;
-    sw_Korail_First_4car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Korail_First_4car_reversed, vehicle_is_reversed){
-    0: sw_Korail_First_4car;
-    sw_Korail_First_4car_flipped;
-}
 
 switch (FEAT_TRAINS, SELF, sw_Korail_First_6car, position_in_vehid_chain % 6) {
     1:set_Korail_K1000_Initial_wagon;
@@ -113,25 +61,6 @@ switch (FEAT_TRAINS, SELF, sw_Korail_First_6car, position_in_vehid_chain % 6) {
     5:set_Korail_K1000_Initial_engineT;
     set_Korail_K1000_Initial_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_Korail_First_6car_r, position_in_vehid_chain % 6) {
-    1:set_Korail_K1000_Initial_panto_wagon_r;
-    2:set_Korail_K1000_Initial_wagon_r;
-    3:set_Korail_K1000_Initial_panto_wagon_r;
-    4:set_Korail_K1000_Initial_wagon_r;
-    5:set_Korail_K1000_Initial_engineH_r;
-    set_Korail_K1000_Initial_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Korail_First_6car_flipped, vehicle_is_flipped){
-    0: sw_Korail_First_6car_r;
-    sw_Korail_First_6car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Korail_First_6car_reversed, vehicle_is_reversed){
-    0: sw_Korail_First_6car;
-    sw_Korail_First_6car_flipped;
-}
 
 switch (FEAT_TRAINS, SELF, sw_Korail_First_8car, position_in_vehid_chain % 8) {
     1:set_Korail_K1000_Initial_wagon;
@@ -143,27 +72,6 @@ switch (FEAT_TRAINS, SELF, sw_Korail_First_8car, position_in_vehid_chain % 8) {
     7:set_Korail_K1000_Initial_engineT;
     set_Korail_K1000_Initial_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_Korail_First_8car_r, position_in_vehid_chain % 8) {
-    1:set_Korail_K1000_Initial_panto_wagon_r;
-    2:set_Korail_K1000_Initial_wagon_r;
-    3:set_Korail_K1000_Initial_panto_wagon_r;
-    4:set_Korail_K1000_Initial_wagon_r;
-    5:set_Korail_K1000_Initial_panto_wagon_r;
-    6:set_Korail_K1000_Initial_wagon_r;
-    7:set_Korail_K1000_Initial_engineH_r;
-    set_Korail_K1000_Initial_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Korail_First_8car_flipped, vehicle_is_flipped){
-    0: sw_Korail_First_8car_r;
-    sw_Korail_First_8car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Korail_First_8car_reversed, vehicle_is_reversed){
-    0: sw_Korail_First_8car;
-    sw_Korail_First_8car_flipped;
-}
 
 switch (FEAT_TRAINS, SELF, sw_Korail_First_10car, position_in_vehid_chain % 10) {
     1:sw_Korail_First_wagon_MAMB;
@@ -177,29 +85,6 @@ switch (FEAT_TRAINS, SELF, sw_Korail_First_10car, position_in_vehid_chain % 10) 
     9:sw_Korail_First_engineT;
     sw_Korail_First_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_Korail_First_10car_r, position_in_vehid_chain % 10) {
-    1:sw_Korail_First_panto_wagon_MAMB_r;
-    2:sw_Korail_First_wagon_MAMB_r;
-    3:sw_Korail_First_wagon_MA_r;
-    4:sw_Korail_First_panto_wagon_MAMB_r;
-    5:sw_Korail_First_wagon_MAMB_r;
-    6:sw_Korail_First_wagon_MA_r;
-    7:sw_Korail_First_panto_wagon_MAMB_r;
-    8:sw_Korail_First_wagon_MAMB_r;
-    9:sw_Korail_First_engineH_r;
-    sw_Korail_First_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Korail_First_10car_flipped, vehicle_is_flipped){
-    0: sw_Korail_First_10car_r;
-    sw_Korail_First_10car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Korail_First_10car_reversed, vehicle_is_reversed){
-    0: sw_Korail_First_10car;
-    sw_Korail_First_10car_flipped;
-}
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Korail_First_4car, extra_callback_info1) {

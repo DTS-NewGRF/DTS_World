@@ -328,7 +328,7 @@ STR_Standard_Metro_4Car_NAME                           :[4Car] Standard Metro
 STR_Ui_Sinseol_2Car_NAME                               :[2Car] UI-Sinseol Line
 STR_Uijeongbu_Line_2Car_NAME                           :[2Car] Uijeongbu Light Rapid Transit
 STR_Yangsan_AGT_2Car_NAME                              :[2Car] Yangsan Metro AGT
-STR_Yongin_EverLine_2Car_NAME                          :Yongin EverLine
+STR_Yongin_EverLine_NAME                               :Yongin EverLine
 
 # Hong Kong / Metro's name
 STR_MTR_AC_Cammall_8Car_NAME                           :[8Car] MTR Cammall AC Train
@@ -342,6 +342,9 @@ STR_MTR_IKK_SP_1900_8Car_NAME                          :[8Car] MTR IKK SP 1900
 
 # Japanese / Metro's name
 STR_125_Series_EMU_NAME                                :125 Series EMU
+STR_Group_227_Series_EMU_500_NAME                      :227 Series EMU 500
+STR_227_Series_EMU_500_2Car_NAME                       :[2Car] 227 Series EMU 500
+STR_227_Series_EMU_500_3Car_NAME                       :[3Car] 227 Series EMU 500
 STR_Hankyu_1000_8Car_NAME                              :[8Car] Hankyu New 1000
 STR_Hankyu_1300_8Car_NAME                              :[8Car] Hankyu New 1300
 STR_Group_Hankyu_6000_NAME                             :Hankyu 6000
@@ -934,6 +937,12 @@ STR_REFIT_LIVERY_Hankyu_8300_Long_Seat                 : Hankyu 8300 Long Seat
 STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat                : Hankyu 8300 Cross Seat
 STR_REFIT_LIVERY_West_Japan_125_1panto                 : Series 125 EMU 1Panto
 STR_REFIT_LIVERY_West_Japan_125_2panto                 : Series 125 EMU 2Panto
+STR_REFIT_LIVERY_West_Japan_227_R_Atype                : Urara TOSHIBA R unit
+STR_REFIT_LIVERY_West_Japan_227_R_Btype                : Urara HITACHI, TOYODENKI R unit
+STR_REFIT_LIVERY_West_Japan_227_H_Atype                : Urara TOSHIBA H unit
+STR_REFIT_LIVERY_West_Japan_227_H_Btype                : Urara HITACHI, TOYODENKI H unit
+STR_REFIT_LIVERY_West_Japan_227_L_Atype                : Urara TOSHIBA L unit
+STR_REFIT_LIVERY_West_Japan_227_L_Btype                : Urara HITACHI, TOYODENKI L unit
 
 # Liveries wagon
 STR_REFIT_LIVERY_Mugunghwa_2cc_1wagon                  : Mugunghwa 2cc 1wagon

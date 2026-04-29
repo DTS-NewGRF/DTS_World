@@ -69,7 +69,7 @@ item(FEAT_TRAINS, Korail_3rd_ST_4car, 2222){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_ST_4car_reversed;
+        default:                        sw_Korail_3rd_ST_4car;
         articulated_part:               sw_articulated_Korail_3rd_ST_4car;
         purchase:                       set_Korail_3rd_purchase;
         speed:                          sw_Metro_110_speed;
@@ -124,7 +124,7 @@ item(FEAT_TRAINS, Korail_3rd_G2_4car, 2223){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_G2_4car_reversed;
+        default:                        sw_Korail_3rd_G2_4car;
         articulated_part:               sw_articulated_Korail_3rd_G2_4car;
         purchase:                       set_Korail_3rd_G2_purchase;
         speed:                          sw_Metro_110_speed;
@@ -178,7 +178,7 @@ item(FEAT_TRAINS, Korail_3rd_6car, 2224){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_6car_reversed;
+        default:                        sw_Korail_3rd_6car;
         articulated_part:               sw_articulated_Korail_3rd_6car;
         purchase:                       set_Korail_3rd_purchase;
         speed:                          sw_Metro_110_speed;
@@ -233,7 +233,7 @@ item(FEAT_TRAINS, Korail_3rd_8car, 2225){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_8car_reversed;
+        default:                        sw_Korail_3rd_8car;
         articulated_part:               sw_articulated_Korail_3rd_8car;
         purchase:                       set_Korail_3rd_purchase;
         speed:                          sw_Metro_110_speed;
@@ -288,7 +288,7 @@ item(FEAT_TRAINS, Korail_3rd_10car, 2226){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_10car_reversed;
+        default:                        sw_Korail_3rd_10car;
         articulated_part:               sw_articulated_Korail_3rd_10car;
         purchase:                       set_Korail_3rd_purchase;
         speed:                          sw_Metro_110_speed;

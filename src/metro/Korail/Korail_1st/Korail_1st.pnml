@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Korail_1st_6car, 2230){
         }
 
     graphics {
-        default:                        sw_Korail_1st_6car_reversed;
+        default:                        sw_Korail_1st_6car;
         articulated_part:               sw_articulated_Korail_1st_6car;
         purchase:                       sw_Korail_1st_purchase;
         speed:                          sw_Metro_110_speed;
@@ -180,7 +180,7 @@ item(FEAT_TRAINS, Korail_1st_10car, 2232){
         }
 
     graphics {
-        default:                        sw_Korail_1st_10car_reversed;
+        default:                        sw_Korail_1st_10car;
         articulated_part:               sw_articulated_Korail_1st_10car;
         purchase:                       sw_Korail_1st_purchase;
         speed:                          sw_Metro_110_speed;

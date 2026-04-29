@@ -4,15 +4,12 @@
 // Graphics
 #include "Yongin_EverLine_graphic.pnml"
 
-// Switch
-#include "Yongin_EverLine_switch.pnml"
-
 /*--------------------------------------------------------------------
-열차정보 2량
+열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Yongin_EverLine_2Car, 2411){
+item(FEAT_TRAINS, Yongin_EverLine, 2411){
     property {
-        name:                           string(STR_Yongin_EverLine_2Car_NAME);
+        name:                           string(STR_Yongin_EverLine_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2008, 1, 1);
         track_type:                     KR_3LIM_RAIL;
@@ -52,7 +49,6 @@ item(FEAT_TRAINS, Yongin_EverLine_2Car, 2411){
 
     graphics {
         default:                        set_Yongin_EverLine_engineH;
-        articulated_part:               sw_articulated_Yongin_EverLine_2car;
         purchase:                       set_Yongin_EverLine_purchase;
         loading_speed:                  25;
         cost_factor:                    10;

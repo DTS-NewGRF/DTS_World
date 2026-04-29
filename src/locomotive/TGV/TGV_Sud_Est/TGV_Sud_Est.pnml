@@ -50,7 +50,7 @@ item(FEAT_TRAINS, TGV_Sud_Est_10Car, 2078){
         }
 
 	graphics {
-        default:                        sw_TGV_Sud_Est_10car_reversed;
+        default:                        sw_TGV_Sud_Est_10car;
         articulated_part:               sw_articulated_TGV_Sud_Est_10car;
         purchase:                       set_TGV_Sud_Est_purchase;
         speed:                          sw_TGV_Sud_Est_speed;

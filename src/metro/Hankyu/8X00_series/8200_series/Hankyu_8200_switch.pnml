@@ -6,21 +6,6 @@ switch (FEAT_TRAINS, SELF, sw_Hankyu_8200_2car, position_in_vehid_chain % 2) {
     set_Hankyu_8200_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_Hankyu_8200_2car_r, position_in_vehid_chain % 2) {
-    1:set_Hankyu_8200_engineH_r;
-    set_Hankyu_8200_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Hankyu_8200_2car_flipped, vehicle_is_flipped){
-    0: sw_Hankyu_8200_2car_r;
-    sw_Hankyu_8200_2car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Hankyu_8200_2car_reversed, vehicle_is_reversed){
-    0: sw_Hankyu_8200_2car;
-    sw_Hankyu_8200_2car_flipped;
-}
-
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_8200_2car, extra_callback_info1) {
     1: Hankyu_8200_2Car;

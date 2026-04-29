@@ -8,20 +8,12 @@ spriteset(set_AREX_1000_1st_Old_engineH, "src/metro/AREX/AREX_1000_1st/AREX_1000
     DTS_temp(80, 0)
 }
 
-spriteset(set_AREX_1000_1st_Old_engineH_r, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_Old.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_AREX_1000_1st_Old_wagon, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_Old.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_AREX_1000_1st_Old_panto_wagon, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_Old.png"){
     DTS_temp(80, 81)
-}
-
-spriteset(set_AREX_1000_1st_Old_engineT_r, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_Old.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_AREX_1000_1st_Old_engineT, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_Old.png"){
@@ -35,20 +27,12 @@ spriteset(set_AREX_1000_1st_New_engineH, "src/metro/AREX/AREX_1000_1st/AREX_1000
     DTS_temp(80, 0)
 }
 
-spriteset(set_AREX_1000_1st_New_engineH_r, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_AREX_1000_1st_New_wagon, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_AREX_1000_1st_New_panto_wagon, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
     DTS_temp(80, 81)
-}
-
-spriteset(set_AREX_1000_1st_New_engineT_r, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_AREX_1000_1st_New_engineT, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){

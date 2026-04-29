@@ -5,3 +5,4 @@
 열차 리스트
 --------------------------------------------------------------------*/
 #include "125_Series_EMU/125_Series_EMU.pnml"
+#include "227_Series_EMU_500/227_Series_EMU_500.pnml"

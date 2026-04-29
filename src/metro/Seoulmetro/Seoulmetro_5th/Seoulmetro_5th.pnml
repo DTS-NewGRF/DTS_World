@@ -69,7 +69,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_2000_6Car, 2290){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_5th_2000_6car_reversed;
+        default:                        sw_Seoulmetro_5th_2000_6car;
         articulated_part:               sw_articulated_Seoulmetro_5th_2000_6car;
         purchase:                       set_Seoulmetro_5th_2000_purchase;
         speed:                          sw_Metro_100_speed;
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_8000_6Car, 2569){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_5th_8000_6car_reversed;
+        default:                        sw_Seoulmetro_5th_8000_6car;
         articulated_part:               sw_articulated_Seoulmetro_5th_8000_6car;
         purchase:                       set_Seoulmetro_2nd_1000_purchase;
         speed:                          sw_Metro_100_speed;
@@ -177,7 +177,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_5000_8Car, 2401){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_5th_5000_8car_reversed;
+        default:                        sw_Seoulmetro_5th_5000_8car;
         articulated_part:               sw_articulated_Seoulmetro_5th_5000_8car;
         purchase:                       set_Seoulmetro_5th_5000_purchase;
         speed:                          sw_Metro_100_speed;
@@ -231,7 +231,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_7000_8Car, 2303){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_5th_7000_8car_reversed;
+        default:                        sw_Seoulmetro_5th_7000_8car;
         articulated_part:               sw_articulated_Seoulmetro_5th_7000_8car;
         purchase:                       set_Seoulmetro_5th_7000_purchase;
         speed:                          sw_Metro_100_speed;
@@ -285,7 +285,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_4000_10Car, 2399){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_5th_4000_10car_reversed;
+        default:                        sw_Seoulmetro_5th_4000_10car;
         articulated_part:               sw_articulated_Seoulmetro_5th_4000_10car;
         purchase:                       set_Seoulmetro_5th_4000_purchase;
         speed:                          sw_Metro_100_speed;

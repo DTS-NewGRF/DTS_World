@@ -52,7 +52,7 @@ item(FEAT_TRAINS, APEX_1000_1st_6Car, 2340){
         }
         
     graphics {
-        default:                        sw_AREX_1000_1st_6car_reversed;
+        default:                        sw_AREX_1000_1st_6car;
         articulated_part:               sw_articulated_AREX_1000_1st_6car;
         purchase:                       sw_AREX_1000_1st_purchase;
         speed:                          sw_Metro_110_speed;

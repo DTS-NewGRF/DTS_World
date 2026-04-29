@@ -2,6 +2,18 @@
 사운드 스위치
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
+출발 기본사운드
+적용열차
+- KTX-산천 중련
+- 우진산전 수소연료전지동차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Nostart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/osfx_10.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
 ABBGTOstart.wav
 적용열차
 - 서울교통공사 5000호대 1, 2세대
@@ -344,17 +356,6 @@ switch(FEAT_TRAINS, SELF, sw_KTXSC140000start_sound, extra_callback_info1) {
     }
 
 /*--------------------------------------------------------------------
-KTXSCABstart.wav
-적용열차
-- KTX-산천 중련
---------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_KTXSCABstart_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/osfx_10.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-/*--------------------------------------------------------------------
 KTXSCstart.wav
 적용열차
 - CTX
@@ -672,6 +673,17 @@ switch(FEAT_TRAINS, SELF, sw_TOSHIBAIGBTJ3start_sound, extra_callback_info1) {
     }
 
 /*--------------------------------------------------------------------
+TOSHIBAIGBTJ4start.wav
+적용열차
+- 서일본 227계 500번대
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TOSHIBAIGBTJ4start_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTJ4start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
 TOSHIBAIGBTJstart.wav
 적용열차
 - 니시테츠 3000, 7000, 7050
@@ -786,6 +798,7 @@ TOYODENKIIGBTStart.wav
 적용열차
 - 한큐 9300형
 - 서일본 125계 전동차
+- 서일본 227계 500번대 전동차
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_TOYODENKIIGBTStart_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOYODENKIIGBTStart.wav");

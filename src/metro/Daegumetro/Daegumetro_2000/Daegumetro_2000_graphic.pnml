@@ -8,28 +8,12 @@ spriteset(set_Daegumetro_2000_engineH, "src/metro/Daegumetro/Daegumetro_2000/Dae
     DTS_temp(80, 0)
 }
 
-spriteset(set_Daegumetro_2000_engineH_r, "src/metro/Daegumetro/Daegumetro_2000/Daegumetro_2000.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Daegumetro_2000_panto_wagon, "src/metro/Daegumetro/Daegumetro_2000/Daegumetro_2000.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_Daegumetro_2000_panto_wagon_r, "src/metro/Daegumetro/Daegumetro_2000/Daegumetro_2000.png"){
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_Daegumetro_2000_wagon, "src/metro/Daegumetro/Daegumetro_2000/Daegumetro_2000.png"){
     DTS_temp(80, 81)
-}
-
-spriteset(set_Daegumetro_2000_wagon_r, "src/metro/Daegumetro/Daegumetro_2000/Daegumetro_2000.png"){
-    DTS_temp_r(80, 81)
-}
-
-spriteset(set_Daegumetro_2000_engineT_r, "src/metro/Daegumetro/Daegumetro_2000/Daegumetro_2000.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_Daegumetro_2000_engineT, "src/metro/Daegumetro/Daegumetro_2000/Daegumetro_2000.png"){

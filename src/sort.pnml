@@ -344,9 +344,13 @@ sort(FEAT_TRAINS, [
     Standard_Metro_4Car,                     //2006
     Ui_Sinseol_2Car,                         //2409
     Uijeongbu_Line_2Car,                     //2413
-    Yongin_EverLine_2Car,                    //2411
+    Yongin_EverLine,                         //2411
     Jakarta_LRT_2Car,                        //2434
     EMU900_10Car,                            //2571
+    WJapan_125_Series_EMU,                   //2603
+    WJapan_227_Series_EMU_500,               //2011
+    WJapan_227_Series_EMU_500_2Car,          //2012
+    WJapan_227_Series_EMU_500_3Car,          //2013
     
     //일반열차
     CDC,                                     //2344

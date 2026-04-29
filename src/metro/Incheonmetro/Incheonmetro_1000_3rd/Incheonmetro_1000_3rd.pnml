@@ -50,7 +50,7 @@ item(FEAT_TRAINS, Incheonmetro_1000_3rd_8Car, 2534){
         }
 
     graphics {
-        default:                        sw_Incheonmetro_1000_3rd_8car_reversed;
+        default:                        sw_Incheonmetro_1000_3rd_8car;
         articulated_part:               sw_articulated_Incheonmetro_1000_3rd_8car;
         purchase:                       set_Incheonmetro_1000_3rd_purchase;
         speed:                          sw_Metro_100_speed;

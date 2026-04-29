@@ -8,14 +8,6 @@ spriteset(set_Hankyu_8200_engineH, "src/metro/Hankyu/8X00_series/8200_series/Han
     DTS_temp(80, 0)
 }
 
-spriteset(set_Hankyu_8200_engineH_r, "src/metro/Hankyu/8X00_series/8200_series/Hankyu_8200.png"){
-    DTS_temp(80, 27)
-}
-
-spriteset(set_Hankyu_8200_engineT_r, "src/metro/Hankyu/8X00_series/8200_series/Hankyu_8200.png"){
-    DTS_temp(80, 54)
-}
-
 spriteset(set_Hankyu_8200_engineT, "src/metro/Hankyu/8X00_series/8200_series/Hankyu_8200.png"){
     DTS_temp(80, 81)
 }

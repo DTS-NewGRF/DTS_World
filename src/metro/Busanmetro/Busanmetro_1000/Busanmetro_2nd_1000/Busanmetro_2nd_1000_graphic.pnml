@@ -8,28 +8,12 @@ spriteset(set_Busanmetro_2nd_1000_G1_engineH, "src/metro/Busanmetro/Busanmetro_1
     DTS_temp(80, 0)
 }
 
-spriteset(set_Busanmetro_2nd_1000_G1_engineH_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Busanmetro_2nd_1000_G1_panto_wagon, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_Busanmetro_2nd_1000_G1_panto_wagon_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_Busanmetro_2nd_1000_G1_wagon, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
     DTS_temp(80, 81)
-}
-
-spriteset(set_Busanmetro_2nd_1000_G1_wagon_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
-    DTS_temp_r(80, 81)
-}
-
-spriteset(set_Busanmetro_2nd_1000_G1_engineT_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_Busanmetro_2nd_1000_G1_engineT, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
@@ -43,28 +27,12 @@ spriteset(set_Busanmetro_2nd_1000_G2_engineH, "src/metro/Busanmetro/Busanmetro_1
     DTS_temp(80, 0)
 }
 
-spriteset(set_Busanmetro_2nd_1000_G2_engineH_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Busanmetro_2nd_1000_G2_panto_wagon, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_Busanmetro_2nd_1000_G2_panto_wagon_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_Busanmetro_2nd_1000_G2_wagon, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
     DTS_temp(80, 81)
-}
-
-spriteset(set_Busanmetro_2nd_1000_G2_wagon_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
-    DTS_temp_r(80, 81)
-}
-
-spriteset(set_Busanmetro_2nd_1000_G2_engineT_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_Busanmetro_2nd_1000_G2_engineT, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){

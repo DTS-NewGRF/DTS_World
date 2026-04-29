@@ -49,7 +49,7 @@ item(FEAT_TRAINS, AUTS_6Car, 2007){
         }
 
 	graphics {
-        default:                        sw_AUTS_6car_reversed;
+        default:                        sw_AUTS_6car;
         articulated_part:               sw_articulated_AUTS_6car;
         purchase:                       set_AUTS_purchase;
         speed:                          sw_Metro_130_speed;

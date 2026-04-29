@@ -17,25 +17,6 @@ switch (FEAT_TRAINS, SELF, sw_Daegumetro_1000_6car, position_in_vehid_chain % 6)
     set_Daegumetro_1000_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_Daegumetro_1000_6car_r, position_in_vehid_chain % 6) {
-    1:set_Daegumetro_1000_panto_wagon_r;
-    2:set_Daegumetro_1000_wagon_r;
-    3:set_Daegumetro_1000_panto_wagon_r;
-    4:set_Daegumetro_1000_wagon_r;
-    5:set_Daegumetro_1000_engineH_r;
-    set_Daegumetro_1000_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Daegumetro_1000_6car_flipped, vehicle_is_flipped){
-    0: sw_Daegumetro_1000_6car_r;
-    sw_Daegumetro_1000_6car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Daegumetro_1000_6car_reversed, vehicle_is_reversed){
-    0: sw_Daegumetro_1000_6car;
-    sw_Daegumetro_1000_6car_flipped;
-}
-
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Daegumetro_1000_6car, extra_callback_info1) {
     1..5: Daegumetro_1000_6Car;

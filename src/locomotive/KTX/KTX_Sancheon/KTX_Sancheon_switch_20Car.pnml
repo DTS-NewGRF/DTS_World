@@ -871,6 +871,6 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_20Car_length_in_custom, position_in_ve
 // 사운드
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_20Car_sound, cargo_subtype) {
      1..5: sw_KTXSCstart_sound;
-     6..15: sw_KTXSCABstart_sound;
+     6..15: sw_Nostart_sound;
     sw_KTXSCstart_sound;
 }
