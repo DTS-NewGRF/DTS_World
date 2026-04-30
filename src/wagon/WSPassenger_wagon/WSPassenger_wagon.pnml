@@ -45,7 +45,7 @@ item(FEAT_TRAINS, WSPassenger_Tanzania, 2604){
         }
 
 	graphics {
-        default:                        sw_WSPassenger_wagon_Tanzania_1Car;
+        default:                        sw_WSPassenger_wagon_Tanzania;
         purchase:                       set_WSPassenger_wagon_Tanzania_purchase;
         speed:                          sw_WSPassenger_wagon_Tanzania_speed;
         loading_speed:                  25;

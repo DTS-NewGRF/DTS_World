@@ -49,7 +49,7 @@ item(FEAT_TRAINS, GT26CW, 2014){
         }
         
     graphics {
-        default:                        sw_GT26CW_engine_1Car;
+        default:                        sw_GT26CW_engine;
         purchase:                       set_GT26CW_purchase;
         speed:                          sw_Regular_150_speed;
         cargo_capacity:                 0;

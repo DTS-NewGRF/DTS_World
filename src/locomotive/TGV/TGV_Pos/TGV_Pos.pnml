@@ -50,7 +50,7 @@ item(FEAT_TRAINS, TGV_Pos_10Car, 2077){
         }
 
 	graphics {
-        default:                        sw_TGV_Pos_10car_reversed;
+        default:                        sw_TGV_Pos_10car;
         articulated_part:               sw_articulated_TGV_Pos_wagon_10car;
         purchase:                       set_TGV_Pos_purchase;
         speed:                          sw_High_320_speed;

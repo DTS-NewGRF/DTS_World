@@ -29,7 +29,7 @@
 #include "locomotive/NHSRCL_E5/NHSRCL_E5.pnml"
 #include "locomotive/NJ2/NJ2.pnml"
 #include "locomotive/NSW_TrainLink_D/NSW_TrainLink_D.pnml"
-#include "locomotive/Nuriro/Nuriro.pnml"
+#include "locomotive/Nuriro/Nuriro/Nuriro.pnml"
 #include "locomotive/OEL_8000/OEL_8000.pnml"
 #include "locomotive/Shinkansen/Shinkansen.pnml"
 #include "locomotive/RDC/RDC.pnml"
@@ -82,3 +82,17 @@
 
 // Sorting
 #include "sort.pnml"
+
+// 삭제예정
+spriteset(set_Deleted_A, "Deleted_Train_Image.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Deleted_B, "Deleted_Train_Image.png"){
+    DTS_temp(80, 27)
+}
+// E5 17량 중련
+// 누리로 중련
+// KTX-산천 중련
+// ITX-마음 중련
+// DHC_PP 14, 16량

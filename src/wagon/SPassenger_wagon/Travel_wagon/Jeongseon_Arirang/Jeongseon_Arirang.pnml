@@ -47,7 +47,7 @@ item (FEAT_TRAINS, JA_A_Passenger_Car, 2158){
     }
 
     graphics {
-        default:                        sw_JA_A_wagon_1Car;
+        default:                        sw_JA_A_wagon;
         purchase:                       set_JA_A_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;

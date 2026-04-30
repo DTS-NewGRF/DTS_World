@@ -15,8 +15,3 @@ switch(FEAT_TRAINS, SELF, sw_DEL7600_engine, cargo_subtype) {
     2: set_DEL7600_A_Train_New_engine;
     set_DEL7600_engine;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_DEL7600_engine_1Car, position_in_vehid_chain % 1) {
-    sw_DEL7600_engine; //default
-    }

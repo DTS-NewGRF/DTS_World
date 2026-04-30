@@ -17,8 +17,3 @@ switch(FEAT_TRAINS, SELF, sw_Luggage_Olny_wagon, cargo_subtype) {
     3: set_Luggage_Olny_1999_B;
     set_Luggage_Olny_1998_G;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Luggage_Olny_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_Luggage_Olny_wagon; //default
-    }

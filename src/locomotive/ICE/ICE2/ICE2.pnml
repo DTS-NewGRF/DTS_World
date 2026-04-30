@@ -50,7 +50,7 @@ item(FEAT_TRAINS, ICE2_8Car, 2068){
         }
 
 	graphics {
-        default:                        sw_ICE2_8car_reversed;
+        default:                        sw_ICE2_8car;
         articulated_part:               sw_articulated_ICE2_8car;
         purchase:                       set_ICE2_purchase;
         speed:                          sw_High_280_speed;

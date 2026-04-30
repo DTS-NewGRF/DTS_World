@@ -4,9 +4,6 @@
 // Graphics
 #include "MSB_Speeder_graphic.pnml"
 
-// Switch
-#include "MSB_Speeder_switch.pnml"
-
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
@@ -50,7 +47,7 @@ item(FEAT_TRAINS, MSB_Speeder, 2178){
         }
     
 	graphics {
-        default:                        sw_MSB_Speeder_engine_1Car;
+        default:                        set_MSB_Speeder_engine;
         purchase:                       set_MSB_Speeder_purchase;
         cost_factor:                    10;
         running_cost_factor:            150;

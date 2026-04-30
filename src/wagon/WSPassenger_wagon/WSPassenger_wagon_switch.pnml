@@ -15,11 +15,6 @@ switch(FEAT_TRAINS, SELF, sw_WSPassenger_wagon_Tanzania, cargo_subtype) {
     set_WSPassenger_wagon_Tanzania_BCB_ECB;
 }
 
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_WSPassenger_wagon_Tanzania_1Car, position_in_vehid_chain % 1) {
-    sw_WSPassenger_wagon_Tanzania; //default
-    }
-
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_WSPassenger_wagon_Tanzania_capacity_in_custom, cargo_subtype) {
     1: return 51;

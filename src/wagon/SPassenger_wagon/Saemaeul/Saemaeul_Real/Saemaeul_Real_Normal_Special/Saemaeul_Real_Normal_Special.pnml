@@ -48,7 +48,7 @@ item (FEAT_TRAINS, Saemaeul_Real_Normal_Special, 2392){
     }
 
     graphics {
-        default:                        sw_Saemaeul_Real_Normal_Special_wagon_1Car;
+        default:                        sw_Saemaeul_Real_Normal_Special_wagon;
         purchase:                       sw_Saemaeul_Real_Normal_Special_purchase;
         cargo_capacity:                 sw_Saemaeul_Real_Normal_Special_capacity_in_custom;
         speed:                          sw_wagon_150_speed;

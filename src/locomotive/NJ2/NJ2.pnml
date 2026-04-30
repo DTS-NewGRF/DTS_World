@@ -4,9 +4,6 @@ NJ2
 // Graphics
 #include "NJ2_graphic.pnml"
 
-// Switch
-#include "NJ2_switch.pnml"
-
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
@@ -49,7 +46,7 @@ item(FEAT_TRAINS, NJ2, 2051){
         }
 
 	graphics {
-        default:                        sw_NJ2_engine_1Car;
+        default:                        set_NJ2_engine;
         purchase:                       set_NJ2_purchase;
         speed:                          sw_Regular_120_speed;
         cost_factor:                    10;

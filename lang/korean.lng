@@ -7,7 +7,7 @@ STR_GRF_DESC                                           :월드 다양성 열차 
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS_World/releases
 
 # Deleted / locomotive's name
-STR_To_Be_Deleted_20260301_NAME                        :[2024.3] {RED}삭제예정
+STR_To_Be_Deleted_20260430_NAME                        :[2024.4] {RED}삭제예정
 
 # locomotive's name / Logo
 STR_Group_KTX_Logo_NAME                                :KTX

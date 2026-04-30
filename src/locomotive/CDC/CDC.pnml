@@ -68,7 +68,7 @@ item(FEAT_TRAINS, CDC_3Car, 2345){
         }
 
 	graphics {
-        default:                        sw_CDC_3car_reversed;
+        default:                        sw_CDC_3car;
         articulated_part:               sw_articulated_CDC_3car;
         purchase:                       sw_CDC_purchase;
         speed:                          sw_Regular_120_speed;
@@ -124,7 +124,7 @@ item(FEAT_TRAINS, CDC_4Car, 2346){
         }
 
 	graphics {
-        default:                        sw_CDC_4car_reversed;
+        default:                        sw_CDC_4car;
         articulated_part:               sw_articulated_CDC_4car;
         purchase:                       sw_CDC_purchase;
         speed:                          sw_Regular_120_speed;
@@ -180,7 +180,7 @@ item(FEAT_TRAINS, CDC_5Car, 2347){
         }
 
 	graphics {
-        default:                        sw_CDC_5car_reversed;
+        default:                        sw_CDC_5car;
         articulated_part:               sw_articulated_CDC_5car;
         purchase:                       sw_CDC_purchase;
         speed:                          sw_Regular_120_speed;

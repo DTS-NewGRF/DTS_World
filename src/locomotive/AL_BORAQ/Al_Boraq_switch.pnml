@@ -15,29 +15,6 @@ switch (FEAT_TRAINS, SELF, sw_Al_Boraq_10car, position_in_vehid_chain % 10) {
     set_Al_Boraq_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_Al_Boraq_10car_r, position_in_vehid_chain % 10) {
-    1:set_Al_Boraq_wagon_8_r;
-    2:set_Al_Boraq_wagon_7_r;
-    3:set_Al_Boraq_wagon_6_r;
-    4:set_Al_Boraq_wagon_5_r;
-    5:set_Al_Boraq_wagon_C4_r;
-    6:set_Al_Boraq_wagon_3_r;
-    7:set_Al_Boraq_wagon_F2_r;
-    8:set_Al_Boraq_wagon_F1_r;
-    9:set_Al_Boraq_engineH_r;
-    set_Al_Boraq_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_10car_flipped, vehicle_is_flipped){
-    0: sw_Al_Boraq_10car_r;
-    sw_Al_Boraq_10car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Al_Boraq_10car_reversed, vehicle_is_reversed){
-    0: sw_Al_Boraq_10car;
-    sw_Al_Boraq_10car_flipped;
-}
-
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_length_in_custom, position_in_vehid_chain % 10) {
     1: 8;

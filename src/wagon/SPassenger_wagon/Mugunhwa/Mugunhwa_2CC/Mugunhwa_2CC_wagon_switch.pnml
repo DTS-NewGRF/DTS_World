@@ -108,11 +108,6 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_2CC, cargo_subtype) {
     sw_Mugunghwa_2cc_1wagon;
 }
 
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Mugunhwa_2CC_1Car, position_in_vehid_chain % 1) {
-    sw_Mugunhwa_2CC; //default
-    }
-
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_Mugunhwa_2CC_capacity_in_custom, cargo_subtype) {
      1: return 72;

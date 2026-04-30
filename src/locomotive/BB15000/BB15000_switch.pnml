@@ -14,8 +14,3 @@ switch(FEAT_TRAINS, SELF, sw_BB15000_engine, cargo_subtype) {
     2: set_BB15000_EN_Voyagee_engine; // EN Voyagee
     set_BB15000_engine;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_BB15000_engine_1Car, position_in_vehid_chain % 1) {
-    sw_BB15000_engine; //default
-    }

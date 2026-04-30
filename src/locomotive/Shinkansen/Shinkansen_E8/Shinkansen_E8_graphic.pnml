@@ -8,44 +8,20 @@ spriteset(set_Shinkansen_E8_engineH, "src/locomotive/Shinkansen/Shinkansen_E8/Sh
     DTS_temp(80, 0)
 }
 
-spriteset(set_Shinkansen_E8_engineH_r, "src/locomotive/Shinkansen/Shinkansen_E8/Shinkansen_E8.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Shinkansen_E8_panto_wagon_A, "src/locomotive/Shinkansen/Shinkansen_E8/Shinkansen_E8.png"){
     DTS_temp(80, 54)
-}
-
-spriteset(set_Shinkansen_E8_panto_wagon_A_r, "src/locomotive/Shinkansen/Shinkansen_E8/Shinkansen_E8.png"){
-    DTS_temp(80, 81)
 }
 
 spriteset(set_Shinkansen_E8_wagon, "src/locomotive/Shinkansen/Shinkansen_E8/Shinkansen_E8.png") {
     DTS_temp(80, 108)
 }
 
-spriteset(set_Shinkansen_E8_wagon_r, "src/locomotive/Shinkansen/Shinkansen_E8/Shinkansen_E8.png") {
-    DTS_temp_r(80, 108)
-}
-
 spriteset(set_Shinkansen_E8_panto_wagon_B, "src/locomotive/Shinkansen/Shinkansen_E8/Shinkansen_E8.png"){
     DTS_temp(80, 135)
 }
 
-spriteset(set_Shinkansen_E8_panto_wagon_B_r, "src/locomotive/Shinkansen/Shinkansen_E8/Shinkansen_E8.png"){
-    DTS_temp(80, 162)
-}
-
-spriteset(set_Shinkansen_E8_engineT_r, "src/locomotive/Shinkansen/Shinkansen_E8/Shinkansen_E8.png"){
-    DTS_temp(80, 189)
-}
-
 spriteset(set_Shinkansen_E8_engineT, "src/locomotive/Shinkansen/Shinkansen_E8/Shinkansen_E8.png"){
     DTS_temp(80, 216)
-}
-
-spriteset(set_Shinkansen_E8_engineT_E5H5, "src/locomotive/Shinkansen/Shinkansen_E8/Shinkansen_E8.png"){
-    DTS_temp(80, 243)
 }
 
 /*--------------------------------------------------------------------

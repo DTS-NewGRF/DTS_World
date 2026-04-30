@@ -1,11 +1,7 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_MSB_Speeder_engine, "src/locomotive/MSB_Speeder/MSB_Speeder.png"){
-    DTS_temp_mini_4(80, 0)
-}
-
-alternative_sprites(set_MSB_Speeder_engine, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "src/locomotive/MSB_Speeder/MSB_Speeder_X4.png"){
+spriteset(set_MSB_Speeder_engine, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "src/locomotive/MSB_Speeder/MSB_Speeder_X4.png"){
     DTS_temp_mini_4_AS(0, 0)
 }
 

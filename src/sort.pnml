@@ -212,16 +212,8 @@ sort(FEAT_TRAINS, [
     ITX_Maum,                                //2193
     ITX_Maum_4Car,                           //2166
     ITX_Maum_6Car,                           //2010
-    ITX_Maum_4_4Car,                         //2403
-    ITX_Maum_4_6Car,                         //2258
-    ITX_Maum_6_4Car,                         //2259
     ITX_Saemaeul_6Car,                       //2327
     ITX_CheongChun_8Car,                     //2354
-
-    //누리로 열차 그룹
-    Nuriro_Logo,                             //2513
-    Nuriro_4Car,                             //2324
-    Nuriro_8Car,                             //2325
 
     //KTX 열차 그룹
     KTX_Logo,                                //2511
@@ -232,9 +224,7 @@ sort(FEAT_TRAINS, [
     KTX_Cheong_Ryong,                        //2427
     KTX_Cheong_Ryong_8Car,                   //2229
     KTX_Cheong_Ryong_16Car,                  //2428
-    KTX_Sancheon,                            //2317
     KTX_Sancheon_10Car,                      //2024
-    KTX_Sancheon_20Car,                      //2319
     
     //CRH 중국고속열차
     CRH_Logo,                                //2518
@@ -316,7 +306,6 @@ sort(FEAT_TRAINS, [
     Shinkansen_N700_S_16Car,                 //2156
     Shinkansen_E5_H5,                        //2304
     Shinkansen_E5_H5_10Car,                  //2092
-    Shinkansen_E5_H5_E6_17Car,               //2305
     Shinkansen_E6_7Car,                      //2093
     Shinkansen_E8_7Car,                      //2095
     Shinkansen_923_7Car,                     //2096
@@ -366,8 +355,6 @@ sort(FEAT_TRAINS, [
     DHC_PP_6Car,                             //2359
     DHC_PP_7Car,                             //2360
     DHC_PP_8Car,                             //2361
-    DHC_PP_14Car,                            //2362
-    DHC_PP_16Car,                            //2363
     Group_Diesel_Car,                        //2465
     Nomal_Diesel_Car,                        //2466
     Nomal_Diesel_2Car_addcar,                //2539
@@ -381,6 +368,7 @@ sort(FEAT_TRAINS, [
     H2_WJ_4Car,                              //2060
     NEL_8100,                                //2299
     NEL_8200,                                //2177
+    Nuriro_4Car,                             //2324
     OEL8000,                                 //2417
     RDC,                                     //2348
     RDC_3Car,                                //2349

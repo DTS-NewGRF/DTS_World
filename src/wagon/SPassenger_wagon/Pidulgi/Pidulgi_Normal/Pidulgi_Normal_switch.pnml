@@ -70,11 +70,6 @@ switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_wagon, cargo_subtype) {
     set_Pidulgi_Normal_C_MADE_1922;
 }
 
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Pidulgi_Normal_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_Pidulgi_Normal_wagon; //default
-    }
-
 //수송량
 switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_capacity_in_custom, cargo_subtype) {
     1: return 128;

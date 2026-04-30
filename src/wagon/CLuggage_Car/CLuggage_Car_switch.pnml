@@ -16,8 +16,3 @@ switch(FEAT_TRAINS, SELF, sw_CLuggage_wagon, cargo_subtype) {
     3: set_CLuggage_Car_WhiteB;   //힌색 A
     set_CLuggage_Car_Red;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_CLuggage_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_CLuggage_wagon; //default
-    }

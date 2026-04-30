@@ -8,76 +8,36 @@ spriteset(set_Eurostar_E300_1993_engineH, "src/locomotive/Eurostar/Eurostar_E300
     DTS_Eurostar_temp(80, 0)
 }
 
-spriteset(set_Eurostar_E300_1993_engineH_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png"){
-    DTS_Eurostar_temp(80, 27)
-}
-
 spriteset(set_Eurostar_E300_1993_wagon_M1, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png"){
     DTS_Eurostar_temp(80, 54)
-}
-
-spriteset(set_Eurostar_E300_1993_wagon_M1_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png"){
-    DTS_Eurostar_temp_r(80, 54)
 }
 
 spriteset(set_Eurostar_E300_1993_wagon_T1, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png") {
     DTS_Eurostar_temp_mini_7_Highspeed(80, 81)
 }
 
-spriteset(set_Eurostar_E300_1993_wagon_T1_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png") {
-    DTS_Eurostar_temp_mini_7_Highspeed_r(80, 81)
-}
-
 spriteset(set_Eurostar_E300_1993_wagon_C1, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png") {
     DTS_Eurostar_temp_mini_7_Highspeed(80, 108)
-}
-
-spriteset(set_Eurostar_E300_1993_wagon_C1_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png") {
-    DTS_Eurostar_temp_mini_7_Highspeed_r(80, 108)
 }
 
 spriteset(set_Eurostar_E300_1993_wagon_L1, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png"){
     DTS_Eurostar_temp(80, 135)
 }
 
-spriteset(set_Eurostar_E300_1993_wagon_L1_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png"){
-    DTS_Eurostar_temp_r(80, 135)
-}
-
 spriteset(set_Eurostar_E300_1993_wagon_L2, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png"){
     DTS_Eurostar_temp(80, 162)
-}
-
-spriteset(set_Eurostar_E300_1993_wagon_L2_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png"){
-    DTS_Eurostar_temp_r(80, 162)
 }
 
 spriteset(set_Eurostar_E300_1993_wagon_C2, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png") {
     DTS_Eurostar_temp_mini_7_Highspeed(80, 189)
 }
 
-spriteset(set_Eurostar_E300_1993_wagon_C2_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png") {
-    DTS_Eurostar_temp_mini_7_Highspeed_r(80, 189)
-}
-
 spriteset(set_Eurostar_E300_1993_wagon_T2, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png") {
     DTS_Eurostar_temp_mini_7_Highspeed(80, 216)
 }
 
-spriteset(set_Eurostar_E300_1993_wagon_T2_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png") {
-    DTS_Eurostar_temp_mini_7_Highspeed_r(80, 216)
-}
-
 spriteset(set_Eurostar_E300_1993_wagon_M2, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png"){
     DTS_Eurostar_temp(80, 243)
-}
-
-spriteset(set_Eurostar_E300_1993_wagon_M2_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png"){
-    DTS_Eurostar_temp_r(80, 243)
-}
-
-spriteset(set_Eurostar_E300_1993_engineT_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png"){
-    DTS_Eurostar_back_temp_r(80, 270)
 }
 
 spriteset(set_Eurostar_E300_1993_engineT, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_1993.png"){
@@ -91,76 +51,36 @@ spriteset(set_Eurostar_E300_2015_engineH, "src/locomotive/Eurostar/Eurostar_E300
     DTS_Eurostar_temp(80, 0)
 }
 
-spriteset(set_Eurostar_E300_2015_engineH_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png"){
-    DTS_Eurostar_temp(80, 27)
-}
-
 spriteset(set_Eurostar_E300_2015_wagon_M1, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png"){
     DTS_Eurostar_temp(80, 54)
-}
-
-spriteset(set_Eurostar_E300_2015_wagon_M1_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png"){
-    DTS_Eurostar_temp_r(80, 54)
 }
 
 spriteset(set_Eurostar_E300_2015_wagon_T1, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png") {
     DTS_Eurostar_temp_mini_7_Highspeed(80, 81)
 }
 
-spriteset(set_Eurostar_E300_2015_wagon_T1_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png") {
-    DTS_Eurostar_temp_mini_7_Highspeed_r(80, 81)
-}
-
 spriteset(set_Eurostar_E300_2015_wagon_C1, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png") {
     DTS_Eurostar_temp_mini_7_Highspeed(80, 108)
-}
-
-spriteset(set_Eurostar_E300_2015_wagon_C1_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png") {
-    DTS_Eurostar_temp_mini_7_Highspeed_r(80, 108)
 }
 
 spriteset(set_Eurostar_E300_2015_wagon_L1, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png"){
     DTS_Eurostar_temp(80, 135)
 }
 
-spriteset(set_Eurostar_E300_2015_wagon_L1_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png"){
-    DTS_Eurostar_temp_r(80, 135)
-}
-
 spriteset(set_Eurostar_E300_2015_wagon_L2, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png"){
     DTS_Eurostar_temp(80, 162)
-}
-
-spriteset(set_Eurostar_E300_2015_wagon_L2_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png"){
-    DTS_Eurostar_temp_r(80, 162)
 }
 
 spriteset(set_Eurostar_E300_2015_wagon_C2, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png") {
     DTS_Eurostar_temp_mini_7_Highspeed(80, 189)
 }
 
-spriteset(set_Eurostar_E300_2015_wagon_C2_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png") {
-    DTS_Eurostar_temp_mini_7_Highspeed_r(80, 189)
-}
-
 spriteset(set_Eurostar_E300_2015_wagon_T2, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png") {
     DTS_Eurostar_temp_mini_7_Highspeed(80, 216)
 }
 
-spriteset(set_Eurostar_E300_2015_wagon_T2_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png") {
-    DTS_Eurostar_temp_mini_7_Highspeed_r(80, 216)
-}
-
 spriteset(set_Eurostar_E300_2015_wagon_M2, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png"){
     DTS_Eurostar_temp(80, 243)
-}
-
-spriteset(set_Eurostar_E300_2015_wagon_M2_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png"){
-    DTS_Eurostar_temp_r(80, 243)
-}
-
-spriteset(set_Eurostar_E300_2015_engineT_r, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png"){
-    DTS_Eurostar_back_temp_r(80, 270)
 }
 
 spriteset(set_Eurostar_E300_2015_engineT, "src/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_2015.png"){

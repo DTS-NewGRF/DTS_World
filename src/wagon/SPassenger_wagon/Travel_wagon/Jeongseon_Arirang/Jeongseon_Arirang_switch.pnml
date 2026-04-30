@@ -10,8 +10,3 @@ switch(FEAT_TRAINS, SELF, sw_JA_A_wagon, cargo_subtype) {
     1: set_JA_A_New_wagon;   // 정선아리랑 유람열차 신도색
     set_JA_A_Old_wagon;     // G-Train New
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_JA_A_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_JA_A_wagon; //default
-    }

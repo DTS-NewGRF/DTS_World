@@ -50,7 +50,7 @@ item(FEAT_TRAINS, TGV_La_Poste_10Car, 2081){
         }
 
 	graphics {
-        default:                        sw_TGV_La_Poste_10car_reversed;
+        default:                        sw_TGV_La_Poste_10car;
         articulated_part:               sw_articulated_TGV_La_Poste_10car;
         purchase:                       set_TGV_La_Poste_purchase;
         speed:                          sw_High_269_speed;

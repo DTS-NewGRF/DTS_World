@@ -47,7 +47,7 @@ item (FEAT_TRAINS, Mugunhwa_Real_Normal, 2389){
     }
 
     graphics {
-        default:                        sw_Mugunhwa_Real_Normal_wagon_1Car;
+        default:                        sw_Mugunhwa_Real_Normal_wagon;
         purchase:                       sw_Mugunhwa_Real_Normal_purchase;
         cargo_capacity:                 sw_Mugunhwa_Real_Normal_capacity_in_custom;
         speed:                          sw_Mugunhwa_Real_Normal_speed;

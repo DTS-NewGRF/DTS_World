@@ -5,60 +5,28 @@ spriteset(set_Avelia_Liberty_engineH, "src/locomotive/Avelia_Liberty/Avelia_Libe
     DTS_temp(80, 0)
 }
 
-spriteset(set_Avelia_Liberty_engineH_r, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_Avelia_Liberty_wagon_F1, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     DTS_temp(80, 54)
-}
-
-spriteset(set_Avelia_Liberty_wagon_F1_r, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    DTS_temp_r(80, 54)
 }
 
 spriteset(set_Avelia_Liberty_wagon_T2, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     DTS_temp_mini_7_Highspeed(80, 81)
 }
 
-spriteset(set_Avelia_Liberty_wagon_T2_r, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 81)
-}
-
 spriteset(set_Avelia_Liberty_wagon_T3, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     DTS_temp_mini_7_Highspeed(80, 108)
-}
-
-spriteset(set_Avelia_Liberty_wagon_T3_r, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 108)
 }
 
 spriteset(set_Avelia_Liberty_wagon_C, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     DTS_temp_mini_7_Highspeed(80, 135)
 }
 
-spriteset(set_Avelia_Liberty_wagon_C_r, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 135)
-}
-
 spriteset(set_Avelia_Liberty_wagon_T4, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     DTS_temp_mini_7_Highspeed(80, 162)
 }
 
-spriteset(set_Avelia_Liberty_wagon_T4_r, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 162)
-}
-
 spriteset(set_Avelia_Liberty_wagon_T5, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     DTS_temp(80, 189)
-}
-
-spriteset(set_Avelia_Liberty_wagon_T5_r, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    DTS_temp_r(80, 189)
-}
-
-spriteset(set_Avelia_Liberty_engineT_r, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    DTS_temp(80, 216)
 }
 
 spriteset(set_Avelia_Liberty_engineT, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){

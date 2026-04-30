@@ -44,11 +44,6 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_wagon, cargo_subtype) {
     set_Mugunhwa_Real_Special_MR1;
 }
 
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_Mugunhwa_Real_Special_wagon; //default
-    }
-
 //수송량
 switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_capacity_in_custom, cargo_subtype) {
     3: return 64;

@@ -53,8 +53,3 @@ switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_wagon, cargo_subtype) {
     21: set_Generatar_Real_Stream_lined_LMM;
     set_Generatar_Real_Stream_lined_LS;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_Generatar_Real_Stream_lined_wagon; //default
-    }

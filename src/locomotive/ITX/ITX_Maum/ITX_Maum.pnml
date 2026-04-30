@@ -71,7 +71,7 @@ item(FEAT_TRAINS, ITX_Maum_4Car, 2166){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_4car_reversed;
+        default:                        sw_ITX_Maum_4car;
         articulated_part:               sw_articulated_ITX_Maum_4car;
         purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, ITX_Maum_6Car, 2010){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_6car_reversed;
+        default:                        sw_ITX_Maum_6car;
         articulated_part:               sw_articulated_ITX_Maum_6car;
         purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
@@ -140,13 +140,12 @@ item(FEAT_TRAINS, ITX_Maum_6Car, 2010){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
     property {
-        name:                           string(STR_ITX_Maum_4_4Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260430_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  ITX_Maum;
         
         //spec
         speed:                          165km/h;
@@ -180,7 +179,7 @@ item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_4_4car_reversed;
+        default:                        sw_ITX_Maum_4_4car;
         articulated_part:               sw_articulated_ITX_Maum_4_4car;
         purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
@@ -195,8 +194,8 @@ item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ITX_Maum_4_6Car, 2258){
     property {
-        name:                           string(STR_ITX_Maum_4_6Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260430_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2022, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -235,7 +234,7 @@ item(FEAT_TRAINS, ITX_Maum_4_6Car, 2258){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_4_6car_reversed;
+        default:                        sw_ITX_Maum_4_6car;
         articulated_part:               sw_articulated_ITX_Maum_4_6car;
         purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
@@ -249,8 +248,8 @@ item(FEAT_TRAINS, ITX_Maum_4_6Car, 2258){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ITX_Maum_6_4Car, 2259){
     property {
-        name:                           string(STR_ITX_Maum_6_4Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260430_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2022, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -289,7 +288,7 @@ item(FEAT_TRAINS, ITX_Maum_6_4Car, 2259){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_6_4car_reversed;
+        default:                        sw_ITX_Maum_6_4car;
         articulated_part:               sw_articulated_ITX_Maum_6_4car;
         purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;

@@ -68,7 +68,7 @@ item(FEAT_TRAINS, RDC_3Car, 2349){
         }
 
 	graphics {
-        default:                        sw_RDC_3car_reversed;
+        default:                        sw_RDC_3car;
         articulated_part:               sw_articulated_RDC_3car;
         purchase:                       set_RDC_purchase;
         speed:                          sw_Regular_120_speed;
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, RDC_4Car, 2350){
         }
 
 	graphics {
-        default:                        sw_RDC_4car_reversed;
+        default:                        sw_RDC_4car;
         articulated_part:               sw_articulated_RDC_4car;
         purchase:                       set_RDC_purchase;
         speed:                          sw_Regular_120_speed;

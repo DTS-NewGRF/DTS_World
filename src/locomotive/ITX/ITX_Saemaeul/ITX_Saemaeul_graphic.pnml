@@ -6,60 +6,28 @@ spriteset(set_ITX_Saemaeul_engineH, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeu
     DTS_temp(80, 0)
 }
 
-spriteset(set_ITX_Saemaeul_engineH_r, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_ITX_Saemaeul_panto_wagon_M1, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png") {
     DTS_temp(80, 54)
-}
-
-spriteset(set_ITX_Saemaeul_panto_wagon_M1_r, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png") {
-    DTS_temp(80, 81)
 }
 
 spriteset(set_ITX_Saemaeul_wagon_M, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png") {
     DTS_temp(80, 108)
 }
 
-spriteset(set_ITX_Saemaeul_wagon_M_r, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png") {
-    DTS_temp_r(80, 108)
-}
-
 spriteset(set_ITX_Saemaeul_wagon_TM, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png") {
     DTS_temp(80, 135)
-}
-
-spriteset(set_ITX_Saemaeul_wagon_TM_r, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png") {
-    DTS_temp_r(80, 135)
 }
 
 spriteset(set_ITX_Saemaeul_wagon_DUP1, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png") {
     DTS_temp(80, 162)
 }
 
-spriteset(set_ITX_Saemaeul_wagon_DUP1_r, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png") {
-    DTS_temp_r(80, 162)
-}
-
 spriteset(set_ITX_Saemaeul_wagon_DUP2, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png") {
     DTS_temp(80, 189)
 }
 
-spriteset(set_ITX_Saemaeul_wagon_DUP2_r, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png") {
-    DTS_temp_r(80, 189)
-}
-
 spriteset(set_ITX_Saemaeul_panto_wagon_M2, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png") {
     DTS_temp(80, 216)
-}
-
-spriteset(set_ITX_Saemaeul_panto_wagon_M2_r, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png") {
-    DTS_temp(80, 243)
-}
-
-spriteset(set_ITX_Saemaeul_engineT_r, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png"){
-    DTS_temp(80, 270)
 }
 
 spriteset(set_ITX_Saemaeul_engineT, "src/locomotive/ITX/ITX_Saemaeul/ITX_Saemaeul.png"){

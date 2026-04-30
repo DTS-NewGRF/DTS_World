@@ -27,8 +27,3 @@ switch(FEAT_TRAINS, SELF, sw_Pidulgi_Express_Luggage_wagon, cargo_subtype) {
     8: set_Pidulgi_Express_Luggage_1968_LB2;
     set_Pidulgi_Express_Luggage_MADE_1935_L;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Pidulgi_Express_Luggage_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_Pidulgi_Express_Luggage_wagon; //default
-    }

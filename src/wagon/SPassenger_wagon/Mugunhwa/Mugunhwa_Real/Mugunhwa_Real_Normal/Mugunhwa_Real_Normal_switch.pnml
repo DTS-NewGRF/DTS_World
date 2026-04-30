@@ -60,11 +60,6 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_wagon, cargo_subtype) {
     set_Mugunhwa_Real_Normal_MG1;
 }
 
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_Mugunhwa_Real_Normal_wagon; //default
-    }
-
 //수송량
 switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_capacity_in_custom, cargo_subtype) {
     6: return 68;

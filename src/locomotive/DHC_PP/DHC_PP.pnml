@@ -69,7 +69,7 @@ item(FEAT_TRAINS, DHC_PP_4Car, 2357){
         }
 
     graphics {
-        default:                        sw_DHC_PP_4Car_reversed;
+        default:                        sw_DHC_PP_4Car;
         articulated_part:               sw_articulated_DHC_PP_4car;
         purchase:                       sw_DHC_PP_purchase;
         speed:                          sw_Regular_150_speed;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, DHC_PP_5Car, 2358){
         }
 
     graphics {
-        default:                        sw_DHC_PP_5Car_reversed;
+        default:                        sw_DHC_PP_5Car;
         articulated_part:               sw_articulated_DHC_PP_5car;
         purchase:                       sw_DHC_FF_purchase;
         speed:                          sw_Regular_150_speed;
@@ -181,7 +181,7 @@ item(FEAT_TRAINS, DHC_PP_6Car, 2359){
         }
 
     graphics {
-        default:                        sw_DHC_PP_6Car_reversed;
+        default:                        sw_DHC_PP_6Car;
         articulated_part:               sw_articulated_DHC_PP_6car;
         purchase:                       sw_DHC_PP_purchase;
         speed:                          sw_Regular_150_speed;
@@ -239,7 +239,7 @@ item(FEAT_TRAINS, DHC_PP_7Car, 2360){
         }
 
     graphics {
-        default:                        sw_DHC_PP_7Car_reversed;
+        default:                        sw_DHC_PP_7Car;
         articulated_part:               sw_articulated_DHC_PP_7car;
         purchase:                       sw_DHC_PP_purchase;
         speed:                          sw_Regular_150_speed;
@@ -296,7 +296,7 @@ item(FEAT_TRAINS, DHC_PP_8Car, 2361){
         }
 
     graphics {
-        default:                        sw_DHC_PP_8Car_reversed;
+        default:                        sw_DHC_PP_8Car;
         articulated_part:               sw_articulated_DHC_PP_8car;
         purchase:                       sw_DHC_PP_purchase;
         speed:                          sw_Regular_150_speed;
@@ -314,13 +314,12 @@ item(FEAT_TRAINS, DHC_PP_8Car, 2361){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DHC_PP_14Car, 2362){
     property {
-        name:                           string(STR_DHC_PP_14Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260430_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(1994, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DHC_PP;
         
         //spec
         speed:                          151km/h;
@@ -353,7 +352,7 @@ item(FEAT_TRAINS, DHC_PP_14Car, 2362){
         }
 
     graphics {
-        default:                        sw_DHC_PP_14Car_reversed;
+        default:                        sw_DHC_PP_14Car;
         articulated_part:               sw_articulated_DHC_PP_14car;
         purchase:                       sw_DHC_OL_purchase;
         speed:                          sw_Regular_150_speed;
@@ -369,13 +368,12 @@ item(FEAT_TRAINS, DHC_PP_14Car, 2362){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DHC_PP_16Car, 2363){
     property {
-        name:                           string(STR_DHC_PP_16Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260430_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2003, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DHC_PP;
         
         //spec
         speed:                          151km/h;
@@ -408,7 +406,7 @@ item(FEAT_TRAINS, DHC_PP_16Car, 2363){
         }
 
     graphics {
-        default:                        sw_DHC_PP_16Car_reversed;
+        default:                        sw_DHC_PP_16Car;
         articulated_part:               sw_articulated_DHC_PP_16car;
         purchase:                       sw_DHC_PP_purchase;
         speed:                          sw_Regular_150_speed;

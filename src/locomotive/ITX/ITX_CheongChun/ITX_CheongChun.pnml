@@ -52,7 +52,7 @@ item(FEAT_TRAINS, ITX_CheongChun_8Car, 2354){
         }
         
     graphics {
-        default:                        sw_ITX_CheongChun_8car_reversed;
+        default:                        sw_ITX_CheongChun_8car;
         articulated_part:               sw_articulated_ITX_CheongChun_8car;
         purchase:                       set_ITX_CheongChun_purchase;
         speed:                          sw_High_180_speed;

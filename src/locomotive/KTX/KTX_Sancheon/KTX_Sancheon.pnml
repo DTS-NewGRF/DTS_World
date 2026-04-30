@@ -12,7 +12,7 @@ KTX-산천
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Sancheon, 2317){
     property {
-        name:                           string(STR_Group_KTX_Sancheon_NAME);
+        name:                           string(STR_To_Be_Deleted_20260430_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -37,7 +37,7 @@ item(FEAT_TRAINS, KTX_Sancheon_10Car, 2024){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  KTX_Sancheon;
+        variant_group:                  KTX_Logo;
         
         //spec
         speed:                          300km/h;
@@ -69,7 +69,7 @@ item(FEAT_TRAINS, KTX_Sancheon_10Car, 2024){
         }
 
 	graphics {
-        default:                        sw_KTX_Sancheon_10car_reversed;
+        default:                        sw_KTX_Sancheon_10car;
         articulated_part:               sw_articulated_KTX_Sancheon_10car;
         purchase:                       set_KTX_Sancheon_purchase;
         speed:                          sw_High_305_speed;
@@ -88,8 +88,8 @@ item(FEAT_TRAINS, KTX_Sancheon_10Car, 2024){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Sancheon_20Car, 2319){
     property {
-        name:                           string(STR_KTX_Sancheon_20Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260430_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2016, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, KTX_Sancheon_20Car, 2319){
         }
 
 	graphics {
-        default:                        sw_KTX_Sancheon_20car_reversed;
+        default:                        sw_KTX_Sancheon_20car;
         articulated_part:               sw_articulated_KTX_Sancheon_20car;
         purchase:                       set_KTX_Sancheon_purchase;
         speed:                          sw_High_305_speed;
@@ -134,7 +134,6 @@ item(FEAT_TRAINS, KTX_Sancheon_20Car, 2319){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_KTX_Sancheon_20Car_cargo_subtype_text;
         sound_effect:                   sw_KTX_Sancheon_20Car_sound;
         }
         }

@@ -47,7 +47,7 @@ item (FEAT_TRAINS, Mugunhwa_Real_Service, 2391){
     }
 
     graphics {
-        default:                        sw_Mugunhwa_Real_Service_wagon_1Car;
+        default:                        sw_Mugunhwa_Real_Service_wagon;
         purchase:                       sw_Mugunhwa_Real_Service_purchase;
         cargo_capacity:                 sw_Mugunhwa_Real_Service_capacity_in_custom;
         loading_speed:                  25;

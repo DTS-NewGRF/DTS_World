@@ -50,7 +50,7 @@ item(FEAT_TRAINS, Special_Diesel_Car, 2466){
         }
         
     graphics {
-        default:                        sw_Special_Diesel_engine_1Car;
+        default:                        sw_Special_Diesel_engine;
         purchase:                       sw_Special_Diesel_purchase;
         speed:                          sw_Regular_100_speed;
         loading_speed:                  25;

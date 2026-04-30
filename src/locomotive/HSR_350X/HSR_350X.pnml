@@ -68,7 +68,7 @@ item(FEAT_TRAINS, HSR_350X_7Car, 2027){
         }
 
 	graphics {
-        default:                        sw_HSR_350X_7car_reversed;
+        default:                        sw_HSR_350X_7car;
         articulated_part:               sw_articulated_HSR_350X_7car;
         purchase:                       set_HSR_350X_purchase;
         speed:                          sw_High_350_speed;
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, HSR_350X_14Car, 2005){
         }
 
 	graphics {
-        default:                        sw_HSR_350X_14car_reversed;
+        default:                        sw_HSR_350X_14car;
         articulated_part:               sw_articulated_HSR_350X_14car;
         purchase:                       set_HSR_350X_purchase;
         speed:                          sw_High_350_speed;

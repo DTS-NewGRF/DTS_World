@@ -68,7 +68,7 @@ item(FEAT_TRAINS, Eurostar_E300_16Car, 2545){
         }
         
     graphics {
-        default:                        sw_Eurostar_E300_16car_reversed;
+        default:                        sw_Eurostar_E300_16car;
         articulated_part:               sw_articulated_Eurostar_E300_16car;
         purchase:                       sw_Eurostar_E300_purchase;
         speed:                          sw_High_300_speed;
@@ -124,7 +124,7 @@ item(FEAT_TRAINS, Eurostar_E300_20Car, 2065){
         }
         
     graphics {
-        default:                        sw_Eurostar_E300_20car_reversed;
+        default:                        sw_Eurostar_E300_20car;
         articulated_part:               sw_articulated_Eurostar_E300_20car;
         purchase:                       sw_Eurostar_E300_purchase;
         speed:                          sw_High_300_speed;

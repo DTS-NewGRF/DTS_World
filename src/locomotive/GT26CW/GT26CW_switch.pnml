@@ -39,8 +39,3 @@ switch(FEAT_TRAINS, SELF, sw_GT26CW_engine, cargo_subtype) {
     14: set_GT26CW_engine_2023;
     set_GT26CW_engine_1971_F;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_GT26CW_engine_1Car, position_in_vehid_chain % 1) {
-    sw_GT26CW_engine; //default
-    }

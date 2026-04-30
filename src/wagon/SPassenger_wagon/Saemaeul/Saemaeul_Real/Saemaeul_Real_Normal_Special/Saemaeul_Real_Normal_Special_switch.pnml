@@ -50,11 +50,6 @@ switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_wagon, cargo_subtype) 
     set_Saemaeul_Real_Normal_Special_KN1;
 }
 
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_Saemaeul_Real_Normal_Special_wagon; //default
-    }
-
 //수송량
 switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_capacity_in_custom, cargo_subtype) {
      2: return 48;

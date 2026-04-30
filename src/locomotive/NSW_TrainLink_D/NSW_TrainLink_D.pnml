@@ -69,7 +69,7 @@ item(FEAT_TRAINS, NSW_TrainLink_D_4Car, 2117){
         }
         
     graphics {
-        default:                        sw_NSW_TrainLink_D_4car_reversed;
+        default:                        sw_NSW_TrainLink_D_4car;
         articulated_part:               sw_articulated_NSW_TrainLink_D_4car;
         purchase:                       set_NSW_TrainLink_D_purchase;
         speed:                          sw_Regular_160_speed;
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, NSW_TrainLink_D_6Car, 2142){
         }
         
     graphics {
-        default:                        sw_NSW_TrainLink_D_6car_reversed;
+        default:                        sw_NSW_TrainLink_D_6car;
         articulated_part:               sw_articulated_NSW_TrainLink_D_6car;
         purchase:                       set_NSW_TrainLink_D_purchase;
         speed:                          sw_Regular_160_speed;

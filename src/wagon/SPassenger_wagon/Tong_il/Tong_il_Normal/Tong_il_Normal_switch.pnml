@@ -37,8 +37,3 @@ switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_wagon, cargo_subtype) {
     13: set_Tong_il_Normal_T_1997;
     set_Tong_il_Normal_T_1963;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Tong_il_Normal_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_Tong_il_Normal_wagon; //default
-    }

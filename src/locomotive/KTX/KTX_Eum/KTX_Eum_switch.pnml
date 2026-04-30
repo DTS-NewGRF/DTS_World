@@ -69,37 +69,6 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_6car_2024_engineT, cargo_subtype) {
     set_KTX_Eum_engineT;
 }
 
-// 2024 6량 뒤집힘
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_6car_2024_engineH_r, cargo_subtype) {
-    1: set_KTX_Eum_2nd_engineH_r;
-    set_KTX_Eum_engineH_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_6car_2024_wagon_M1_r, cargo_subtype) {
-    1: set_KTX_Eum_2nd_wagon_M1_r;
-    set_KTX_Eum_wagon_M1_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_6car_2024_wagon_M2_r, cargo_subtype) {
-    1: set_KTX_Eum_2nd_wagon_M2_r;
-    set_KTX_Eum_wagon_M2_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_6car_2024_wagon_M3_r, cargo_subtype) {
-    1: set_KTX_Eum_2nd_wagon_M3_r;
-    set_KTX_Eum_wagon_M3_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_6car_2024_wagon_M4_r, cargo_subtype) {
-    1: set_KTX_Eum_2nd_wagon_M4_r;
-    set_KTX_Eum_wagon_M4_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_6car_2024_engineT_r, cargo_subtype) {
-    1: set_KTX_Eum_2nd_engineT_r;
-    set_KTX_Eum_engineT_r;
-}
-
 // 2024 12량
 switch(FEAT_TRAINS, SELF, set_KTX_Eum_12car_2024_engineH, cargo_subtype) {
     1: set_KTX_Eum_engineH;
@@ -185,91 +154,6 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_2024_engineT, cargo_subtype) {
     set_KTX_Eum_engineT;
 }
 
-// 2024 12량 뒤집힘
-switch(FEAT_TRAINS, SELF, set_KTX_Eum_12car_2024_engineH_r, cargo_subtype) {
-    1: set_KTX_Eum_engineH_r;
-    2: set_KTX_Eum_2nd_engineH_r;
-    3: set_KTX_Eum_2nd_engineH_r;
-    set_KTX_Eum_engineH_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_2024_2wagon_r, cargo_subtype) {
-    1: set_KTX_Eum_2nd_wagon_M4_2;
-    2: set_KTX_Eum_wagon_M4_2;
-    3: set_KTX_Eum_2nd_wagon_M4_2;
-    set_KTX_Eum_wagon_M4_2;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_2024_3wagon_r, cargo_subtype) {
-    1: set_KTX_Eum_2nd_wagon_M2_r;
-    2: set_KTX_Eum_wagon_M2_r;
-    3: set_KTX_Eum_2nd_wagon_M2_r;
-    set_KTX_Eum_wagon_M2_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_2024_4wagon_r, cargo_subtype) {
-    1: set_KTX_Eum_2nd_wagon_M2_r;
-    2: set_KTX_Eum_wagon_M2_r;
-    3: set_KTX_Eum_2nd_wagon_M2_r;
-    set_KTX_Eum_wagon_M2_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_2024_5wagon_r, cargo_subtype) {
-    1: set_KTX_Eum_2nd_wagon_M1_2;
-    2: set_KTX_Eum_wagon_M1_2;
-    3: set_KTX_Eum_2nd_wagon_M1_2;
-    set_KTX_Eum_wagon_M1_2;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_2024_6wagon_r, cargo_subtype) {
-    1: set_KTX_Eum_2nd_engineT_TCD_r;
-    2: set_KTX_Eum_engineT_TCD_r;
-    3: set_KTX_Eum_2nd_engineT_TCD_r;
-    set_KTX_Eum_engineT_TCD_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_2024_7wagon_r, cargo_subtype) {
-    1: set_KTX_Eum_engineT_TCD;
-    2: set_KTX_Eum_2nd_engineT_TCD;
-    3: set_KTX_Eum_2nd_engineT_TCD;
-    set_KTX_Eum_engineT_TCD;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_2024_8wagon_r, cargo_subtype) {
-    1: set_KTX_Eum_wagon_M4_r;
-    2: set_KTX_Eum_2nd_wagon_M4_r;
-    3: set_KTX_Eum_2nd_wagon_M4_r;
-    set_KTX_Eum_wagon_M4_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_2024_9wagon_r, cargo_subtype) {
-    1: set_KTX_Eum_wagon_M2_r;
-    2: set_KTX_Eum_2nd_wagon_M2_r;
-    3: set_KTX_Eum_2nd_wagon_M2_r;
-    set_KTX_Eum_wagon_M2_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_2024_10wagon_r, cargo_subtype) {
-    1: set_KTX_Eum_wagon_M2_r;
-    2: set_KTX_Eum_2nd_wagon_M2_r;
-    3: set_KTX_Eum_2nd_wagon_M2_r;
-    set_KTX_Eum_wagon_M2_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_2024_11wagon_r, cargo_subtype) {
-    1: set_KTX_Eum_wagon_M1_r;
-    2: set_KTX_Eum_2nd_wagon_M1_r;
-    3: set_KTX_Eum_2nd_wagon_M1_r;
-    set_KTX_Eum_wagon_M1_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_2024_engineT_r, cargo_subtype) {
-    1: set_KTX_Eum_2nd_engineT_r;
-    2: set_KTX_Eum_engineT_r;
-    3: set_KTX_Eum_2nd_engineT_r;
-    set_KTX_Eum_engineT_r;
-}
-
 // 편성그래픽
 // 2020
 switch (FEAT_TRAINS, SELF, sw_KTX_Eum_2020_6car, position_in_vehid_chain % 6) {
@@ -280,24 +164,6 @@ switch (FEAT_TRAINS, SELF, sw_KTX_Eum_2020_6car, position_in_vehid_chain % 6) {
     set_KTX_Eum_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_KTX_Eum_2020_6car_r, position_in_vehid_chain % 6) {
-    1:set_KTX_Eum_wagon_M4_r;
-    2..3:set_KTX_Eum_wagon_M2_r;
-    4:set_KTX_Eum_wagon_M1_r;
-    5:set_KTX_Eum_engineH_r;
-    set_KTX_Eum_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_2020_6car_flipped, vehicle_is_flipped){
-    0: sw_KTX_Eum_2020_6car_r;
-    sw_KTX_Eum_2020_6car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_KTX_Eum_2020_6car_reversed, vehicle_is_reversed){
-    0: sw_KTX_Eum_2020_6car;
-    sw_KTX_Eum_2020_6car_flipped;
-}
-
 // 2024
 switch (FEAT_TRAINS, SELF, sw_KTX_Eum_2024_6car, position_in_vehid_chain % 6) {
     1:sw_KTX_Eum_6car_2024_wagon_M1;
@@ -307,27 +173,9 @@ switch (FEAT_TRAINS, SELF, sw_KTX_Eum_2024_6car, position_in_vehid_chain % 6) {
     set_KTX_Eum_6car_2024_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_KTX_Eum_2024_6car_r, position_in_vehid_chain % 6) {
-    1:sw_KTX_Eum_6car_2024_wagon_M4_r;
-    2..3:sw_KTX_Eum_6car_2024_wagon_M2_r;
-    4:sw_KTX_Eum_6car_2024_wagon_M1_r;
-    5:sw_KTX_Eum_6car_2024_engineH_r;
-    sw_KTX_Eum_6car_2024_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_2024_6car_flipped, vehicle_is_flipped){
-    0: sw_KTX_Eum_2024_6car_r;
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_6car, current_year) {
+    0..2023: sw_KTX_Eum_2020_6car;
     sw_KTX_Eum_2024_6car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_KTX_Eum_2024_6car_reversed, vehicle_is_reversed){
-    0: sw_KTX_Eum_2024_6car;
-    sw_KTX_Eum_2024_6car_flipped;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_6car_reversed, current_year) {
-    0..2023: sw_KTX_Eum_2020_6car_reversed;
-    sw_KTX_Eum_2024_6car_reversed;
     }
 
 // 12량
@@ -345,29 +193,6 @@ switch (FEAT_TRAINS, SELF, sw_KTX_Eum_2020_12car, position_in_vehid_chain % 12) 
     set_KTX_Eum_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_KTX_Eum_2020_12car_r, position_in_vehid_chain % 12) {
-     1:set_KTX_Eum_wagon_M4_2;
-     2..3:set_KTX_Eum_wagon_M2_r;
-     4:set_KTX_Eum_wagon_M1_2;
-     5:set_KTX_Eum_engineT_TCD_r;
-     6:set_KTX_Eum_engineT_TCD;
-     7:set_KTX_Eum_wagon_M4_r;
-     8..9:set_KTX_Eum_wagon_M2_r;
-    10:set_KTX_Eum_wagon_M1_r;
-    11:set_KTX_Eum_engineH_r;
-    set_KTX_Eum_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_2020_12car_flipped, vehicle_is_flipped){
-    0: sw_KTX_Eum_2020_12car_r;
-    sw_KTX_Eum_2020_12car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_KTX_Eum_2020_12car_reversed, vehicle_is_reversed){
-    0: sw_KTX_Eum_2020_12car;
-    sw_KTX_Eum_2020_12car_flipped;
-}
-
 // 2024
 switch (FEAT_TRAINS, SELF, sw_KTX_Eum_2024_12car, position_in_vehid_chain % 12) {
      1:sw_KTX_Eum_12car_2024_2wagon;
@@ -384,34 +209,9 @@ switch (FEAT_TRAINS, SELF, sw_KTX_Eum_2024_12car, position_in_vehid_chain % 12) 
     set_KTX_Eum_12car_2024_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_KTX_Eum_2024_12car_r, position_in_vehid_chain % 12) {
-     1:sw_KTX_Eum_12car_2024_2wagon_r;
-     2:sw_KTX_Eum_12car_2024_3wagon_r;
-     3:sw_KTX_Eum_12car_2024_4wagon_r;
-     4:sw_KTX_Eum_12car_2024_5wagon_r;
-     5:sw_KTX_Eum_12car_2024_6wagon_r;
-     6:sw_KTX_Eum_12car_2024_7wagon_r;
-     7:sw_KTX_Eum_12car_2024_8wagon_r;
-     8:sw_KTX_Eum_12car_2024_9wagon_r;
-     9:sw_KTX_Eum_12car_2024_10wagon_r;
-    10:sw_KTX_Eum_12car_2024_11wagon_r;
-    11:set_KTX_Eum_12car_2024_engineH_r;
-    sw_KTX_Eum_12car_2024_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_2024_12car_flipped, vehicle_is_flipped){
-    0: sw_KTX_Eum_2024_12car_r;
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car, current_year) {
+    0..2023: sw_KTX_Eum_2020_12car;
     sw_KTX_Eum_2024_12car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_KTX_Eum_2024_12car_reversed, vehicle_is_reversed){
-    0: sw_KTX_Eum_2024_12car;
-    sw_KTX_Eum_2024_12car_flipped;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_reversed, current_year) {
-    0..2023: sw_KTX_Eum_2020_12car_reversed;
-    sw_KTX_Eum_2024_12car_reversed;
     }
 
 // 편성량

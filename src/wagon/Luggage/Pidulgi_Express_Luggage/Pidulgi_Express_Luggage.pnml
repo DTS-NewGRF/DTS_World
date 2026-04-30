@@ -46,7 +46,7 @@ item(FEAT_TRAINS, Pidulgi_Express_Luggage, 2538){
         }
 
 	graphics {
-        default:                        sw_Pidulgi_Express_Luggage_wagon_1Car;
+        default:                        sw_Pidulgi_Express_Luggage_wagon;
         purchase:                       sw_Pidulgi_Express_Luggage_purchase;
         speed:                          sw_wagon_110_speed;
         loading_speed:                  25;

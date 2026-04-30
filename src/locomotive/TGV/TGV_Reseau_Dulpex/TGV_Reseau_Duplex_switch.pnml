@@ -43,42 +43,6 @@ switch(FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_engineT, cargo_subtype) {
     set_TGV_Reseau_Duplex_engineT;
 }
 
-// 10량 뒤집힘
-switch(FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_engineH_r, cargo_subtype) {
-    1: set_TGV_Reseau_Duplexx_Carmillon_engineH_r;
-    set_TGV_Reseau_Duplex_engineH_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_wagon_F1_r, cargo_subtype) {
-    1: set_TGV_Reseau_Duplexx_Carmillon_wagon_F1_r;
-    set_TGV_Reseau_Duplex_wagon_F1_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_wagon_F2_r, cargo_subtype) {
-    1: set_TGV_Reseau_Duplexx_Carmillon_wagon_F2_r;
-    set_TGV_Reseau_Duplex_wagon_F2_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_wagon_C_r, cargo_subtype) {
-    1: set_TGV_Reseau_Duplexx_Carmillon_wagon_C_r;
-    set_TGV_Reseau_Duplex_wagon_C_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_wagon_T1_r, cargo_subtype) {
-    1: set_TGV_Reseau_Duplexx_Carmillon_wagon_T1_r;
-    set_TGV_Reseau_Duplex_wagon_T1_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_wagon_T2_r, cargo_subtype) {
-    1: set_TGV_Reseau_Duplexx_Carmillon_wagon_T2_r;
-    set_TGV_Reseau_Duplex_wagon_T2_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_engineT_r, cargo_subtype) {
-    1: set_TG_Reseau_Duplexx_Carmillon_engineT_r;
-    set_TGV_Reseau_Duplex_engineT_r;
-}
-
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_10car, position_in_vehid_chain % 10) {
     1:sw_TGV_Reseau_Duplex_wagon_F1;
@@ -89,26 +53,6 @@ switch (FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_10car, position_in_vehid_chain %
     9:sw_TGV_Reseau_Duplex_engineT;
     sw_TGV_Reseau_Duplex_engineH; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_10car_r, position_in_vehid_chain % 10) {
-    1:sw_TGV_Reseau_Duplex_wagon_T2_r;
-    2..4:sw_TGV_Reseau_Duplex_wagon_T1_r;
-    5:sw_TGV_Reseau_Duplex_wagon_C_r;
-    6..7:sw_TGV_Reseau_Duplex_wagon_F2_r;
-    8:sw_TGV_Reseau_Duplex_wagon_F1_r;
-    9:sw_TGV_Reseau_Duplex_engineH_r;
-    sw_TGV_Reseau_Duplex_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_10car_flipped, vehicle_is_flipped){
-    0: sw_TGV_Reseau_Duplex_10car_r;
-    sw_TGV_Reseau_Duplex_10car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_TGV_Reseau_Duplex_10car_reversed, vehicle_is_reversed){
-    0: sw_TGV_Reseau_Duplex_10car;
-    sw_TGV_Reseau_Duplex_10car_flipped;
-}
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_wagon_length_in_custom, position_in_vehid_chain % 10) {
     1: 8;

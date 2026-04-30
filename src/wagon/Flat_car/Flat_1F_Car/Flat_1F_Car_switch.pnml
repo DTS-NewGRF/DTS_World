@@ -44,8 +44,3 @@ switch(FEAT_TRAINS, SELF, sw_Flat_Car_1F_wagon, cargo_subtype) {
     2: sg_FLAT_CAR_40ftP_02_wagon;
     sw_FLAT_Nomal_CAR_wagon;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Flat_Car_1F_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_Flat_Car_1F_wagon; //default
-    }

@@ -49,7 +49,7 @@ item(FEAT_TRAINS, OEL8000, 2417){
         }
         
     graphics {
-        default:                        sw_OEL8000_engine_1Car;
+        default:                        sw_OEL8000_engine;
         purchase:                       sw_OEL8000_purchase;
         speed:                          sw_Metro_85_speed;
         cargo_capacity:                 0;

@@ -53,8 +53,3 @@ switch(FEAT_TRAINS, SELF, sw_Express_Luggage_wagon, cargo_subtype) {
     21: set_Express_Luggage_GL;
     set_Express_Luggage_VA;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Express_Luggage_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_Express_Luggage_wagon; //default
-    }

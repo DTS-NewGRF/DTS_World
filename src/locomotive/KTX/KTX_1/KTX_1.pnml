@@ -50,7 +50,7 @@ item(FEAT_TRAINS, KTX_1_20Car, 2322){
         }
 
 	graphics {
-        default:                        sw_KTX_1_20car_reversed;
+        default:                        sw_KTX_1_20car;
         articulated_part:               sw_articulated_KTX_1_20car;
         purchase:                       set_KTX_1_purchase;
         speed:                          sw_High_305_speed;

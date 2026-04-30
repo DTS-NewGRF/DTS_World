@@ -50,7 +50,7 @@ item(FEAT_TRAINS, TGV_Duplex_10Car, 2076){
         }
 
 	graphics {
-        default:                        sw_TGV_Duplex_10car_reversed;
+        default:                        sw_TGV_Duplex_10car;
         articulated_part:               sw_articulated_TGV_Duplex_10car;
         purchase:                       set_TGV_Duplex_purchase;
         speed:                          sw_High_320_speed;

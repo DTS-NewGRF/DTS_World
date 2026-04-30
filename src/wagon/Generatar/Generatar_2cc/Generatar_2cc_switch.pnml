@@ -27,11 +27,6 @@ switch(FEAT_TRAINS, SELF, sw_Generatar_2cc, cargo_subtype) {
     set_Generatar_2cc;
 }
 
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Generatar_2cc_1Car, position_in_vehid_chain % 1) {
-    sw_Generatar_2cc; //default
-    }
-
 // 열차 길이
 switch(FEAT_TRAINS, SELF, sw_Generatar_2cc_length_in_custom, cargo_subtype) {
     1: return 6;

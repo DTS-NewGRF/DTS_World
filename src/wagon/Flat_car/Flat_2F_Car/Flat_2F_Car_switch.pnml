@@ -22,8 +22,3 @@ switch(FEAT_TRAINS, SELF, sw_FLAT_2F_CAR_wagon, random_bits % 15) {
     17: sg_FLAT_2F_CAR_4053ft_09_wagon;
     set_FLAT_2F_CAR_empty_wagon;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_FLAT_2F_CAR_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_FLAT_2F_CAR_wagon; //default
-    }

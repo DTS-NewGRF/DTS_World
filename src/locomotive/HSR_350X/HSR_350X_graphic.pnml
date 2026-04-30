@@ -5,60 +5,28 @@ spriteset(set_HSR_350X_engineH, "src/locomotive/HSR_350X/HSR_350X.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_HSR_350X_engineH_r, "src/locomotive/HSR_350X/HSR_350X.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_HSR_350X_wagon_TM1, "src/locomotive/HSR_350X/HSR_350X.png"){
     DTS_temp(80, 54)
-}
-
-spriteset(set_HSR_350X_wagon_TM1_r, "src/locomotive/HSR_350X/HSR_350X.png"){
-    DTS_temp_r(80, 54)
 }
 
 spriteset(set_HSR_350X_wagon_TT2, "src/locomotive/HSR_350X/HSR_350X.png") {
     DTS_temp_mini_7_Highspeed(80, 81)
 }
 
-spriteset(set_HSR_350X_wagon_TT2_r, "src/locomotive/HSR_350X/HSR_350X.png") {
-    DTS_temp_mini_7_Highspeed_r(80, 81)
-}
-
 spriteset(set_HSR_350X_wagon_TT3, "src/locomotive/HSR_350X/HSR_350X.png") {
     DTS_temp_mini_7_Highspeed(80, 108)
-}
-
-spriteset(set_HSR_350X_wagon_TT3_r, "src/locomotive/HSR_350X/HSR_350X.png") {
-    DTS_temp_mini_7_Highspeed_r(80, 108)
 }
 
 spriteset(set_HSR_350X_wagon_TT4, "src/locomotive/HSR_350X/HSR_350X.png") {
     DTS_temp_mini_7_Highspeed(80, 135)
 }
 
-spriteset(set_HSR_350X_wagon_TT4_r, "src/locomotive/HSR_350X/HSR_350X.png") {
-    DTS_temp_mini_7_Highspeed_r(80, 135)
-}
-
 spriteset(set_HSR_350X_wagon_TM5, "src/locomotive/HSR_350X/HSR_350X.png") {
     DTS_temp(80, 162)
 }
 
-spriteset(set_HSR_350X_wagon_TM5_r, "src/locomotive/HSR_350X/HSR_350X.png") {
-    DTS_temp_r(80, 162)
-}
-
 spriteset(set_HSR_350X_wagon_TM5D, "src/locomotive/HSR_350X/HSR_350X.png") {
     DTS_temp(80, 189)
-}
-
-spriteset(set_HSR_350X_wagon_TM5D_r, "src/locomotive/HSR_350X/HSR_350X.png") {
-    DTS_temp_r(80, 189)
-}
-
-spriteset(set_HSR_350X_engineT_r, "src/locomotive/HSR_350X/HSR_350X.png"){
-    DTS_temp(80, 216)
 }
 
 spriteset(set_HSR_350X_engineT, "src/locomotive/HSR_350X/HSR_350X.png"){

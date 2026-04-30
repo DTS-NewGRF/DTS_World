@@ -25,8 +25,3 @@ switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_wagon, cargo_subtype) {
     7: set_Tong_il_Special_F_1997;
     set_Tong_il_Special_F_1963_2;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Tong_il_Special_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_Tong_il_Special_wagon; //default
-    }

@@ -26,8 +26,3 @@ switch(FEAT_TRAINS, SELF, sw_FEL_8500_engine, cargo_subtype) {
     8: set_FEL_8500_G_New_Train_engine;   // G-Train 신도색
     set_FEL_8500_engine;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_FEL_8500_engine_1Car, position_in_vehid_chain % 1) {
-    sw_FEL_8500_engine; //default
-    }

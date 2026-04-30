@@ -8,60 +8,28 @@ spriteset(set_TGV_Pos_engineH, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_TGV_Pos_engineH_r, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_TGV_Pos_wagon_F1, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     DTS_temp(80, 54)
-}
-
-spriteset(set_TGV_Pos_wagon_F1_r, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
-    DTS_temp_r(80, 54)
 }
 
 spriteset(set_TGV_Pos_wagon_F2, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     DTS_temp_mini_7_Highspeed(80, 81)
 }
 
-spriteset(set_TGV_Pos_wagon_F2_r, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 81)
-}
-
 spriteset(set_TGV_Pos_wagon_C, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     DTS_temp_mini_7_Highspeed(80, 108)
-}
-
-spriteset(set_TGV_Pos_wagon_C_r, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 108)
 }
 
 spriteset(set_TGV_Pos_wagon_T1, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     DTS_temp_mini_7_Highspeed(80, 135)
 }
 
-spriteset(set_TGV_Pos_wagon_T1_r, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 135)
-}
-
 spriteset(set_TGV_Pos_wagon_T2, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     DTS_temp_mini_7_Highspeed(80, 162)
 }
 
-spriteset(set_TGV_Pos_wagon_T2_r, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 162)
-}
-
 spriteset(set_TGV_Pos_wagon_T3, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     DTS_temp(80, 189)
-}
-
-spriteset(set_TGV_Pos_wagon_T3_r, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
-    DTS_temp_r(80, 189)
-}
-
-spriteset(set_TGV_Pos_engineT_r, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
-    DTS_temp(80, 216)
 }
 
 spriteset(set_TGV_Pos_engineT, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
@@ -75,60 +43,28 @@ spriteset(set_TGV_Lyair_engineH, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png")
     DTS_temp(80, 0)
 }
 
-spriteset(set_TGV_Lyair_engineH_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_TGV_Lyair_wagon_F1, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
     DTS_temp(80, 54)
-}
-
-spriteset(set_TGV_Lyair_wagon_F1_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    DTS_temp_r(80, 54)
 }
 
 spriteset(set_TGV_Lyair_wagon_F2, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
     DTS_temp_mini_7_Highspeed(80, 81)
 }
 
-spriteset(set_TGV_Lyair_wagon_F2_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 81)
-}
-
 spriteset(set_TGV_Lyair_wagon_C, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
     DTS_temp_mini_7_Highspeed(80, 108)
-}
-
-spriteset(set_TGV_Lyair_wagon_C_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 108)
 }
 
 spriteset(set_TGV_Lyair_wagon_T1, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
     DTS_temp_mini_7_Highspeed(80, 135)
 }
 
-spriteset(set_TGV_Lyair_wagon_T1_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 135)
-}
-
 spriteset(set_TGV_Lyair_wagon_T2, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
     DTS_temp_mini_7_Highspeed(80, 162)
 }
 
-spriteset(set_TGV_Lyair_wagon_T2_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 162)
-}
-
 spriteset(set_TGV_Lyair_wagon_T3, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
     DTS_temp(80, 189)
-}
-
-spriteset(set_TGV_Lyair_wagon_T3_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    DTS_temp_r(80, 189)
-}
-
-spriteset(set_TGV_Lyair_engineT_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    DTS_temp(80, 216)
 }
 
 spriteset(set_TGV_Lyair_engineT, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
@@ -142,60 +78,28 @@ spriteset(set_TGV_Carmillon_engineH, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmill
     DTS_temp(80, 0)
 }
 
-spriteset(set_TGV_Carmillon_engineH_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_TGV_Carmillon_wagon_F1, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
     DTS_temp(80, 54)
-}
-
-spriteset(set_TGV_Carmillon_wagon_F1_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
-    DTS_temp_r(80, 54)
 }
 
 spriteset(set_TGV_Carmillon_wagon_F2, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
     DTS_temp_mini_7_Highspeed(80, 81)
 }
 
-spriteset(set_TGV_Carmillon_wagon_F2_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 81)
-}
-
 spriteset(set_TGV_Carmillon_wagon_C, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
     DTS_temp_mini_7_Highspeed(80, 108)
-}
-
-spriteset(set_TGV_Carmillon_wagon_C_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 108)
 }
 
 spriteset(set_TGV_Carmillon_wagon_T1, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
     DTS_temp_mini_7_Highspeed(80, 135)
 }
 
-spriteset(set_TGV_Carmillon_wagon_T1_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 135)
-}
-
 spriteset(set_TGV_Carmillon_wagon_T2, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
     DTS_temp_mini_7_Highspeed(80, 162)
 }
 
-spriteset(set_TGV_Carmillon_wagon_T2_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
-    DTS_temp_mini_7_Highspeed_r(80, 162)
-}
-
 spriteset(set_TGV_Carmillon_wagon_T3, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
     DTS_temp(80, 189)
-}
-
-spriteset(set_TGV_Carmillon_wagon_T3_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
-    DTS_temp_r(80, 189)
-}
-
-spriteset(set_TGV_Carmillon_engineT_r, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
-    DTS_temp(80, 216)
 }
 
 spriteset(set_TGV_Carmillon_engineT, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){

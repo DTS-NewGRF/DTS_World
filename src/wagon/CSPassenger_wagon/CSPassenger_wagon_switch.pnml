@@ -23,11 +23,6 @@ switch(FEAT_TRAINS, SELF, sw_CSPassenger_wagon, cargo_subtype) {
     set_CSPassenger_wagon_1F_Red;      //25형 1층 빨강도색
 }
 
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_CSPassenger_wagon_1Car, position_in_vehid_chain % 1) {
-    sw_CSPassenger_wagon; //default
-    }
-
 switch(FEAT_TRAINS, SELF, sw_CSPassenger_wagon_capacity_in_custom, cargo_subtype) {
     1: return 100;
     2: return 100;

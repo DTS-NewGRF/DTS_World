@@ -49,7 +49,7 @@ item(FEAT_TRAINS, DEL7600, 2015){
         }
         
     graphics {
-        default:                        sw_DEL7600_engine_1Car;
+        default:                        sw_DEL7600_engine;
         purchase:                       sw_DEL7600_purchase;
         speed:                          sw_Regular_150_speed;
         cargo_capacity:                 0;

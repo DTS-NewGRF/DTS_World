@@ -77,11 +77,6 @@ switch(FEAT_TRAINS, SELF, sw_Saemaeul_2cc, cargo_subtype) {
     set_Saemaeul_2cc_1wagon;
 }
 
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Saemaeul_2cc_1Car, position_in_vehid_chain % 1) {
-    sw_Saemaeul_2cc; //default
-    }
-
 //수송량
 switch(FEAT_TRAINS, SELF, sw_Saemaeul_2cc_capacity_in_custom, cargo_subtype) {
      1: return 48;

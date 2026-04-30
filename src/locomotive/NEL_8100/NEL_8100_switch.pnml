@@ -12,8 +12,3 @@ switch(FEAT_TRAINS, SELF, sw_NEL_8100_engine, cargo_subtype) {
     1: set_NEL_8100_engine_B;
     set_NEL_8100_engine_A;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_NEL_8100_engine_1Car, position_in_vehid_chain % 1) {
-    sw_NEL_8100_engine; //default
-    }

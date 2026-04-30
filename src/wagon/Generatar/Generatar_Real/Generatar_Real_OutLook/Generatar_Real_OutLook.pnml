@@ -46,7 +46,7 @@ item(FEAT_TRAINS, Generatar_Real_OutLook, 2395){
         }
 
 	graphics {
-        default:                        sw_Generatar_Real_OutLook_wagon_1Car;
+        default:                        sw_Generatar_Real_OutLook_wagon;
         purchase:                       sw_Generatar_Real_OutLook_purchase;
         length:                         sw_Generatar_Real_OutLook_length_in_custom;
         speed:                          sw_Generatar_Real_OutLook_speed;

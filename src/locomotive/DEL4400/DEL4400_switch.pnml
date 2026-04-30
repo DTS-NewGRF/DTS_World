@@ -17,8 +17,3 @@ switch(FEAT_TRAINS, SELF, sw_DEL4400_engine, cargo_subtype) {
     3: set_DEL4400_engine_D;
     set_DEL4400_engine_A;
 }
-
-// 편성 그래픽
-switch (FEAT_TRAINS, SELF, sw_DEL4400_1Car, position_in_vehid_chain % 1) {
-    sw_DEL4400_engine; //default
-    }

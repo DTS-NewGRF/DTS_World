@@ -15,8 +15,3 @@ switch(FEAT_TRAINS, SELF, sw_Special_Diesel_engine, cargo_subtype) {
     2: set_Special_Diesel_engine_1994;
     set_Special_Diesel_engine_1969;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Special_Diesel_engine_1Car, position_in_vehid_chain % 1) {
-    sw_Special_Diesel_engine; //default
-    }

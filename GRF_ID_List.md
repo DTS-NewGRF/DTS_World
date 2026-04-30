@@ -240,8 +240,7 @@
 |2255|[그룹명] Seoulmetro_1st|
 |2256|Seoulmetro_1st_4000_6Car|
 |2257|Seoulmetro_1st_1000_4000_10Car|
-|2258|ITX_Maum_4_6Car|
-|2259|ITX_Maum_6_4Car|
+|~2259|[공백]|
 |2260|[그룹명] Seoulmetro_2nd|
 |2261|Seoulmetro_2nd_10Car|
 |2262|[공백] |
@@ -284,7 +283,6 @@
 |2302|Seoulmetro_4th_5000_8Car|
 |2303|Seoulmetro_5th_7000_8Car|
 |2304|[그룹명] Shinkansen_E5_H5|
-|2305|Shinkansen_E5_H5_E6_17Car|
 |~2307|[공백] |
 |2308|Seoulmetro_1st_8000_6Car|
 |2309|Seoulmetro_1st_7000_8Car|
@@ -295,15 +293,13 @@
 |2314|Seoulmetro_3rd_7000_8Car|
 |2315|Seoulmetro_4th_7000_8Car|
 |2316|Seoulmetro_3rd_8000_6Car|
-|2317|[그룹명] KTX_Sancheon|
+|2317|[공백]|
 |2318|Asean_Korea|
-|2319|KTX_Sancheon_20Car|
 |~2321|[공백] |
 |2322|KTX_1_20Car|
 |2323|[공백]|
 |2324|Nuriro_4Car|
-|2325|Nuriro_8Car|
-|2326|[공백]|
+|~2326|[공백]|
 |2327|ITX_Saemaeul_6Car|
 |2328|[공백] |
 |2329|[2차 그룹명] Eco_Rail|
@@ -330,8 +326,7 @@
 |2359|DHC_PP_6Car|
 |2360|DHC_PP_7Car|
 |2361|DHC_PP_8Car|
-|2362|DHC_PP_14Car|
-|2363|DHC_PP_16Car|
+|~2363|[공백]|
 |2364|Seoulmetro_1st_9000_4Car|
 |2365|Seoulmetro_1st_VVVF_9000_6Car|
 |2366|Seoulmetro_4th_9000_6Car|
@@ -366,7 +361,7 @@
 |2400|Seoulmetro_4th_8000_6Car|
 |2401|Seoulmetro_5th_5000_8Car|
 |2402|Thalys_PBKA_10Car|
-|2403|ITX_Maum_4_4Car|
+|2403|[공백]|
 |2404|Seoulmetro_7th_7000_8Car|
 |2405|Rail_Cruise_Haerang|
 |2406|[공백] |
@@ -427,7 +422,7 @@
 |~2510|[공백] |
 |2511|[그룹명] KTX_Logo|
 |2512|[그룹명] ITX_Logo|
-|2513|[그룹명] Nuriro_Logo|
+|2513|[공백]|
 |2514|[그룹명] AREX_Logo|
 |2515|[그룹명] MTR_Logo|
 |2516|[그룹명] Hankyu_Logo|

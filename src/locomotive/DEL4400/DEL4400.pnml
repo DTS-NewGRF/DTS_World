@@ -49,7 +49,7 @@ item(FEAT_TRAINS, DEL4400, 2396){
         }
         
     graphics {
-        default:                        sw_DEL4400_1Car;
+        default:                        sw_DEL4400_engine;
         purchase:                       sw_DEL4400_purchase;
         speed:                          sw_Regular_105_speed;
         length:                         6;

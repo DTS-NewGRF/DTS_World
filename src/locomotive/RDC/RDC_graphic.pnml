@@ -8,44 +8,20 @@ spriteset(set_RDC_engineH, "src/locomotive/RDC/RDC.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_RDC_engineH_r, "src/locomotive/RDC/RDC.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_RDC_wagon_M1, "src/locomotive/RDC/RDC.png") {
     DTS_temp(80, 54)
-}
-
-spriteset(set_RDC_wagon_M1_r, "src/locomotive/RDC/RDC.png") {
-    DTS_temp_r(80, 54)
 }
 
 spriteset(set_RDC_wagon_M1Cafe, "src/locomotive/RDC/RDC.png") {
     DTS_temp(80, 81)
 }
 
-spriteset(set_RDC_wagon_M1Cafe_r, "src/locomotive/RDC/RDC.png") {
-    DTS_temp_r(80, 81)
-}
-
 spriteset(set_RDC_wagon_M2, "src/locomotive/RDC/RDC.png") {
     DTS_temp(80, 108)
 }
 
-spriteset(set_RDC_wagon_M2_r, "src/locomotive/RDC/RDC.png") {
-    DTS_temp_r(80, 108)
-}
-
 spriteset(set_RDC_wagon_M2Cafe, "src/locomotive/RDC/RDC.png") {
     DTS_temp(80, 135)
-}
-
-spriteset(set_RDC_wagon_M2Cafe_r, "src/locomotive/RDC/RDC.png") {
-    DTS_temp_r(80, 135)
-}
-
-spriteset(set_RDC_engineT_r, "src/locomotive/RDC/RDC.png"){
-    DTS_temp(80, 162)
 }
 
 spriteset(set_RDC_engineT, "src/locomotive/RDC/RDC.png"){
@@ -59,20 +35,8 @@ spriteset(set_RDC_PY_engineH, "src/locomotive/RDC/RDC_Pohang_Yeongdeok.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_RDC_PY_engineH_r, "src/locomotive/RDC/RDC_Pohang_Yeongdeok.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_RDC_PY_wagon, "src/locomotive/RDC/RDC_Pohang_Yeongdeok.png") {
     DTS_temp(80, 54)
-}
-
-spriteset(set_RDC_PY_wagon_r, "src/locomotive/RDC/RDC_Pohang_Yeongdeok.png") {
-    DTS_temp_r(80, 54)
-}
-
-spriteset(set_RDC_PY_engineT_r, "src/locomotive/RDC/RDC_Pohang_Yeongdeok.png"){
-    DTS_temp(80, 81)
 }
 
 spriteset(set_RDC_PY_engineT, "src/locomotive/RDC/RDC_Pohang_Yeongdeok.png"){
@@ -86,20 +50,8 @@ spriteset(set_RDC_PY2_engineH, "src/locomotive/RDC/RDC_Pohang_Yeongdeok2.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_RDC_PY2_engineH_r, "src/locomotive/RDC/RDC_Pohang_Yeongdeok2.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_RDC_PY2_wagon, "src/locomotive/RDC/RDC_Pohang_Yeongdeok2.png") {
     DTS_temp(80, 54)
-}
-
-spriteset(set_RDC_PY2_wagon_r, "src/locomotive/RDC/RDC_Pohang_Yeongdeok2.png") {
-    DTS_temp_r(80, 54)
-}
-
-spriteset(set_RDC_PY2_engineT_r, "src/locomotive/RDC/RDC_Pohang_Yeongdeok2.png"){
-    DTS_temp(80, 81)
 }
 
 spriteset(set_RDC_PY2_engineT, "src/locomotive/RDC/RDC_Pohang_Yeongdeok2.png"){
@@ -113,28 +65,12 @@ spriteset(set_RDC_Gyeongbuk_engineH, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_RDC_Gyeongbuk_engineH_r, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_RDC_Gyeongbuk_wagon_M1, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
     DTS_temp(80, 54)
 }
 
-spriteset(set_RDC_Gyeongbuk_wagon_M1_r, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_RDC_Gyeongbuk_wagon_M2, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
     DTS_temp(80, 81)
-}
-
-spriteset(set_RDC_Gyeongbuk_wagon_M2_r, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
-    DTS_temp_r(80, 81)
-}
-
-spriteset(set_RDC_Gyeongbuk_engineT_r, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_RDC_Gyeongbuk_engineT, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
@@ -148,28 +84,12 @@ spriteset(set_RDC_Gyeongbuk_New_engineH, "src/locomotive/RDC/RDC_Gyeongbuk.png")
     DTS_temp(80, 0)
 }
 
-spriteset(set_RDC_Gyeongbuk_New_engineH_r, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_RDC_Gyeongbuk_New_wagon_M1, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
     DTS_temp(80, 54)
 }
 
-spriteset(set_RDC_Gyeongbuk_New_wagon_M1_r, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_RDC_Gyeongbuk_New_wagon_M2, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
     DTS_temp(80, 81)
-}
-
-spriteset(set_RDC_Gyeongbuk_New_wagon_M2_r, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
-    DTS_temp_r(80, 81)
-}
-
-spriteset(set_RDC_Gyeongbuk_New_engineT_r, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_RDC_Gyeongbuk_New_engineT, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
@@ -183,28 +103,12 @@ alternative_sprites(set_RDC_Gyeongbuk_New_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_
     DTS_temp(80, 0)
 }
 
-alternative_sprites(set_RDC_Gyeongbuk_New_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png"){
-    DTS_temp(80, 27)
-}
-
 alternative_sprites(set_RDC_Gyeongbuk_New_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png") {
     DTS_temp(80, 54)
 }
 
-alternative_sprites(set_RDC_Gyeongbuk_New_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png") {
-    DTS_temp_r(80, 54)
-}
-
 alternative_sprites(set_RDC_Gyeongbuk_New_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png") {
     DTS_temp(80, 81)
-}
-
-alternative_sprites(set_RDC_Gyeongbuk_New_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png") {
-    DTS_temp_r(80, 81)
-}
-
-alternative_sprites(set_RDC_Gyeongbuk_New_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png"){
-    DTS_temp(80, 108)
 }
 
 alternative_sprites(set_RDC_Gyeongbuk_New_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png"){
@@ -218,28 +122,12 @@ spriteset(set_RDC_Gyeongbuk_Nadri_engineH, "src/locomotive/RDC/RDC_Gyeongbuk_Nad
     DTS_temp(80, 0)
 }
 
-spriteset(set_RDC_Gyeongbuk_Nadri_engineH_r, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png"){
-    DTS_temp(80, 27)
-}
-
 spriteset(set_RDC_Gyeongbuk_Nadri_wagon_M1, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png") {
     DTS_temp(80, 54)
 }
 
-spriteset(set_RDC_Gyeongbuk_Nadri_wagon_M1_r, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png") {
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_RDC_Gyeongbuk_Nadri_wagon_M2, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png") {
     DTS_temp(80, 81)
-}
-
-spriteset(set_RDC_Gyeongbuk_Nadri_wagon_M2_r, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png") {
-    DTS_temp_r(80, 81)
-}
-
-spriteset(set_RDC_Gyeongbuk_Nadri_engineT_r, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png"){
-    DTS_temp(80, 108)
 }
 
 spriteset(set_RDC_Gyeongbuk_Nadri_engineT, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png"){

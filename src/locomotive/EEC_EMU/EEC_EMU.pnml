@@ -51,7 +51,7 @@ item(FEAT_TRAINS, EEC_EMU_10Car, 2559){
         }
         
     graphics {
-        default:                        sw_EEC_EMU_10car_reversed;
+        default:                        sw_EEC_EMU_10car;
         articulated_part:               sw_articulated_EEC_EMU_10car;
         purchase:                       sw_EEC_EMU_purchase;
         speed:                          sw_Regular_110_speed;

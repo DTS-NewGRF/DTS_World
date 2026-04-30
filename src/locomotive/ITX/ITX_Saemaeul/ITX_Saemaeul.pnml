@@ -50,7 +50,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_6Car, 2327){
         }
 
 	graphics {
-        default:                        sw_ITX_Saemaeul_6car_reversed;
+        default:                        sw_ITX_Saemaeul_6car;
         articulated_part:               sw_articulated_ITX_Saemaeul_6car;
         purchase:                       set_ITX_Saemaeul_purchase;
         speed:                          sw_Regular_150_speed;

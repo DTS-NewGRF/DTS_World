@@ -46,7 +46,7 @@ item (FEAT_TRAINS, ESPassenger_Car, 2061){
 	}
 
     graphics {
-		default:						sw_ESPassenger_wagon_1Car;
+		default:						sw_ESPassenger_wagon;
 		purchase:						set_ESPassenger_wagon_purchase;
         cargo_capacity:                 sw_ESPassenger_wagon_capacity_in_custom;
         loading_speed:                  25;

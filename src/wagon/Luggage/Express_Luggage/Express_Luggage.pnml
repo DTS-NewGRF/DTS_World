@@ -46,7 +46,7 @@ item(FEAT_TRAINS, Express_Luggage, 2004){
         }
 
 	graphics {
-        default:                        sw_Express_Luggage_wagon_1Car;
+        default:                        sw_Express_Luggage_wagon;
         purchase:                       sw_Express_Luggage_purchase;
         speed:                          sw_wagon_150_speed;
         loading_speed:                  25;

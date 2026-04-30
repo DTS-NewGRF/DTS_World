@@ -49,7 +49,7 @@ item(FEAT_TRAINS, Avelia_Liberty_11Car, 2122){
         }
         
     graphics {
-        default:                        sw_Avelia_Liberty_11car_reversed;
+        default:                        sw_Avelia_Liberty_11car;
         articulated_part:               sw_articulated_Avelia_Liberty_11car;
         purchase:                       set_Avelia_Liberty_purchase;
         speed:                          sw_High_320_speed;

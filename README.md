@@ -17,6 +17,7 @@
 [이슈작업]
 * [사운드변경][사운드 삭제] 우진산전 수소연료전지동차 출발 사운드 삭제 ([#753](https://github.com/DTS-NewGRF/DTS_World/issues/753))
 * [열차추가][Japan] JR 서일본 227계 500번대 전동차 (32bpp) ([#754](https://github.com/DTS-NewGRF/DTS_World/issues/754))
+* 한큐전철 전동차 출력 조정 ([#755](https://github.com/DTS-NewGRF/DTS_World/issues/755))
 
 ## 인게임 등록
 [1.69] <br>

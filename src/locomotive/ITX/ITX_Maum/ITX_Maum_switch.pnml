@@ -44,109 +44,6 @@ switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineT, cargo_subtype) {
     set_ITX_Maum_engineT;
 }
 
-// 4량 뒤집힘
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineH_r, cargo_subtype) {
-    1: set_ITX_Maum_High1_engineH_r;
-    set_ITX_Maum_engineH_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_panto_wagon_M1_r, cargo_subtype) {
-    1: set_ITX_Maum_High1_panto_wagon_M1_r;
-    set_ITX_Maum_panto_wagon_M1_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_panto_wagon_4Car_M2_r, cargo_subtype) {
-    1: set_ITX_Maum_High1_panto_wagon_4Car_M2_r;
-    set_ITX_Maum_panto_wagon_4Car_M2_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineT_r, cargo_subtype) {
-    1: set_ITX_Maum_High1_engineT_r;
-    set_ITX_Maum_engineT_r;
-}
-
-// 4량 중련
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_4_4_engineH, cargo_subtype) {
-    1: set_ITX_Maum_High1_engineH;
-    set_ITX_Maum_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_wagon_2Car, cargo_subtype) {
-    1: set_ITX_Maum_High1_panto_wagon_M1;
-    set_ITX_Maum_panto_wagon_M1;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_wagon_3Car, cargo_subtype) {
-    1: set_ITX_Maum_High1_panto_wagon_4Car_M2;
-    set_ITX_Maum_panto_wagon_4Car_M2;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineT_DTC2, cargo_subtype) {
-    1: set_ITX_Maum_High1_engineT_DTC2;
-    set_ITX_Maum_engineT_DTC2;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineT_DTC1, cargo_subtype) {
-    1: set_ITX_Maum_engineT_DTC1;
-    set_ITX_Maum_High1_engineT_DTC1;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_wagon_6Car, cargo_subtype) {
-    1: set_ITX_Maum_panto_wagon_M1;
-    set_ITX_Maum_High1_panto_wagon_M1;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_wagon_7Car, cargo_subtype) {
-    1: set_ITX_Maum_panto_wagon_4Car_M2;
-    set_ITX_Maum_High1_panto_wagon_4Car_M2;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_4_4_engineT, cargo_subtype) {
-    1: set_ITX_Maum_engineT;
-    set_ITX_Maum_High1_engineT;
-}
-
-// 4량 중련 뒤집힘
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_4_4_engineH_r, cargo_subtype) {
-    1: set_ITX_Maum_High1_engineH_r;
-    set_ITX_Maum_engineH_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_wagon_2Car_r, cargo_subtype) {
-    1: set_ITX_Maum_High1_panto_wagon_M1_r;
-    set_ITX_Maum_panto_wagon_M1_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_wagon_3Car_r, cargo_subtype) {
-    1: set_ITX_Maum_High1_panto_wagon_4Car_M2_r;
-    set_ITX_Maum_panto_wagon_4Car_M2_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineT_DTC2_r, cargo_subtype) {
-    1: set_ITX_Maum_High1_engineT_DTC2_r;
-    set_ITX_Maum_engineT_DTC2_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineT_DTC1_r, cargo_subtype) {
-    1: set_ITX_Maum_engineT_DTC1_r;
-    set_ITX_Maum_High1_engineT_DTC1_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_wagon_6Car_r, cargo_subtype) {
-    1: set_ITX_Maum_panto_wagon_M1_r;
-    set_ITX_Maum_High1_panto_wagon_M1_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_wagon_7Car_r, cargo_subtype) {
-    1: set_ITX_Maum_panto_wagon_4Car_M2_r;
-    set_ITX_Maum_High1_panto_wagon_4Car_M2_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_4_4_engineT_r, cargo_subtype) {
-    1: set_ITX_Maum_engineT_r;
-    set_ITX_Maum_High1_engineT_r;
-}
-
 // 편성그래픽
 // 4량 2022
 switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4car_2022, position_in_vehid_chain % 4) {
@@ -156,23 +53,6 @@ switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4car_2022, position_in_vehid_chain % 4) {
     set_ITX_Maum_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4car_2022_r, position_in_vehid_chain % 4) {
-    1:set_ITX_Maum_panto_wagon_4Car_M2_r;
-    2:set_ITX_Maum_panto_wagon_M1_r;
-    3:set_ITX_Maum_engineH_r;
-    set_ITX_Maum_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_4car_2022_flipped, vehicle_is_flipped){
-    0: sw_ITX_Maum_4car_2022_r;
-    sw_ITX_Maum_4car_2022;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_ITX_Maum_4car_2022_reversed, vehicle_is_reversed){
-    0: sw_ITX_Maum_4car_2022;
-    sw_ITX_Maum_4car_2022_flipped;
-}
-
 // 4량 2024
 switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4car_2024, position_in_vehid_chain % 4) {
     1:sw_ITX_Maum_panto_wagon_M1;
@@ -181,26 +61,9 @@ switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4car_2024, position_in_vehid_chain % 4) {
     sw_ITX_Maum_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4car_2024_r, position_in_vehid_chain % 4) {
-    1:sw_ITX_Maum_panto_wagon_4Car_M2_r;
-    2:sw_ITX_Maum_panto_wagon_M1_r;
-    3:sw_ITX_Maum_engineH_r;
-    sw_ITX_Maum_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_4car_2024_flipped, vehicle_is_flipped){
-    0: sw_ITX_Maum_4car_2024_r;
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_4car, current_year) {
+    0..2023: sw_ITX_Maum_4car_2022;
     sw_ITX_Maum_4car_2024;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_ITX_Maum_4car_2024_reversed, vehicle_is_reversed){
-    0: sw_ITX_Maum_4car_2024;
-    sw_ITX_Maum_4car_2024_flipped;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_4car_reversed, current_year) {
-    0..2023: sw_ITX_Maum_4car_2022_reversed;
-    sw_ITX_Maum_4car_2024_reversed;
     }
 
 // 6량
@@ -213,131 +76,23 @@ switch (FEAT_TRAINS, SELF, sw_ITX_Maum_6car, position_in_vehid_chain % 6) {
     set_ITX_Maum_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_ITX_Maum_6car_r, position_in_vehid_chain % 6) {
-    1:set_ITX_Maum_panto_wagon_6Car_M2_r;
-    2:set_ITX_Maum_wagon_T_r;
-    3:set_ITX_Maum_wagon_M_r;
-    4:set_ITX_Maum_panto_wagon_M1_r;
-    5:set_ITX_Maum_engineH_r;
-    set_ITX_Maum_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_6car_flipped, vehicle_is_flipped){
-    0: sw_ITX_Maum_6car_r;
-    sw_ITX_Maum_6car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_ITX_Maum_6car_reversed, vehicle_is_reversed){
-    0: sw_ITX_Maum_6car;
-    sw_ITX_Maum_6car_flipped;
-}
-
 // 4+4량
 switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4_4car, position_in_vehid_chain % 8) {
-    1:sw_ITX_Maum_wagon_2Car;
-    2:sw_ITX_Maum_wagon_3Car;
-    3:sw_ITX_Maum_engineT_DTC2; //4량 4번
-    4:sw_ITX_Maum_engineT_DTC1; // 4량 1번
-    5:sw_ITX_Maum_wagon_6Car;
-    6:sw_ITX_Maum_wagon_7Car;
-    7:sw_ITX_Maum_4_4_engineT;
-    sw_ITX_Maum_4_4_engineH; //default
+    1..7:set_Deleted_B;
+    set_Deleted_A; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4_4car_r, position_in_vehid_chain % 8) {
-    1:sw_ITX_Maum_wagon_7Car_r;
-    2:sw_ITX_Maum_wagon_6Car_r;
-    3:sw_ITX_Maum_engineT_DTC1_r; //4량 1번
-    4:sw_ITX_Maum_engineT_DTC2_r; //4량 4번
-    5:sw_ITX_Maum_wagon_3Car_r;
-    6:sw_ITX_Maum_wagon_2Car_r;
-    7:sw_ITX_Maum_4_4_engineH_r;
-    sw_ITX_Maum_4_4_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_4_4car_flipped, vehicle_is_flipped){
-    0: sw_ITX_Maum_4_4car_r;
-    sw_ITX_Maum_4_4car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_ITX_Maum_4_4car_reversed, vehicle_is_reversed){
-    0: sw_ITX_Maum_4_4car;
-    sw_ITX_Maum_4_4car_flipped;
-}
 
 // 4+6량
 switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4_6car, position_in_vehid_chain % 10) {
-    1:set_ITX_Maum_panto_wagon_M1;
-    2:set_ITX_Maum_panto_wagon_4Car_M2;
-    3:set_ITX_Maum_engineT_DTC2; //4량 4번
-    4:set_ITX_Maum_engineT_DTC1; // 6량 1번
-    5:set_ITX_Maum_panto_wagon_M1;
-    6:set_ITX_Maum_wagon_M;
-    7:set_ITX_Maum_wagon_T;
-    8:set_ITX_Maum_panto_wagon_6Car_M2;
-    9:set_ITX_Maum_engineT;
-    set_ITX_Maum_engineH; //default
+    1..9:set_Deleted_B;
+    set_Deleted_A; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4_6car_r, position_in_vehid_chain % 10) {
-    1:set_ITX_Maum_panto_wagon_6Car_M2_r;
-    2:set_ITX_Maum_wagon_T_r;
-    3:set_ITX_Maum_wagon_M_r;
-    4:set_ITX_Maum_panto_wagon_M1_r;
-    5:set_ITX_Maum_engineT_DTC1_r; //6량 1번
-    6:set_ITX_Maum_engineT_DTC2_r; //4량 4번
-    7:set_ITX_Maum_panto_wagon_4Car_M2_r;
-    8:set_ITX_Maum_panto_wagon_M1_r;
-    9:set_ITX_Maum_engineH_r;
-    set_ITX_Maum_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_4_6car_flipped, vehicle_is_flipped){
-    0: sw_ITX_Maum_4_6car_r;
-    sw_ITX_Maum_4_6car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_ITX_Maum_4_6car_reversed, vehicle_is_reversed){
-    0: sw_ITX_Maum_4_6car;
-    sw_ITX_Maum_4_6car_flipped;
-}
 
 // 6+4량
 switch (FEAT_TRAINS, SELF, sw_ITX_Maum_6_4car, position_in_vehid_chain % 10) {
-    1:set_ITX_Maum_panto_wagon_M1;
-    2:set_ITX_Maum_wagon_M;
-    3:set_ITX_Maum_wagon_T;
-    4:set_ITX_Maum_panto_wagon_6Car_M2;
-    5:set_ITX_Maum_engineT_DTC2; //6량 6번
-    6:set_ITX_Maum_engineT_DTC1; //4량 1번
-    7:set_ITX_Maum_panto_wagon_M1;
-    8:set_ITX_Maum_panto_wagon_4Car_M2;
-    9:set_ITX_Maum_engineT;
-    set_ITX_Maum_engineH; //default
+    1..9:set_Deleted_B;
+    set_Deleted_A; //default
     }
-
-switch (FEAT_TRAINS, SELF, sw_ITX_Maum_6_4car_r, position_in_vehid_chain % 10) {
-    1:set_ITX_Maum_panto_wagon_4Car_M2_r;
-    2:set_ITX_Maum_panto_wagon_M1_r;
-    3:set_ITX_Maum_engineT_DTC1_r; // 4량 1번
-    4:set_ITX_Maum_engineT_DTC2_r; // 6량 6번
-    5:set_ITX_Maum_panto_wagon_6Car_M2_r;
-    6:set_ITX_Maum_wagon_T_r;
-    7:set_ITX_Maum_wagon_M_r;
-    8:set_ITX_Maum_panto_wagon_6Car_M2_r;
-    9:set_ITX_Maum_engineH_r;
-    set_ITX_Maum_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_6_4car_flipped, vehicle_is_flipped){
-    0: sw_ITX_Maum_6_4car_r;
-    sw_ITX_Maum_6_4car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_ITX_Maum_6_4car_reversed, vehicle_is_reversed){
-    0: sw_ITX_Maum_6_4car;
-    sw_ITX_Maum_6_4car_flipped;
-}
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_ITX_Maum_4car, extra_callback_info1) {
