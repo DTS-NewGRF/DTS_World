@@ -1,3 +1,54 @@
+0.9.0 (2026-04-15)
+------------------------------------------------------------------------
+This release sets python 3.10 as minimum version, and adds support for badges and push-pull trains.
+
+Support for NewGRF additions of OpenTTD 16:
+ - Add: Flag for allow unpowered wagons to lead a train when backing up (#420)
+ - Add: Variable for when a train is driving backwards (#421)
+ - Change: distinguish perimeter from area in station distributed cargo flag. (#422)
+
+Support for NewGRF additions of OpenTTD 15:
+ - Add: Support for NewGRF badges. (#359)
+ - Change: add support for vehicle var 0x65 (#378)
+
+Other changes and fixes:
+ - Fix: Feature 0x14 missing from extract tables. (#403)
+ - Fix #407: missing position for some action0 errors (#408)
+
+
+0.8.1 (2025-12-02)
+------------------------------------------------------------------------
+Support for NewGRF additions of OpenTTD 15:
+ - Add: Station/RoadStop height and blocked pillar flag lists (#388)
+ - Add: Extend FEAT_TRAIN track_type for prop 34 (#390)
+ - Add: Support for Action5 type 1B bridge deck overlays (#393)
+
+Other changes and fixes:
+ - Fix: Validation and handling of multiple settings in one parameter (#382)
+ - Add: FEAT_AIRCRAFT flight_state variable (varE2) (#391)
+ - Change: Validate action 2 loaded list does not overlap special types (#400)
+
+
+0.8.0 (2025-06-21)
+------------------------------------------------------------------------
+This release removes external dependency for "ply".
+
+Support for NewGRF additions of OpenTTD 15:
+ - Add: Support for badge menu vertical ellipsis icon (#377)
+ - Add: Constants for (new) station and roadstop animation and random triggers. (#375)
+ - Add: Road/tram/railtype variable 0x45. (#373)
+ - Fix #367: Incorrect limits for House and Industry Tile (#368)
+ - Fix: ALL_NORMAL_CARGO_CLASSES and ALL_CARGO_CLASSES did not include newer cargo classes. (#366)
+ - Add: Support for Action5 type 1A overlay rocks (#365)
+
+Support for NewGRF additions of OpenTTD 14:
+ - Add: Parent scope for airports and airport tiles. (#374)
+
+Other changes and fixes:
+ - Change: Vendor in latest ply version, removes --rebuild-parser/-R option (#342)
+ - Fix: Nicer error message when a station switch returns a SpriteLayout (#360)
+
+
 0.7.6 (2025-02-15)
 ------------------------------------------------------------------------
 This release adds support for user defined constants, improves stations support, and reduces comsuption of limited ressources (registers and D0xx strings).
