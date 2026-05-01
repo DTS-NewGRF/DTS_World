@@ -8,8 +8,16 @@ spriteset(set_CDC_Old_engineH, "src/locomotive/CDC/CDC_Old.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_CDC_Old_engineH_Rev, "src/locomotive/CDC/CDC_Old.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_CDC_Old_wagon, "src/locomotive/CDC/CDC_Old.png") {
     DTS_temp(80, 54)
+}
+
+spriteset(set_CDC_Old_engineT_Rev, "src/locomotive/CDC/CDC_Old.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_CDC_Old_engineT, "src/locomotive/CDC/CDC_Old.png"){
@@ -23,8 +31,16 @@ spriteset(set_CDC_New_engineH, "src/locomotive/CDC/CDC_New.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_CDC_New_engineH_Rev, "src/locomotive/CDC/CDC_New.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_CDC_New_wagon, "src/locomotive/CDC/CDC_New.png") {
     DTS_temp(80, 54)
+}
+
+spriteset(set_CDC_New_engineT_Rev, "src/locomotive/CDC/CDC_New.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_CDC_New_engineT, "src/locomotive/CDC/CDC_New.png"){
@@ -38,8 +54,16 @@ spriteset(set_CDC_Flower_Garden_engineH, "src/locomotive/CDC/CDC_Flower_Garden.p
     DTS_temp(80, 0)
 }
 
+spriteset(set_CDC_Flower_Garden_engineH_Rev, "src/locomotive/CDC/CDC_Flower_Garden.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_CDC_Flower_Garden_wagon, "src/locomotive/CDC/CDC_Flower_Garden.png") {
     DTS_temp(80, 54)
+}
+
+spriteset(set_CDC_Flower_Garden_engineT_Rev, "src/locomotive/CDC/CDC_Flower_Garden.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_CDC_Flower_Garden_engineT, "src/locomotive/CDC/CDC_Flower_Garden.png"){
@@ -53,8 +77,16 @@ spriteset(set_CDC_Beach_engineH, "src/locomotive/CDC/CDC_Beach.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_CDC_Beach_engineH_Rev, "src/locomotive/CDC/CDC_Beach.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_CDC_Beach_wagon, "src/locomotive/CDC/CDC_Beach.png") {
     DTS_temp(80, 54)
+}
+
+spriteset(set_CDC_Beach_engineT_Rev, "src/locomotive/CDC/CDC_Beach.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_CDC_Beach_engineT, "src/locomotive/CDC/CDC_Beach.png"){
@@ -68,8 +100,16 @@ spriteset(set_CDC_Baekje_Crown_engineH, "src/locomotive/CDC/CDC_Baekje_Crown.png
     DTS_temp(80, 0)
 }
 
+spriteset(set_CDC_Baekje_Crown_engineH_Rev, "src/locomotive/CDC/CDC_Baekje_Crown.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_CDC_Baekje_Crown_wagon, "src/locomotive/CDC/CDC_Baekje_Crown.png") {
     DTS_temp(80, 54)
+}
+
+spriteset(set_CDC_Baekje_Crown_engineT_Rev, "src/locomotive/CDC/CDC_Baekje_Crown.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_CDC_Baekje_Crown_engineT, "src/locomotive/CDC/CDC_Baekje_Crown.png"){
@@ -83,8 +123,16 @@ spriteset(set_CDC_Sea_Old_engineH, "src/locomotive/CDC/CDC_Sea_Old.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_CDC_Sea_Old_engineH_Rev, "src/locomotive/CDC/CDC_Sea_Old.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_CDC_Sea_Old_wagon, "src/locomotive/CDC/CDC_Sea_Old.png") {
     DTS_temp(80, 54)
+}
+
+spriteset(set_CDC_Sea_Old_engineT_Rev, "src/locomotive/CDC/CDC_Sea_Old.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_CDC_Sea_Old_engineT, "src/locomotive/CDC/CDC_Sea_Old.png"){
@@ -98,12 +146,20 @@ spriteset(set_CDC_Sea_New_engineH, "src/locomotive/CDC/CDC_Sea_New.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_CDC_Sea_New_engineH_Rev, "src/locomotive/CDC/CDC_Sea_New.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_CDC_Sea_New_wagon_M1, "src/locomotive/CDC/CDC_Sea_New.png") {
     DTS_temp(80, 54)
 }
 
 spriteset(set_CDC_Sea_New_wagon_M2, "src/locomotive/CDC/CDC_Sea_New.png") {
     DTS_temp(80, 81)
+}
+
+spriteset(set_CDC_Sea_New_engineT_Rev, "src/locomotive/CDC/CDC_Sea_New.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_CDC_Sea_New_engineT, "src/locomotive/CDC/CDC_Sea_New.png"){
@@ -117,8 +173,16 @@ spriteset(set_CDC_DMZ_engineH, "src/locomotive/CDC/CDC_DMZ.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_CDC_DMZ_engineH_Rev, "src/locomotive/CDC/CDC_DMZ.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_CDC_DMZ_wagon, "src/locomotive/CDC/CDC_DMZ.png") {
     DTS_temp(80, 54)
+}
+
+spriteset(set_CDC_DMZ_engineT_Rev, "src/locomotive/CDC/CDC_DMZ.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_CDC_DMZ_engineT, "src/locomotive/CDC/CDC_DMZ.png"){

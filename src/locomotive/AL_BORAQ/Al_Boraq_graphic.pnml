@@ -8,6 +8,10 @@ spriteset(set_Al_Boraq_engineH, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_Al_Boraq_engineH_Rev, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Al_Boraq_wagon_F1, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
     DTS_temp(80, 54)
 }
@@ -38,6 +42,10 @@ spriteset(set_Al_Boraq_wagon_7, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
 
 spriteset(set_Al_Boraq_wagon_8, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
     DTS_temp(80, 243)
+}
+
+spriteset(set_Al_Boraq_engineT_Rev, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    DTS_temp_r(80, 270)
 }
 
 spriteset(set_Al_Boraq_engineT, "src/locomotive/AL_BORAQ/Al_Boraq.png"){

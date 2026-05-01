@@ -1,14 +1,35 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_engineH, train_is_driving_backwards) {
+    0: set_ITX_Saemaeul_engineH;
+    1: set_ITX_Saemaeul_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_panto_wagon_M1, train_is_driving_backwards) {
+    0: set_ITX_Saemaeul_panto_wagon_M1;
+    1: set_ITX_Saemaeul_panto_wagon_M1_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_panto_wagon_M2, train_is_driving_backwards) {
+    0: set_ITX_Saemaeul_panto_wagon_M2;
+    1: set_ITX_Saemaeul_panto_wagon_M2_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_engineT, train_is_driving_backwards) {
+    0: set_ITX_Saemaeul_engineT;
+    1: set_ITX_Saemaeul_engineT_Rev;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_6car, position_in_vehid_chain % 6) {
-    1:set_ITX_Saemaeul_panto_wagon_M1;
-    2:set_ITX_Saemaeul_wagon_M;
-    3:set_ITX_Saemaeul_wagon_TM;
-    4:set_ITX_Saemaeul_panto_wagon_M2;
-    5:set_ITX_Saemaeul_engineT;
-    set_ITX_Saemaeul_engineH; //default
+    0: sw_ITX_Saemaeul_engineH; //default
+    1: sw_ITX_Saemaeul_panto_wagon_M1;
+    2: set_ITX_Saemaeul_wagon_M;
+    3: set_ITX_Saemaeul_wagon_TM;
+    4: sw_ITX_Saemaeul_panto_wagon_M2;
+    5: sw_ITX_Saemaeul_engineT;
     }
 
 // 편성량

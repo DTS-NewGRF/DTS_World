@@ -5,12 +5,24 @@ spriteset(set_BB15000_engine, "src/locomotive/BB15000/BB15000.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_BB15000_engine_Rev, "src/locomotive/BB15000/BB15000.png"){
+    DTS_temp_r(80, 0)
+}
+
 spriteset(set_BB15000_Korail_engine, "src/locomotive/BB15000/BB15000.png"){
     DTS_temp(80, 27)
 }
 
+spriteset(set_BB15000_Korail_engine_Rev, "src/locomotive/BB15000/BB15000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_BB15000_EN_Voyagee_engine, "src/locomotive/BB15000/BB15000.png"){
     DTS_temp(80, 54)
+}
+
+spriteset(set_BB15000_EN_Voyagee_engine_Rev, "src/locomotive/BB15000/BB15000.png"){
+    DTS_temp_r(80, 54)
 }
 
 /*-------------------------------------------------------------------

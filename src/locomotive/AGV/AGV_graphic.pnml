@@ -5,20 +5,36 @@ spriteset(set_AGV_engineH, "src/locomotive/AGV/AGV.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_AGV_wagon_panto_wagon, "src/locomotive/AGV/AGV.png"){
-    DTS_temp(80, 27)
+spriteset(set_AGV_engineH_Rev, "src/locomotive/AGV/AGV.png"){
+    DTS_temp_r(80, 27)
 }
 
-spriteset(set_AGV_wagon, "src/locomotive/AGV/AGV.png") {
+spriteset(set_AGV_wagon_panto_wagon_M1, "src/locomotive/AGV/AGV.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_AGV_panto_wagon_r, "src/locomotive/AGV/AGV.png"){
-    DTS_temp(80, 81)
+spriteset(set_AGV_wagon_panto_wagon_M1_Rev, "src/locomotive/AGV/AGV.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_AGV_wagon, "src/locomotive/AGV/AGV.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_AGV_wagon_panto_wagon_M2, "src/locomotive/AGV/AGV.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_AGV_wagon_panto_wagon_M2_Rev, "src/locomotive/AGV/AGV.png"){
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_AGV_engineT_Rev, "src/locomotive/AGV/AGV.png"){
+    DTS_temp_r(80, 189)
 }
 
 spriteset(set_AGV_engineT, "src/locomotive/AGV/AGV.png"){
-    DTS_temp(80, 108)
+    DTS_temp(80, 216)
 }
 
 /*--------------------------------------------------------------------

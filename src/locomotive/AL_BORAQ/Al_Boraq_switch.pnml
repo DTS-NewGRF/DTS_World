@@ -1,22 +1,40 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Al_Boraq_engineH, train_is_driving_backwards) {
+    0: set_Al_Boraq_engineH;
+    1: set_Al_Boraq_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Al_Boraq_engineT, train_is_driving_backwards) {
+    0: set_Al_Boraq_engineT;
+    1: set_Al_Boraq_engineT_Rev;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Al_Boraq_10car, position_in_vehid_chain % 10) {
-    1:set_Al_Boraq_wagon_F1;
-    2:set_Al_Boraq_wagon_F2;
-    3:set_Al_Boraq_wagon_3;
-    4:set_Al_Boraq_wagon_C4;
-    5:set_Al_Boraq_wagon_5;
-    6:set_Al_Boraq_wagon_6;
-    7:set_Al_Boraq_wagon_7;
-    8:set_Al_Boraq_wagon_8;
-    9:set_Al_Boraq_engineT;
-    set_Al_Boraq_engineH; //default
+    0: sw_Al_Boraq_engineH; //default
+    1: set_Al_Boraq_wagon_F1;
+    2: set_Al_Boraq_wagon_F2;
+    3: set_Al_Boraq_wagon_3;
+    4: set_Al_Boraq_wagon_C4;
+    5: set_Al_Boraq_wagon_5;
+    6: set_Al_Boraq_wagon_6;
+    7: set_Al_Boraq_wagon_7;
+    8: set_Al_Boraq_wagon_8;
+    9: sw_Al_Boraq_engineT;
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_Al_Boraq_10car, extra_callback_info1) {
+    1..9: Al_Boraq_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_length_in_custom, position_in_vehid_chain % 10) {
+    0: 8; //default;
     1: 8;
     2: 7;
     3: 7;
@@ -26,11 +44,4 @@ switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_length_in_custom, position_in_vehid_
     7: 7;
     8: 8;
     9: 8;
-    8; //default;
 }
-
-// 편성량
-switch (FEAT_TRAINS, SELF, sw_articulated_Al_Boraq_10car, extra_callback_info1) {
-    1..9: Al_Boraq_10Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }

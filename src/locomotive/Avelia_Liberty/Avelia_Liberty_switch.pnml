@@ -1,20 +1,32 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Avelia_Liberty_engineH, train_is_driving_backwards) {
+    0: set_Avelia_Liberty_engineH;
+    1: set_Avelia_Liberty_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Avelia_Liberty_engineT, train_is_driving_backwards) {
+    0: set_Avelia_Liberty_engineT;
+    1: set_Avelia_Liberty_engineT_Rev;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Avelia_Liberty_11car, position_in_vehid_chain % 11) {
-     1:set_Avelia_Liberty_wagon_F1;
-     2:set_Avelia_Liberty_wagon_T2;
-     3..5:set_Avelia_Liberty_wagon_T3;
-     6:set_Avelia_Liberty_wagon_C;
-     7..8:set_Avelia_Liberty_wagon_T4;
-     9:set_Avelia_Liberty_wagon_T5;
-    10:set_Avelia_Liberty_engineT;
-    set_Avelia_Liberty_engineH; //default
+     0: sw_Avelia_Liberty_engineH; //default
+     1: set_Avelia_Liberty_wagon_F1;
+     2: set_Avelia_Liberty_wagon_T2;
+     3..5: set_Avelia_Liberty_wagon_T3;
+     6: set_Avelia_Liberty_wagon_C;
+     7..8: set_Avelia_Liberty_wagon_T4;
+     9: set_Avelia_Liberty_wagon_T5;
+    10: sw_Avelia_Liberty_engineT;
     }
 
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_Avelia_Liberty_wagon_length_in_custom, position_in_vehid_chain % 11) {
+     0: 8; //default;
      1: 8;
      2: 7;
      3: 7;
@@ -25,7 +37,6 @@ switch(FEAT_TRAINS, SELF, sw_Avelia_Liberty_wagon_length_in_custom, position_in_
      8: 7;
      9: 8;
     10: 8;
-    8; //default;
 }
 
 // 편성량

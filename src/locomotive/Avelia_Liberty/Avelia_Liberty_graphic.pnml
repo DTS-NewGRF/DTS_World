@@ -5,6 +5,10 @@ spriteset(set_Avelia_Liberty_engineH, "src/locomotive/Avelia_Liberty/Avelia_Libe
     DTS_temp(80, 0)
 }
 
+spriteset(set_Avelia_Liberty_engineH_Rev, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Avelia_Liberty_wagon_F1, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     DTS_temp(80, 54)
 }
@@ -27,6 +31,10 @@ spriteset(set_Avelia_Liberty_wagon_T4, "src/locomotive/Avelia_Liberty/Avelia_Lib
 
 spriteset(set_Avelia_Liberty_wagon_T5, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     DTS_temp(80, 189)
+}
+
+spriteset(set_Avelia_Liberty_engineT_Rev, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
+    DTS_temp_r(80, 216)
 }
 
 spriteset(set_Avelia_Liberty_engineT, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
