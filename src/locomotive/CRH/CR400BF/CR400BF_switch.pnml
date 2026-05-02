@@ -1,40 +1,52 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_CR400BF_engineH, train_is_driving_backwards) {
+    0: set_CR400BF_engineH;
+    1: set_CR400BF_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_engineT, train_is_driving_backwards) {
+    0: set_CR400BF_engineT;
+    1: set_CR400BF_engineT_Rev;
+}
+
+// 편성그래픽
 // 8량
 switch (FEAT_TRAINS, SELF, sw_CR400BF_8car, position_in_vehid_chain % 8) {
-    1:set_CR400BF_wagon;
-    2:set_CR400BF_panto_wagon;
-    3..4:set_CR400BF_wagon;
-    5:set_CR400BF_panto_wagon_r;
-    6:set_CR400BF_wagon;
-    7:set_CR400BF_engineT;
-    set_CR400BF_engineH; //default
+    0: sw_CR400BF_engineH; //default
+    1: set_CR400BF_wagon;
+    2: set_CR400BF_panto_wagon_M1;
+    3..4: set_CR400BF_wagon;
+    5: set_CR400BF_panto_wagon_M2;
+    6: set_CR400BF_wagon;
+    7: sw_CR400BF_engineT;
     }
 
 // 16량
 switch (FEAT_TRAINS, SELF, sw_CR400BF_16car, position_in_vehid_chain % 16) {
-    1:set_CR400BF_wagon;
-    2:set_CR400BF_panto_wagon;
-    3..9:set_CR400BF_wagon;
-    10:set_CR400BF_panto_wagon;
-    11..14:set_CR400BF_wagon;
-    15:set_CR400BF_engineT;
-    set_CR400BF_engineH; //default
+    0: sw_CR400BF_engineH; //default
+    1: set_CR400BF_wagon;
+    2: set_CR400BF_panto_wagon_M1;
+    3..9: set_CR400BF_wagon;
+    10: set_CR400BF_panto_wagon_M1;
+    11..14: set_CR400BF_wagon;
+    15: sw_CR400BF_engineT;
     }
 
 // 17량
 switch (FEAT_TRAINS, SELF, sw_CR400BF_17car, position_in_vehid_chain % 17) {
-    1..5:set_CR400BF_wagon;
-    6:set_CR400BF_panto_wagon_r;
-    7..13:set_CR400BF_wagon;
-    14:set_CR400BF_panto_wagon_r;
-    15:set_CR400BF_wagon;
-    16:set_CR400BF_engineT;
-    set_CR400BF_engineH; //default
+    0: sw_CR400BF_engineH; //default
+    1..5: set_CR400BF_wagon;
+    6: set_CR400BF_panto_wagon_M2;
+    7..13: set_CR400BF_wagon;
+    14: set_CR400BF_panto_wagon_M2;
+    15: set_CR400BF_wagon;
+    16: sw_CR400BF_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_CR400BF_8car, extra_callback_info1) {
     1..7: CR400BF_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

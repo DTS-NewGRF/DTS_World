@@ -5,20 +5,28 @@ spriteset(set_CRH2C_engineH, "src/locomotive/CRH/CRH2C/CRH2C.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_CRH2C_panto_wagon, "src/locomotive/CRH/CRH2C/CRH2C.png"){
-    DTS_temp(80, 27)
+spriteset(set_CRH2C_engineH_Rev, "src/locomotive/CRH/CRH2C/CRH2C.png"){
+    DTS_temp_r(80, 27)
 }
 
-spriteset(set_CRH2C_wagon, "src/locomotive/CRH/CRH2C/CRH2C.png") {
+spriteset(set_CRH2C_panto_wagon_M1, "src/locomotive/CRH/CRH2C/CRH2C.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_CRH2C_panto_wagon_r, "src/locomotive/CRH/CRH2C/CRH2C.png"){
+spriteset(set_CRH2C_wagon, "src/locomotive/CRH/CRH2C/CRH2C.png") {
     DTS_temp(80, 81)
 }
 
-spriteset(set_CRH2C_engineT, "src/locomotive/CRH/CRH2C/CRH2C.png"){
+spriteset(set_CRH2C_panto_wagon_M2, "src/locomotive/CRH/CRH2C/CRH2C.png"){
     DTS_temp(80, 108)
+}
+
+spriteset(set_CRH2C_engineT_Rev, "src/locomotive/CRH/CRH2C/CRH2C.png"){
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_CRH2C_engineT, "src/locomotive/CRH/CRH2C/CRH2C.png"){
+    DTS_temp(80, 162)
 }
 
 /*--------------------------------------------------------------------

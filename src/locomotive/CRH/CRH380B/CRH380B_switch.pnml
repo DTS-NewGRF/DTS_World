@@ -1,26 +1,38 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_CRH380B_engineH, train_is_driving_backwards) {
+    0: set_CRH380B_engineH;
+    1: set_CRH380B_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380B_engineT, train_is_driving_backwards) {
+    0: set_CRH380B_engineT;
+    1: set_CRH380B_engineT_Rev;
+}
+
+// 편성그래픽
 // 8량
 switch (FEAT_TRAINS, SELF, sw_CRH380B_8car, position_in_vehid_chain % 8) {
-    1:set_CRH380B_panto_wagon;
-    2..5:set_CRH380B_wagon;
-    6:set_CRH380B_panto_wagon_r;
-    7:set_CRH380B_engineT;
-    set_CRH380B_engineH; //default
+    0: sw_CRH380B_engineH; //default
+    1: set_CRH380B_panto_wagon_M1;
+    2..5: set_CRH380B_wagon;
+    6: set_CRH380B_panto_wagon_M2;
+    7: sw_CRH380B_engineT;
     }
 
 // 16량
 switch (FEAT_TRAINS, SELF, sw_CRH380B_16car, position_in_vehid_chain % 16) {
-    1..5:set_CRH380B_wagon;
-    6:set_CRH380B_panto_wagon_r;
-    7..13:set_CRH380B_wagon;
-    14:set_CRH380B_panto_wagon_r;
-    15:set_CRH380B_engineT;
-    set_CRH380B_engineH; //default
+    0: sw_CRH380B_engineH; //default
+    1..5: set_CRH380B_wagon;
+    6: set_CRH380B_panto_wagon_M2;
+    7..13: set_CRH380B_wagon;
+    14: set_CRH380B_panto_wagon_M2;
+    15: sw_CRH380B_engineT;    
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_CRH380B_8car, extra_callback_info1) {
     1..7: CRH380B_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

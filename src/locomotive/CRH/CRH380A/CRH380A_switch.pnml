@@ -1,54 +1,78 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 도색
+// 도색명
 switch(FEAT_TRAINS, SELF, sw_CRH380A_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_CRH380A);
     1: return string(STR_REFIT_LIVERY_Vibrant_Express);   // Red
-    return string(STR_REFIT_LIVERY_CRH380A);
 }
 
+// 도색그래픽 세팅
 // 열차
-switch(FEAT_TRAINS, SELF, sw_CRH380A_engineH, cargo_subtype) {
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_CRH380A_engineH_Front, cargo_subtype) {
+    0: set_CRH380A_engineH;
     1: set_Vibrant_Express_engineH;   // Red
-    set_CRH380A_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_CRH380A_engineT, cargo_subtype) {
-    1: set_Vibrant_Express_engineT;   // Red
-    set_CRH380A_engineT;
 }
 
 switch(FEAT_TRAINS, SELF, sw_CRH380A_panto_wagon, cargo_subtype) {
+    0: set_CRH380A_panto_wagon;
     1: set_Vibrant_Express_panto_wagon;   // Red
-    set_CRH380A_panto_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_CRH380A_wagon, cargo_subtype) {
+    0: set_CRH380A_wagon;
     1: set_Vibrant_Express_wagon;   // Red
-    set_CRH380A_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_engineT_Front, cargo_subtype) {
+    0: set_CRH380A_engineT;
+    1: set_Vibrant_Express_engineT;   // Red
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_CRH380A_engineH_Back, cargo_subtype) {
+    0: set_CRH380A_engineH_Rev;
+    1: set_Vibrant_Express_engineH_Rev;   // Red
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_engineT_Back, cargo_subtype) {
+    0: set_CRH380A_engineT_Rev;
+    1: set_Vibrant_Express_engineT_Rev;   // Red
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_CRH380A_engineH, train_is_driving_backwards) {
+    0: sw_CRH380A_engineH_Front;
+    1: sw_CRH380A_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_engineT, train_is_driving_backwards) {
+    0: sw_CRH380A_engineT_Front;
+    1: sw_CRH380A_engineT_Back;
 }
 
 // 편성그래픽
 // 8량
 switch (FEAT_TRAINS, SELF, sw_CRH380A_8car, position_in_vehid_chain % 8) {
-    1:sw_CRH380A_wagon;
-    2:sw_CRH380A_panto_wagon;
-    3:sw_CRH380A_wagon;
-    4:sw_CRH380A_panto_wagon;
-    5..6:sw_CRH380A_wagon;
-    7:sw_CRH380A_engineT;
-    sw_CRH380A_engineH; //default
+    0: sw_CRH380A_engineH; //default
+    1: sw_CRH380A_wagon;
+    2: sw_CRH380A_panto_wagon;
+    3: sw_CRH380A_wagon;
+    4: sw_CRH380A_panto_wagon;
+    5..6: sw_CRH380A_wagon;
+    7: sw_CRH380A_engineT;
     }
 
 // 16량
 switch (FEAT_TRAINS, SELF, sw_CRH380A_16car, position_in_vehid_chain % 16) {
-    1..3:set_CRH380A_wagon;
-    4:set_CRH380A_panto_16wagon;
-    5..11:set_CRH380A_wagon;
-    12:set_CRH380A_panto_16wagon;
-    13..14:set_CRH380A_wagon;
-    15:set_CRH380A_engineT;
-    set_CRH380A_engineH; //default
+    0: sw_CRH380A_engineH; //default
+    1..3: set_CRH380A_wagon;
+    4: set_CRH380A_panto_wagon_16Car;
+    5..11: set_CRH380A_wagon;
+    12: set_CRH380A_panto_wagon_16Car;
+    13..14: set_CRH380A_wagon;
+    15: sw_CRH380A_engineT;
     }
 
 // 편성량

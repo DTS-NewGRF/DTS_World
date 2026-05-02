@@ -5,20 +5,36 @@ spriteset(set_CR400AF_engineH, "src/locomotive/CRH/CR400AF/CR400AF.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_CR400AF_panto_wagon, "src/locomotive/CRH/CR400AF/CR400AF.png"){
-    DTS_temp(80, 27)
+spriteset(set_CR400AF_engineH_Rev, "src/locomotive/CRH/CR400AF/CR400AF.png"){
+    DTS_temp_r(80, 27)
 }
 
-spriteset(set_CR400AF_wagon, "src/locomotive/CRH/CR400AF/CR400AF.png") {
+spriteset(set_CR400AF_panto_wagon_M1, "src/locomotive/CRH/CR400AF/CR400AF.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_CR400AF_panto_wagon_r, "src/locomotive/CRH/CR400AF/CR400AF.png"){
-    DTS_temp(80, 81)
+spriteset(set_CR400AF_panto_wagon_M1_Rev, "src/locomotive/CRH/CR400AF/CR400AF.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_CR400AF_wagon, "src/locomotive/CRH/CR400AF/CR400AF.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_CR400AF_panto_wagon_M2, "src/locomotive/CRH/CR400AF/CR400AF.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_CR400AF_panto_wagon_M2_Rev, "src/locomotive/CRH/CR400AF/CR400AF.png"){
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_CR400AF_engineT_Rev, "src/locomotive/CRH/CR400AF/CR400AF.png"){
+    DTS_temp_r(80, 189)
 }
 
 spriteset(set_CR400AF_engineT, "src/locomotive/CRH/CR400AF/CR400AF.png"){
-    DTS_temp(80, 108)
+    DTS_temp(80, 216)
 }
 
 /*--------------------------------------------------------------------

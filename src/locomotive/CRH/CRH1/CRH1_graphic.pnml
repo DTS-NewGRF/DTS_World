@@ -5,20 +5,28 @@ spriteset(set_CRH1_engineH, "src/locomotive/CRH/CRH1/CRH1.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_CRH1_panto_wagon, "src/locomotive/CRH/CRH1/CRH1.png"){
-    DTS_temp(80, 27)
+spriteset(set_CRH1_engineH_Rev, "src/locomotive/CRH/CRH1/CRH1.png"){
+    DTS_temp_r(80, 27)
 }
 
-spriteset(set_CRH1_wagon, "src/locomotive/CRH/CRH1/CRH1.png") {
+spriteset(set_CRH1_panto_wagon_M1, "src/locomotive/CRH/CRH1/CRH1.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_CRH1_panto_wagon_r, "src/locomotive/CRH/CRH1/CRH1.png"){
+spriteset(set_CRH1_wagon, "src/locomotive/CRH/CRH1/CRH1.png") {
     DTS_temp(80, 81)
 }
 
-spriteset(set_CRH1_engineT, "src/locomotive/CRH/CRH1/CRH1.png"){
+spriteset(set_CRH1_panto_wagon_M2, "src/locomotive/CRH/CRH1/CRH1.png"){
     DTS_temp(80, 108)
+}
+
+spriteset(set_CRH1_engineT_Rev, "src/locomotive/CRH/CRH1/CRH1.png"){
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_CRH1_engineT, "src/locomotive/CRH/CRH1/CRH1.png"){
+    DTS_temp(80, 162)
 }
 
 /*--------------------------------------------------------------------

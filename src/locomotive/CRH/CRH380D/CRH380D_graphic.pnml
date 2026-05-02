@@ -8,24 +8,32 @@ spriteset(set_CRH380D_engineH, "src/locomotive/CRH/CRH380D/CRH380D.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_CRH380D_panto_wagon, "src/locomotive/CRH/CRH380D/CRH380D.png"){
-    DTS_temp(80, 27)
+spriteset(set_CRH380D_engineH_Rev, "src/locomotive/CRH/CRH380D/CRH380D.png"){
+    DTS_temp_r(80, 27)
 }
 
-spriteset(set_CRH380D_1F_wagon, "src/locomotive/CRH/CRH380D/CRH380D.png") {
+spriteset(set_CRH380D_panto_wagon_M1, "src/locomotive/CRH/CRH380D/CRH380D.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_CRH380D_2F_wagon, "src/locomotive/CRH/CRH380D/CRH380D.png") {
+spriteset(set_CRH380D_1F_wagon, "src/locomotive/CRH/CRH380D/CRH380D.png") {
     DTS_temp(80, 81)
 }
 
-spriteset(set_CRH380D_panto_wagon_r, "src/locomotive/CRH/CRH380D/CRH380D.png"){
+spriteset(set_CRH380D_2F_wagon, "src/locomotive/CRH/CRH380D/CRH380D.png") {
     DTS_temp(80, 108)
 }
 
-spriteset(set_CRH380D_engineT, "src/locomotive/CRH/CRH380D/CRH380D.png"){
+spriteset(set_CRH380D_panto_wagon_M2, "src/locomotive/CRH/CRH380D/CRH380D.png"){
     DTS_temp(80, 135)
+}
+
+spriteset(set_CRH380D_engineT_Rev, "src/locomotive/CRH/CRH380D/CRH380D.png"){
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_CRH380D_engineT, "src/locomotive/CRH/CRH380D/CRH380D.png"){
+    DTS_temp(80, 189)
 }
 
 /*--------------------------------------------------------------------

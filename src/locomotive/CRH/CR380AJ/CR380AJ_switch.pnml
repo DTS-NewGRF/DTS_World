@@ -1,18 +1,29 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_CRH380AJ_engineH, train_is_driving_backwards) {
+    0: set_CRH380AJ_engineH;
+    1: set_CRH380AJ_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380AJ_engineT, train_is_driving_backwards) {
+    0: set_CRH380AJ_engineT;
+    1: set_CRH380AJ_engineT_Rev;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_CRH380AJ_8car, position_in_vehid_chain % 8) {
-    1..2:set_CRH380AJ_wagon;
-    3:set_CRH380AJ_panto_wagon;
-    4:set_CRH380AJ_wagon;
-    5:set_CRH380AJ_panto_wagon;
-    6:set_CRH380AJ_wagon;
-    7:set_CRH380AJ_engineT;
-    set_CRH380AJ_engineH; //default
+    0: sw_CRH380AJ_engineH; //default
+    1..2: set_CRH380AJ_wagon;
+    3: set_CRH380AJ_panto_wagon;
+    4: set_CRH380AJ_wagon;
+    5: set_CRH380AJ_panto_wagon;
+    6: set_CRH380AJ_wagon;
+    7: sw_CRH380AJ_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_CRH380AJ_8car, extra_callback_info1) {
     1..7: CRH380AJ_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
@@ -20,6 +31,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_CRH380AJ_8car, extra_callback_info1) {
 
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_CRH380AJ_capacity_in_custom, cargo_subtype) {
+    0: return 0;
     1: return 83;
-       0;
 }

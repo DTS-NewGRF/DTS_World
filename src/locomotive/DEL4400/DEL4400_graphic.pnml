@@ -5,21 +5,37 @@ spriteset(set_DEL4400_engine_A, "src/locomotive/DEL4400/DEL4400.png"){
     DTS_temp_mini_6(80, 0)
 }
 
+spriteset(set_DEL4400_engine_A_Rev, "src/locomotive/DEL4400/DEL4400.png"){
+    DTS_temp_mini_6_r(80, 27)
+}
+
 spriteset(set_DEL4400_engine_B, "src/locomotive/DEL4400/DEL4400.png"){
-    DTS_temp_mini_6(80, 27)
+    DTS_temp_mini_6(80, 54)
+}
+
+spriteset(set_DEL4400_engine_B_Rev, "src/locomotive/DEL4400/DEL4400.png"){
+    DTS_temp_mini_6_r(80, 81)
 }
 
 spriteset(set_DEL4400_engine_C, "src/locomotive/DEL4400/DEL4400.png"){
-    DTS_temp_mini_6(80, 54)
+    DTS_temp_mini_6(80, 108)
+}
+
+spriteset(set_DEL4400_engine_C_Rev, "src/locomotive/DEL4400/DEL4400.png"){
+    DTS_temp_mini_6_r(80, 135)
 }
 
 spriteset(set_DEL4400_engine_D, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DEL4400/DEL4400_32bpp.png"){
     DTS_temp_mini_6(80, 0)
 }
 
+spriteset(set_DEL4400_engine_D_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DEL4400/DEL4400_32bpp.png"){
+    DTS_temp_mini_6_r(80, 27)
+}
+
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(sw_DEL4400_purchase, "src/locomotive/DEL4400/DEL4400.png"){
-    tmpl_single_purchase(0, 27)
+    tmpl_single_purchase(0, 54)
 }

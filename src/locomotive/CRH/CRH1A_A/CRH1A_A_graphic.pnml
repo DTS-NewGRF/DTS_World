@@ -8,20 +8,28 @@ spriteset(set_CRH1A_A_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomoti
     DTS_temp(80, 0)
 }
 
-spriteset(set_CRH1A_A_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1A_A/CRH1A_A.png"){
-    DTS_temp(80, 27)
+spriteset(set_CRH1A_A_engineH_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1A_A/CRH1A_A.png"){
+    DTS_temp_r(80, 27)
 }
 
-spriteset(set_CRH1A_A_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1A_A/CRH1A_A.png"){
+spriteset(set_CRH1A_A_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1A_A/CRH1A_A.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_CRH1A_A_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1A_A/CRH1A_A.png"){
+spriteset(set_CRH1A_A_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1A_A/CRH1A_A.png"){
     DTS_temp(80, 81)
 }
 
-spriteset(set_CRH1A_A_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1A_A/CRH1A_A.png"){
+spriteset(set_CRH1A_A_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1A_A/CRH1A_A.png"){
     DTS_temp(80, 108)
+}
+
+spriteset(set_CRH1A_A_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1A_A/CRH1A_A.png"){
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_CRH1A_A_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CRH/CRH1A_A/CRH1A_A.png"){
+    DTS_temp(80, 162)
 }
 
 /*--------------------------------------------------------------------
