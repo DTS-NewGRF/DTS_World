@@ -1,58 +1,63 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-
+// 도색명
 switch(FEAT_TRAINS, SELF, sw_ICE4_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_ICE4_red);      // 레드
     1: return string(STR_REFIT_LIVERY_ICE4_green);   // 그린
-    return string(STR_REFIT_LIVERY_ICE4_red);      // 레드
 }
 
+// 도색그래픽 세팅
+// 열차
+// 전진방향
 switch(FEAT_TRAINS, SELF, sw_ICE4_engineH, cargo_subtype) {
+    0: set_ICE4_R_engineH;
     1: set_ICE4_G_engineH;
-    set_ICE4_R_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE4_wagon_M1, cargo_subtype) {
+    0: set_ICE4_R_wagon_M1;
+    1: set_ICE4_G_wagon_M1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE4_panto_wagon, cargo_subtype) {
+    0: set_ICE4_R_panto_wagon;
+    1: set_ICE4_G_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE4_wagon_M2, cargo_subtype) {
+    0: set_ICE4_R_wagon_M2;
+    1: set_ICE4_G_wagon_M2;
 }
 
 switch(FEAT_TRAINS, SELF, sw_ICE4_engineT, cargo_subtype) {
+    0: set_ICE4_R_engineT;
     1: set_ICE4_G_engineT;
-    set_ICE4_R_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ICE4_panto_wagon_cargo_subtype, cargo_subtype) {
-    1: set_ICE4_G_wagon_panto; // 그린
-    set_ICE4_R_wagon_panto;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE4_wagon, cargo_subtype) {
-    1: set_ICE4_G_wagon; // 그린
-    set_ICE4_R_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE4_wagon_rest, cargo_subtype) {
-    1: set_ICE4_G_wagon_rest; // 그린
-    set_ICE4_R_wagon_rest;
-}
-
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_ICE4_7car, position_in_vehid_chain % 7) {
-    1:sw_ICE4_wagon;
-    2:sw_ICE4_panto_wagon_cargo_subtype;
-    3:sw_ICE4_wagon;
-    4:sw_ICE4_panto_wagon_cargo_subtype;
-    5:sw_ICE4_wagon_rest;
-    6:sw_ICE4_engineT;
-    sw_ICE4_engineH; //default
+    0: sw_ICE4_engineH; //default
+    1: sw_ICE4_wagon_M2;
+    2: sw_ICE4_panto_wagon;
+    3: sw_ICE4_wagon_M2;
+    4: sw_ICE4_panto_wagon;
+    5: sw_ICE4_wagon_M1;
+    6: sw_ICE4_engineT;
     }
 
 switch (FEAT_TRAINS, SELF, sw_ICE4_12car, position_in_vehid_chain % 12) {
-    1..2:sw_ICE4_wagon;
-    3:sw_ICE4_panto_wagon_cargo_subtype;
-    4..6:sw_ICE4_wagon;
-    7:sw_ICE4_panto_wagon_cargo_subtype;
-    8:sw_ICE4_wagon_rest;
-    9..10:sw_ICE4_wagon;
-    11:sw_ICE4_engineT;
-    sw_ICE4_engineH; //default
+    0: sw_ICE4_engineH; //default
+    1..2: sw_ICE4_wagon_M2;
+    3: sw_ICE4_panto_wagon;
+    4..6: sw_ICE4_wagon_M2;
+    7: sw_ICE4_panto_wagon;
+    8: sw_ICE4_wagon_M1;
+    9..10: sw_ICE4_wagon_M2;
+    11: sw_ICE4_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_ICE4_7car, extra_callback_info1) {
     1..6: ICE4_7Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
@@ -61,9 +66,4 @@ switch (FEAT_TRAINS, SELF, sw_articulated_ICE4_7car, extra_callback_info1) {
 switch (FEAT_TRAINS, SELF, sw_articulated_ICE4_12car, extra_callback_info1) {
     1..11: ICE4_12Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    } 
-
-switch(FEAT_TRAINS, SELF, sw_ICE4_wagon_7Car_attach, vehicle_type_id) {
-    ICE4_7Car:               return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
+    }

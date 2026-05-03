@@ -2,78 +2,98 @@
 스위치
 --------------------------------------------------------------------*/
 // 도색명
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_2022_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_ITX_Maum);
-    return CB_RESULT_NO_TEXT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_2024_cargo_subtype_text, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_cargo_subtype_text, cargo_subtype) {
     0: return string(STR_REFIT_LIVERY_ITX_Maum);
     1: return string(STR_REFIT_LIVERY_ITX_Maum_High1);
     return CB_RESULT_NO_TEXT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_4_4_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_ITX_Maum_4_4_B); // 하이원리조트 + 기본
-    return string(STR_REFIT_LIVERY_ITX_Maum_4_4_A);    // 기본 + 하이원리조트
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_cargo_subtype_text, current_year) {
-    0..2023: sw_ITX_Maum_2022_cargo_subtype_text;
-    sw_ITX_Maum_2024_cargo_subtype_text;
-    }
-
-// 4량 
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineH, cargo_subtype) {
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineH_Front, cargo_subtype) {
+    0: set_ITX_Maum_engineH;
     1: set_ITX_Maum_High1_engineH;
-    set_ITX_Maum_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_panto_wagon_M1, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_panto_wagon_M1_Front, cargo_subtype) {
+    0: set_ITX_Maum_panto_wagon_M1;
     1: set_ITX_Maum_High1_panto_wagon_M1;
-    set_ITX_Maum_panto_wagon_M1;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_panto_wagon_4Car_M2, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_panto_wagon_4Car_M2_Front, cargo_subtype) {
+    0: set_ITX_Maum_panto_wagon_4Car_M2;
     1: set_ITX_Maum_High1_panto_wagon_4Car_M2;
-    set_ITX_Maum_panto_wagon_4Car_M2;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineT, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineT_Front, cargo_subtype) {
+    0: set_ITX_Maum_engineT;
     1: set_ITX_Maum_High1_engineT;
-    set_ITX_Maum_engineT;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineH_Back, cargo_subtype) {
+    0: set_ITX_Maum_engineH_Rev;
+    1: set_ITX_Maum_High1_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_panto_wagon_M1_Back, cargo_subtype) {
+    0: set_ITX_Maum_panto_wagon_M1_Rev;
+    1: set_ITX_Maum_High1_panto_wagon_M1_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_panto_wagon_4Car_M2_Back, cargo_subtype) {
+    0: set_ITX_Maum_panto_wagon_4Car_M2_Rev;
+    1: set_ITX_Maum_High1_panto_wagon_4Car_M2_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineT_Back, cargo_subtype) {
+    0: set_ITX_Maum_engineT_Rev;
+    1: set_ITX_Maum_High1_engineT_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineH, train_is_driving_backwards) {
+    0: sw_ITX_Maum_engineH_Front;
+    1: sw_ITX_Maum_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_panto_wagon_M1, train_is_driving_backwards) {
+    0: sw_ITX_Maum_panto_wagon_M1_Front;
+    1: sw_ITX_Maum_panto_wagon_M1_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_panto_wagon_4Car_M2, train_is_driving_backwards) {
+    0: sw_ITX_Maum_panto_wagon_4Car_M2_Front;
+    1: sw_ITX_Maum_panto_wagon_4Car_M2_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_panto_wagon_6Car_M2, train_is_driving_backwards) {
+    0: set_ITX_Maum_panto_wagon_6Car_M2;
+    1: set_ITX_Maum_panto_wagon_6Car_M2_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engineT, train_is_driving_backwards) {
+    0: sw_ITX_Maum_engineT_Front;
+    1: sw_ITX_Maum_engineT_Back;
 }
 
 // 편성그래픽
-// 4량 2022
-switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4car_2022, position_in_vehid_chain % 4) {
-    1:set_ITX_Maum_panto_wagon_M1;
-    2:set_ITX_Maum_panto_wagon_4Car_M2;
-    3:set_ITX_Maum_engineT;
-    set_ITX_Maum_engineH; //default
-    }
-
-// 4량 2024
-switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4car_2024, position_in_vehid_chain % 4) {
+switch (FEAT_TRAINS, SELF, sw_ITX_Maum_4car, position_in_vehid_chain % 4) {
+    0: sw_ITX_Maum_engineH; //default
     1:sw_ITX_Maum_panto_wagon_M1;
     2:sw_ITX_Maum_panto_wagon_4Car_M2;
     3:sw_ITX_Maum_engineT;
-    sw_ITX_Maum_engineH; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_4car, current_year) {
-    0..2023: sw_ITX_Maum_4car_2022;
-    sw_ITX_Maum_4car_2024;
     }
 
 // 6량
 switch (FEAT_TRAINS, SELF, sw_ITX_Maum_6car, position_in_vehid_chain % 6) {
-    1:set_ITX_Maum_panto_wagon_M1;
+    0: sw_ITX_Maum_engineH; //default
+    1:sw_ITX_Maum_panto_wagon_M1;
     2:set_ITX_Maum_wagon_M;
     3:set_ITX_Maum_wagon_T;
-    4:set_ITX_Maum_panto_wagon_6Car_M2;
-    5:set_ITX_Maum_engineT;
-    set_ITX_Maum_engineH; //default
+    4:sw_ITX_Maum_panto_wagon_6Car_M2;
+    5:sw_ITX_Maum_engineT;
     }
 
 // 4+4량

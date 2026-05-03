@@ -1,14 +1,16 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_ICE1_14car, position_in_vehid_chain % 14) {
-    1..7:set_ICE1_wagon;
-    8:set_ICE1_wagon_bar;
-    9..12:set_ICE1_wagon;
-    13:set_ICE1_engineT;
-    set_ICE1_engineH; //default
+    0: set_ICE1_engineH; //default
+    1..7: set_ICE1_wagon;
+    8: set_ICE1_wagon_bar;
+    9..12: set_ICE1_wagon;
+    13: set_ICE1_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_ICE1_14car, extra_callback_info1) {
     1..13: ICE1_14Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

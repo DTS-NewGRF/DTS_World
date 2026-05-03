@@ -5,17 +5,29 @@ spriteset(set_DEL7600_engine, "src/locomotive/DEL7600/DEL7600.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_DEL7600_engine_Rev, "src/locomotive/DEL7600/DEL7600.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_DEL7600_A_Train_Old_engine, "src/locomotive/DEL7600/DEL7600.png"){
-    DTS_temp(80, 27)
+    DTS_temp(80, 54)
+}
+
+spriteset(set_DEL7600_A_Train_Old_engine_Rev, "src/locomotive/DEL7600/DEL7600.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_DEL7600_A_Train_New_engine, "src/locomotive/DEL7600/DEL7600.png"){
-    DTS_temp(80, 54)
+    DTS_temp(80, 108)
+}
+
+spriteset(set_DEL7600_A_Train_New_engine_Rev, "src/locomotive/DEL7600/DEL7600.png"){
+    DTS_temp_r(80, 135)
 }
 
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(sw_DEL7600_purchase, "src/locomotive/DEL7600/DEL7600.png"){
-    tmpl_single_purchase(0, 54)
+    tmpl_single_purchase(0, 108)
 }

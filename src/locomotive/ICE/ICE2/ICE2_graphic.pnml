@@ -5,70 +5,54 @@ Graphics
 ICE 2 Red
 --------------------------------------------------------------------*/
 spriteset(set_ICE2_R_engineH, "src/locomotive/ICE/ICE2/ICE2_R.png"){
-    ICEengine(80, 0)
+    DTS_ICE_Temp(80, 0)
 }
 
-spriteset(set_ICE2_R_engineH_r, "src/locomotive/ICE/ICE2/ICE2_R.png"){
-    ICEengine(80, 30)
+spriteset(set_ICE2_R_engineH_Rev, "src/locomotive/ICE/ICE2/ICE2_R.png"){
+    DTS_ICE_Temp_r(80, 30)
 }
 
 spriteset(set_ICE2_R_wagon, "src/locomotive/ICE/ICE2/ICE2_R.png") {
-    ICEwagon_1F_F(80, 60)
-}
-
-spriteset(set_ICE2_R_wagon_r, "src/locomotive/ICE/ICE2/ICE2_R.png") {
-    ICEwagon_1F_F_r(80, 60)
+    DTS_ICE_Temp(80, 60)
 }
 
 spriteset(set_ICE2_R_wagon_bar, "src/locomotive/ICE/ICE2/ICE2_R.png"){
-    ICEwagon_1F_F(80, 90)
+    DTS_ICE_Temp(80, 90)
 }
 
-spriteset(set_ICE2_R_wagon_bar_r, "src/locomotive/ICE/ICE2/ICE2_R.png"){
-    ICEwagon_1F_F_r(80, 90)
-}
-
-spriteset(set_ICE2_R_engineT_r, "src/locomotive/ICE/ICE2/ICE2_R.png"){
-    ICEengine(80, 120)
+spriteset(set_ICE2_R_engineT_Rev, "src/locomotive/ICE/ICE2/ICE2_R.png"){
+    DTS_ICE_Temp_r(80, 120)
 }
 
 spriteset(set_ICE2_R_engineT, "src/locomotive/ICE/ICE2/ICE2_R.png"){
-    ICEengine(80, 150)
+    DTS_ICE_Temp(80, 150)
 }
 
 /*--------------------------------------------------------------------
 ICE 2 Green
 --------------------------------------------------------------------*/
 spriteset(set_ICE2_G_engineH, "src/locomotive/ICE/ICE2/ICE2_G.png"){
-    ICEengine(80, 0)
+    DTS_ICE_Temp(80, 0)
 }
 
-spriteset(set_ICE2_G_engineH_r, "src/locomotive/ICE/ICE2/ICE2_G.png"){
-    ICEengine(80, 30)
+spriteset(set_ICE2_G_engineH_Rev, "src/locomotive/ICE/ICE2/ICE2_G.png"){
+    DTS_ICE_Temp_r(80, 30)
 }
 
 spriteset(set_ICE2_G_wagon, "src/locomotive/ICE/ICE2/ICE2_G.png") {
-    ICEwagon_1F_F(80, 60)
-}
-
-spriteset(set_ICE2_G_wagon_r, "src/locomotive/ICE/ICE2/ICE2_G.png") {
-    ICEwagon_1F_F_r(80, 60)
+    DTS_ICE_Temp(80, 60)
 }
 
 spriteset(set_ICE2_G_wagon_bar, "src/locomotive/ICE/ICE2/ICE2_G.png"){
-    ICEwagon_1F_F(80, 90)
+    DTS_ICE_Temp(80, 90)
 }
 
-spriteset(set_ICE2_G_wagon_bar_r, "src/locomotive/ICE/ICE2/ICE2_G.png"){
-    ICEwagon_1F_F_r(80, 90)
-}
-
-spriteset(set_ICE2_G_engineT_r, "src/locomotive/ICE/ICE2/ICE2_G.png"){
-    ICEengine(80, 120)
+spriteset(set_ICE2_G_engineT_Rev, "src/locomotive/ICE/ICE2/ICE2_G.png"){
+    DTS_ICE_Temp_r(80, 120)
 }
 
 spriteset(set_ICE2_G_engineT, "src/locomotive/ICE/ICE2/ICE2_G.png"){
-    ICEengine(80, 150)
+    DTS_ICE_Temp(80, 150)
 }
 
 /*--------------------------------------------------------------------

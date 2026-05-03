@@ -184,7 +184,6 @@ item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
         purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
-        cargo_subtype_text:             sw_ITX_Maum_4_4_cargo_subtype_text;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
         }

@@ -10,118 +10,150 @@ switch(FEAT_TRAINS, SELF, sw_KTX_1_cargo_subtype_text, cargo_subtype) {
     return CB_RESULT_NO_TEXT;
 }
 
+// 도색그래픽 세팅
 // 열차
-#include "KTX_1_switch_wagon.pnml"
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_KTX_1_engineH_Front, cargo_subtype) {
+    0: set_KTX_1_engineH;
+    1: set_KTX_1_engineH;
+    2: set_KTX_1_LTE_A_engineH;
+    3: set_KTX_1_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T1, cargo_subtype) {
+    0: set_KTX_1_wagon_T1;
+    1: set_KTX_1M_wagon_T1;
+    2: set_KTX_1_LTE_A_wagon_T1;
+    3: set_KTX_1_wagon_T1;    
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T2, cargo_subtype) {
+    0: set_KTX_1_wagon_T2;
+    1: set_KTX_1_wagon_T2;
+    2: set_KTX_1_LTE_A_wagon_T2;
+    3: set_KTX_1_wagon_T2;    
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T3, cargo_subtype) {
+    0: set_KTX_1_wagon_T3;
+    1: set_KTX_1_wagon_T3;
+    2: set_KTX_1_LTE_A_wagon_T3;
+    3: set_KTX_1_wagon_T3;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T4, cargo_subtype) {
+    0: set_KTX_1_wagon_T4;
+    1: set_KTX_1_wagon_T4;
+    2: set_KTX_1_LTE_A_wagon_T4;
+    3: set_KTX_1_wagon_T4;    
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T3_6Car, cargo_subtype) {
+    0: set_KTX_1_wagon_T3;
+    1: set_KTX_1_wagon_T3;
+    2: set_KTX_1_LTE_A_wagon_T3;
+    3: set_KTX_1_wagon_T6;    
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T5, cargo_subtype) {
+    0: set_KTX_1_wagon_T5;
+    1: set_KTX_1_wagon_T5;
+    2: set_KTX_1_LTE_A_wagon_T5;
+    3: set_KTX_1_wagon_T5;    
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T6, cargo_subtype) {
+    0: set_KTX_1_wagon_T6;
+    1: set_KTX_1_wagon_T6;
+    2: set_KTX_1_LTE_A_wagon_T6;
+    3: set_KTX_1_wagon_T6;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T7, cargo_subtype) {
+    0: set_KTX_1_wagon_T7;
+    1: set_KTX_1_wagon_T7;
+    2: set_KTX_1_LTE_A_wagon_T7;
+    3: set_KTX_1_wagon_T7;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T8, cargo_subtype) {
+    0: set_KTX_1_wagon_T8;
+    1: set_KTX_1_wagon_T8;
+    2: set_KTX_1_LTE_A_wagon_T8;
+    3: set_KTX_1_wagon_T8;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T9, cargo_subtype) {
+    0: set_KTX_1_wagon_T9;
+    1: set_KTX_1_wagon_T9;
+    2: set_KTX_1_LTE_A_wagon_T9;
+    3: set_KTX_1_wagon_T9;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_engineT_Front, cargo_subtype) {
+    0: set_KTX_1_engineT;
+    1: set_KTX_1_engineT;
+    2: set_KTX_1_LTE_A_engineT;
+    3: set_KTX_1_engineT;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_KTX_1_engineH_Back, cargo_subtype) {
+    0: set_KTX_1_engineH;
+    1: set_KTX_1_engineH;
+    2: set_KTX_1_LTE_A_engineH;
+    3: set_KTX_1_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_engineT_Back, cargo_subtype) {
+    0: set_KTX_1_engineT;
+    1: set_KTX_1_engineT;
+    2: set_KTX_1_LTE_A_engineT;
+    3: set_KTX_1_engineT;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_KTX_1_engineH, train_is_driving_backwards) {
+    0: sw_KTX_1_engineH_Front;
+    1: sw_KTX_1_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_engineT, train_is_driving_backwards) {
+    0: sw_KTX_1_engineT_Front;
+    1: sw_KTX_1_engineT_Back;
+}
 
 // 편성그래픽
-// 1997
-switch (FEAT_TRAINS, SELF, sw_KTX_1_20car_1997, position_in_vehid_chain % 20) {
-     1:set_KTX_1_wagon_T1;
-     2:set_KTX_1_wagon_T2;
-     3:set_KTX_1_wagon_T3;
-     4:set_KTX_1_wagon_T4;
-     5:set_KTX_1_wagon_T6;
-     6:set_KTX_1_wagon_T5;
-     7:set_KTX_1_wagon_T6;
-     8:set_KTX_1_wagon_T5;
-     9:set_KTX_1_wagon_T6;
-    10:set_KTX_1_wagon_T7;
-    11:set_KTX_1_wagon_T8;
-    12:set_KTX_1_wagon_T7;
-    13:set_KTX_1_wagon_T8;
-    14:set_KTX_1_wagon_T7;
-    15:set_KTX_1_wagon_T8;
-    16:set_KTX_1_wagon_T7;
-    17:set_KTX_1_wagon_T8;
-    18:set_KTX_1_wagon_T9;
-    19:set_KTX_1_engineT;
-    set_KTX_1_engineH; //default
+switch (FEAT_TRAINS, SELF, sw_KTX_1_20car, position_in_vehid_chain % 20) {
+     0: sw_KTX_1_engineH; //default
+     1: sw_KTX_1_wagon_T1;
+     2: sw_KTX_1_wagon_T2;
+     3: sw_KTX_1_wagon_T3;
+     4: sw_KTX_1_wagon_T4;
+     5: sw_KTX_1_wagon_T3_6Car;
+     6: sw_KTX_1_wagon_T5;
+     7: sw_KTX_1_wagon_T6;
+     8: sw_KTX_1_wagon_T5;
+     9: sw_KTX_1_wagon_T6;
+    10: sw_KTX_1_wagon_T7;
+    11: sw_KTX_1_wagon_T8;
+    12: sw_KTX_1_wagon_T7;
+    13: sw_KTX_1_wagon_T8;
+    14: sw_KTX_1_wagon_T7;
+    15: sw_KTX_1_wagon_T8;
+    16: sw_KTX_1_wagon_T7;
+    17: sw_KTX_1_wagon_T8;
+    18: sw_KTX_1_wagon_T9;
+    19: sw_KTX_1_engineT;
     }
 
-// 2007
-switch (FEAT_TRAINS, SELF, sw_KTX_1_20car_2007, position_in_vehid_chain % 20) {
-     1:sw_KTX_1_2007_wagon_2;
-     2:set_KTX_1_wagon_T2;
-     3:set_KTX_1_wagon_T3;
-     4:set_KTX_1_wagon_T4;
-     5:set_KTX_1_wagon_T3;
-     6:set_KTX_1_wagon_T5;
-     7:set_KTX_1_wagon_T6;
-     8:set_KTX_1_wagon_T5;
-     9:set_KTX_1_wagon_T6;
-    10:set_KTX_1_wagon_T7;
-    11:set_KTX_1_wagon_T8;
-    12:set_KTX_1_wagon_T7;
-    13:set_KTX_1_wagon_T8;
-    14:set_KTX_1_wagon_T7;
-    15:set_KTX_1_wagon_T8;
-    16:set_KTX_1_wagon_T7;
-    17:set_KTX_1_wagon_T8;
-    18:set_KTX_1_wagon_T9;
-    19:set_KTX_1_engineT;
-    set_KTX_1_engineH; //default
-    }
-
-// 2013
-switch (FEAT_TRAINS, SELF, sw_KTX_1_20car_2013, position_in_vehid_chain % 20) {
-     1:sw_KTX_1_2013_wagon_2;
-     2:sw_KTX_1_2013_wagon_3;
-     3:sw_KTX_1_2013_wagon_4;
-     4:sw_KTX_1_2013_wagon_5;
-     5:sw_KTX_1_2013_wagon_6;
-     6:sw_KTX_1_2013_wagon_7;
-     7:sw_KTX_1_2013_wagon_8;
-     8:sw_KTX_1_2013_wagon_9;
-     9:sw_KTX_1_2013_wagon_10;
-    10:sw_KTX_1_2013_wagon_11;
-    11:sw_KTX_1_2013_wagon_12;
-    12:sw_KTX_1_2013_wagon_13;
-    13:sw_KTX_1_2013_wagon_14;
-    14:sw_KTX_1_2013_wagon_15;
-    15:sw_KTX_1_2013_wagon_16;
-    16:sw_KTX_1_2013_wagon_17;
-    17:sw_KTX_1_2013_wagon_18;
-    18:sw_KTX_1_2013_wagon_19;
-    19:sw_KTX_1_2013_engineT;
-    sw_KTX_1_2013_engineH; //default
-    }
-
-// 2017
-switch (FEAT_TRAINS, SELF, sw_KTX_1_20car_2017, position_in_vehid_chain % 20) {
-     1:sw_KTX_1_2017_wagon_2;
-     2:sw_KTX_1_2017_wagon_3;
-     3:sw_KTX_1_2017_wagon_4;
-     4:sw_KTX_1_2017_wagon_5;
-     5:sw_KTX_1_2017_wagon_6;
-     6:sw_KTX_1_2017_wagon_7;
-     7:sw_KTX_1_2017_wagon_8;
-     8:sw_KTX_1_2017_wagon_9;
-     9:sw_KTX_1_2017_wagon_10;
-    10:sw_KTX_1_2017_wagon_11;
-    11:sw_KTX_1_2017_wagon_12;
-    12:sw_KTX_1_2017_wagon_13;
-    13:sw_KTX_1_2017_wagon_14;
-    14:sw_KTX_1_2017_wagon_15;
-    15:sw_KTX_1_2017_wagon_16;
-    16:sw_KTX_1_2017_wagon_17;
-    17:sw_KTX_1_2017_wagon_18;
-    18:sw_KTX_1_2017_wagon_19;
-    19:sw_KTX_1_2017_engineT;
-    sw_KTX_1_2017_engineH; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_KTX_1_20car, current_year) {
-    0..2006: sw_KTX_1_20car_1997;
-    2007..2012: sw_KTX_1_20car_2007;
-    2013..2016: sw_KTX_1_20car_2013;
-    sw_KTX_1_20car_2017;
-    }
-
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_KTX_1_20car, extra_callback_info1) {
     1..19: KTX_1_20Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
+// 길이
 switch(FEAT_TRAINS, SELF, sw_KTX_1_20Car_length_in_custom, position_in_vehid_chain % 20) {
     1: 8;
     2: 7;
@@ -145,6 +177,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_1_20Car_length_in_custom, position_in_vehid_cha
     8; //default;
 }
 
+// 수송량
 switch(FEAT_TRAINS, SELF, sw_KTX_1_capacity_in_custom, cargo_subtype) {
     1: return 47;
     2: return 47;

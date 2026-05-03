@@ -5,6 +5,10 @@ spriteset(set_HSR_350X_engineH, "src/locomotive/HSR_350X/HSR_350X.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_HSR_350X_engineH_Rev, "src/locomotive/HSR_350X/HSR_350X.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_HSR_350X_wagon_TM1, "src/locomotive/HSR_350X/HSR_350X.png"){
     DTS_temp(80, 54)
 }
@@ -27,6 +31,10 @@ spriteset(set_HSR_350X_wagon_TM5, "src/locomotive/HSR_350X/HSR_350X.png") {
 
 spriteset(set_HSR_350X_wagon_TM5D, "src/locomotive/HSR_350X/HSR_350X.png") {
     DTS_temp(80, 189)
+}
+
+spriteset(set_HSR_350X_engineT_Rev, "src/locomotive/HSR_350X/HSR_350X.png"){
+    DTS_temp_r(80, 216)
 }
 
 spriteset(set_HSR_350X_engineT, "src/locomotive/HSR_350X/HSR_350X.png"){

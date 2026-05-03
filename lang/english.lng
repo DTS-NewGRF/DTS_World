@@ -62,7 +62,9 @@ STR_HEMU_430X_6Car_NAME                                :[6Car] HEMU-430X
 STR_HEMU_430X_8Car_NAME                                :[8Car] HEMU-430X
 STR_Group_HSR_350X_NAME                                :HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[7Car] HSR-350X
+STR_HSR_350X_10Car_NAME                                :[10Car] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[14Car] HSR-350X
+STR_HSR_350X_20Car_NAME                                :[20Car] HSR-350X
 STR_ITX_CheongChun_8Car_NAME                           :[8Car] ITX-CheongChun
 STR_Group_ITX_Maum_NAME                                :ITX-Maum
 STR_ITX_Maum_4Car_NAME                                 :[4Car] ITX-Maum
@@ -566,8 +568,6 @@ STR_REFIT_LIVERY_DHC_New_C                             : DHC PP New C
 STR_REFIT_LIVERY_DHC_New_Cafe_A                        : DHC PP New Cafe A
 STR_REFIT_LIVERY_DHC_New_Cafe_B                        : DHC PP New Cafe B
 STR_REFIT_LIVERY_DHC_New_Cafe_C                        : DHC PP New Cafe C
-STR_REFIT_LIVERY_DHC_ON                                : DHC PP Old+New
-STR_REFIT_LIVERY_DHC_NO                                : DHC PP New+Old
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1961                 : 1st Original livery
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1966                 : 2nd Original livery
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A               : 2nd Single Cab Original livery Semi cross seat

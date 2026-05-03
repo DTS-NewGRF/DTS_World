@@ -2,19 +2,19 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_ICE1_engineH, "src/locomotive/ICE/ICE1/ICE1.png"){
-    ICEengine(80, 0)
+    DTS_ICE_Temp(80, 0)
 }
 
 spriteset(set_ICE1_wagon, "src/locomotive/ICE/ICE1/ICE1.png") {
-    ICEwagon_1F(80, 30)
+    DTS_ICE_Temp(80, 30)
 }
 
 spriteset(set_ICE1_wagon_bar, "src/locomotive/ICE/ICE1/ICE1.png"){
-    ICEwagon_bar(80, 60)
+    DTS_ICE_Temp(80, 60)
 }
 
 spriteset(set_ICE1_engineT, "src/locomotive/ICE/ICE1/ICE1.png"){
-    ICEengine(80, 90)
+    DTS_ICE_Temp(80, 90)
 }
 
 /*--------------------------------------------------------------------

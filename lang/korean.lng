@@ -61,7 +61,9 @@ STR_HEMU_430X_6Car_NAME                                :[6량] HEMU-430X
 STR_HEMU_430X_8Car_NAME                                :[8량] HEMU-430X
 STR_Group_HSR_350X_NAME                                :HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[7량] HSR-350X
+STR_HSR_350X_10Car_NAME                                :[10량] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[14량] HSR-350X
+STR_HSR_350X_20Car_NAME                                :[20량] HSR-350X
 STR_ITX_CheongChun_8Car_NAME                           :[8량] ITX-청춘
 STR_Group_ITX_Maum_NAME                                :ITX-마음
 STR_ITX_Maum_4Car_NAME                                 :[4량] ITX-마음
@@ -565,8 +567,6 @@ STR_REFIT_LIVERY_DHC_New_C                             : DHC PP 신도색 C
 STR_REFIT_LIVERY_DHC_New_Cafe_A                        : DHC PP 신도색 카페편성 A
 STR_REFIT_LIVERY_DHC_New_Cafe_B                        : DHC PP 신도색 카페편성 B
 STR_REFIT_LIVERY_DHC_New_Cafe_C                        : DHC PP 신도색 카페편성 C
-STR_REFIT_LIVERY_DHC_ON                                : DHC PP 구도색+신도색
-STR_REFIT_LIVERY_DHC_NO                                : DHC PP 신도색+구도색
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1961                 : 초기형 초기도색
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1966                 : 후기형 초기도색
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A               : 후기형 편운전대 초기도색 세미크로스시트

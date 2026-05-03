@@ -1,87 +1,90 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-//도색
+//도색명
 switch(FEAT_TRAINS, SELF, sw_EEC_EMU_cargo_subtype_text, cargo_subtype) {
     0: return string(STR_REFIT_LIVERY_EEC_EMU_1980);
     1: return string(STR_REFIT_LIVERY_EEC_EMU_1996);
     return CB_RESULT_NO_TEXT;
 }
 
+// 도색그래픽 세팅
 // 열차
-// 10량
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_1996_engineH, cargo_subtype) {
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_engineH_Front, cargo_subtype) {
+    0: set_EEC_EMU_1980_engineH;
     1: set_EEC_EMU_1996_engineH;
-    set_EEC_EMU_1980_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_1996_wagon_M1, cargo_subtype) {
-    1: set_EEC_EMU_1996_wagon_M1;
-    set_EEC_EMU_1980_wagon_M1;
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_wagon_M1, cargo_subtype) {
+    0: set_EEC_EMU_1980_wagon_M1;
+    1: set_EEC_EMU_1996_wagon_M1;    
 }
 
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_1996_panto_wagon_M1, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_panto_wagon_M1, cargo_subtype) {
+    0: set_EEC_EMU_1980_panto_wagon_M1;
     1: set_EEC_EMU_1996_panto_wagon_M1;
-    set_EEC_EMU_1980_panto_wagon_M1;
 }
 
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_1996_wagon_TB, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_wagon_TB, cargo_subtype) {
+    0: set_EEC_EMU_1980_wagon_TB;
     1: set_EEC_EMU_1996_wagon_TB;
-    set_EEC_EMU_1980_wagon_TB;
 }
 
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_1996_wagon_TS, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_wagon_TS, cargo_subtype) {
+    0: set_EEC_EMU_1980_wagon_TS;
     1: set_EEC_EMU_1996_wagon_TS;
-    set_EEC_EMU_1980_wagon_TS;
 }
 
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_1996_wagon_M2, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_wagon_M2, cargo_subtype) {
+    0: set_EEC_EMU_1980_wagon_M2;
     1: set_EEC_EMU_1996_wagon_M2;
-    set_EEC_EMU_1980_wagon_M2;
 }
 
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_1996_panto_wagon_M2, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_panto_wagon_M2, cargo_subtype) {
+    0: set_EEC_EMU_1980_panto_wagon_M2;
     1: set_EEC_EMU_1996_panto_wagon_M2;
-    set_EEC_EMU_1980_panto_wagon_M2;
 }
 
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_1996_engineT, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_engineT_Front, cargo_subtype) {
+    0: set_EEC_EMU_1980_engineT;
     1: set_EEC_EMU_1996_engineT;
-    set_EEC_EMU_1980_engineT;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_engineH_Back, cargo_subtype) {
+    0: set_EEC_EMU_1980_engineH_Rev;
+    1: set_EEC_EMU_1996_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_engineT_Back, cargo_subtype) {
+    0: set_EEC_EMU_1980_engineT_Rev;
+    1: set_EEC_EMU_1996_engineT_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_engineH, train_is_driving_backwards) {
+    0: sw_EEC_EMU_engineH_Front;
+    1: sw_EEC_EMU_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EEC_EMU_engineT, train_is_driving_backwards) {
+    0: sw_EEC_EMU_engineT_Front;
+    1: sw_EEC_EMU_engineT_Back;
 }
 
 // 편성그래픽
-// 1980
-switch (FEAT_TRAINS, SELF, sw_EEC_EMU_10car_1980, position_in_vehid_chain % 10) {
-    1:set_EEC_EMU_1980_wagon_M1;
-    2:set_EEC_EMU_1980_panto_wagon_M1;
-    3:set_EEC_EMU_1980_wagon_M1;
-    4:set_EEC_EMU_1980_panto_wagon_M1;
-    5:set_EEC_EMU_1980_wagon_TB;
-    6:set_EEC_EMU_1980_wagon_TS;
-    7:set_EEC_EMU_1980_wagon_M2;
-    8:set_EEC_EMU_1980_panto_wagon_M2;
-    9:set_EEC_EMU_1980_engineT;
-    set_EEC_EMU_1980_engineH; //default
-    }
-
-// 1996
-switch (FEAT_TRAINS, SELF, sw_EEC_EMU_10car_1996, position_in_vehid_chain % 10) {
-    1:sw_EEC_EMU_1996_wagon_M1;
-    2:sw_EEC_EMU_1996_panto_wagon_M1;
-    3:sw_EEC_EMU_1996_wagon_M1;
-    4:sw_EEC_EMU_1996_panto_wagon_M1;
-    5:sw_EEC_EMU_1996_wagon_TB;
-    6:sw_EEC_EMU_1996_wagon_TS;
-    7:sw_EEC_EMU_1996_wagon_M2;
-    8:sw_EEC_EMU_1996_panto_wagon_M2;
-    9:sw_EEC_EMU_1996_engineT;
-    sw_EEC_EMU_1996_engineH; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_EEC_EMU_10car, current_year) {
-    0..1995: sw_EEC_EMU_10car_1980;
-    sw_EEC_EMU_10car_1996;
+switch (FEAT_TRAINS, SELF, sw_EEC_EMU_10car, position_in_vehid_chain % 10) {
+    0: sw_EEC_EMU_engineH; //default
+    1: sw_EEC_EMU_wagon_M1;
+    2: sw_EEC_EMU_panto_wagon_M1;
+    3: sw_EEC_EMU_wagon_M1;
+    4: sw_EEC_EMU_panto_wagon_M1;
+    5: sw_EEC_EMU_wagon_TB;
+    6: sw_EEC_EMU_wagon_TS;
+    7: sw_EEC_EMU_wagon_M2;
+    8: sw_EEC_EMU_panto_wagon_M2;
+    9: sw_EEC_EMU_engineT;
     }
 
 // 편성량

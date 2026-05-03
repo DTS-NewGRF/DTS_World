@@ -410,7 +410,6 @@ item(FEAT_TRAINS, DHC_PP_16Car, 2363){
         articulated_part:               sw_articulated_DHC_PP_16car;
         purchase:                       sw_DHC_PP_purchase;
         speed:                          sw_Regular_150_speed;
-        cargo_subtype_text:             sw_DHC_PP_16Car_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

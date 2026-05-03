@@ -9,8 +9,16 @@ spriteset(set_ITX_Maum_engineH, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_ITX_Maum_engineH_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_ITX_Maum_panto_wagon_M1, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
     DTS_temp(80, 54)
+}
+
+spriteset(set_ITX_Maum_panto_wagon_M1_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_ITX_Maum_wagon_M, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
@@ -33,8 +41,20 @@ spriteset(set_ITX_Maum_panto_wagon_4Car_M2, "src/locomotive/ITX/ITX_Maum/ITX_Mau
     DTS_temp(80, 216)
 }
 
+spriteset(set_ITX_Maum_panto_wagon_4Car_M2_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
+    DTS_temp_r(80, 243)
+}
+
 spriteset(set_ITX_Maum_panto_wagon_6Car_M2, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
     DTS_temp(80, 270)
+}
+
+spriteset(set_ITX_Maum_panto_wagon_6Car_M2_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
+    DTS_temp_r(80, 297)
+}
+
+spriteset(set_ITX_Maum_engineT_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
+    DTS_temp_r(80, 324)
 }
 
 spriteset(set_ITX_Maum_engineT, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
@@ -48,12 +68,28 @@ spriteset(set_ITX_Maum_High1_engineH, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High
     DTS_temp(80, 0)
 }
 
+spriteset(set_ITX_Maum_High1_engineH_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_ITX_Maum_High1_panto_wagon_M1, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
     DTS_temp(80, 54)
 }
 
+spriteset(set_ITX_Maum_High1_panto_wagon_M1_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
+    DTS_temp_r(80, 81)
+}
+
 spriteset(set_ITX_Maum_High1_panto_wagon_4Car_M2, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
     DTS_temp(80, 108)
+}
+
+spriteset(set_ITX_Maum_High1_panto_wagon_4Car_M2_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_ITX_Maum_High1_engineT_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
+    DTS_temp_r(80, 162)
 }
 
 spriteset(set_ITX_Maum_High1_engineT, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){

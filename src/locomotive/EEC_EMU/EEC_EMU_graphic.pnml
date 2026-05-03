@@ -8,6 +8,10 @@ spriteset(set_EEC_EMU_1980_engineH, "src/locomotive/EEC_EMU/EEC_EMU_1980.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_EEC_EMU_1980_engineH_Rev, "src/locomotive/EEC_EMU/EEC_EMU_1980.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_EEC_EMU_1980_wagon_M1, "src/locomotive/EEC_EMU/EEC_EMU_1980.png") {
     DTS_temp(80, 54)
 }
@@ -32,6 +36,10 @@ spriteset(set_EEC_EMU_1980_panto_wagon_M2, "src/locomotive/EEC_EMU/EEC_EMU_1980.
     DTS_temp(80, 189)
 }
 
+spriteset(set_EEC_EMU_1980_engineT_Rev, "src/locomotive/EEC_EMU/EEC_EMU_1980.png"){
+    DTS_temp_r(80, 216)
+}
+
 spriteset(set_EEC_EMU_1980_engineT, "src/locomotive/EEC_EMU/EEC_EMU_1980.png"){
     DTS_temp(80, 243)
 }
@@ -41,6 +49,10 @@ EEC_EMU_1996
 --------------------------------------------------------------------*/
 spriteset(set_EEC_EMU_1996_engineH, "src/locomotive/EEC_EMU/EEC_EMU_1996.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_EEC_EMU_1996_engineH_Rev, "src/locomotive/EEC_EMU/EEC_EMU_1996.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_EEC_EMU_1996_wagon_M1, "src/locomotive/EEC_EMU/EEC_EMU_1996.png") {
@@ -65,6 +77,10 @@ spriteset(set_EEC_EMU_1996_wagon_M2, "src/locomotive/EEC_EMU/EEC_EMU_1996.png") 
 
 spriteset(set_EEC_EMU_1996_panto_wagon_M2, "src/locomotive/EEC_EMU/EEC_EMU_1996.png") {
     DTS_temp(80, 189)
+}
+
+spriteset(set_EEC_EMU_1996_engineT_Rev, "src/locomotive/EEC_EMU/EEC_EMU_1996.png"){
+    DTS_temp_r(80, 216)
 }
 
 spriteset(set_EEC_EMU_1996_engineT, "src/locomotive/EEC_EMU/EEC_EMU_1996.png"){

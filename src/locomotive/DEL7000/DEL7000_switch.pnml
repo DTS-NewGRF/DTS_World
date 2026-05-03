@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-//도색
+//도색명
 switch(FEAT_TRAINS, SELF, sw_DEL7000_cargo_subtype_text, cargo_subtype) {
     0: return string(STR_REFIT_LIVERY_DEL7000_A);
     1: return string(STR_REFIT_LIVERY_DEL7000_B);
@@ -9,9 +9,24 @@ switch(FEAT_TRAINS, SELF, sw_DEL7000_cargo_subtype_text, cargo_subtype) {
     return CB_RESULT_NO_TEXT;
 }
 
-//객차
-switch(FEAT_TRAINS, SELF, sw_DEL7000_engine, cargo_subtype) {
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_DEL7000_engine_Front, cargo_subtype) {
+    0: set_DEL7000_engine_A;
     1: set_DEL7000_engine_B;
     2: set_DEL7000_engine_C;
-    set_DEL7000_engine_A;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_DEL7000_engine_Back, cargo_subtype) {
+    0: set_DEL7000_engine_A_Rev;
+    1: set_DEL7000_engine_B_Rev;
+    2: set_DEL7000_engine_C_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_DEL7000_engine, train_is_driving_backwards) {
+    0: sw_DEL7000_engine_Front;
+    1: sw_DEL7000_engine_Back;
 }
