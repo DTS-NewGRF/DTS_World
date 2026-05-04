@@ -8,7 +8,7 @@ spriteset(set_Shinkansen_E2_Pink_engineH, "src/locomotive/Shinkansen/Shinkansen_
     DTS_temp(80, 0)
 }
 
-spriteset(set_Shinkansen_E2_Pink_panto_wagon, "src/locomotive/Shinkansen/Shinkansen_E2/Shinkansen_E2_Pink.png"){
+spriteset(set_Shinkansen_E2_Pink_panto_wagon_M1, "src/locomotive/Shinkansen/Shinkansen_E2/Shinkansen_E2_Pink.png"){
     DTS_temp(80, 27)
 }
 
@@ -16,7 +16,7 @@ spriteset(set_Shinkansen_E2_Pink_wagon, "src/locomotive/Shinkansen/Shinkansen_E2
     DTS_temp(80, 54)
 }
 
-spriteset(set_Shinkansen_E2_Pink_panto_wagon_r, "src/locomotive/Shinkansen/Shinkansen_E2/Shinkansen_E2_Pink.png"){
+spriteset(set_Shinkansen_E2_Pink_panto_wagon_M2, "src/locomotive/Shinkansen/Shinkansen_E2/Shinkansen_E2_Pink.png"){
     DTS_temp(80, 81)
 }
 
@@ -31,7 +31,7 @@ spriteset(set_Shinkansen_E2_Red_engineH, "src/locomotive/Shinkansen/Shinkansen_E
     DTS_temp(80, 0)
 }
 
-spriteset(set_Shinkansen_E2_Red_panto_wagon, "src/locomotive/Shinkansen/Shinkansen_E2/Shinkansen_E2_Red.png"){
+spriteset(set_Shinkansen_E2_Red_panto_wagon_M1, "src/locomotive/Shinkansen/Shinkansen_E2/Shinkansen_E2_Red.png"){
     DTS_temp(80, 27)
 }
 
@@ -39,7 +39,7 @@ spriteset(set_Shinkansen_E2_Red_wagon, "src/locomotive/Shinkansen/Shinkansen_E2/
     DTS_temp(80, 54)
 }
 
-spriteset(set_Shinkansen_E2_Red_panto_wagon_r, "src/locomotive/Shinkansen/Shinkansen_E2/Shinkansen_E2_Red.png"){
+spriteset(set_Shinkansen_E2_Red_panto_wagon_M2, "src/locomotive/Shinkansen/Shinkansen_E2/Shinkansen_E2_Red.png"){
     DTS_temp(80, 81)
 }
 

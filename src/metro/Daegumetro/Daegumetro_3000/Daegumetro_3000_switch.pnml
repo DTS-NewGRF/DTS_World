@@ -3,34 +3,36 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Daegumetro_3000_3Car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Daegumetro_3000);
     1: return string(STR_REFIT_LIVERY_Daegumetro_3000_Urban);
-    return string(STR_REFIT_LIVERY_Daegumetro_3000);
 }
 
-// 3량
+// 도색그래픽 세팅
+// 열차
+// 전진방향
 switch(FEAT_TRAINS, SELF, sw_Daegumetro_3000_engineH, cargo_subtype) {
+    0: set_Daegumetro_3000_engineH;
     1: set_Daegumetro_3000_Urban_engineH;
-    set_Daegumetro_3000_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Daegumetro_3000_wagon, cargo_subtype) {
+    0: set_Daegumetro_3000_wagon;
     1: set_Daegumetro_3000_Urban_wagon;
-    set_Daegumetro_3000_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Daegumetro_3000_engineT, cargo_subtype) {
+    0: set_Daegumetro_3000_engineT;
     1: set_Daegumetro_3000_Urban_engineT;
-    set_Daegumetro_3000_engineT;
 }
 
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Daegumetro_3000_3car, position_in_vehid_chain % 3) {
-    1:sw_Daegumetro_3000_wagon;
-    2:sw_Daegumetro_3000_engineT;
-    sw_Daegumetro_3000_engineH; //default
+    0: sw_Daegumetro_3000_engineH; //default
+    1: sw_Daegumetro_3000_wagon;
+    2: sw_Daegumetro_3000_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Daegumetro_3000_3car, extra_callback_info1) {
     1..2: Daegumetro_3000_3Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

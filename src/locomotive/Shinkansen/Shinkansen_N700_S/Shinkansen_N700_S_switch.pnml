@@ -1,24 +1,28 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
+// 6량
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_N700S_6car, position_in_vehid_chain % 6) {
-    1:set_N700S_K_panto_wagon;
-    2..3:set_N700S_K_wagon;
-    4:set_N700S_K_panto_wagon_r;
-    5:set_N700S_K_engineT;
-    set_N700S_K_engineH; //default
+    0: set_N700S_K_engineH; //default
+    1: set_N700S_K_panto_wagon;
+    2..3: set_N700S_K_wagon;
+    4: set_N700S_K_panto_wagon_r;
+    5: set_N700S_K_engineT;
     }
 
+// 16량
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_N700S_16car, position_in_vehid_chain % 16) {
-    1..3:set_N700S_T_wagon;
-    4:set_N700S_T_panto_wagon;
-    5..10:set_N700S_T_wagon;
-    11:set_N700S_T_panto_wagon_r;
-    12..14:set_N700S_T_wagon;
-    15:set_N700S_T_engineT;
-    set_N700S_T_engineH; //default
+    0: set_N700S_T_engineH; //default
+    1..3: set_N700S_T_wagon;
+    4: set_N700S_T_panto_wagon;
+    5..10: set_N700S_T_wagon;
+    11: set_N700S_T_panto_wagon_r;
+    12..14: set_N700S_T_wagon;
+    15: set_N700S_T_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_N700S_6car, extra_callback_info1) {
     1..5: Shinkansen_N700_S_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

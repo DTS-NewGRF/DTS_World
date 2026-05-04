@@ -1,14 +1,27 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_AUTS_engineH, train_is_driving_backwards) {
+    0: set_AUTS_engineH;
+    1: set_AUTS_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_AUTS_engineT, train_is_driving_backwards) {
+    0: set_AUTS_engineT;
+    1: set_AUTS_engineT_Rev;
+}
+
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_AUTS_6car, position_in_vehid_chain % 6) {
-    1:set_AUTS_panto_wagon;
-    2..3:set_AUTS_wagon;
-    4:set_AUTS_panto_wagon;
-    5:set_AUTS_engineT;
-    set_AUTS_engineH; //default
+    0: sw_AUTS_engineH; //default
+    1: set_AUTS_panto_wagon;
+    2..3: set_AUTS_wagon;
+    4: set_AUTS_panto_wagon;
+    5: sw_AUTS_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_AUTS_6car, extra_callback_info1) {
     1..5: AUTS_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

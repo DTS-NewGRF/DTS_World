@@ -1,14 +1,37 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E8_engineH, train_is_driving_backwards) {
+    0: set_Shinkansen_E8_engineH;
+    1: set_Shinkansen_E8_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E8_panto_wagon_M1, train_is_driving_backwards) {
+    0: set_Shinkansen_E8_panto_wagon_M1;
+    1: set_Shinkansen_E8_panto_wagon_M1_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E8_panto_wagon_M2, train_is_driving_backwards) {
+    0: set_Shinkansen_E8_panto_wagon_M2;
+    1: set_Shinkansen_E8_panto_wagon_M2_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E8_engineT, train_is_driving_backwards) {
+    0: set_Shinkansen_E8_engineT;
+    1: set_Shinkansen_E8_engineT_Rev;
+}
+
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_E8_7car, position_in_vehid_chain % 7) {
-    1:set_Shinkansen_E8_panto_wagon_A;
-    2..4:set_Shinkansen_E8_wagon;
-    5:set_Shinkansen_E8_panto_wagon_B;
-    6:set_Shinkansen_E8_engineT;
-    set_Shinkansen_E8_engineH; //default
+    0: sw_Shinkansen_E8_engineH; //default
+    1: sw_Shinkansen_E8_panto_wagon_M1;
+    2..4: set_Shinkansen_E8_wagon;
+    5: sw_Shinkansen_E8_panto_wagon_M2;
+    6: sw_Shinkansen_E8_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_E8_7car, extra_callback_info1) {
     1..6: Shinkansen_E8_7Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

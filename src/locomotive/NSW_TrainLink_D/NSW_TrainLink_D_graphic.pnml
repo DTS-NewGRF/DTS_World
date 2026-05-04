@@ -5,7 +5,11 @@ spriteset(set_NSW_TrainLink_D_engineH, "src/locomotive/NSW_TrainLink_D/NSW_Train
     DTS_temp(80, 0)
 }
 
-spriteset(set_NSW_TrainLink_D_wagon_A, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png") {
+spriteset(set_NSW_TrainLink_D_engineH_Rev, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png"){
+    DTS_temp_r(80, 27)
+}
+
+spriteset(set_NSW_TrainLink_D_wagon_M1, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png") {
     DTS_temp(80, 54)
 }
 
@@ -13,8 +17,12 @@ spriteset(set_NSW_TrainLink_D_panto_wagon, "src/locomotive/NSW_TrainLink_D/NSW_T
     DTS_temp(80, 81)
 }
 
-spriteset(set_NSW_TrainLink_D_wagon_B, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png") {
+spriteset(set_NSW_TrainLink_D_wagon_M2, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png") {
     DTS_temp(80, 108)
+}
+
+spriteset(set_NSW_TrainLink_D_engineT_Rev, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png"){
+    DTS_temp_r(80, 135)
 }
 
 spriteset(set_NSW_TrainLink_D_engineT, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png"){

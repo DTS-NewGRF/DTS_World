@@ -714,7 +714,8 @@ STR_REFIT_LIVERY_TGV_Carmillon_1st                     : 1세대 카밀론
 STR_REFIT_LIVERY_TGV_Carmillon_2nd                     : 2세대 카밀론
 STR_REFIT_LIVERY_TGV_Lacroix                           : 라크루아
 STR_REFIT_LIVERY_TGV_Lyair                             : 리리아
-STR_REFIT_LIVERY_TGV_M                                 : TGV-M
+STR_REFIT_LIVERY_TGV_M_A                               : TGV-M A편성
+STR_REFIT_LIVERY_TGV_M_B                               : TGV-M B편성
 STR_REFIT_LIVERY_TGV_M_Inoui                           : Inoui
 STR_REFIT_LIVERY_TGV_M_Rame                            : Rame D'Essal
 STR_REFIT_LIVERY_TGV_Ouigo                             : 위고

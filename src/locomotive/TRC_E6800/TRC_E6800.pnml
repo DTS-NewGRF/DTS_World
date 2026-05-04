@@ -4,9 +4,6 @@
 // Graphics
 #include "TRC_E6800_graphic.pnml"
 
-// Switch
-#include "TRC_E6800_switch.pnml"
-
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
@@ -49,7 +46,7 @@ item(FEAT_TRAINS, TRC_E6800, 2605){
         }
         
     graphics {
-        default:                        sw_TRC_E6800_engine_1Car;
+        default:                        set_TRC_E6800_engine;
         purchase:                       set_TRC_E6800_purchase;
         speed:                          sw_Regular_140_speed;
         cargo_capacity:                 0;

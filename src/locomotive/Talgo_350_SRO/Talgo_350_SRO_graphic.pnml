@@ -16,7 +16,7 @@ spriteset(set_Talgo_350_SRO_wagon, "src/locomotive/Talgo_350_SRO/Talgo_350_SRO.p
 	DTS_temp(80, 54)
 }
 
-spriteset(set_Talgo_350_SRO_wagon_r, "src/locomotive/Talgo_350_SRO/Talgo_350_SRO.png") {
+spriteset(set_Talgo_350_SRO_wagon_Rev, "src/locomotive/Talgo_350_SRO/Talgo_350_SRO.png") {
 	DTS_temp_r(80, 54)
 }
 

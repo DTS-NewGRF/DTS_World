@@ -15,12 +15,12 @@ switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_engineH_Front, cargo_subtype) {
     1: set_AREX_1000_1st_New_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_wagon_M_T_Front, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_wagon_M_T, cargo_subtype) {
     0: set_AREX_1000_1st_Old_wagon_M_T;
     1: set_AREX_1000_1st_New_wagon_M_T;
 }
 
-switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_panto_wagon_Front, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_panto_wagon, cargo_subtype) {
     0: set_AREX_1000_1st_Old_panto_wagon;
     1: set_AREX_1000_1st_New_panto_wagon;
 }
@@ -36,16 +36,6 @@ switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_engineH_Back, cargo_subtype) {
     1: set_AREX_1000_1st_New_engineH_Rev;
 }
 
-switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_wagon_M_T_Back, cargo_subtype) {
-    0: set_AREX_1000_1st_Old_wagon_M_T_Rev;
-    1: set_AREX_1000_1st_New_wagon_M_T_Rev;
-}
-
-switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_panto_wagon_Back, cargo_subtype) {
-    0: set_AREX_1000_1st_Old_panto_wagon_Rev;
-    1: set_AREX_1000_1st_New_panto_wagon_Rev;
-}
-
 switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_engineT_Back, cargo_subtype) {
     0: set_AREX_1000_1st_Old_engineT_Rev;
     1: set_AREX_1000_1st_New_engineT_Rev;
@@ -55,16 +45,6 @@ switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_engineT_Back, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_engineH, train_is_driving_backwards) {
     0: sw_AREX_1000_1st_engineH_Front;
     1: sw_AREX_1000_1st_engineH_Back;
-}
-
-switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_wagon_M_T, train_is_driving_backwards) {
-    0: sw_AREX_1000_1st_wagon_M_T_Front;
-    1: sw_AREX_1000_1st_wagon_M_T_Back;
-}
-
-switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_panto_wagon, train_is_driving_backwards) {
-    0: sw_AREX_1000_1st_panto_wagon_Front;
-    1: sw_AREX_1000_1st_panto_wagon_Back;
 }
 
 switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_engineT, train_is_driving_backwards) {

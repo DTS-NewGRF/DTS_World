@@ -3,73 +3,107 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_TGV_Pos_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_TGV_Atlantic);
     1: return string(STR_REFIT_LIVERY_TGV_Lyair);
     2: return string(STR_REFIT_LIVERY_TGV_Carmillon);
-    return string(STR_REFIT_LIVERY_TGV_Atlantic);
 }
 
-// 10량
-switch(FEAT_TRAINS, SELF, sw_TGV_Pos_engineH, cargo_subtype) {
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_engineH_Front, cargo_subtype) {
+    0: set_TGV_Pos_engineH;
     1: set_TGV_Lyair_engineH;
     2: set_TGV_Carmillon_engineH;
-    set_TGV_Pos_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_F1, cargo_subtype) {
+    0: set_TGV_Pos_wagon_F1;
     1: set_TGV_Lyair_wagon_F1;
     2: set_TGV_Carmillon_wagon_F1;
-    set_TGV_Pos_wagon_F1;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_F2, cargo_subtype) {
+    0: set_TGV_Pos_wagon_F2;
     1: set_TGV_Lyair_wagon_F2;
     2: set_TGV_Carmillon_wagon_F2;
-    set_TGV_Pos_wagon_F2;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_C, cargo_subtype) {
+    0: set_TGV_Pos_wagon_C;
     1: set_TGV_Lyair_wagon_C;
     2: set_TGV_Carmillon_wagon_C;
-    set_TGV_Pos_wagon_C;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_T1, cargo_subtype) {
+    0: set_TGV_Pos_wagon_T1;
     1: set_TGV_Lyair_wagon_T1;
     2: set_TGV_Carmillon_wagon_T1;
-    set_TGV_Pos_wagon_T1;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_T2, cargo_subtype) {
+    0: set_TGV_Pos_wagon_T2;
     1: set_TGV_Lyair_wagon_T2;
     2: set_TGV_Carmillon_wagon_T2;
-    set_TGV_Pos_wagon_T2;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_T3, cargo_subtype) {
+    0: set_TGV_Pos_wagon_T3;
     1: set_TGV_Lyair_wagon_T3;
     2: set_TGV_Carmillon_wagon_T3;
-    set_TGV_Pos_wagon_T3;
 }
 
-switch(FEAT_TRAINS, SELF, sw_TGV_Pos_engineT, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_engineT_Front, cargo_subtype) {
+    0: set_TGV_Pos_engineT;
     1: set_TGV_Lyair_engineT;
     2: set_TGV_Carmillon_engineT;
-    set_TGV_Pos_engineT;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_engineH_Back, cargo_subtype) {
+    0: set_TGV_Pos_engineH_Rev;
+    1: set_TGV_Lyair_engineH_Rev;
+    2: set_TGV_Carmillon_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_engineT_Back, cargo_subtype) {
+    0: set_TGV_Pos_engineT_Rev;
+    1: set_TGV_Lyair_engineT_Rev;
+    2: set_TGV_Carmillon_engineT_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_engineH, train_is_driving_backwards) {
+    0: sw_TGV_Pos_engineH_Front;
+    1: sw_TGV_Pos_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_engineT, train_is_driving_backwards) {
+    0: sw_TGV_Pos_engineT_Front;
+    1: sw_TGV_Pos_engineT_Back;
 }
 
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_TGV_Pos_10car, position_in_vehid_chain % 10) {
-    1:sw_TGV_Pos_wagon_F1;
-    2..3:sw_TGV_Pos_wagon_F2;
-    4:sw_TGV_Pos_wagon_C;
-    5:sw_TGV_Pos_wagon_T1;
-    6..7:sw_TGV_Pos_wagon_T2;
-    8:sw_TGV_Pos_wagon_T3;
-    9:sw_TGV_Pos_engineT;
-    sw_TGV_Pos_engineH; //default
+    0: sw_TGV_Pos_engineH; //default
+    1: sw_TGV_Pos_wagon_F1;
+    2..3: sw_TGV_Pos_wagon_F2;
+    4: sw_TGV_Pos_wagon_C;
+    5: sw_TGV_Pos_wagon_T1;
+    6..7: sw_TGV_Pos_wagon_T2;
+    8: sw_TGV_Pos_wagon_T3;
+    9: sw_TGV_Pos_engineT;
     }
 
+// 편성수
+switch (FEAT_TRAINS, SELF, sw_articulated_TGV_Pos_wagon_10car, extra_callback_info1) {
+    1..9: TGV_Pos_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+// 길이
 switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_length_in_custom, position_in_vehid_chain % 10) {
+    0: 8; //default;
     1: 8;
     2: 7;
     3: 7;
@@ -79,11 +113,4 @@ switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_length_in_custom, position_in_vehid_c
     7: 7;
     8: 8;
     9: 8;
-    8; //default;
 }
-
-// 편성량
-switch (FEAT_TRAINS, SELF, sw_articulated_TGV_Pos_wagon_10car, extra_callback_info1) {
-    1..9: TGV_Pos_10Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }

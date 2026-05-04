@@ -2,22 +2,24 @@
 스위치
 --------------------------------------------------------------------*/
 // 편성그래픽
+// 8량
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_500_8car, position_in_vehid_chain % 8) {
-    1:set_Shinkansen_500_panto_wagon;
-    2..5:set_Shinkansen_500_wagon;
-    6:set_Shinkansen_500_panto_wagon_r;
-    7:set_Shinkansen_500_engineT;
-    set_Shinkansen_500_engineH; //default
+    0: set_Shinkansen_500_engineH; //default
+    1: set_Shinkansen_500_panto_wagon;
+    2..5: set_Shinkansen_500_wagon;
+    6: set_Shinkansen_500_panto_wagon_Rev;
+    7: set_Shinkansen_500_engineT;
     }
 
+// 16량
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_500_16car, position_in_vehid_chain % 16) {
-    1..3:set_Shinkansen_500_wagon;
-    4:set_Shinkansen_500_panto_wagon;
-    5..10:set_Shinkansen_500_wagon;
-    11:set_Shinkansen_500_panto_wagon_r;
-    12..14:set_Shinkansen_500_wagon;
-    15:set_Shinkansen_500_engineT;
-    set_Shinkansen_500_engineH; //default
+    0: set_Shinkansen_500_engineH; //default
+    1..3: set_Shinkansen_500_wagon;
+    4: set_Shinkansen_500_panto_wagon;
+    5..10: set_Shinkansen_500_wagon;
+    11: set_Shinkansen_500_panto_wagon_Rev;
+    12..14: set_Shinkansen_500_wagon;
+    15: set_Shinkansen_500_engineT;
     }
 
 // 편성량

@@ -1,16 +1,18 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_THSR_700T_12car, position_in_vehid_chain % 12) {
-    1:set_THSR_700T_wagon;
-    2:set_THSR_700T_panto_wagon;
-    3..8:set_THSR_700T_wagon;
-    9:set_THSR_700T_panto_wagon_r;
-    10:set_THSR_700T_wagon;
-    11:set_THSR_700T_engineT;
-    set_THSR_700T_engineH; //default
+    0: set_THSR_700T_engineH; //default
+    1: set_THSR_700T_wagon;
+    2: set_THSR_700T_panto_wagon_M1;
+    3..8: set_THSR_700T_wagon;
+    9: set_THSR_700T_panto_wagon_M2;
+    10: set_THSR_700T_wagon;
+    11: set_THSR_700T_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_THSR_700T_12car, extra_callback_info1) {
     1..11: THSR_700T_12Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

@@ -1,15 +1,17 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Talgo_350_SRO_14car, position_in_vehid_chain % 14) {
-    1:set_Talgo_350_SRO_wagon_start;
-    2..8:set_Talgo_350_SRO_wagon_r;
-    9..11:set_Talgo_350_SRO_wagon;
-    12:set_Talgo_350_SRO_wagon_end;
-    13:set_Talgo_350_SRO_engineT;
-    set_Talgo_350_SRO_engineH; //default
+    0: set_Talgo_350_SRO_engineH; //default
+    1: set_Talgo_350_SRO_wagon_start;
+    2..8: set_Talgo_350_SRO_wagon_Rev;
+    9..11: set_Talgo_350_SRO_wagon;
+    12: set_Talgo_350_SRO_wagon_end;
+    13: set_Talgo_350_SRO_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Talgo_350_SRO_14car, extra_callback_info1) {
     1..13: Talgo_350_SRO_14Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

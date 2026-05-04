@@ -1,15 +1,25 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 도색명
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Busanmetro_3rd_1000_engineH, train_is_driving_backwards) {
+    0: set_Busanmetro_3rd_1000_engineH;
+    1: set_Busanmetro_3rd_1000_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Busanmetro_3rd_1000_engineT, train_is_driving_backwards) {
+    0: set_Busanmetro_3rd_1000_engineT;
+    1: set_Busanmetro_3rd_1000_engineT_Rev;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Busanmetro_3rd_1000_8car, position_in_vehid_chain % 8) {
-    1:set_Busanmetro_3rd_1000_wagon;
-    2:set_Busanmetro_3rd_1000_panto_wagon;
-    3..5:set_Busanmetro_3rd_1000_wagon;
-    6:set_Busanmetro_3rd_1000_panto_wagon;
-    7:set_Busanmetro_3rd_1000_engineT;
-    set_Busanmetro_3rd_1000_engineH; //default
+    0: sw_Busanmetro_3rd_1000_engineH; //default
+    1: set_Busanmetro_3rd_1000_wagon;
+    2: set_Busanmetro_3rd_1000_panto_wagon;
+    3..5: set_Busanmetro_3rd_1000_wagon;
+    6: set_Busanmetro_3rd_1000_panto_wagon;
+    7: sw_Busanmetro_3rd_1000_engineT;
     }
 
 // 편성량

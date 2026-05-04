@@ -2,22 +2,24 @@
 스위치
 --------------------------------------------------------------------*/
 // 편성그래픽
+// 8량
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_700_8car, position_in_vehid_chain % 8) {
-    1:set_700_RS_panto_wagon;
-    2..5:set_700_RS_wagon;
-    6:set_700_RS_panto_wagon_r;
-    7:set_700_RS_engineT;
-    set_700_RS_engineH; //default
+    0: set_700_RS_engineH; //default
+    1: set_700_RS_panto_wagon;
+    2..5: set_700_RS_wagon;
+    6: set_700_RS_panto_wagon_Rev;
+    7: set_700_RS_engineT;
     }
 
+// 16량
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_700_16car, position_in_vehid_chain % 16) {
-    1..3:set_700_wagon;
-    4:set_700_panto_wagon;
-    5..10:set_700_wagon;
-    11:set_700_panto_wagon_r;
-    12..14:set_700_wagon;
-    15:set_700_engineT;
-    set_700_engineH; //default
+    0: set_700_engineH; //default
+    1..3: set_700_wagon;
+    4: set_700_panto_wagon;
+    5..10: set_700_wagon;
+    11: set_700_panto_wagon_Rev;
+    12..14: set_700_wagon;
+    15: set_700_engineT;
     }
 
 // 편성량

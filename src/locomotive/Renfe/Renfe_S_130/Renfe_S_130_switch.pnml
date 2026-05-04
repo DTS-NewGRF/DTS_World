@@ -1,51 +1,57 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 도색명
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Renfe_S_130_Alvia);        // Alvia
     1: return string(STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob); // Aprosiyob
-    return string(STR_REFIT_LIVERY_Renfe_S_130_Alvia);        // Alvia
 }
 
+// 도색그래픽 세팅
+// 열차
+// 전진방향
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_engineH, cargo_subtype) {
+    0: set_Renfe_S_130_Alvia_engineH;
     1: set_Renfe_S_130_Aprosiyob_engineH;
-    set_Renfe_S_130_Alvia_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_engineT, cargo_subtype) {
-    1: set_Renfe_S_130_Aprosiyob_engineT;
-    set_Renfe_S_130_Alvia_engineT;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_start, cargo_subtype) {
+    0: set_Renfe_S_130_Alvia_wagon_start;
     1: set_Renfe_S_130_Aprosiyob_wagon_start;
-    set_Renfe_S_130_Alvia_wagon_start;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon, cargo_subtype) {
+    0: set_Renfe_S_130_Alvia_wagon;
     1: set_Renfe_S_130_Aprosiyob_wagon;
-    set_Renfe_S_130_Alvia_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_bar, cargo_subtype) {
+    0: set_Renfe_S_130_Alvia_wagon_bar;
     1: set_Renfe_S_130_Aprosiyob_wagon_bar;
-    set_Renfe_S_130_Alvia_wagon_bar;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_end, cargo_subtype) {
+    0: set_Renfe_S_130_Alvia_wagon_end;
     1: set_Renfe_S_130_Aprosiyob_wagon_end;
-    set_Renfe_S_130_Alvia_wagon_end;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_engineT, cargo_subtype) {
+    0: set_Renfe_S_130_Alvia_engineT;
+    1: set_Renfe_S_130_Aprosiyob_engineT;
+}
+
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Renfe_S_130_13car, position_in_vehid_chain % 13) {
-    1:sw_Renfe_S_130_wagon_start;
-    2..3:sw_Renfe_S_130_wagon;
-    4:sw_Renfe_S_130_wagon_bar;
-    5..10:sw_Renfe_S_130_wagon;
-    11:sw_Renfe_S_130_wagon_end;
-    12:sw_Renfe_S_130_engineT;
-    sw_Renfe_S_130_engineH; //default
+    0: sw_Renfe_S_130_engineH; //default
+    1: sw_Renfe_S_130_wagon_start;
+    2..3: sw_Renfe_S_130_wagon;
+    4: sw_Renfe_S_130_wagon_bar;
+    5..10: sw_Renfe_S_130_wagon;
+    11: sw_Renfe_S_130_wagon_end;
+    12: sw_Renfe_S_130_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Renfe_S_130_13car, extra_callback_info1) {
     1..12: Renfe_S_130_13Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

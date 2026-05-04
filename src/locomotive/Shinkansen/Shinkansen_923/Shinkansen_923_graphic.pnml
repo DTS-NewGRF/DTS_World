@@ -5,7 +5,7 @@ spriteset(set_Shinkansen_923_engineH, "src/locomotive/Shinkansen/Shinkansen_923/
     DTS_temp(80, 0)
 }
 
-spriteset(set_Shinkansen_923_panto_wagon, "src/locomotive/Shinkansen/Shinkansen_923/Shinkansen_923.png"){
+spriteset(set_Shinkansen_923_panto_wagon_M1, "src/locomotive/Shinkansen/Shinkansen_923/Shinkansen_923.png"){
     DTS_temp(80, 27)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_Shinkansen_923_wagon, "src/locomotive/Shinkansen/Shinkansen_923/Sh
     DTS_temp(80, 54)
 }
 
-spriteset(set_Shinkansen_923_panto_wagon_r, "src/locomotive/Shinkansen/Shinkansen_923/Shinkansen_923.png"){
+spriteset(set_Shinkansen_923_panto_wagon_M2, "src/locomotive/Shinkansen/Shinkansen_923/Shinkansen_923.png"){
     DTS_temp(80, 81)
 }
 

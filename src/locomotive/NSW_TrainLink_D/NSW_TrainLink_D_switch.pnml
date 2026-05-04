@@ -1,22 +1,33 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_engineH, train_is_driving_backwards) {
+    0: set_NSW_TrainLink_D_engineH;
+    1: set_NSW_TrainLink_D_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_engineT, train_is_driving_backwards) {
+    0: set_NSW_TrainLink_D_engineT;
+    1: set_NSW_TrainLink_D_engineT_Rev;
+}
+
 // 편성그래픽
 // 4량
 switch (FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_4car, position_in_vehid_chain % 4) {
-    1:set_NSW_TrainLink_D_wagon_A;
-    2:set_NSW_TrainLink_D_wagon_B;
-    3:set_NSW_TrainLink_D_engineT;
-    set_NSW_TrainLink_D_engineH; //default
+    0: sw_NSW_TrainLink_D_engineH; //default
+    1: set_NSW_TrainLink_D_wagon_M1;
+    2: set_NSW_TrainLink_D_wagon_M2;
+    3: sw_NSW_TrainLink_D_engineT;
     }
 
 // 6량
 switch (FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_6car, position_in_vehid_chain % 6) {
-    1:set_NSW_TrainLink_D_wagon_A;
-    2:set_NSW_TrainLink_D_panto_wagon;
-    3..4:set_NSW_TrainLink_D_wagon_B;
-    5:set_NSW_TrainLink_D_engineT;
-    set_NSW_TrainLink_D_engineH; //default
+    0: sw_NSW_TrainLink_D_engineH; //default
+    1: set_NSW_TrainLink_D_wagon_M1;
+    2: set_NSW_TrainLink_D_panto_wagon;
+    3..4: set_NSW_TrainLink_D_wagon_M2;
+    5: sw_NSW_TrainLink_D_engineT;
     }
 
 // 편성량

@@ -130,7 +130,6 @@ item(FEAT_TRAINS, Shinkansen_E5_H5_E6_17Car, 2305){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Shinkansen_E5_E6_E8_cargo_subtype_text;
         }
         }
 

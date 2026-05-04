@@ -8,16 +8,32 @@ spriteset(set_Shinkansen_E6_engineH, "src/locomotive/Shinkansen/Shinkansen_E6/Sh
     DTS_temp(80, 0)
 }
 
-spriteset(set_Shinkansen_E6_panto_wagon_A, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+spriteset(set_Shinkansen_E6_engineH_Rev, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp_r(80, 27)
+}
+
+spriteset(set_Shinkansen_E6_panto_wagon_M1, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
     DTS_temp(80, 54)
+}
+
+spriteset(set_Shinkansen_E6_panto_wagon_M1_Rev, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_Shinkansen_E6_wagon, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png") {
     DTS_temp(80, 108)
 }
 
-spriteset(set_Shinkansen_E6_panto_wagon_B, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+spriteset(set_Shinkansen_E6_panto_wagon_M2, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
     DTS_temp(80, 135)
+}
+
+spriteset(set_Shinkansen_E6_panto_wagon_M2_Rev, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_Shinkansen_E6_engineT_Rev, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+    DTS_temp_r(80, 189)
 }
 
 spriteset(set_Shinkansen_E6_engineT, "src/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){

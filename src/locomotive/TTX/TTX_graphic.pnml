@@ -8,11 +8,11 @@ spriteset(set_TTX_engineH, "src/locomotive/TTX/TTX.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_TTX_wagon, "src/locomotive/TTX/TTX.png") {
+spriteset(set_TTX_wagon_M1, "src/locomotive/TTX/TTX.png") {
     DTS_temp(80, 27)
 }
 
-spriteset(set_TTX_wagon_r, "src/locomotive/TTX/TTX.png") {
+spriteset(set_TTX_wagon_M2, "src/locomotive/TTX/TTX.png") {
     DTS_temp(80, 54)
 }
 

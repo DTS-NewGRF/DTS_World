@@ -5,7 +5,7 @@ spriteset(set_Renfe_S_103_engineH, "src/locomotive/Renfe/Renfe_S_103/Renfe_S_103
     DTS_temp(80, 0)
 }
 
-spriteset(set_Renfe_S_103_panto_wagon, "src/locomotive/Renfe/Renfe_S_103/Renfe_S_103.png"){
+spriteset(set_Renfe_S_103_panto_wagon_M1, "src/locomotive/Renfe/Renfe_S_103/Renfe_S_103.png"){
     DTS_temp(80, 27)
 }
 
@@ -13,7 +13,7 @@ spriteset(set_Renfe_S_103_wagon, "src/locomotive/Renfe/Renfe_S_103/Renfe_S_103.p
     DTS_temp(80, 54)
 }
 
-spriteset(set_Renfe_S_103_panto_wagon_r, "src/locomotive/Renfe/Renfe_S_103/Renfe_S_103.png"){
+spriteset(set_Renfe_S_103_panto_wagon_M2, "src/locomotive/Renfe/Renfe_S_103/Renfe_S_103.png"){
     DTS_temp(80, 81)
 }
 

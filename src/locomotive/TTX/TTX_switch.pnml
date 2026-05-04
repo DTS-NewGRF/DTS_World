@@ -1,13 +1,15 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_TTX_6car, position_in_vehid_chain % 6) {
-    1..2:set_TTX_wagon;
-    3..4:set_TTX_wagon_r;
-    5:set_TTX_engineT;
-    set_TTX_engineH; //default
+    0: set_TTX_engineH; //default
+    1..2: set_TTX_wagon_M1;
+    3..4: set_TTX_wagon_M2;
+    5: set_TTX_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_TTX_6car, extra_callback_info1) {
     1..5: TTX_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

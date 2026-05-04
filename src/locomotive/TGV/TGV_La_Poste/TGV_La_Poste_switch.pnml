@@ -1,35 +1,40 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_TGV_La_Poste_10car, position_in_vehid_chain % 10) {
-    1:set_TGV_La_Poste_wagon_T1;
-    2:set_TGV_La_Poste_wagon_T2;
-    3:set_TGV_La_Poste_wagon_T3;
-    4:set_TGV_La_Poste_wagon_T2;
-    5:set_TGV_La_Poste_wagon_T4;
-    6:set_TGV_La_Poste_wagon_T5;
-    7:set_TGV_La_Poste_wagon_T4;
-    8:set_TGV_La_Poste_wagon_T6;
-    9:set_TGV_La_Poste_engineT;
-    set_TGV_La_Poste_engineH; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_TGV_La_Poste_wagon_length_in_custom, position_in_vehid_chain % 10) {
-    1: 8;
-    2: 7;
-    3: 7;
-    4: 7;
-    5: 7;
-    6: 7;
-    7: 7;
-    8: 8;
-    9: 8;
-    8; //default;
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_TGV_La_Poste_engineH, train_is_driving_backwards) {
+    0: set_TGV_La_Poste_engineH;
+    1: set_TGV_La_Poste_engineH_Rev;
 }
 
-// 편성량
+switch(FEAT_TRAINS, SELF, sw_TGV_La_Poste_engineT, train_is_driving_backwards) {
+    0: set_TGV_La_Poste_engineT;
+    1: set_TGV_La_Poste_engineT_Rev;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_TGV_La_Poste_10car, position_in_vehid_chain % 10) {
+    0: sw_TGV_La_Poste_engineH; //default
+    1: set_TGV_La_Poste_wagon_T1;
+    2: set_TGV_La_Poste_wagon_T2;
+    3: set_TGV_La_Poste_wagon_T3;
+    4: set_TGV_La_Poste_wagon_T2;
+    5: set_TGV_La_Poste_wagon_T4;
+    6: set_TGV_La_Poste_wagon_T5;
+    7: set_TGV_La_Poste_wagon_T4;
+    8: set_TGV_La_Poste_wagon_T6;
+    9: sw_TGV_La_Poste_engineT;
+    }
+
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_TGV_La_Poste_10car, extra_callback_info1) {
     1..9: TGV_La_Poste_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
+
+// 길이
+switch(FEAT_TRAINS, SELF, sw_TGV_La_Poste_wagon_length_in_custom, position_in_vehid_chain % 10) {
+    0..1: 8; //default;
+    2..7: 7;
+    8..9: 8;
+}

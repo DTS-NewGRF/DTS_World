@@ -3,78 +3,112 @@
 --------------------------------------------------------------------*/
 //도색명
 switch(FEAT_TRAINS, SELF, sw_Nuriro_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Nuriro_Old); // 구도색
     1: return string(STR_REFIT_LIVERY_Nuriro_New); // 신도색
     2: return string(STR_REFIT_LIVERY_Nuriro_A);   // 한류관광
     3: return string(STR_REFIT_LIVERY_Nuriro_B);   // 순천향대
     4: return string(STR_REFIT_LIVERY_Nuriro_O);   // O-Train
     5: return string(STR_REFIT_LIVERY_Nuriro_DS);  // 동해산타
-    return string(STR_REFIT_LIVERY_Nuriro_Old);    // 구도색
 }
 
-switch(FEAT_TRAINS, SELF, sw_Nuriro_Duble_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Nuriro_AC);  // 구도색+한류관광
-    2: return string(STR_REFIT_LIVERY_Nuriro_AD);  // 구도색+순천향대
-    3: return string(STR_REFIT_LIVERY_Nuriro_BA);  // 신도색+구도색
-    4: return string(STR_REFIT_LIVERY_Nuriro_BC);  // 신도색+한류관광
-    5: return string(STR_REFIT_LIVERY_Nuriro_BD);  // 신도색+순천향대
-    6: return string(STR_REFIT_LIVERY_Nuriro_CA);  // 누리로 한류관광+구도색
-    7: return string(STR_REFIT_LIVERY_Nuriro_CB);  // 누리로 한류관광+신도색
-    8: return string(STR_REFIT_LIVERY_Nuriro_DA);  // 누리로 순천향대+구도색
-    9: return string(STR_REFIT_LIVERY_Nuriro_DB);  // 누리로 순천향대+신도색
-    return string(STR_REFIT_LIVERY_Nuriro_AB);     // 구도색+신도색
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_Nuriro_engineH_Front, cargo_subtype) {
+    0: set_Nuriro_Old_engineH;
+    1: set_Nuriro_New_engineH;
+    2: set_Nuriro_A_engineH;
+    3: set_Nuriro_B_engineH;
+    4: set_Nuriro_O_engineH;
+    5: set_Nuriro_DS_engineH;
 }
 
-// 4량 단량
-switch(FEAT_TRAINS, SELF, sw_Nuriro_4Car_engineH, cargo_subtype) {
-    1: set_Nuriro_New_engineH; // 신도색
-    2: set_Nuriro_A_engineH;   // 한류관광
-    3: set_Nuriro_B_engineH;   // 순천향대
-    4: set_Nuriro_O_engineH;   // O-Train
-    5: set_Nuriro_DS_engineH;  // 동해산타
-    set_Nuriro_Old_engineH;    // 구도색
+switch(FEAT_TRAINS, SELF, sw_Nuriro_panto_wagon_Front, cargo_subtype) {
+    0: set_Nuriro_Old_panto_wagon;
+    1: set_Nuriro_New_panto_wagon;
+    2: set_Nuriro_A_panto_wagon;
+    3: set_Nuriro_B_panto_wagon;
+    4: set_Nuriro_O_panto_wagon;
+    5: set_Nuriro_DS_panto_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Nuriro_4Car_wagon_2, cargo_subtype) {
-    1: set_Nuriro_New_panto_wagon; // 신도색
-    2: set_Nuriro_A_panto_wagon;   // 한류관광
-    3: set_Nuriro_B_panto_wagon;   // 순천향대
-    4: set_Nuriro_O_panto_wagon;   // O-Train
-    5: set_Nuriro_DS_panto_wagon;  // 동해산타
-    set_Nuriro_Old_panto_wagon;    // 구도색
+switch(FEAT_TRAINS, SELF, sw_Nuriro_wagon, cargo_subtype) {
+    0: set_Nuriro_Old_wagon;
+    1: set_Nuriro_New_wagon;
+    2: set_Nuriro_A_wagon;
+    3: set_Nuriro_B_wagon;
+    4: set_Nuriro_O_wagon;
+    5: set_Nuriro_DS_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Nuriro_4Car_wagon_3, cargo_subtype) {
-    1: set_Nuriro_New_wagon; // 신도색
-    2: set_Nuriro_A_wagon;   // 한류관광
-    3: set_Nuriro_B_wagon;   // 순천향대
-    4: set_Nuriro_O_wagon;   // O-Train
-    5: set_Nuriro_DS_wagon;  // 동해산타
-    set_Nuriro_Old_wagon;    // 구도색
+switch(FEAT_TRAINS, SELF, sw_Nuriro_engineT_Front, cargo_subtype) {
+    0: set_Nuriro_Old_engineT;
+    1: set_Nuriro_New_engineT;
+    2: set_Nuriro_A_engineT;
+    3: set_Nuriro_B_engineT;
+    4: set_Nuriro_O_engineT;
+    5: set_Nuriro_DS_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Nuriro_4Car_engineT, cargo_subtype) {
-    1: set_Nuriro_New_engineT; // 신도색
-    2: set_Nuriro_A_engineT;   // 한류관광
-    3: set_Nuriro_B_engineT;   // 순천향대
-    4: set_Nuriro_O_engineT;   // O-Train
-    5: set_Nuriro_DS_engineT;  // 동해산타
-    set_Nuriro_Old_engineT;    // 구도색
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_Nuriro_engineH_Back, cargo_subtype) {
+    0: set_Nuriro_Old_engineH_Rev;
+    1: set_Nuriro_New_engineH_Rev;
+    2: set_Nuriro_A_engineH_Rev;
+    3: set_Nuriro_B_engineH_Rev;
+    4: set_Nuriro_O_engineH_Rev;
+    5: set_Nuriro_DS_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_panto_wagon_Back, cargo_subtype) {
+    0: set_Nuriro_Old_panto_wagon_Rev;
+    1: set_Nuriro_New_panto_wagon_Rev;
+    2: set_Nuriro_A_panto_wagon_Rev;
+    3: set_Nuriro_B_panto_wagon_Rev;
+    4: set_Nuriro_O_panto_wagon_Rev;
+    5: set_Nuriro_DS_panto_wagon_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_engineT_Back, cargo_subtype) {
+    0: set_Nuriro_Old_engineT_Rev;
+    1: set_Nuriro_New_engineT_Rev;
+    2: set_Nuriro_A_engineT_Rev;
+    3: set_Nuriro_B_engineT_Rev;
+    4: set_Nuriro_O_engineT_Rev;
+    5: set_Nuriro_DS_engineT_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Nuriro_engineH, train_is_driving_backwards) {
+    0: sw_Nuriro_engineH_Front;
+    1: sw_Nuriro_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_panto_wagon, train_is_driving_backwards) {
+    0: sw_Nuriro_panto_wagon_Front;
+    1: sw_Nuriro_panto_wagon_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_engineT, train_is_driving_backwards) {
+    0: sw_Nuriro_engineT_Front;
+    1: sw_Nuriro_engineT_Back;
 }
 
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Nuriro_4Car, position_in_vehid_chain % 4) {
-    1:sw_Nuriro_4Car_wagon_2;
-    2:sw_Nuriro_4Car_wagon_3;
-    3:sw_Nuriro_4Car_engineT;
-    sw_Nuriro_4Car_engineH; //default
+    0: sw_Nuriro_engineH; //default
+    1: sw_Nuriro_panto_wagon;
+    2: sw_Nuriro_wagon;
+    3: sw_Nuriro_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Nuriro_4Car, extra_callback_info1) {
     1..3: Nuriro_4Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-// 편성그래픽 8량 중련
+// 삭제예정
 switch (FEAT_TRAINS, SELF, sw_Nuriro_8Car, position_in_vehid_chain % 8) {
     1..7:set_Deleted_B;
     set_Deleted_A; //default

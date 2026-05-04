@@ -2,10 +2,53 @@
 Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
+TGV 쉬드-에스트 오렌지
+--------------------------------------------------------------------*/
+spriteset(set_TGV_Sud_Est_Orange_engineH, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_TGV_Sud_Est_Orange_engineH_Rev, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
+    DTS_temp_r(80, 27)
+}
+
+spriteset(set_TGV_Sud_Est_Orange_wagon_F1, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_TGV_Sud_Est_Orange_wagon_F2, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
+    DTS_temp_mini_7_Highspeed(80, 81)
+}
+
+spriteset(set_TGV_Sud_Est_Orange_wagon_C, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
+    DTS_temp_mini_7_Highspeed(80, 108)
+}
+
+spriteset(set_TGV_Sud_Est_Orange_wagon_T1, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
+    DTS_temp_mini_7_Highspeed(80, 135)
+}
+
+spriteset(set_TGV_Sud_Est_Orange_wagon_T2, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_TGV_Sud_Est_Orange_engineT_Rev, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
+    DTS_temp_r(80, 189)
+}
+
+spriteset(set_TGV_Sud_Est_Orange_engineT, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
 TGV 쉬드-에스트 아틀란틱 블루
 --------------------------------------------------------------------*/
 spriteset(set_TGV_Sud_Est_Atlantic_engineH, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Atlantic.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_TGV_Sud_Est_Atlantic_engineH_Rev, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Atlantic.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_TGV_Sud_Est_Atlantic_wagon_F1, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Atlantic.png"){
@@ -32,6 +75,10 @@ spriteset(set_TGV_Sud_Est_Atlantic_wagon_T3, "src/locomotive/TGV/TGV_Sud_Est/TGV
     DTS_temp(80, 189)
 }
 
+spriteset(set_TGV_Sud_Est_Atlantic_engineT_Rev, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Atlantic.png"){
+    DTS_temp_r(80, 216)
+}
+
 spriteset(set_TGV_Sud_Est_Atlantic_engineT, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Atlantic.png"){
     DTS_temp(80, 243)
 }
@@ -41,6 +88,10 @@ TGV 쉬드-에스트 카밀론
 --------------------------------------------------------------------*/
 spriteset(set_TGV_Sud_Est_Carmillon_engineH, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Carmillon.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_TGV_Sud_Est_Carmillon_engineH_Rev, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Carmillon.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_TGV_Sud_Est_Carmillon_wagon_F1, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Carmillon.png"){
@@ -63,6 +114,10 @@ spriteset(set_TGV_Sud_Est_Carmillon_wagon_T2, "src/locomotive/TGV/TGV_Sud_Est/TG
     DTS_temp(80, 162)
 }
 
+spriteset(set_TGV_Sud_Est_Carmillon_engineT_Rev, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Carmillon.png"){
+    DTS_temp_r(80, 189)
+}
+
 spriteset(set_TGV_Sud_Est_Carmillon_engineT, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Carmillon.png"){
     DTS_temp(80, 216)
 }
@@ -72,6 +127,10 @@ TGV 쉬드-에스트 라스트
 --------------------------------------------------------------------*/
 spriteset(set_TGV_Sud_Est_Last_engineH, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Last.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_TGV_Sud_Est_Last_engineH_Rev, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Last.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_TGV_Sud_Est_Last_wagon_F1, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Last.png"){
@@ -102,39 +161,12 @@ spriteset(set_TGV_Sud_Est_Last_wagon_T3, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud
     DTS_temp(80, 216)
 }
 
+spriteset(set_TGV_Sud_Est_Last_engineT_Rev, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Last.png"){
+    DTS_temp_r(80, 243)
+}
+
 spriteset(set_TGV_Sud_Est_Last_engineT, "src/locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est_Last.png"){
     DTS_temp(80, 270)
-}
-
-/*--------------------------------------------------------------------
-TGV 쉬드-에스트 오렌지
---------------------------------------------------------------------*/
-spriteset(set_TGV_Sud_Est_Orange_engineH, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
-    DTS_temp(80, 0)
-}
-
-spriteset(set_TGV_Sud_Est_Orange_wagon_F1, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
-    DTS_temp(80, 54)
-}
-
-spriteset(set_TGV_Sud_Est_Orange_wagon_F2, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
-    DTS_temp_mini_7_Highspeed(80, 81)
-}
-
-spriteset(set_TGV_Sud_Est_Orange_wagon_C, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
-    DTS_temp_mini_7_Highspeed(80, 108)
-}
-
-spriteset(set_TGV_Sud_Est_Orange_wagon_T1, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
-    DTS_temp_mini_7_Highspeed(80, 135)
-}
-
-spriteset(set_TGV_Sud_Est_Orange_wagon_T2, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
-    DTS_temp(80, 162)
-}
-
-spriteset(set_TGV_Sud_Est_Orange_engineT, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
-    DTS_temp(80, 216)
 }
 
 /*--------------------------------------------------------------------

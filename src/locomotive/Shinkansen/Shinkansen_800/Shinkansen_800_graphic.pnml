@@ -9,7 +9,7 @@ spriteset(set_Shinkansen_800_panto_wagon, "src/locomotive/Shinkansen/Shinkansen_
     DTS_temp(80, 27)
 }
 
-spriteset(set_Shinkansen_800_panto_wagon_r, "src/locomotive/Shinkansen/Shinkansen_800/Shinkansen_800.png"){
+spriteset(set_Shinkansen_800_panto_wagon_Rev, "src/locomotive/Shinkansen/Shinkansen_800/Shinkansen_800.png"){
     DTS_temp_r(80, 27)
 }
 

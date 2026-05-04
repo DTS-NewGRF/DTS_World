@@ -12,7 +12,7 @@ spriteset(set_700_panto_wagon, "src/locomotive/Shinkansen/Shinkansen_700/700.png
     DTS_temp(80, 27)
 }
 
-spriteset(set_700_panto_wagon_r, "src/locomotive/Shinkansen/Shinkansen_700/700.png"){
+spriteset(set_700_panto_wagon_Rev, "src/locomotive/Shinkansen/Shinkansen_700/700.png"){
     DTS_temp_r(80, 27)
 }
 
@@ -35,7 +35,7 @@ spriteset(set_700_RS_panto_wagon, "src/locomotive/Shinkansen/Shinkansen_700/700_
     DTS_temp(80, 27)
 }
 
-spriteset(set_700_RS_panto_wagon_r, "src/locomotive/Shinkansen/Shinkansen_700/700_RS.png"){
+spriteset(set_700_RS_panto_wagon_Rev, "src/locomotive/Shinkansen/Shinkansen_700/700_RS.png"){
     DTS_temp_r(80, 27)
 }
 

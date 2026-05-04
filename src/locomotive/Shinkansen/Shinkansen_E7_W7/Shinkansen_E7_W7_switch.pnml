@@ -1,17 +1,19 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래팩
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_E7_W7_12car, position_in_vehid_chain % 12) {
-    1:set_Shinkansen_E7_W7_wagon;
-    2:set_Shinkansen_E7_W7_panto_wagon;
-    3..5:set_Shinkansen_E7_W7_wagon;
-    6:set_Shinkansen_E7_W7_panto_wagon;
-    7..9:set_Shinkansen_E7_W7_wagon;
-    10:set_Shinkansen_E7_W7_green_wagon;
-    11:set_Shinkansen_E7_W7_engineT;
-    set_Shinkansen_E7_W7_engineH; //default
+    0: set_Shinkansen_E7_W7_engineH; //default
+    1: set_Shinkansen_E7_W7_wagon;
+    2: set_Shinkansen_E7_W7_panto_wagon;
+    3..5: set_Shinkansen_E7_W7_wagon;
+    6: set_Shinkansen_E7_W7_panto_wagon;
+    7..9: set_Shinkansen_E7_W7_wagon;
+    10: set_Shinkansen_E7_W7_green_wagon;
+    11: set_Shinkansen_E7_W7_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_E7_W7_12car, extra_callback_info1) {
     1..11: Shinkansen_E7_W7_12Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

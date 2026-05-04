@@ -3,19 +3,30 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Busanmetro_1st_2000_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Busanmetro_2000_GTO);
     1: return string(STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN);
     2: return string(STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS);
-    return string(STR_REFIT_LIVERY_Busanmetro_2000_GTO);
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Busanmetro_1st_2000_engineH, train_is_driving_backwards) {
+    0: set_Busanmetro_1st_2000_engineH;
+    1: set_Busanmetro_1st_2000_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Busanmetro_1st_2000_engineT, train_is_driving_backwards) {
+    0: set_Busanmetro_1st_2000_engineT;
+    1: set_Busanmetro_1st_2000_engineT_Rev;
 }
 
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Busanmetro_1st_2000_6car, position_in_vehid_chain % 6) {
-    1:set_Busanmetro_1st_2000_wagon;
-    2:set_Busanmetro_1st_2000_panto_wagon;
-    3:set_Busanmetro_1st_2000_wagon;
-    4:set_Busanmetro_1st_2000_panto_wagon;
-    5:set_Busanmetro_1st_2000_engineT;
-    set_Busanmetro_1st_2000_engineH; //default
+    0: sw_Busanmetro_1st_2000_engineH; //default
+    1: set_Busanmetro_1st_2000_wagon;
+    2: set_Busanmetro_1st_2000_panto_wagon;
+    3: set_Busanmetro_1st_2000_wagon;
+    4: set_Busanmetro_1st_2000_panto_wagon;
+    5: sw_Busanmetro_1st_2000_engineT;
     }
 
 // 편성량
@@ -26,7 +37,7 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Busanmetro_1st_2000_6car, extra_callba
 
 // 사운드
 switch(FEAT_TRAINS, SELF, sw_Busanmetro_1st_2000_sound, cargo_subtype) {
+    0: sw_ALSTOMGTOstart_Busanmetro_sound;
     1: sw_WOOJIN_IGBT_2start_Busanmetro_sound;
     2: sw_DAWONSYSIGBTstart_Busanmetro_sound;
-    sw_ALSTOMGTOstart_Busanmetro_sound;
 }

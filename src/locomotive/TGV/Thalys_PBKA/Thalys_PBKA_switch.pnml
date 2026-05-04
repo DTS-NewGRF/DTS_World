@@ -9,65 +9,102 @@ switch(FEAT_TRAINS, SELF, sw_TGV_Thalys_PBKA_cargo_subtype_text, cargo_subtype) 
     return CB_RESULT_NO_TEXT;
 }
 
-//열차
-#include "Thalys_PBKA_switch_wagon.pnml"
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Thalys_PBKA_2006_10car, position_in_vehid_chain % 10) {
-    1:set_Thalys_PBKA_Old_wagon_F1;
-    2..3:set_Thalys_PBKA_Old_wagon_F2;
-    4:set_Thalys_PBKA_Old_wagon_C;
-    5:set_Thalys_PBKA_Old_wagon_T1;
-    6..7:set_Thalys_PBKA_Old_wagon_T2;
-    8:set_Thalys_PBKA_Old_wagon_T3;
-    9:set_Thalys_PBKA_Old_engineT;
-    set_Thalys_PBKA_Old_engineH; //default
-    }
-
-switch (FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_10car, position_in_vehid_chain % 10) {
-    1:sw_Thalys_PBKA_2016_wagon_F1;
-    2..3:sw_Thalys_PBKA_2016_wagon_F2;
-    4:sw_Thalys_PBKA_2016_wagon_C;
-    5:sw_Thalys_PBKA_2016_wagon_T1;
-    6..7:sw_Thalys_PBKA_2016_wagon_T2;
-    8:sw_Thalys_PBKA_2016_wagon_T3;
-    9:sw_Thalys_PBKA_2016_engineT;
-    sw_Thalys_PBKA_2016_engineH; //default
-    }
-
-switch (FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_10car, position_in_vehid_chain % 10) {
-    1:sw_Thalys_PBKA_2021_wagon_F1;
-    2..2:sw_Thalys_PBKA_2021_wagon_F2;
-    4:sw_Thalys_PBKA_2021_wagon_C;
-    5:sw_Thalys_PBKA_2021_wagon_T1;
-    6..7:sw_Thalys_PBKA_2021_wagon_T2;
-    8:sw_Thalys_PBKA_2021_wagon_T3;
-    9:sw_Thalys_PBKA_2021_engineT;
-    sw_Thalys_PBKA_2021_engineH; //default
-    }
-
-
-switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_10car, current_year) {
-    0..2015: sw_Thalys_PBKA_2006_10car;
-    2016..2020: sw_Thalys_PBKA_2016_10car;
-    sw_Thalys_PBKA_2021_10car;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_wagon_length_in_custom, position_in_vehid_chain % 10) {
-    1: 8;
-    2: 7;
-    3: 7;
-    4: 7;
-    5: 7;
-    6: 7;
-    7: 7;
-    8: 8;
-    9: 8;
-    8; //default;
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_engineH_Front, cargo_subtype) {
+    0: set_Thalys_PBKA_Old_engineH;
+    1: set_Thalys_PBKA_New_engineH;
+    2: set_Thalys_PBKA_Ruby_engineH;
 }
 
-// 편성량
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_wagon_F1, cargo_subtype) {
+    0: set_Thalys_PBKA_Old_wagon_F1;
+    1: set_Thalys_PBKA_New_wagon_F1;
+    2: set_Thalys_PBKA_Ruby_wagon_F1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_wagon_F2, cargo_subtype) {
+    0: set_Thalys_PBKA_Old_wagon_F2;
+    1: set_Thalys_PBKA_New_wagon_F2;
+    2: set_Thalys_PBKA_Ruby_wagon_F2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_wagon_C, cargo_subtype) {
+    0: set_Thalys_PBKA_Old_wagon_C;
+    1: set_Thalys_PBKA_New_wagon_C;
+    2: set_Thalys_PBKA_Ruby_wagon_C;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_wagon_T1, cargo_subtype) {
+    0: set_Thalys_PBKA_Old_wagon_T1;
+    1: set_Thalys_PBKA_New_wagon_T1;
+    2: set_Thalys_PBKA_Ruby_wagon_T1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_wagon_T2, cargo_subtype) {
+    0: set_Thalys_PBKA_Old_wagon_T2;
+    1: set_Thalys_PBKA_New_wagon_T2;
+    2: set_Thalys_PBKA_Ruby_wagon_T2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_wagon_T3, cargo_subtype) {
+    0: set_Thalys_PBKA_Old_wagon_T3;
+    1: set_Thalys_PBKA_New_wagon_T3;
+    2: set_Thalys_PBKA_Ruby_wagon_T3;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_engineT_Front, cargo_subtype) {
+    0: set_Thalys_PBKA_Old_engineT;
+    1: set_Thalys_PBKA_New_engineT;
+    2: set_Thalys_PBKA_Ruby_engineT;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_engineH_Back, cargo_subtype) {
+    0: set_Thalys_PBKA_Old_engineH_Rev;
+    1: set_Thalys_PBKA_New_engineH_Rev;
+    2: set_Thalys_PBKA_Ruby_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_engineT_Back, cargo_subtype) {
+    0: set_Thalys_PBKA_Old_engineT_Rev;
+    1: set_Thalys_PBKA_New_engineT_Rev;
+    2: set_Thalys_PBKA_Ruby_engineT_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_engineH, train_is_driving_backwards) {
+    0: sw_Thalys_PBKA_engineH_Front;
+    1: sw_Thalys_PBKA_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_engineT, train_is_driving_backwards) {
+    0: sw_Thalys_PBKA_engineT_Front;
+    1: sw_Thalys_PBKA_engineT_Back;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Thalys_PBKA_10car, position_in_vehid_chain % 10) {
+    0: sw_Thalys_PBKA_engineH; //default
+    1: sw_Thalys_PBKA_wagon_F1;
+    2..3: sw_Thalys_PBKA_wagon_F2;
+    4: sw_Thalys_PBKA_wagon_C;
+    5: sw_Thalys_PBKA_wagon_T1;
+    6..7: sw_Thalys_PBKA_wagon_T2;
+    8: sw_Thalys_PBKA_wagon_T3;
+    9: sw_Thalys_PBKA_engineT;
+    }
+
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Thalys_PBKA_10car, extra_callback_info1) {
     1..9: Thalys_PBKA_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
+
+// 길이
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_wagon_length_in_custom, position_in_vehid_chain % 10) {
+    0..1: 8; //default;
+    2..7: 7;
+    8..9: 8;
+}

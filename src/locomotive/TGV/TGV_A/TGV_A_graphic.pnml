@@ -8,6 +8,10 @@ spriteset(set_TGV_A_Atlantic_engineH, "src/locomotive/TGV/TGV_A/TGV_A_Atlantic.p
     DTS_temp(80, 0)
 }
 
+spriteset(set_TGV_A_Atlantic_engineH_Rev, "src/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_TGV_A_Atlantic_wagon_F1, "src/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
     DTS_temp(80, 54)
 }
@@ -28,6 +32,10 @@ spriteset(set_TGV_A_Atlantic_wagon_T2, "src/locomotive/TGV/TGV_A/TGV_A_Atlantic.
     DTS_temp(80, 162)
 }
 
+spriteset(set_TGV_A_Atlantic_engineT_Rev, "src/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    DTS_temp_r(80, 189)
+}
+
 spriteset(set_TGV_A_Atlantic_engineT, "src/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
     DTS_temp(80, 216)
 }
@@ -37,6 +45,10 @@ TGV 아틀랑티크 라크루아
 --------------------------------------------------------------------*/
 spriteset(set_TGV_A_Lacroix_engineH, "src/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_TGV_A_Lacroix_engineH_Rev, "src/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_TGV_A_Lacroix_wagon_F1, "src/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
@@ -59,6 +71,10 @@ spriteset(set_TGV_A_Lacroix_wagon_T2, "src/locomotive/TGV/TGV_A/TGV_A_Lacroix.pn
     DTS_temp(80, 162)
 }
 
+spriteset(set_TGV_A_Lacroix_engineT_Rev, "src/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
+    DTS_temp_r(80, 189)
+}
+
 spriteset(set_TGV_A_Lacroix_engineT, "src/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
     DTS_temp(80, 216)
 }
@@ -68,6 +84,10 @@ TGV 아틀랑티크 카밀론
 --------------------------------------------------------------------*/
 spriteset(set_TGV_A_Carmillon_engineH, "src/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_TGV_A_Carmillon_engineH_Rev, "src/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_TGV_A_Carmillon_wagon_F1, "src/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
@@ -88,6 +108,10 @@ spriteset(set_TGV_A_Carmillon_wagon_T1, "src/locomotive/TGV/TGV_A/TGV_A_Carmillo
 
 spriteset(set_TGV_A_Carmillon_wagon_T2, "src/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
     DTS_temp(80, 162)
+}
+
+spriteset(set_TGV_A_Carmillon_engineT_Rev, "src/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    DTS_temp_r(80, 189)
 }
 
 spriteset(set_TGV_A_Carmillon_engineT, "src/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){

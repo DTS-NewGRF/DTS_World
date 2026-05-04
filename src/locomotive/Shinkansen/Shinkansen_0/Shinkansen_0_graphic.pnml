@@ -16,15 +16,11 @@ spriteset(set_Shinkansen_0_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     DTS_temp(80, 54)
 }
 
-spriteset(set_Shinkansen_0_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png"){
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_Shinkansen_0_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png") {
     DTS_temp(80, 81)
 }
 
-spriteset(set_Shinkansen_0_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png") {
+spriteset(set_Shinkansen_0_wagon_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png") {
     DTS_temp_r(80, 81)
 }
 
@@ -51,15 +47,11 @@ spriteset(set_Shinkansen_0_renewal_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32B
     DTS_temp(80, 54)
 }
 
-spriteset(set_Shinkansen_0_renewal_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0_renewal.png"){
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_Shinkansen_0_renewal_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0_renewal.png") {
     DTS_temp(80, 81)
 }
 
-spriteset(set_Shinkansen_0_renewal_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0_renewal.png") {
+spriteset(set_Shinkansen_0_renewal_wagon_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0_renewal.png") {
     DTS_temp_r(80, 81)
 }
 

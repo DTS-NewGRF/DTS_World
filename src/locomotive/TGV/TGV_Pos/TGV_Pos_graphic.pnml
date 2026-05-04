@@ -8,6 +8,10 @@ spriteset(set_TGV_Pos_engineH, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_TGV_Pos_engineH_Rev, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_TGV_Pos_wagon_F1, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     DTS_temp(80, 54)
 }
@@ -32,6 +36,10 @@ spriteset(set_TGV_Pos_wagon_T3, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     DTS_temp(80, 189)
 }
 
+spriteset(set_TGV_Pos_engineT_Rev, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
+    DTS_temp_r(80, 216)
+}
+
 spriteset(set_TGV_Pos_engineT, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     DTS_temp(80, 243)
 }
@@ -41,6 +49,10 @@ TGV Lyair
 --------------------------------------------------------------------*/
 spriteset(set_TGV_Lyair_engineH, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_TGV_Lyair_engineH_Rev, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_TGV_Lyair_wagon_F1, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
@@ -67,6 +79,10 @@ spriteset(set_TGV_Lyair_wagon_T3, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"
     DTS_temp(80, 189)
 }
 
+spriteset(set_TGV_Lyair_engineT_Rev, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
+    DTS_temp_r(80, 216)
+}
+
 spriteset(set_TGV_Lyair_engineT, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
     DTS_temp(80, 243)
 }
@@ -76,6 +92,10 @@ TGV Carmillon
 --------------------------------------------------------------------*/
 spriteset(set_TGV_Carmillon_engineH, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_TGV_Carmillon_engineH_Rev, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_TGV_Carmillon_wagon_F1, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
@@ -100,6 +120,10 @@ spriteset(set_TGV_Carmillon_wagon_T2, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmil
 
 spriteset(set_TGV_Carmillon_wagon_T3, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
     DTS_temp(80, 189)
+}
+
+spriteset(set_TGV_Carmillon_engineT_Rev, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
+    DTS_temp_r(80, 216)
 }
 
 spriteset(set_TGV_Carmillon_engineT, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){

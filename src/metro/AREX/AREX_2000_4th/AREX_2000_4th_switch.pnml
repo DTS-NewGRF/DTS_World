@@ -1,11 +1,22 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_AREX_2000_4th_engineH, train_is_driving_backwards) {
+    0: set_AREX_2000_4th_engineH;
+    1: set_AREX_2000_4th_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_AREX_2000_4th_engineT, train_is_driving_backwards) {
+    0: set_AREX_2000_4th_engineT;
+    1: set_AREX_2000_4th_engineT_Rev;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_AREX_2000_4th_6car, position_in_vehid_chain % 6) {
-    1..4:set_AREX_2000_4th_wagon;
-    5:set_AREX_2000_4th_engineT;
-    set_AREX_2000_4th_engineH; //default
+    0: sw_AREX_2000_4th_engineH; //default
+    1..4: set_AREX_2000_4th_wagon;
+    5: sw_AREX_2000_4th_engineT;
     }
 
 // 편성수
