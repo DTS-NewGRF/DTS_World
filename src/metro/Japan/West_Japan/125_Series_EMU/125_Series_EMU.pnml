@@ -49,7 +49,7 @@ item(FEAT_TRAINS, WJapan_125_Series_EMU, 2603){
         }
 
     graphics {
-        default:                        sw_West_Japan_125_1Car;
+        default:                        sw_West_Japan_125_engine;
         purchase:                       sw_125_Series_EMU_purchase;
         speed:                          sw_Metro_120_speed;
         loading_speed:                  25;

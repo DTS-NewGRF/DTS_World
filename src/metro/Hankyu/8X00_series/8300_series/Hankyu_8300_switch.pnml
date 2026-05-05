@@ -1,29 +1,54 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 도색
+// 도색명
 switch(FEAT_TRAINS, SELF, sw_Hankyu_8300_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_8300_Long_Seat);
     1: return string(STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat); // 크로스 시트
-    return string(STR_REFIT_LIVERY_Hankyu_8300_Long_Seat);
 }
 
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Hankyu_8300_engineH, train_is_driving_backwards) {
+    0: set_Hankyu_8300_engineH;
+    1: set_Hankyu_8300_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_8300_engineT, train_is_driving_backwards) {
+    0: set_Hankyu_8300_engineT;
+    1: set_Hankyu_8300_engineT_Rev;
+}
+
+// 편성그래픽
 // 2량
 switch (FEAT_TRAINS, SELF, sw_Hankyu_8300_2car, position_in_vehid_chain % 2) {
-    1:set_Hankyu_8300_engineT;
-    set_Hankyu_8300_engineH; //default
+    0: sw_Hankyu_8300_engineH; //default
+    1:sw_Hankyu_8300_engineT;    
+    }
+
+// 6량
+switch (FEAT_TRAINS, SELF, sw_Hankyu_8300_6car, position_in_vehid_chain % 6) {
+    0: sw_Hankyu_8300_engineH; //default
+    1..3: set_Hankyu_8300_wagon;
+    4: set_Hankyu_8300_panto_wagon;
+    5: sw_Hankyu_8300_engineT;
     }
 
 // 8량
 switch (FEAT_TRAINS, SELF, sw_Hankyu_8300_8car, position_in_vehid_chain % 8) {
-    1..5:set_Hankyu_8300_wagon;
-    6:set_Hankyu_8300_panto_wagon;
-    7:set_Hankyu_8300_engineT;
-    set_Hankyu_8300_engineH; //default
+    0: sw_Hankyu_8300_engineH; //default
+    1..5: set_Hankyu_8300_wagon;
+    6: set_Hankyu_8300_panto_wagon;
+    7: sw_Hankyu_8300_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_8300_2car, extra_callback_info1) {
     1: Hankyu_8300_2Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_8300_6car, extra_callback_info1) {
+    1..5: Hankyu_8300_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 

@@ -8,28 +8,24 @@ spriteset(set_227_Series_EMU_500_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "s
     DTS_temp(80, 0)
 }
 
-spriteset(set_227_Series_EMU_500_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/227_Series_EMU_500/227_Series_EMU_500.png"){
-    DTS_temp(80, 27)
+spriteset(set_227_Series_EMU_500_engineH_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/227_Series_EMU_500/227_Series_EMU_500.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_227_Series_EMU_500_engineH_Panto2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/227_Series_EMU_500/227_Series_EMU_500.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_227_Series_EMU_500_engineH_Panto2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/227_Series_EMU_500/227_Series_EMU_500.png"){
-    DTS_temp(80, 81)
+spriteset(set_227_Series_EMU_500_engineH_Panto2_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/227_Series_EMU_500/227_Series_EMU_500.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_227_Series_EMU_500_wagon_M, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/227_Series_EMU_500/227_Series_EMU_500.png"){
     DTS_temp(80, 108)
 }
 
-spriteset(set_227_Series_EMU_500_wagon_M_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/227_Series_EMU_500/227_Series_EMU_500.png"){
-    DTS_temp_r(80, 108)
-}
-
-spriteset(set_227_Series_EMU_500_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/227_Series_EMU_500/227_Series_EMU_500.png"){
-    DTS_temp(80, 135)
+spriteset(set_227_Series_EMU_500_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/227_Series_EMU_500/227_Series_EMU_500.png"){
+    DTS_temp_r(80, 135)
 }
 
 spriteset(set_227_Series_EMU_500_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Japan/West_Japan/227_Series_EMU_500/227_Series_EMU_500.png"){

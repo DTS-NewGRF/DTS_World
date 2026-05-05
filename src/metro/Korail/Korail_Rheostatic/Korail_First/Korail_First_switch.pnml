@@ -3,90 +3,130 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Korail_First_10car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Korail_First_K1000_Initial);
     1: return string(STR_REFIT_LIVERY_Korail_First_K1000_Initial_Aircon_A);
     2: return string(STR_REFIT_LIVERY_Korail_First_K1000_Initial_Aircon_B);
     3: return string(STR_REFIT_LIVERY_Korail_First_K1000_Old_A);
     4: return string(STR_REFIT_LIVERY_Korail_First_K1000_Old_B);
-    return string(STR_REFIT_LIVERY_Korail_First_K1000_Initial);
 }
 
-// 10량
-switch(FEAT_TRAINS, SELF, sw_Korail_First_engineH, cargo_subtype) {
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_Korail_First_engineH_Front, cargo_subtype) {
+    0: set_Korail_K1000_Initial_engineH;
     1..2: set_Korail_K1000_Initial_Aircon_engineH;
     3..4: set_Korail_K1000_Old_engineH;
-    set_Korail_K1000_Initial_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_First_wagon_MAMB, cargo_subtype) {
+    0: set_Korail_K1000_Initial_wagon;
     1: set_Korail_K1000_Initial_Aircon_MA_wagon;
     2: set_Korail_K1000_Initial_Aircon_MB_wagon;
     3: set_Korail_K1000_Old_MA_wagon;
     4: set_Korail_K1000_Old_MB_wagon;
-    set_Korail_K1000_Initial_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_First_panto_wagon_MAMB, cargo_subtype) {
+    0: set_Korail_K1000_Initial_panto_wagon;
     1: set_Korail_K1000_Initial_Aircon_MA_panto_wagon;
     2: set_Korail_K1000_Initial_Aircon_MB_panto_wagon;
     3: set_Korail_K1000_Old_MA_panto_wagon;
     4: set_Korail_K1000_Old_MB_panto_wagon;
-    set_Korail_K1000_Initial_panto_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_First_wagon_MA, cargo_subtype) {
+    0: set_Korail_K1000_Initial_wagon;
     1..2: set_Korail_K1000_Initial_Aircon_MA_wagon;
     3..4: set_Korail_K1000_Old_MA_wagon;
-    set_Korail_K1000_Initial_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Korail_First_engineT, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Korail_First_engineT_Front, cargo_subtype) {
+    0: set_Korail_K1000_Initial_engineT;
     1..2: set_Korail_K1000_Initial_Aircon_engineT;
     3..4: set_Korail_K1000_Old_engineT;
-    set_Korail_K1000_Initial_engineT;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_Korail_First_engineH_Back, cargo_subtype) {
+    0: set_Korail_K1000_Initial_engineH_Rev;
+    1..2: set_Korail_K1000_Initial_Aircon_engineH_Rev;
+    3..4: set_Korail_K1000_Old_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_First_engineT_Back, cargo_subtype) {
+    0: set_Korail_K1000_Initial_engineT_Rev;
+    1..2: set_Korail_K1000_Initial_Aircon_engineT_Rev;
+    3..4: set_Korail_K1000_Old_engineT_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Korail_K1000_Initial_engineH, train_is_driving_backwards) {
+    0: set_Korail_K1000_Initial_engineH;
+    1: set_Korail_K1000_Initial_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_K1000_Initial_engineT, train_is_driving_backwards) {
+    0: set_Korail_K1000_Initial_engineT;
+    1: set_Korail_K1000_Initial_engineT_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_First_engineH, train_is_driving_backwards) {
+    0: sw_Korail_First_engineH_Front;
+    1: sw_Korail_First_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_First_engineT, train_is_driving_backwards) {
+    0: sw_Korail_First_engineT_Front;
+    1: sw_Korail_First_engineT_Back;
 }
 
 // 편성그래픽
+// 4량
 switch (FEAT_TRAINS, SELF, sw_Korail_First_4car, position_in_vehid_chain % 4) {
-    1:set_Korail_K1000_Initial_wagon;
-    2:set_Korail_K1000_Initial_panto_wagon;
-    3:set_Korail_K1000_Initial_engineT;
-    set_Korail_K1000_Initial_engineH; //default
+    0: sw_Korail_K1000_Initial_engineH; //default
+    1: set_Korail_K1000_Initial_wagon;
+    2: set_Korail_K1000_Initial_panto_wagon;
+    3: sw_Korail_K1000_Initial_engineT;
     }
 
+// 6량
 switch (FEAT_TRAINS, SELF, sw_Korail_First_6car, position_in_vehid_chain % 6) {
-    1:set_Korail_K1000_Initial_wagon;
-    2:set_Korail_K1000_Initial_panto_wagon;
-    3:set_Korail_K1000_Initial_wagon;
-    4:set_Korail_K1000_Initial_panto_wagon;
-    5:set_Korail_K1000_Initial_engineT;
-    set_Korail_K1000_Initial_engineH; //default
+    0: sw_Korail_K1000_Initial_engineH; //default
+    1: set_Korail_K1000_Initial_wagon;
+    2: set_Korail_K1000_Initial_panto_wagon;
+    3: set_Korail_K1000_Initial_wagon;
+    4: set_Korail_K1000_Initial_panto_wagon;
+    5: sw_Korail_K1000_Initial_engineT;
     }
 
+// 8량
 switch (FEAT_TRAINS, SELF, sw_Korail_First_8car, position_in_vehid_chain % 8) {
-    1:set_Korail_K1000_Initial_wagon;
-    2:set_Korail_K1000_Initial_panto_wagon;
-    3:set_Korail_K1000_Initial_wagon;
-    4:set_Korail_K1000_Initial_panto_wagon;
-    5:set_Korail_K1000_Initial_wagon;
-    6:set_Korail_K1000_Initial_panto_wagon;
-    7:set_Korail_K1000_Initial_engineT;
-    set_Korail_K1000_Initial_engineH; //default
+    0: sw_Korail_K1000_Initial_engineH; //default
+    1: set_Korail_K1000_Initial_wagon;
+    2: set_Korail_K1000_Initial_panto_wagon;
+    3: set_Korail_K1000_Initial_wagon;
+    4: set_Korail_K1000_Initial_panto_wagon;
+    5: set_Korail_K1000_Initial_wagon;
+    6: set_Korail_K1000_Initial_panto_wagon;
+    7: sw_Korail_K1000_Initial_engineT;
     }
 
+// 10량
 switch (FEAT_TRAINS, SELF, sw_Korail_First_10car, position_in_vehid_chain % 10) {
-    1:sw_Korail_First_wagon_MAMB;
-    2:sw_Korail_First_panto_wagon_MAMB;
-    3:sw_Korail_First_wagon_MA;
-    4:sw_Korail_First_wagon_MAMB;
-    5:sw_Korail_First_panto_wagon_MAMB;
-    6:sw_Korail_First_wagon_MA;
-    7:sw_Korail_First_wagon_MAMB;
-    8:sw_Korail_First_panto_wagon_MAMB;
-    9:sw_Korail_First_engineT;
-    sw_Korail_First_engineH; //default
+    0: sw_Korail_First_engineH; //default
+    1: sw_Korail_First_wagon_MAMB;
+    2: sw_Korail_First_panto_wagon_MAMB;
+    3: sw_Korail_First_wagon_MA;
+    4: sw_Korail_First_wagon_MAMB;
+    5: sw_Korail_First_panto_wagon_MAMB;
+    6: sw_Korail_First_wagon_MA;
+    7: sw_Korail_First_wagon_MAMB;
+    8: sw_Korail_First_panto_wagon_MAMB;
+    9: sw_Korail_First_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Korail_First_4car, extra_callback_info1) {
     1..3: Korail_First_4Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

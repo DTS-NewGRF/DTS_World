@@ -8,12 +8,20 @@ spriteset(set_Incheonmetro_1000_1st_Old_engineH, "src/metro/Incheonmetro/Incheon
     DTS_temp(80, 0)
 }
 
+spriteset(set_Incheonmetro_1000_1st_Old_engineH_Rev, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Incheonmetro_1000_1st_Old_panto_wagon, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Incheonmetro_1000_1st_Old_wagon, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Incheonmetro_1000_1st_Old_engineT_Rev, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Incheonmetro_1000_1st_Old_engineT, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
@@ -27,12 +35,20 @@ spriteset(set_Incheonmetro_1000_1st_New_engineH, "src/metro/Incheonmetro/Incheon
     DTS_temp(80, 0)
 }
 
+spriteset(set_Incheonmetro_1000_1st_New_engineH_Rev, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Incheonmetro_1000_1st_New_panto_wagon, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Incheonmetro_1000_1st_New_wagon, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Incheonmetro_1000_1st_New_engineT_Rev, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Incheonmetro_1000_1st_New_engineT, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){

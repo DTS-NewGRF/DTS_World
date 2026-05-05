@@ -8,12 +8,20 @@ spriteset(set_Shinbundang_G1_engineH, "src/metro/Shinbundang/Shinbundang_G1.png"
     DTS_temp(80, 0)
 }
 
+spriteset(set_Shinbundang_G1_engineH_Rev, "src/metro/Shinbundang/Shinbundang_G1.png"){
+    DTS_temp_r(80, 0)
+}
+
 spriteset(set_Shinbundang_G1_panto_wagon, "src/metro/Shinbundang/Shinbundang_G1.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Shinbundang_G1_wagon, "src/metro/Shinbundang/Shinbundang_G1.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Shinbundang_G1_engineT_Rev, "src/metro/Shinbundang/Shinbundang_G1.png"){
+    DTS_temp_r(80, 135)
 }
 
 spriteset(set_Shinbundang_G1_engineT, "src/metro/Shinbundang/Shinbundang_G1.png"){
@@ -27,12 +35,20 @@ spriteset(set_Shinbundang_G2_engineH, "src/metro/Shinbundang/Shinbundang_G2.png"
     DTS_temp(80, 0)
 }
 
+spriteset(set_Shinbundang_G2_engineH_Rev, "src/metro/Shinbundang/Shinbundang_G2.png"){
+    DTS_temp_r(80, 0)
+}
+
 spriteset(set_Shinbundang_G2_panto_wagon, "src/metro/Shinbundang/Shinbundang_G2.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Shinbundang_G2_wagon, "src/metro/Shinbundang/Shinbundang_G2.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Shinbundang_G2_engineT_Rev, "src/metro/Shinbundang/Shinbundang_G2.png"){
+    DTS_temp_r(80, 135)
 }
 
 spriteset(set_Shinbundang_G2_engineT, "src/metro/Shinbundang/Shinbundang_G2.png"){
@@ -46,12 +62,20 @@ spriteset(set_Shinbundang_G3_engineH, "src/metro/Shinbundang/Shinbundang_G3.png"
     DTS_temp(80, 0)
 }
 
+spriteset(set_Shinbundang_G3_engineH_Rev, "src/metro/Shinbundang/Shinbundang_G3.png"){
+    DTS_temp_r(80, 0)
+}
+
 spriteset(set_Shinbundang_G3_panto_wagon, "src/metro/Shinbundang/Shinbundang_G3.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Shinbundang_G3_wagon, "src/metro/Shinbundang/Shinbundang_G3.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Shinbundang_G3_engineT_Rev, "src/metro/Shinbundang/Shinbundang_G3.png"){
+    DTS_temp_r(80, 135)
 }
 
 spriteset(set_Shinbundang_G3_engineT, "src/metro/Shinbundang/Shinbundang_G3.png"){

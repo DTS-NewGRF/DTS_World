@@ -8,12 +8,20 @@ spriteset(set_Hankyu_1300_engineH, "src/metro/Hankyu/1X00_series/1300_series/Han
     DTS_temp(80, 0)
 }
 
+spriteset(set_Hankyu_1300_engineH_Rev, "src/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Hankyu_1300_wagon, "src/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png") {
     DTS_temp(80, 54)
 }
 
 spriteset(set_Hankyu_1300_panto_wagon, "src/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png") {
     DTS_temp(80, 81)
+}
+
+spriteset(set_Hankyu_1300_engineT_Rev, "src/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Hankyu_1300_engineT, "src/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png"){

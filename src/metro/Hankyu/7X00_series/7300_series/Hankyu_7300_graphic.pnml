@@ -8,12 +8,20 @@ spriteset(set_Hankyu_7300_engineH, "src/metro/Hankyu/7X00_series/7300_series/Han
     DTS_temp(80, 0)
 }
 
+spriteset(set_Hankyu_7300_engineH_Rev, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Hankyu_7300_wagon, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png") {
     DTS_temp(80, 54)
 }
 
 spriteset(set_Hankyu_7300_panto_wagon, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png") {
     DTS_temp(80, 81)
+}
+
+spriteset(set_Hankyu_7300_engineT_Rev, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Hankyu_7300_engineT, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png"){
@@ -27,12 +35,20 @@ spriteset(set_Hankyu_7300_1998_engineH, "src/metro/Hankyu/7X00_series/7300_serie
     DTS_temp(80, 0)
 }
 
+spriteset(set_Hankyu_7300_1998_engineH_Rev, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Hankyu_7300_1998_wagon, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png") {
     DTS_temp(80, 54)
 }
 
 spriteset(set_Hankyu_7300_1998_panto_wagon, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png") {
     DTS_temp(80, 81)
+}
+
+spriteset(set_Hankyu_7300_1998_engineT_Rev, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Hankyu_7300_1998_engineT, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png"){
@@ -46,12 +62,20 @@ spriteset(set_Hankyu_7300_2008_engineH, "src/metro/Hankyu/7X00_series/7300_serie
     DTS_temp(80, 0)
 }
 
+spriteset(set_Hankyu_7300_2008_engineH_Rev, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Hankyu_7300_2008_wagon, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png") {
     DTS_temp(80, 54)
 }
 
 spriteset(set_Hankyu_7300_2008_panto_wagon, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png") {
     DTS_temp(80, 81)
+}
+
+spriteset(set_Hankyu_7300_2008_engineT_Rev, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Hankyu_7300_2008_engineT, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png"){
@@ -65,12 +89,20 @@ spriteset(set_Hankyu_7300_2014_engineH, "src/metro/Hankyu/7X00_series/7300_serie
     DTS_temp(80, 0)
 }
 
+spriteset(set_Hankyu_7300_2014_engineH_Rev, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Hankyu_7300_2014_wagon, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png") {
     DTS_temp(80, 54)
 }
 
 spriteset(set_Hankyu_7300_2014_panto_wagon, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png") {
     DTS_temp(80, 81)
+}
+
+spriteset(set_Hankyu_7300_2014_engineT_Rev, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Hankyu_7300_2014_engineT, "src/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png"){

@@ -356,6 +356,7 @@ STR_Hankyu_6000_6Car_NAME                              :[6량] 한큐전철 6000
 STR_Hankyu_6000_8Car_NAME                              :[8량] 한큐전철 6000형
 STR_Group_Hankyu_6300_NAME                             :한큐전철 6300형
 STR_Hankyu_6300_4Car_NAME                              :[4량] 한큐전철 6300형
+STR_Hankyu_6300_6Car_NAME                              :[6량] 한큐전철 6300형
 STR_Hankyu_6300_8Car_NAME                              :[8량] 한큐전철 6300형
 STR_Group_Hankyu_7000_NAME                             :한큐전철 7000형
 STR_Hankyu_7000_2Car_NAME                              :[2량] 한큐전철 7000형
@@ -369,10 +370,12 @@ STR_Hankyu_7300_7Car_NAME                              :[7량] 한큐전철 7300
 STR_Hankyu_7300_8Car_NAME                              :[8량] 한큐전철 7300형
 STR_Group_Hankyu_8000_NAME                             :한큐전철 8000형
 STR_Hankyu_8000_2Car_NAME                              :[2량] 한큐전철 8000형
+STR_Hankyu_8000_6Car_NAME                              :[6량] 한큐전철 8000형
 STR_Hankyu_8000_8Car_NAME                              :[8량] 한큐전철 8000형
 STR_Hankyu_8200_2Car_NAME                              :[2량] 한큐전철 8200형
 STR_Group_Hankyu_8300_NAME                             :한큐전철 8300형
 STR_Hankyu_8300_2Car_NAME                              :[2량] 한큐전철 8300형
+STR_Hankyu_8300_6Car_NAME                              :[6량] 한큐전철 8300형
 STR_Hankyu_8300_8Car_NAME                              :[8량] 한큐전철 8300형
 STR_Hankyu_9000_8Car_NAME                              :[8량] 한큐전철 9000형
 STR_Hankyu_9300_8Car_NAME                              :[8량] 한큐전철 9300형
@@ -548,7 +551,7 @@ STR_REFIT_LIVERY_DEL4400_C                             : V-Train
 STR_REFIT_LIVERY_DEL4400_D                             : 교외선
 STR_REFIT_LIVERY_DEL7000_A                             : 초기도색
 STR_REFIT_LIVERY_DEL7000_B                             : 구도색
-STR_REFIT_LIVERY_DEL7000_C                             : 신도색
+STR_REFIT_LIVERY_DEL7000_C                             : [가상열차셋이관]
 STR_REFIT_LIVERY_DEL7600                               : 기본도색
 STR_REFIT_LIVERY_DEL7600_Old                           : 구도색
 STR_REFIT_LIVERY_DEL7600_New                           : 신도색

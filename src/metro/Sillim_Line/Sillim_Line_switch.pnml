@@ -1,15 +1,30 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 도색명
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Sillim_Line_engineH, train_is_driving_backwards) {
+    0: set_Sillim_Line_engineH;
+    1: set_Sillim_Line_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Sillim_Line_wagon, train_is_driving_backwards) {
+    0: set_Sillim_Line_wagon;
+    1: set_Sillim_Line_wagon_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Sillim_Line_engineT, train_is_driving_backwards) {
+    0: set_Sillim_Line_engineT;
+    1: set_Sillim_Line_engineT_Rev;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Sillim_Line_3car, position_in_vehid_chain % 3) {
-    1:set_Sillim_Line_wagon;
-    2:set_Sillim_Line_engineT;
-    set_Sillim_Line_engineH; //default
+    0: sw_Sillim_Line_engineH; //default
+    1: sw_Sillim_Line_wagon;
+    2: sw_Sillim_Line_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Sillim_Line_3car, extra_callback_info1) {
     1..2: Sillim_Line_3Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

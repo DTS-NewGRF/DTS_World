@@ -66,7 +66,7 @@ item(FEAT_TRAINS, Seoulmetro_6th_7000_8Car, 2560){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_6th_7000_8car;
+        default:                        sw_Seoulmetro_5th_5000_8car;
         articulated_part:               sw_articulated_Seoulmetro_6th_7000_8car;
         purchase:                       set_Seoulmetro_5th_5000_purchase;
         speed:                          sw_Metro_100_speed;
@@ -120,7 +120,7 @@ item(FEAT_TRAINS, Seoulmetro_6th_4000_10Car, 2568){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_6th_4000_10car;
+        default:                        sw_Seoulmetro_2nd_1000_10car;
         articulated_part:               sw_articulated_Seoulmetro_6th_4000_10car;
         purchase:                       set_Seoulmetro_2nd_1000_purchase;
         speed:                          sw_Metro_110_speed;

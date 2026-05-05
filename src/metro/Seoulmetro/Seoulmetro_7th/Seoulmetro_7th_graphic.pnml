@@ -8,12 +8,20 @@ spriteset(set_Seoulmetro_7th_7000_engineH, "src/metro/Seoulmetro/Seoulmetro_7th/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_7th_7000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_7th/Seoulmetro_7th_7000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_7th_7000_wagon, "src/metro/Seoulmetro/Seoulmetro_7th/Seoulmetro_7th_7000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_7th_7000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_7th/Seoulmetro_7th_7000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_7th_7000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_7th/Seoulmetro_7th_7000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_7th_7000_engineT, "src/metro/Seoulmetro/Seoulmetro_7th/Seoulmetro_7th_7000.png"){

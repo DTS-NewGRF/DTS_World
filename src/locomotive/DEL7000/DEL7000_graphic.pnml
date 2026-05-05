@@ -17,17 +17,9 @@ spriteset(set_DEL7000_engine_B_Rev, "src/locomotive/DEL7000/DEL7000.png"){
     DTS_temp_r(80, 81)
 }
 
-spriteset(set_DEL7000_engine_C, "src/locomotive/DEL7000/DEL7000.png"){
-    DTS_temp(80, 108)
-}
-
-spriteset(set_DEL7000_engine_C_Rev, "src/locomotive/DEL7000/DEL7000.png"){
-    DTS_temp_r(80, 135)
-}
-
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(sw_DEL7000_purchase, "src/locomotive/DEL7000/DEL7000.png"){
-    tmpl_single_purchase(0, 108)
+    tmpl_single_purchase(0, 54)
 }

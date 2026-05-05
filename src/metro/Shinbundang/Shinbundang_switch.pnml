@@ -3,46 +3,72 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Shinbundang_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Shinbundang_G3);
     1: return string(STR_REFIT_LIVERY_Shinbundang_G2);
     2: return string(STR_REFIT_LIVERY_Shinbundang_G1);
-    return string(STR_REFIT_LIVERY_Shinbundang_G3);
 }
 
-// 6량
-switch(FEAT_TRAINS, SELF, sw_Shinbundang_engineH, cargo_subtype) {
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_Shinbundang_engineH_Front, cargo_subtype) {
+    0: set_Shinbundang_G3_engineH;
     1: set_Shinbundang_G2_engineH;
     2: set_Shinbundang_G1_engineH;
-    set_Shinbundang_G3_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Shinbundang_panto_wagon, cargo_subtype) {
+    0: set_Shinbundang_G3_panto_wagon;
     1: set_Shinbundang_G2_panto_wagon;
     2: set_Shinbundang_G1_panto_wagon;
-    set_Shinbundang_G3_panto_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Shinbundang_wagon, cargo_subtype) {
+    0: set_Shinbundang_G3_wagon;
     1: set_Shinbundang_G2_wagon;
     2: set_Shinbundang_G1_wagon;
-    set_Shinbundang_G3_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Shinbundang_engineT, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Shinbundang_engineT_Front, cargo_subtype) {
+    0: set_Shinbundang_G3_engineT;
     1: set_Shinbundang_G2_engineT;
     2: set_Shinbundang_G1_engineT;
-    set_Shinbundang_G3_engineT;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_Shinbundang_engineH_Back, cargo_subtype) {
+    0: set_Shinbundang_G3_engineH_Rev;
+    1: set_Shinbundang_G2_engineH_Rev;
+    2: set_Shinbundang_G1_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinbundang_engineT_Back, cargo_subtype) {
+    0: set_Shinbundang_G3_engineT_Rev;
+    1: set_Shinbundang_G2_engineT_Rev;
+    2: set_Shinbundang_G1_engineT_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Shinbundang_engineH, train_is_driving_backwards) {
+    0: sw_Shinbundang_engineH_Front;
+    1: sw_Shinbundang_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinbundang_engineT, train_is_driving_backwards) {
+    0: sw_Shinbundang_engineT_Front;
+    1: sw_Shinbundang_engineT_Back;
 }
 
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Shinbundang_6car, position_in_vehid_chain % 6) {
-    1..2:sw_Shinbundang_panto_wagon;
-    3:sw_Shinbundang_wagon;
-    4:sw_Shinbundang_panto_wagon;
-    5:sw_Shinbundang_engineT;
-    sw_Shinbundang_engineH; //default
+    0: sw_Shinbundang_engineH; //default
+    1..2: sw_Shinbundang_panto_wagon;
+    3: sw_Shinbundang_wagon;
+    4: sw_Shinbundang_panto_wagon;
+    5: sw_Shinbundang_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Shinbundang_6car, extra_callback_info1) {
     1..5: Shinbundang_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

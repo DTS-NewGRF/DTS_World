@@ -3,21 +3,34 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Korail_5th_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Korail_5th_Nomal);
     1: return string(STR_REFIT_LIVERY_Korail_5th_Update_software);
-    return string(STR_REFIT_LIVERY_Korail_5th_Nomal);
 }
 
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_engineH, train_is_driving_backwards) {
+    0: set_Korail_5th_engineH;
+    1: set_Korail_5th_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_engineT, train_is_driving_backwards) {
+    0: set_Korail_5th_engineT;
+    1: set_Korail_5th_engineT_Rev;
+}
+
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Korail_5th_10car, position_in_vehid_chain % 10) {
-    1:set_Korail_5th_wagon;
-    2:set_Korail_5th_panto_wagon;
-    3:set_Korail_5th_wagon;
-    4:set_Korail_5th_panto_wagon;
-    5..7:set_Korail_5th_wagon;
-    8:set_Korail_5th_panto_wagon;
-    9:set_Korail_5th_engineT;
-    set_Korail_5th_engineH; //default
+    0: sw_Korail_5th_engineH; //default
+    1: set_Korail_5th_wagon;
+    2: set_Korail_5th_panto_wagon;
+    3: set_Korail_5th_wagon;
+    4: set_Korail_5th_panto_wagon;
+    5..7: set_Korail_5th_wagon;
+    8: set_Korail_5th_panto_wagon;
+    9: sw_Korail_5th_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Korail_5th_10car, extra_callback_info1) {
     1..9: Korail_5th_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
@@ -25,6 +38,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Korail_5th_10car, extra_callback_info1
 
 // 사운드
 switch(FEAT_TRAINS, SELF, sw_Korail_5th_sound, cargo_subtype) {
+    0: sw_WOOJIN_IGBT_2start_sound;
     1: sw_WOOJINMITSUBISHIIGBT2start_sound;
-    sw_WOOJIN_IGBT_2start_sound;
 }

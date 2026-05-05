@@ -8,8 +8,20 @@ spriteset(set_Sillim_Line_engineH, "src/metro/Sillim_Line/Sillim_Line.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_Sillim_Line_engineH_Rev, "src/metro/Sillim_Line/Sillim_Line.png"){
+    DTS_temp_r(80, 0)
+}
+
 spriteset(set_Sillim_Line_wagon, "src/metro/Sillim_Line/Sillim_Line.png"){
     DTS_temp(80, 54)
+}
+
+spriteset(set_Sillim_Line_wagon_Rev, "src/metro/Sillim_Line/Sillim_Line.png"){
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_Sillim_Line_engineT_Rev, "src/metro/Sillim_Line/Sillim_Line.png"){
+    DTS_temp_r(80, 135)
 }
 
 spriteset(set_Sillim_Line_engineT, "src/metro/Sillim_Line/Sillim_Line.png"){

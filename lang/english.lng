@@ -357,6 +357,7 @@ STR_Hankyu_6000_6Car_NAME                              :[6Car] Hankyu 6000
 STR_Hankyu_6000_8Car_NAME                              :[8Car] Hankyu 6000
 STR_Group_Hankyu_6300_NAME                             :Hankyu 6300
 STR_Hankyu_6300_4Car_NAME                              :[4Car] Hankyu 6300
+STR_Hankyu_6300_6Car_NAME                              :[6Car] Hankyu 6300
 STR_Hankyu_6300_8Car_NAME                              :[8Car] Hankyu 6300
 STR_Group_Hankyu_7000_NAME                             :Hankyu 7000
 STR_Hankyu_7000_2Car_NAME                              :[2Car] Hankyu 7000
@@ -370,10 +371,12 @@ STR_Hankyu_7300_7Car_NAME                              :[7Car] Hankyu 7300
 STR_Hankyu_7300_8Car_NAME                              :[8Car] Hankyu 7300
 STR_Group_Hankyu_8000_NAME                             :Hankyu 8000
 STR_Hankyu_8000_2Car_NAME                              :[2Car] Hankyu 8000
+STR_Hankyu_8000_6Car_NAME                              :[6Car] Hankyu 8000
 STR_Hankyu_8000_8Car_NAME                              :[8Car] Hankyu 8000
 STR_Hankyu_8200_2Car_NAME                              :[2Car] Hankyu 8200
 STR_Group_Hankyu_8300_NAME                             :Hankyu 8300
 STR_Hankyu_8300_2Car_NAME                              :[2Car] Hankyu 8300
+STR_Hankyu_8300_6Car_NAME                              :[6Car] Hankyu 8300
 STR_Hankyu_8300_8Car_NAME                              :[8Car] Hankyu 8300
 STR_Hankyu_9000_8Car_NAME                              :[8Car] Hankyu 9000
 STR_Hankyu_9300_8Car_NAME                              :[8Car] Hankyu 9300
@@ -549,7 +552,7 @@ STR_REFIT_LIVERY_DEL4400_C                             : V-Train
 STR_REFIT_LIVERY_DEL4400_D                             : Gyooe Line livery
 STR_REFIT_LIVERY_DEL7000_A                             : DEL7000_A
 STR_REFIT_LIVERY_DEL7000_B                             : DEL7000_B
-STR_REFIT_LIVERY_DEL7000_C                             : DEL7000_C
+STR_REFIT_LIVERY_DEL7000_C                             : [Move set] Vitrual 
 STR_REFIT_LIVERY_DEL7600                               : Orginal
 STR_REFIT_LIVERY_DEL7600_Old                           : Old
 STR_REFIT_LIVERY_DEL7600_New                           : New

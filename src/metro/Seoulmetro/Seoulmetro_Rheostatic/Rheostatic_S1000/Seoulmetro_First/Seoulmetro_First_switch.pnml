@@ -3,50 +3,84 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Seoulmetro_First_Aircon);
     1: return string(STR_REFIT_LIVERY_Seoulmetro_First_S1000);
-    return string(STR_REFIT_LIVERY_Seoulmetro_First_Aircon);
 }
 
-// 6량
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_engineH, cargo_subtype) {
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_engineH_Front, cargo_subtype) {
+    0: set_Seoulmetro_First_S1000_Aircon_engineH;
     1: set_Seoulmetro_First_S1000_engineH;
-    set_Seoulmetro_First_S1000_Aircon_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_wagon, cargo_subtype) {
+    0: set_Seoulmetro_First_S1000_Aircon_M_wagon;
     1: set_Seoulmetro_First_S1000_wagon;
-    set_Seoulmetro_First_S1000_Aircon_M_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_panto_wagon, cargo_subtype) {
+    0: set_Seoulmetro_First_S1000_Aircon_M_panto_wagon;
     1: set_Seoulmetro_First_S1000_panto_wagon;
-    set_Seoulmetro_First_S1000_Aircon_M_panto_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_engineT, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_engineT_Front, cargo_subtype) {
+    0: set_Seoulmetro_First_S1000_Aircon_engineT;
     1: set_Seoulmetro_First_S1000_engineT;
-    set_Seoulmetro_First_S1000_Aircon_engineT;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_engineH_Back, cargo_subtype) {
+    0: set_Seoulmetro_First_S1000_Aircon_engineH_Rev;
+    1: set_Seoulmetro_First_S1000_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_engineT_Back, cargo_subtype) {
+    0: set_Seoulmetro_First_S1000_Aircon_engineT_Rev;
+    1: set_Seoulmetro_First_S1000_engineT_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_engineH, train_is_driving_backwards) {
+    0: sw_Seoulmetro_First_S1000_engineH_Front;
+    1: sw_Seoulmetro_First_S1000_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_engineT, train_is_driving_backwards) {
+    0: sw_Seoulmetro_First_S1000_engineT_Front;
+    1: sw_Seoulmetro_First_S1000_engineT_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_Aircon_engineH, train_is_driving_backwards) {
+    0: set_Seoulmetro_First_S1000_Aircon_engineH;
+    1: set_Seoulmetro_First_S1000_Aircon_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_Aircon_engineT, train_is_driving_backwards) {
+    0: set_Seoulmetro_First_S1000_Aircon_engineT;
+    1: set_Seoulmetro_First_S1000_Aircon_engineT_Rev;
 }
 
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_6car, position_in_vehid_chain % 6) {
-    1:sw_Seoulmetro_First_S1000_wagon;
-    2:sw_Seoulmetro_First_S1000_panto_wagon;
-    3:sw_Seoulmetro_First_S1000_wagon;
-    4:sw_Seoulmetro_First_S1000_panto_wagon;
-    5:sw_Seoulmetro_First_S1000_engineT;
-    sw_Seoulmetro_First_S1000_engineH; //default
+    0: sw_Seoulmetro_First_S1000_engineH; //default
+    1: sw_Seoulmetro_First_S1000_wagon;
+    2: sw_Seoulmetro_First_S1000_panto_wagon;
+    3: sw_Seoulmetro_First_S1000_wagon;
+    4: sw_Seoulmetro_First_S1000_panto_wagon;
+    5: sw_Seoulmetro_First_S1000_engineT;
     }
 
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_10car, position_in_vehid_chain % 10) {
-    1:set_Seoulmetro_First_S1000_Aircon_M_wagon;
-    2:set_Seoulmetro_First_S1000_Aircon_M_panto_wagon;
-    3..4:set_Seoulmetro_First_S1000_Aircon_M_wagon;
-    5:set_Seoulmetro_First_S1000_Aircon_M_panto_wagon;
-    6..7:set_Seoulmetro_First_S1000_Aircon_M_wagon;
-    8:set_Seoulmetro_First_S1000_Aircon_M_panto_wagon;
-    9:set_Seoulmetro_First_S1000_Aircon_engineT;
-    set_Seoulmetro_First_S1000_Aircon_engineH; //default
+    0: sw_Seoulmetro_First_S1000_Aircon_engineH; //default
+    1: set_Seoulmetro_First_S1000_Aircon_M_wagon;
+    2: set_Seoulmetro_First_S1000_Aircon_M_panto_wagon;
+    3..4: set_Seoulmetro_First_S1000_Aircon_M_wagon;
+    5: set_Seoulmetro_First_S1000_Aircon_M_panto_wagon;
+    6..7: set_Seoulmetro_First_S1000_Aircon_M_wagon;
+    8: set_Seoulmetro_First_S1000_Aircon_M_panto_wagon;
+    9: sw_Seoulmetro_First_S1000_Aircon_engineT;
     }
 
 // 편성량

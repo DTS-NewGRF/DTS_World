@@ -3,27 +3,10 @@
 --------------------------------------------------------------------*/
 // 8량
 // 서울교통공사 5세대 5000호대 열차 사용
-switch (FEAT_TRAINS, SELF, sw_Seoulmetro_6th_7000_8car, position_in_vehid_chain % 8) {
-    1:set_Seoulmetro_5th_5000_wagon;
-    2:set_Seoulmetro_5th_5000_panto_wagon;
-    3..5:set_Seoulmetro_5th_5000_wagon;
-    6:set_Seoulmetro_5th_5000_panto_wagon;
-    7:set_Seoulmetro_5th_5000_engineT;
-    set_Seoulmetro_5th_5000_engineH; //default
-    }
+// 서울교통공사 5세대 8000호대 동일편성
 
 // 10량
 // 서울교통공사 2세대 1000호대 열차 사용
-switch (FEAT_TRAINS, SELF, sw_Seoulmetro_6th_4000_10car, position_in_vehid_chain % 10) {
-    1:set_Seoulmetro_2nd_1000_wagon;
-    2:set_Seoulmetro_2nd_1000_panto_wagon;
-    3:set_Seoulmetro_2nd_1000_wagon;
-    4:set_Seoulmetro_2nd_1000_panto_wagon;
-    5..7:set_Seoulmetro_2nd_1000_wagon;
-    8:set_Seoulmetro_2nd_1000_panto_wagon;
-    9:set_Seoulmetro_2nd_1000_engineT;
-    set_Seoulmetro_2nd_1000_engineH; //default
-    }
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_6th_7000_8car, extra_callback_info1) {

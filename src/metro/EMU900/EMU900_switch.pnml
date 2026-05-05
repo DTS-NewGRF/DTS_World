@@ -1,22 +1,31 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 도색명
-// 6량
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_EMU900_engineH, train_is_driving_backwards) {
+    0: set_EMU900_engineH;
+    1: set_EMU900_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU900_engineT, train_is_driving_backwards) {
+    0: set_EMU900_engineT;
+    1: set_EMU900_engineT_Rev;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_EMU900_10car, position_in_vehid_chain % 10) {
-    1:set_EMU900_wagon_M1To;
-    2:set_EMU900_panto_wagon_T1;
-    3..4:set_EMU900_wagon_M;
-    5:set_EMU900_panto_wagon_T2To;
-    6:set_EMU900_wagon_M;
-    7:set_EMU900_panto_wagon_T2;
-    8:set_EMU900_wagon_M2To;
-    9:set_EMU900_engineT;
-    set_EMU900_engineH; //default
+    0: sw_EMU900_engineH; //default
+    1: set_EMU900_wagon_M1To;
+    2: set_EMU900_panto_wagon_T1;
+    3..4: set_EMU900_wagon_M;
+    5: set_EMU900_panto_wagon_T2To;
+    6: set_EMU900_wagon_M;
+    7: set_EMU900_panto_wagon_T2;
+    8: set_EMU900_wagon_M2To;
+    9: sw_EMU900_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_EMU900_10car, extra_callback_info1) {
     1..9: EMU900_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

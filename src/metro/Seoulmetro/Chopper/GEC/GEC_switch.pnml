@@ -3,55 +3,89 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Chopper_GEC_NoRheostatic);
     1: return string(STR_REFIT_LIVERY_Chopper_GEC_Rheostatic);
-    return string(STR_REFIT_LIVERY_Chopper_GEC_NoRheostatic);
 }
 
-// 10량
-switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_10Car_engineH, cargo_subtype) {
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_10Car_engineH_Front, cargo_subtype) {
+    0: set_Chopper_GEC_NoRheostatic_engineH;
     1: set_Chopper_GEC_Rheostatic_engineH;
-    set_Chopper_GEC_NoRheostatic_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_10Car_wagon, cargo_subtype) {
+    0: set_Chopper_GEC_NoRheostatic_wagon;
     1: set_Chopper_GEC_Rheostatic_wagon;
-    set_Chopper_GEC_NoRheostatic_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_10Car_panto_wagon, cargo_subtype) {
+    0: set_Chopper_GEC_NoRheostatic_panto_wagon;
     1: set_Chopper_GEC_Rheostatic_panto_wagon;
-    set_Chopper_GEC_NoRheostatic_panto_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_10Car_engineT, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_10Car_engineT_Front, cargo_subtype) {
+    0: set_Chopper_GEC_NoRheostatic_engineT;
     1: set_Chopper_GEC_Rheostatic_engineT;
-    set_Chopper_GEC_NoRheostatic_engineT;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_10Car_engineH_Back, cargo_subtype) {
+    0: set_Chopper_GEC_NoRheostatic_engineH_Rev;
+    1: set_Chopper_GEC_Rheostatic_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_10Car_engineT_Back, cargo_subtype) {
+    0: set_Chopper_GEC_NoRheostatic_engineT_Rev;
+    1: set_Chopper_GEC_Rheostatic_engineT_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_NoRheostatic_engineH, train_is_driving_backwards) {
+    0: set_Chopper_GEC_NoRheostatic_engineH;
+    1: set_Chopper_GEC_NoRheostatic_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_NoRheostatic_engineT, train_is_driving_backwards) {
+    0: set_Chopper_GEC_NoRheostatic_engineT;
+    1: set_Chopper_GEC_NoRheostatic_engineT_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_10Car_engineH, train_is_driving_backwards) {
+    0: sw_Chopper_GEC_10Car_engineH_Front;
+    1: sw_Chopper_GEC_10Car_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_10Car_engineT, train_is_driving_backwards) {
+    0: sw_Chopper_GEC_10Car_engineT_Front;
+    1: sw_Chopper_GEC_10Car_engineT_Back;
 }
 
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Chopper_GEC_6Car, position_in_vehid_chain % 6) {
-    1:set_Chopper_GEC_NoRheostatic_wagon;
-    2:set_Chopper_GEC_NoRheostatic_panto_wagon;
-    3:set_Chopper_GEC_NoRheostatic_wagon;
-    4:set_Chopper_GEC_NoRheostatic_panto_wagon;
-    5:set_Chopper_GEC_NoRheostatic_engineT;
-    set_Chopper_GEC_NoRheostatic_engineH; //default
+    0: sw_Chopper_GEC_NoRheostatic_engineH; //default
+    1: set_Chopper_GEC_NoRheostatic_wagon;
+    2: set_Chopper_GEC_NoRheostatic_panto_wagon;
+    3: set_Chopper_GEC_NoRheostatic_wagon;
+    4: set_Chopper_GEC_NoRheostatic_panto_wagon;
+    5: sw_Chopper_GEC_NoRheostatic_engineT;
     }
 
 switch (FEAT_TRAINS, SELF, sw_Chopper_GEC_10Car, position_in_vehid_chain % 10) {
-    1:sw_Chopper_GEC_10Car_wagon;
-    2:sw_Chopper_GEC_10Car_panto_wagon;
-    3:sw_Chopper_GEC_10Car_wagon;
-    4:sw_Chopper_GEC_10Car_wagon;
-    5:sw_Chopper_GEC_10Car_wagon;
-    6:sw_Chopper_GEC_10Car_panto_wagon;
-    7:sw_Chopper_GEC_10Car_wagon;
-    8:sw_Chopper_GEC_10Car_panto_wagon;
-    9:sw_Chopper_GEC_10Car_engineT;
-    sw_Chopper_GEC_10Car_engineH; //default
+    0: sw_Chopper_GEC_10Car_engineH; //default
+    1: sw_Chopper_GEC_10Car_wagon;
+    2: sw_Chopper_GEC_10Car_panto_wagon;
+    3: sw_Chopper_GEC_10Car_wagon;
+    4: sw_Chopper_GEC_10Car_wagon;
+    5: sw_Chopper_GEC_10Car_wagon;
+    6: sw_Chopper_GEC_10Car_panto_wagon;
+    7: sw_Chopper_GEC_10Car_wagon;
+    8: sw_Chopper_GEC_10Car_panto_wagon;
+    9: sw_Chopper_GEC_10Car_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Chopper_GEC_6Car, extra_callback_info1) {
     1..5: Chopper_GEC_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

@@ -8,12 +8,20 @@ spriteset(set_Seoulmetro_3rd_2000_engineH, "src/metro/Seoulmetro/Seoulmetro_3rd/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_3rd_2000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_2000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_3rd_2000_wagon, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_2000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_3rd_2000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_2000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_3rd_2000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_2000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_3rd_2000_engineT, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_2000.png"){
@@ -27,12 +35,20 @@ spriteset(set_Seoulmetro_3rd_4000_engineH, "src/metro/Seoulmetro/Seoulmetro_3rd/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_3rd_4000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_4000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_3rd_4000_wagon, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_4000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_3rd_4000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_4000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_3rd_4000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_4000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_3rd_4000_engineT, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_4000.png"){
@@ -46,12 +62,20 @@ spriteset(set_Seoulmetro_3rd_5000_engineH, "src/metro/Seoulmetro/Seoulmetro_3rd/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_3rd_5000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_5000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_3rd_5000_wagon, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_5000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_3rd_5000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_5000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_3rd_5000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_5000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_3rd_5000_engineT, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_5000.png"){
@@ -65,12 +89,20 @@ spriteset(set_Seoulmetro_3rd_7000_engineH, "src/metro/Seoulmetro/Seoulmetro_3rd/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_3rd_7000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_7000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_3rd_7000_wagon, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_7000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_3rd_7000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_7000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_3rd_7000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_7000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_3rd_7000_engineT, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_7000.png"){
@@ -84,12 +116,28 @@ spriteset(set_Seoulmetro_3rd_8000_engineH, "src/metro/Seoulmetro/Seoulmetro_3rd/
     DTS_temp(80, 0)
 }
 
-spriteset(set_Seoulmetro_3rd_8000_wagon, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_8000.png"){
+spriteset(set_Seoulmetro_3rd_8000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_8000.png"){
+    DTS_temp_r(80, 27)
+}
+
+spriteset(set_Seoulmetro_3rd_8000_wagon_2_4, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_8000.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_Seoulmetro_3rd_8000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_8000.png"){
+spriteset(set_Seoulmetro_3rd_8000_wagon_2D_4D, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_8000.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_3rd_8000_panto_wagon_3D_5D, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_8000.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_Seoulmetro_3rd_8000_panto_wagon_3_5, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_8000.png"){
     DTS_temp(80, 135)
+}
+
+spriteset(set_Seoulmetro_3rd_8000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_8000.png"){
+    DTS_temp_r(80, 162)
 }
 
 spriteset(set_Seoulmetro_3rd_8000_engineT, "src/metro/Seoulmetro/Seoulmetro_3rd/Seoulmetro_3rd_8000.png"){

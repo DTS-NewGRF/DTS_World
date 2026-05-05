@@ -8,12 +8,20 @@ spriteset(set_Incheonmetro_1000_3rd_engineH, "src/metro/Incheonmetro/Incheonmetr
     DTS_temp(80, 0)
 }
 
+spriteset(set_Incheonmetro_1000_3rd_engineH_Rev, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Incheonmetro_1000_3rd_wagon, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Incheonmetro_1000_3rd_panto_wagon, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Incheonmetro_1000_3rd_engineT_Rev, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Incheonmetro_1000_3rd_engineT, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){

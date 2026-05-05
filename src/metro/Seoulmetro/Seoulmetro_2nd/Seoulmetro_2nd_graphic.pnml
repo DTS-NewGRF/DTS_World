@@ -9,12 +9,20 @@ spriteset(set_Seoulmetro_2nd_1000_engineH, "src/metro/Seoulmetro/Seoulmetro_2nd/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_2nd_1000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_1000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_2nd_1000_wagon, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_1000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_2nd_1000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_1000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_2nd_1000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_1000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_2nd_1000_engineT, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_1000.png"){
@@ -26,6 +34,10 @@ spriteset(set_Seoulmetro_2nd_1000_engineT, "src/metro/Seoulmetro/Seoulmetro_2nd/
 --------------------------------------------------------------------*/
 spriteset(set_Seoulmetro_2nd_2000_engineH, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_2000.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_Seoulmetro_2nd_2000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_2000.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_Seoulmetro_2nd_2000_wagon, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_2000.png"){
@@ -40,6 +52,10 @@ spriteset(set_Seoulmetro_2nd_2000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_
     DTS_temp(80, 108)
 }
 
+spriteset(set_Seoulmetro_2nd_2000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_2000.png"){
+    DTS_temp_r(80, 135)
+}
+
 spriteset(set_Seoulmetro_2nd_2000_engineT, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_2000.png"){
     DTS_temp(80, 162)
 }
@@ -51,12 +67,20 @@ spriteset(set_Seoulmetro_2nd_3000_engineH, "src/metro/Seoulmetro/Seoulmetro_2nd/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_2nd_3000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_3000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_2nd_3000_wagon, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_3000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_2nd_3000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_3000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_2nd_3000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_3000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_2nd_3000_engineT, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_3000.png"){
@@ -70,12 +94,20 @@ spriteset(set_Seoulmetro_2nd_4000_engineH, "src/metro/Seoulmetro/Seoulmetro_2nd/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_2nd_4000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_4000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_2nd_4000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_4000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_2nd_4000_wagon, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_4000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_2nd_4000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_4000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_2nd_4000_engineT, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_4000.png"){
@@ -89,12 +121,20 @@ spriteset(set_Seoulmetro_2nd_7000_engineH, "src/metro/Seoulmetro/Seoulmetro_2nd/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_2nd_7000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_7000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_2nd_7000_wagon, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_7000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_2nd_7000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_7000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_2nd_7000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_7000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_2nd_7000_engineT, "src/metro/Seoulmetro/Seoulmetro_2nd/Seoulmetro_2nd_7000.png"){

@@ -8,6 +8,10 @@ spriteset(set_EMU900_engineH, "src/metro/EMU900/EMU900.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_EMU900_engineH_Rev, "src/metro/EMU900/EMU900.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_EMU900_wagon_M, "src/metro/EMU900/EMU900.png"){
     DTS_temp(80, 54)
 }
@@ -30,6 +34,10 @@ spriteset(set_EMU900_panto_wagon_T2, "src/metro/EMU900/EMU900.png"){
 
 spriteset(set_EMU900_panto_wagon_T2To, "src/metro/EMU900/EMU900.png"){
     DTS_temp(80, 189)
+}
+
+spriteset(set_EMU900_engineT_Rev, "src/metro/EMU900/EMU900.png"){
+    DTS_temp_r(80, 216)
 }
 
 spriteset(set_EMU900_engineT, "src/metro/EMU900/EMU900.png"){

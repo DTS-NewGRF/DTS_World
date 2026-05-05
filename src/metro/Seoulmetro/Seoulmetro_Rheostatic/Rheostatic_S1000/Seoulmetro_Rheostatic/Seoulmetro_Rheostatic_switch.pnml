@@ -3,55 +3,59 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Seoulmetro_Rheostatic_S1000);
     1: return string(STR_REFIT_LIVERY_Seoulmetro_Rheostatic_1011F);
-    return string(STR_REFIT_LIVERY_Seoulmetro_Rheostatic_S1000);
 }
 
-// 10량
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_engineH, cargo_subtype) {
-    1: set_Seoulmetro_Rheostatic_S1000_engineH;
-    set_Seoulmetro_Rheostatic_S1000_engineH;
-}
-
+// 도색그래픽 세팅
+// 열차
+// 전진방향
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_wagon_MAMB, cargo_subtype) {
+    0: set_Seoulmetro_Rheostatic_S1000_wagon_MA_T;
     1: set_Seoulmetro_Rheostatic_S1000_wagon_MB;
-    set_Seoulmetro_Rheostatic_S1000_wagon_MA_T;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_wagon_AB, cargo_subtype) {
+    0: set_Seoulmetro_Rheostatic_S1000_panto_wagon_A;
     1: set_Seoulmetro_Rheostatic_S1000_panto_wagon_B;
-    set_Seoulmetro_Rheostatic_S1000_panto_wagon_A;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_wagon_MA_T, cargo_subtype) {
-    1: set_Seoulmetro_Rheostatic_S1000_wagon_MA_T;
-    set_Seoulmetro_Rheostatic_S1000_wagon_MA_T;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_wagon_A, cargo_subtype) {
-    1: set_Seoulmetro_Rheostatic_S1000_panto_wagon_A;
-    set_Seoulmetro_Rheostatic_S1000_panto_wagon_A;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_engineT, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_engineT_Front, cargo_subtype) {
+    0: set_Seoulmetro_Rheostatic_S1000_engineT_TCA;
     1: set_Seoulmetro_Rheostatic_S1000_engineT_TCB;
-    set_Seoulmetro_Rheostatic_S1000_engineT_TCA;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_engineT_Back, cargo_subtype) {
+    0: set_Seoulmetro_Rheostatic_S1000_engineT_TCA_Rev;
+    1: set_Seoulmetro_Rheostatic_S1000_engineT_TCB_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_engineH, train_is_driving_backwards) {
+    0: set_Seoulmetro_Rheostatic_S1000_engineH;
+    1: set_Seoulmetro_Rheostatic_S1000_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_engineT, train_is_driving_backwards) {
+    0: sw_Seoulmetro_Rheostatic_S1000_engineT_Front;
+    1: sw_Seoulmetro_Rheostatic_S1000_engineT_Back;
 }
 
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_10car, position_in_vehid_chain % 10) {
-    1:sw_Seoulmetro_Rheostatic_S1000_wagon_MAMB;
-    2:sw_Seoulmetro_Rheostatic_S1000_wagon_AB;
-    3..4:sw_Seoulmetro_Rheostatic_S1000_wagon_MA_T;
-    5:sw_Seoulmetro_Rheostatic_S1000_wagon_A;
-    6:sw_Seoulmetro_Rheostatic_S1000_wagon_MA_T;
-    7:sw_Seoulmetro_Rheostatic_S1000_wagon_MAMB;
-    8:sw_Seoulmetro_Rheostatic_S1000_wagon_AB;
-    9:sw_Seoulmetro_Rheostatic_S1000_engineT;
-    sw_Seoulmetro_Rheostatic_S1000_engineH; //default
+    0: sw_Seoulmetro_Rheostatic_S1000_engineH; //default
+    1: sw_Seoulmetro_Rheostatic_S1000_wagon_MAMB;
+    2: sw_Seoulmetro_Rheostatic_S1000_wagon_AB;
+    3..4: set_Seoulmetro_Rheostatic_S1000_wagon_MA_T;
+    5: set_Seoulmetro_Rheostatic_S1000_panto_wagon_A;
+    6: set_Seoulmetro_Rheostatic_S1000_wagon_MA_T;
+    7: sw_Seoulmetro_Rheostatic_S1000_wagon_MAMB;
+    8: sw_Seoulmetro_Rheostatic_S1000_wagon_AB;
+    9: sw_Seoulmetro_Rheostatic_S1000_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_Rheostatic_S1000_10car, extra_callback_info1) {
     1..9: Seoulmetro_Rheostatic_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

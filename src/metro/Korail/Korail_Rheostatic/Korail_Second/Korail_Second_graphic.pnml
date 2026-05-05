@@ -8,6 +8,10 @@ spriteset(set_Korail_Second_Initial_1_engineH, "src/metro/Korail/Korail_Rheostat
     DTS_temp(80, 0)
 }
 
+spriteset(set_Korail_Second_Initial_1_engineH_Rev, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Korail_Second_Initial_1_wagon_MA, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
     DTS_temp(80, 54)
 }
@@ -20,6 +24,10 @@ spriteset(set_Korail_Second_Initial_1_wagon_T, "src/metro/Korail/Korail_Rheostat
     DTS_temp(80, 108)
 }
 
+spriteset(set_Korail_Second_Initial_1_engineT_Rev, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    DTS_temp_r(80, 135)
+}
+
 spriteset(set_Korail_Second_Initial_1_engineT, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
     DTS_temp(80, 162)
 }
@@ -29,6 +37,10 @@ spriteset(set_Korail_Second_Initial_1_engineT, "src/metro/Korail/Korail_Rheostat
 --------------------------------------------------------------------*/
 spriteset(set_Korail_Second_Old_1_engineH, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_Korail_Second_Old_1_engineH_Rev, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_Korail_Second_Old_1_wagon_MA, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
@@ -47,6 +59,10 @@ spriteset(set_Korail_Second_Old_1_panto_wagon_B, "src/metro/Korail/Korail_Rheost
     DTS_temp(80, 135)
 }
 
+spriteset(set_Korail_Second_Old_1_engineT_Rev, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    DTS_temp_r(80, 162)
+}
+
 spriteset(set_Korail_Second_Old_1_engineT, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
     DTS_temp(80, 189)
 }
@@ -56,6 +72,10 @@ spriteset(set_Korail_Second_Old_1_engineT, "src/metro/Korail/Korail_Rheostatic/K
 --------------------------------------------------------------------*/
 spriteset(set_Korail_Second_New_1_engineH, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_New_1.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_Korail_Second_New_1_engineH_Rev, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_Korail_Second_New_1_wagon_MA, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_New_1.png"){
@@ -74,6 +94,10 @@ spriteset(set_Korail_Second_New_1_panto_wagon_B, "src/metro/Korail/Korail_Rheost
     DTS_temp(80, 135)
 }
 
+spriteset(set_Korail_Second_New_1_engineT_Rev, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    DTS_temp_r(80, 162)
+}
+
 spriteset(set_Korail_Second_New_1_engineT, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_New_1.png"){
     DTS_temp(80, 189)
 }
@@ -83,6 +107,10 @@ spriteset(set_Korail_Second_New_1_engineT, "src/metro/Korail/Korail_Rheostatic/K
 --------------------------------------------------------------------*/
 spriteset(set_Korail_Second_Initial_2_engineH, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_Korail_Second_Initial_2_engineH_Rev, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_Korail_Second_Initial_2_wagon_M, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
@@ -101,6 +129,10 @@ spriteset(set_Korail_Second_Initial_2_wagon_TB, "src/metro/Korail/Korail_Rheosta
     DTS_temp(80, 135)
 }
 
+spriteset(set_Korail_Second_Initial_2_engineT_Rev, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    DTS_temp_r(80, 162)
+}
+
 spriteset(set_Korail_Second_Initial_2_engineT, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
     DTS_temp(80, 189)
 }
@@ -110,6 +142,10 @@ spriteset(set_Korail_Second_Initial_2_engineT, "src/metro/Korail/Korail_Rheostat
 --------------------------------------------------------------------*/
 spriteset(set_Korail_Second_Old_2_engineH, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_Korail_Second_Old_2_engineH_Rev, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_Korail_Second_Old_2_wagon_M, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
@@ -128,6 +164,10 @@ spriteset(set_Korail_Second_Old_2_wagon_TB, "src/metro/Korail/Korail_Rheostatic/
     DTS_temp(80, 135)
 }
 
+spriteset(set_Korail_Second_Old_2_engineT_Rev, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    DTS_temp_r(80, 162)
+}
+
 spriteset(set_Korail_Second_Old_2_engineT, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
     DTS_temp(80, 189)
 }
@@ -137,6 +177,10 @@ spriteset(set_Korail_Second_Old_2_engineT, "src/metro/Korail/Korail_Rheostatic/K
 --------------------------------------------------------------------*/
 spriteset(set_Korail_Second_New_2_engineH, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_New_2.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_Korail_Second_New_2_engineH_Rev, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_Korail_Second_New_2_wagon_M, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_New_2.png"){
@@ -153,6 +197,10 @@ spriteset(set_Korail_Second_New_2_wagon_TA, "src/metro/Korail/Korail_Rheostatic/
 
 spriteset(set_Korail_Second_New_2_wagon_TB, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_New_2.png"){
     DTS_temp(80, 135)
+}
+
+spriteset(set_Korail_Second_New_2_engineT_Rev, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    DTS_temp_r(80, 162)
 }
 
 spriteset(set_Korail_Second_New_2_engineT, "src/metro/Korail/Korail_Rheostatic/Korail_Second/Korail_Second_New_2.png"){

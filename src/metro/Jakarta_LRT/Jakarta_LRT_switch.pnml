@@ -1,14 +1,13 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 도색명
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Jakarta_LRT_2car, position_in_vehid_chain % 2) {
-    1:set_Jakarta_LRT_engineT;
-    set_Jakarta_LRT_engineH; //default
+    0: set_Jakarta_LRT_engineH; //default
+    1: set_Jakarta_LRT_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Jakarta_LRT_2car, extra_callback_info1) {
     1: Jakarta_LRT_2Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

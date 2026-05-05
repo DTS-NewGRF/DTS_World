@@ -15,14 +15,14 @@ switch(FEAT_TRAINS, SELF, sw_DEL7000_cargo_subtype_text, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_DEL7000_engine_Front, cargo_subtype) {
     0: set_DEL7000_engine_A;
     1: set_DEL7000_engine_B;
-    2: set_DEL7000_engine_C;
+    2: set_Deleted_A;
 }
 
 // 후진방향
 switch(FEAT_TRAINS, SELF, sw_DEL7000_engine_Back, cargo_subtype) {
     0: set_DEL7000_engine_A_Rev;
     1: set_DEL7000_engine_B_Rev;
-    2: set_DEL7000_engine_C_Rev;
+    2: set_Deleted_A;
 }
 
 // 전후진 통합 코드

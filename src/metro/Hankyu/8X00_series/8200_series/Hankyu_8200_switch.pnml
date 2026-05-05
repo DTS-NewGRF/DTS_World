@@ -1,12 +1,24 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Hankyu_8200_engineH, train_is_driving_backwards) {
+    0: set_Hankyu_8200_engineH;
+    1: set_Hankyu_8200_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_8200_engineT, train_is_driving_backwards) {
+    0: set_Hankyu_8200_engineT;
+    1: set_Hankyu_8200_engineT_Rev;
+}
+
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Hankyu_8200_2car, position_in_vehid_chain % 2) {
-    1:set_Hankyu_8200_engineT;
-    set_Hankyu_8200_engineH; //default
+    0: sw_Hankyu_8200_engineH; //default
+    1: sw_Hankyu_8200_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_8200_2car, extra_callback_info1) {
     1: Hankyu_8200_2Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

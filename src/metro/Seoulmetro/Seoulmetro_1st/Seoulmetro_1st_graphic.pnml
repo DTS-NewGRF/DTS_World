@@ -8,6 +8,10 @@ spriteset(set_Seoulmetro_1000_engineH, "src/metro/Seoulmetro/Seoulmetro_1st/Seou
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_1000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_1000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_1000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_1000.png"){
     DTS_temp(80, 54)
 }
@@ -18,6 +22,10 @@ spriteset(set_Seoulmetro_1000_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulm
 
 spriteset(set_Seoulmetro_1000_wagon_T2, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_1000.png"){
     DTS_temp(80, 108)
+}
+
+spriteset(set_Seoulmetro_1000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_1000.png"){
+    DTS_temp_r(80, 135)
 }
 
 spriteset(set_Seoulmetro_1000_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_1000.png"){
@@ -31,12 +39,20 @@ spriteset(set_Seoulmetro_2000_engineH, "src/metro/Seoulmetro/Seoulmetro_1st/Seou
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_2000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_2000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_2000_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_2000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_2000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_2000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_2000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_2000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_2000_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_2000.png"){
@@ -50,12 +66,20 @@ spriteset(set_Seoulmetro_3000_engineH, "src/metro/Seoulmetro/Seoulmetro_1st/Seou
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_3000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_3000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_3000_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_3000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_3000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_3000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_3000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_3000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_3000_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_3000.png"){
@@ -69,12 +93,20 @@ spriteset(set_Seoulmetro_1st_4000_engineH, "src/metro/Seoulmetro/Seoulmetro_1st/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_1st_4000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_4000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_1st_4000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_4000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_1st_4000_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_4000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_1st_4000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_4000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_1st_4000_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_4000.png"){
@@ -88,12 +120,20 @@ spriteset(set_Seoulmetro_1st_5000_engineH, "src/metro/Seoulmetro/Seoulmetro_1st/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_1st_5000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_5000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_1st_5000_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_5000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_1st_5000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_5000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_1st_5000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_5000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_1st_5000_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_5000.png"){
@@ -107,12 +147,20 @@ spriteset(set_Seoulmetro_1st_6000_engineH, "src/metro/Seoulmetro/Seoulmetro_1st/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_1st_6000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_6000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_1st_6000_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_6000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_1st_6000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_6000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_1st_6000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_6000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_1st_6000_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_6000.png"){
@@ -126,12 +174,20 @@ spriteset(set_Seoulmetro_1st_7000_Old_engineH, "src/metro/Seoulmetro/Seoulmetro_
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_1st_7000_Old_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_1st_7000_Old_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_1st_7000_Old_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_1st_7000_Old_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_1st_7000_Old_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
@@ -145,12 +201,20 @@ spriteset(set_Seoulmetro_1st_7000_New_engineH, "src/metro/Seoulmetro/Seoulmetro_
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_1st_7000_New_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_1st_7000_New_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_1st_7000_New_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_1st_7000_New_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_1st_7000_New_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
@@ -164,12 +228,20 @@ spriteset(set_Seoulmetro_1st_9000_engineH, "src/metro/Seoulmetro/Seoulmetro_1st/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_1st_9000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_9000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_1st_9000_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_9000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_1st_9000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_9000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_1st_9000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_9000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_1st_9000_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_9000.png"){

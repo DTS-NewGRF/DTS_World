@@ -3,44 +3,58 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Korail_Rheostatic_K1000_A);
     1: return string(STR_REFIT_LIVERY_Korail_Rheostatic_K1000_B);
-    return string(STR_REFIT_LIVERY_Korail_Rheostatic_K1000_A);
 }
 
-// 10량
-switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineH, cargo_subtype) {
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineH_Front, cargo_subtype) {
+    0: set_Korail_Rheostatic_K1000_engineH_TC1A;
     1: set_Korail_Rheostatic_K1000_engineH_TC1B;
-    set_Korail_Rheostatic_K1000_engineH_TC1A;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_wagon, cargo_subtype) {
-    1: set_Korail_Rheostatic_K1000_wagon;
-    set_Korail_Rheostatic_K1000_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_panto_wagon, cargo_subtype) {
-    1: set_Korail_Rheostatic_K1000_panto_wagon;
-    set_Korail_Rheostatic_K1000_panto_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineT, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineT_Front, cargo_subtype) {
+    0: set_Korail_Rheostatic_K1000_engineT_TC2A;
     1: set_Korail_Rheostatic_K1000_engineT_TC2B;
-    set_Korail_Rheostatic_K1000_engineT_TC2A;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineH_Back, cargo_subtype) {
+    0: set_Korail_Rheostatic_K1000_engineH_TC1A_Rev;
+    1: set_Korail_Rheostatic_K1000_engineH_TC1B_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineT_Back, cargo_subtype) {
+    0: set_Korail_Rheostatic_K1000_engineT_TC2A_Rev;
+    1: set_Korail_Rheostatic_K1000_engineT_TC2B_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineH, train_is_driving_backwards) {
+    0: sw_Korail_Rheostatic_engineH_Front;
+    1: sw_Korail_Rheostatic_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineT, train_is_driving_backwards) {
+    0: sw_Korail_Rheostatic_engineT_Front;
+    1: sw_Korail_Rheostatic_engineT_Back;
 }
 
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Korail_Rheostatic_10car, position_in_vehid_chain % 10) {
-    1:sw_Korail_Rheostatic_wagon;
-    2:sw_Korail_Rheostatic_panto_wagon;
-    3..4:sw_Korail_Rheostatic_wagon;
-    5:sw_Korail_Rheostatic_panto_wagon;
-    6..7:sw_Korail_Rheostatic_wagon;
-    8:sw_Korail_Rheostatic_panto_wagon;
-    9:sw_Korail_Rheostatic_engineT;
-    sw_Korail_Rheostatic_engineH; //default
+    0: sw_Korail_Rheostatic_engineH; //default
+    1: set_Korail_Rheostatic_K1000_wagon;
+    2: set_Korail_Rheostatic_K1000_panto_wagon;
+    3..4: set_Korail_Rheostatic_K1000_wagon;
+    5: set_Korail_Rheostatic_K1000_panto_wagon;
+    6..7: set_Korail_Rheostatic_K1000_wagon;
+    8: set_Korail_Rheostatic_K1000_panto_wagon;
+    9: sw_Korail_Rheostatic_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Korail_Rheostatic_10car, extra_callback_info1) {
     1..9: Korail_Rheostatic_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

@@ -1,14 +1,13 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 도색명
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Gimpo_Gold_2car, position_in_vehid_chain % 2) {
-    1:set_Gimpo_Gold_engineT;
-    set_Gimpo_Gold_engineH; //default
+    0: set_Gimpo_Gold_engineH; //default
+    1: set_Gimpo_Gold_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Gimpo_Gold_2car, extra_callback_info1) {
     1: Gimpo_Gold_2Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

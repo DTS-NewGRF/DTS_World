@@ -8,12 +8,20 @@ spriteset(set_Seoulmetro_5th_2000_engineH, "src/metro/Seoulmetro/Seoulmetro_5th/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_5th_2000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_2000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_5th_2000_wagon, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_2000.png"){
     DTS_temp(80, 54)
 }
 
 spriteset(set_Seoulmetro_5th_2000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_2000.png"){
     DTS_temp(80, 81)
+}
+
+spriteset(set_Seoulmetro_5th_2000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_2000.png"){
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_Seoulmetro_5th_2000_engineT, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_2000.png"){
@@ -27,6 +35,10 @@ spriteset(set_Seoulmetro_5th_4000_engineH, "src/metro/Seoulmetro/Seoulmetro_5th/
     DTS_temp(80, 0)
 }
 
+spriteset(set_Seoulmetro_5th_4000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_4000.png"){
+    DTS_temp_r(80, 27)
+}
+
 spriteset(set_Seoulmetro_5th_4000_wagon, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_4000.png"){
     DTS_temp(80, 54)
 }
@@ -35,36 +47,30 @@ spriteset(set_Seoulmetro_5th_4000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_
     DTS_temp(80, 81)
 }
 
+spriteset(set_Seoulmetro_5th_4000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_4000.png"){
+    DTS_temp_r(80, 108)
+}
+
 spriteset(set_Seoulmetro_5th_4000_engineT, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_4000.png"){
     DTS_temp(80, 135)
 }
 
 /*--------------------------------------------------------------------
 서울교통공사 5000호대
+- 그래픽은 4세대 에서 사용
 - 서울교통공사 4세대 8000호대 열차 사용
 - 서울교통공사 6세대 7000호대 열차 사용
 --------------------------------------------------------------------*/
-spriteset(set_Seoulmetro_5th_5000_engineH, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_5000.png"){
-    DTS_temp(80, 0)
-}
-
-spriteset(set_Seoulmetro_5th_5000_wagon, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_5000.png"){
-    DTS_temp(80, 54)
-}
-
-spriteset(set_Seoulmetro_5th_5000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_5000.png"){
-    DTS_temp(80, 81)
-}
-
-spriteset(set_Seoulmetro_5th_5000_engineT, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_5000.png"){
-    DTS_temp(80, 135)
-}
 
 /*--------------------------------------------------------------------
 서울교통공사 7000호대
 --------------------------------------------------------------------*/
 spriteset(set_Seoulmetro_5th_7000_engineH, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
     DTS_temp(80, 0)
+}
+
+spriteset(set_Seoulmetro_5th_7000_engineH_Rev, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_Seoulmetro_5th_7000_wagon_2_4_5D_6, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
@@ -81,6 +87,10 @@ spriteset(set_Seoulmetro_5th_7000_wagon_3D_7D, "src/metro/Seoulmetro/Seoulmetro_
 
 spriteset(set_Seoulmetro_5th_7000_wagon_3_7, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
     DTS_temp(80, 135)
+}
+
+spriteset(set_Seoulmetro_5th_7000_engineT_Rev, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
+    DTS_temp_r(80, 162)
 }
 
 spriteset(set_Seoulmetro_5th_7000_engineT, "src/metro/Seoulmetro/Seoulmetro_5th/Seoulmetro_5th_7000.png"){

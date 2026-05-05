@@ -1,41 +1,33 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 도색
+// 도색명
 switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_cargo_subtype_text, cargo_subtype) {
     0: return string(STR_REFIT_LIVERY_Incheonmetro_2000_1st);
     1: return string(STR_REFIT_LIVERY_Incheonmetro_2000_2nd);
     return CB_RESULT_NO_TEXT;
 }
 
-//객차
+// 도색그래픽 세팅
+// 열차
+// 전진방향
 switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_engineH, cargo_subtype) {
+    0: set_Incheonmetro_2000_1st_engineH;
     1: set_Incheonmetro_2000_2nd_engineH;
-    set_Incheonmetro_2000_1st_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_engineT, cargo_subtype) {
+    0: set_Incheonmetro_2000_1st_engineT;
     1: set_Incheonmetro_2000_2nd_engineT;
-    set_Incheonmetro_2000_1st_engineT;
 }
 
 // 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Incheonmetro_2000_2012_2car, position_in_vehid_chain % 2) {
-    1:set_Incheonmetro_2000_1st_engineT;
-    set_Incheonmetro_2000_1st_engineH; //default
-    }
-
-switch (FEAT_TRAINS, SELF, sw_Incheonmetro_2000_2022_2car, position_in_vehid_chain % 2) {
+switch (FEAT_TRAINS, SELF, sw_Incheonmetro_2000_2car, position_in_vehid_chain % 2) {
+    0: sw_Incheonmetro_2000_engineH; //default
     1:sw_Incheonmetro_2000_engineT;
-    sw_Incheonmetro_2000_engineH; //default
     }
 
-switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_2car, current_year) {
-    0..2022: sw_Incheonmetro_2000_2012_2car;
-    sw_Incheonmetro_2000_2022_2car;
-    }
-
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Incheonmetro_2000_2car, extra_callback_info1) {
     1: Incheonmetro_2000_2Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

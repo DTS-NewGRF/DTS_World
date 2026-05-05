@@ -41,7 +41,7 @@ item(FEAT_TRAINS, Hankyu_8000_2Car, 2212){
         
         //spec
         speed:                          120km/h;
-        power:                          1080 kW;
+        power:                          1360 kW;
         weight:                         58 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -83,6 +83,62 @@ item(FEAT_TRAINS, Hankyu_8000_2Car, 2212){
         }
 
 /*--------------------------------------------------------------------
+열차정보 6량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Hankyu_8000_6Car, 2022){
+    property {
+        name:                           string(STR_Hankyu_8000_6Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1989, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Hankyu_8000;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          2040 kW;
+        weight:                         58 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 132;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+        graphics {
+        default:                        sw_Hankyu_8000_6car;
+        articulated_part:               sw_articulated_Hankyu_8000_6car;
+        purchase:                       set_Hankyu_8000_purchase;
+        speed:                          sw_Metro_110_speed;
+        cargo_capacity:                 sw_Hankyu_8000_8car_capacity_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Hankyu_8000_cargo_subtype_text;
+        sound_effect:                   sw_TOSHIBAGTOJStart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Hankyu_8000_8Car, 2213){
@@ -97,7 +153,7 @@ item(FEAT_TRAINS, Hankyu_8000_8Car, 2213){
         
         //spec
         speed:                          120km/h;
-        power:                          1080 kW;
+        power:                          2720 kW;
         weight:                         232 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;

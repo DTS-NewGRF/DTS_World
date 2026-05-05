@@ -1,59 +1,113 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 도색명
-// 10량
+// 전후진 통합 코드
+// 2000
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_2000_engineH, train_is_driving_backwards) {
+    0: set_Seoulmetro_3rd_2000_engineH;
+    1: set_Seoulmetro_3rd_2000_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_2000_engineT, train_is_driving_backwards) {
+    0: set_Seoulmetro_3rd_2000_engineT;
+    1: set_Seoulmetro_3rd_2000_engineT_Rev;
+}
+
+// 4000
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_4000_engineH, train_is_driving_backwards) {
+    0: set_Seoulmetro_3rd_4000_engineH;
+    1: set_Seoulmetro_3rd_4000_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_4000_engineT, train_is_driving_backwards) {
+    0: set_Seoulmetro_3rd_4000_engineT;
+    1: set_Seoulmetro_3rd_4000_engineT_Rev;
+}
+
+// 5000
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_5000_engineH, train_is_driving_backwards) {
+    0: set_Seoulmetro_3rd_5000_engineH;
+    1: set_Seoulmetro_3rd_5000_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_5000_engineT, train_is_driving_backwards) {
+    0: set_Seoulmetro_3rd_5000_engineT;
+    1: set_Seoulmetro_3rd_5000_engineT_Rev;
+}
+
+// 7000
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_7000_engineH, train_is_driving_backwards) {
+    0: set_Seoulmetro_3rd_7000_engineH;
+    1: set_Seoulmetro_3rd_7000_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_7000_engineT, train_is_driving_backwards) {
+    0: set_Seoulmetro_3rd_7000_engineT;
+    1: set_Seoulmetro_3rd_7000_engineT_Rev;
+}
+
+// 8000
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_8000_engineH, train_is_driving_backwards) {
+    0: set_Seoulmetro_3rd_8000_engineH;
+    1: set_Seoulmetro_3rd_8000_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_8000_engineT, train_is_driving_backwards) {
+    0: set_Seoulmetro_3rd_8000_engineT;
+    1: set_Seoulmetro_3rd_8000_engineT_Rev;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_8000_6car, position_in_vehid_chain % 6) {
-    1:set_Seoulmetro_3rd_8000_wagon;
-    2:set_Seoulmetro_3rd_8000_panto_wagon;
-    3:set_Seoulmetro_3rd_8000_wagon;
-    4:set_Seoulmetro_3rd_8000_panto_wagon;
-    5:set_Seoulmetro_3rd_8000_engineT;
-    set_Seoulmetro_3rd_8000_engineH; //default
+    0: sw_Seoulmetro_3rd_8000_engineH; //default
+    1: set_Seoulmetro_3rd_8000_wagon_2_4;
+    2: set_Seoulmetro_3rd_8000_panto_wagon_3_5;
+    3: set_Seoulmetro_3rd_8000_wagon_2_4;
+    4: set_Seoulmetro_3rd_8000_panto_wagon_3_5;
+    5: sw_Seoulmetro_3rd_8000_engineT;
     }
 
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_5000_8car, position_in_vehid_chain % 8) {
-    1:set_Seoulmetro_3rd_5000_wagon;
-    2:set_Seoulmetro_3rd_5000_panto_wagon;
-    3..5:set_Seoulmetro_3rd_5000_wagon;
-    6:set_Seoulmetro_3rd_5000_panto_wagon;
-    7:set_Seoulmetro_3rd_5000_engineT;
-    set_Seoulmetro_3rd_5000_engineH; //default
+    0: sw_Seoulmetro_3rd_5000_engineH; //default
+    1: set_Seoulmetro_3rd_5000_wagon;
+    2: set_Seoulmetro_3rd_5000_panto_wagon;
+    3..5: set_Seoulmetro_3rd_5000_wagon;
+    6: set_Seoulmetro_3rd_5000_panto_wagon;
+    7: sw_Seoulmetro_3rd_5000_engineT;
     }
 
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_7000_8car, position_in_vehid_chain % 8) {
-    1:set_Seoulmetro_3rd_7000_wagon;
-    2:set_Seoulmetro_3rd_7000_panto_wagon;
-    3..5:set_Seoulmetro_3rd_7000_wagon;
-    6:set_Seoulmetro_3rd_7000_panto_wagon;
-    7:set_Seoulmetro_3rd_7000_engineT;
-    set_Seoulmetro_3rd_7000_engineH; //default
+    0: sw_Seoulmetro_3rd_7000_engineH; //default
+    1: set_Seoulmetro_3rd_7000_wagon;
+    2: set_Seoulmetro_3rd_7000_panto_wagon;
+    3..5: set_Seoulmetro_3rd_7000_wagon;
+    6: set_Seoulmetro_3rd_7000_panto_wagon;
+    7: sw_Seoulmetro_3rd_7000_engineT;
     }
 
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_2000_10car, position_in_vehid_chain % 10) {
-    1:set_Seoulmetro_3rd_2000_wagon;
-    2:set_Seoulmetro_3rd_2000_panto_wagon;
-    3:set_Seoulmetro_3rd_2000_wagon;
-    4:set_Seoulmetro_3rd_2000_panto_wagon;
-    5..7:set_Seoulmetro_3rd_2000_wagon;
-    8:set_Seoulmetro_3rd_2000_panto_wagon;
-    9:set_Seoulmetro_3rd_2000_engineT;
-    set_Seoulmetro_3rd_2000_engineH; //default
+    0: sw_Seoulmetro_3rd_2000_engineH; //default
+    1: set_Seoulmetro_3rd_2000_wagon;
+    2: set_Seoulmetro_3rd_2000_panto_wagon;
+    3: set_Seoulmetro_3rd_2000_wagon;
+    4: set_Seoulmetro_3rd_2000_panto_wagon;
+    5..7: set_Seoulmetro_3rd_2000_wagon;
+    8: set_Seoulmetro_3rd_2000_panto_wagon;
+    9: sw_Seoulmetro_3rd_2000_engineT;
     }
 
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_4000_10car, position_in_vehid_chain % 10) {
-    1:set_Seoulmetro_3rd_4000_wagon;
-    2:set_Seoulmetro_3rd_4000_panto_wagon;
-    3:set_Seoulmetro_3rd_4000_wagon;
-    4:set_Seoulmetro_3rd_4000_panto_wagon;
-    5..7:set_Seoulmetro_3rd_4000_wagon;
-    8:set_Seoulmetro_3rd_4000_panto_wagon;
-    9:set_Seoulmetro_3rd_4000_engineT;
-    set_Seoulmetro_3rd_4000_engineH; //default
+    0: sw_Seoulmetro_3rd_4000_engineH; //default
+    1: set_Seoulmetro_3rd_4000_wagon;
+    2: set_Seoulmetro_3rd_4000_panto_wagon;
+    3: set_Seoulmetro_3rd_4000_wagon;
+    4: set_Seoulmetro_3rd_4000_panto_wagon;
+    5..7: set_Seoulmetro_3rd_4000_wagon;
+    8: set_Seoulmetro_3rd_4000_panto_wagon;
+    9: sw_Seoulmetro_3rd_4000_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_3rd_8000_6car, extra_callback_info1) {
     1..5: Seoulmetro_3rd_8000_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

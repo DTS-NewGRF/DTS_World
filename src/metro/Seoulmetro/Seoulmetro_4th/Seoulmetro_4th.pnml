@@ -123,7 +123,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_8000_6Car, 2400){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_4th_8000_6car;
+        default:                        sw_Seoulmetro_5th_5000_8car;
         articulated_part:               sw_articulated_Seoulmetro_4th_8000_6car;
         purchase:                       set_Seoulmetro_5th_5000_purchase;
         speed:                          sw_Metro_100_speed;
