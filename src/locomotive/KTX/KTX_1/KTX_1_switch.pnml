@@ -14,8 +14,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_1_cargo_subtype_text, cargo_subtype) {
 // 열차
 // 전진방향
 switch(FEAT_TRAINS, SELF, sw_KTX_1_engineH_Front, cargo_subtype) {
-    0: set_KTX_1_engineH;
-    1: set_KTX_1_engineH;
+    0..2: set_KTX_1_engineH;
     2: set_KTX_1_LTE_A_engineH;
     3: set_KTX_1_engineH;
 }
@@ -28,88 +27,76 @@ switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T1, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T2, cargo_subtype) {
-    0: set_KTX_1_wagon_T2;
-    1: set_KTX_1_wagon_T2;
+    0..1: set_KTX_1_wagon_T2;
     2: set_KTX_1_LTE_A_wagon_T2;
     3: set_KTX_1_wagon_T2;    
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T3, cargo_subtype) {
-    0: set_KTX_1_wagon_T3;
-    1: set_KTX_1_wagon_T3;
+    0..1: set_KTX_1_wagon_T3;
     2: set_KTX_1_LTE_A_wagon_T3;
     3: set_KTX_1_wagon_T3;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T4, cargo_subtype) {
-    0: set_KTX_1_wagon_T4;
-    1: set_KTX_1_wagon_T4;
+    0..1: set_KTX_1_wagon_T4;
     2: set_KTX_1_LTE_A_wagon_T4;
     3: set_KTX_1_wagon_T4;    
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T3_6Car, cargo_subtype) {
-    0: set_KTX_1_wagon_T3;
-    1: set_KTX_1_wagon_T3;
+    0..1: set_KTX_1_wagon_T3;
     2: set_KTX_1_LTE_A_wagon_T3;
     3: set_KTX_1_wagon_T6;    
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T5, cargo_subtype) {
-    0: set_KTX_1_wagon_T5;
-    1: set_KTX_1_wagon_T5;
+    0..1: set_KTX_1_wagon_T5;
     2: set_KTX_1_LTE_A_wagon_T5;
     3: set_KTX_1_wagon_T5;    
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T6, cargo_subtype) {
-    0: set_KTX_1_wagon_T6;
-    1: set_KTX_1_wagon_T6;
+    0..1: set_KTX_1_wagon_T6;
     2: set_KTX_1_LTE_A_wagon_T6;
     3: set_KTX_1_wagon_T6;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T7, cargo_subtype) {
-    0: set_KTX_1_wagon_T7;
-    1: set_KTX_1_wagon_T7;
+    0..1: set_KTX_1_wagon_T7;
     2: set_KTX_1_LTE_A_wagon_T7;
     3: set_KTX_1_wagon_T7;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T8, cargo_subtype) {
-    0: set_KTX_1_wagon_T8;
-    1: set_KTX_1_wagon_T8;
+    0..1: set_KTX_1_wagon_T8;
     2: set_KTX_1_LTE_A_wagon_T8;
     3: set_KTX_1_wagon_T8;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_T9, cargo_subtype) {
-    0: set_KTX_1_wagon_T9;
-    1: set_KTX_1_wagon_T9;
+    0..1: set_KTX_1_wagon_T9;
     2: set_KTX_1_LTE_A_wagon_T9;
     3: set_KTX_1_wagon_T9;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_engineT_Front, cargo_subtype) {
-    0: set_KTX_1_engineT;
-    1: set_KTX_1_engineT;
+    0..1: set_KTX_1_engineT;
     2: set_KTX_1_LTE_A_engineT;
     3: set_KTX_1_engineT;
 }
 
 // 후진방향
 switch(FEAT_TRAINS, SELF, sw_KTX_1_engineH_Back, cargo_subtype) {
-    0: set_KTX_1_engineH;
-    1: set_KTX_1_engineH;
-    2: set_KTX_1_LTE_A_engineH;
-    3: set_KTX_1_engineH;
+    0..1: set_KTX_1_engineH_Rev;
+    2: set_KTX_1_LTE_A_engineH_Rev;
+    3: set_KTX_1_engineH_Rev;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_1_engineT_Back, cargo_subtype) {
-    0: set_KTX_1_engineT;
-    1: set_KTX_1_engineT;
-    2: set_KTX_1_LTE_A_engineT;
-    3: set_KTX_1_engineT;
+    0..1: set_KTX_1_engineT_Rev;
+    2: set_KTX_1_LTE_A_engineT_Rev;
+    3: set_KTX_1_engineT_Rev;
 }
 
 // 전후진 통합 코드
@@ -155,31 +142,13 @@ switch (FEAT_TRAINS, SELF, sw_articulated_KTX_1_20car, extra_callback_info1) {
 
 // 길이
 switch(FEAT_TRAINS, SELF, sw_KTX_1_20Car_length_in_custom, position_in_vehid_chain % 20) {
-    1: 8;
-    2: 7;
-    3: 7;
-    4: 7;
-    5: 7;
-    6: 7;
-    7: 7;
-    8: 7;
-    9: 7;
-    10: 7;
-    11: 7;
-    12: 7;
-    13: 7;
-    14: 7;
-    15: 7;
-    16: 7;
-    17: 7;
-    18: 8;
-    19: 8;
-    8; //default;
+    0..1: 8; //default;
+    2..17: 7;
+    18..19: 8;
 }
 
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_KTX_1_capacity_in_custom, cargo_subtype) {
-    1: return 47;
-    2: return 47;
-       48;
+    0: 48;
+    1..2: return 47;
 }

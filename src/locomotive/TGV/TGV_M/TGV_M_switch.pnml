@@ -77,8 +77,8 @@ switch(FEAT_TRAINS, SELF, sw_TGV_M_engineH_Back, cargo_subtype) {
 
 switch(FEAT_TRAINS, SELF, sw_TGV_M_engineT_Back, cargo_subtype) {
     0..1: set_TGV_M_engineT_Rev;
-    2: set_TGV_M_Inoui_engineT;
-    3: set_TGV_M_Rame_engineT;
+    2: set_TGV_M_Inoui_engineT_Rev;
+    3: set_TGV_M_Rame_engineT_Rev;
 }
 
 // 전후진 통합 코드

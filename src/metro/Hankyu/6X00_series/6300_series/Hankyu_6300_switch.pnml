@@ -76,10 +76,10 @@ switch (FEAT_TRAINS, SELF, sw_Hankyu_6300_4car, position_in_vehid_chain % 4) {
 // 6량
 switch (FEAT_TRAINS, SELF, sw_Hankyu_6300_6car, position_in_vehid_chain % 6) {
     0: sw_Hankyu_6300_engineH; //default
-    1: set_Hankyu_6300_wagon;
-    2: set_Hankyu_6300_panto_wagon;
-    3: set_Hankyu_6300_wagon;
-    4: set_Hankyu_6300_panto_wagon;
+    1: set_Hankyu_6300_panto_wagon;
+    2: set_Hankyu_6300_wagon;
+    3: set_Hankyu_6300_panto_wagon;
+    4: set_Hankyu_6300_wagon;
     5: sw_Hankyu_6300_engineT;
     }
 
@@ -109,3 +109,9 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6300_8car, extra_callback_info1
     1..7: Hankyu_6300_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
+
+// 8량 출력
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6300_8car_power_in_custom, cargo_subtype) {
+    0: return 3004; // 2240kw
+    1: return 3218; // 5040kw
+}

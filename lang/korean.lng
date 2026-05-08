@@ -549,12 +549,12 @@ STR_REFIT_LIVERY_DEL4400_A                             : 구도색
 STR_REFIT_LIVERY_DEL4400_B                             : 신도색
 STR_REFIT_LIVERY_DEL4400_C                             : V-Train
 STR_REFIT_LIVERY_DEL4400_D                             : 교외선
-STR_REFIT_LIVERY_DEL7000_A                             : 초기도색
+STR_REFIT_LIVERY_DEL7000_A                             : 기본도색
 STR_REFIT_LIVERY_DEL7000_B                             : 구도색
-STR_REFIT_LIVERY_DEL7000_C                             : [가상열차셋이관]
-STR_REFIT_LIVERY_DEL7600                               : 기본도색
+STR_REFIT_LIVERY_DEL7000_C                             : 신도색
+STR_REFIT_LIVERY_DEL7600                               : 초기도색
 STR_REFIT_LIVERY_DEL7600_Old                           : 구도색
-STR_REFIT_LIVERY_DEL7600_New                           : 신도색
+STR_REFIT_LIVERY_DEL7600_New                           : [가상열차셋이관]
 STR_REFIT_LIVERY_DHC_FF                                : DHC PP 초기도색 초기형
 STR_REFIT_LIVERY_DHC_FL_A                              : DHC PP 초기도색 후기형 A
 STR_REFIT_LIVERY_DHC_FL_B                              : DHC PP 초기도색 후기형 B
