@@ -5,12 +5,16 @@ spriteset(set_H2_WJ_engineH, "src/locomotive/H2_WJ/H2_WJ.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_H2_WJ_wagon, "src/locomotive/H2_WJ/H2_WJ.png") {
+spriteset(set_H2_WJ_engineH_Rev, "src/locomotive/H2_WJ/H2_WJ.png"){
     DTS_temp(80, 27)
 }
 
+spriteset(set_H2_WJ_engineT_Rev, "src/locomotive/H2_WJ/H2_WJ.png"){
+    DTS_temp_r(80, 54)
+}
+
 spriteset(set_H2_WJ_engineT, "src/locomotive/H2_WJ/H2_WJ.png"){
-    DTS_temp(80, 54)
+    DTS_temp_r(80, 81)
 }
 
 /*--------------------------------------------------------------------

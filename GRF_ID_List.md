@@ -59,7 +59,7 @@
 |2057|Hyundai_Rotem_Mitsubishi_8Car|
 |2058|Hyundai_Rotem_R_8Car|
 |2059|IKK_SP_1900_8Car|
-|2060|H2_WJ_4Car|
+|2060|[공백] |
 |2061|ESPassenger_Car|
 |2062|Shinkansen_500_16Car|
 |2063|AGV_11Car|
@@ -176,7 +176,6 @@
 |2187|[그룹명] Nishitetsu_9000|
 |2188|[그룹명] Hankyu_6000|
 |2189|[그룹명] Hankyu_6300|
-|2190|H2_WJ|
 |~2192|[공백] |
 |2193|[그룹명] ITX_Maum|
 |2194|[공백] |

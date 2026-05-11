@@ -12,7 +12,7 @@ H2_WJ
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, H2_WJ, 2190){
     property {
-        name:                           string(STR_Group_H2_WJ_NAME);
+        name:                           string(STR_To_Be_Deleted_20260430_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -30,13 +30,13 @@ item(FEAT_TRAINS, H2_WJ, 2190){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, H2_WJ_2Car, 2008){
     property {
-        name:                           string(STR_H2_WJ_2Car_NAME);
+        name:                           string(STR_H2_WJ_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2022, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  H2_WJ;
+        dual_headed:                    1;
         
         //spec
         speed:                          121km/h;
@@ -69,8 +69,7 @@ item(FEAT_TRAINS, H2_WJ_2Car, 2008){
         }
 
 	graphics {
-        default:                        sw_H2_WJ_2car;
-        articulated_part:               sw_articulated_H2_WJ_2car;
+        default:                        sw_H2_WJ_engine;
         purchase:                       set_H2_WJ_purchase;
         speed:                          sw_Regular_110_speed;
         loading_speed:                  25;
@@ -85,8 +84,8 @@ item(FEAT_TRAINS, H2_WJ_2Car, 2008){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, H2_WJ_4Car, 2060){
     property {
-        name:                           string(STR_H2_WJ_4Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_20260430_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2022, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;

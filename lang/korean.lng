@@ -7,7 +7,7 @@ STR_GRF_DESC                                           :월드 다양성 열차 
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS_World/releases
 
 # Deleted / locomotive's name
-STR_To_Be_Deleted_20260430_NAME                        :[2024.4] {RED}삭제예정
+STR_To_Be_Deleted_20260430_NAME                        :[2024.5] {RED}삭제예정
 
 # locomotive's name / Logo
 STR_Group_KTX_Logo_NAME                                :KTX
@@ -53,9 +53,7 @@ STR_EEC_EMU_10Car_NAME                                 :[10량] EEC 전기동차
 STR_FEL_8500_NAME                                      :8500호대 전기기관차
 STR_GT26CW_NAME                                        :7X00호대 디젤기관차
 STR_GTX_8Car_NAME                                      :[8량] GTX
-STR_Group_H2_WJ_NAME                                   :우진산전 수소연료전지동차
-STR_H2_WJ_2Car_NAME                                    :[2량] 우진산전 수소연료전지동차
-STR_H2_WJ_4Car_NAME                                    :[4량] 우진산전 수소연료전지동차
+STR_H2_WJ_NAME                                         :우진산전 수소연료전지동차
 STR_Group_HEMU_430X_NAME                               :HEMU-430X
 STR_HEMU_430X_6Car_NAME                                :[6량] HEMU-430X
 STR_HEMU_430X_8Car_NAME                                :[8량] HEMU-430X

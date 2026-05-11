@@ -366,9 +366,7 @@ sort(FEAT_TRAINS, [
     EEC_EMU_10Car,                           //2559
     FEL_8500,                                //2016
     GT26CW,                                  //2014
-    H2_WJ,                                   //2190
     H2_WJ_2Car,                              //2008
-    H2_WJ_4Car,                              //2060
     NEL_8100,                                //2299
     NEL_8200,                                //2177
     Nuriro_4Car,                             //2324
