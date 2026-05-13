@@ -22,18 +22,28 @@ switch(FEAT_TRAINS, SELF, sw_AGV_engineT, train_is_driving_backwards) {
     1: set_AGV_engineT_Rev;
 }
 
-// 편성그래픽
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_AGV_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_AGV_engineT;
+    sw_AGV_engineH;
+}
+
+// 객차
+// Pantograph - 11 cars (TC-M-M-M'-M-M-M'-M-M-M-TC)
+switch(FEAT_TRAINS, SELF, sw_AGV_wagon, (position_in_consist + 1) % 11) {
+    4: sw_AGV_wagon_panto_wagon_M1;
+    7: sw_AGV_wagon_panto_wagon_M2;
+    set_AGV_wagon;
+}
+
+// 1.72 삭제예정
+// 고정편성그래픽
 switch (FEAT_TRAINS, SELF, sw_AGV_11car, position_in_vehid_chain % 11) {
-    0: sw_AGV_engineH; //default
-    1..2: set_AGV_wagon;
-    3: sw_AGV_wagon_panto_wagon_M1;
-    4..5: set_AGV_wagon;
-    6: sw_AGV_wagon_panto_wagon_M2;
-    7..9: set_AGV_wagon;
-    10: sw_AGV_engineT;
+    0: set_Deleted_A; //default
+    1..10: set_Deleted_B;
     }
 
-// 편성량
+// 고정 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_AGV_11car, extra_callback_info1) {
     1..10: AGV_11Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

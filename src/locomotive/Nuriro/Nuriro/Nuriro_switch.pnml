@@ -107,14 +107,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Nuriro_4Car, extra_callback_info1) {
     1..3: Nuriro_4Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 삭제예정
-switch (FEAT_TRAINS, SELF, sw_Nuriro_8Car, position_in_vehid_chain % 8) {
-    1..7:set_Deleted_B;
-    set_Deleted_A; //default
-    }
-
-switch (FEAT_TRAINS, SELF, sw_articulated_Nuriro_8Car, extra_callback_info1) {
-    1..7: Nuriro_8Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }

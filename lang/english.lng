@@ -7,7 +7,7 @@ STR_GRF_DESC                                           :World Diversity Train Se
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS_World/releases
 
 # Deleted / locomotive's name
-STR_To_Be_Deleted_20260430_NAME                        :[2024.3] {RED} To Be Deleted
+STR_To_Be_Deleted_NAME                                 :{RED} To Be Deleted
 
 # locomotive's name / Logo
 STR_Group_KTX_Logo_NAME                                :KTX
@@ -43,8 +43,6 @@ STR_DHC_PP_5Car_NAME                                   :[5Car] DHC PP Diesel
 STR_DHC_PP_6Car_NAME                                   :[6Car] DHC PP Diesel
 STR_DHC_PP_7Car_NAME                                   :[7Car] DHC PP Diesel
 STR_DHC_PP_8Car_NAME                                   :[8Car] DHC PP Diesel
-STR_DHC_PP_14Car_NAME                                  :[14Car] DHC PP Diesel
-STR_DHC_PP_16Car_NAME                                  :[16Car] DHC PP Diesel
 STR_Group_Diesel_Car_NAME                              :Diesel Car
 STR_Nomal_Diesel_Car_NAME                              :Diesel Car
 STR_Nomal_Diesel_2Car_addcar_NAME                      :[2car+add car] Diesel Car
@@ -67,9 +65,6 @@ STR_ITX_CheongChun_8Car_NAME                           :[8Car] ITX-CheongChun
 STR_Group_ITX_Maum_NAME                                :ITX-Maum
 STR_ITX_Maum_4Car_NAME                                 :[4Car] ITX-Maum
 STR_ITX_Maum_6Car_NAME                                 :[6Car] ITX-Maum
-STR_ITX_Maum_4_4Car_NAME                               :[4+4Car] ITX-Maum
-STR_ITX_Maum_4_6Car_NAME                               :[4+6Car] ITX-Maum
-STR_ITX_Maum_6_4Car_NAME                               :[6+8Car] ITX-Maum
 STR_ITX_Saemaeul_6Car_NAME                             :[6Car] ITX-Saemaeul
 STR_KTX_1_20Car_NAME                                   :[20Car] TGV-K
 STR_Group_KTX_Cheong_Ryong_NAME                        :KTX-Cheong Ryong
@@ -80,13 +75,11 @@ STR_KTX_Eum_6Car_NAME                                  :[6Car] KTX-EUM
 STR_KTX_Eum_12Car_NAME                                 :[12Car] KTX-EUM
 STR_Group_KTX_Sancheon_NAME                            :KTX-Sancheon
 STR_KTX_Sancheon_10Car_NAME                            :[10Car] KTX-Sancheon, SRT
-STR_KTX_Sancheon_20Car_NAME                            :[20Car] KTX-Sancheon
 STR_MSB_Speeder_NAME                                   :MSB Speeder
 STR_NEL_8100_NAME                                      :NEL 8100
 STR_NEL_8200_NAME                                      :NEL 8200
 STR_Group_Nuriro_NAME                                  :Korail 200000 series EMU (NURIRO)
 STR_Nuriro_4Car_NAME                                   :[4Car] Korail 200000 series EMU (NURIRO)
-STR_Nuriro_8Car_NAME                                   :[8Car] Korail 200000 series EMU (NURIRO)
 STR_OEL_8000_NAME                                      :OEL 8000
 STR_Group_RDC_NAME                                     :RDC Diesel
 STR_RDC_3Car_NAME                                      :[3Car] RDC Diesel
@@ -129,7 +122,7 @@ STR_HXD3C_NAME                                         :HXD3C
 STR_NJ2_NAME                                           :NJ2
 
 # European / locomotive's name
-STR_AGV_11Car_NAME                                     :[11Car] AGV (.italo)
+STR_AGV_engine_NAME                                    :AGV (.italo) Engine
 STR_BB15000_NAME                                       :SNCF BB15000
 STR_Group_Eurostar_E300_NAME                           :Eurostar E300
 STR_Eurostar_E300_16Car_NAME                           :[16Car] Eurostar E300
@@ -172,7 +165,6 @@ STR_Shinkansen_923_7Car_NAME                           :[7Car] Shinkansen 923
 STR_Shinkansen_E2_10Car_NAME                           :[10Car] Shinkansen E2
 STR_Group_Shinkansen_E5_H5_NAME                        :Shinkansen E5·H5
 STR_Shinkansen_E5_H5_10Car_NAME                        :[10Car] Shinkansen E5·H5
-STR_Shinkansen_E5_H5_E6_17Car_NAME                     :[17Car] Shinkansen E5·H5+E6
 STR_Shinkansen_E6_7Car_NAME                            :[7Car] Shinkansen E6
 STR_Shinkansen_E7_W7_12Car_NAME                        :[12Car] Shinkansen E7·W7
 STR_Shinkansen_E8_7Car_NAME                            :[7Car] Shinkansen E8
@@ -184,6 +176,7 @@ STR_Shinkansen_N700S_6Car_NAME                         :[6Car] Shinkansen N700S 
 STR_Shinkansen_N700S_16Car_NAME                        :[16Car] Shinkansen N700S
 
 # World / locomotive's name
+STR_Al_Boraq_engine_NAME                               :Al-Boraq Engine
 STR_Al_Boraq_10Car_NAME                                :[10Car] Al-Boraq
 STR_Avelia_Liberty_11Car_NAME                          :[11Car] Avelia Liberty
 STR_NHSRCL_E5_10Car_NAME                               :[10Car] NHSRCL E5
@@ -403,6 +396,8 @@ STR_Jakarta_LRT_2Car_NAME                              :[2Car] Jakarta LRT
 STR_EMU900_10Car_NAME                                  :[10Car] EMU900
 
 # wagon's name
+STR_AGV_wagon_NAME                                     :AGV (.italo) Wagon
+STR_Al_Boraq_wagon_NAME                                :Al-Boraq Wagon
 STR_Group_Travel_wagon_NAME                            :Travel Train
 STR_A_Train_NAME                                       :[4Car] A-Train Passenger Car
 STR_Asean_Korea_NAME                                   :[7Car] ASEAN Korea
@@ -492,6 +487,16 @@ STR_PARAM_Passengercar_Real_speed_NAME                 :Controls the speed of th
 STR_PARAM_Passengercar_Real_speed_DESC                 :Check the actual carriage speed if desired.{}- Basic: Passenger car speed limit
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
+STR_TRAIN_DESC:{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{STRING}
+STR_Train_Informagion:{BLACK}{STRING}
+STR_Train_Formation:Train Formation: {GREEN}{STRING}
+STR_Connent:Train connenting: {GREEN}{STRING}
+
+STR_REFIT_additional_text_Trian_informagion            :Information
+
+STR_REFIT_additional_text_Free                         :Free Connenting
+STR_REFIT_additional_text_Fixed                        :Fixed Connenting
+
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}train configuration {}{GREEN} A-Train Passenger Car
 STR_REFIT_train_configuration_Asean_Korea              :{BLACK}train configuration {}{GREEN} ASEAN Korea Train
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}train configuration {}{GREEN} Chungbuk Yeongdong Gugak & Wine Passenger Car

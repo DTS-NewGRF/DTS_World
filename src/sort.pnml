@@ -307,7 +307,6 @@ sort(FEAT_TRAINS, [
     Shinkansen_N700_S,                       //2204
     Shinkansen_N700_S_6Car,                  //2090
     Shinkansen_N700_S_16Car,                 //2156
-    Shinkansen_E5_H5,                        //2304
     Shinkansen_E5_H5_10Car,                  //2092
     Shinkansen_E6_7Car,                      //2093
     Shinkansen_E8_7Car,                      //2095
@@ -393,9 +392,11 @@ sort(FEAT_TRAINS, [
     HSR_350X_10Car,                          //2020
     HSR_350X_14Car,                          //2005
     HSR_350X_20Car,                          //2021
+    AGV_engine,                              //2025
     AGV_11Car,                               //2063
     NHSRCL_E5_10Car,                         //2116
     THSR_700T_12Car,                         //2118
+    Al_Boraq_engine,                         //2106
     Al_Boraq_10Car,                          //2120
     Talgo_350_SRO_14Car,                     //2121
     Avelia_Liberty_11Car,                    //2122
@@ -409,6 +410,8 @@ sort(FEAT_TRAINS, [
     MSB_Speeder,                             //2178
     
     //객차
+    AGV_wagon,                               //2026
+    Al_Boraq_wagon,                          //2108
     Travel_wagon,                            //2210
     A_Train_Passenger_Car,                   //2164
     Asean_Korea,                             //2318

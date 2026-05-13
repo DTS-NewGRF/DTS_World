@@ -7,7 +7,7 @@ STR_GRF_DESC                                           :월드 다양성 열차 
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS_World/releases
 
 # Deleted / locomotive's name
-STR_To_Be_Deleted_20260430_NAME                        :[2024.5] {RED}삭제예정
+STR_To_Be_Deleted_NAME                                 :{RED}삭제예정
 
 # locomotive's name / Logo
 STR_Group_KTX_Logo_NAME                                :KTX
@@ -42,8 +42,6 @@ STR_DHC_PP_5Car_NAME                                   :[5량] DHC PP 디젤동�
 STR_DHC_PP_6Car_NAME                                   :[6량] DHC PP 디젤동차
 STR_DHC_PP_7Car_NAME                                   :[7량] DHC PP 디젤동차
 STR_DHC_PP_8Car_NAME                                   :[8량] DHC PP 디젤동차
-STR_DHC_PP_14Car_NAME                                  :[14량] DHC PP 디젤동차
-STR_DHC_PP_16Car_NAME                                  :[16량] DHC PP 디젤동차
 STR_Group_Diesel_Car_NAME                              :디젤액압동차
 STR_Nomal_Diesel_Car_NAME                              :디젤액압동차
 STR_Nomal_Diesel_2Car_addcar_NAME                      :[2량+?량] 디젤액압동차
@@ -66,9 +64,6 @@ STR_ITX_CheongChun_8Car_NAME                           :[8량] ITX-청춘
 STR_Group_ITX_Maum_NAME                                :ITX-마음
 STR_ITX_Maum_4Car_NAME                                 :[4량] ITX-마음
 STR_ITX_Maum_6Car_NAME                                 :[6량] ITX-마음
-STR_ITX_Maum_4_4Car_NAME                               :[4+4량] ITX-마음
-STR_ITX_Maum_4_6Car_NAME                               :[4+6량] ITX-마음
-STR_ITX_Maum_6_4Car_NAME                               :[6+4량] ITX-마음
 STR_ITX_Saemaeul_6Car_NAME                             :[6량] ITX-새마을
 STR_KTX_1_20Car_NAME                                   :[20량] KTX-1
 STR_Group_KTX_Cheong_Ryong_NAME                        :KTX-청룡
@@ -79,13 +74,11 @@ STR_KTX_Eum_6Car_NAME                                  :[6량] KTX-이음
 STR_KTX_Eum_12Car_NAME                                 :[12량] KTX-이음
 STR_Group_KTX_Sancheon_NAME                            :KTX-산천
 STR_KTX_Sancheon_10Car_NAME                            :[10량] KTX-산천, SRT
-STR_KTX_Sancheon_20Car_NAME                            :[20량] KTX-산천 중련
 STR_MSB_Speeder_NAME                                   :MSB 모터카
 STR_NEL_8100_NAME                                      :8100호대 전기기관차
 STR_NEL_8200_NAME                                      :8200호대 전기기관차
 STR_Group_Nuriro_NAME                                  :한국철도공사 200000호대 전동차 (누리로)
 STR_Nuriro_4Car_NAME                                   :[4량] 한국철도공사 200000호대 전동차 (누리로)
-STR_Nuriro_8Car_NAME                                   :[8량] 한국철도공사 200000호대 전동차 (누리로)
 STR_OEL_8000_NAME                                      :8000호대 전기기관차
 STR_Group_RDC_NAME                                     :RDC 디젤동차
 STR_RDC_3Car_NAME                                      :[3량] RDC 디젤동차
@@ -128,7 +121,7 @@ STR_HXD3C_NAME                                         :HXD3C
 STR_NJ2_NAME                                           :NJ2
 
 # European / locomotive's name
-STR_AGV_11Car_NAME                                     :[11량] AGV (이탈로)
+STR_AGV_engine_NAME                                    :AGV (이탈로) 기관차
 STR_BB15000_NAME                                       :SNCF BB15000
 STR_Group_Eurostar_E300_NAME                           :유로스타 E300
 STR_Eurostar_E300_16Car_NAME                           :[16량] 유로스타 E300
@@ -171,7 +164,6 @@ STR_Shinkansen_923_7Car_NAME                           :[7량] 신칸센 923형 
 STR_Shinkansen_E2_10Car_NAME                           :[10량] 신칸센 E2계
 STR_Group_Shinkansen_E5_H5_NAME                        :신칸센 E5·H5계
 STR_Shinkansen_E5_H5_10Car_NAME                        :[10량] 신칸센 E5·H5계
-STR_Shinkansen_E5_H5_E6_17Car_NAME                     :[17량] 신칸센 E5·H5+E6&E8계
 STR_Shinkansen_E6_7Car_NAME                            :[7량] 신칸센 E6계
 STR_Shinkansen_E7_W7_12Car_NAME                        :[12량] 신칸센 E7·W7계
 STR_Shinkansen_E8_7Car_NAME                            :[7량] 신칸센 E8계
@@ -183,6 +175,7 @@ STR_Shinkansen_N700S_6Car_NAME                         :[6량] 신칸센 N700S�
 STR_Shinkansen_N700S_16Car_NAME                        :[16량] 신칸센 N700S계
 
 # World / locomotive's name
+STR_Al_Boraq_engine_NAME                               :알 보라크 기관차
 STR_Al_Boraq_10Car_NAME                                :[10량] 알 보라크
 STR_Avelia_Liberty_11Car_NAME                          :[11량] 아벨리아 리버티
 STR_NHSRCL_E5_10Car_NAME                               :[10량] NHSRCL E5
@@ -402,6 +395,8 @@ STR_Jakarta_LRT_2Car_NAME                              :[2량] 자카르타 LRT
 STR_EMU900_10Car_NAME                                  :[10량] EMU900
 
 # wagon's name
+STR_AGV_wagon_NAME                                     :AGV (이탈로) 객차
+STR_Al_Boraq_wagon_NAME                                :알 보라크 객차
 STR_Group_Travel_wagon_NAME                            :관광열차
 STR_A_Train_NAME                                       :[4량] A-Train
 STR_Asean_Korea_NAME                                   :[7량] 한-아세안
@@ -491,6 +486,16 @@ STR_PARAM_Passengercar_Real_speed_NAME                 :객차의 속도를 제�
 STR_PARAM_Passengercar_Real_speed_DESC                 :실제 객차 속도를 희망시 체크하세요.{}- 기본:객차속도제한
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
+# Refit (Additional text)
+STR_TRAIN_DESC:{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{STRING}
+STR_Train_Informagion:{BLACK}{STRING}
+STR_Train_Formation:열차편성: {GREEN}{STRING}
+
+STR_REFIT_additional_text_Trian_informagion            :정보
+
+STR_REFIT_additional_text_Free                         :자유편성
+STR_REFIT_additional_text_Fixed                        :고정편성
+
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] A-Train
 STR_REFIT_train_configuration_Asean_Korea              :{BLACK}열차구성 {}{GREEN}[관광열차] 한-아세안
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}열차구성 {}{GREEN}[관광열차] 충북국악와인 객차

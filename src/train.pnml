@@ -91,10 +91,7 @@ spriteset(set_Deleted_A, "Deleted_Train_Image.png"){
 spriteset(set_Deleted_B, "Deleted_Train_Image.png"){
     DTS_temp(80, 27)
 }
-// E5 17량 중련
-// 누리로 중련
-// KTX-산천 중련
-// ITX-마음 중련
-// DHC_PP 14, 16량
-// 이전 1.72 삭제처리
+// 1.72 삭제처리
 // 우진산전 수소열차 4량
+// AGV
+// 알보라크

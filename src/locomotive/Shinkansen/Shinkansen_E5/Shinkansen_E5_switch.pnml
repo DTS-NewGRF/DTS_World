@@ -100,12 +100,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_E5_10car, extra_callback_in
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-// 삭제예정
-switch (FEAT_TRAINS, SELF, sw_Shinkansen_E5_17car, position_in_vehid_chain % 17) {
-    1..16:set_Deleted_B;
-    set_Deleted_A; //default
-    }
-
 switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_E5_17car, extra_callback_info1) {
     1..9: Shinkansen_E5_H5_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

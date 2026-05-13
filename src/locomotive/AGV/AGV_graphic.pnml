@@ -6,7 +6,7 @@ spriteset(set_AGV_engineH, "src/locomotive/AGV/AGV.png"){
 }
 
 spriteset(set_AGV_engineH_Rev, "src/locomotive/AGV/AGV.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_AGV_wagon_panto_wagon_M1, "src/locomotive/AGV/AGV.png"){
@@ -14,7 +14,7 @@ spriteset(set_AGV_wagon_panto_wagon_M1, "src/locomotive/AGV/AGV.png"){
 }
 
 spriteset(set_AGV_wagon_panto_wagon_M1_Rev, "src/locomotive/AGV/AGV.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_AGV_wagon, "src/locomotive/AGV/AGV.png") {
@@ -26,7 +26,7 @@ spriteset(set_AGV_wagon_panto_wagon_M2, "src/locomotive/AGV/AGV.png"){
 }
 
 spriteset(set_AGV_wagon_panto_wagon_M2_Rev, "src/locomotive/AGV/AGV.png"){
-    DTS_temp_r(80, 162)
+    DTS_temp(80, 162)
 }
 
 spriteset(set_AGV_engineT_Rev, "src/locomotive/AGV/AGV.png"){
@@ -34,12 +34,16 @@ spriteset(set_AGV_engineT_Rev, "src/locomotive/AGV/AGV.png"){
 }
 
 spriteset(set_AGV_engineT, "src/locomotive/AGV/AGV.png"){
-    DTS_temp(80, 216)
+    DTS_temp_r(80, 216)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_AGV_purchase, "src/locomotive/AGV/AGV.png"){
+spriteset(set_AGV_engine_purchase, "src/locomotive/AGV/AGV.png"){
     tmpl_purchase(0, 0)
+}
+
+spriteset(set_AGV_wagon_purchase, "src/locomotive/AGV/AGV.png"){
+    tmpl_purchase(0, 108)
 }

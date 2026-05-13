@@ -25,7 +25,8 @@
 |2022|Hankyu_8000_6Car|
 |2023|Hankyu_8300_6Car|
 |2024|KTX_Sancheon_10Car|
-|~2026|[공백] |
+|2025|AGV_engine|
+|2026|AGV_wagon|
 |2027|HSR_350X_7Car|
 |2028|HEMU_430X_6Car|
 |2029|VHST_600X_8Car|
@@ -59,10 +60,10 @@
 |2057|Hyundai_Rotem_Mitsubishi_8Car|
 |2058|Hyundai_Rotem_R_8Car|
 |2059|IKK_SP_1900_8Car|
-|2060|[공백] |
+|2060|[1.72 삭제예정]|
 |2061|ESPassenger_Car|
 |2062|Shinkansen_500_16Car|
-|2063|AGV_11Car|
+|2060|[1.72 삭제예정]|
 |2064|BB15000|
 |2065|Eurostar_E300_20Car|
 |2066|Eurostar_E320_16Car|
@@ -105,8 +106,9 @@
 |2103|Nishitetsu_8000_6Car|
 |2104|Nishitetsu_9000_2Car|
 |2105|Nishitetsu_3000_5Car|
-|2106|[공백] |
+|2106|Al_Boraq_engine|
 |2107|Nishitetsu_5000_4Car|
+|2108|Al_Boraq_wagon|
 |~2112|[공백] |
 |2113|Nishitetsu_9000_3Car|
 |2114|FLAT_2F|
@@ -115,7 +117,7 @@
 |2117|NSW_TrainLink_D_4Car|
 |2118|THSR_700T_12Car|
 |2119|Nishitetsu_6000_4Car|
-|2120|Al_Boraq_10Car|
+|2120|[1.72 삭제예정]|
 |2121|Talgo_350_SRO_14Car|
 |2122|Avelia_Liberty_11Car|
 |2123|ICE4_12Car|
@@ -176,6 +178,7 @@
 |2187|[그룹명] Nishitetsu_9000|
 |2188|[그룹명] Hankyu_6000|
 |2189|[그룹명] Hankyu_6300|
+|2190|[1.72 삭제예정]|
 |~2192|[공백] |
 |2193|[그룹명] ITX_Maum|
 |2194|[공백] |
@@ -295,7 +298,7 @@
 |2314|Seoulmetro_3rd_7000_8Car|
 |2315|Seoulmetro_4th_7000_8Car|
 |2316|Seoulmetro_3rd_8000_6Car|
-|2317|[공백]|
+|2317|[공백] |
 |2318|Asean_Korea|
 |~2321|[공백] |
 |2322|KTX_1_20Car|
@@ -328,7 +331,7 @@
 |2359|DHC_PP_6Car|
 |2360|DHC_PP_7Car|
 |2361|DHC_PP_8Car|
-|~2363|[공백]|
+|~2363|[공백] |
 |2364|Seoulmetro_1st_9000_4Car|
 |2365|Seoulmetro_1st_VVVF_9000_6Car|
 |2366|Seoulmetro_4th_9000_6Car|
@@ -363,7 +366,7 @@
 |2400|Seoulmetro_4th_8000_6Car|
 |2401|Seoulmetro_5th_5000_8Car|
 |2402|Thalys_PBKA_10Car|
-|2403|[공백]|
+|2403|[공백] |
 |2404|Seoulmetro_7th_7000_8Car|
 |2405|Rail_Cruise_Haerang|
 |2406|[공백] |

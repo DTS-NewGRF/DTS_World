@@ -9,7 +9,7 @@ spriteset(set_Al_Boraq_engineH, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
 }
 
 spriteset(set_Al_Boraq_engineH_Rev, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Al_Boraq_wagon_F1, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
@@ -49,12 +49,16 @@ spriteset(set_Al_Boraq_engineT_Rev, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
 }
 
 spriteset(set_Al_Boraq_engineT, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
-    DTS_temp(80, 297)
+    DTS_temp_r(80, 297)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Al_Boraq_purchase, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+spriteset(set_Al_Boraq_engine_purchase, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
     tmpl_purchase(0, 0)
+}
+
+spriteset(set_Al_Boraq_wagon_purchase, "src/locomotive/AL_BORAQ/Al_Boraq.png"){
+    tmpl_purchase(0, 54)
 }
