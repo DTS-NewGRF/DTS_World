@@ -9,7 +9,7 @@ spriteset(set_Nuriro_Old_engineH, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png")
 }
 
 spriteset(set_Nuriro_Old_engineH_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Nuriro_Old_panto_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
@@ -17,7 +17,7 @@ spriteset(set_Nuriro_Old_panto_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.p
 }
 
 spriteset(set_Nuriro_Old_panto_wagon_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Nuriro_Old_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png") {
@@ -25,11 +25,19 @@ spriteset(set_Nuriro_Old_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png") {
 }
 
 spriteset(set_Nuriro_Old_engineT_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_Nuriro_Old_engineT_Free_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
     DTS_temp_r(80, 135)
 }
 
 spriteset(set_Nuriro_Old_engineT, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
     DTS_temp(80, 162)
+}
+
+spriteset(set_Nuriro_Old_engineT_Free, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
+    DTS_temp_r(80, 162)
 }
 
 /*--------------------------------------------------------------------
@@ -40,7 +48,7 @@ spriteset(set_Nuriro_New_engineH, "src/locomotive/Nuriro/Nuriro/Nuriro_New.png")
 }
 
 spriteset(set_Nuriro_New_engineH_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_New.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Nuriro_New_panto_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_New.png"){
@@ -48,7 +56,7 @@ spriteset(set_Nuriro_New_panto_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_New.p
 }
 
 spriteset(set_Nuriro_New_panto_wagon_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_New.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Nuriro_New_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_New.png") {
@@ -56,11 +64,19 @@ spriteset(set_Nuriro_New_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_New.png") {
 }
 
 spriteset(set_Nuriro_New_engineT_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_New.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_Nuriro_New_engineT_Free_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_New.png"){
     DTS_temp_r(80, 135)
 }
 
 spriteset(set_Nuriro_New_engineT, "src/locomotive/Nuriro/Nuriro/Nuriro_New.png"){
     DTS_temp(80, 162)
+}
+
+spriteset(set_Nuriro_New_engineT_Free, "src/locomotive/Nuriro/Nuriro/Nuriro_New.png"){
+    DTS_temp_r(80, 162)
 }
 
 /*--------------------------------------------------------------------
@@ -71,7 +87,7 @@ spriteset(set_Nuriro_A_engineH, "src/locomotive/Nuriro/Nuriro/Nuriro_A.png"){
 }
 
 spriteset(set_Nuriro_A_engineH_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_A.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Nuriro_A_panto_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_A.png"){
@@ -79,7 +95,7 @@ spriteset(set_Nuriro_A_panto_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_A.png")
 }
 
 spriteset(set_Nuriro_A_panto_wagon_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_A.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Nuriro_A_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_A.png") {
@@ -87,11 +103,19 @@ spriteset(set_Nuriro_A_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_A.png") {
 }
 
 spriteset(set_Nuriro_A_engineT_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_A.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_Nuriro_A_engineT_Free_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_A.png"){
     DTS_temp_r(80, 135)
 }
 
 spriteset(set_Nuriro_A_engineT, "src/locomotive/Nuriro/Nuriro/Nuriro_A.png"){
     DTS_temp(80, 162)
+}
+
+spriteset(set_Nuriro_A_engineT_Free, "src/locomotive/Nuriro/Nuriro/Nuriro_A.png"){
+    DTS_temp_r(80, 162)
 }
 
 /*--------------------------------------------------------------------
@@ -102,7 +126,7 @@ spriteset(set_Nuriro_B_engineH, "src/locomotive/Nuriro/Nuriro/Nuriro_B.png"){
 }
 
 spriteset(set_Nuriro_B_engineH_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_B.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Nuriro_B_panto_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_B.png"){
@@ -110,7 +134,7 @@ spriteset(set_Nuriro_B_panto_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_B.png")
 }
 
 spriteset(set_Nuriro_B_panto_wagon_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_B.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Nuriro_B_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_B.png") {
@@ -118,11 +142,19 @@ spriteset(set_Nuriro_B_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_B.png") {
 }
 
 spriteset(set_Nuriro_B_engineT_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_B.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_Nuriro_B_engineT_Free_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_B.png"){
     DTS_temp_r(80, 135)
 }
 
 spriteset(set_Nuriro_B_engineT, "src/locomotive/Nuriro/Nuriro/Nuriro_B.png"){
     DTS_temp(80, 162)
+}
+
+spriteset(set_Nuriro_B_engineT_Free, "src/locomotive/Nuriro/Nuriro/Nuriro_B.png"){
+    DTS_temp_r(80, 162)
 }
 
 /*--------------------------------------------------------------------
@@ -133,7 +165,7 @@ spriteset(set_Nuriro_O_engineH, "src/locomotive/Nuriro/Nuriro/Nuriro_O.png"){
 }
 
 spriteset(set_Nuriro_O_engineH_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_O.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Nuriro_O_panto_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_O.png"){
@@ -141,7 +173,7 @@ spriteset(set_Nuriro_O_panto_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_O.png")
 }
 
 spriteset(set_Nuriro_O_panto_wagon_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_O.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Nuriro_O_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_O.png") {
@@ -149,11 +181,19 @@ spriteset(set_Nuriro_O_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_O.png") {
 }
 
 spriteset(set_Nuriro_O_engineT_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_O.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_Nuriro_O_engineT_Free_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_O.png"){
     DTS_temp_r(80, 135)
 }
 
 spriteset(set_Nuriro_O_engineT, "src/locomotive/Nuriro/Nuriro/Nuriro_O.png"){
     DTS_temp(80, 162)
+}
+
+spriteset(set_Nuriro_O_engineT_Free, "src/locomotive/Nuriro/Nuriro/Nuriro_O.png"){
+    DTS_temp_r(80, 162)
 }
 
 /*--------------------------------------------------------------------
@@ -164,7 +204,7 @@ spriteset(set_Nuriro_DS_engineH, "src/locomotive/Nuriro/Nuriro/Nuriro_DS.png"){
 }
 
 spriteset(set_Nuriro_DS_engineH_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_DS.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Nuriro_DS_panto_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_DS.png"){
@@ -172,7 +212,7 @@ spriteset(set_Nuriro_DS_panto_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_DS.png
 }
 
 spriteset(set_Nuriro_DS_panto_wagon_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_DS.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Nuriro_DS_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_DS.png") {
@@ -180,6 +220,10 @@ spriteset(set_Nuriro_DS_wagon, "src/locomotive/Nuriro/Nuriro/Nuriro_DS.png") {
 }
 
 spriteset(set_Nuriro_DS_engineT_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_DS.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_Nuriro_DS_engineT_Free_Rev, "src/locomotive/Nuriro/Nuriro/Nuriro_DS.png"){
     DTS_temp_r(80, 135)
 }
 
@@ -187,9 +231,17 @@ spriteset(set_Nuriro_DS_engineT, "src/locomotive/Nuriro/Nuriro/Nuriro_DS.png"){
     DTS_temp(80, 162)
 }
 
+spriteset(set_Nuriro_DS_engineT_Free, "src/locomotive/Nuriro/Nuriro/Nuriro_DS.png"){
+    DTS_temp_r(80, 162)
+}
+
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_Nuriro_purchase, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
     tmpl_purchase(0, 0)
+}
+
+spriteset(set_Nuriro_Free_purchase, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
+    tmpl_purchase_for_dualhead(0, 0)
 }

@@ -1,0 +1,13 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Transparency_engine, "src/locomotive/Transparency/Transparency.png"){
+    DTS_temp(80, 0)
+}
+
+/*-------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Transparency_purchase, "src/locomotive/Transparency/Transparency.png"){
+    tmpl_single_purchase(0, 0)
+}

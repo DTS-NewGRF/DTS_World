@@ -2,19 +2,19 @@
 정렬
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
-    //AREX 열차 그룹
+    // AREX 열차 그룹
     AREX_Logo,                               //2514
     APEX_1000_1st_6Car,                      //2340
     APEX_2000_1st_6Car,                      //2339
     APEX_2000_4th_6Car,                      //2009
 
-    //대구교통공사
+    // 대구교통공사
     Daegumetro,                              //2383
     Daegumetro_1000_6Car,                    //2384
     Daegumetro_2000_6Car,                    //2385
     Daegumetro_3000_3Car,                    //2424
 
-    //서울교통공사
+    // 서울교통공사
     Seoulmetro,                              //2373
     Chopper_GEC,                             //2273
     Chopper_GEC_6Car,                        //2274
@@ -80,14 +80,14 @@ sort(FEAT_TRAINS, [
     Seoulmetro_6th_4000_10Car,               //2568
     Seoulmetro_7th_7000_8Car,                //2404
 
-    //인천교통공사
+    // 인천교통공사
     Incheonmetro,                            //2386
     Incheonmetro_1000_1st_8Car,              //2387
     Incheonmetro_1000_2nd_8Car,              //2388
     Incheonmetro_1000_3rd_8Car,              //2534
     Incheonmetro_2000_2Car,                  //2408
 
-    //부산교통공사
+    // 부산교통공사
     Busanmetro,                              //2242
     Busan_Gimhae_LRT_2Car,                   //2407
     Busanmetro_1st_1000,                     //2243
@@ -100,7 +100,7 @@ sort(FEAT_TRAINS, [
     Busanmetro_3000_4Car,                    //2382
     Busanmetro_4000_6Car,                    //2412
 
-    //한국철도공사
+    // 한국철도공사
     Korail,                                  //2240
     Korail_1st,                              //2227
     Korail_1st_4car,                         //2228
@@ -141,7 +141,7 @@ sort(FEAT_TRAINS, [
     Korail_Third_10Car,                      //2253
     Korail_Rheostatic_10Car,                 //2254
 
-    //니시테츠
+    // 니시테츠
     Nishitetsu_Logo,                         //2517
     Nishitetsu_1000_4Car,                    //2097
     Nishitetsu_2000_6Car,                    //2098
@@ -163,7 +163,7 @@ sort(FEAT_TRAINS, [
     Nishitetsu_9000_2Car,                    //2104
     Nishitetsu_9000_3Car,                    //2113
 
-    //한큐전철
+    // 한큐전철
     Hankyu_Logo,                             //2516
     Hankyu_1000_8Car,                        //2263
     Hankyu_1300_8Car,                        //2264
@@ -199,7 +199,7 @@ sort(FEAT_TRAINS, [
     Hankyu_9000_8Car,                        //2246
     Hankyu_9300_8Car,                        //2247
 
-    //홍콩 MTR
+    // 홍콩 MTR
     MTR_Logo,                                //2515
     AD_Tranz_CAF_A_8Car,                     //2052
     MTR_AC_Cammall_8Car,                     //2053
@@ -210,7 +210,13 @@ sort(FEAT_TRAINS, [
     Hyundai_Rotem_R_8Car,                    //2058
     IKK_SP_1900_8Car,                        //2059
 
-    //ITX 열차 그룹
+    // 누리로
+    Nuriro_Logo,                             //2513
+    Nuriro_4Car,                             //2324
+    Nuriro_Free,                             //1020
+    Nuriro_DD,                               //1021
+
+    // ITX 열차 그룹
     ITX_Logo,                                //2512
     ITX_Maum,                                //2193
     ITX_Maum_4Car,                           //2166
@@ -218,7 +224,7 @@ sort(FEAT_TRAINS, [
     ITX_Saemaeul_6Car,                       //2327
     ITX_CheongChun_8Car,                     //2354
 
-    //KTX 열차 그룹
+    // KTX 열차 그룹
     KTX_Logo,                                //2511
     KTX_Eum,                                 //2425
     KTX_Eum_6Car,                            //2423
@@ -229,7 +235,7 @@ sort(FEAT_TRAINS, [
     KTX_Cheong_Ryong_16Car,                  //2428
     KTX_Sancheon_10Car,                      //2024
     
-    //CRH 중국고속열차
+    // CRH 중국고속열차
     CRH_Logo,                                //2518
     CRH1_8Car,                               //2034
     CRH1E_16Car,                             //2035
@@ -263,14 +269,14 @@ sort(FEAT_TRAINS, [
     CR400BF_Z_17Car,                         //2153
     CRH380AJ_8Car,                           //2044
 
-    //유로스타
+    // 유로스타
     Eurostar_Logo,                           //2602
     Eurostar_E300,                           //2544
     Eurostar_E300_16Car,                     //2545
     Eurostar_E300_20Car,                     //2065
     Eurostar_E320_16Car,                     //2066
 
-    //ICE 고속열차
+    // ICE 고속열차
     ICE_Logo,                                //2598
     ICE1_14Car,                              //2067
     ICE2_8Car,                               //2068
@@ -280,14 +286,14 @@ sort(FEAT_TRAINS, [
     ICE4_7Car,                               //2071
     ICE4_12Car,                              //2123
 
-    //Renfe
+    // Renfe
     Renfe_Logo,                              //2601
     Renfe_S_130_13Car,                       //2075
     Renfe_S_100_10Car,                       //2072
     Renfe_S_102_14Car,                       //2073
     Renfe_S_103_8Car,                        //2074
 
-    //신칸센 고속열차
+    // 신칸센 고속열차
     Shinkansen_Logo,                         //2599
     Shinkansen_0,                            //2197
     Shinkansen_0_12Car,                      //2085
@@ -312,7 +318,7 @@ sort(FEAT_TRAINS, [
     Shinkansen_E8_7Car,                      //2095
     Shinkansen_923_7Car,                     //2096
 
-    //TGV
+    // TGV
     TGV_Logo,                                //2600
     TGV_Duplex_10Car,                        //2076
     TGV_Pos_10Car,                           //2077
@@ -324,8 +330,9 @@ sort(FEAT_TRAINS, [
     TGV_La_Poste_10Car,                      //2081
     TGV_M_11Car,                             //2082
 
-    //지하철
+    // 지하철
     AUTS_6Car,                               //2007
+    Nextrain,                                //1016
     Daejeonmetro_1000_4Car,                  //2416
     Dongbuk_2Car,                            //2433
     Gimpo_Gold_2Car,                         //2410
@@ -343,7 +350,7 @@ sort(FEAT_TRAINS, [
     WJapan_227_Series_EMU_500_2Car,          //2012
     WJapan_227_Series_EMU_500_3Car,          //2013
     
-    //일반열차
+    // 일반열차
     CDC,                                     //2344
     CDC_3Car,                                //2345
     CDC_4Car,                                //2346
@@ -368,7 +375,6 @@ sort(FEAT_TRAINS, [
     H2_WJ_2Car,                              //2008
     NEL_8100,                                //2299
     NEL_8200,                                //2177
-    Nuriro_4Car,                             //2324
     OEL8000,                                 //2417
     RDC,                                     //2348
     RDC_3Car,                                //2349
@@ -382,36 +388,39 @@ sort(FEAT_TRAINS, [
     NSW_TrainLink_D_6Car,                    //2142
     TRC_E6800,                               //2605
 
-    //준고속 180
+    // 준고속 180
     GTX_8Car,                                //2017
     TTX_6Car,                                //2019
 
-    //고속열차 331
+    // 고속열차 331
     HSR_350X,                                //2200
     HSR_350X_7Car,                           //2027
     HSR_350X_10Car,                          //2020
     HSR_350X_14Car,                          //2005
     HSR_350X_20Car,                          //2021
-    AGV_engine,                              //2025
     AGV_11Car,                               //2063
     NHSRCL_E5_10Car,                         //2116
     THSR_700T_12Car,                         //2118
-    Al_Boraq_engine,                         //2106
     Al_Boraq_10Car,                          //2120
     Talgo_350_SRO_14Car,                     //2121
     Avelia_Liberty_11Car,                    //2122
 
-    //고속열차 430
+    // 고속열차 430
     HEMU_430X,                               //2205
     HEMU_430X_6Car,                          //2028
     HEMU_430X_8Car,                          //2127
 
-    //유지보수차량
+    // 고속열차 600
+    VHST_600X,                               //1018
+
+    // 유지보수차량
     MSB_Speeder,                             //2178
     
-    //객차
-    AGV_wagon,                               //2026
-    Al_Boraq_wagon,                          //2108
+    // 진열용
+    Transparency,                            //1019
+    
+    // 객차
+    Train_Car,                               //1017
     Travel_wagon,                            //2210
     A_Train_Passenger_Car,                   //2164
     Asean_Korea,                             //2318
@@ -448,13 +457,33 @@ sort(FEAT_TRAINS, [
     Tong_il_Normal,                          //2472
     Pidulgi_Service,                         //2473
     Tong_il_Special,                         //2474
+    PEX,                                     //1008
+    PEX_N,                                   //1009
+    PEX_SN,                                  //1010
+    PEX_D,                                   //1011
+    PEX_B,                                   //1012
+    PEX_S,                                   //1013
+    PEX_Super,                               //1002
+    PEX_Super_N,                             //1003
+    PEX_Super_SN,                            //1004
+    PEX_Super_D,                             //1005
+    PEX_Super_B,                             //1006
+    PEX_Super_S,                             //1007
+    PEX_Super_Generatar,                     //1015
+    PEX_Super_Post,                          //1014
     CSPassenger_Car,                         //2031
     ESPassenger_Car,                         //2061
     WSPassenger_Tanzania,                    //2604
+    VPassenger,                              //1001
+    
+    // 발전차
+    Group_Generatar_Car,                     //2541
     Generatar_2cc,                           //2003
     Generatar_Real_OutLook,                  //2395
     Generatar_Real_Stream_lined,             //2394
     CGeneratar_Car,                          //2032
+    
+    // 수화물화차
     Group_Luggage,                           //2524
     Express_Luggage,                         //2004
     Luggage_Olny,                            //2525
@@ -463,7 +492,10 @@ sort(FEAT_TRAINS, [
     Post_Car,                                //2476
     Express_Post_Car,                        //2477
     CLuggage_Car,                            //2033
+    
+    // 화차
     FLAT_1F,                                 //2129
     FLAT_2F,                                 //2114
     FLAT_TANK,                               //2130
+    Showcase_Flat_1F,                        //1000
     ]);

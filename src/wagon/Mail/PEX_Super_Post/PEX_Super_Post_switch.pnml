@@ -1,0 +1,8 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 열차
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_Post_wagon, random_bits % 2) {
+   0: set_PEX_Super_Post_wagon_A;
+   1: set_PEX_Super_Post_wagon_B;
+}

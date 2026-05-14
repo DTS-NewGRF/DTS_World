@@ -29,7 +29,7 @@
 #include "locomotive/NHSRCL_E5/NHSRCL_E5.pnml"
 #include "locomotive/NJ2/NJ2.pnml"
 #include "locomotive/NSW_TrainLink_D/NSW_TrainLink_D.pnml"
-#include "locomotive/Nuriro/Nuriro/Nuriro.pnml"
+#include "locomotive/Nuriro/Nuriro.pnml"
 #include "locomotive/OEL_8000/OEL_8000.pnml"
 #include "locomotive/Shinkansen/Shinkansen.pnml"
 #include "locomotive/RDC/RDC.pnml"
@@ -37,8 +37,10 @@
 #include "locomotive/Talgo_350_SRO/Talgo_350_SRO.pnml"
 #include "locomotive/TGV/TGV.pnml"
 #include "locomotive/THSR_700T/THSR_700T.pnml"
+#include "locomotive/Transparency/Transparency.pnml"
 #include "locomotive/TRC_E6800/TRC_E6800.pnml"
 #include "locomotive/TTX/TTX.pnml"
+#include "locomotive/VHST_600X/VHST_600X.pnml"
 
 // Metro
 #include "metro/AREX/AREX.pnml"
@@ -56,6 +58,7 @@
 #include "metro/Japan/Japan.pnml"
 #include "metro/Korail/Korail.pnml"
 #include "metro/MTR/MTR.pnml"
+#include "metro/Nextrain/Nextrain.pnml"
 #include "metro/Nishitetsu/Nishitetsu.pnml"
 #include "metro/Seoulmetro/Seoulmetro.pnml"
 #include "metro/Shinbundang/Shinbundang.pnml"
@@ -66,7 +69,7 @@
 #include "metro/Yangsan_AGT/Yangsan_AGT.pnml"
 #include "metro/Yongin_EverLine/Yongin_EverLine.pnml"
 
-//wagon
+// wagon
 #include "wagon/CGeneratar_Car/CGeneratar_Car.pnml"
 #include "wagon/CLuggage_Car/CLuggage_Car.pnml"
 #include "wagon/CSPassenger_wagon/CSPassenger_wagon.pnml"
@@ -77,8 +80,15 @@
 #include "wagon/Generatar/Generatar.pnml"
 #include "wagon/Luggage/Luggage.pnml"
 #include "wagon/Mail/Mail.pnml"
+#include "wagon/Passenger/Passenger.pnml"
 #include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
 #include "wagon/WSPassenger_wagon/WSPassenger_wagon.pnml"
+
+// Train Car
+#include "wagon/Train_Car/Train_Car.pnml"
+
+//Showcase
+#include "Showcase/Showcase.pnml"
 
 // Sorting
 #include "sort.pnml"
@@ -93,5 +103,4 @@ spriteset(set_Deleted_B, "Deleted_Train_Image.png"){
 }
 // 1.72 삭제처리
 // 우진산전 수소열차 4량
-// AGV
-// 알보라크
+// 누리로 4량

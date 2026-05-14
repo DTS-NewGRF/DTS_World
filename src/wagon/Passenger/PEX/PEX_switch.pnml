@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// N객차
+switch(FEAT_TRAINS, SELF, sw_PEX_N_wagon, random_bits % 3) {
+    1: set_PEX_wagon_NB;
+    2: set_PEX_wagon_NC;
+    set_PEX_wagon_NA;
+}
+
+// D객차
+switch(FEAT_TRAINS, SELF, sw_PEX_D_wagon, random_bits % 2) {
+    1: set_PEX_wagon_DB;
+    set_PEX_wagon_DA;
+}

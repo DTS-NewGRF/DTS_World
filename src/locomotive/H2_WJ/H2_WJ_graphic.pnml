@@ -17,9 +17,13 @@ spriteset(set_H2_WJ_engineT, "src/locomotive/H2_WJ/H2_WJ.png"){
     DTS_temp_r(80, 81)
 }
 
+spriteset(set_H2_WJ_wagon, "src/locomotive/H2_WJ/H2_WJ.png"){
+    DTS_temp(80, 108)
+}
+
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_H2_WJ_purchase, "src/locomotive/H2_WJ/H2_WJ.png"){
-    tmpl_purchase(0, 0)
+    tmpl_purchase_for_dualhead(0, 0)
 }

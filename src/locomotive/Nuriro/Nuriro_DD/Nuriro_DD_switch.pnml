@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_cargo_subtype_text, cargo_subtype) {
+    0: return string(Paint_Nuriro_Old);
+    1: return string(Paint_Nuriro_New);
+    2: return string(Paint_Nuriro_O);
+    3: return string(Paint_Nuriro_saemaeul);
+}
+
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_engineH_Front, cargo_subtype) {
+    0: set_Nuriro_DD_Old_engineH;
+    1: set_Nuriro_DD_New_engineH;
+    2: set_Nuriro_DD_O_Train_engineH;
+    3: set_Nuriro_DD_ITX_Saemaeul_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_panto_wagon, cargo_subtype) {
+    0: set_Nuriro_DD_Old_panto_wagon;
+    1: set_Nuriro_DD_New_panto_wagon;
+    2: set_Nuriro_DD_O_Train_panto_wagon;
+    3: set_Nuriro_DD_ITX_Saemaeul_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_wagon, cargo_subtype) {
+    0: set_Nuriro_DD_Old_wagon;
+    1: set_Nuriro_DD_New_wagon;
+    2: set_Nuriro_DD_O_Train_wagon;
+    3: set_Nuriro_DD_ITX_Saemaeul_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_engineT_Front, cargo_subtype) {
+    0: set_Nuriro_DD_Old_engineT;
+    1: set_Nuriro_DD_New_engineT;
+    2: set_Nuriro_DD_O_Train_engineT;
+    3: set_Nuriro_DD_ITX_Saemaeul_engineT;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_engineH_Back, cargo_subtype) {
+    0: set_Nuriro_DD_Old_engineH_Rev;
+    1: set_Nuriro_DD_New_engineH_Rev;
+    2: set_Nuriro_DD_O_Train_engineH_Rev;
+    3: set_Nuriro_DD_ITX_Saemaeul_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_engineT_Back, cargo_subtype) {
+    0: set_Nuriro_DD_Old_engineT_Rev;
+    1: set_Nuriro_DD_New_engineT_Rev;
+    2: set_Nuriro_DD_O_Train_engineT_Rev;
+    3: set_Nuriro_DD_ITX_Saemaeul_engineT_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_engineH, train_is_driving_backwards) {
+    0: sw_Nuriro_DD_engineH_Front;
+    1: sw_Nuriro_DD_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_engineT, train_is_driving_backwards) {
+    0: sw_Nuriro_DD_engineT_Front;
+    1: sw_Nuriro_DD_engineT_Back;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_engine_Free, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_Nuriro_DD_engineT;
+    sw_Nuriro_DD_engineH;
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_wagon_Free, position_in_consist) {
+    1: sw_Nuriro_DD_panto_wagon;
+    sw_Nuriro_DD_wagon;
+}

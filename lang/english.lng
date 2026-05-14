@@ -80,11 +80,15 @@ STR_NEL_8100_NAME                                      :NEL 8100
 STR_NEL_8200_NAME                                      :NEL 8200
 STR_Group_Nuriro_NAME                                  :Korail 200000 series EMU (NURIRO)
 STR_Nuriro_4Car_NAME                                   :[4Car] Korail 200000 series EMU (NURIRO)
+STR_Nuriro_Free_NAME                                   :[Free] Korail 200000 series EMU (NURIRO)
+NAME_Nuriro_DD                                         :[Free] Nuriro DD
 STR_OEL_8000_NAME                                      :OEL 8000
 STR_Group_RDC_NAME                                     :RDC Diesel
 STR_RDC_3Car_NAME                                      :[3Car] RDC Diesel
 STR_RDC_4Car_NAME                                      :[4Car] RDC Diesel
 STR_TTX_6Car_NAME                                      :[6Car] TTX
+NAME_VHST_600X                                         :[Free] VHST-600X
+NAME_Transparency                                      :Transparency Vehicle
 
 # Chinese / locomotive's name
 STR_CRH380AJ_8Car_NAME                                 :[8Car] CRH380AJ
@@ -122,7 +126,7 @@ STR_HXD3C_NAME                                         :HXD3C
 STR_NJ2_NAME                                           :NJ2
 
 # European / locomotive's name
-STR_AGV_engine_NAME                                    :AGV (.italo) Engine
+NAME_AGV_11Car                                         :[11Car] AGV (.italo)
 STR_BB15000_NAME                                       :SNCF BB15000
 STR_Group_Eurostar_E300_NAME                           :Eurostar E300
 STR_Eurostar_E300_16Car_NAME                           :[16Car] Eurostar E300
@@ -176,7 +180,6 @@ STR_Shinkansen_N700S_6Car_NAME                         :[6Car] Shinkansen N700S 
 STR_Shinkansen_N700S_16Car_NAME                        :[16Car] Shinkansen N700S
 
 # World / locomotive's name
-STR_Al_Boraq_engine_NAME                               :Al-Boraq Engine
 STR_Al_Boraq_10Car_NAME                                :[10Car] Al-Boraq
 STR_Avelia_Liberty_11Car_NAME                          :[11Car] Avelia Liberty
 STR_NHSRCL_E5_10Car_NAME                               :[10Car] NHSRCL E5
@@ -251,6 +254,7 @@ STR_Korail_Second_8Car_NAME                            :[8Car] Korail Rheostatic
 STR_Korail_Second_10Car_NAME                           :[10Car] Korail Rheostatic [Second]
 STR_Korail_Third_10Car_NAME                            :[10Car] Korail Rheostatic [Third]
 STR_Korail_Rheostatic_10Car_NAME                       :[10Car] Korail Rheostatic [Rheostatic]
+NAME_Nextrain                                          :[Free] Nextrain
 STR_Group_Chopper_GEC_NAME                             :Seoulmetro 2000 GEC chopper
 STR_Chopper_GEC_6Car_NAME                              :[6Car] Seoulmetro 2000 GEC chopper
 STR_Chopper_GEC_10Car_NAME                             :[10Car] Seoulmetro 2000 GEC chopper
@@ -396,8 +400,6 @@ STR_Jakarta_LRT_2Car_NAME                              :[2Car] Jakarta LRT
 STR_EMU900_10Car_NAME                                  :[10Car] EMU900
 
 # wagon's name
-STR_AGV_wagon_NAME                                     :AGV (.italo) Wagon
-STR_Al_Boraq_wagon_NAME                                :Al-Boraq Wagon
 STR_Group_Travel_wagon_NAME                            :Travel Train
 STR_A_Train_NAME                                       :[4Car] A-Train Passenger Car
 STR_Asean_Korea_NAME                                   :[7Car] ASEAN Korea
@@ -453,6 +455,23 @@ STR_ETSPASS_NAME                                       :European carriage-type p
 STR_FLAT_1F_NAME                                       :Flat Car
 STR_FLAT_Tank_NAME                                     :Flat Tank Car
 STR_FLAT_2F_NAME                                       :Flat Car - American
+NAME_Group_PEX                                         :PEX (Premium EXpress)
+NAME_PEX_N                                             :PEX 1F Car
+NAME_PEX_SN                                            :PEX Special Car
+NAME_PEX_D                                             :PEX 2F Car
+NAME_PEX_B                                             :PEX Bar Car
+NAME_PEX_S                                             :PEX Bad Car
+NAME_Group_PEX_Super                                   :PEX-Super (Premium EXpress Super)
+NAME_PEX_Super_N                                       :PEX-SUPER regular class
+NAME_PEX_Super_SN                                      :PEX-SUPER first class
+NAME_PEX_Super_D                                       :PEX-SUPER 2F
+NAME_PEX_Super_B                                       :PEX-SUPER restaurant
+NAME_PEX_Super_S                                       :PEX-SUPER sleeping car
+NAME_PEX_Super_Generatar                               :PEX-SUPER generator Car
+NAME_PEX_Super_Post                                    :PEX-SUPER POST car
+NAME_Showcase_Flat_1F                                  :[Showcase] Flat Car
+NAME_Train_Car                                         :Train Car
+NAME_VPassenger                                        :Virtual carriage-type passenger transport vehicle
 
 # Parameters
 STR_PARAM_max_virtual_speed_NAME                       :Virtual speed
@@ -487,15 +506,16 @@ STR_PARAM_Passengercar_Real_speed_NAME                 :Controls the speed of th
 STR_PARAM_Passengercar_Real_speed_DESC                 :Check the actual carriage speed if desired.{}- Basic: Passenger car speed limit
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
-STR_TRAIN_DESC:{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{STRING}
-STR_Train_Informagion:{BLACK}{STRING}
-STR_Train_Formation:Train Formation: {GREEN}{STRING}
-STR_Connent:Train connenting: {GREEN}{STRING}
+TRAIN_DESC:{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{STRING}
+Informagion:{BLACK}{STRING}
+How_To_Use:{BLACK}{STRING}
+Recommended_Connection:{GREEN}{STRING}
 
-STR_REFIT_additional_text_Trian_informagion            :Information
+Trian_informagion                                      :Information
 
-STR_REFIT_additional_text_Free                         :Free Connenting
-STR_REFIT_additional_text_Fixed                        :Fixed Connenting
+Free                                                   :- For use on freely formed trains.{}- Can be used independently.
+Use_Free                                               :- Consists of common carriages.
+Add_wagon                                              :- Adding a passenger car as a common car
 
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}train configuration {}{GREEN} A-Train Passenger Car
 STR_REFIT_train_configuration_Asean_Korea              :{BLACK}train configuration {}{GREEN} ASEAN Korea Train
@@ -671,22 +691,6 @@ STR_REFIT_LIVERY_KTX_Sancheon_SRTA2                    : SRT+KTX-Sancheon A2
 STR_REFIT_LIVERY_KTX_Sancheon_SRTB                     : SRT+KTX-Sancheon B1
 STR_REFIT_LIVERY_NEL_8100_A                            : NEL 8100 A
 STR_REFIT_LIVERY_NEL_8100_B                            : NEL 8100 B
-STR_REFIT_LIVERY_Nuriro_Old                            : Nuriro Old
-STR_REFIT_LIVERY_Nuriro_New                            : Nuriro New
-STR_REFIT_LIVERY_Nuriro_A                              : Nuriro A
-STR_REFIT_LIVERY_Nuriro_B                              : Nuriro B
-STR_REFIT_LIVERY_Nuriro_O                              : Nuriro O-Train
-STR_REFIT_LIVERY_Nuriro_DS                             : Nuriro Donghae Santa
-STR_REFIT_LIVERY_Nuriro_AB                             : Nuriro Old+New
-STR_REFIT_LIVERY_Nuriro_AC                             : Nuriro Old+Raping A
-STR_REFIT_LIVERY_Nuriro_AD                             : Nuriro Old+Raping B
-STR_REFIT_LIVERY_Nuriro_BA                             : Nuriro New+Old
-STR_REFIT_LIVERY_Nuriro_BC                             : Nuriro New+Raping A
-STR_REFIT_LIVERY_Nuriro_BD                             : Nuriro New+Raping B
-STR_REFIT_LIVERY_Nuriro_CA                             : Nuriro Raping A+Old
-STR_REFIT_LIVERY_Nuriro_CB                             : Nuriro Raping A+New
-STR_REFIT_LIVERY_Nuriro_DA                             : Nuriro Raping B+Old
-STR_REFIT_LIVERY_Nuriro_DB                             : Nuriro Raping B+New
 STR_REFIT_LIVERY_OEL8000_I1                            : 1st Early livery
 STR_REFIT_LIVERY_OEL8000_I2                            : 2nd Early livery
 STR_REFIT_LIVERY_OEL8000_O1                            : 1st Old livery
@@ -1285,3 +1289,19 @@ STR_REFIT_LIVERY_Original_HF_Passenger_Car             : 1/2 1,2nd Livery
 STR_REFIT_LIVERY_FlatCC                                : Flat Car Company Color
 STR_REFIT_LIVERY_FlatPCC                               : Flat Car Trailer Color
 STR_REFIT_LIVERY_FlatP2CC                              : Flat Car Trailer 2CC Color
+
+Paint_Nuriro_Old                                       : Old
+Paint_Nuriro_New                                       : New
+Paint_Nuriro_A                                         : A type
+Paint_Nuriro_B                                         : B type
+Paint_Nuriro_O                                         : O-Train
+Paint_Nuriro_DS                                        : Donghae Santa
+Paint_Nuriro_saemaeul                                  : ITX-saemaeul
+Paint_VPassenger_BR                                    : Default Color
+Paint_VPassenger_Taegeuk                               : Taegeuk Color
+
+# Errors
+ERROR_NOT_ENOUGH_LENGTH3                               :It's too short. It should be equal or more than 3 cars at least.
+ERROR_NOT_ENOUGH_LENGTH4                               :It's too short. It should be equal or more than 4 cars at least.
+ERROR_NOT_ENOUGH_LENGTH6                               :It's too short. It should be equal or more than 6 cars at least.
+ERROR_NOT_ENOUGH_LENGTH8                               :It's too short. It should be equal or more than 8 cars at least.

@@ -76,6 +76,15 @@ item(FEAT_TRAINS, H2_WJ_2Car, 2008){
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_Nostart_sound;
+        additional_text:                string(TRAIN_DESC,
+                                        string(Informagion, string(Trian_informagion)),
+                                        string(How_To_Use, string(Add_wagon)));
+        }
+    
+    livery_override(Train_Car) {
+        default:                        set_H2_WJ_wagon;
+        loading_speed:                  25;
+        cargo_capacity:                 48;
         }
         }
 

@@ -1,6 +1,34 @@
 # ID
 |GRFID|열차명|
 |:---:|:---|
+|1000|Showcase_Flat_1F|
+|1001|VPassenger|
+|1002|PEX_Super|
+|1003|PEX_Super_N|
+|1004|PEX_Super_SN|
+|1005|PEX_Super_D|
+|1006|PEX_Super_B|
+|1007|PEX_Super_S|
+|1008|PEX|
+|1009|PEX_N|
+|1010|PEX_SN|
+|1011|PEX_D|
+|1012|PEX_B|
+|1013|PEX_S|
+|1014|PEX_Super_Post|
+|1015|PEX_Super_Generatar|
+|1016|Nextrain|
+|1017|Train_Car|
+|1018|VHST_600X|
+|1019|Transparency|
+|1020|Nuriro_Free|
+|1021|Nuriro_DD|
+|1022||
+|1023||
+|1024||
+|1025||
+|1026||
+|1027||
 |2001|CY_GW_6Car|
 |2002|G_Train|
 |2003|Generatar_2cc|
@@ -25,8 +53,7 @@
 |2022|Hankyu_8000_6Car|
 |2023|Hankyu_8300_6Car|
 |2024|KTX_Sancheon_10Car|
-|2025|AGV_engine|
-|2026|AGV_wagon|
+|~2026|[공백] |
 |2027|HSR_350X_7Car|
 |2028|HEMU_430X_6Car|
 |2029|VHST_600X_8Car|
@@ -63,7 +90,7 @@
 |2060|[1.72 삭제예정]|
 |2061|ESPassenger_Car|
 |2062|Shinkansen_500_16Car|
-|2060|[1.72 삭제예정]|
+|2063|AGV_11Car|
 |2064|BB15000|
 |2065|Eurostar_E300_20Car|
 |2066|Eurostar_E320_16Car|
@@ -106,9 +133,8 @@
 |2103|Nishitetsu_8000_6Car|
 |2104|Nishitetsu_9000_2Car|
 |2105|Nishitetsu_3000_5Car|
-|2106|Al_Boraq_engine|
+|2106|[공백] |
 |2107|Nishitetsu_5000_4Car|
-|2108|Al_Boraq_wagon|
 |~2112|[공백] |
 |2113|Nishitetsu_9000_3Car|
 |2114|FLAT_2F|

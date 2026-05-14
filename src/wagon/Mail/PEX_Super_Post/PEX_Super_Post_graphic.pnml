@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_PEX_Super_Post_wagon_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/PEX_Super_Post/PEX_Super_Post.png") {
+    DTS_temp(80, 0)
+}
+
+spriteset(set_PEX_Super_Post_wagon_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/PEX_Super_Post/PEX_Super_Post.png") {
+    DTS_temp(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_PEX_Super_Post_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/PEX_Super_Post/PEX_Super_Post.png"){
+    tmpl_wagon_purchase(0, 0)
+}

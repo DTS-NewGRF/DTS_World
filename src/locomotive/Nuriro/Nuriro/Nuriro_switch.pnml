@@ -3,12 +3,12 @@
 --------------------------------------------------------------------*/
 //도색명
 switch(FEAT_TRAINS, SELF, sw_Nuriro_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Nuriro_Old); // 구도색
-    1: return string(STR_REFIT_LIVERY_Nuriro_New); // 신도색
-    2: return string(STR_REFIT_LIVERY_Nuriro_A);   // 한류관광
-    3: return string(STR_REFIT_LIVERY_Nuriro_B);   // 순천향대
-    4: return string(STR_REFIT_LIVERY_Nuriro_O);   // O-Train
-    5: return string(STR_REFIT_LIVERY_Nuriro_DS);  // 동해산타
+    0: return string(Paint_Nuriro_Old); // 구도색
+    1: return string(Paint_Nuriro_New); // 신도색
+    2: return string(Paint_Nuriro_A);   // 한류관광
+    3: return string(Paint_Nuriro_B);   // 순천향대
+    4: return string(Paint_Nuriro_O);   // O-Train
+    5: return string(Paint_Nuriro_DS);  // 동해산타
 }
 
 // 도색그래픽 세팅
@@ -50,6 +50,15 @@ switch(FEAT_TRAINS, SELF, sw_Nuriro_engineT_Front, cargo_subtype) {
     5: set_Nuriro_DS_engineT;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Nuriro_engineT_Free_Front, cargo_subtype) {
+    0: set_Nuriro_Old_engineT_Free;
+    1: set_Nuriro_New_engineT_Free;
+    2: set_Nuriro_A_engineT_Free;
+    3: set_Nuriro_B_engineT_Free;
+    4: set_Nuriro_O_engineT_Free;
+    5: set_Nuriro_DS_engineT_Free;
+}
+
 // 후진방향
 switch(FEAT_TRAINS, SELF, sw_Nuriro_engineH_Back, cargo_subtype) {
     0: set_Nuriro_Old_engineH_Rev;
@@ -78,6 +87,15 @@ switch(FEAT_TRAINS, SELF, sw_Nuriro_engineT_Back, cargo_subtype) {
     5: set_Nuriro_DS_engineT_Rev;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Nuriro_engineT_Free_Back, cargo_subtype) {
+    0: set_Nuriro_Old_engineT_Free_Rev;
+    1: set_Nuriro_New_engineT_Free_Rev;
+    2: set_Nuriro_A_engineT_Free_Rev;
+    3: set_Nuriro_B_engineT_Free_Rev;
+    4: set_Nuriro_O_engineT_Free_Rev;
+    5: set_Nuriro_DS_engineT_Free_Rev;
+}
+
 // 전후진 통합 코드
 switch(FEAT_TRAINS, SELF, sw_Nuriro_engineH, train_is_driving_backwards) {
     0: sw_Nuriro_engineH_Front;
@@ -94,7 +112,24 @@ switch(FEAT_TRAINS, SELF, sw_Nuriro_engineT, train_is_driving_backwards) {
     1: sw_Nuriro_engineT_Back;
 }
 
-// 편성그래픽
+switch(FEAT_TRAINS, SELF, sw_Nuriro_engineT_Free, train_is_driving_backwards) {
+    0: sw_Nuriro_engineT_Free_Front;
+    1: sw_Nuriro_engineT_Free_Back;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_Nuriro_engine_Free, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_Nuriro_engineT_Free;
+    sw_Nuriro_engineH;
+}
+
+// 자유편성 객차
+switch(FEAT_TRAINS, SELF, sw_Nuriro_wagon_Free, position_in_consist) {
+    1: sw_Nuriro_panto_wagon;
+    sw_Nuriro_wagon;
+}
+
+// 고정 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Nuriro_4Car, position_in_vehid_chain % 4) {
     0: sw_Nuriro_engineH; //default
     1: sw_Nuriro_panto_wagon;

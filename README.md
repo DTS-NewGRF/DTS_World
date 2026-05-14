@@ -6,6 +6,7 @@
 2023년 5월 `Derivative Train Set 파생형 열차세트 / DTS`로 다시 통합하여 진행을 시작했다.<br>
 2024년 1월 `Diversity Train Set 다양성 열차세트 / DTS`로 이름을 변경하여 다양한 열차들을 수용하는데 적극적으로 추가진행하고 있다.<br>
 2026년 3월 4일 `World Diversity Train Set 월드 다양성 열차세트 / DTS_World`로 이름을 변경하여 실존 열차 위주로 관리하며, 가상열차는 별도로 분리되었다.<br>
+2026년 5월 14일 가상열차셋과 재통합하였다.<br>
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_World/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 등록기준

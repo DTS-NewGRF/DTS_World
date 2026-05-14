@@ -1,0 +1,117 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+Nuriro_DD Old
+--------------------------------------------------------------------*/
+spriteset(set_Nuriro_DD_Old_engineH, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_Old.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Nuriro_DD_Old_engineH_Rev, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_Old.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Nuriro_DD_Old_panto_wagon, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_Old.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Nuriro_DD_Old_wagon, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_Old.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Nuriro_DD_Old_engineT_Rev, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_Old.png"){
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_Nuriro_DD_Old_engineT, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_Old.png"){
+    DTS_temp_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+Nuriro_DD New
+--------------------------------------------------------------------*/
+spriteset(set_Nuriro_DD_New_engineH, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_New.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Nuriro_DD_New_engineH_Rev, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_New.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Nuriro_DD_New_panto_wagon, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_New.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Nuriro_DD_New_wagon, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_New.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Nuriro_DD_New_engineT_Rev, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_New.png"){
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_Nuriro_DD_New_engineT, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_New.png"){
+    DTS_temp_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+Nuriro_DD O-Train
+--------------------------------------------------------------------*/
+spriteset(set_Nuriro_DD_O_Train_engineH, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_O_Train.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Nuriro_DD_O_Train_engineH_Rev, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_O_Train.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Nuriro_DD_O_Train_panto_wagon, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_O_Train.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Nuriro_DD_O_Train_wagon, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_O_Train.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Nuriro_DD_O_Train_engineT_Rev, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_O_Train.png"){
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_Nuriro_DD_O_Train_engineT, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_O_Train.png"){
+    DTS_temp_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+Nuriro_DD ITX-Saemaeul
+--------------------------------------------------------------------*/
+spriteset(set_Nuriro_DD_ITX_Saemaeul_engineH, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Nuriro_DD_ITX_Saemaeul_engineH_Rev, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Nuriro_DD_ITX_Saemaeul_panto_wagon, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Nuriro_DD_ITX_Saemaeul_wagon, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Nuriro_DD_ITX_Saemaeul_engineT_Rev, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png"){
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_Nuriro_DD_ITX_Saemaeul_engineT, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png"){
+    DTS_temp_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Nuriro_DD_purchase, "src/locomotive/Nuriro/Nuriro_DD/Nuriro_DD_Old.png"){
+    tmpl_purchase_for_dualhead(0, 0)
+}

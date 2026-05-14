@@ -78,12 +78,16 @@ STR_MSB_Speeder_NAME                                   :MSB 모터카
 STR_NEL_8100_NAME                                      :8100호대 전기기관차
 STR_NEL_8200_NAME                                      :8200호대 전기기관차
 STR_Group_Nuriro_NAME                                  :한국철도공사 200000호대 전동차 (누리로)
-STR_Nuriro_4Car_NAME                                   :[4량] 한국철도공사 200000호대 전동차 (누리로)
+STR_Nuriro_4Car_NAME                                   :[4량] 누리로
+STR_Nuriro_Free_NAME                                   :[자유] 누리로
+NAME_Nuriro_DD                                         :[자유] 누리로 DD
 STR_OEL_8000_NAME                                      :8000호대 전기기관차
 STR_Group_RDC_NAME                                     :RDC 디젤동차
 STR_RDC_3Car_NAME                                      :[3량] RDC 디젤동차
 STR_RDC_4Car_NAME                                      :[4량] RDC 디젤동차
 STR_TTX_6Car_NAME                                      :[6량] TTX
+NAME_VHST_600X                                         :[자유] VHST-600X
+NAME_Transparency                                      :투명기관차
 
 # Chinese / locomotive's name
 STR_CRH380AJ_8Car_NAME                                 :[8량] CRH380AJ
@@ -121,7 +125,7 @@ STR_HXD3C_NAME                                         :HXD3C
 STR_NJ2_NAME                                           :NJ2
 
 # European / locomotive's name
-STR_AGV_engine_NAME                                    :AGV (이탈로) 기관차
+NAME_AGV_11Car                                         :[11량] AGV (이탈로)
 STR_BB15000_NAME                                       :SNCF BB15000
 STR_Group_Eurostar_E300_NAME                           :유로스타 E300
 STR_Eurostar_E300_16Car_NAME                           :[16량] 유로스타 E300
@@ -175,7 +179,6 @@ STR_Shinkansen_N700S_6Car_NAME                         :[6량] 신칸센 N700S�
 STR_Shinkansen_N700S_16Car_NAME                        :[16량] 신칸센 N700S계
 
 # World / locomotive's name
-STR_Al_Boraq_engine_NAME                               :알 보라크 기관차
 STR_Al_Boraq_10Car_NAME                                :[10량] 알 보라크
 STR_Avelia_Liberty_11Car_NAME                          :[11량] 아벨리아 리버티
 STR_NHSRCL_E5_10Car_NAME                               :[10량] NHSRCL E5
@@ -250,6 +253,7 @@ STR_Korail_Second_8Car_NAME                            :[8량] 한국철도공�
 STR_Korail_Second_10Car_NAME                           :[10량] 한국철도공사 저항제어 전동차 [중기저항]
 STR_Korail_Third_10Car_NAME                            :[10량] 한국철도공사 저항제어 전동차 [신조저항]
 STR_Korail_Rheostatic_10Car_NAME                       :[10량] 한국철도공사 저항제어 전동차 [개조저항]
+NAME_Nextrain                                          :[자유] 넥스트레인
 STR_Group_Chopper_GEC_NAME                             :서울교통공사 2000호대 GEC초퍼
 STR_Chopper_GEC_6Car_NAME                              :[6량] 서울교통공사 2000호대 GEC초퍼
 STR_Chopper_GEC_10Car_NAME                             :[10량] 서울교통공사 2000호대 GEC초퍼
@@ -395,8 +399,6 @@ STR_Jakarta_LRT_2Car_NAME                              :[2량] 자카르타 LRT
 STR_EMU900_10Car_NAME                                  :[10량] EMU900
 
 # wagon's name
-STR_AGV_wagon_NAME                                     :AGV (이탈로) 객차
-STR_Al_Boraq_wagon_NAME                                :알 보라크 객차
 STR_Group_Travel_wagon_NAME                            :관광열차
 STR_A_Train_NAME                                       :[4량] A-Train
 STR_Asean_Korea_NAME                                   :[7량] 한-아세안
@@ -452,6 +454,23 @@ STR_ETSPASS_NAME                                       :유럽 객차 차량
 STR_FLAT_1F_NAME                                       :평판화차
 STR_FLAT_Tank_NAME                                     :평판유조 화차
 STR_FLAT_2F_NAME                                       :평판화차 - 미국형
+NAME_Group_PEX                                         :PEX (Premium EXpress)
+NAME_PEX_N                                             :PEX 1층 차량
+NAME_PEX_SN                                            :PEX 특실 차량
+NAME_PEX_D                                             :PEX 2층 차량
+NAME_PEX_B                                             :PEX 식당칸
+NAME_PEX_S                                             :PEX 침대칸
+NAME_Group_PEX_Super                                   :PEX-Super (Premium EXpress Super)
+NAME_PEX_Super_N                                       :PEX-SUPER 일반실
+NAME_PEX_Super_SN                                      :PEX-SUPER 특실
+NAME_PEX_Super_D                                       :PEX-SUPER 2층
+NAME_PEX_Super_B                                       :PEX-SUPER 식당차
+NAME_PEX_Super_S                                       :PEX-SUPER 침대차
+NAME_PEX_Super_Generatar                               :PEX-SUPER 발전차
+NAME_PEX_Super_Post                                    :PEX-SUPER 우편객차
+NAME_Showcase_Flat_1F                                  :[진열용] 평판화차
+NAME_Train_Car                                         :공통 객차
+NAME_VPassenger                                        :가상 객차 차량
 
 # Parameters
 STR_PARAM_max_virtual_speed_NAME                       :가상속도 적용
@@ -487,14 +506,16 @@ STR_PARAM_Passengercar_Real_speed_DESC                 :실제 객차 속도를 
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
 # Refit (Additional text)
-STR_TRAIN_DESC:{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{STRING}
-STR_Train_Informagion:{BLACK}{STRING}
-STR_Train_Formation:열차편성: {GREEN}{STRING}
+TRAIN_DESC:{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{STRING}
+Informagion:{BLACK}{STRING}
+How_To_Use:{BLACK}{STRING}
+Recommended_Connection:{GREEN}{STRING}
 
-STR_REFIT_additional_text_Trian_informagion            :정보
+Trian_informagion                                      :정보
 
-STR_REFIT_additional_text_Free                         :자유편성
-STR_REFIT_additional_text_Fixed                        :고정편성
+Free                                                   :- 자유편성 열차에 사용.{}- 단독 사용가능
+Use_Free                                               :- 공통객차로 객차 구성.
+Add_wagon                                              :- 공통객차로 객차 추가
 
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] A-Train
 STR_REFIT_train_configuration_Asean_Korea              :{BLACK}열차구성 {}{GREEN}[관광열차] 한-아세안
@@ -670,22 +691,6 @@ STR_REFIT_LIVERY_KTX_Sancheon_SRTA2                    : SRT+KTX-산천 A2
 STR_REFIT_LIVERY_KTX_Sancheon_SRTB                     : SRT+KTX-산천 B타입
 STR_REFIT_LIVERY_NEL_8100_A                            : 구도색
 STR_REFIT_LIVERY_NEL_8100_B                            : 신도색
-STR_REFIT_LIVERY_Nuriro_Old                            : 누리로 구도색
-STR_REFIT_LIVERY_Nuriro_New                            : 누리로 신도색
-STR_REFIT_LIVERY_Nuriro_A                              : 누리로 한류관광
-STR_REFIT_LIVERY_Nuriro_B                              : 누리로 순천향대 강의실
-STR_REFIT_LIVERY_Nuriro_O                              : 누리로 O-Train
-STR_REFIT_LIVERY_Nuriro_DS                             : 누리로 동해산타
-STR_REFIT_LIVERY_Nuriro_AB                             : 누리로 구도색+신도색
-STR_REFIT_LIVERY_Nuriro_AC                             : 누리로 구도색+한류관광
-STR_REFIT_LIVERY_Nuriro_AD                             : 누리로 구도색+순천향대
-STR_REFIT_LIVERY_Nuriro_BA                             : 누리로 신도색+구도색
-STR_REFIT_LIVERY_Nuriro_BC                             : 누리로 신도색+한류관광
-STR_REFIT_LIVERY_Nuriro_BD                             : 누리로 신도색+순천향대
-STR_REFIT_LIVERY_Nuriro_CA                             : 누리로 한류관광+구도색
-STR_REFIT_LIVERY_Nuriro_CB                             : 누리로 한류관광+신도색
-STR_REFIT_LIVERY_Nuriro_DA                             : 누리로 순천향대+구도색
-STR_REFIT_LIVERY_Nuriro_DB                             : 누리로 순천향대+신도색
 STR_REFIT_LIVERY_OEL8000_I1                            : 초기형 초기도색
 STR_REFIT_LIVERY_OEL8000_I2                            : 후기형 초기도색
 STR_REFIT_LIVERY_OEL8000_O1                            : 초기형 구도색
@@ -1284,3 +1289,19 @@ STR_REFIT_LIVERY_Original_HF_Passenger_Car             : 1/2 1,2등석
 STR_REFIT_LIVERY_FlatCC                                : 평판화차 회사색상
 STR_REFIT_LIVERY_FlatPCC                               : 평판화차 패기형 회사색상
 STR_REFIT_LIVERY_FlatP2CC                              : 평판화차 패기형 2CC
+
+Paint_Nuriro_Old                                       : 구도색
+Paint_Nuriro_New                                       : 신도색
+Paint_Nuriro_A                                         : 한류관광
+Paint_Nuriro_B                                         : 순천향대 강의실
+Paint_Nuriro_O                                         : O-Train
+Paint_Nuriro_DS                                        : 동해산타
+Paint_Nuriro_saemaeul                                  : ITX-새마을
+Paint_VPassenger_BR                                    : 기본 도색
+Paint_VPassenger_Taegeuk                               : 태극 도색
+
+# Errors
+ERROR_NOT_ENOUGH_LENGTH3                               :열차 길이가 너무 짧습니다. 최소한 3량 이상을 연결해야 합니다.
+ERROR_NOT_ENOUGH_LENGTH4                               :열차 길이가 너무 짧습니다. 최소한 4량 이상을 연결해야 합니다.
+ERROR_NOT_ENOUGH_LENGTH6                               :열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.
+ERROR_NOT_ENOUGH_LENGTH8                               :열차 길이가 너무 짧습니다. 최소한 8량 이상을 연결해야 합니다.

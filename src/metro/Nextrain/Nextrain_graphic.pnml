@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+넥스트레인
+--------------------------------------------------------------------*/
+spriteset(set_Nextrain_engineH, "src/metro/Nextrain/Nextrain.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Nextrain_engineH_Rev, "src/metro/Nextrain/Nextrain.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Nextrain_wagon, "src/metro/Nextrain/Nextrain.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Nextrain_engineT_Rev, "src/metro/Nextrain/Nextrain.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_Nextrain_engineT, "src/metro/Nextrain/Nextrain.png"){
+    DTS_temp_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_Nextrain_purchase, "src/metro/Nextrain/Nextrain.png"){
+    tmpl_purchase_for_dualhead(0, 0)
+}

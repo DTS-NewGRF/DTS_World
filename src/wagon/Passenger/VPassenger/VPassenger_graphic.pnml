@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_VPassenger_wagon, "src/wagon/Passenger/VPassenger/VPassenger.png") {
+    DTS_temp(80, 0)
+}
+
+spriteset(set_VPassenger_Taegeuk_wagon, "src/wagon/Passenger/VPassenger/VPassenger.png") {
+    DTS_temp(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_VPassenger_wagon_purchase, "src/wagon/Passenger/VPassenger/VPassenger.png"){
+    tmpl_wagon_purchase(0, 0)
+}
