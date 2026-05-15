@@ -234,6 +234,7 @@ sort(FEAT_TRAINS, [
     KTX_Cheong_Ryong_8Car,                   //2229
     KTX_Cheong_Ryong_16Car,                  //2428
     KTX_Sancheon_10Car,                      //2024
+    KTX_Sancheon_engine,                     //1029
     
     // CRH 중국고속열차
     CRH_Logo,                                //2518
@@ -426,9 +427,9 @@ sort(FEAT_TRAINS, [
     Nextrain_wagon,                          //1019
     Nuriro_wagon,                            //1024
     Nuriro_DD_wagon,                         //1026
+    KTX_Sancheon_wagon,                      //1030
+    KTX_Sancheon_DD_wagon,                   //1031
     KTX_Taegeuk_wagon,                       //1028
-    KTX_Taegeuk_8Car_wagon,                  //1029
-    KTX_Taegeuk_16Car_wagon,                 //1030
     VHST_600X_wagon,                         //1021
     Travel_wagon,                            //2210
     A_Train_Passenger_Car,                   //2164

@@ -71,8 +71,6 @@ STR_KTX_Cheong_Ryong_16Car_NAME                        :[16량] KTX-청룡
 STR_Group_KTX_Eum_NAME                                 :KTX-이음
 STR_KTX_Eum_6Car_NAME                                  :[6량] KTX-이음
 STR_KTX_Eum_12Car_NAME                                 :[12량] KTX-이음
-STR_Group_KTX_Sancheon_NAME                            :KTX-산천
-STR_KTX_Sancheon_10Car_NAME                            :[10량] KTX-산천, SRT
 STR_MSB_Speeder_NAME                                   :MSB 모터카
 STR_NEL_8100_NAME                                      :8100호대 전기기관차
 STR_NEL_8200_NAME                                      :8200호대 전기기관차
@@ -610,28 +608,6 @@ STR_REFIT_LIVERY_KTX_Eum                               : KTX-이음
 STR_REFIT_LIVERY_KTX_Eum_1st_2nd                       : KTX-이음 1세대+2세대
 STR_REFIT_LIVERY_KTX_Eum_2nd_1st                       : KTX-이음 2세대+1세대
 STR_REFIT_LIVERY_KTX_Eum_2nd                           : KTX-이음 2세대
-STR_REFIT_LIVERY_KTX_Sancheon_A1                       : KTX-산천 A타입 초도분
-STR_REFIT_LIVERY_KTX_Sancheon_A2                       : KTX-산천 A타입 후기분
-STR_REFIT_LIVERY_KTX_Sancheon_B                        : KTX-산천 B타입
-STR_REFIT_LIVERY_KTX_Sancheon_BP                       : KTX-산천 B타입 2018 평창올림픽 도색
-STR_REFIT_LIVERY_SRT                                   : SRT
-STR_REFIT_LIVERY_SRT_2cc                               : SRT 2cc
-STR_REFIT_LIVERY_KTX_Sancheon_A1A2                     : KTX-산천 A1+A2
-STR_REFIT_LIVERY_KTX_Sancheon_A1SRT                    : KTX-산천 A1+SRT
-STR_REFIT_LIVERY_KTX_Sancheon_A1B                      : KTX-산천 A1+B타입
-STR_REFIT_LIVERY_KTX_Sancheon_A1BP                     : KTX-산천 A1+평창도색
-STR_REFIT_LIVERY_KTX_Sancheon_A2A1                     : KTX-산천 A2+A1
-STR_REFIT_LIVERY_KTX_Sancheon_A2SRT                    : KTX-산천 A2+SRT
-STR_REFIT_LIVERY_KTX_Sancheon_A2B                      : KTX-산천 A2+B타입
-STR_REFIT_LIVERY_KTX_Sancheon_A2BP                     : KTX-산천 A2+평창도색
-STR_REFIT_LIVERY_KTX_Sancheon_BA1                      : KTX-산천 B타입+A1
-STR_REFIT_LIVERY_KTX_Sancheon_BA2                      : KTX-산천 B타입+A2
-STR_REFIT_LIVERY_KTX_Sancheon_BSRT                     : KTX-산천 B타입+SRT
-STR_REFIT_LIVERY_KTX_Sancheon_BPA1                     : KTX-산천 평창도색+A1
-STR_REFIT_LIVERY_KTX_Sancheon_BPA2                     : KTX-산천 평창도색+A2
-STR_REFIT_LIVERY_KTX_Sancheon_SRTA1                    : SRT+KTX-산천 A1
-STR_REFIT_LIVERY_KTX_Sancheon_SRTA2                    : SRT+KTX-산천 A2
-STR_REFIT_LIVERY_KTX_Sancheon_SRTB                     : SRT+KTX-산천 B타입
 STR_REFIT_LIVERY_NEL_8100_A                            : 구도색
 STR_REFIT_LIVERY_NEL_8100_B                            : 신도색
 STR_REFIT_LIVERY_OEL8000_I1                            : 초기형 초기도색
@@ -1234,12 +1210,15 @@ STR_REFIT_LIVERY_FlatPCC                               : 평판화차 패기형 
 STR_REFIT_LIVERY_FlatP2CC                              : 평판화차 패기형 2CC
 
 # locomotive's name
+NAME_Group_KTX_Sancheon                                :KTX-산천
+NAME_KTX_Sancheon_10Car                                :[10량] KTX-산천, SRT
+NAME_KTX_Sancheon_engine                               :[자유] KTX-산천
 NAME_Group_Nuriro                                      :한국철도공사 200000호대 전동차 (누리로)
 NAME_H2_WJ_engine                                      :[자유] 우진산전 수소연료전지동차
 NAME_Nuriro_4Car                                       :[4량] 누리로
 NAME_Nuriro_engine                                     :[자유] 누리로
 NAME_Nuriro_DD_engine                                  :[자유] 누리로 DD
-NAME_KTX_Taegeuk_engine                                :KTX-태극
+NAME_KTX_Taegeuk_engine                                :[자유] KTX-태극
 NAME_Transparency                                      :투명기관차
 NAME_VHST_600X_engine                                  :[자유] VHST-600X
 
@@ -1250,12 +1229,12 @@ NAME_Nextrain_engine                                   :[자유] 넥스트레인
 NAME_Showcase_Flat_1F                                  :[진열용] 평판화차
 
 # Wagon's name
-NAME_Group_KTX_Taegeuk_wagon                           :[객차] KTX-태극
-NAME_KTX_Taegeuk_8Car_wagon                            :[8량] KTX-태극
-NAME_KTX_Taegeuk_16Car_wagon                           :[16량] KTX-태극
 NAME_Group_PEX                                         :PEX (Premium EXpress)
 NAME_Group_PEX_Super                                   :PEX-Super (Premium EXpress Super)
 NAME_H2_WJ_wagon                                       :[객차] 우진산전 수소연료전지동차
+NAME_KTX_Sancheon_wagon                                :[객차] KTX-산천
+NAME_KTX_Sancheon_DD_wagon                             :[객차] KTX-산천 DD
+NAME_KTX_Taegeuk_wagon                                 :[객차] KTX-태극
 NAME_Nextrain_wagon                                    :[객차] 넥스트레인
 NAME_Nuriro_wagon                                      :[객차] 누리로
 NAME_Nuriro_DD_wagon                                   :[객차] 누리로 DD
@@ -1308,6 +1287,14 @@ Param_Name_Semi_High_Speed_Train                       :가상 준고속열차 �
 Param_Name_World                                       :월드형 열차 사용 금지
 
 # Liveries Locomotive
+Livery_KTX_Gyeonggang_Blue                             : KTX-산천 경강선 시안 1안
+Livery_KTX_Gyeonggang_White                            : KTX-산천 경강선 컨셉
+Livery_KTX_Honam_Sky_blue                              : KTX-산천 120000호대 시안 1안
+Livery_KTX_Honam_Yellow                                : KTX-산천 120000호대 시안 2안
+Livery_KTX_Sancheon_A1                                 : KTX-산천 A타입 초도분
+Livery_KTX_Sancheon_A2                                 : KTX-산천 A타입 후기분
+Livery_KTX_Sancheon_B                                  : KTX-산천 B타입
+Livery_KTX_Sancheon_BP                                 : KTX-산천 B타입 2018 평창올림픽 도색
 Livery_Nuriro_Old                                      : 구도색
 Livery_Nuriro_New                                      : 신도색
 Livery_Nuriro_A                                        : 한류관광
@@ -1315,6 +1302,8 @@ Livery_Nuriro_B                                        : 순천향대 강의실
 Livery_Nuriro_O                                        : O-Train
 Livery_Nuriro_DS                                       : 동해산타
 Livery_Nuriro_saemaeul                                 : ITX-새마을
+Livery_SRT                                             : SRT
+Livery_SRT_2cc                                         : SRT 2cc
 
 # Liveries Metro
 # Liveries Wagon

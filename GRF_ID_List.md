@@ -30,9 +30,9 @@
 |1026|Nuriro_DD_wagon|
 |1027|KTX_Taegeuk_engine|
 |1028|KTX_Taegeuk_wagon|
-|1029|KTX_Taegeuk_8Car_wagon|
-|1030|KTX_Taegeuk_16Car_wagon|
-|1031||
+|1029|KTX_Sancheon_engine|
+|1030|KTX_Sancheon_wagon|
+|1031|KTX_Sancheon_DD_wagon|
 |2001|CY_GW_6Car|
 |2002|G_Train|
 |2003|Generatar_2cc|

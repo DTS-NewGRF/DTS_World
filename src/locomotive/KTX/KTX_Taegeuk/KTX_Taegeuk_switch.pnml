@@ -18,40 +18,39 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Taegeuk_engine, position_in_consist_from_end ==
     sw_KTX_Taegeuk_engineH;
 }
 
-// 고정편성 그래픽
-// 6량
-switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_wagon_6car, position_in_vehid_chain % 6) {
-    0: set_KTX_Taegeuk_wagon_T2; //default
-    1: set_KTX_Taegeuk_wagon_T3;
-    2: set_KTX_Taegeuk_wagon_T4;
-    3: set_KTX_Taegeuk_wagon_T5;
-    4: set_KTX_Taegeuk_wagon_T6;
-    5: set_KTX_Taegeuk_wagon_T7;
-    }
+// 객차
+switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_wagon_front, position_in_vehid_chain) {
+    0..2: set_KTX_Taegeuk_wagon_T1;
+    3..4: set_KTX_Taegeuk_wagon_T2;
+    5..6: set_KTX_Taegeuk_wagon_T3;
+    7..8: set_KTX_Taegeuk_wagon_T4;
+    9: set_KTX_Taegeuk_wagon_T5;
+    set_KTX_Taegeuk_wagon_T;
+}
 
-// 14량
-switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_wagon_14car, position_in_vehid_chain % 14) {
-     0: set_KTX_Taegeuk_wagon_T1; //default
-     1..2: set_KTX_Taegeuk_wagon_T2;
-     3: set_KTX_Taegeuk_wagon_T3;
-     4..5: set_KTX_Taegeuk_wagon_T4;
-     6: set_KTX_Taegeuk_wagon_T5;
-     7..8: set_KTX_Taegeuk_wagon_T6;
-     9..10: set_KTX_Taegeuk_wagon_T7;
-    11..12: set_KTX_Taegeuk_wagon_T8;
-    13: set_KTX_Taegeuk_wagon_T9;
-    }
+switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_wagon_back, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0..1: set_KTX_Taegeuk_wagon_T9;
+    2..3: set_KTX_Taegeuk_wagon_T8;
+    4..5: set_KTX_Taegeuk_wagon_T7;
+    6..7: set_KTX_Taegeuk_wagon_T6;
+    set_KTX_Taegeuk_wagon_T;
+}
 
-// 편성수
-switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Taegeuk_wagon_6car, extra_callback_info1) {
-    1..5: KTX_Taegeuk_8Car_wagon;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
+switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_wagon_short, position_in_vehid_chain * 2 < num_vehs_in_vehid_chain) {
+    1: sw_KTX_Taegeuk_wagon_front;
+    0: sw_KTX_Taegeuk_wagon_back;
+}
 
-switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Taegeuk_wagon_14car, extra_callback_info1) {
-    1..13: KTX_Taegeuk_16Car_wagon;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
+switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0..7: sw_KTX_Taegeuk_wagon_back;
+    sw_KTX_Taegeuk_wagon_front;
+}
+
+switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_wagon, num_vehs_in_vehid_chain) {
+     1..17:  sw_KTX_Taegeuk_wagon_short;
+    18..255: sw_KTX_Taegeuk_wagon_full;
+    set_KTX_Taegeuk_wagon_T;
+}
 
 // 1.72 삭제예정
 // 편성그래픽

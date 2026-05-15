@@ -72,8 +72,6 @@ STR_KTX_Cheong_Ryong_16Car_NAME                        :[16Car] KTX-Cheong Ryong
 STR_Group_KTX_Eum_NAME                                 :KTX-EUM
 STR_KTX_Eum_6Car_NAME                                  :[6Car] KTX-EUM
 STR_KTX_Eum_12Car_NAME                                 :[12Car] KTX-EUM
-STR_Group_KTX_Sancheon_NAME                            :KTX-Sancheon
-STR_KTX_Sancheon_10Car_NAME                            :[10Car] KTX-Sancheon, SRT
 STR_MSB_Speeder_NAME                                   :MSB Speeder
 STR_NEL_8100_NAME                                      :NEL 8100
 STR_NEL_8200_NAME                                      :NEL 8200
@@ -610,28 +608,6 @@ STR_REFIT_LIVERY_KTX_Eum                               : KTX-Eum
 STR_REFIT_LIVERY_KTX_Eum_1st_2nd                       : KTX-Eum 1st+2nd
 STR_REFIT_LIVERY_KTX_Eum_2nd_1st                       : KTX-Eum 2nd+1st
 STR_REFIT_LIVERY_KTX_Eum_2nd                           : KTX-Eum 2nd
-STR_REFIT_LIVERY_KTX_Sancheon_A1                       : KTX-Sancheon Atype 1
-STR_REFIT_LIVERY_KTX_Sancheon_A2                       : KTX-Sancheon Atype 2
-STR_REFIT_LIVERY_KTX_Sancheon_B                        : KTX-Sancheon Btype 1
-STR_REFIT_LIVERY_KTX_Sancheon_BP                       : KTX-Sancheon Btype 2
-STR_REFIT_LIVERY_SRT                                   : SRT
-STR_REFIT_LIVERY_SRT_2cc                               : SRT 2cc
-STR_REFIT_LIVERY_KTX_Sancheon_A1A2                     : KTX-Sancheon A1+A2
-STR_REFIT_LIVERY_KTX_Sancheon_A1SRT                    : KTX-Sancheon A1+SRT
-STR_REFIT_LIVERY_KTX_Sancheon_A1B                      : KTX-Sancheon A1+B1
-STR_REFIT_LIVERY_KTX_Sancheon_A1BP                     : KTX-Sancheon A1+B2
-STR_REFIT_LIVERY_KTX_Sancheon_A2A1                     : KTX-Sancheon A2+A1
-STR_REFIT_LIVERY_KTX_Sancheon_A2SRT                    : KTX-Sancheon A2+SRT
-STR_REFIT_LIVERY_KTX_Sancheon_A2B                      : KTX-Sancheon A2+B1
-STR_REFIT_LIVERY_KTX_Sancheon_A2BP                     : KTX-Sancheon A2+B2
-STR_REFIT_LIVERY_KTX_Sancheon_BA1                      : KTX-Sancheon B1+A1
-STR_REFIT_LIVERY_KTX_Sancheon_BA2                      : KTX-Sancheon B1+A2
-STR_REFIT_LIVERY_KTX_Sancheon_BSRT                     : KTX-Sancheon B1+SRT
-STR_REFIT_LIVERY_KTX_Sancheon_BPA1                     : KTX-Sancheon B2+A1
-STR_REFIT_LIVERY_KTX_Sancheon_BPA2                     : KTX-Sancheon B2+A2
-STR_REFIT_LIVERY_KTX_Sancheon_SRTA1                    : SRT+KTX-Sancheon A1
-STR_REFIT_LIVERY_KTX_Sancheon_SRTA2                    : SRT+KTX-Sancheon A2
-STR_REFIT_LIVERY_KTX_Sancheon_SRTB                     : SRT+KTX-Sancheon B1
 STR_REFIT_LIVERY_NEL_8100_A                            : NEL 8100 A
 STR_REFIT_LIVERY_NEL_8100_B                            : NEL 8100 B
 STR_REFIT_LIVERY_OEL8000_I1                            : 1st Early livery
@@ -1234,12 +1210,15 @@ STR_REFIT_LIVERY_FlatPCC                               : Flat Car Trailer Color
 STR_REFIT_LIVERY_FlatP2CC                              : Flat Car Trailer 2CC Color
 
 # locomotive's name
+NAME_Group_KTX_Sancheon                                :KTX-Sancheon
+NAME_KTX_Sancheon_10Car                                :[10Car] KTX-Sancheon, SRT
+NAME_KTX_Sancheon_engine                               :[Free] KTX-Sancheon
 NAME_Group_Nuriro                                      :Korail 200000 series EMU (NURIRO)
 NAME_H2_WJ_engine                                      :[Free] H2 by WOOJIN
 NAME_Nuriro_4Car                                       :[4Car] Korail 200000 series EMU (NURIRO)
 NAME_Nuriro_engine                                     :[Free] Korail 200000 series EMU (NURIRO)
 NAME_Nuriro_DD_engine                                  :[Free] Nuriro DD
-NAME_KTX_Taegeuk_engine                                :KTX-Taegeuk
+NAME_KTX_Taegeuk_engine                                :[Free] KTX-Taegeuk
 NAME_Transparency                                      :Transparency Vehicle
 NAME_VHST_600X_engine                                  :[Free] VHST-600X
 
@@ -1250,13 +1229,13 @@ NAME_Nextrain_engine                                   :[Free] Nextrain
 NAME_Showcase_Flat_1F                                  :[Showcase] Flat Car
 
 # Wagon's name
-NAME_Group_KTX_Taegeuk_wagon                           :[wagon] KTX Taegeuk
-NAME_KTX_Taegeuk_8Car_wagon                            :[8Car] KTX Taegeuk
-NAME_KTX_Taegeuk_16Car_wagon                           :[16Car] KTX Taegeuk
 NAME_Group_PEX                                         :PEX (Premium EXpress)
 NAME_Group_PEX_Super                                   :PEX-Super (Premium EXpress Super)
 NAME_H2_WJ_wagon                                       :[wagon] H2 by WOOJIN
 NAME_Nextrain_wagon                                    :[wagon] Nextrain
+NAME_KTX_Sancheon_wagon                                :[wagon] KTX-Sancheon
+NAME_KTX_Sancheon_DD_wagon                             :[wagon] KTX-Sancheon DD
+NAME_KTX_Taegeuk_wagon                                 :[wagon] KTX Taegeuk
 NAME_Nuriro_wagon                                      :[wagon] Korail 200000 series EMU (NURIRO)
 NAME_Nuriro_DD_wagon                                   :[wagon] Nuriro DD
 NAME_PEX_B                                             :PEX Bar Car
@@ -1308,6 +1287,14 @@ Param_Name_Semi_High_Speed_Train                       :Semi High Virtual speed 
 Param_Name_World                                       :No World trains allowed.
 
 # Liveries Locomotive
+Livery_KTX_Gyeonggang_Blue                             : KTX-Gyeonggang Blue Livery
+Livery_KTX_Gyeonggang_White                            : KTX-Gyeonggang White Livery
+Livery_KTX_Honam_Sky_blue                              : KTX-Sancheon 120000 1
+Livery_KTX_Honam_Yellow                                : KTX-Sancheon 120000 2
+Livery_KTX_Sancheon_A1                                 : KTX-Sancheon Atype 1
+Livery_KTX_Sancheon_A2                                 : KTX-Sancheon Atype 2
+Livery_KTX_Sancheon_B                                  : KTX-Sancheon Btype 1
+Livery_KTX_Sancheon_BP                                 : KTX-Sancheon Btype 2
 Livery_Nuriro_Old                                      : Old
 Livery_Nuriro_New                                      : New
 Livery_Nuriro_A                                        : A type
@@ -1315,6 +1302,8 @@ Livery_Nuriro_B                                        : B type
 Livery_Nuriro_O                                        : O-Train
 Livery_Nuriro_DS                                       : Donghae Santa
 Livery_Nuriro_saemaeul                                 : ITX-saemaeul
+Livery_SRT                                             : SRT
+Livery_SRT_2cc                                         : SRT 2cc
 
 # Liveries Metro
 # Liveries Wagon
