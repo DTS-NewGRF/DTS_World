@@ -1,0 +1,101 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_KTX_Taegeuk_engineH, train_is_driving_backwards) {
+    0: set_KTX_Taegeuk_engineH;
+    1: set_KTX_Taegeuk_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Taegeuk_engineT, train_is_driving_backwards) {
+    0: set_KTX_Taegeuk_engineT;
+    1: set_KTX_Taegeuk_engineT_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_KTX_Taegeuk_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_KTX_Taegeuk_engineT;
+    sw_KTX_Taegeuk_engineH;
+}
+
+// 고정편성 그래픽
+// 6량
+switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_wagon_6car, position_in_vehid_chain % 6) {
+    0: set_KTX_Taegeuk_wagon_T2; //default
+    1: set_KTX_Taegeuk_wagon_T3;
+    2: set_KTX_Taegeuk_wagon_T4;
+    3: set_KTX_Taegeuk_wagon_T5;
+    4: set_KTX_Taegeuk_wagon_T6;
+    5: set_KTX_Taegeuk_wagon_T7;
+    }
+
+// 14량
+switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_wagon_14car, position_in_vehid_chain % 14) {
+     0: set_KTX_Taegeuk_wagon_T1; //default
+     1..2: set_KTX_Taegeuk_wagon_T2;
+     3: set_KTX_Taegeuk_wagon_T3;
+     4..5: set_KTX_Taegeuk_wagon_T4;
+     6: set_KTX_Taegeuk_wagon_T5;
+     7..8: set_KTX_Taegeuk_wagon_T6;
+     9..10: set_KTX_Taegeuk_wagon_T7;
+    11..12: set_KTX_Taegeuk_wagon_T8;
+    13: set_KTX_Taegeuk_wagon_T9;
+    }
+
+// 편성수
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Taegeuk_wagon_6car, extra_callback_info1) {
+    1..5: KTX_Taegeuk_8Car_wagon;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Taegeuk_wagon_14car, extra_callback_info1) {
+    1..13: KTX_Taegeuk_16Car_wagon;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+// 1.72 삭제예정
+// 편성그래픽
+// 8량
+switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_8car, position_in_vehid_chain % 8) {
+    0: set_Deleted_A; //default
+    1..7: set_Deleted_B;
+    }
+
+// 10량
+switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_10car, position_in_vehid_chain % 10) {
+    0: set_Deleted_A; //default
+    1..9: set_Deleted_B;  
+    }
+
+// 16량
+switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_16car, position_in_vehid_chain % 16) {
+    0: set_Deleted_A; //default
+    1..15: set_Deleted_B;
+    }
+
+// 20량
+switch (FEAT_TRAINS, SELF, sw_KTX_Taegeuk_20car, position_in_vehid_chain % 20) {
+    0: set_Deleted_A; //default
+    1..19: set_Deleted_B;
+    }
+
+// 편성수
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Taegeuk_8car, extra_callback_info1) {
+    1..7: KTX_Taegeuk_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Taegeuk_10car, extra_callback_info1) {
+    1..9: KTX_Taegeuk_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Taegeuk_16car, extra_callback_info1) {
+    1..15: KTX_Taegeuk_16Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Taegeuk_20car, extra_callback_info1) {
+    1..19: KTX_Taegeuk_20Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

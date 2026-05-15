@@ -3,12 +3,12 @@
 --------------------------------------------------------------------*/
 //도색명
 switch(FEAT_TRAINS, SELF, sw_Nuriro_cargo_subtype_text, cargo_subtype) {
-    0: return string(Paint_Nuriro_Old); // 구도색
-    1: return string(Paint_Nuriro_New); // 신도색
-    2: return string(Paint_Nuriro_A);   // 한류관광
-    3: return string(Paint_Nuriro_B);   // 순천향대
-    4: return string(Paint_Nuriro_O);   // O-Train
-    5: return string(Paint_Nuriro_DS);  // 동해산타
+    0: return string(Livery_Nuriro_Old); // 구도색
+    1: return string(Livery_Nuriro_New); // 신도색
+    2: return string(Livery_Nuriro_A);   // 한류관광
+    3: return string(Livery_Nuriro_B);   // 순천향대
+    4: return string(Livery_Nuriro_O);   // O-Train
+    5: return string(Livery_Nuriro_DS);  // 동해산타
 }
 
 // 도색그래픽 세팅

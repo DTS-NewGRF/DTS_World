@@ -24,6 +24,10 @@ spriteset(set_H2_WJ_wagon, "src/locomotive/H2_WJ/H2_WJ.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_H2_WJ_purchase, "src/locomotive/H2_WJ/H2_WJ.png"){
+spriteset(set_H2_WJ_engine_purchase, "src/locomotive/H2_WJ/H2_WJ.png"){
     tmpl_purchase_for_dualhead(0, 0)
+}
+
+spriteset(set_H2_WJ_wagon_purchase, "src/locomotive/H2_WJ/H2_WJ.png"){
+    tmpl_purchase(0, 108)
 }

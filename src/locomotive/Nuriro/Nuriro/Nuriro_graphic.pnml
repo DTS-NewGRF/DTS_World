@@ -242,6 +242,10 @@ spriteset(set_Nuriro_purchase, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_Nuriro_Free_purchase, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
+spriteset(set_Nuriro_engine_purchase, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
     tmpl_purchase_for_dualhead(0, 0)
+}
+
+spriteset(set_Nuriro_wagon_purchase, "src/locomotive/Nuriro/Nuriro/Nuriro_Old.png"){
+    tmpl_purchase(0, 108)
 }

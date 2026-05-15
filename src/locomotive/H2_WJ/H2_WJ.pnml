@@ -21,16 +21,16 @@ item(FEAT_TRAINS, H2_WJ, 2190){
         }
 
     graphics {
-        purchase:                       set_H2_WJ_purchase;
+        purchase:                       set_H2_WJ_engine_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
-열차정보 2량
+자유편성
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, H2_WJ_2Car, 2008){
+item(FEAT_TRAINS, H2_WJ_engine, 2008){
     property {
-        name:                           string(STR_H2_WJ_NAME);
+        name:                           string(NAME_H2_WJ_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2022, 1, 1);
         track_type:                     RAIL;
@@ -70,21 +70,62 @@ item(FEAT_TRAINS, H2_WJ_2Car, 2008){
 
 	graphics {
         default:                        sw_H2_WJ_engine;
-        purchase:                       set_H2_WJ_purchase;
+        purchase:                       set_H2_WJ_engine_purchase;
         speed:                          sw_Regular_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_Nostart_sound;
-        additional_text:                string(TRAIN_DESC,
-                                        string(Informagion, string(Trian_informagion)),
-                                        string(How_To_Use, string(Add_wagon)));
         }
-    
-    livery_override(Train_Car) {
-        default:                        set_H2_WJ_wagon;
-        loading_speed:                  25;
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, H2_WJ_wagon, 1001){
+    property {
+        name:                           string(NAME_H2_WJ_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2022, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         86 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
         cargo_capacity:                 48;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        set_H2_WJ_wagon;
+        purchase:                       set_H2_WJ_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
         }
         }
 
@@ -134,7 +175,7 @@ item(FEAT_TRAINS, H2_WJ_4Car, 2060){
 	graphics {
         default:                        sw_H2_WJ_4car;
         articulated_part:               sw_articulated_H2_WJ_4car;
-        purchase:                       set_H2_WJ_purchase;
+        purchase:                       set_H2_WJ_engine_purchase;
         speed:                          sw_Regular_110_speed;
         loading_speed:                  25;
         cost_factor:                    10;

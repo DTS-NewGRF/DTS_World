@@ -10,7 +10,7 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, VPassenger, 1001){
+item(FEAT_TRAINS, VPassenger, 1003){
     property {
         name:                           string(NAME_VPassenger);
         climates_available:             ALL_CLIMATES;

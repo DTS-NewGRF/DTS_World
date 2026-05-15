@@ -10,9 +10,9 @@ VHST-600X
 /*--------------------------------------------------------------------
 기관차
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, VHST_600X, 1018){
+item(FEAT_TRAINS, VHST_600X_engine, 1020){
     property {
-        name:                           string(NAME_VHST_600X);
+        name:                           string(NAME_VHST_600X_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2100, 1, 1);
         track_type:                     ELRL;
@@ -50,19 +50,59 @@ item(FEAT_TRAINS, VHST_600X, 1018){
         
     graphics {
         default:                        sw_VHST_600X_engine;
-        purchase:                       set_VHST_600X_purchase;
+        purchase:                       set_VHST_600X_engine_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_osfx_65_sound;
         start_stop:                     sw_start_stop_8Car;
-        additional_text:                string(TRAIN_DESC,
-                                        string(Informagion, string(Trian_informagion)),
-                                        string(How_To_Use, string(Add_wagon)));
+        }
         }
 
-    livery_override(Train_Car) {
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, VHST_600X_wagon, 1021){
+    property {
+        name:                           string(NAME_VHST_600X_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2100, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         40 ton;
+        tractive_effort_coefficient:    0.3;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 80;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+    
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
         default:                        set_VHST_600X_wagon;
+        purchase:                       set_VHST_600X_wagon_purchase;
         loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
         }
         }

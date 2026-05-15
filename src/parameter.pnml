@@ -4,8 +4,8 @@
 param {
         Use_max_virtual_speed {
             type: bool;
-            name: string(STR_PARAM_max_virtual_speed_NAME);
-            desc: string(STR_PARAM_max_virtual_speed_DESC);
+            name: string(Param_Name_Max_Virtual_Speed);
+            desc: string(Param_Desc_Max_Virtual_Speed);
             bit:  1;
             def_value: 0;
             }
@@ -14,8 +14,8 @@ param {
 param {
         Metro_Speed_Train {
             type: int;
-            name: string(STR_PARAM_Metro_SPEED_Train_NAME);
-            desc: string(STR_PARAM_Metro_SPEED_Train_DESC);
+            name: string(Param_Name_Metro_Speed_Train);
+            desc: string(Param_Desc_Metro_Speed_Train);
             min_value: 100;
             max_value: 151;
             def_value: 120;
@@ -25,8 +25,8 @@ param {
 param {
         Regular_Speed_Train {
             type: int;
-            name: string(STR_PARAM_Regular_SPEED_Train_NAME);
-            desc: string(STR_PARAM_Regular_SPEED_Train_DESC);
+            name: string(Param_Name_Regular_Speed_Train);
+            desc: string(Param_Desc_Regular_Speed_Train);
             min_value: 151;
             max_value: 180;
             def_value: 151;
@@ -36,8 +36,8 @@ param {
 param {
         Regular_High_Speed_Train {
             type: int;
-            name: string(STR_PARAM_Regular_High_SPEED_Train_NAME);
-            desc: string(STR_PARAM_Regular_High_SPEED_Train_DESC);
+            name: string(Param_Name_Regular_High_Speed_Train);
+            desc: string(Param_Desc_Regular_High_Speed_Train);
             min_value: 180;
             max_value: 259;
             def_value: 180;
@@ -47,8 +47,8 @@ param {
 param {
         Semi_High_SPEED_Train {
             type: int;
-            name: string(STR_PARAM_Semi_High_SPEED_Train_NAME);
-            desc: string(STR_PARAM_Semi_High_SPEED_Train_DESC);
+            name: string(Param_Name_Semi_High_Speed_Train);
+            desc: string(Param_Desc_Semi_High_Speed_Train);
             min_value: 249;
             max_value: 379;
             def_value: 249;
@@ -58,8 +58,8 @@ param {
 param {
         High_Speed_Train {
             type: int;
-            name: string(STR_PARAM_High_SPEED_Train_NAME);
-            desc: string(STR_PARAM_High_SPEED_Train_DESC);
+            name: string(Param_Name_High_Speed_Train);
+            desc: string(Param_Desc_High_Speed_Train);
             min_value: 300;
             max_value: 379;
             def_value: 330;
@@ -69,8 +69,8 @@ param {
 param {
         High_Speed_Train_430 {
             type: int;
-            name: string(STR_PARAM_High_SPEED_Train_430_NAME);
-            desc: string(STR_PARAM_High_SPEED_Train_430_DESC);
+            name: string(Param_Name_High_Speed_Train_430);
+            desc: string(Param_Desc_High_Speed_Train_430);
             min_value: 430;
             max_value: 597;
             def_value: 430;
@@ -80,8 +80,8 @@ param {
 param {
         High_Speed_Train_Test {
             type: int;
-            name: string(STR_PARAM_High_SPEED_Train_Test_NAME);
-            desc: string(STR_PARAM_High_SPEED_Train_Test_DESC);
+            name: string(Param_Name_High_Speed_Train_Test);
+            desc: string(Param_Desc_High_Speed_Train_Test);
             min_value: 285;
             max_value: 597;
             def_value: 597;
@@ -91,8 +91,8 @@ param {
 param {
     Chinese {
         type: bool;
-        name: string(STR_PARAM_Chinese_NAME);
-        desc: string(STR_PARAM_Chinese_DESC);
+        name: string(Param_Name_Chinese);
+        desc: string(Param_Desc_Chinese);
         def_value: 0;
         }
     }
@@ -100,8 +100,8 @@ param {
 param {
     Hong_Kong {
         type: bool;
-        name: string(STR_PARAM_Hong_Kong_NAME);
-        desc: string(STR_PARAM_Hong_Kong_DESC);
+        name: string(Param_Name_Hong_Kong);
+        desc: string(Param_Desc_Hong_Kong);
         def_value: 0;
         }
     }
@@ -109,8 +109,8 @@ param {
 param {
     European {
         type: bool;
-        name: string(STR_PARAM_European_NAME);
-        desc: string(STR_PARAM_European_DESC);
+        name: string(Param_Name_European);
+        desc: string(Param_Desc_European);
         def_value: 0;
         }
     }
@@ -118,8 +118,8 @@ param {
 param {
     Japanese {
         type: bool;
-        name: string(STR_PARAM_Japanese_NAME);
-        desc: string(STR_PARAM_Japanese_DESC);
+        name: string(Param_Name_Japanese);
+        desc: string(Param_Desc_Japanese);
         def_value: 0;
         }
     }
@@ -127,8 +127,8 @@ param {
 param {
     World {
         type: bool;
-        name: string(STR_PARAM_World_NAME);
-        desc: string(STR_PARAM_World_DESC);
+        name: string(Param_Name_World);
+        desc: string(Param_Desc_World);
         def_value: 0;
         }
     }
@@ -136,8 +136,8 @@ param {
 param {
     Maintenance {
         type: bool;
-        name: string(STR_PARAM_Maintenance_NAME);
-        desc: string(STR_PARAM_Maintenance_DESC);
+        name: string(Param_Name_Maintenance);
+        desc: string(Param_Desc_Maintenance);
         def_value: 0;
         }
     }
@@ -145,8 +145,8 @@ param {
 param {
         Use_Passengercar_Real_speed {
             type: bool;
-            name: string(STR_PARAM_Passengercar_Real_speed_NAME);
-            desc: string(STR_PARAM_Passengercar_Real_speed_DESC);
+            name: string(Param_Name_Passengercar_Real_speed);
+            desc: string(Param_Desc_Passengercar_Real_speed);
             def_value: 1;
             }
     }

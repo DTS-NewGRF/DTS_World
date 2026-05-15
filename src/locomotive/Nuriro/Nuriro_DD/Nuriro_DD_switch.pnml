@@ -3,10 +3,10 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_cargo_subtype_text, cargo_subtype) {
-    0: return string(Paint_Nuriro_Old);
-    1: return string(Paint_Nuriro_New);
-    2: return string(Paint_Nuriro_O);
-    3: return string(Paint_Nuriro_saemaeul);
+    0: return string(Livery_Nuriro_Old);
+    1: return string(Livery_Nuriro_New);
+    2: return string(Livery_Nuriro_O);
+    3: return string(Livery_Nuriro_saemaeul);
 }
 
 // 도색그래픽 세팅

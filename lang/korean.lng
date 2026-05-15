@@ -2,9 +2,9 @@
 ##gender m f
 
 # GRF name and description
-STR_GRF_NAME_WITH_VER                                  :월드 다양성 열차 세트 {VERSION}
-STR_GRF_DESC                                           :월드 다양성 열차 세트 입니다
-STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS_World/releases
+GRF_Name_with_Ver                                      :다양성 열차 세트 {VERSION}
+GRF_Desc                                               :다양성 열차 세트 입니다
+GRF_URL                                                :https://github.com/DTS-NewGRF/DTS_World/releases
 
 # Deleted / locomotive's name
 STR_To_Be_Deleted_NAME                                 :{RED}삭제예정
@@ -51,7 +51,6 @@ STR_EEC_EMU_10Car_NAME                                 :[10량] EEC 전기동차
 STR_FEL_8500_NAME                                      :8500호대 전기기관차
 STR_GT26CW_NAME                                        :7X00호대 디젤기관차
 STR_GTX_8Car_NAME                                      :[8량] GTX
-STR_H2_WJ_NAME                                         :우진산전 수소연료전지동차
 STR_Group_HEMU_430X_NAME                               :HEMU-430X
 STR_HEMU_430X_6Car_NAME                                :[6량] HEMU-430X
 STR_HEMU_430X_8Car_NAME                                :[8량] HEMU-430X
@@ -77,17 +76,11 @@ STR_KTX_Sancheon_10Car_NAME                            :[10량] KTX-산천, SRT
 STR_MSB_Speeder_NAME                                   :MSB 모터카
 STR_NEL_8100_NAME                                      :8100호대 전기기관차
 STR_NEL_8200_NAME                                      :8200호대 전기기관차
-STR_Group_Nuriro_NAME                                  :한국철도공사 200000호대 전동차 (누리로)
-STR_Nuriro_4Car_NAME                                   :[4량] 누리로
-STR_Nuriro_Free_NAME                                   :[자유] 누리로
-NAME_Nuriro_DD                                         :[자유] 누리로 DD
 STR_OEL_8000_NAME                                      :8000호대 전기기관차
 STR_Group_RDC_NAME                                     :RDC 디젤동차
 STR_RDC_3Car_NAME                                      :[3량] RDC 디젤동차
 STR_RDC_4Car_NAME                                      :[4량] RDC 디젤동차
 STR_TTX_6Car_NAME                                      :[6량] TTX
-NAME_VHST_600X                                         :[자유] VHST-600X
-NAME_Transparency                                      :투명기관차
 
 # Chinese / locomotive's name
 STR_CRH380AJ_8Car_NAME                                 :[8량] CRH380AJ
@@ -253,7 +246,6 @@ STR_Korail_Second_8Car_NAME                            :[8량] 한국철도공�
 STR_Korail_Second_10Car_NAME                           :[10량] 한국철도공사 저항제어 전동차 [중기저항]
 STR_Korail_Third_10Car_NAME                            :[10량] 한국철도공사 저항제어 전동차 [신조저항]
 STR_Korail_Rheostatic_10Car_NAME                       :[10량] 한국철도공사 저항제어 전동차 [개조저항]
-NAME_Nextrain                                          :[자유] 넥스트레인
 STR_Group_Chopper_GEC_NAME                             :서울교통공사 2000호대 GEC초퍼
 STR_Chopper_GEC_6Car_NAME                              :[6량] 서울교통공사 2000호대 GEC초퍼
 STR_Chopper_GEC_10Car_NAME                             :[10량] 서울교통공사 2000호대 GEC초퍼
@@ -454,55 +446,6 @@ STR_ETSPASS_NAME                                       :유럽 객차 차량
 STR_FLAT_1F_NAME                                       :평판화차
 STR_FLAT_Tank_NAME                                     :평판유조 화차
 STR_FLAT_2F_NAME                                       :평판화차 - 미국형
-NAME_Group_PEX                                         :PEX (Premium EXpress)
-NAME_PEX_N                                             :PEX 1층 차량
-NAME_PEX_SN                                            :PEX 특실 차량
-NAME_PEX_D                                             :PEX 2층 차량
-NAME_PEX_B                                             :PEX 식당칸
-NAME_PEX_S                                             :PEX 침대칸
-NAME_Group_PEX_Super                                   :PEX-Super (Premium EXpress Super)
-NAME_PEX_Super_N                                       :PEX-SUPER 일반실
-NAME_PEX_Super_SN                                      :PEX-SUPER 특실
-NAME_PEX_Super_D                                       :PEX-SUPER 2층
-NAME_PEX_Super_B                                       :PEX-SUPER 식당차
-NAME_PEX_Super_S                                       :PEX-SUPER 침대차
-NAME_PEX_Super_Generatar                               :PEX-SUPER 발전차
-NAME_PEX_Super_Post                                    :PEX-SUPER 우편객차
-NAME_Showcase_Flat_1F                                  :[진열용] 평판화차
-NAME_Train_Car                                         :공통 객차
-NAME_VPassenger                                        :가상 객차 차량
-
-# Parameters
-STR_PARAM_max_virtual_speed_NAME                       :가상속도 적용
-STR_PARAM_max_virtual_speed_DESC                       :가상속도를 적용할지 체크합니다.{}- 기본:현실속도
-STR_PARAM_Metro_SPEED_Train_NAME                       :가상 지하철 속도변수
-STR_PARAM_Metro_SPEED_Train_DESC                       :가상 지하철의 속도를 조정합니다.{}- 기본:121km/h
-STR_PARAM_Regular_SPEED_Train_NAME                     :가상 일반열차 속도변수
-STR_PARAM_Regular_SPEED_Train_DESC                     :가상 일반열차의 속도를 조정합니다.{}- 기본:151km/h
-STR_PARAM_Regular_High_SPEED_Train_NAME                :가상 일반 준고속열차 속도변수
-STR_PARAM_Regular_High_SPEED_Train_DESC                :가상 일반 준고속열차의 속도를 조정합니다.{}- 기본:181km/h{}- 대상열차 : GTX, TTX
-STR_PARAM_Semi_High_SPEED_Train_NAME                   :가상 준고속열차 속도변수
-STR_PARAM_Semi_High_SPEED_Train_DESC                   :가상 준고속열차의 속도를 조정합니다.{}- 기본:250km/h
-STR_PARAM_High_SPEED_Train_NAME                        :가상 고속열차 속도변수
-STR_PARAM_High_SPEED_Train_DESC                        :가상 고속열차의 속도를 조정합니다.{}- 기본:331km/h
-STR_PARAM_High_SPEED_Train_430_NAME                    :가상 초고속 열차 속도변수
-STR_PARAM_High_SPEED_Train_430_DESC                    :가상 초고속 열차의 속도를 조정합니다.{}- 기본:430km/h{}- 대상열차 : 430km/h 고속열차
-STR_PARAM_High_SPEED_Train_Test_NAME                   :가상 검측차 고속열차 속도변수
-STR_PARAM_High_SPEED_Train_Test_DESC                   :가상 검측차 고속열차의 속도를 조정합니다.{}- 기본:600km/h
-STR_PARAM_Chinese_NAME                                 :중국형 열차 사용 금지
-STR_PARAM_Chinese_DESC                                 :중국형 열차를 사용시 체크하세요.{}- 기본:미사용
-STR_PARAM_Hong_Kong_NAME                               :홍콩형 열차 사용 금지
-STR_PARAM_Hong_Kong_DESC                               :홍콩형 열차를 사용시 체크하세요.{}- 기본:미사용
-STR_PARAM_European_NAME                                :유럽형 열차 사용 금지
-STR_PARAM_European_DESC                                :유럽형 열차를 사용시 체크하세요.{}- 기본:미사용
-STR_PARAM_Japanese_NAME                                :일본형 열차 사용 금지
-STR_PARAM_Japanese_DESC                                :일본형 열차를 사용시 체크하세요.{}- 기본:미사용
-STR_PARAM_World_NAME                                   :월드형 열차 사용 금지
-STR_PARAM_World_DESC                                   :월드형 열차를 사용시 체크하세요.{}- 기본:미사용
-STR_PARAM_Maintenance_NAME                             :유지보수차량 사용 금지
-STR_PARAM_Maintenance_DESC                             :유지보수차량 사용시 체크하세요.{}- 기본:미사용
-STR_PARAM_Passengercar_Real_speed_NAME                 :객차의 속도를 제어합니다.
-STR_PARAM_Passengercar_Real_speed_DESC                 :실제 객차 속도를 희망시 체크하세요.{}- 기본:객차속도제한
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
 # Refit (Additional text)
@@ -1290,15 +1233,93 @@ STR_REFIT_LIVERY_FlatCC                                : 평판화차 회사색�
 STR_REFIT_LIVERY_FlatPCC                               : 평판화차 패기형 회사색상
 STR_REFIT_LIVERY_FlatP2CC                              : 평판화차 패기형 2CC
 
-Paint_Nuriro_Old                                       : 구도색
-Paint_Nuriro_New                                       : 신도색
-Paint_Nuriro_A                                         : 한류관광
-Paint_Nuriro_B                                         : 순천향대 강의실
-Paint_Nuriro_O                                         : O-Train
-Paint_Nuriro_DS                                        : 동해산타
-Paint_Nuriro_saemaeul                                  : ITX-새마을
-Paint_VPassenger_BR                                    : 기본 도색
-Paint_VPassenger_Taegeuk                               : 태극 도색
+# locomotive's name
+NAME_Group_Nuriro                                      :한국철도공사 200000호대 전동차 (누리로)
+NAME_H2_WJ_engine                                      :[자유] 우진산전 수소연료전지동차
+NAME_Nuriro_4Car                                       :[4량] 누리로
+NAME_Nuriro_engine                                     :[자유] 누리로
+NAME_Nuriro_DD_engine                                  :[자유] 누리로 DD
+NAME_KTX_Taegeuk_engine                                :KTX-태극
+NAME_Transparency                                      :투명기관차
+NAME_VHST_600X_engine                                  :[자유] VHST-600X
+
+# Metro's name
+NAME_Nextrain_engine                                   :[자유] 넥스트레인
+
+# Showcase's name
+NAME_Showcase_Flat_1F                                  :[진열용] 평판화차
+
+# Wagon's name
+NAME_Group_KTX_Taegeuk_wagon                           :[객차] KTX-태극
+NAME_KTX_Taegeuk_8Car_wagon                            :[8량] KTX-태극
+NAME_KTX_Taegeuk_16Car_wagon                           :[16량] KTX-태극
+NAME_Group_PEX                                         :PEX (Premium EXpress)
+NAME_Group_PEX_Super                                   :PEX-Super (Premium EXpress Super)
+NAME_H2_WJ_wagon                                       :[객차] 우진산전 수소연료전지동차
+NAME_Nextrain_wagon                                    :[객차] 넥스트레인
+NAME_Nuriro_wagon                                      :[객차] 누리로
+NAME_Nuriro_DD_wagon                                   :[객차] 누리로 DD
+NAME_PEX_B                                             :PEX 식당칸
+NAME_PEX_D                                             :PEX 2층 차량
+NAME_PEX_N                                             :PEX 1층 차량
+NAME_PEX_S                                             :PEX 침대칸
+NAME_PEX_SN                                            :PEX 특실 차량
+NAME_PEX_Super_B                                       :PEX-SUPER 식당차
+NAME_PEX_Super_D                                       :PEX-SUPER 2층
+NAME_PEX_Super_Generatar                               :PEX-SUPER 발전차
+NAME_PEX_Super_N                                       :PEX-SUPER 일반실
+NAME_PEX_Super_Post                                    :PEX-SUPER 우편객차
+NAME_PEX_Super_S                                       :PEX-SUPER 침대차
+NAME_PEX_Super_SN                                      :PEX-SUPER 특실
+NAME_Train_Car                                         :공통 객차
+NAME_VHST_600X_wagon                                   :[객차] VHST-600X
+NAME_VPassenger                                        :가상 객차 차량
+
+# Parameters
+Param_Desc_Chinese                                     :중국형 열차를 사용시 체크하세요.{}- 기본:미사용
+Param_Desc_European                                    :유럽형 열차를 사용시 체크하세요.{}- 기본:미사용
+Param_Desc_High_Speed_Train                            :가상 고속열차의 속도를 조정합니다.{}- 기본:331km/h
+Param_Desc_High_Speed_Train_430                        :가상 초고속 열차의 속도를 조정합니다.{}- 기본:430km/h{}- 대상열차 : 430km/h 고속열차
+Param_Desc_High_Speed_Train_Test                       :가상 검측차 고속열차의 속도를 조정합니다.{}- 기본:600km/h
+Param_Desc_Hong_Kong                                   :홍콩형 열차를 사용시 체크하세요.{}- 기본:미사용
+Param_Desc_Japanese                                    :일본형 열차를 사용시 체크하세요.{}- 기본:미사용
+Param_Desc_Maintenance                                 :유지보수차량 사용시 체크하세요.{}- 기본:미사용
+Param_Desc_Max_Virtual_Speed                           :가상속도를 적용할지 체크합니다.{}- 기본:현실속도
+Param_Desc_Metro_Speed_Train                           :가상 지하철의 속도를 조정합니다.{}- 기본:121km/h
+Param_Desc_Passengercar_Real_speed                     :실제 객차 속도를 희망시 체크하세요.{}- 기본:객차속도제한
+Param_Desc_Regular_High_Speed_Train                    :가상 일반 준고속열차의 속도를 조정합니다.{}- 기본:181km/h{}- 대상열차 : GTX, TTX
+Param_Desc_Regular_Speed_Train                         :가상 일반열차의 속도를 조정합니다.{}- 기본:151km/h
+Param_Desc_Semi_High_Speed_Train                       :가상 준고속열차의 속도를 조정합니다.{}- 기본:250km/h
+Param_Desc_World                                       :월드형 열차를 사용시 체크하세요.{}- 기본:미사용
+Param_Name_Chinese                                     :중국형 열차 사용 금지
+Param_Name_European                                    :유럽형 열차 사용 금지
+Param_Name_High_Speed_Train                            :가상 고속열차 속도변수
+Param_Name_High_Speed_Train_430                        :가상 초고속 열차 속도변수
+Param_Name_High_Speed_Train_Test                       :가상 검측차 고속열차 속도변수
+Param_Name_Hong_Kong                                   :홍콩형 열차 사용 금지
+Param_Name_Japanese                                    :일본형 열차 사용 금지
+Param_Name_Maintenance                                 :유지보수차량 사용 금지
+Param_Name_Max_Virtual_Speed                           :가상속도 적용
+Param_Name_Metro_Speed_Train                           :가상 지하철 속도변수
+Param_Name_Passengercar_Real_speed                     :객차의 속도를 제어합니다.
+Param_Name_Regular_High_Speed_Train                    :가상 일반열차 속도변수
+Param_Name_Regular_Speed_Train                         :가상 일반 준고속열차 속도변수
+Param_Name_Semi_High_Speed_Train                       :가상 준고속열차 속도변수
+Param_Name_World                                       :월드형 열차 사용 금지
+
+# Liveries Locomotive
+Livery_Nuriro_Old                                      : 구도색
+Livery_Nuriro_New                                      : 신도색
+Livery_Nuriro_A                                        : 한류관광
+Livery_Nuriro_B                                        : 순천향대 강의실
+Livery_Nuriro_O                                        : O-Train
+Livery_Nuriro_DS                                       : 동해산타
+Livery_Nuriro_saemaeul                                 : ITX-새마을
+
+# Liveries Metro
+# Liveries Wagon
+Livery_VPassenger_BR                                   : 기본 도색
+Livery_VPassenger_Taegeuk                              : 태극 도색
 
 # Errors
 ERROR_NOT_ENOUGH_LENGTH3                               :열차 길이가 너무 짧습니다. 최소한 3량 이상을 연결해야 합니다.

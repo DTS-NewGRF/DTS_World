@@ -27,6 +27,10 @@ spriteset(set_Nextrain_engineT, "src/metro/Nextrain/Nextrain.png"){
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_Nextrain_purchase, "src/metro/Nextrain/Nextrain.png"){
+spriteset(set_Nextrain_engine_purchase, "src/metro/Nextrain/Nextrain.png"){
     tmpl_purchase_for_dualhead(0, 0)
+}
+
+spriteset(set_Nextrain_wagon_purchase, "src/metro/Nextrain/Nextrain.png"){
+    tmpl_purchase(0, 54)
 }

@@ -7,10 +7,10 @@
 ------------------------------------------------------------------------------*/
 grf {
     grfid :                            "DTTS";
-    name :                             string(STR_GRF_NAME_WITH_VER);
-    desc :                             string(STR_GRF_DESC);
-    url :                              string(STR_GRF_URL);
-    version :                          20260514;
+    name :                             string(GRF_Name_with_Ver);
+    desc :                             string(GRF_Desc);
+    url :                              string(GRF_URL);
+    version :                          20260515;
     min_compatible_version :           20260424;
 	
 	// Parameters 매개변수

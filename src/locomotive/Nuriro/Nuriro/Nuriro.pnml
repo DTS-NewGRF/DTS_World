@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Nuriro_4Car, 2324){
     property {
-        name:                           string(STR_Nuriro_4Car_NAME);
+        name:                           string(NAME_Nuriro_4Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2008, 1, 1);
         track_type:                     ELRL;
@@ -65,9 +65,9 @@ item(FEAT_TRAINS, Nuriro_4Car, 2324){
 /*--------------------------------------------------------------------
 자유편성
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Nuriro_Free, 1020){
+item(FEAT_TRAINS, Nuriro_engine, 1023){
     property {
-        name:                           string(STR_Nuriro_Free_NAME);
+        name:                           string(NAME_Nuriro_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2008, 1, 1);
         track_type:                     ELRL;
@@ -107,7 +107,7 @@ item(FEAT_TRAINS, Nuriro_Free, 1020){
 
      graphics {
         default:                        sw_Nuriro_engine_Free;
-        purchase:                       set_Nuriro_Free_purchase;
+        purchase:                       set_Nuriro_engine_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -115,16 +115,63 @@ item(FEAT_TRAINS, Nuriro_Free, 1020){
         cargo_subtype_text:             sw_Nuriro_cargo_subtype_text;
         sound_effect:                   sw_HITACHIStart_sound;
         start_stop:                     sw_start_stop_4Car;
-        additional_text:                string(TRAIN_DESC,
-                                        string(Informagion, string(Trian_informagion)),
-                                        string(How_To_Use, string(Add_wagon)));
         }
      
-     livery_override(Train_Car) {
+     livery_override(Nuriro_wagon) {
         default:                        sw_Nuriro_wagon_Free;
         loading_speed:                  25;
         cargo_capacity:                 66;
         weight:                         33;
         power:                          335;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Nuriro_wagon, 1024){
+    property {
+        name:                           string(NAME_Nuriro_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2008, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 66;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+     graphics {
+        default:                        sw_Nuriro_wagon;
+        purchase:                       set_Nuriro_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Nuriro_cargo_subtype_text;
         }
         }

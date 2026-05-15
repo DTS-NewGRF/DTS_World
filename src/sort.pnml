@@ -213,8 +213,8 @@ sort(FEAT_TRAINS, [
     // 누리로
     Nuriro_Logo,                             //2513
     Nuriro_4Car,                             //2324
-    Nuriro_Free,                             //1020
-    Nuriro_DD,                               //1021
+    Nuriro_engine,                           //1023
+    Nuriro_DD_engine,                        //1025
 
     // ITX 열차 그룹
     ITX_Logo,                                //2512
@@ -332,7 +332,7 @@ sort(FEAT_TRAINS, [
 
     // 지하철
     AUTS_6Car,                               //2007
-    Nextrain,                                //1016
+    Nextrain_engine,                         //1018
     Daejeonmetro_1000_4Car,                  //2416
     Dongbuk_2Car,                            //2433
     Gimpo_Gold_2Car,                         //2410
@@ -372,7 +372,7 @@ sort(FEAT_TRAINS, [
     EEC_EMU_10Car,                           //2559
     FEL_8500,                                //2016
     GT26CW,                                  //2014
-    H2_WJ_2Car,                              //2008
+    H2_WJ_engine,                            //2008
     NEL_8100,                                //2299
     NEL_8200,                                //2177
     OEL8000,                                 //2417
@@ -411,16 +411,25 @@ sort(FEAT_TRAINS, [
     HEMU_430X_8Car,                          //2127
 
     // 고속열차 600
-    VHST_600X,                               //1018
+    KTX_Taegeuk_engine,                      //1027
+    VHST_600X_engine,                        //1020
 
     // 유지보수차량
     MSB_Speeder,                             //2178
     
     // 진열용
-    Transparency,                            //1019
+    Transparency,                            //1022
     
     // 객차
-    Train_Car,                               //1017
+    Train_Car,                               //1000
+    H2_WJ_wagon,                             //1001
+    Nextrain_wagon,                          //1019
+    Nuriro_wagon,                            //1024
+    Nuriro_DD_wagon,                         //1026
+    KTX_Taegeuk_wagon,                       //1028
+    KTX_Taegeuk_8Car_wagon,                  //1029
+    KTX_Taegeuk_16Car_wagon,                 //1030
+    VHST_600X_wagon,                         //1021
     Travel_wagon,                            //2210
     A_Train_Passenger_Car,                   //2164
     Asean_Korea,                             //2318
@@ -457,24 +466,24 @@ sort(FEAT_TRAINS, [
     Tong_il_Normal,                          //2472
     Pidulgi_Service,                         //2473
     Tong_il_Special,                         //2474
-    PEX,                                     //1008
-    PEX_N,                                   //1009
-    PEX_SN,                                  //1010
-    PEX_D,                                   //1011
-    PEX_B,                                   //1012
-    PEX_S,                                   //1013
-    PEX_Super,                               //1002
-    PEX_Super_N,                             //1003
-    PEX_Super_SN,                            //1004
-    PEX_Super_D,                             //1005
-    PEX_Super_B,                             //1006
-    PEX_Super_S,                             //1007
-    PEX_Super_Generatar,                     //1015
-    PEX_Super_Post,                          //1014
+    PEX,                                     //1010
+    PEX_N,                                   //1011
+    PEX_SN,                                  //1012
+    PEX_D,                                   //1013
+    PEX_B,                                   //1014
+    PEX_S,                                   //1015
+    PEX_Super,                               //1004
+    PEX_Super_N,                             //1005
+    PEX_Super_SN,                            //1006
+    PEX_Super_D,                             //1007
+    PEX_Super_B,                             //1008
+    PEX_Super_S,                             //1009
+    PEX_Super_Post,                          //1016
+    PEX_Super_Generatar,                     //1017
     CSPassenger_Car,                         //2031
     ESPassenger_Car,                         //2061
     WSPassenger_Tanzania,                    //2604
-    VPassenger,                              //1001
+    VPassenger,                              //1003
     
     // 발전차
     Group_Generatar_Car,                     //2541
@@ -497,5 +506,5 @@ sort(FEAT_TRAINS, [
     FLAT_1F,                                 //2129
     FLAT_2F,                                 //2114
     FLAT_TANK,                               //2130
-    Showcase_Flat_1F,                        //1000
+    Showcase_Flat_1F,                        //1002
     ]);

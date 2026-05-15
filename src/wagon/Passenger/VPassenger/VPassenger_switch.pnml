@@ -2,8 +2,8 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_VPassenger_cargo_subtype_text, cargo_subtype) {
-    0: return string(Paint_VPassenger_BR);
-    1: return string(Paint_VPassenger_Taegeuk);     // 태극 도색
+    0: return string(Livery_VPassenger_BR);
+    1: return string(Livery_VPassenger_Taegeuk);     // 태극 도색
 }
 
 switch(FEAT_TRAINS, SELF, sw_VPassenger_wagon, cargo_subtype) {

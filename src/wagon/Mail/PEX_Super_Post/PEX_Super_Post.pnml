@@ -10,7 +10,7 @@ PEX-Super 우편 차량
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, PEX_Super_Post, 1014){
+item(FEAT_TRAINS, PEX_Super_Post, 1016){
     property {
         name:                           string(NAME_PEX_Super_Post);
         climates_available:             ALL_CLIMATES;

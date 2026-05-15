@@ -10,7 +10,7 @@ PEX Super
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, PEX_Super, 1002){
+item(FEAT_TRAINS, PEX_Super, 1004){
     property {
         name:                           string(NAME_Group_PEX_Super);
         climates_available:             NO_CLIMATE;
@@ -27,7 +27,7 @@ item(FEAT_TRAINS, PEX_Super, 1002){
 /*--------------------------------------------------------------------
 열차정보 1층 차량
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_Super_N, 1003){
+item (FEAT_TRAINS, PEX_Super_N, 1005){
     property {
         name:                           string(NAME_PEX_Super_N);
         climates_available:             ALL_CLIMATES;
@@ -75,7 +75,7 @@ item (FEAT_TRAINS, PEX_Super_N, 1003){
 /*--------------------------------------------------------------------
 열차정보 특실차량
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_Super_SN, 1004){
+item (FEAT_TRAINS, PEX_Super_SN, 1006){
     property {
         name:                           string(NAME_PEX_Super_SN);
         climates_available:             ALL_CLIMATES;
@@ -123,7 +123,7 @@ item (FEAT_TRAINS, PEX_Super_SN, 1004){
 /*--------------------------------------------------------------------
 열차정보 2층
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_Super_D, 1005){
+item (FEAT_TRAINS, PEX_Super_D, 1007){
     property {
         name:                           string(NAME_PEX_Super_D);
         climates_available:             ALL_CLIMATES;
@@ -171,7 +171,7 @@ item (FEAT_TRAINS, PEX_Super_D, 1005){
 /*--------------------------------------------------------------------
 열차정보 식당칸
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_Super_B, 1006){
+item (FEAT_TRAINS, PEX_Super_B, 1008){
     property {
         name:                           string(NAME_PEX_Super_B);
         climates_available:             ALL_CLIMATES;
@@ -219,7 +219,7 @@ item (FEAT_TRAINS, PEX_Super_B, 1006){
 /*--------------------------------------------------------------------
 열차정보 침대칸
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_Super_S, 1007){
+item (FEAT_TRAINS, PEX_Super_S, 1009){
     property {
         name:                           string(NAME_PEX_Super_S);
         climates_available:             ALL_CLIMATES;

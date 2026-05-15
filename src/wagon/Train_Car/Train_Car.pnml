@@ -5,49 +5,18 @@
 #include "Train_Car_graphic.pnml"
 
 /*--------------------------------------------------------------------
-열차정보
+열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Train_Car, 1017){
+item(FEAT_TRAINS, Train_Car, 1000){
     property {
         name:                           string(NAME_Train_Car);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1900, 1, 1);
+        climates_available:             NO_CLIMATE;
         track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        
-        //spec
-        weight:                         50 ton;
-        tractive_effort_coefficient:    0.3;
-
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 80;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        refit_cost:                     0;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
-        extra_weight_per_wagon:         20 ton;
         }
 
-	graphics {
-        default:                        set_Train_wagon;
+    graphics {
         purchase:                       set_Train_purchase;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            50;
-        additional_text:                string(TRAIN_DESC,
-                                        string(Informagion, string(Trian_informagion)),
-                                        string(How_To_Use, string(Free)));
         }
         }

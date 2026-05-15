@@ -7,7 +7,7 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Transparency, 1019){
+item(FEAT_TRAINS, Transparency, 1022){
     property {
         name:                           string(NAME_Transparency);
         climates_available:             ALL_CLIMATES;

@@ -10,7 +10,7 @@ PEX-Super 발전차량
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, PEX_Super_Generatar, 1015){
+item(FEAT_TRAINS, PEX_Super_Generatar, 1017){
     property {
         name:                           string(NAME_PEX_Super_Generatar);
         climates_available:             ALL_CLIMATES;
