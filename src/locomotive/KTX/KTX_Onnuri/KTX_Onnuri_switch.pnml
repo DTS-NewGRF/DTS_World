@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_engineH, train_is_driving_backwards) {
+    0: set_KTX_Onnuri_engineH;
+    1: set_KTX_Onnuri_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_wagon_M1, train_is_driving_backwards) {
+    0: set_KTX_Onnuri_wagon_M1;
+    1: set_KTX_Onnuri_wagon_M1_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_wagon_M4, train_is_driving_backwards) {
+    0: set_KTX_Onnuri_wagon_M4;
+    1: set_KTX_Onnuri_wagon_M4_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_engineT, train_is_driving_backwards) {
+    0: set_KTX_Onnuri_engineT;
+    1: set_KTX_Onnuri_engineT_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_KTX_Onnuri_engineT;
+    sw_KTX_Onnuri_engineH;
+}
+
+// 객차
+// 1층
+switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_wagon_M3_Only_10Car, num_vehs_in_consist) {
+    10: set_KTX_Onnuri_wagon_M3_Only_10Car;
+    set_KTX_Onnuri_wagon_M3;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_wagon_front, position_in_consist) {
+    1: sw_KTX_Onnuri_wagon_M1;
+    2: set_KTX_Onnuri_wagon_M2;
+    3: sw_KTX_Onnuri_wagon_M3_Only_10Car;
+    set_KTX_Onnuri_wagon_M2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_wagon, position_in_consist_from_end) {
+    1: sw_KTX_Onnuri_wagon_M4;
+    sw_KTX_Onnuri_wagon_front;
+}
+
+// 2층
+switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_DD_wagon_front, position_in_consist) {
+    1: sw_KTX_Onnuri_wagon_M1;
+    2: set_KTX_Onnuri_wagon_M2;
+    3: sw_KTX_Onnuri_wagon_M3_Only_10Car;
+    4: set_KTX_Onnuri_wagon_DUP1;
+    set_KTX_Onnuri_wagon_DUP;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_DD_wagon, position_in_consist_from_end) {
+    1: sw_KTX_Onnuri_wagon_M4;
+    2: set_KTX_Onnuri_wagon_DUP2;
+    sw_KTX_Onnuri_DD_wagon_front;
+}
+
+// 1층 only
+switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_only_wagon, position_in_consist) {
+    1: set_KTX_Onnuri_wagon_M2;
+    2: sw_KTX_Onnuri_wagon_M3_Only_10Car;
+    set_KTX_Onnuri_wagon_M2;
+}

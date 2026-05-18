@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_KTX_Eum_DD_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_KTX_Eum_DD_engineH_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_KTX_Eum_DD_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_KTX_Eum_DD_wagon_M1_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_KTX_Eum_DD_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_KTX_Eum_DD_wagon_M2_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_KTX_Eum_DD_wagon_M3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_KTX_Eum_DD_wagon_M3_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_KTX_Eum_DD_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+    DTS_temp_r(80, 216)
+}
+
+spriteset(set_KTX_Eum_DD_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+    DTS_temp_r(80, 243)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_KTX_Eum_DD_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+    tmpl_purchase_for_dualhead(0, 0)
+}
+
+spriteset(set_KTX_Eum_DD_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+    tmpl_purchase(0, 108)
+}

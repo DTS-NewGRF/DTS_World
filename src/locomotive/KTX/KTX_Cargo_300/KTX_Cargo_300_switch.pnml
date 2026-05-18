@@ -1,0 +1,8 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_KTX_Cargo_300_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: set_KTX_Cargo_300_engineT;
+    set_KTX_Cargo_300_engineH;
+}

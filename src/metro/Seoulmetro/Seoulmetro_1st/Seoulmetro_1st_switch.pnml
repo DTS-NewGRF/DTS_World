@@ -145,12 +145,12 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_engineT, train_is_driving_backwards
 // 2000, 3000
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_2000_3000_10car_engineH, train_is_driving_backwards) {
     0: sw_Seoulmetro_1st_2000_3000_10car_engineH_Front;
-    1: sw_Chopper_Wide_Range_GEC_10Car_engineH_Back;
+    1: sw_Seoulmetro_1st_2000_3000_10car_engineH_Back;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_2000_3000_10car_engineT, train_is_driving_backwards) {
     0: sw_Seoulmetro_1st_2000_3000_10car_engineT_Front;
-    1: sw_Chopper_Wide_Range_GEC_10Car_engineT_Back;
+    1: sw_Seoulmetro_1st_2000_3000_10car_engineT_Back;
 }
 
 // 4000

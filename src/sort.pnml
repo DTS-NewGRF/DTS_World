@@ -226,13 +226,19 @@ sort(FEAT_TRAINS, [
 
     // KTX 열차 그룹
     KTX_Logo,                                //2511
-    KTX_Eum,                                 //2425
+    KTX_Cargo_260_engine,                    //1046
     KTX_Eum_6Car,                            //2423
-    KTX_Eum_12Car,                           //2426
+    KTX_Eum_engine,                          //1035
+    KTX_Eum_DD_engine,                       //1037
     KTX_1_20Car,                             //2322
-    KTX_Cheong_Ryong,                        //2427
+    KTX_1_engine,                            //1052
+    KTX_Cargo_300_engine,                    //1048
+    KTX_Cargo_320_engine,                    //1050
     KTX_Cheong_Ryong_8Car,                   //2229
-    KTX_Cheong_Ryong_16Car,                  //2428
+    KTX_Cheong_Ryong_engine,                 //1042
+    KTX_Cheong_Ryong_DD_engine,              //1044
+    KTX_Chowol_engine,                       //1039
+    KTX_Onnuri_engine,                       //1032
     KTX_Sancheon_10Car,                      //2024
     KTX_Sancheon_engine,                     //1029
     
@@ -427,6 +433,18 @@ sort(FEAT_TRAINS, [
     Nextrain_wagon,                          //1019
     Nuriro_wagon,                            //1024
     Nuriro_DD_wagon,                         //1026
+    KTX_1_wagon,                             //1053
+    KTX_Eum_wagon,                           //1036
+    KTX_Eum_DD_wagon,                        //1038
+    KTX_Cargo_260_wagon,                     //1047
+    KTX_Cargo_300_wagon,                     //1049
+    KTX_Cargo_320_wagon,                     //1051
+    KTX_Cheong_Ryong_wagon,                  //1043
+    KTX_Cheong_Ryong_DD_wagon,               //1045
+    KTX_Chowol_wagon,                        //1040
+    KTX_Chowol_DD_wagon,                     //1041
+    KTX_Onnuri_wagon,                        //1033
+    KTX_Onnuri_DD_wagon,                     //1034
     KTX_Sancheon_wagon,                      //1030
     KTX_Sancheon_DD_wagon,                   //1031
     KTX_Taegeuk_wagon,                       //1028

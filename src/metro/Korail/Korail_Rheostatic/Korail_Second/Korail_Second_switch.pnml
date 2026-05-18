@@ -177,7 +177,7 @@ switch(FEAT_TRAINS, SELF, sw_Korail_Second_10Car_engineT_Back, cargo_subtype) {
 // 전후진 통합 코드
 switch(FEAT_TRAINS, SELF, sw_Korail_Second_Initial_1_engineH, train_is_driving_backwards) {
     0: set_Korail_Second_Initial_1_engineH;
-    1: sw_Korail_Rheostatic_engineH_Back;
+    1: set_Korail_Second_Initial_1_engineH_Rev;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_Second_Initial_1_engineT, train_is_driving_backwards) {

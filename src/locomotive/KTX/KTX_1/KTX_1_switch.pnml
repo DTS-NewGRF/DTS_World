@@ -3,10 +3,10 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_KTX_1_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_KTX_1_1997);
-    1: return string(STR_REFIT_LIVERY_KTX_1_2007);
-    2: return string(STR_REFIT_LIVERY_KTX_1_2013);
-    3: return string(STR_REFIT_LIVERY_KTX_1_2017);
+    0: return string(Livery_KTX_1_1997);
+    1: return string(Livery_KTX_1_2007);
+    2: return string(Livery_KTX_1_2013);
+    3: return string(Livery_KTX_1_2017);
     return CB_RESULT_NO_TEXT;
 }
 
@@ -86,6 +86,12 @@ switch(FEAT_TRAINS, SELF, sw_KTX_1_engineT_Front, cargo_subtype) {
     3: set_KTX_1_engineT;
 }
 
+switch(FEAT_TRAINS, SELF, sw_KTX_1_engineT_Free_Front, cargo_subtype) {
+    0..1: set_KTX_1_engineT_Free;
+    2: set_KTX_1_LTE_A_engineT_Free;
+    3: set_KTX_1_engineT_Free;
+}
+
 // 후진방향
 switch(FEAT_TRAINS, SELF, sw_KTX_1_engineH_Back, cargo_subtype) {
     0..1: set_KTX_1_engineH_Rev;
@@ -99,6 +105,12 @@ switch(FEAT_TRAINS, SELF, sw_KTX_1_engineT_Back, cargo_subtype) {
     3: set_KTX_1_engineT_Rev;
 }
 
+switch(FEAT_TRAINS, SELF, sw_KTX_1_engineT_Free_Back, cargo_subtype) {
+    0..1: set_KTX_1_engineT_Free_Rev;
+    2: set_KTX_1_LTE_A_engineT_Free_Rev;
+    3: set_KTX_1_engineT_Free_Rev;
+}
+
 // 전후진 통합 코드
 switch(FEAT_TRAINS, SELF, sw_KTX_1_engineH, train_is_driving_backwards) {
     0: sw_KTX_1_engineH_Front;
@@ -108,6 +120,52 @@ switch(FEAT_TRAINS, SELF, sw_KTX_1_engineH, train_is_driving_backwards) {
 switch(FEAT_TRAINS, SELF, sw_KTX_1_engineT, train_is_driving_backwards) {
     0: sw_KTX_1_engineT_Front;
     1: sw_KTX_1_engineT_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_engineT_Free, train_is_driving_backwards) {
+    0: sw_KTX_1_engineT_Free_Front;
+    1: sw_KTX_1_engineT_Free_Back;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_KTX_1_engine_Free_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_KTX_1_engineT_Free;
+    sw_KTX_1_engineH;
+}
+
+// 객차
+// 자유객차
+switch(FEAT_TRAINS, SELF, sw_KTX_1_Free_wagon_T78, position_in_consist % 2) {
+    1: sw_KTX_1_wagon_T8;
+    sw_KTX_1_wagon_T7;
+}
+
+switch (FEAT_TRAINS, SELF, sw_KTX_1_Free_wagon_front, position_in_vehid_chain) {
+    0: sw_KTX_1_wagon_T1;
+    1: sw_KTX_1_wagon_T2;
+    2: sw_KTX_1_wagon_T3;
+    3: sw_KTX_1_wagon_T4;
+    4: sw_KTX_1_wagon_T3_6Car;
+    5: sw_KTX_1_wagon_T5;
+    6: sw_KTX_1_wagon_T6;
+    7: sw_KTX_1_wagon_T5;
+    8: sw_KTX_1_wagon_T6;
+    sw_KTX_1_Free_wagon_T78;
+}
+
+switch (FEAT_TRAINS, SELF, sw_KTX_1_Free_wagon_back, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0: sw_KTX_1_wagon_T9;
+    sw_KTX_1_Free_wagon_T78;
+}
+
+switch (FEAT_TRAINS, SELF, sw_KTX_1_Free_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0..1: sw_KTX_1_Free_wagon_back;
+    sw_KTX_1_Free_wagon_front;
+}
+
+switch (FEAT_TRAINS, SELF, sw_KTX_1_Free_wagon, num_vehs_in_vehid_chain) {
+     1..255: sw_KTX_1_Free_wagon_full;
+    sw_KTX_1_Free_wagon_T78;
 }
 
 // 편성그래픽
@@ -145,6 +203,17 @@ switch(FEAT_TRAINS, SELF, sw_KTX_1_20Car_length_in_custom, position_in_vehid_cha
     0..1: 8; //default;
     2..17: 7;
     18..19: 8;
+}
+
+// 자유 객차 길이
+switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_length_in_custom_back, position_in_consist_from_end) {
+    1: 8;
+    7;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_1_wagon_Free_length_in_custom, position_in_consist) {
+    1: 8;
+    sw_KTX_1_wagon_length_in_custom_back;
 }
 
 // 수송량

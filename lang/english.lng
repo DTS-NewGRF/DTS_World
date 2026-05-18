@@ -65,13 +65,6 @@ STR_Group_ITX_Maum_NAME                                :ITX-Maum
 STR_ITX_Maum_4Car_NAME                                 :[4Car] ITX-Maum
 STR_ITX_Maum_6Car_NAME                                 :[6Car] ITX-Maum
 STR_ITX_Saemaeul_6Car_NAME                             :[6Car] ITX-Saemaeul
-STR_KTX_1_20Car_NAME                                   :[20Car] TGV-K
-STR_Group_KTX_Cheong_Ryong_NAME                        :KTX-Cheong Ryong
-STR_KTX_Cheong_Ryong_8Car_NAME                         :[8Car] KTX-Cheong Ryong
-STR_KTX_Cheong_Ryong_16Car_NAME                        :[16Car] KTX-Cheong Ryong
-STR_Group_KTX_Eum_NAME                                 :KTX-EUM
-STR_KTX_Eum_6Car_NAME                                  :[6Car] KTX-EUM
-STR_KTX_Eum_12Car_NAME                                 :[12Car] KTX-EUM
 STR_MSB_Speeder_NAME                                   :MSB Speeder
 STR_NEL_8100_NAME                                      :NEL 8100
 STR_NEL_8200_NAME                                      :NEL 8200
@@ -596,18 +589,6 @@ STR_REFIT_LIVERY_ITX_Maum                              : ITX-Maum
 STR_REFIT_LIVERY_ITX_Maum_High1                        : HIGH1 Resort
 STR_REFIT_LIVERY_ITX_Maum_4_4_A                        : ITX-Maum + HIGH1 Resort
 STR_REFIT_LIVERY_ITX_Maum_4_4_B                        : HIGH1 Resort + ITX-Maum
-STR_REFIT_LIVERY_KTX_1_1997                            : Special 4Car
-STR_REFIT_LIVERY_KTX_1_2007                            : Move Cinema
-STR_REFIT_LIVERY_KTX_1_2013                            : LTE-A
-STR_REFIT_LIVERY_KTX_1_2017                            : Special 3Car
-STR_REFIT_LIVERY_KTX_Cheong_Ryong_Eum                  : KTX-Eum
-STR_REFIT_LIVERY_KTX_Cheong_Ryong                      : KTX-Cheong Ryong
-STR_REFIT_LIVERY_KTX_Cheong_Ryong_2nd                  : KTX-Cheong Ryong 2nd
-STR_REFIT_LIVERY_SRT_320                               : SRT 320
-STR_REFIT_LIVERY_KTX_Eum                               : KTX-Eum
-STR_REFIT_LIVERY_KTX_Eum_1st_2nd                       : KTX-Eum 1st+2nd
-STR_REFIT_LIVERY_KTX_Eum_2nd_1st                       : KTX-Eum 2nd+1st
-STR_REFIT_LIVERY_KTX_Eum_2nd                           : KTX-Eum 2nd
 STR_REFIT_LIVERY_NEL_8100_A                            : NEL 8100 A
 STR_REFIT_LIVERY_NEL_8100_B                            : NEL 8100 B
 STR_REFIT_LIVERY_OEL8000_I1                            : 1st Early livery
@@ -1210,6 +1191,19 @@ STR_REFIT_LIVERY_FlatPCC                               : Flat Car Trailer Color
 STR_REFIT_LIVERY_FlatP2CC                              : Flat Car Trailer 2CC Color
 
 # locomotive's name
+NAME_KTX_1_20Car                                       :[20Car] TGV-K
+NAME_KTX_1_engine                                      :[Free] TGV-K
+NAME_KTX_Cargo_260_engine                              :[Free] KTX-Cargo 260
+NAME_KTX_Cargo_300_engine                              :[Free] KTX-Cargo 300
+NAME_KTX_Cargo_320_engine                              :[Free] KTX-Cargo 320
+NAME_KTX_Cheong_Ryong_8Car                             :[8Car] KTX-Cheong Ryong
+NAME_KTX_Cheong_Ryong_engine                           :[Free] KTX-Cheong Ryong
+NAME_KTX_Cheong_Ryong_DD_engine                        :[Free] KTX-Cheong Ryong DD
+NAME_KTX_Chowol_engine                                 :[Free] KTX-Chowol
+NAME_KTX_Eum_6Car                                      :[6Car] KTX-EUM
+NAME_KTX_Eum_engine                                    :[Free] KTX-EUM
+NAME_KTX_Eum_DD_engine                                 :[Free] KTX-EUM DD
+NAME_KTX_Onnuri_engine                                 :[Free] KTX-Onnuri
 NAME_Group_KTX_Sancheon                                :KTX-Sancheon
 NAME_KTX_Sancheon_10Car                                :[10Car] KTX-Sancheon, SRT
 NAME_KTX_Sancheon_engine                               :[Free] KTX-Sancheon
@@ -1232,10 +1226,22 @@ NAME_Showcase_Flat_1F                                  :[Showcase] Flat Car
 NAME_Group_PEX                                         :PEX (Premium EXpress)
 NAME_Group_PEX_Super                                   :PEX-Super (Premium EXpress Super)
 NAME_H2_WJ_wagon                                       :[wagon] H2 by WOOJIN
-NAME_Nextrain_wagon                                    :[wagon] Nextrain
+NAME_KTX_1_wagon                                       :[wagon] TGV-K
+NAME_KTX_Cargo_260_wagon                               :[wagon] KTX-Cargo 260
+NAME_KTX_Cargo_300_wagon                               :[wagon] KTX-Cargo 300
+NAME_KTX_Cargo_320_wagon                               :[wagon] KTX-Cargo 320
+NAME_KTX_Cheong_Ryong_wagon                            :[wagon] KTX-Cheong Ryong
+NAME_KTX_Cheong_Ryong_DD_wagon                         :[wagon] KTX-Cheong Ryong DD
+NAME_KTX_Chowol_wagon                                  :[wagon] KTX-Chowol
+NAME_KTX_Chowol_DD_wagon                               :[wagon] KTX-Chowol DD
+NAME_KTX_Eum_wagon                                     :[wagon] KTX-EUM
+NAME_KTX_Eum_DD_wagon                                  :[wagon] KTX-EUM DD
+NAME_KTX_Onnuri_wagon                                  :[wagon] KTX-Onnuri
+NAME_KTX_Onnuri_DD_wagon                               :[wagon] KTX-Onnuri DD
 NAME_KTX_Sancheon_wagon                                :[wagon] KTX-Sancheon
 NAME_KTX_Sancheon_DD_wagon                             :[wagon] KTX-Sancheon DD
 NAME_KTX_Taegeuk_wagon                                 :[wagon] KTX Taegeuk
+NAME_Nextrain_wagon                                    :[wagon] Nextrain
 NAME_Nuriro_wagon                                      :[wagon] Korail 200000 series EMU (NURIRO)
 NAME_Nuriro_DD_wagon                                   :[wagon] Nuriro DD
 NAME_PEX_B                                             :PEX Bar Car
@@ -1287,6 +1293,37 @@ Param_Name_Semi_High_Speed_Train                       :Semi High Virtual speed 
 Param_Name_World                                       :No World trains allowed.
 
 # Liveries Locomotive
+Livery_KTX_1_1997                                      : Special 4Car
+Livery_KTX_1_2007                                      : Move Cinema
+Livery_KTX_1_2013                                      : LTE-A
+Livery_KTX_1_2017                                      : Special 3Car
+Livery_KTX_Cheong_Ryong_Eum                            : KTX-Eum
+Livery_KTX_Cheong_Ryong                                : KTX-Cheong Ryong
+Livery_KTX_Cheong_Ryong_2nd                            : KTX-Cheong Ryong 2nd
+Livery_SRT_320                                         : SRT 320
+Livery_KTX_Cheong_Ryong_BK                             : Black Livery
+Livery_KTX_Cheong_Ryong_CC                             : Company Colour
+Livery_KTX_Cheong_Ryong_Euro                           : Euro
+Livery_KTX_Cheong_Ryong_ICE                            : ICE
+Livery_KTX_Cheong_Ryong_JR                             : JR
+Livery_KTX_Cheong_Ryong_SRT_A                          : SRT_A
+Livery_KTX_Cheong_Ryong_SRT_B                          : SRT_B
+Livery_KTX_Cheong_Ryong_SRT_C                          : SRT_C
+Livery_KTX_Cheong_Ryong_SRT_D                          : SRT_D
+Livery_KTX_Cheong_Ryong_SRT_E                          : SRT_E
+Livery_KTX_Cheong_Ryong_THRS                           : THRS
+Livery_KTX_Cheong_Ryong_DD                             : KTX-Cheong Ryong
+Livery_KTX_Cheong_Ryong_DD_BK                          : Black Livery
+Livery_KTX_Cheong_Ryong_DD_CC                          : Company Color
+Livery_KTX_Cheong_Ryong_DD_2nd                         : KTX-Cheong Ryong 2nd
+Livery_KTX_Eum                                         : KTX-Eum
+Livery_KTX_Eum_2nd                                     : KTX-Eum 2nd
+Livery_KTX_Eum_MD                                      : KTX-Eum Prototype Livery
+Livery_KTX_Eum_W                                       : KTX-Eum White Livery
+Livery_KTX_Eum_BK                                      : KTX-Eum Black Livery
+Livery_KTX_Eum_SM1                                     : KTX-Eum Saemaeul First Livery
+Livery_KTX_Eum_SM2                                     : KTX-Eum Saemaeul Second Livery
+Livery_KTX_Eum_SM3                                     : KTX-Eum Saemaeul Third Livery
 Livery_KTX_Gyeonggang_Blue                             : KTX-Gyeonggang Blue Livery
 Livery_KTX_Gyeonggang_White                            : KTX-Gyeonggang White Livery
 Livery_KTX_Honam_Sky_blue                              : KTX-Sancheon 120000 1

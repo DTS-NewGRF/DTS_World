@@ -1,0 +1,172 @@
+/*--------------------------------------------------------------------
+KTX-온누리
+--------------------------------------------------------------------*/
+// Graphics
+#include "KTX_Onnuri_graphic.pnml"
+
+// Switch
+#include "KTX_Onnuri_switch.pnml"
+
+/*--------------------------------------------------------------------
+기관차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Onnuri_engine, 1032){
+    property {
+        name:                           string(NAME_KTX_Onnuri_engine);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2032, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  KTX_Logo;
+        dual_headed:                    1;
+        
+        //spec
+        speed:                          370km/h;
+        power:                          13800 kW;
+        weight:                         28 ton;
+        tractive_effort_coefficient:    0.775;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 58;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_KTX_Onnuri_engine;
+        purchase:                       set_KTX_Onnuri_engine_purchase;
+        speed:                          sw_High_368_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
+        }
+    
+    livery_override(KTX_Onnuri_wagon) {
+        default:                        sw_KTX_Onnuri_wagon;
+        loading_speed:                  25;
+        cargo_capacity:                 58;
+        }
+    
+    livery_override(KTX_Onnuri_DD_wagon) {
+        default:                        sw_KTX_Onnuri_DD_wagon;
+        loading_speed:                  25;
+        cargo_capacity:                 116;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차 1층
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Onnuri_wagon, 1033){
+    property {
+        name:                           string(NAME_KTX_Onnuri_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2032, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         28 ton;
+        tractive_effort_coefficient:    0.775;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 58;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_KTX_Onnuri_only_wagon;
+        purchase:                       set_KTX_Onnuri_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차 2층
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Onnuri_DD_wagon, 1034){
+    property {
+        name:                           string(NAME_KTX_Onnuri_DD_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2032, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         56 ton;
+        tractive_effort_coefficient:    0.775;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 116;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        set_KTX_Onnuri_wagon_DUP;
+        purchase:                       set_KTX_Onnuri_DD_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        }
+        }

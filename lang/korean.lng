@@ -64,13 +64,6 @@ STR_Group_ITX_Maum_NAME                                :ITX-마음
 STR_ITX_Maum_4Car_NAME                                 :[4량] ITX-마음
 STR_ITX_Maum_6Car_NAME                                 :[6량] ITX-마음
 STR_ITX_Saemaeul_6Car_NAME                             :[6량] ITX-새마을
-STR_KTX_1_20Car_NAME                                   :[20량] KTX-1
-STR_Group_KTX_Cheong_Ryong_NAME                        :KTX-청룡
-STR_KTX_Cheong_Ryong_8Car_NAME                         :[8량] KTX-청룡
-STR_KTX_Cheong_Ryong_16Car_NAME                        :[16량] KTX-청룡
-STR_Group_KTX_Eum_NAME                                 :KTX-이음
-STR_KTX_Eum_6Car_NAME                                  :[6량] KTX-이음
-STR_KTX_Eum_12Car_NAME                                 :[12량] KTX-이음
 STR_MSB_Speeder_NAME                                   :MSB 모터카
 STR_NEL_8100_NAME                                      :8100호대 전기기관차
 STR_NEL_8200_NAME                                      :8200호대 전기기관차
@@ -596,18 +589,6 @@ STR_REFIT_LIVERY_ITX_Maum                              : ITX-마음
 STR_REFIT_LIVERY_ITX_Maum_High1                        : 하이원리조트
 STR_REFIT_LIVERY_ITX_Maum_4_4_A                        : 기본 + 하이원리조트
 STR_REFIT_LIVERY_ITX_Maum_4_4_B                        : 하이원리조트 + 기본
-STR_REFIT_LIVERY_KTX_1_1997                            : 특실 4량
-STR_REFIT_LIVERY_KTX_1_2007                            : 영화시네마
-STR_REFIT_LIVERY_KTX_1_2013                            : LTE-A
-STR_REFIT_LIVERY_KTX_1_2017                            : 특실 3량
-STR_REFIT_LIVERY_KTX_Cheong_Ryong_Eum                  : 이음
-STR_REFIT_LIVERY_KTX_Cheong_Ryong                      : 청룡
-STR_REFIT_LIVERY_KTX_Cheong_Ryong_2nd                  : 청룡 2세대
-STR_REFIT_LIVERY_SRT_320                               : SRT 320
-STR_REFIT_LIVERY_KTX_Eum                               : KTX-이음
-STR_REFIT_LIVERY_KTX_Eum_1st_2nd                       : KTX-이음 1세대+2세대
-STR_REFIT_LIVERY_KTX_Eum_2nd_1st                       : KTX-이음 2세대+1세대
-STR_REFIT_LIVERY_KTX_Eum_2nd                           : KTX-이음 2세대
 STR_REFIT_LIVERY_NEL_8100_A                            : 구도색
 STR_REFIT_LIVERY_NEL_8100_B                            : 신도색
 STR_REFIT_LIVERY_OEL8000_I1                            : 초기형 초기도색
@@ -1210,6 +1191,19 @@ STR_REFIT_LIVERY_FlatPCC                               : 평판화차 패기형 
 STR_REFIT_LIVERY_FlatP2CC                              : 평판화차 패기형 2CC
 
 # locomotive's name
+NAME_KTX_1_20Car                                       :[20량] KTX-1
+NAME_KTX_1_engine                                      :[자유] KTX-1
+NAME_KTX_Cargo_260_engine                              :[자유] KTX-카고 260
+NAME_KTX_Cargo_300_engine                              :[자유] KTX-카고 300
+NAME_KTX_Cargo_320_engine                              :[자유] KTX-카고 320
+NAME_KTX_Cheong_Ryong_8Car                             :[8량] KTX-청룡
+NAME_KTX_Cheong_Ryong_engine                           :[자유] KTX-청룡
+NAME_KTX_Cheong_Ryong_DD_engine                        :[자유] KTX-청룡 DD
+NAME_KTX_Chowol_engine                                 :[자유] KTX-초월
+NAME_KTX_Eum_6Car                                      :[6량] KTX-이음
+NAME_KTX_Eum_engine                                    :[자유] KTX-이음
+NAME_KTX_Eum_DD_engine                                 :[자유] KTX-이음 DD
+NAME_KTX_Onnuri_engine                                 :[자유] KTX-온누리
 NAME_Group_KTX_Sancheon                                :KTX-산천
 NAME_KTX_Sancheon_10Car                                :[10량] KTX-산천, SRT
 NAME_KTX_Sancheon_engine                               :[자유] KTX-산천
@@ -1232,6 +1226,18 @@ NAME_Showcase_Flat_1F                                  :[진열용] 평판화차
 NAME_Group_PEX                                         :PEX (Premium EXpress)
 NAME_Group_PEX_Super                                   :PEX-Super (Premium EXpress Super)
 NAME_H2_WJ_wagon                                       :[객차] 우진산전 수소연료전지동차
+NAME_KTX_1_wagon                                       :[객차] KTX-1
+NAME_KTX_Cargo_260_wagon                               :[객차] KTX-카고 260
+NAME_KTX_Cargo_300_wagon                               :[객차] KTX-카고 300
+NAME_KTX_Cargo_320_wagon                               :[객차] KTX-카고 320
+NAME_KTX_Cheong_Ryong_wagon                            :[객차] KTX-청룡
+NAME_KTX_Cheong_Ryong_DD_wagon                         :[객차] KTX-청룡 DD
+NAME_KTX_Chowol_wagon                                  :[객차] KTX-초월
+NAME_KTX_Chowol_DD_wagon                               :[객차] KTX-초월 DD
+NAME_KTX_Eum_wagon                                     :[객차] KTX-이음
+NAME_KTX_Eum_DD_wagon                                  :[객차] KTX-이음 DD
+NAME_KTX_Onnuri_wagon                                  :[객차] KTX-온누리
+NAME_KTX_Onnuri_DD_wagon                               :[객차] KTX-온누리 DD
 NAME_KTX_Sancheon_wagon                                :[객차] KTX-산천
 NAME_KTX_Sancheon_DD_wagon                             :[객차] KTX-산천 DD
 NAME_KTX_Taegeuk_wagon                                 :[객차] KTX-태극
@@ -1287,6 +1293,37 @@ Param_Name_Semi_High_Speed_Train                       :가상 준고속열차 �
 Param_Name_World                                       :월드형 열차 사용 금지
 
 # Liveries Locomotive
+Livery_KTX_1_1997                                      : 특실 4량
+Livery_KTX_1_2007                                      : 영화시네마
+Livery_KTX_1_2013                                      : LTE-A
+Livery_KTX_1_2017                                      : 특실 3량
+Livery_KTX_Cheong_Ryong_Eum                            : 이음
+Livery_KTX_Cheong_Ryong                                : 청룡
+Livery_KTX_Cheong_Ryong_2nd                            : 청룡 2세대
+Livery_SRT_320                                         : SRT 320
+Livery_KTX_Cheong_Ryong_BK                             : 시안
+Livery_KTX_Cheong_Ryong_CC                             : 회사색상
+Livery_KTX_Cheong_Ryong_Euro                           : Euro
+Livery_KTX_Cheong_Ryong_ICE                            : ICE
+Livery_KTX_Cheong_Ryong_JR                             : JR
+Livery_KTX_Cheong_Ryong_SRT_A                          : SRT 시안
+Livery_KTX_Cheong_Ryong_SRT_B                          : SRT 가상
+Livery_KTX_Cheong_Ryong_SRT_C                          : SRT 컨셉 1안
+Livery_KTX_Cheong_Ryong_SRT_D                          : SRT 컨셉 2안
+Livery_KTX_Cheong_Ryong_SRT_E                          : SRT 컨셉 3안
+Livery_KTX_Cheong_Ryong_THRS                           : THRS
+Livery_KTX_Cheong_Ryong_DD                             : 청룡
+Livery_KTX_Cheong_Ryong_DD_2nd                         : 청룡 2세대
+Livery_KTX_Cheong_Ryong_DD_BK                          : 검정 도색
+Livery_KTX_Cheong_Ryong_DD_CC                          : 회사 색상
+Livery_KTX_Eum                                         : KTX-이음
+Livery_KTX_Eum_2nd                                     : KTX-이음 2세대
+Livery_KTX_Eum_MD                                      : KTX-이음 시안
+Livery_KTX_Eum_W                                       : KTX-이음 시안 2안
+Livery_KTX_Eum_BK                                      : KTX-이음 시안 3안
+Livery_KTX_Eum_SM1                                     : KTX-이음 새마을 초기 도색
+Livery_KTX_Eum_SM2                                     : KTX-이음 새마을 중기 도색
+Livery_KTX_Eum_SM3                                     : KTX-이음 새마을 후기 도색
 Livery_KTX_Gyeonggang_Blue                             : KTX-산천 경강선 시안 1안
 Livery_KTX_Gyeonggang_White                            : KTX-산천 경강선 컨셉
 Livery_KTX_Honam_Sky_blue                              : KTX-산천 120000호대 시안 1안

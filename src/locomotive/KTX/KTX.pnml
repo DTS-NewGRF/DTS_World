@@ -26,8 +26,15 @@ item(FEAT_TRAINS, KTX_Logo, 2511){
 열차 리스트
 --------------------------------------------------------------------*/
 #include "KTX_1/KTX_1.pnml"
+#include "KTX_Cargo_260/KTX_Cargo_260.pnml"
+#include "KTX_Cargo_300/KTX_Cargo_300.pnml"
+#include "KTX_Cargo_320/KTX_Cargo_320.pnml"
 #include "KTX_Cheong_Ryong/KTX_Cheong_Ryong.pnml"
+#include "KTX_Cheong_Ryong_DD/KTX_Cheong_Ryong_DD.pnml"
+#include "KTX_Chowol/KTX_Chowol.pnml"
 #include "KTX_Eum/KTX_Eum.pnml"
+#include "KTX_Eum_DD/KTX_Eum_DD.pnml"
+#include "KTX_Onnuri/KTX_Onnuri.pnml"
 #include "KTX_Sancheon/KTX_Sancheon.pnml"
 #include "KTX_Sancheon_DD/KTX_Sancheon_DD.pnml"
 #include "KTX_Taegeuk/KTX_Taegeuk.pnml"

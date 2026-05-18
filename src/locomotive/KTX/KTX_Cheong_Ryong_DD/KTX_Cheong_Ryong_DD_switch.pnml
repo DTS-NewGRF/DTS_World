@@ -1,0 +1,141 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_KTX_Cheong_Ryong_DD);
+    3: return string(Livery_KTX_Cheong_Ryong_DD_2nd);
+    1: return string(Livery_KTX_Cheong_Ryong_DD_BK);
+    2: return string(Livery_KTX_Cheong_Ryong_DD_CC);
+}
+
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_engineH_Front, cargo_subtype) {
+    0: set_KTX_Cheong_Ryong_DD_engineH;
+    3: set_KTX_Cheong_Ryong_DD_2nd_engineH;
+    1: set_KTX_Cheong_Ryong_DD_BK_engineH;
+    2: set_KTX_Cheong_Ryong_DD_CC_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M1_Front, cargo_subtype) {
+    0: set_KTX_Cheong_Ryong_DD_wagon_M1;
+    3: set_KTX_Cheong_Ryong_DD_2nd_wagon_M1;
+    1: set_KTX_Cheong_Ryong_DD_BK_wagon_M1;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M2, cargo_subtype) {
+    0: set_KTX_Cheong_Ryong_DD_wagon_M2;
+    3: set_KTX_Cheong_Ryong_DD_2nd_wagon_M2;
+    1: set_KTX_Cheong_Ryong_DD_BK_wagon_M2;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M2_1, cargo_subtype) {
+    0: set_KTX_Cheong_Ryong_DD_wagon_M2_1;
+    3: set_KTX_Cheong_Ryong_DD_2nd_wagon_M2_1;
+    1: set_KTX_Cheong_Ryong_DD_BK_wagon_M2_1;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M2_1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M3, cargo_subtype) {
+    0: set_KTX_Cheong_Ryong_DD_wagon_M3;
+    3: set_KTX_Cheong_Ryong_DD_2nd_wagon_M3;
+    1: set_KTX_Cheong_Ryong_DD_BK_wagon_M3;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M3;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M4_Front, cargo_subtype) {
+    0: set_KTX_Cheong_Ryong_DD_wagon_M4;
+    3: set_KTX_Cheong_Ryong_DD_2nd_wagon_M4;
+    1: set_KTX_Cheong_Ryong_DD_BK_wagon_M4;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M4;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_engineT_Front, cargo_subtype) {
+    0: set_KTX_Cheong_Ryong_DD_engineT;
+    3: set_KTX_Cheong_Ryong_DD_2nd_engineT;
+    1: set_KTX_Cheong_Ryong_DD_BK_engineT;
+    2: set_KTX_Cheong_Ryong_DD_CC_engineT;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_engineH_Back, cargo_subtype) {
+    0: set_KTX_Cheong_Ryong_DD_engineH_Rev;
+    3: set_KTX_Cheong_Ryong_DD_2nd_engineH_Rev;
+    1: set_KTX_Cheong_Ryong_DD_BK_engineH_Rev;
+    2: set_KTX_Cheong_Ryong_DD_CC_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M1_Back, cargo_subtype) {
+    0: set_KTX_Cheong_Ryong_DD_wagon_M1_Rev;
+    3: set_KTX_Cheong_Ryong_DD_2nd_wagon_M1_Rev;
+    1: set_KTX_Cheong_Ryong_DD_BK_wagon_M1_Rev;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M1_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M4_Back, cargo_subtype) {
+    0: set_KTX_Cheong_Ryong_DD_wagon_M4_Rev;
+    3: set_KTX_Cheong_Ryong_DD_2nd_wagon_M4_Rev;
+    1: set_KTX_Cheong_Ryong_DD_BK_wagon_M4_Rev;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M4_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_engineT_Back, cargo_subtype) {
+    0: set_KTX_Cheong_Ryong_DD_engineT_Rev;
+    3: set_KTX_Cheong_Ryong_DD_2nd_engineT_Rev;
+    1: set_KTX_Cheong_Ryong_DD_BK_engineT_Rev;
+    2: set_KTX_Cheong_Ryong_DD_CC_engineT_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_engineH, train_is_driving_backwards) {
+    0: sw_KTX_Cheong_Ryong_DD_engineH_Front;
+    1: sw_KTX_Cheong_Ryong_DD_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M1, train_is_driving_backwards) {
+    0: sw_KTX_Cheong_Ryong_DD_wagon_M1_Front;
+    1: sw_KTX_Cheong_Ryong_DD_wagon_M1_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M4, train_is_driving_backwards) {
+    0: sw_KTX_Cheong_Ryong_DD_wagon_M4_Front;
+    1: sw_KTX_Cheong_Ryong_DD_wagon_M4_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_engineT, train_is_driving_backwards) {
+    0: sw_KTX_Cheong_Ryong_DD_engineT_Front;
+    1: sw_KTX_Cheong_Ryong_DD_engineT_Back;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_KTX_Cheong_Ryong_DD_engineT;
+    sw_KTX_Cheong_Ryong_DD_engineH;
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_order_wagon, position_in_consist % 2) {
+    1: sw_KTX_Cheong_Ryong_DD_wagon_M3;
+    sw_KTX_Cheong_Ryong_DD_wagon_M2;
+}
+
+switch (FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_front, position_in_vehid_chain) {
+    0: sw_KTX_Cheong_Ryong_DD_wagon_M1;
+    sw_KTX_Cheong_Ryong_DD_order_wagon;
+}
+
+switch (FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0: sw_KTX_Cheong_Ryong_DD_wagon_M4;
+    1: sw_KTX_Cheong_Ryong_DD_wagon_M2_1;
+    2: sw_KTX_Cheong_Ryong_DD_wagon_M2;
+    sw_KTX_Cheong_Ryong_DD_wagon_front;
+}
+
+switch (FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon, num_vehs_in_vehid_chain) {
+     1..255: sw_KTX_Cheong_Ryong_DD_wagon_full;
+    sw_KTX_Cheong_Ryong_DD_order_wagon;
+}

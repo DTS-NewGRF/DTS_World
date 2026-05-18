@@ -8,11 +8,124 @@ KTX-이음
 #include "KTX_Eum_switch.pnml"
 
 /*--------------------------------------------------------------------
+기관차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Eum_engine, 1035){
+    property {
+        name:                           string(NAME_KTX_Eum_engine);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  KTX_Logo;
+        dual_headed:                    1;
+        
+        //spec
+        speed:                          260km/h;
+        power:                          9112 kW;
+        weight:                         35 ton;
+        tractive_effort_coefficient:    0.579;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 64;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_KTX_Eum_Free_engine;
+        purchase:                       set_KTX_Eum_engine_purchase;
+        speed:                          sw_High_260_speed;
+        loading_speed:                  25;
+        cargo_subtype_text:             sw_KTX_Eum_Free_cargo_subtype_text;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
+        }
+    
+    livery_override(KTX_Eum_wagon) {
+        default:                        sw_KTX_Eum_Free_wagon;
+        cargo_subtype_text:             sw_KTX_Eum_Free_cargo_subtype_text;
+        loading_speed:                  25;
+        cargo_capacity:                 64;
+        weight:                         35;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Eum_wagon, 1036){
+    property {
+        name:                           string(NAME_KTX_Eum_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         35 ton;
+        tractive_effort_coefficient:    0.579;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 64;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_KTX_Eum_Free_wagon_M2;
+        purchase:                       set_KTX_Eum_wagon_purchase;
+        loading_speed:                  25;
+        cargo_subtype_text:             sw_KTX_Eum_Free_cargo_subtype_text;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Eum, 2425){
     property {
-        name:                           string(STR_Group_KTX_Eum_NAME);
+        name:                           string(STR_To_Be_Deleted_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,13 +144,13 @@ item(FEAT_TRAINS, KTX_Eum, 2425){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Eum_6Car, 2423){
     property {
-        name:                           string(STR_KTX_Eum_6Car_NAME);
+        name:                           string(NAME_KTX_Eum_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  KTX_Eum;
+        variant_group:                  KTX_Logo;
         
         //spec
         speed:                          260km/h;
@@ -76,18 +189,18 @@ item(FEAT_TRAINS, KTX_Eum_6Car, 2423){
         purchase:                       set_KTX_Eum_purchase;
         speed:                          sw_High_260_speed;
         loading_speed:                  25;
-        cargo_subtype_text:             sw_KTX_Eum_6car_cargo_subtype_text;
+        cargo_subtype_text:             sw_KTX_Eum_cargo_subtype_text;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }
 
 /*--------------------------------------------------------------------
-열차정보 12량
+삭제예정
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Eum_12Car, 2426){
     property {
-        name:                           string(STR_KTX_Eum_12Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -131,7 +244,5 @@ item(FEAT_TRAINS, KTX_Eum_12Car, 2426){
         purchase:                       set_KTX_Eum_purchase;
         speed:                          sw_High_260_speed;
         loading_speed:                  25;
-        cargo_subtype_text:             sw_KTX_Eum_12car_cargo_subtype_text;
-        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }

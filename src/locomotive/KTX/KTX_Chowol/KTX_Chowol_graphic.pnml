@@ -1,0 +1,69 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_KTX_Chowol_engineH, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_KTX_Chowol_engineH_Rev, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_KTX_Chowol_wagon_M1, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_KTX_Chowol_wagon_M1_Rev, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_KTX_Chowol_wagon_M2, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_KTX_Chowol_wagon_M3, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_KTX_Chowol_wagon_DUP1, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_KTX_Chowol_wagon_DUP2, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_KTX_Chowol_wagon_M4, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    DTS_temp(80, 216)
+}
+
+spriteset(set_KTX_Chowol_wagon_M4_Rev, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_KTX_Chowol_engineT_Rev, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    DTS_temp_r(80, 270)
+}
+
+spriteset(set_KTX_Chowol_engineT, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    DTS_temp_r(80, 297)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_KTX_Chowol_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol_Logo.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_KTX_Chowol_engine_purchase, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    tmpl_purchase_for_dualhead(0, 0)
+}
+
+spriteset(set_KTX_Chowol_wagon_purchase, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    tmpl_purchase(0, 108)
+}
+
+spriteset(set_KTX_Chowol_DD_wagon_purchase, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    tmpl_purchase(0, 162)
+}
