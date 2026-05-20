@@ -10,8 +10,6 @@ GRF_URL                                                :https://github.com/DTS-N
 STR_To_Be_Deleted_NAME                                 :{RED}삭제예정
 
 # locomotive's name / Logo
-STR_Group_KTX_Logo_NAME                                :KTX
-STR_Group_Nuriro_Logo_NAME                             :누리로
 STR_Group_AREX_Logo_NAME                               :AREX
 STR_Group_Busanmetro_NAME                              :부산교통공사 전동차
 STR_Group_Daegumetro_NAME                              :대구교통공사 전동차
@@ -22,7 +20,6 @@ STR_Group_MTR_Logo_NAME                                :홍콩 MTR
 STR_Group_Hankyu_Logo_NAME                             :한큐전철
 STR_Group_Nishitetsu_Logo_NAME                         :니시테츠
 STR_Group_CRH_Logo_NAME                                :CRH
-STR_Group_ICE_Logo_NAME                                :ICE
 STR_Group_Shinkansen_Logo_NAME                         :신칸센
 STR_Group_TGV_Logo_NAME                                :TGV
 STR_Group_Renfe_Logo_NAME                              :Renfe
@@ -50,20 +47,11 @@ STR_Special_Diesel_Car_NAME                            :특별동차 (디젤액�
 STR_EEC_EMU_10Car_NAME                                 :[10량] EEC 전기동차
 STR_FEL_8500_NAME                                      :8500호대 전기기관차
 STR_GT26CW_NAME                                        :7X00호대 디젤기관차
-STR_GTX_8Car_NAME                                      :[8량] GTX
-STR_Group_HEMU_430X_NAME                               :HEMU-430X
-STR_HEMU_430X_6Car_NAME                                :[6량] HEMU-430X
-STR_HEMU_430X_8Car_NAME                                :[8량] HEMU-430X
 STR_Group_HSR_350X_NAME                                :HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[7량] HSR-350X
 STR_HSR_350X_10Car_NAME                                :[10량] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[14량] HSR-350X
 STR_HSR_350X_20Car_NAME                                :[20량] HSR-350X
-STR_ITX_CheongChun_8Car_NAME                           :[8량] ITX-청춘
-STR_Group_ITX_Maum_NAME                                :ITX-마음
-STR_ITX_Maum_4Car_NAME                                 :[4량] ITX-마음
-STR_ITX_Maum_6Car_NAME                                 :[6량] ITX-마음
-STR_ITX_Saemaeul_6Car_NAME                             :[6량] ITX-새마을
 STR_MSB_Speeder_NAME                                   :MSB 모터카
 STR_NEL_8100_NAME                                      :8100호대 전기기관차
 STR_NEL_8200_NAME                                      :8200호대 전기기관차
@@ -71,7 +59,6 @@ STR_OEL_8000_NAME                                      :8000호대 전기기관�
 STR_Group_RDC_NAME                                     :RDC 디젤동차
 STR_RDC_3Car_NAME                                      :[3량] RDC 디젤동차
 STR_RDC_4Car_NAME                                      :[4량] RDC 디젤동차
-STR_TTX_6Car_NAME                                      :[6량] TTX
 
 # Chinese / locomotive's name
 STR_CRH380AJ_8Car_NAME                                 :[8량] CRH380AJ
@@ -583,12 +570,6 @@ STR_REFIT_LIVERY_GT26CW_2019_1                         : 한-아세안열차 (�
 STR_REFIT_LIVERY_GT26CW_2019_2                         : 한-아세안열차 (한국철도공사 CI)
 STR_REFIT_LIVERY_GT26CW_2020                           : 남도해양관광열차 신도색
 STR_REFIT_LIVERY_GT26CW_2023                           : 서해금빛열차 신도색
-STR_REFIT_LIVERY_ITX_CheongChun_A                      : ITX-청춘
-STR_REFIT_LIVERY_ITX_CheongChun_B                      : ITX-청춘 용 랩핑
-STR_REFIT_LIVERY_ITX_Maum                              : ITX-마음
-STR_REFIT_LIVERY_ITX_Maum_High1                        : 하이원리조트
-STR_REFIT_LIVERY_ITX_Maum_4_4_A                        : 기본 + 하이원리조트
-STR_REFIT_LIVERY_ITX_Maum_4_4_B                        : 하이원리조트 + 기본
 STR_REFIT_LIVERY_NEL_8100_A                            : 구도색
 STR_REFIT_LIVERY_NEL_8100_B                            : 신도색
 STR_REFIT_LIVERY_OEL8000_I1                            : 초기형 초기도색
@@ -1191,6 +1172,30 @@ STR_REFIT_LIVERY_FlatPCC                               : 평판화차 패기형 
 STR_REFIT_LIVERY_FlatP2CC                              : 평판화차 패기형 2CC
 
 # locomotive's name
+NAME_Group_HEMU_430X                                   :HEMU-430X
+NAME_Group_ICE                                         :ICE
+NAME_Group_ITX                                         :ITX
+NAME_Group_ITX_Maum                                    :ITX-마음
+NAME_Group_KTX                                         :KTX
+NAME_Group_KTX_Sancheon                                :KTX-산천
+NAME_Group_Nuriro                                      :한국철도공사 200000호대 전동차 (누리로)
+NAME_GTX_8Car                                          :[8량] GTX
+NAME_GTX_8Car_engine                                   :[자유] GTX
+NAME_H2_WJ_engine                                      :[자유] 우진산전 수소연료전지동차
+NAME_HEMU_430X_6Car                                    :[6량] HEMU-430X
+NAME_HEMU_430X_8Car                                    :[8량] HEMU-430X
+NAME_HEMU_430X_engine                                  :[자유] HEMU-430X
+NAME_ITX_CheongChan_engine                             :[자유] ITX-청천
+NAME_ITX_CheongChun_8Car                               :[8량] ITX-청춘
+NAME_ITX_CheongChun_engine                             :[자유] ITX-청춘
+NAME_ITX_CheongChun_DD_engine                          :[자유] ITX-청춘 DD
+NAME_ITX_Maum_4Car                                     :[4량] ITX-마음
+NAME_ITX_Maum_6Car                                     :[6량] ITX-마음
+NAME_ITX_Maum_engine                                   :[자유] ITX-마음
+NAME_ITX_Maum_DD_engine                                :[자유] ITX-마음
+NAME_ITX_Saemaeul_6Car                                 :[6량] ITX-새마을
+NAME_ITX_Saemaeul_engine                               :[자유] ITX-새마을
+NAME_ITX_Saemaeul_DD_engine                            :[자유] ITX-새마을 DD
 NAME_KTX_1_20Car                                       :[20량] KTX-1
 NAME_KTX_1_engine                                      :[자유] KTX-1
 NAME_KTX_Cargo_260_engine                              :[자유] KTX-카고 260
@@ -1204,16 +1209,15 @@ NAME_KTX_Eum_6Car                                      :[6량] KTX-이음
 NAME_KTX_Eum_engine                                    :[자유] KTX-이음
 NAME_KTX_Eum_DD_engine                                 :[자유] KTX-이음 DD
 NAME_KTX_Onnuri_engine                                 :[자유] KTX-온누리
-NAME_Group_KTX_Sancheon                                :KTX-산천
 NAME_KTX_Sancheon_10Car                                :[10량] KTX-산천, SRT
 NAME_KTX_Sancheon_engine                               :[자유] KTX-산천
-NAME_Group_Nuriro                                      :한국철도공사 200000호대 전동차 (누리로)
-NAME_H2_WJ_engine                                      :[자유] 우진산전 수소연료전지동차
 NAME_Nuriro_4Car                                       :[4량] 누리로
 NAME_Nuriro_engine                                     :[자유] 누리로
 NAME_Nuriro_DD_engine                                  :[자유] 누리로 DD
 NAME_KTX_Taegeuk_engine                                :[자유] KTX-태극
 NAME_Transparency                                      :투명기관차
+NAME_TTX_6Car                                          :[6량] TTX
+NAME_TTX_engine                                        :[자유] TTX
 NAME_VHST_600X_engine                                  :[자유] VHST-600X
 
 # Metro's name
@@ -1225,7 +1229,17 @@ NAME_Showcase_Flat_1F                                  :[진열용] 평판화차
 # Wagon's name
 NAME_Group_PEX                                         :PEX (Premium EXpress)
 NAME_Group_PEX_Super                                   :PEX-Super (Premium EXpress Super)
+NAME_GTX_8Car_wagon                                    :[객차] GTX
 NAME_H2_WJ_wagon                                       :[객차] 우진산전 수소연료전지동차
+NAME_HEMU_430X_wagon                                   :[객차] HEMU-430X
+NAME_HEMU_430X_DD_wagon                                :[객차] HEMU-430X DD
+NAME_ITX_CheongChan_wagon                              :[객차] ITX-청천
+NAME_ITX_CheongChun_wagon                              :[객차] ITX-청춘
+NAME_ITX_CheongChun_DD_wagon                           :[객차] ITX-청춘 DD
+NAME_ITX_Maum_wagon                                    :[객차] ITX-마음
+NAME_ITX_Maum_DD_wagon                                 :[객차] ITX-마음 DD
+NAME_ITX_Saemaeul_wagon                                :[객차] ITX-새마을
+NAME_ITX_Saemaeul_DD_wagon                             :[객차] ITX-새마을 DD
 NAME_KTX_1_wagon                                       :[객차] KTX-1
 NAME_KTX_Cargo_260_wagon                               :[객차] KTX-카고 260
 NAME_KTX_Cargo_300_wagon                               :[객차] KTX-카고 300
@@ -1257,6 +1271,7 @@ NAME_PEX_Super_Post                                    :PEX-SUPER 우편객차
 NAME_PEX_Super_S                                       :PEX-SUPER 침대차
 NAME_PEX_Super_SN                                      :PEX-SUPER 특실
 NAME_Train_Car                                         :공통 객차
+NAME_TTX_wagon                                         :[객차] TTX
 NAME_VHST_600X_wagon                                   :[객차] VHST-600X
 NAME_VPassenger                                        :가상 객차 차량
 
@@ -1293,6 +1308,10 @@ Param_Name_Semi_High_Speed_Train                       :가상 준고속열차 �
 Param_Name_World                                       :월드형 열차 사용 금지
 
 # Liveries Locomotive
+Livery_ITX_CheongChun_A                                : ITX-청춘
+Livery_ITX_CheongChun_B                                : ITX-청춘 용 랩핑
+Livery_ITX_Maum                                        : ITX-마음
+Livery_ITX_Maum_High1                                  : 하이원리조트
 Livery_KTX_1_1997                                      : 특실 4량
 Livery_KTX_1_2007                                      : 영화시네마
 Livery_KTX_1_2013                                      : LTE-A

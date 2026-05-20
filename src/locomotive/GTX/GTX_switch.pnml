@@ -1,15 +1,49 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+// 고정편성
+switch(FEAT_TRAINS, SELF, sw_GTX_engineH, train_is_driving_backwards) {
+    0: set_GTX_engineH;
+    1: set_GTX_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GTX_panto_wagon_M1, train_is_driving_backwards) {
+    0: set_GTX_panto_wagon_M1;
+    1: set_GTX_panto_wagon_M1_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GTX_panto_wagon_M3, train_is_driving_backwards) {
+    0: set_GTX_panto_wagon_M3;
+    1: set_GTX_panto_wagon_M3_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GTX_engineT, train_is_driving_backwards) {
+    0: set_GTX_engineT;
+    1: set_GTX_engineT_Rev;
+}
+
+// 자유편성
+switch(FEAT_TRAINS, SELF, sw_GTX_engineT_Free, train_is_driving_backwards) {
+    0: set_GTX_engineT_Free;
+    1: set_GTX_engineT_Free_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_GTX_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_GTX_engineT_Free;
+    sw_GTX_engineH;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_GTX_8car, position_in_vehid_chain % 8) {
-    1:set_GTX_wagon;
-    2:set_GTX_panto_wagon;
-    3..4:set_GTX_wagon;
-    5:set_GTX_panto_wagon_r;
-    6:set_GTX_wagon;
-    7:set_GTX_engineT;
-    set_GTX_engineH; //default
+    0: sw_GTX_engineH; //default
+    1: set_GTX_wagon_M2;
+    2: sw_GTX_panto_wagon_M1;
+    3..4: set_GTX_wagon_M2;
+    5: sw_GTX_panto_wagon_M3;
+    6: set_GTX_wagon_M2;
+    7: sw_GTX_engineT;
     }
 
 // 편성량

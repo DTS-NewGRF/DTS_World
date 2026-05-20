@@ -12,7 +12,7 @@ ITX-새마을
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ITX_Saemaeul_6Car, 2327){
     property {
-        name:                           string(STR_ITX_Saemaeul_6Car_NAME);
+        name:                           string(NAME_ITX_Saemaeul_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2013, 1, 1);
         track_type:                     ELRL;
@@ -58,5 +58,167 @@ item(FEAT_TRAINS, ITX_Saemaeul_6Car, 2327){
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_TOSHIBAStart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+기관차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, ITX_Saemaeul_engine, 1071){
+    property {
+        name:                           string(NAME_ITX_Saemaeul_engine);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2013, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  ITX_Logo;
+        dual_headed:                    1;
+        
+        //spec
+        speed:                          181km/h;
+        power:                          3000 kW;
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 63;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_ITX_Saemaeul_engine;
+        purchase:                       set_ITX_Saemaeul_engine_purchase;
+        speed:                          sw_Regular_150_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBAStart_sound;
+        }
+    
+    livery_override(ITX_Saemaeul_wagon) {
+        default:                        sw_ITX_Saemaeul_Free_wagon;
+        loading_speed:                  25;
+        }
+    
+    livery_override(ITX_Saemaeul_DD_wagon) {
+        default:                        sw_ITX_Saemaeul_DD_Free_wagon;
+        loading_speed:                  25;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, ITX_Saemaeul_wagon, 1072){
+    property {
+        name:                           string(NAME_ITX_Saemaeul_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2013, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 63;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        set_ITX_Saemaeul_wagon_M;
+        purchase:                       set_ITX_Saemaeul_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, ITX_Saemaeul_DD_wagon, 1073){
+    property {
+        name:                           string(NAME_ITX_Saemaeul_DD_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2013, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 100;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_ITX_Saemaeul_DD_wagon;
+        purchase:                       set_ITX_Saemaeul_DD_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
         }
         }

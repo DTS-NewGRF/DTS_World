@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_DD_engineH, train_is_driving_backwards) {
+    0: set_ITX_Maum_DD_engineH;
+    1: set_ITX_Maum_DD_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_DD_engineT, train_is_driving_backwards) {
+    0: set_ITX_Maum_DD_engineT;
+    1: set_ITX_Maum_DD_engineT_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_DD_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_ITX_Maum_DD_engineT;
+    sw_ITX_Maum_DD_engineH;
+}

@@ -1,29 +1,98 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch (FEAT_TRAINS, SELF, sw_HEMU_430_6car, position_in_vehid_chain % 6) {
-    1:set_HEMU_430X_panto_wagon;
-    2:set_HEMU_430X_wagon_bar;
-    3:set_HEMU_430X_1F_wagon;
-    4:set_HEMU_430X_panto_wagon_r;
-    5:set_HEMU_430X_engineT;
-    set_HEMU_430X_engineH; //default
-    }
+// 전후진 통합 코드
+// 고정편성
+switch(FEAT_TRAINS, SELF, sw_HEMU_430X_engineH, train_is_driving_backwards) {
+    0: set_HEMU_430X_engineH;
+    1: set_HEMU_430X_engineH_Rev;
+}
 
-switch (FEAT_TRAINS, SELF, sw_articulated_HEMU_430_6car, extra_callback_info1) {
-    1..5: HEMU_430X_6Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+switch(FEAT_TRAINS, SELF, sw_HEMU_430X_wagon_M4, train_is_driving_backwards) {
+    0: set_HEMU_430X_wagon_M4;
+    1: set_HEMU_430X_wagon_M4_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HEMU_430X_wagon_M1, train_is_driving_backwards) {
+    0: set_HEMU_430X_wagon_M1;
+    1: set_HEMU_430X_wagon_M1_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HEMU_430X_engineT, train_is_driving_backwards) {
+    0: set_HEMU_430X_engineT;
+    1: set_HEMU_430X_engineT_Rev;
+}
+
+// 자유편성
+switch(FEAT_TRAINS, SELF, sw_HEMU_430X_Free_engineT, train_is_driving_backwards) {
+    0: set_HEMU_430X_engineT_Free;
+    1: set_HEMU_430X_engineT_Free_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_HEMU_430X_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_HEMU_430X_Free_engineT;
+    sw_HEMU_430X_engineH;
+}
+
+// 객차
+switch (FEAT_TRAINS, SELF, sw_HEMU_430X_Free_wagon_front, position_in_vehid_chain) {
+    0: sw_HEMU_430X_wagon_M4;
+    1: set_HEMU_430X_wagon_M3;
+    set_HEMU_430X_wagon_M2;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HEMU_430X_DD_Free_wagon_front, position_in_vehid_chain) {
+    0: sw_HEMU_430X_wagon_M4;
+    1: set_HEMU_430X_wagon_M3;
+    set_HEMU_430X_DD_wagon;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HEMU_430X_Free_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0: sw_HEMU_430X_wagon_M1;
+    sw_HEMU_430X_Free_wagon_front;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HEMU_430X_DD_Free_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0: sw_HEMU_430X_wagon_M1;
+    sw_HEMU_430X_DD_Free_wagon_front;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HEMU_430X_Free_wagon, num_vehs_in_vehid_chain) {
+    1..255: sw_HEMU_430X_Free_wagon_full;
+    set_HEMU_430X_wagon_M2;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HEMU_430X_DD_Free_wagon, num_vehs_in_vehid_chain) {
+    1..255: sw_HEMU_430X_DD_Free_wagon_full;
+    set_HEMU_430X_DD_wagon;
+}
+
+// 고정그래픽
+switch (FEAT_TRAINS, SELF, sw_HEMU_430_6car, position_in_vehid_chain % 6) {
+    0: sw_HEMU_430X_engine; //default
+    1: sw_HEMU_430X_wagon_M4;
+    2: set_HEMU_430X_wagon_M3;
+    3: set_HEMU_430X_wagon_M2;
+    4: sw_HEMU_430X_wagon_M1;
+    5: sw_HEMU_430X_engineT;
     }
 
 switch (FEAT_TRAINS, SELF, sw_HEMU_430_8car, position_in_vehid_chain % 8) {
-    1:set_HEMU_430X_panto_wagon;
-    2:set_HEMU_430X_wagon_bar;
-    3:set_HEMU_430X_2F_wagon;
-    4:set_HEMU_430X_2F_wagon_r;
-    5:set_HEMU_430X_1F_wagon;
-    6:set_HEMU_430X_panto_wagon_r;
-    7:set_HEMU_430X_engineT;
-    set_HEMU_430X_engineH; //default
+    0: sw_HEMU_430X_engine; //default
+    1: sw_HEMU_430X_wagon_M4;
+    2: set_HEMU_430X_wagon_M3;
+    3: set_HEMU_430X_DD_wagon;
+    4: set_HEMU_430X_DD_wagon;
+    5: set_HEMU_430X_wagon_M2;
+    6: sw_HEMU_430X_wagon_M1;
+    7: sw_HEMU_430X_engineT;
+    }
+
+// 편성수
+switch (FEAT_TRAINS, SELF, sw_articulated_HEMU_430_6car, extra_callback_info1) {
+    1..5: HEMU_430X_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_HEMU_430_8car, extra_callback_info1) {

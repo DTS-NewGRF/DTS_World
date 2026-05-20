@@ -10,7 +10,7 @@ spriteset(set_ITX_Maum_engineH, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
 }
 
 spriteset(set_ITX_Maum_engineH_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_ITX_Maum_panto_wagon_M1, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
@@ -18,7 +18,7 @@ spriteset(set_ITX_Maum_panto_wagon_M1, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png
 }
 
 spriteset(set_ITX_Maum_panto_wagon_M1_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_ITX_Maum_wagon_M, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
@@ -42,23 +42,31 @@ spriteset(set_ITX_Maum_panto_wagon_4Car_M2, "src/locomotive/ITX/ITX_Maum/ITX_Mau
 }
 
 spriteset(set_ITX_Maum_panto_wagon_4Car_M2_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
-    DTS_temp_r(80, 243)
+    DTS_temp(80, 243)
 }
 
-spriteset(set_ITX_Maum_panto_wagon_6Car_M2, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
+spriteset(set_ITX_Maum_panto_wagon_M2, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
     DTS_temp(80, 270)
 }
 
-spriteset(set_ITX_Maum_panto_wagon_6Car_M2_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
-    DTS_temp_r(80, 297)
+spriteset(set_ITX_Maum_panto_wagon_M2_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
+    DTS_temp(80, 297)
 }
 
 spriteset(set_ITX_Maum_engineT_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
+    DTS_temp(80, 324)
+}
+
+spriteset(set_ITX_Maum_engineT_Free_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
     DTS_temp_r(80, 324)
 }
 
 spriteset(set_ITX_Maum_engineT, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
     DTS_temp(80, 351)
+}
+
+spriteset(set_ITX_Maum_engineT_Free, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
+    DTS_temp_r(80, 351)
 }
 
 /*--------------------------------------------------------------------
@@ -69,7 +77,7 @@ spriteset(set_ITX_Maum_High1_engineH, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High
 }
 
 spriteset(set_ITX_Maum_High1_engineH_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_ITX_Maum_High1_panto_wagon_M1, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
@@ -77,7 +85,7 @@ spriteset(set_ITX_Maum_High1_panto_wagon_M1, "src/locomotive/ITX/ITX_Maum/ITX_Ma
 }
 
 spriteset(set_ITX_Maum_High1_panto_wagon_M1_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_ITX_Maum_High1_panto_wagon_4Car_M2, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
@@ -85,15 +93,23 @@ spriteset(set_ITX_Maum_High1_panto_wagon_4Car_M2, "src/locomotive/ITX/ITX_Maum/I
 }
 
 spriteset(set_ITX_Maum_High1_panto_wagon_4Car_M2_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
-    DTS_temp_r(80, 135)
+    DTS_temp(80, 135)
 }
 
 spriteset(set_ITX_Maum_High1_engineT_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_ITX_Maum_High1_engineT_Free_Rev, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
     DTS_temp_r(80, 162)
 }
 
 spriteset(set_ITX_Maum_High1_engineT, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
     DTS_temp(80, 189)
+}
+
+spriteset(set_ITX_Maum_High1_engineT_Free, "src/locomotive/ITX/ITX_Maum/ITX_Maum_High1.png"){
+    DTS_temp_r(80, 189)
 }
 
 /*--------------------------------------------------------------------
@@ -105,4 +121,16 @@ spriteset(set_ITX_Maum_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/l
 
 spriteset(set_ITX_Maum_purchase, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
     tmpl_purchase(0, 0)
+}
+
+spriteset(set_ITX_Maum_engine_purchase, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
+    tmpl_purchase_for_dualhead(0, 0)
+}
+
+spriteset(set_ITX_Maum_wagon_purchase, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
+    tmpl_purchase(0, 108)
+}
+
+spriteset(set_ITX_Maum_DD_wagon_purchase, "src/locomotive/ITX/ITX_Maum/ITX_Maum.png"){
+    tmpl_purchase(0, 135)
 }

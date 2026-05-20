@@ -9,7 +9,7 @@ ICE
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ICE_Logo, 2598){
     property {
-        name:                           string(STR_Group_ICE_Logo_NAME);
+        name:                           string(NAME_Group_ICE);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

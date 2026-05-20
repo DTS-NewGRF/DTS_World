@@ -22,6 +22,57 @@ switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_engineT, train_is_driving_backwards) {
     1: set_ITX_Saemaeul_engineT_Rev;
 }
 
+switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_engineT_Free, train_is_driving_backwards) {
+    0: set_ITX_Saemaeul_engineT_Free;
+    1: set_ITX_Saemaeul_engineT_Free_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_ITX_Saemaeul_engineT_Free;
+    sw_ITX_Saemaeul_engineH;
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_DD_wagon, position_in_consist % 2) {
+    1: set_ITX_Saemaeul_wagon_DUP2;
+    set_ITX_Saemaeul_wagon_DUP1;
+}
+
+switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_Free_wagon_front, position_in_vehid_chain) {
+    0: sw_ITX_Saemaeul_panto_wagon_M1;
+    set_ITX_Saemaeul_wagon_M;
+}
+
+switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_DD_Free_wagon_front, position_in_vehid_chain) {
+    0: sw_ITX_Saemaeul_panto_wagon_M1;
+    1: set_ITX_Saemaeul_wagon_M;
+    sw_ITX_Saemaeul_DD_wagon;
+}
+
+switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_Free_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0: sw_ITX_Saemaeul_panto_wagon_M2;
+    1: set_ITX_Saemaeul_wagon_TM;
+    sw_ITX_Saemaeul_Free_wagon_front;
+}
+
+switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_Free_wagon, num_vehs_in_vehid_chain) {
+    1..255: sw_ITX_Saemaeul_Free_wagon_full;
+    set_ITX_Saemaeul_wagon_M;
+}
+
+// 2층
+switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_DD_Free_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0: sw_ITX_Saemaeul_panto_wagon_M2;
+    1: set_ITX_Saemaeul_wagon_TM;
+    sw_ITX_Saemaeul_DD_Free_wagon_front;
+}
+
+switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_DD_Free_wagon, num_vehs_in_vehid_chain) {
+    1..255: sw_ITX_Saemaeul_DD_Free_wagon_full;
+    sw_ITX_Saemaeul_DD_wagon;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_6car, position_in_vehid_chain % 6) {
     0: sw_ITX_Saemaeul_engineH; //default

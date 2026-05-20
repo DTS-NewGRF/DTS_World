@@ -9,7 +9,7 @@ ITX
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ITX_Logo, 2512){
     property {
-        name:                           string(STR_Group_ITX_Logo_NAME);
+        name:                           string(NAME_Group_ITX);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -25,6 +25,10 @@ item(FEAT_TRAINS, ITX_Logo, 2512){
 /*--------------------------------------------------------------------
 열차 리스트
 --------------------------------------------------------------------*/
+#include "ITX_CheongChan/ITX_CheongChan.pnml"
 #include "ITX_CheongChun/ITX_CheongChun.pnml"
+#include "ITX_CheongChun_DD/ITX_CheongChun_DD.pnml"
 #include "ITX_Maum/ITX_Maum.pnml"
+#include "ITX_Maum_DD/ITX_Maum_DD.pnml"
 #include "ITX_Saemaeul/ITX_Saemaeul.pnml"
+#include "ITX_Saemaeul_DD/ITX_Saemaeul_DD.pnml"

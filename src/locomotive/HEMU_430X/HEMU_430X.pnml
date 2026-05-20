@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HEMU_430X, 2205){
     property {
-        name:                           string(STR_Group_HEMU_430X_NAME);
+        name:                           string(NAME_Group_HEMU_430X);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -30,7 +30,7 @@ item(FEAT_TRAINS, HEMU_430X, 2205){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HEMU_430X_6Car, 2028){
     property {
-        name:                           string(STR_HEMU_430X_6Car_NAME);
+        name:                           string(NAME_HEMU_430X_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2012, 1, 1);
         track_type:                     ELRL;
@@ -83,7 +83,7 @@ item(FEAT_TRAINS, HEMU_430X_6Car, 2028){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HEMU_430X_8Car, 2127){
     property {
-        name:                           string(STR_HEMU_430X_8Car_NAME);
+        name:                           string(NAME_HEMU_430X_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2012, 1, 1);
         track_type:                     ELRL;
@@ -128,5 +128,164 @@ item(FEAT_TRAINS, HEMU_430X_8Car, 2127){
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+기관차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HEMU_430X_engine, 1056){
+    property {
+        name:                           string(NAME_HEMU_430X_engine);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2012, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HEMU_430X;
+        dual_headed:                    1;
+        
+        //spec
+        speed:                          430km/h;
+        power:                          20000 kW;
+        weight:                         35 ton;
+        tractive_effort_coefficient:    0.3;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 60;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HEMU_430X_engine;
+        purchase:                       set_HEMU_430X_engine_purchase;
+        speed:                          sw_High_430_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
+        }
+    
+    livery_override(HEMU_430X_wagon) {
+        default:                        sw_HEMU_430X_Free_wagon;
+        loading_speed:                  25;
+        }
+    
+    livery_override(HEMU_430X_DD_wagon) {
+        default:                        sw_HEMU_430X_DD_Free_wagon;
+        loading_speed:                  25;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HEMU_430X_wagon, 1057){
+    property {
+        name:                           string(NAME_HEMU_430X_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2012, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         35 ton;
+        tractive_effort_coefficient:    0.3;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 60;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        set_HEMU_430X_wagon_M2;
+        purchase:                       set_HEMU_430X_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HEMU_430X_DD_wagon, 1058){
+    property {
+        name:                           string(NAME_HEMU_430X_DD_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2012, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         40 ton;
+        tractive_effort_coefficient:    0.3;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 90;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        set_HEMU_430X_DD_wagon;
+        purchase:                       set_HEMU_430X_wagon_DD_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
         }
         }

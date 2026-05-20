@@ -1,12 +1,42 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 전후진 통합 코드
+// 고정편성
+switch(FEAT_TRAINS, SELF, sw_TTX_engineH, train_is_driving_backwards) {
+    0: set_TTX_engineH;
+    1: set_TTX_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TTX_Fixed_engineT, train_is_driving_backwards) {
+    0: set_TTX_engineT;
+    1: set_TTX_engineT_Rev;
+}
+
+// 자유편성
+switch(FEAT_TRAINS, SELF, sw_TTX_Free_engineT, train_is_driving_backwards) {
+    0: set_TTX_engineT_Free;
+    1: set_TTX_engineT_Free_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_TTX_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_TTX_Free_engineT;
+    sw_TTX_engineH;
+}
+
+// 자유객차
+switch(FEAT_TRAINS, SELF, sw_TTX_wagon, position_in_consist % 2) {
+    1: set_TTX_wagon_M2;
+    set_TTX_wagon_M1;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_TTX_6car, position_in_vehid_chain % 6) {
-    0: set_TTX_engineH; //default
+    0: sw_TTX_engineH; //default
     1..2: set_TTX_wagon_M1;
     3..4: set_TTX_wagon_M2;
-    5: set_TTX_engineT;
+    5: sw_TTX_Fixed_engineT;
     }
 
 // 편성수

@@ -9,7 +9,7 @@ KTX
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Logo, 2511){
     property {
-        name:                           string(STR_Group_KTX_Logo_NAME);
+        name:                           string(NAME_Group_KTX);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

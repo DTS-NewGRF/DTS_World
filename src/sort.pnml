@@ -221,8 +221,15 @@ sort(FEAT_TRAINS, [
     ITX_Maum,                                //2193
     ITX_Maum_4Car,                           //2166
     ITX_Maum_6Car,                           //2010
+    ITX_Maum_engine,                         //1067
+    ITX_Maum_DD_engine,                      //1070
     ITX_Saemaeul_6Car,                       //2327
+    ITX_Saemaeul_engine,                     //1071
+    ITX_Saemaeul_DD_engine,                  //1074
+    ITX_CheongChan_engine,                   //1061
     ITX_CheongChun_8Car,                     //2354
+    ITX_CheongChun_engine,                   //1063
+    ITX_CheongChun_DD_engine,                //1066
 
     // KTX 열차 그룹
     KTX_Logo,                                //2511
@@ -397,7 +404,9 @@ sort(FEAT_TRAINS, [
 
     // 준고속 180
     GTX_8Car,                                //2017
+    GTX_8Car_engine,                         //1059
     TTX_6Car,                                //2019
+    TTX_engine,                              //1054
 
     // 고속열차 331
     HSR_350X,                                //2200
@@ -416,6 +425,7 @@ sort(FEAT_TRAINS, [
     HEMU_430X,                               //2205
     HEMU_430X_6Car,                          //2028
     HEMU_430X_8Car,                          //2127
+    HEMU_430X_engine,                        //1056
 
     // 고속열차 600
     KTX_Taegeuk_engine,                      //1027
@@ -433,6 +443,15 @@ sort(FEAT_TRAINS, [
     Nextrain_wagon,                          //1019
     Nuriro_wagon,                            //1024
     Nuriro_DD_wagon,                         //1026
+    TTX_wagon,                               //1055
+    GTX_8Car_wagon,                          //1060
+    ITX_CheongChan_wagon,                    //1062
+    ITX_CheongChun_wagon,                    //1064
+    ITX_CheongChun_DD_wagon,                 //1065
+    ITX_Maum_wagon,                          //1068
+    ITX_Maum_DD_wagon,                       //1069
+    ITX_Saemaeul_wagon,                      //1072
+    ITX_Saemaeul_DD_wagon,                   //1073
     KTX_1_wagon,                             //1053
     KTX_Eum_wagon,                           //1036
     KTX_Eum_DD_wagon,                        //1038
@@ -448,6 +467,8 @@ sort(FEAT_TRAINS, [
     KTX_Sancheon_wagon,                      //1030
     KTX_Sancheon_DD_wagon,                   //1031
     KTX_Taegeuk_wagon,                       //1028
+    HEMU_430X_wagon,                         //1057
+    HEMU_430X_DD_wagon,                      //1058
     VHST_600X_wagon,                         //1021
     Travel_wagon,                            //2210
     A_Train_Passenger_Car,                   //2164
