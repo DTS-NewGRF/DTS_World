@@ -61,23 +61,3 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Chowol_DD_order_wagon, position_in_consist % 2)
     0: set_KTX_Chowol_wagon_DUP2;
     set_KTX_Chowol_wagon_DUP1;
 }
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Chowol_DD_wagon_front, position_in_vehid_chain) {
-    0: sw_KTX_Chowol_wagon_M1;
-    sw_KTX_Chowol_DUP_wagon;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Chowol_DD_wagon_back, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0: sw_KTX_Chowol_wagon_M4;
-    sw_KTX_Chowol_DUP_wagon;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Chowol_DD_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0: sw_KTX_Chowol_DD_wagon_back;
-    sw_KTX_Chowol_DD_wagon_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Chowol_DD_wagon, num_vehs_in_vehid_chain) {
-    1..255: sw_KTX_Chowol_DD_wagon_full;
-    sw_KTX_Chowol_DUP_wagon;
-}

@@ -1,0 +1,37 @@
+/*--------------------------------------------------------------------
+DTX
+--------------------------------------------------------------------*/
+// Graphics
+#include "DTX_graphic.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_Logo, 1076){
+    property {
+        name:                           string(NAME_Group_DTX);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          40000 kW;
+        }
+
+    graphics {
+        purchase:                       set_DTX_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+#include "DTS_Metro/DTS_Metro.pnml"
+#include "DTX_Glory/DTX_Glory.pnml"
+#include "DTX_Koryo/DTX_Koryo.pnml"
+#include "DTX_Sejong/DTX_Sejong.pnml"
+#include "DTX_Sobaek/DTX_Sobaek.pnml"
+#include "DTX_Sundeok/DTX_Sundeok.pnml"
+#include "DTX_Taebaek/DTX_Taebaek.pnml"
+--------------------------------------------------------------------*/
+#include "DFX/DFX.pnml"
+#include "DPX/DPX.pnml"
+#include "DTS_CityLink/DTS_CityLink.pnml"

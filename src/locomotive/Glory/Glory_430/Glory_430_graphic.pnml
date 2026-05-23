@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+Glory 430
+--------------------------------------------------------------------*/
+spriteset(set_Glory_430_engineH, "src/locomotive/Glory/Glory_430/Glory_430.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Glory_430_engineH_Rev, "src/locomotive/Glory/Glory_430/Glory_430.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Glory_430_wagon, "src/locomotive/Glory/Glory_430/Glory_430.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Glory_430_engineT_Rev, "src/locomotive/Glory/Glory_430/Glory_430.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_Glory_430_engineT, "src/locomotive/Glory/Glory_430/Glory_430.png"){
+    DTS_temp_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Glory_430_engine_purchase, "src/locomotive/Glory/Glory_430/Glory_430.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Glory_430_wagon_purchase, "src/locomotive/Glory/Glory_430/Glory_430.png"){
+    tmpl_purchase(0, 54)
+}

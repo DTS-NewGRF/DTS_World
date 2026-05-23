@@ -118,11 +118,6 @@ item(FEAT_TRAINS, ITX_Saemaeul_engine, 1071){
         default:                        sw_ITX_Saemaeul_Free_wagon;
         loading_speed:                  25;
         }
-    
-    livery_override(ITX_Saemaeul_DD_wagon) {
-        default:                        sw_ITX_Saemaeul_DD_Free_wagon;
-        loading_speed:                  25;
-        }
         }
 
 /*--------------------------------------------------------------------

@@ -37,7 +37,7 @@ item(FEAT_TRAINS, ITX_Maum_4Car, 2166){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  ITX_Maum;
+        variant_group:                  ITX_Logo;
         
         //spec
         speed:                          165km/h;
@@ -92,7 +92,7 @@ item(FEAT_TRAINS, ITX_Maum_6Car, 2010){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  ITX_Maum;
+        variant_group:                  ITX_Logo;
         
         //spec
         speed:                          165km/h;
@@ -146,7 +146,7 @@ item(FEAT_TRAINS, ITX_Maum_engine, 1067){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  ITX_Maum;
+        variant_group:                  ITX_Logo;
         dual_headed:                    1;
         
         //spec
@@ -190,11 +190,6 @@ item(FEAT_TRAINS, ITX_Maum_engine, 1067){
     
     livery_override(ITX_Maum_wagon) {
         default:                        sw_ITX_Maum_wagon;
-        loading_speed:                  25;
-        }
-    
-    livery_override(ITX_Maum_DD_wagon) {
-        default:                        sw_ITX_Maum_DD_Free_wagon;
         loading_speed:                  25;
         }
         }

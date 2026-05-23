@@ -1,0 +1,91 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_HYEL_350_engineH, train_is_driving_backwards) {
+    0: set_HYEL_350_engineH;
+    1: set_HYEL_350_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_350_engineT, train_is_driving_backwards) {
+    0: set_HYEL_350_engineT;
+    1: set_HYEL_350_engineT_Rev;
+}
+
+// 편성그래픽
+// 8량
+switch (FEAT_TRAINS, SELF, sw_HYEL_350_8car, position_in_vehid_chain % 8) {
+    0: sw_HYEL_350_engineH; //default
+    1: set_HYEL_350_wagon_T2;
+    2: set_HYEL_350_wagon_T3;
+    3: set_HYEL_350_wagon_T4;
+    4: set_HYEL_350_wagon_T5;
+    5: set_HYEL_350_wagon_T6;
+    6: set_HYEL_350_wagon_T7;
+    7: sw_HYEL_350_engineT;
+    }
+
+// 10량
+switch (FEAT_TRAINS, SELF, sw_HYEL_350_10car, position_in_vehid_chain % 10) {
+    0: sw_HYEL_350_engineH; //default
+    1: set_HYEL_350_wagon_T1;
+    2: set_HYEL_350_wagon_T2;
+    3: set_HYEL_350_wagon_T3;
+    4: set_HYEL_350_wagon_T4;
+    5: set_HYEL_350_wagon_T5;
+    6: set_HYEL_350_wagon_T6;
+    7: set_HYEL_350_wagon_T7;
+    8: set_HYEL_350_wagon_T8;
+    9: sw_HYEL_350_engineT;
+    }
+
+// 16량
+switch (FEAT_TRAINS, SELF, sw_HYEL_350_16car, position_in_vehid_chain % 16) {
+     0: sw_HYEL_350_engineH; //default
+     1: set_HYEL_350_wagon_T1;
+     2..3: set_HYEL_350_wagon_T2;
+     4: set_HYEL_350_wagon_T3;
+     5..6: set_HYEL_350_wagon_T4;
+     7: set_HYEL_350_wagon_T5;
+     8..9: set_HYEL_350_wagon_T6;
+    10..11: set_HYEL_350_wagon_T7;
+    12..13: set_HYEL_350_wagon_T8;
+    14: set_HYEL_350_wagon_T9;
+    15: sw_HYEL_350_engineT;
+    }
+
+// 20량
+switch (FEAT_TRAINS, SELF, sw_HYEL_350_20car, position_in_vehid_chain % 20) {
+     0: sw_HYEL_350_engineH; //default
+     1..3: set_HYEL_350_wagon_T1;
+     4..5: set_HYEL_350_wagon_T2;
+     6..7: set_HYEL_350_wagon_T3;
+     8..9: set_HYEL_350_wagon_T4;
+    10: set_HYEL_350_wagon_T5;
+    11..12: set_HYEL_350_wagon_T6;
+    13..14: set_HYEL_350_wagon_T7;
+    15..16: set_HYEL_350_wagon_T8;
+    17..18: set_HYEL_350_wagon_T9;
+    19: sw_HYEL_350_engineT;
+    }
+
+// 편성수
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_350_8car, extra_callback_info1) {
+    1..7: HYEL_350_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_350_10car, extra_callback_info1) {
+    1..9: HYEL_350_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_350_16car, extra_callback_info1) {
+    1..15: HYEL_350_16Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_350_20car, extra_callback_info1) {
+    1..19: HYEL_350_20Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

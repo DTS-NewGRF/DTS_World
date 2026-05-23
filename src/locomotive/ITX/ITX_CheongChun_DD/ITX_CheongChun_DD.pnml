@@ -10,7 +10,7 @@ ITX-청춘 DD
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, ITX_CheongChun_DD_engine, 1127){
+item(FEAT_TRAINS, ITX_CheongChun_DD_engine, 1066){
     property {
         name:                           string(NAME_ITX_CheongChun_DD_engine);
         climates_available:             ALL_CLIMATES;

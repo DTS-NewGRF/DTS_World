@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+HYEL_120_Dual
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_120_Dual_engine_PC1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_120/HYEL_120_Dual/HYEL_120_Dual.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_HYEL_120_Dual_engine_PC2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_120/HYEL_120_Dual/HYEL_120_Dual.png"){
+    DTS_temp(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_120_Dual_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_120/HYEL_120_Dual/HYEL_120_Dual.png"){
+    tmpl_purchase(0, 0)
+}

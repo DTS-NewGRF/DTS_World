@@ -120,11 +120,6 @@ item(FEAT_TRAINS, ITX_CheongChun_engine, 1063){
         default:                        sw_ITX_CheongChun_wagon;
         loading_speed:                  25;
         }
-    
-    livery_override(ITX_CheongChun_DD_wagon) {
-        default:                        sw_ITX_CheongChun_DD_Free_wagon;
-        loading_speed:                  25;
-        }
         }
 
 /*--------------------------------------------------------------------

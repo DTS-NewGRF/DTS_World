@@ -496,9 +496,6 @@ STR_REFIT_LIVERY_DEL4400_D                             : Gyooe Line livery
 STR_REFIT_LIVERY_DEL7000_A                             : DEL7000_A
 STR_REFIT_LIVERY_DEL7000_B                             : DEL7000_B
 STR_REFIT_LIVERY_DEL7000_C                             : DEL7000_C
-STR_REFIT_LIVERY_DEL7600                               : Orginal
-STR_REFIT_LIVERY_DEL7600_Old                           : Old
-STR_REFIT_LIVERY_DEL7600_New                           : [Move set] Vitrual
 STR_REFIT_LIVERY_DHC_FF                                : DHC PP First First
 STR_REFIT_LIVERY_DHC_FL_A                              : DHC PP First Last A
 STR_REFIT_LIVERY_DHC_FL_B                              : DHC PP First Last B
@@ -1170,203 +1167,335 @@ STR_REFIT_LIVERY_FlatCC                                : Flat Car Company Color
 STR_REFIT_LIVERY_FlatPCC                               : Flat Car Trailer Color
 STR_REFIT_LIVERY_FlatP2CC                              : Flat Car Trailer 2CC Color
 
+# Group's name
+NAME_Group_DTX                      : DTX
+NAME_Group_DTS_CityLink_120         : DTS-CityLink 120
+NAME_Group_DTS_CityLink_150         : DTS-CityLink 150
+NAME_Group_HEMU_430X                : HEMU-430X
+NAME_Group_ICE                      : ICE
+NAME_Group_ITX                      : ITX
+NAME_Group_ITX_Maum                 : ITX-Maum
+NAME_Group_KTX                      : KTX
+NAME_Group_KTX_Sancheon             : KTX-Sancheon
+NAME_Group_Nuriro                   : Korail 200000 series EMU (NURIRO)
+NAME_Group_PEX                      : PEX (Premium EXpress)
+NAME_Group_PEX_Super                : PEX-Super (Premium EXpress Super)
+
 # locomotive's name
-NAME_Group_HEMU_430X                                   :HEMU-430X
-NAME_Group_ICE                                         :ICE
-NAME_Group_ITX                                         :ITX
-NAME_Group_ITX_Maum                                    :ITX-Maum
-NAME_Group_KTX                                         :KTX
-NAME_Group_KTX_Sancheon                                :KTX-Sancheon
-NAME_Group_Nuriro                                      :Korail 200000 series EMU (NURIRO)
-NAME_GTX_8Car                                          :[8Car] GTX
-NAME_GTX_8Car_engine                                   :[Free] GTX
-NAME_H2_WJ_engine                                      :[Free] H2 by WOOJIN
-NAME_HEMU_430X_6Car                                    :[6Car] HEMU-430X
-NAME_HEMU_430X_8Car                                    :[8Car] HEMU-430X
-NAME_HEMU_430X_engine                                  :[Free] HEMU-430X
-NAME_ITX_CheongChan_engine                             :[Free] ITX-CheongChan
-NAME_ITX_CheongChun_8Car                               :[8Car] ITX-CheongChun
-NAME_ITX_CheongChun_engine                             :[Free] ITX-CheongChun
-NAME_ITX_CheongChun_DD_engine                          :[Free] ITX-CheongChun DD
-NAME_ITX_Maum_4Car                                     :[4Car] ITX-Maum
-NAME_ITX_Maum_6Car                                     :[6Car] ITX-Maum
-NAME_ITX_Maum_engine                                   :[Free] ITX-Maum
-NAME_ITX_Maum_DD_engine                                :[Free] ITX-Maum DD
-NAME_ITX_Saemaeul_6Car                                 :[6Car] ITX-Saemaeul
-NAME_ITX_Saemaeul_engine                               :[Free] ITX-Saemaeul
-NAME_ITX_Saemaeul_DD_engine                            :[Free] ITX-Saemaeul DD
-NAME_KTX_1_20Car                                       :[20Car] TGV-K
-NAME_KTX_1_engine                                      :[Free] TGV-K
-NAME_KTX_Cargo_260_engine                              :[Free] KTX-Cargo 260
-NAME_KTX_Cargo_300_engine                              :[Free] KTX-Cargo 300
-NAME_KTX_Cargo_320_engine                              :[Free] KTX-Cargo 320
-NAME_KTX_Cheong_Ryong_8Car                             :[8Car] KTX-Cheong Ryong
-NAME_KTX_Cheong_Ryong_engine                           :[Free] KTX-Cheong Ryong
-NAME_KTX_Cheong_Ryong_DD_engine                        :[Free] KTX-Cheong Ryong DD
-NAME_KTX_Chowol_engine                                 :[Free] KTX-Chowol
-NAME_KTX_Eum_6Car                                      :[6Car] KTX-EUM
-NAME_KTX_Eum_engine                                    :[Free] KTX-EUM
-NAME_KTX_Eum_DD_engine                                 :[Free] KTX-EUM DD
-NAME_KTX_Onnuri_engine                                 :[Free] KTX-Onnuri
-NAME_KTX_Sancheon_10Car                                :[10Car] KTX-Sancheon, SRT
-NAME_KTX_Sancheon_engine                               :[Free] KTX-Sancheon
-NAME_Nuriro_4Car                                       :[4Car] Korail 200000 series EMU (NURIRO)
-NAME_Nuriro_engine                                     :[Free] Korail 200000 series EMU (NURIRO)
-NAME_Nuriro_DD_engine                                  :[Free] Nuriro DD
-NAME_KTX_Taegeuk_engine                                :[Free] KTX-Taegeuk
-NAME_Transparency                                      :Transparency Vehicle
-NAME_TTX_6Car                                          :[6Car] TTX
-NAME_TTX_engine                                        :[Free] TTX
-NAME_VHST_600X_engine                                  :[Free] VHST-600X
+NAME_CTX_wagon                      : CTX
+NAME_DFX_engine                     : DFX
+NAME_DFX_wagon                      : DFX
+NAME_DPX_engine                     : DPX
+NAME_DPX_wagon                      : DPX
+NAME_DTS_CityLink_120_Pass_engine   : [Passenger] DTS-CityLink 120
+NAME_DTS_CityLink_120_Pass_wagon    : [Passenger] DTS-CityLink 120
+NAME_DTS_CityLink_120_Post_engine   : [Post] DTS-CityLink 120
+NAME_DTS_CityLink_120_Post_wagon    : [Post] DTS-CityLink 120
+NAME_DTS_CityLink_150_1st_engine    : DTS-CityLink 150 1st
+NAME_DTS_CityLink_150_1st_wagon     : DTS-CityLink 150 1st
+NAME_DTS_CityLink_150_2nd_engine    : DTS-CityLink 150 2nd
+NAME_DTS_CityLink_150_2nd_wagon     : DTS-CityLink 150 2nd
+NAME_DTS_CityLink_150_2nd_DD_wagon  : DTS-CityLink 150 2nd DD
+
+STR_Group_DTS_L150_NAME                           : DTX-Metro L150
+STR_DTS_L150_4Car_NAME                            : [4Car] DTX-Metro L150
+STR_DTS_L150_6Car_NAME                            : [6Car] DTX-Metro L150
+STR_DTS_L150_8Car_NAME                            : [8Car] DTX-Metro L150
+STR_DTS_L150_10Car_NAME                           : [10Car] DTX-Metro L150
+STR_DTS_L150_12Car_NAME                           : [12Car] DTX-Metro L150
+STR_Group_DTS_R001_NAME                           : DTX-Metro R001
+STR_DTS_R001_6Car_NAME                            : [6Car] DTX-Metro R001
+STR_DTS_R001_8Car_NAME                            : [8Car] DTX-Metro R001
+STR_DTS_R001_10Car_NAME                           : [10Car] DTX-Metro R001
+STR_DTX_Glory_20Car_NAME                          : [20Car] DTX-Glory
+STR_DTX_Sejong_engine_NAME                        : DTX-Sejong Engine
+STR_Group_DTX_Sejong_NAME                         : DTX-Sejong
+STR_DTX_Sejong_10Car_NAME                         : [10Car] DTX-Sejong
+STR_DTX_Sejong_20Car_NAME                         : [20Car] DTX-Sejong
+STR_Group_DTX_Koryo_NAME                          : DTX-Koryo
+STR_DTX_Koryo_8Car_NAME                           : [8Car] DTX-Koryo
+STR_DTX_Koryo_10Car_NAME                          : [10Car] DTX-Koryo
+STR_DTX_Koryo_16Car_NAME                          : [16Car] DTX-Koryo
+STR_DTX_Koryo_20Car_NAME                          : [20Car] DTX-Koryo
+STR_Group_DTX_Sundeok_NAME                        : DTX-Sundeok
+STR_DTX_Sundeok_8Car_NAME                         : [8Car] DTX-Sundeok
+STR_DTX_Sundeok_10Car_NAME                        : [10Car] DTX-Sundeok
+STR_DTX_Sundeok_16Car_NAME                        : [16Car] DTX-Sundeok
+STR_DTX_Sundeok_20Car_NAME                        : [20Car] DTX-Sundeok
+STR_DTX_Sobaek_engine_NAME                        : DTX-Sobaek engine
+STR_Group_DTX_Sobaek_NAME                         : DTX-Sobaek
+STR_DTX_Sobaek_4Car_NAME                          : [4Car] DTX-Sobaek
+STR_DTX_Sobaek_6Car_NAME                          : [6Car] DTX-Sobaek
+STR_DTX_Sobaek_8Car_NAME                          : [8Car] DTX-Sobaek
+STR_DTX_Sobaek_10Car_NAME                         : [10Car] DTX-Sobaek
+STR_DTX_Taebaek_engine_NAME                       : DTX-Taebaek engine
+STR_Group_DTX_Taebaek_NAME                        : DTX-Taebaek
+STR_DTX_Taebaek_6Car_NAME                         : [6Car] DTX-Taebaek
+STR_DTX_Taebaek_8Car_NAME                         : [8Car] DTX-Taebaek
+STR_DTX_Taebaek_10Car_NAME                        : [10Car] DTX-Taebaek
+STR_Glory_430_engine_NAME                         : Glory 430 engine
+STR_Group_Glory_430_NAME                          : Glory 430
+STR_Glory_430_10Car_NAME                          : [10Car] Glory 430
+STR_Glory_430_16Car_NAME                          : [16Car] Glory 430
+STR_Glory_600_engine_NAME                         : Glory 600 engine
+STR_Group_Glory_600_NAME                          : Glory 600
+STR_Glory_600_8Car_NAME                           : [8Car] Glory 600
+STR_Glory_600_10Car_NAME                          : [10Car] Glory 600
+STR_Glory_600_16Car_NAME                          : [16Car] Glory 600
+
+NAME_GTX_8Car                       : [8Car] GTX
+NAME_GTX_engine                     : GTX
+NAME_GTX_wagon                      : GTX
+NAME_H2_WJ_engine                   : H2 by WOOJIN
+NAME_H2_WJ_wagon                    : H2 by WOOJIN
+NAME_HEMU_430X_6Car                 : [6Car] HEMU-430X
+NAME_HEMU_430X_8Car                 : [8Car] HEMU-430X
+NAME_HEMU_430X_engine               : HEMU-430X
+NAME_HEMU_430X_wagon                : HEMU-430X
+NAME_HEMU_430X_DD_wagon             : HEMU-430X DD
+
+STR_Group_HYEL_Logo_NAME                          : HYEL
+STR_HYEL_15_NAME                                  : HYEL-15
+STR_HYEL_100_NAME                                 : HYEL-100
+STR_Group_HYEL_120_NAME                           : HYEL-120
+STR_HYEL_120_1Car_NAME                            : HYEL-120
+STR_HYEL_120_Dual_NAME                            : HYEL-120 Dual
+STR_HYEL_150_NAME                                 : HYEL-150
+STR_Group_HYEL_300_NAME                           : HYEL-300
+STR_HYEL_300_8Car_NAME                            : [8Car] HYEL-300
+STR_HYEL_300_10Car_NAME                           : [10Car] HYEL-300
+STR_Group_HYEL_350_NAME                           : HYEL-350
+STR_HYEL_350_8Car_NAME                            : [8Car] HYEL-350
+STR_HYEL_350_10Car_NAME                           : [10Car] HYEL-350
+STR_HYEL_350_16Car_NAME                           : [16Car] HYEL-350
+STR_HYEL_350_20Car_NAME                           : [20Car] HYEL-350
+STR_Group_HYEL_400_NAME                           : HYEL-400
+STR_HYEL_400_8Car_NAME                            : [8Car] HYEL-400
+STR_HYEL_400_10Car_NAME                           : [10Car] HYEL-400
+STR_HYEL_400_16Car_NAME                           : [16Car] HYEL-400
+STR_HYEL_Constrck_NAME                            : [20Car] construction vehicle
+STR_Group_HYEL_Gangsan_NAME                       : HYEL-Gangsan
+STR_HYEL_Gangsan_3Car_NAME                        : [3Car] HYEL-Gangsan
+STR_HYEL_Gangsan_4Car_NAME                        : [4Car] HYEL-Gangsan
+STR_HYEL_Gangsan_6Car_NAME                        : [6Car] HYEL-Gangsan
+STR_HYEL_Gangsan_8Car_NAME                        : [8Car] HYEL-Gangsan
+STR_HYEL_Gangsan_10Car_NAME                       : [10Car] HYEL-Gangsan
+STR_Group_HYEL_Mugunhwa_NAME                      : HYEL-Mugunhwa
+STR_HYEL_Mugunhwa_4Car_NAME                       : [4Car] HYEL-Mugunhwa
+STR_HYEL_Mugunhwa_6Car_NAME                       : [6Car] HYEL-Mugunhwa
+STR_HYEL_Mugunhwa_8Car_NAME                       : [8Car] HYEL-Mugunhwa
+STR_HYEL_Mugunhwa_10Car_NAME                      : [10Car] HYEL-Mugunhwa
+STR_Group_HYEL_Mugunhwa_DD_NAME                   : HYEL-Mugunhwa DD
+STR_HYEL_Mugunhwa_DD_6Car_NAME                    : [6Car] HYEL-Mugunhwa DD
+STR_HYEL_Mugunhwa_DD_8Car_NAME                    : [8Car] HYEL-Mugunhwa DD
+STR_HYEL_Mugunhwa_DD_10Car_NAME                   : [10Car] HYEL-Mugunhwa DD
+STR_Group_HYEL_PEX_Super_NAME                     : HYEL PEX-SUPER (Premium EXpress Super)
+STR_HYEL_PEX_Super_8Car_NAME                      : HYEL PEX-SUPER 8Car
+STR_HYEL_PEX_Super_10Car_NAME                     : HYEL PEX-SUPER 10Car
+STR_HYEL_PEX_Super_14Car_NAME                     : HYEL PEX-SUPER 14Car
+
+NAME_ITX_CheongChan_engine          : ITX-CheongChan
+NAME_ITX_CheongChan_wagon           : ITX-CheongChan
+NAME_ITX_CheongChun_8Car            : [8Car] ITX-CheongChun
+NAME_ITX_CheongChun_engine          : ITX-CheongChun
+NAME_ITX_CheongChun_wagon           : ITX-CheongChun
+NAME_ITX_CheongChun_DD_engine       : ITX-CheongChun DD
+NAME_ITX_CheongChun_DD_wagon        : ITX-CheongChun DD
+NAME_ITX_Maum_4Car                  : [4Car] ITX-Maum
+NAME_ITX_Maum_6Car                  : [6Car] ITX-Maum
+NAME_ITX_Maum_engine                : ITX-Maum
+NAME_ITX_Maum_wagon                 : ITX-Maum
+NAME_ITX_Maum_DD_engine             : ITX-Maum DD
+NAME_ITX_Maum_DD_wagon              : ITX-Maum DD
+NAME_ITX_Saemaeul_6Car              : [6Car] ITX-Saemaeul
+NAME_ITX_Saemaeul_engine            : ITX-Saemaeul
+NAME_ITX_Saemaeul_wagon             : ITX-Saemaeul
+NAME_ITX_Saemaeul_DD_engine         : ITX-Saemaeul DD
+NAME_ITX_Saemaeul_DD_wagon          : ITX-Saemaeul DD
+NAME_KTX_1_20Car                    : [20Car] TGV-K
+NAME_KTX_1_engine                   : TGV-K
+NAME_KTX_1_wagon                    : TGV-K
+NAME_KTX_Cargo_260_engine           : KTX-Cargo 260
+NAME_KTX_Cargo_260_wagon            : KTX-Cargo 260
+NAME_KTX_Cargo_300_engine           : KTX-Cargo 300
+NAME_KTX_Cargo_300_wagon            : KTX-Cargo 300
+NAME_KTX_Cargo_320_engine           : KTX-Cargo 320
+NAME_KTX_Cargo_320_wagon            : KTX-Cargo 320
+NAME_KTX_Cheong_Ryong_8Car          : [8Car] KTX-Cheong Ryong
+NAME_KTX_Cheong_Ryong_engine        : KTX-Cheong Ryong
+NAME_KTX_Cheong_Ryong_wagon         : KTX-Cheong Ryong
+NAME_KTX_Cheong_Ryong_DD_engine     : KTX-Cheong Ryong DD
+NAME_KTX_Cheong_Ryong_DD_wagon      : KTX-Cheong Ryong DD
+NAME_KTX_Chowol_engine              : KTX-Chowol
+NAME_KTX_Chowol_wagon               : KTX-Chowol
+NAME_KTX_Chowol_DD_wagon            : KTX-Chowol DD
+NAME_KTX_Eum_6Car                   : [6Car] KTX-EUM
+NAME_KTX_Eum_engine                 : KTX-EUM
+NAME_KTX_Eum_wagon                  : KTX-EUM
+NAME_KTX_Eum_DD_engine              : KTX-EUM DD
+NAME_KTX_Eum_DD_wagon               : KTX-EUM DD
+NAME_KTX_Onnuri_engine              : KTX-Onnuri
+NAME_KTX_Onnuri_wagon               : KTX-Onnuri
+NAME_KTX_Onnuri_DD_wagon            : KTX-Onnuri DD
+NAME_KTX_Sancheon_10Car             : [10Car] KTX-Sancheon, SRT
+NAME_KTX_Sancheon_engine            : KTX-Sancheon
+NAME_KTX_Sancheon_wagon             : KTX-Sancheon
+NAME_KTX_Sancheon_DD_wagon          : KTX-Sancheon DD
+NAME_KTX_Taegeuk_engine             : KTX-Taegeuk
+NAME_KTX_Taegeuk_wagon              : KTX Taegeuk
+NAME_Nuriro_4Car                    : [4Car] Korail 200000 series EMU (NURIRO)
+NAME_Nuriro_engine                  : Korail 200000 series EMU (NURIRO)
+NAME_Nuriro_wagon                   : Korail 200000 series EMU (NURIRO)
+NAME_Nuriro_DD_engine               : Nuriro DD
+NAME_Nuriro_DD_wagon                : Nuriro DD
+NAME_PEX_B                          : PEX Bar Car
+NAME_PEX_D                          : PEX 2F Car
+NAME_PEX_N                          : PEX 1F Car
+NAME_PEX_S                          : PEX Bad Car
+NAME_PEX_SN                         : PEX Special Car
+NAME_PEX_Super_B                    : PEX-SUPER restaurant
+NAME_PEX_Super_D                    : PEX-SUPER 2F
+NAME_PEX_Super_Generatar            : PEX-SUPER generator Car
+NAME_PEX_Super_N                    : PEX-SUPER regular class
+NAME_PEX_Super_Post                 : PEX-SUPER POST car
+NAME_PEX_Super_S                    : PEX-SUPER sleeping car
+NAME_PEX_Super_SN                   : PEX-SUPER first class
+NAME_Train_Car                      : Train Car
+NAME_Transparency                   : Transparency Vehicle
+NAME_TTX_6Car                       : [6Car] TTX
+NAME_TTX_engine                     : TTX
+NAME_TTX_wagon                      : TTX
+NAME_VHST_600X_engine               : VHST-600X
+NAME_VHST_600X_wagon                : VHST-600X
+NAME_VPassenger                     : Virtual carriage-type passenger transport vehicle
 
 # Metro's name
-NAME_Nextrain_engine                                   :[Free] Nextrain
+NAME_Nextrain_engine                : Nextrain
+NAME_Nextrain_wagon                 : Nextrain
 
 # Showcase's name
-NAME_Showcase_Flat_1F                                  :[Showcase] Flat Car
-
-# Wagon's name
-NAME_Group_PEX                                         :PEX (Premium EXpress)
-NAME_Group_PEX_Super                                   :PEX-Super (Premium EXpress Super)
-NAME_GTX_8Car_wagon                                    :[wagon] GTX
-NAME_H2_WJ_wagon                                       :[wagon] H2 by WOOJIN
-NAME_HEMU_430X_wagon                                   :[Free] HEMU-430X
-NAME_HEMU_430X_DD_wagon                                :[Free] HEMU-430X DD
-NAME_ITX_CheongChan_wagon                              :[wagon] ITX-CheongChan
-NAME_ITX_CheongChun_wagon                              :[wagon] ITX-CheongChun
-NAME_ITX_CheongChun_DD_wagon                           :[wagon] ITX-CheongChun DD
-NAME_ITX_Maum_wagon                                    :[wagon] ITX-Maum
-NAME_ITX_Maum_DD_wagon                                 :[wagon] ITX-Maum DD
-NAME_ITX_Saemaeul_wagon                                :[wagon] ITX-Saemaeul
-NAME_ITX_Saemaeul_DD_wagon                             :[wagon] ITX-Saemaeul DD
-NAME_KTX_1_wagon                                       :[wagon] TGV-K
-NAME_KTX_Cargo_260_wagon                               :[wagon] KTX-Cargo 260
-NAME_KTX_Cargo_300_wagon                               :[wagon] KTX-Cargo 300
-NAME_KTX_Cargo_320_wagon                               :[wagon] KTX-Cargo 320
-NAME_KTX_Cheong_Ryong_wagon                            :[wagon] KTX-Cheong Ryong
-NAME_KTX_Cheong_Ryong_DD_wagon                         :[wagon] KTX-Cheong Ryong DD
-NAME_KTX_Chowol_wagon                                  :[wagon] KTX-Chowol
-NAME_KTX_Chowol_DD_wagon                               :[wagon] KTX-Chowol DD
-NAME_KTX_Eum_wagon                                     :[wagon] KTX-EUM
-NAME_KTX_Eum_DD_wagon                                  :[wagon] KTX-EUM DD
-NAME_KTX_Onnuri_wagon                                  :[wagon] KTX-Onnuri
-NAME_KTX_Onnuri_DD_wagon                               :[wagon] KTX-Onnuri DD
-NAME_KTX_Sancheon_wagon                                :[wagon] KTX-Sancheon
-NAME_KTX_Sancheon_DD_wagon                             :[wagon] KTX-Sancheon DD
-NAME_KTX_Taegeuk_wagon                                 :[wagon] KTX Taegeuk
-NAME_Nextrain_wagon                                    :[wagon] Nextrain
-NAME_Nuriro_wagon                                      :[wagon] Korail 200000 series EMU (NURIRO)
-NAME_Nuriro_DD_wagon                                   :[wagon] Nuriro DD
-NAME_PEX_B                                             :PEX Bar Car
-NAME_PEX_D                                             :PEX 2F Car
-NAME_PEX_N                                             :PEX 1F Car
-NAME_PEX_S                                             :PEX Bad Car
-NAME_PEX_SN                                            :PEX Special Car
-NAME_PEX_Super_B                                       :PEX-SUPER restaurant
-NAME_PEX_Super_D                                       :PEX-SUPER 2F
-NAME_PEX_Super_Generatar                               :PEX-SUPER generator Car
-NAME_PEX_Super_N                                       :PEX-SUPER regular class
-NAME_PEX_Super_Post                                    :PEX-SUPER POST car
-NAME_PEX_Super_S                                       :PEX-SUPER sleeping car
-NAME_PEX_Super_SN                                      :PEX-SUPER first class
-NAME_Train_Car                                         :Train Car
-NAME_TTX_wagon                                         :[wagon] TTX
-NAME_VHST_600X_wagon                                   :[wagon] VHST-600X
-NAME_VPassenger                                        :Virtual carriage-type passenger transport vehicle
+NAME_Showcase_Flat_1F               : [Showcase] Flat Car
 
 # Parameters
-Param_Desc_Chinese                                     :Please check when using Chinese trains.{}- Default: unusedParam_Desc_max_virtual_speed                           :Please check Virtual Speed.{}- Default: noVirtual speed
-Param_Desc_European                                    :Please check when using European trains.{}- Default: unused
-Param_Desc_High_Speed_Train                            :Adjust the Virtual speed of the high-speed train{}- Default:331km/h
-Param_Desc_High_Speed_Train_430                        :Adjust the Virtual speed of the high-speed train{}- Default:430km/h{}- 430km/h train speed control
-Param_Desc_High_Speed_Train_Test                       :Adjust the Virtual speed of the Test high-speed train{}- Default:600km/h
-Param_Desc_Hong_Kong                                   :Please check when using Hong Kong trains.{}- Default: unused
-Param_Desc_Japanese                                    :Please check when using Japanese trains.{}- Default: unused
-Param_Desc_Maintenance                                 :Please check when using Maintenance trains.{}- Default: unused
-Param_Desc_Max_Virtual_Speed                           :Checks whether to apply virtual speed.{}- Default: Real speed
-Param_Desc_Metro_Speed_Train                           :Adjust the Virtual speed of the Metro-speed train{}- Default:121km/h
-Param_Desc_Passengercar_Real_speed                     :Check the actual carriage speed if desired.{}- Basic: Passenger car speed limit
-Param_Desc_Regular_High_Speed_Train                    :Adjust the Virtual speed of the Regular High speed train{}- Default:181km/h
-Param_Desc_Regular_Speed_Train                         :Adjust the Virtual speed of the Regular-speed train{}- Default:151km/h
-Param_Desc_Semi_High_Speed_Train                       :Adjust the Virtual speed of the Semi High Speed Train{}- Default:250km/h
-Param_Desc_World                                       :Please check when using World trains.{}- Default: unused
-Param_Name_Chinese                                     :No Chinese trains allowed.
-Param_Name_European                                    :No European trains allowed.
-Param_Name_High_Speed_Train                            :High Virtual speed Train
-Param_Name_High_Speed_Train_430                        :High Virtual 430 speed Train
-Param_Name_High_Speed_Train_Test                       :Test High Virtual speed Train
-Param_Name_Hong_Kong                                   :No Hong Kong trains allowed.
-Param_Name_Japanese                                    :No Japanese trains allowed.
-Param_Name_Maintenance                                 :No Maintenance trains allowed.
-Param_Name_Max_Virtual_Speed                           :Virtual speed
-Param_Name_Metro_Speed_Train                           :Metro Train Virtual Speed Variable
-Param_Name_Passengercar_Real_speed                     :Controls the speed of the carriage.
-Param_Name_Regular_High_Speed_Train                    :Regular High Train Virtual speed Variable
-Param_Name_Regular_Speed_Train                         :Regular Train Virtual speed Variable
-Param_Name_Semi_High_Speed_Train                       :Semi High Virtual speed Train Speed variable
-Param_Name_World                                       :No World trains allowed.
+Param_Desc_Chinese                  : Please check when using Chinese trains.{}- Default: unusedParam_Desc_max_virtual_speed                           :Please check Virtual Speed.{}- Default: noVirtual speed
+Param_Desc_European                 : Please check when using European trains.{}- Default: unused
+Param_Desc_High_Speed_Train         : Adjust the Virtual speed of the high-speed train{}- Default:331km/h
+Param_Desc_High_Speed_Train_430     : Adjust the Virtual speed of the high-speed train{}- Default:430km/h{}- 430km/h train speed control
+Param_Desc_High_Speed_Train_Test    : Adjust the Virtual speed of the Test high-speed train{}- Default:600km/h
+Param_Desc_Hong_Kong                : Please check when using Hong Kong trains.{}- Default: unused
+Param_Desc_Japanese                 : Please check when using Japanese trains.{}- Default: unused
+Param_Desc_Maintenance              : Please check when using Maintenance trains.{}- Default: unused
+Param_Desc_Max_Virtual_Speed        : Checks whether to apply virtual speed.{}- Default: Real speed
+Param_Desc_Metro_Speed_Train        : Adjust the Virtual speed of the Metro-speed train{}- Default:121km/h
+Param_Desc_Passengercar_Real_speed  : Check the actual carriage speed if desired.{}- Basic: Passenger car speed limit
+Param_Desc_Regular_High_Speed_Train : Adjust the Virtual speed of the Regular High speed train{}- Default:181km/h
+Param_Desc_Regular_Speed_Train      : Adjust the Virtual speed of the Regular-speed train{}- Default:151km/h
+Param_Desc_Semi_High_Speed_Train    : Adjust the Virtual speed of the Semi High Speed Train{}- Default:250km/h
+Param_Desc_World                    : Please check when using World trains.{}- Default: unused
+Param_Name_Chinese                  : No Chinese trains allowed.
+Param_Name_European                 : No European trains allowed.
+Param_Name_High_Speed_Train         : High Virtual speed Train
+Param_Name_High_Speed_Train_430     : High Virtual 430 speed Train
+Param_Name_High_Speed_Train_Test    : Test High Virtual speed Train
+Param_Name_Hong_Kong                : No Hong Kong trains allowed.
+Param_Name_Japanese                 : No Japanese trains allowed.
+Param_Name_Maintenance              : No Maintenance trains allowed.
+Param_Name_Max_Virtual_Speed        : Virtual speed
+Param_Name_Metro_Speed_Train        : Metro Train Virtual Speed Variable
+Param_Name_Passengercar_Real_speed  : Controls the speed of the carriage.
+Param_Name_Regular_High_Speed_Train : Regular High Train Virtual speed Variable
+Param_Name_Regular_Speed_Train      : Regular Train Virtual speed Variable
+Param_Name_Semi_High_Speed_Train    : Semi High Virtual speed Train Speed variable
+Param_Name_World                                  : No World trains allowed.
 
 # Liveries Locomotive
-Livery_ITX_CheongChun_A                                : ITX-CheongChun A
-Livery_ITX_CheongChun_B                                : ITX-CheongChun B
-Livery_ITX_Maum                                        : ITX-Maum
-Livery_ITX_Maum_High1                                  : HIGH1 Resort
-Livery_KTX_1_1997                                      : Special 4Car
-Livery_KTX_1_2007                                      : Move Cinema
-Livery_KTX_1_2013                                      : LTE-A
-Livery_KTX_1_2017                                      : Special 3Car
-Livery_KTX_Cheong_Ryong_Eum                            : KTX-Eum
-Livery_KTX_Cheong_Ryong                                : KTX-Cheong Ryong
-Livery_KTX_Cheong_Ryong_2nd                            : KTX-Cheong Ryong 2nd
-Livery_SRT_320                                         : SRT 320
-Livery_KTX_Cheong_Ryong_BK                             : Black Livery
-Livery_KTX_Cheong_Ryong_CC                             : Company Colour
-Livery_KTX_Cheong_Ryong_Euro                           : Euro
-Livery_KTX_Cheong_Ryong_ICE                            : ICE
-Livery_KTX_Cheong_Ryong_JR                             : JR
-Livery_KTX_Cheong_Ryong_SRT_A                          : SRT_A
-Livery_KTX_Cheong_Ryong_SRT_B                          : SRT_B
-Livery_KTX_Cheong_Ryong_SRT_C                          : SRT_C
-Livery_KTX_Cheong_Ryong_SRT_D                          : SRT_D
-Livery_KTX_Cheong_Ryong_SRT_E                          : SRT_E
-Livery_KTX_Cheong_Ryong_THRS                           : THRS
-Livery_KTX_Cheong_Ryong_DD                             : KTX-Cheong Ryong
-Livery_KTX_Cheong_Ryong_DD_BK                          : Black Livery
-Livery_KTX_Cheong_Ryong_DD_CC                          : Company Color
-Livery_KTX_Cheong_Ryong_DD_2nd                         : KTX-Cheong Ryong 2nd
-Livery_KTX_Eum                                         : KTX-Eum
-Livery_KTX_Eum_2nd                                     : KTX-Eum 2nd
-Livery_KTX_Eum_MD                                      : KTX-Eum Prototype Livery
-Livery_KTX_Eum_W                                       : KTX-Eum White Livery
-Livery_KTX_Eum_BK                                      : KTX-Eum Black Livery
-Livery_KTX_Eum_SM1                                     : KTX-Eum Saemaeul First Livery
-Livery_KTX_Eum_SM2                                     : KTX-Eum Saemaeul Second Livery
-Livery_KTX_Eum_SM3                                     : KTX-Eum Saemaeul Third Livery
-Livery_KTX_Gyeonggang_Blue                             : KTX-Gyeonggang Blue Livery
-Livery_KTX_Gyeonggang_White                            : KTX-Gyeonggang White Livery
-Livery_KTX_Honam_Sky_blue                              : KTX-Sancheon 120000 1
-Livery_KTX_Honam_Yellow                                : KTX-Sancheon 120000 2
-Livery_KTX_Sancheon_A1                                 : KTX-Sancheon Atype 1
-Livery_KTX_Sancheon_A2                                 : KTX-Sancheon Atype 2
-Livery_KTX_Sancheon_B                                  : KTX-Sancheon Btype 1
-Livery_KTX_Sancheon_BP                                 : KTX-Sancheon Btype 2
-Livery_Nuriro_Old                                      : Old
-Livery_Nuriro_New                                      : New
-Livery_Nuriro_A                                        : A type
-Livery_Nuriro_B                                        : B type
-Livery_Nuriro_O                                        : O-Train
-Livery_Nuriro_DS                                       : Donghae Santa
-Livery_Nuriro_saemaeul                                 : ITX-saemaeul
-Livery_SRT                                             : SRT
-Livery_SRT_2cc                                         : SRT 2cc
+Livery_DEL7600                      : Orginal
+Livery_DEL7600_Old                  : Old
+Livery_DEL7600_New                  : New
+Livery_DTS_CityLink_150_2nd_A       : A Type
+Livery_DTS_CityLink_150_2nd_B       : B Type
+STR_REFIT_LIVERY_DTX_Glory_1Year                  : 1Year Livery
+STR_REFIT_LIVERY_DTX_Glory_2Year                  : 2Year Livery
+STR_REFIT_LIVERY_DTX_Glory_APEC_2025              : APEC 2025
+STR_REFIT_LIVERY_HYEL_100                         : Hydrogen Train
+STR_REFIT_LIVERY_HYEL_100_CI                      : Korail CI
+STR_REFIT_LIVERY_HYEL_100_original                : Original
+STR_REFIT_LIVERY_HYEL_150                         : HYEL-150
+STR_REFIT_LIVERY_HYEL_150_SB                      : HYEL-150 Sea Livery
+STR_REFIT_LIVERY_HYEL_300                         : HYEL-300
+STR_REFIT_LIVERY_HYEL_300_PEX_A                   : HYEL-300 PEX-Super A Type
+STR_REFIT_LIVERY_HYEL_300_PEX_B                   : HYEL-300 PEX-Super B Type
+STR_REFIT_LIVERY_HYEL_PEX_Super_A                 : HYEL PEX_Super A
+STR_REFIT_LIVERY_HYEL_PEX_Super_B                 : HYEL PEX_Super B
+STR_REFIT_LIVERY_HYEL_PEX_Super_C                 : HYEL PEX_Super C
+STR_REFIT_LIVERY_HYEL_PEX_Super_D                 : HYEL PEX_Super D
+STR_REFIT_LIVERY_HYEL_PEX_Super_E                 : HYEL PEX_Super E
+STR_REFIT_LIVERY_HYEL_PEX_Super_F                 : HYEL PEX_Super F
+STR_REFIT_LIVERY_HYEL_PEX_Super_G                 : HYEL PEX_Super G
+STR_REFIT_LIVERY_HYEL_PEX_Super_H                 : HYEL PEX_Super H
+STR_REFIT_LIVERY_HYEL_PEX_Super_I                 : HYEL PEX_Super I
+STR_REFIT_LIVERY_HYEL_PEX_Super_J                 : HYEL PEX_Super J
+
+Livery_ITX_CheongChun_A             : ITX-CheongChun A
+Livery_ITX_CheongChun_B             : ITX-CheongChun B
+Livery_ITX_Maum                     : ITX-Maum
+Livery_ITX_Maum_High1               : HIGH1 Resort
+Livery_KTX_1_1997                   : Special 4Car
+Livery_KTX_1_2007                   : Move Cinema
+Livery_KTX_1_2013                   : LTE-A
+Livery_KTX_1_2017                   : Special 3Car
+Livery_KTX_Cheong_Ryong_Eum         : KTX-Eum
+Livery_KTX_Cheong_Ryong             : KTX-Cheong Ryong
+Livery_KTX_Cheong_Ryong_2nd         : KTX-Cheong Ryong 2nd
+Livery_SRT_320                      : SRT 320
+Livery_KTX_Cheong_Ryong_BK          : Black Livery
+Livery_KTX_Cheong_Ryong_CC          : Company Colour
+Livery_KTX_Cheong_Ryong_Euro        : Euro
+Livery_KTX_Cheong_Ryong_ICE         : ICE
+Livery_KTX_Cheong_Ryong_JR          : JR
+Livery_KTX_Cheong_Ryong_SRT_A       : SRT A
+Livery_KTX_Cheong_Ryong_SRT_B       : SRT B
+Livery_KTX_Cheong_Ryong_SRT_C       : SRT C
+Livery_KTX_Cheong_Ryong_SRT_D       : SRT D
+Livery_KTX_Cheong_Ryong_SRT_E       : SRT E
+Livery_KTX_Cheong_Ryong_THRS        : THRS
+Livery_KTX_Cheong_Ryong_DD          : KTX-Cheong Ryong
+Livery_KTX_Cheong_Ryong_DD_BK       : Black Livery
+Livery_KTX_Cheong_Ryong_DD_CC       : Company Color
+Livery_KTX_Cheong_Ryong_DD_2nd      : KTX-Cheong Ryong 2nd
+Livery_KTX_Eum                      : KTX-Eum
+Livery_KTX_Eum_2nd                  : KTX-Eum 2nd
+Livery_KTX_Eum_MD                   : KTX-Eum Prototype Livery
+Livery_KTX_Eum_W                    : KTX-Eum White Livery
+Livery_KTX_Eum_BK                   : KTX-Eum Black Livery
+Livery_KTX_Eum_SM1                  : KTX-Eum Saemaeul First Livery
+Livery_KTX_Eum_SM2                  : KTX-Eum Saemaeul Second Livery
+Livery_KTX_Eum_SM3                  : KTX-Eum Saemaeul Third Livery
+Livery_KTX_Gyeonggang_Blue          : KTX-Gyeonggang Blue Livery
+Livery_KTX_Gyeonggang_White         : KTX-Gyeonggang White Livery
+Livery_KTX_Honam_Sky_blue           : KTX-Sancheon 120000 1
+Livery_KTX_Honam_Yellow             : KTX-Sancheon 120000 2
+Livery_KTX_Sancheon_A1              : KTX-Sancheon Atype 1
+Livery_KTX_Sancheon_A2              : KTX-Sancheon Atype 2
+Livery_KTX_Sancheon_B               : KTX-Sancheon Btype 1
+Livery_KTX_Sancheon_BP              : KTX-Sancheon Btype 2
+Livery_Nuriro_Old                   : Old
+Livery_Nuriro_New                   : New
+Livery_Nuriro_A                     : A type
+Livery_Nuriro_B                     : B type
+Livery_Nuriro_O                     : O-Train
+Livery_Nuriro_DS                    : Donghae Santa
+Livery_Nuriro_saemaeul              : ITX-saemaeul
+Livery_SRT                          : SRT
+Livery_SRT_2cc                      : SRT 2cc
 
 # Liveries Metro
 # Liveries Wagon
-Livery_VPassenger_BR                                   : Default Color
-Livery_VPassenger_Taegeuk                              : Taegeuk Color
+Livery_VPassenger_BR                : Default Color
+Livery_VPassenger_Taegeuk           : Taegeuk Color
 
 # Errors
-ERROR_NOT_ENOUGH_LENGTH3                               :It's too short. It should be equal or more than 3 cars at least.
-ERROR_NOT_ENOUGH_LENGTH4                               :It's too short. It should be equal or more than 4 cars at least.
-ERROR_NOT_ENOUGH_LENGTH6                               :It's too short. It should be equal or more than 6 cars at least.
-ERROR_NOT_ENOUGH_LENGTH8                               :It's too short. It should be equal or more than 8 cars at least.
+ERROR_NOT_ENOUGH_LENGTH3            : It's too short. It should be equal or more than 3 cars at least.
+ERROR_NOT_ENOUGH_LENGTH4            : It's too short. It should be equal or more than 4 cars at least.
+ERROR_NOT_ENOUGH_LENGTH6            : It's too short. It should be equal or more than 6 cars at least.
+ERROR_NOT_ENOUGH_LENGTH8            : It's too short. It should be equal or more than 8 cars at least.

@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_120_engineH_Pass, train_is_driving_backwards) {
+    0: set_DTS_CityLink_120_engineH_Pass_TC;
+    1: set_DTS_CityLink_120_engineH_Pass_TC_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_120_engineT_Pass, train_is_driving_backwards) {
+    0: set_DTS_CityLink_120_engineT_Pass_MC;
+    1: set_DTS_CityLink_120_engineT_Pass_MC_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_120_engineH_Post, train_is_driving_backwards) {
+    0: set_DTS_CityLink_120_engineH_Post_TC;
+    1: set_DTS_CityLink_120_engineH_Post_TC_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_120_engineT_Post, train_is_driving_backwards) {
+    0: set_DTS_CityLink_120_engineT_Post_MC;
+    1: set_DTS_CityLink_120_engineT_Post_MC_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_120_engine_Pass, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_DTS_CityLink_120_engineT_Pass;
+    sw_DTS_CityLink_120_engineH_Pass;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_120_engine_Post, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_DTS_CityLink_120_engineT_Post;
+    sw_DTS_CityLink_120_engineH_Post;
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_120_wagon_Pass, position_in_consist % 2) {
+    1: set_DTS_CityLink_120_wagon_Pass_M2;
+    set_DTS_CityLink_120_wagon_Pass_M3;
+}

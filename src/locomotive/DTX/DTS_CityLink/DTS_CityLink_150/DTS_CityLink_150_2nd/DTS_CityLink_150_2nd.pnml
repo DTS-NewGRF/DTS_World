@@ -1,0 +1,171 @@
+/*--------------------------------------------------------------------
+DTS_CityLink_150 2세대
+--------------------------------------------------------------------*/
+// Graphics
+#include "DTS_CityLink_150_2nd_graphic.pnml"
+
+// Switch
+#include "DTS_CityLink_150_2nd_switch.pnml"
+
+/*--------------------------------------------------------------------
+기관차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTS_CityLink_150_2nd_engine, 1089){
+    property {
+        name:                           string(NAME_DTS_CityLink_150_2nd_engine);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_Logo;
+        dual_headed:                    1;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          1680 kW;
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 38;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DTS_CityLink_150_2nd_engine;
+        purchase:                       set_DTS_CityLink_150_2nd_engine_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_DTS_CityLink_150_2nd_cargo_subtype_text;
+        cargo_capacity:                 sw_DTS_CityLink_150_2nd_capacity_in_custom;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
+        }
+    
+    livery_override(DTS_CityLink_150_2nd_wagon) {
+        default:                        sw_DTS_CityLink_150_2nd_wagon;
+        cargo_subtype_text:             sw_DTS_CityLink_150_2nd_cargo_subtype_text;
+        cargo_capacity:                 sw_DTS_CityLink_150_2nd_capacity_in_custom;
+        loading_speed:                  25;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTS_CityLink_150_2nd_wagon, 1090){
+    property {
+        name:                           string(NAME_DTS_CityLink_150_2nd_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 38;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        set_DTS_CityLink_150_2nd_wagon_MT;
+        purchase:                       set_DTS_CityLink_150_2nd_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_DTS_CityLink_150_2nd_cargo_subtype_text;
+        cargo_capacity:                 sw_DTS_CityLink_150_2nd_capacity_in_custom;
+        }
+        }
+
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTS_CityLink_150_2nd_DD_wagon, 1091){
+    property {
+        name:                           string(NAME_DTS_CityLink_150_2nd_DD_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 100;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DTS_CityLink_150_2nd_DD_wagon;
+        purchase:                       set_DTS_CityLink_150_2nd_DD_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        }
+        }

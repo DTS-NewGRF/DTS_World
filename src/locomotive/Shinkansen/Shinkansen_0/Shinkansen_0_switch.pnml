@@ -20,19 +20,9 @@ switch(FEAT_TRAINS, SELF, sw_Shinkansen_0_panto_wagon, cargo_subtype) {
     1: set_Shinkansen_0_renewal_panto_wagon;    
 }
 
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_0_wagon_front, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_0_wagon, cargo_subtype) {
     0: set_Shinkansen_0_wagon;
     1: set_Shinkansen_0_renewal_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_0_wagon_tail, cargo_subtype) {
-    0: set_Shinkansen_0_wagon_Rev;
-    1: set_Shinkansen_0_renewal_wagon_Rev;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_0_wagon, (position_in_consist)) {
-    0: sw_Shinkansen_0_wagon_front;
-    1: sw_Shinkansen_0_wagon_tail;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_0_panto_engineT, cargo_subtype) {

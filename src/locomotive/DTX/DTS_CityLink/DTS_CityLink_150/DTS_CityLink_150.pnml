@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------------
+CL-150
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTS_CityLink_150, 1086){
+    property {
+        name:                           string(NAME_Group_DTS_CityLink_150);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          1680 kW;
+        variant_group:                  DTX_Logo;
+        }
+
+    graphics {
+        purchase:                       set_DTS_CityLink_150_1st_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "DTS_CityLink_150_1st/DTS_CityLink_150_1st.pnml"
+#include "DTS_CityLink_150_2nd/DTS_CityLink_150_2nd.pnml"

@@ -2,6 +2,17 @@
 정렬
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
+    //DTX 열차 그룹
+    DTX_Logo,                                //1076
+    DFX_engine,                              //1077
+    DPX_engine,                              //1079
+    DTS_CityLink_120,                        //1081
+    DTS_CityLink_120_Pass_engine,            //1082
+    DTS_CityLink_120_Post_engine,            //1083
+    DTS_CityLink_150,                        //1086
+    DTS_CityLink_150_1st_engine,             //1087
+    DTS_CityLink_150_2nd_engine,             //1089
+
     // AREX 열차 그룹
     AREX_Logo,                               //2514
     APEX_1000_1st_6Car,                      //2340
@@ -439,6 +450,14 @@ sort(FEAT_TRAINS, [
     
     // 객차
     Train_Car,                               //1000
+    CTX_wagon,                               //1075
+    DFX_wagon,                               //1078
+    DPX_wagon,                               //1080
+    DTS_CityLink_120_Pass_wagon,             //1084
+    DTS_CityLink_120_Post_wagon,             //1085
+    DTS_CityLink_150_1st_wagon,              //1088
+    DTS_CityLink_150_2nd_wagon,              //1090
+    DTS_CityLink_150_2nd_DD_wagon,           //1091
     H2_WJ_wagon,                             //1001
     Nextrain_wagon,                          //1019
     Nuriro_wagon,                            //1024

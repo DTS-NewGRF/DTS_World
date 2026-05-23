@@ -65,12 +65,6 @@ item(FEAT_TRAINS, KTX_Onnuri_engine, 1032){
         loading_speed:                  25;
         cargo_capacity:                 58;
         }
-    
-    livery_override(KTX_Onnuri_DD_wagon) {
-        default:                        sw_KTX_Onnuri_DD_wagon;
-        loading_speed:                  25;
-        cargo_capacity:                 116;
-        }
         }
 
 /*--------------------------------------------------------------------

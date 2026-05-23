@@ -1,0 +1,232 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_A);
+    1: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_B); // 기본 (이벤트)
+    2: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_C); // 기본 (물결무늬)
+    3: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_D); // 기본 (2층객차)
+    4: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_F); // 기본 (이벤트+2층객차)
+    5: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_H); // 무지개
+    6: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_I); // 무지개 (2층객차)
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_A);
+    1: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_B); // 기본 (이벤트)
+    2: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_E); // 기본 (침대차)
+    3: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_G); // 기본 (이벤트+침대차)
+    4: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_H); // 기본 (이벤트)
+    5: return string(STR_REFIT_LIVERY_HYEL_PEX_Super_J); // 무지개 (침대차)
+}
+
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+// 8량
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_engineH_Front, cargo_subtype) {
+    0..4: set_HYEL_PEX_Super_WPC1_engineH;
+    5..6: set_HYEL_PEX_Super_RPC1_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_wagon_T1, cargo_subtype) {
+    0: set_HYEL_PEX_Super_T_wagon;
+    1: set_HYEL_PEX_Super_HT_wagon;
+    2: set_HYEL_PEX_Super_ST_wagon;
+    3: set_HYEL_PEX_Super_T_wagon;
+    4: set_HYEL_PEX_Super_HT_wagon;
+    5..6: set_HYEL_PEX_Super_RT_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_wagon_F, cargo_subtype) {
+    0..4: set_HYEL_PEX_Super_F_wagon;
+    5..6: set_HYEL_PEX_Super_RF_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_wagon_T2, cargo_subtype) {
+    0..1: set_HYEL_PEX_Super_T_wagon;
+    2: set_HYEL_PEX_Super_ST_wagon;
+    3..4: set_HYEL_PEX_Super_SD1_wagon;
+    5: set_HYEL_PEX_Super_RT_wagon;
+    6: set_HYEL_PEX_Super_RD1_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_wagon_T3, cargo_subtype) {
+    0..1: set_HYEL_PEX_Super_T_wagon;
+    2: set_HYEL_PEX_Super_ST_wagon;
+    3..4: set_HYEL_PEX_Super_SD2_wagon;
+    5: set_HYEL_PEX_Super_RT_wagon;
+    6: set_HYEL_PEX_Super_RD2_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_wagon_T4, cargo_subtype) {
+    0..1: set_HYEL_PEX_Super_T_wagon;
+    2: set_HYEL_PEX_Super_ST_wagon;
+    3..4: set_HYEL_PEX_Super_T_wagon;
+    5..6: set_HYEL_PEX_Super_RT_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_engineT_Front, cargo_subtype) {
+    0..4: set_HYEL_PEX_Super_WPC2_engineT;
+    5..6: set_HYEL_PEX_Super_RPC2_engineT;
+}
+
+// 14량
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_engineH_Front, cargo_subtype) {
+    0..3: set_HYEL_PEX_Super_WPC1_engineH;
+    4..5: set_HYEL_PEX_Super_RPC1_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_wagon_T1, cargo_subtype) {
+    0: set_HYEL_PEX_Super_T_wagon;
+    1: set_HYEL_PEX_Super_HT_wagon;
+    2: set_HYEL_PEX_Super_T_wagon;
+    3: set_HYEL_PEX_Super_HT_wagon;
+    4..5: set_HYEL_PEX_Super_RT_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_wagon_F, cargo_subtype) {
+    0..3: set_HYEL_PEX_Super_F_wagon;
+    4..5: set_HYEL_PEX_Super_RF_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_wagon_SD1, cargo_subtype) {
+    0..3: set_HYEL_PEX_Super_SD1_wagon;
+    4..5: set_HYEL_PEX_Super_RD1_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_wagon_SD2, cargo_subtype) {
+    0..3: set_HYEL_PEX_Super_SD2_wagon;
+    4..5: set_HYEL_PEX_Super_RD2_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_wagon_T2, cargo_subtype) {
+    0..3: set_HYEL_PEX_Super_T_wagon;
+    4..5: set_HYEL_PEX_Super_RT_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_wagon_T3, cargo_subtype) {
+    0..1: set_HYEL_PEX_Super_T_wagon;
+    2..3: set_HYEL_PEX_Super_S_wagon;
+    4: set_HYEL_PEX_Super_RT_wagon;
+    5: set_HYEL_PEX_Super_RS_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_engineT_Front, cargo_subtype) {
+    0..3: set_HYEL_PEX_Super_WPC2_engineT;
+    4..5: set_HYEL_PEX_Super_RPC2_engineT;
+}
+
+// 전진방향
+// 8, 10량
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_engineH_Back, cargo_subtype) {
+    0..4: set_HYEL_PEX_Super_WPC1_engineH_Rev;
+    5..6: set_HYEL_PEX_Super_RPC1_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_engineT_Back, cargo_subtype) {
+    0..4: set_HYEL_PEX_Super_WPC2_engineT_Rev;
+    5..6: set_HYEL_PEX_Super_RPC2_engineT_Rev;
+}
+
+// 14량
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_engineH_Back, cargo_subtype) {
+    0..3: set_HYEL_PEX_Super_WPC1_engineH_Rev;
+    4..5: set_HYEL_PEX_Super_RPC1_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_engineT_Back, cargo_subtype) {
+    0..3: set_HYEL_PEX_Super_WPC2_engineT_Rev;
+    4..5: set_HYEL_PEX_Super_RPC2_engineT_Rev;
+}
+
+// 전후진 통합 코드
+// 8, 10량
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_engineH, train_is_driving_backwards) {
+    0: sw_HYEL_PEX_Super_engineH_Front;
+    1: sw_HYEL_PEX_Super_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_engineT, train_is_driving_backwards) {
+    0: sw_HYEL_PEX_Super_engineT_Front;
+    1: sw_HYEL_PEX_Super_engineT_Back;
+}
+
+// 14량
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_engineH, train_is_driving_backwards) {
+    0: sw_HYEL_PEX_Super_14Car_engineH_Front;
+    1: sw_HYEL_PEX_Super_14Car_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14Car_engineT, train_is_driving_backwards) {
+    0: sw_HYEL_PEX_Super_14Car_engineT_Front;
+    1: sw_HYEL_PEX_Super_14Car_engineT_Back;
+}
+
+// 편성그래픽
+// 8량
+switch (FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_8car, position_in_vehid_chain % 8) {
+    0: sw_HYEL_PEX_Super_engineH; //default
+    1: sw_HYEL_PEX_Super_wagon_T1;
+    2: sw_HYEL_PEX_Super_wagon_F;
+    3..4: sw_HYEL_PEX_Super_wagon_T2;
+    5..6: sw_HYEL_PEX_Super_wagon_T4;
+    7: sw_HYEL_PEX_Super_engineT;
+    }
+
+// 10량
+switch (FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_10car, position_in_vehid_chain % 10) {
+    0: sw_HYEL_PEX_Super_engineH; //default
+    1: sw_HYEL_PEX_Super_wagon_T1;
+    2: sw_HYEL_PEX_Super_wagon_F;
+    3: set_HYEL_PEX_Super_RES_wagon;
+    4: sw_HYEL_PEX_Super_wagon_T2;
+    5: sw_HYEL_PEX_Super_wagon_T3;
+    6..8: sw_HYEL_PEX_Super_wagon_T4;
+    9: sw_HYEL_PEX_Super_engineT;
+    }
+
+// 14량
+switch (FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14car, position_in_vehid_chain % 14) {
+     0: sw_HYEL_PEX_Super_14Car_engineH; //default
+     1..2: sw_HYEL_PEX_Super_14Car_wagon_T1;
+     3..4: sw_HYEL_PEX_Super_14Car_wagon_F;
+     5: set_HYEL_PEX_Super_RES_wagon;
+     6: sw_HYEL_PEX_Super_14Car_wagon_SD1;
+     7: sw_HYEL_PEX_Super_14Car_wagon_SD2;
+     8..10: sw_HYEL_PEX_Super_14Car_wagon_T2;
+    11..12: sw_HYEL_PEX_Super_14Car_wagon_T3;
+    13: sw_HYEL_PEX_Super_14Car_engineT;
+    }
+
+// 편성수
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_PEX_Super_8car, extra_callback_info1) {
+    1..7: HYEL_PEX_Super_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_PEX_Super_10car, extra_callback_info1) {
+    1..9: HYEL_PEX_Super_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_PEX_Super_14car, extra_callback_info1) {
+    1..13: HYEL_PEX_Super_14Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+// 수송량 
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_8car_capacity_in_custom, cargo_subtype) {
+    0..2: 58;
+    3..4: return 77;
+    5: return 58;
+    6: return 77;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_10car_capacity_in_custom, cargo_subtype) {
+    0..2: 59;
+    3..4: return 74;
+    5: return 59;
+    6: return 74;
+}

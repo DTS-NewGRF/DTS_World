@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_DFX_engineH, "src/locomotive/DTX/DFX/DFX.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_DFX_engineH_Rev, "src/locomotive/DTX/DFX/DFX.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_DFX_wagon, "src/locomotive/DTX/DFX/DFX.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_DFX_engineT_Rev, "src/locomotive/DTX/DFX/DFX.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_DFX_engineT, "src/locomotive/DTX/DFX/DFX.png"){
+    DTS_temp_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_DFX_engine_purchase, "src/locomotive/DTX/DFX/DFX.png"){
+    tmpl_purchase_for_dualhead(0, 0)
+}
+
+spriteset(set_DFX_wagon_purchase, "src/locomotive/DTX/DFX/DFX.png"){
+    tmpl_purchase(0, 54)
+}

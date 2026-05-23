@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------------
+HYEL_150
+- HYEL-150의 기관차는 HYEL-300기관차와 HYEL-Constrck의 기관차에도 사용되었습니다.
+- 사용 코드 (set_HYEL_150_engine, set_HYEL_150_engine_r)
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_150_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_150/HYEL_150.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_HYEL_150_engine_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_150/HYEL_150.png"){
+    DTS_temp_r(80, 0)
+}
+
+spriteset(set_HYEL_150_SB_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_150/HYEL_150.png"){
+    DTS_temp(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_150_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_150/HYEL_150.png"){
+    tmpl_purchase(0, 0)
+}

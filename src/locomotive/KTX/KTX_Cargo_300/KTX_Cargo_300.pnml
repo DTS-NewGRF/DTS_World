@@ -109,3 +109,52 @@ item(FEAT_TRAINS, KTX_Cargo_300_wagon, 1049){
         running_cost_factor:            150;
         }
         }
+
+/*--------------------------------------------------------------------
+열차정보 화물전용
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CTX_wagon, 1075){
+    property {
+        name:                           string(NAME_CTX_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         37 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 60;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_CTX_Free_wagon;
+        purchase:                       set_CTX_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        }
+        }

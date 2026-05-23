@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+DTS_CityLink_120
+--------------------------------------------------------------------*/
+spriteset(set_DTS_CityLink_120_engineH_Pass_TC, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_DTS_CityLink_120_engineH_Pass_TC_Rev, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_DTS_CityLink_120_engineT_Pass_MC_Rev, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_DTS_CityLink_120_engineT_Pass_MC, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_DTS_CityLink_120_wagon_Pass_M2, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_DTS_CityLink_120_wagon_Pass_M3, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_DTS_CityLink_120_engineH_Post_TC, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_DTS_CityLink_120_engineH_Post_TC_Rev, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_DTS_CityLink_120_engineT_Post_MC_Rev, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    DTS_temp(80, 216)
+}
+
+spriteset(set_DTS_CityLink_120_engineT_Post_MC, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_DTS_CityLink_120_wagon_Post, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    DTS_temp(80, 270)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_DTS_CityLink_120_engine_Pass_purchase, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_DTS_CityLink_120_wagon_Pass_purchase, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    tmpl_purchase(0, 108)
+}
+
+spriteset(set_DTS_CityLink_120_engine_Post_purchase, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    tmpl_purchase(0, 162)
+}
+
+spriteset(set_DTS_CityLink_120_wagon_Post_purchase, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_120/DTS_CityLink_120.png"){
+    tmpl_purchase(0, 270)
+}

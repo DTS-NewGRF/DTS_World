@@ -64,11 +64,6 @@ item(FEAT_TRAINS, KTX_Chowol_engine, 1039){
         default:                        sw_KTX_Chowol_wagon;
         loading_speed:                  25;
         }
-    
-    livery_override(KTX_Chowol_DD_wagon) {
-        default:                        sw_KTX_Chowol_DD_wagon;
-        loading_speed:                  25;
-        }
         }
 
 /*--------------------------------------------------------------------

@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_DPX_engineH, train_is_driving_backwards) {
+    0: set_DPX_engineH;
+    1: set_DPX_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DPX_engineT, train_is_driving_backwards) {
+    0: set_DPX_engineT;
+    1: set_DPX_engineT_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_DPX_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_DPX_engineT;
+    sw_DPX_engineH;
+}
+
+// 객차
+switch (FEAT_TRAINS, SELF, sw_DPX_wagon_front, position_in_vehid_chain) {
+    0: sg_DPX_wagon_01;
+    1: sg_DPX_wagon_02;
+    2: sg_DPX_wagon_03;
+    3: sg_DPX_wagon_04;
+    4: sg_DPX_wagon_05;
+    5: sg_DPX_wagon_06;
+    sg_DPX_wagon_07;
+}
+
+switch (FEAT_TRAINS, SELF, sw_DPX_wagon_back, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0: sg_DPX_wagon_12;
+    1: sg_DPX_wagon_11;
+    2: sg_DPX_wagon_10;
+    3: sg_DPX_wagon_09;
+    4: sg_DPX_wagon_08;
+    sg_DPX_wagon_07;
+}
+
+switch (FEAT_TRAINS, SELF, sw_DPX_wagon, position_in_vehid_chain * 2 < num_vehs_in_vehid_chain) {
+    1: sw_DPX_wagon_front;
+    0: sw_DPX_wagon_back;
+}

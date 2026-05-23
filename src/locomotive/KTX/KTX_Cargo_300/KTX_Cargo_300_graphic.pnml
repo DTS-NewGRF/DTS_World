@@ -14,6 +14,25 @@ spriteset(set_KTX_Cargo_300_engineT, "src/locomotive/KTX/KTX_Cargo_300/KTX_Cargo
 }
 
 /*--------------------------------------------------------------------
+CTX
+--------------------------------------------------------------------*/
+spriteset(set_CTX_wagon_T1, "src/locomotive/KTX/KTX_Cargo_300/KTX_HC_R.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CTX_wagon_T2, "src/locomotive/KTX/KTX_Cargo_300/KTX_HC_R.png") {
+    DTS_temp(80, 27)
+}
+
+spriteset(set_CTX_wagon_T3, "src/locomotive/KTX/KTX_Cargo_300/KTX_HC_R.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_CTX_wagon_T4, "src/locomotive/KTX/KTX_Cargo_300/KTX_HC_R.png"){
+    DTS_temp(80, 81)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_KTX_Cargo_300_engine_purchase, "src/locomotive/KTX/KTX_Cargo_300/KTX_Cargo_300.png"){
@@ -22,4 +41,8 @@ spriteset(set_KTX_Cargo_300_engine_purchase, "src/locomotive/KTX/KTX_Cargo_300/K
 
 spriteset(set_KTX_Cargo_300_wagon_purchase, "src/locomotive/KTX/KTX_Cargo_300/KTX_Cargo_300.png"){
     tmpl_purchase(0, 27)
+}
+
+spriteset(set_CTX_wagon_purchase, "src/locomotive/KTX/KTX_Cargo_300/KTX_HC_R.png"){
+    tmpl_purchase(0, 00)
 }

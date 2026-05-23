@@ -1,0 +1,110 @@
+/*--------------------------------------------------------------------
+DPX
+--------------------------------------------------------------------*/
+// Graphics
+#include "DPX_graphic.pnml"
+
+// Switch
+#include "DPX_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DPX_engine, 1079){
+    property {
+        name:                           string(NAME_DPX_engine);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_Logo;
+        dual_headed:                    1;
+        
+        //spec
+        speed:                          600km/h;
+        power:                          40000 kW;
+        weight:                         66 ton;
+        tractive_effort_coefficient:    0.86;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 92;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [MAIL, VALU, GOOD];
+        cargo_disallow_refit:           [];
+    
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+	graphics {
+        default:                        sw_DPX_engine;
+        purchase:                       set_DPX_engine_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_osfx_65_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DPX_wagon, 1080){
+    property {
+        name:                           string(NAME_DPX_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         66 ton;
+        tractive_effort_coefficient:    0.86;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 92;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [MAIL, VALU, GOOD];
+        cargo_disallow_refit:           [];
+    
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+	graphics {
+        default:                        sw_DPX_wagon;
+        purchase:                       set_DPX_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        }
+        }

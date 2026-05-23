@@ -47,21 +47,6 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_wagon, position_in_consist_from_end) {
     sw_KTX_Onnuri_wagon_front;
 }
 
-// 2층
-switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_DD_wagon_front, position_in_consist) {
-    1: sw_KTX_Onnuri_wagon_M1;
-    2: set_KTX_Onnuri_wagon_M2;
-    3: sw_KTX_Onnuri_wagon_M3_Only_10Car;
-    4: set_KTX_Onnuri_wagon_DUP1;
-    set_KTX_Onnuri_wagon_DUP;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_DD_wagon, position_in_consist_from_end) {
-    1: sw_KTX_Onnuri_wagon_M4;
-    2: set_KTX_Onnuri_wagon_DUP2;
-    sw_KTX_Onnuri_DD_wagon_front;
-}
-
 // 1층 only
 switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_only_wagon, position_in_consist) {
     1: set_KTX_Onnuri_wagon_M2;

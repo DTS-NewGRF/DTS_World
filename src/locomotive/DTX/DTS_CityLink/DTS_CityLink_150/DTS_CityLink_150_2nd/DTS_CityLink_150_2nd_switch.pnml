@@ -1,0 +1,78 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_DTS_CityLink_150_2nd_A);
+    1: return string(Livery_DTS_CityLink_150_2nd_B);
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_engineH, train_is_driving_backwards) {
+    0: set_DTS_CityLink_150_2nd_engineH;
+    1: set_DTS_CityLink_150_2nd_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_panto_wagon_M1, train_is_driving_backwards) {
+    0: set_DTS_CityLink_150_2nd_panto_wagon_M1;
+    1: set_DTS_CityLink_150_2nd_panto_wagon_M1_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_panto_wagon_M2, train_is_driving_backwards) {
+    0: set_DTS_CityLink_150_2nd_panto_wagon_M2;
+    1: set_DTS_CityLink_150_2nd_panto_wagon_M2_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_engineT, train_is_driving_backwards) {
+    0: set_DTS_CityLink_150_2nd_engineT;
+    1: set_DTS_CityLink_150_2nd_engineT_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_DTS_CityLink_150_2nd_engineT;
+    sw_DTS_CityLink_150_2nd_engineH;
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_DD_wagon, position_in_consist % 2) {
+    1: set_DTS_CityLink_150_2nd_wagon_T2;
+    set_DTS_CityLink_150_2nd_wagon_T1;
+}
+
+switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_wagon_front, position_in_consist) {
+    1: sw_DTS_CityLink_150_2nd_panto_wagon_M1;
+    2: set_DTS_CityLink_150_2nd_wagon_M1;
+    set_DTS_CityLink_150_2nd_wagon_MT;
+}
+
+switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_9Car_wagon_front, position_in_consist) {
+    1: set_DTS_CityLink_150_2nd_wagon_M1;
+    2: sw_DTS_CityLink_150_2nd_panto_wagon_M1;
+    set_DTS_CityLink_150_2nd_wagon_MT;
+}
+
+// 1층
+switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_6Car_wagon, position_in_consist_from_end) {
+    1: sw_DTS_CityLink_150_2nd_panto_wagon_M2;
+    2: set_DTS_CityLink_150_2nd_wagon_M2;
+    sw_DTS_CityLink_150_2nd_wagon_front;
+}
+
+switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_9Car_wagon, position_in_consist_from_end) {
+    1: set_DTS_CityLink_150_2nd_wagon_M2;
+    2: sw_DTS_CityLink_150_2nd_panto_wagon_M2;
+    3: set_DTS_CityLink_150_2nd_wagon_CM;
+    sw_DTS_CityLink_150_2nd_9Car_wagon_front;
+}
+
+switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_wagon, num_vehs_in_consist) {
+    1..8: sw_DTS_CityLink_150_2nd_6Car_wagon;
+    sw_DTS_CityLink_150_2nd_9Car_wagon;
+}
+
+// 수송량
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_capacity_in_custom, cargo_subtype) {
+    1: return 42;
+       38;
+}

@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------------
+HYEL-120
+--------------------------------------------------------------------*/
+// Graphics
+#include "HYEL_120_graphic.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_120, 1082){
+    property {
+        name:                           string(STR_Group_HYEL_120_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          8800 kW;
+        variant_group:                  HYEL_Logo;
+        }
+
+    graphics {
+        purchase:                       set_HYEL_120_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "HYEL_120_1Car/HYEL_120_1Car.pnml"
+#include "HYEL_120_Dual/HYEL_120_Dual.pnml"

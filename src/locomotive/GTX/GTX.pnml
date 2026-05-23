@@ -65,7 +65,7 @@ item(FEAT_TRAINS, GTX_8Car, 2017){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, GTX_8Car_engine, 1059){
     property {
-        name:                           string(NAME_GTX_8Car_engine);
+        name:                           string(NAME_GTX_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2023, 1, 1);
         track_type:                     ELRL;
@@ -118,7 +118,7 @@ item(FEAT_TRAINS, GTX_8Car_engine, 1059){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, GTX_8Car_wagon, 1060){
     property {
-        name:                           string(NAME_GTX_8Car_wagon);
+        name:                           string(NAME_GTX_wagon);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2023, 1, 1);
         track_type:                     ELRL;

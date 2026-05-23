@@ -110,12 +110,6 @@ switch (FEAT_TRAINS, SELF, sw_ITX_Maum_Free_wagon_front, position_in_vehid_chain
     set_ITX_Maum_wagon_M;
 }
 
-switch (FEAT_TRAINS, SELF, sw_ITX_Maum_DD_Free_wagon_front, position_in_vehid_chain) {
-    0: sw_ITX_Maum_panto_wagon_M1;
-    1: set_ITX_Maum_wagon_M;
-    sw_ITX_Maum_DD_wagon;
-}
-
 // 1층 4량
 switch (FEAT_TRAINS, SELF, sw_ITX_Maum_Free_4Car_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
     0: sw_ITX_Maum_panto_wagon_4Car_M2;
@@ -142,18 +136,6 @@ switch (FEAT_TRAINS, SELF, sw_ITX_Maum_Free_wagon, num_vehs_in_vehid_chain) {
 switch (FEAT_TRAINS, SELF, sw_ITX_Maum_wagon, num_vehs_in_vehid_chain) {
     4: sw_ITX_Maum_Free_4Car_wagon;
     sw_ITX_Maum_Free_wagon;
-}
-
-// 2층
-switch (FEAT_TRAINS, SELF, sw_ITX_Maum_DD_Free_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0: sw_ITX_Maum_panto_wagon_M2;
-    1: set_ITX_Maum_wagon_T;
-    sw_ITX_Maum_DD_Free_wagon_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_ITX_Maum_DD_Free_wagon, num_vehs_in_vehid_chain) {
-    1..255: sw_ITX_Maum_DD_Free_wagon_full;
-    sw_ITX_Maum_DD_wagon;
 }
 
 // 편성그래픽

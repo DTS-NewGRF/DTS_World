@@ -18,7 +18,7 @@ item(FEAT_TRAINS, ITX_Maum_DD_engine, 1070){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  ITX_Maum;
+        variant_group:                  ITX_Logo;
         dual_headed:                    1;
         
         //spec

@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_Mugunhwa_DD_engineH, "src/locomotive/HYEL/HYEL_Mugunhwa_DD/HYEL_Mugunhwa_DD.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_HYEL_Mugunhwa_DD_wagon, "src/locomotive/HYEL/HYEL_Mugunhwa_DD/HYEL_Mugunhwa_DD.png") {
+    DTS_temp(80, 27)
+}
+
+spriteset(set_HYEL_Mugunhwa_DD_engineT, "src/locomotive/HYEL/HYEL_Mugunhwa_DD/HYEL_Mugunhwa_DD.png"){
+    DTS_temp(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_Mugunhwa_DD_purchase, "src/locomotive/HYEL/HYEL_Mugunhwa_DD/HYEL_Mugunhwa_DD.png"){
+    tmpl_purchase(0, 0)
+}
