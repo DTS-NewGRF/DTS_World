@@ -12,46 +12,19 @@ switch(FEAT_TRAINS, SELF, sw_DTS_R001_engineT, train_is_driving_backwards) {
     1: set_DTS_R001_engineT_Rev;
 }
 
-// 편성그래픽
-// 6량
-switch (FEAT_TRAINS, SELF, sw_DTS_R001_6car, position_in_vehid_chain % 6) {
-    0: sw_DTS_R001_engineH; //default
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_DTS_R001_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_DTS_R001_engineT;
+    sw_DTS_R001_engineH;
+}
+
+// 객차
+switch (FEAT_TRAINS, SELF, sw_DTS_R001_wagon_MT_front, position_in_consist) {
     1: set_DTS_R001_panto_wagon_M1;
-    2..3: set_DTS_R001_wagon_MT;
-    4: set_DTS_R001_panto_wagon_M2;
-    5: sw_DTS_R001_engineT;
-    }
+    set_DTS_R001_wagon_MT;
+}
 
-// 8량
-switch (FEAT_TRAINS, SELF, sw_DTS_R001_8car, position_in_vehid_chain % 8) {
-    0: sw_DTS_R001_engineH; //default
-    1: set_DTS_R001_panto_wagon_M1;
-    2..5: set_DTS_R001_wagon_MT;
-    6: set_DTS_R001_panto_wagon_M2;
-    7: sw_DTS_R001_engineT;
-    }
-
-// 10량
-switch (FEAT_TRAINS, SELF, sw_DTS_R001_10car, position_in_vehid_chain % 10) {
-    0: sw_DTS_R001_engineH; //default
-    1: set_DTS_R001_panto_wagon_M1;
-    2..7: set_DTS_R001_wagon_MT;
-    8: set_DTS_R001_panto_wagon_M2;
-    9: sw_DTS_R001_engineT;
-    }
-
-// 편성수
-switch (FEAT_TRAINS, SELF, sw_articulated_DTS_R001_6car, extra_callback_info1) {
-    1..5: DTS_R001_6Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
-switch (FEAT_TRAINS, SELF, sw_articulated_DTS_R001_8car, extra_callback_info1) {
-    1..7: DTS_R001_8Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
-switch (FEAT_TRAINS, SELF, sw_articulated_DTS_R001_10car, extra_callback_info1) {
-    1..9: DTS_R001_10Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
+switch (FEAT_TRAINS, SELF, sw_DTS_R001_wagon, position_in_consist_from_end) {
+    1: set_DTS_R001_panto_wagon_M2;
+    sw_DTS_R001_wagon_MT_front;
+}

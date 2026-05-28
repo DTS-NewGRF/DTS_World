@@ -93,6 +93,27 @@
 |1089|DTS_CityLink_150_2nd_engine|
 |1090|DTS_CityLink_150_2nd_wagon|
 |1091|DTS_CityLink_150_2nd_DD_wagon|
+|1092|DTS_L150_engine|
+|1093|DTS_L150_wagon|
+|1094|DTS_L150_DD_wagon|
+|1095|DTS_R001_engine|
+|1096|DTS_R001_wagon|
+|1097|DTX_Glory_engine|
+|1098|DTX_Glory_wagon|
+|1099|DTX_Koryo_engine|
+|1100|DTX_Koryo_wagon|
+|1101|DTX_Sejong_engine|
+|1102|DTX_Sejong_wagon|
+|1103|DTX_Sobaek_engine|
+|1104|DTX_Sobaek_wagon|
+|1105|DTX_Sundeok_engine|
+|1106|DTX_Sundeok_wagon|
+|1107|DTX_Taebaek_engine|
+|1108|DTX_Taebaek_wagon|
+|1109|Glory_430_engine|
+|1110|Glory_430_wagon|
+|1111|Glory_600_engine|
+|1112|Glory_600_wagon|
 
 |2001|CY_GW_6Car|
 |2002|G_Train|

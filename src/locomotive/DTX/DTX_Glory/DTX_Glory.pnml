@@ -8,17 +8,18 @@ DTX-영광
 #include "DTX_Glory_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보
+기관차
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Glory_20Car, 1045){
+item(FEAT_TRAINS, DTX_Glory_engine, 1097){
     property {
-        name:                           string(STR_DTX_Glory_20Car_NAME);
+        name:                           string(NAME_DTX_Glory_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2025, 10, 31);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_engine;
+        variant_group:                  DTX_Logo;
+        dual_headed:                    1;
         
         //spec
         speed:                          600km/h;
@@ -49,13 +50,59 @@ item(FEAT_TRAINS, DTX_Glory_20Car, 1045){
         }
         
 	graphics {
-        default:                        sw_DTX_Glory_20car;
-        articulated_part:               sw_articulated_DTX_Glory_20car;
-        purchase:                       set_DTX_Glory_purchase;
+        default:                        sw_DTX_Glory_engine;
+        purchase:                       set_DTX_Glory_engine_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         cargo_subtype_text:             sw_DTX_Glory_subtype_text;
-        running_cost_factor:            sw_DTX_Glory_running_cost_factor;
         sound_effect:                   sw_osfx_65_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_Glory_wagon, 1098){
+    property {
+        name:                           string(NAME_DTX_Glory_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2025, 10, 31);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         60 ton;
+        tractive_effort_coefficient:    0.86;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 150;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+    
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+	graphics {
+        default:                        sw_DTX_Glory_wagon;
+        purchase:                       set_DTX_Glory_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        cargo_subtype_text:             sw_DTX_Glory_subtype_text;
         }
         }

@@ -17,28 +17,3 @@ switch(FEAT_TRAINS, SELF, sw_DTX_Sejong_engine, position_in_consist_from_end == 
     1: sw_DTX_Sejong_engineT;
     sw_DTX_Sejong_engineH;
 }
-
-// 1.03 삭제예정
-// 고정편성 그래픽
-// 10량
-switch (FEAT_TRAINS, SELF, sw_DTX_Sejong_10car, position_in_vehid_chain % 10) {
-    0: set_Deleted_A; //default
-    1..9: set_Deleted_B;
-    }
-
-// 20량
-switch (FEAT_TRAINS, SELF, sw_DTX_Sejong_20car, position_in_vehid_chain % 20) {
-    0: set_Deleted_A; //default
-    1..19: set_Deleted_B;
-    }
-
-// 편성수
-switch (FEAT_TRAINS, SELF, sw_articulated_DTX_Sejong_10car, extra_callback_info1) {
-    1..9: DTX_Sejong_10Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
-switch (FEAT_TRAINS, SELF, sw_articulated_DTX_Sejong_20car, extra_callback_info1) {
-    1..19: DTX_Sejong_20Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }

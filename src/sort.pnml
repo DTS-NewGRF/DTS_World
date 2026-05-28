@@ -12,6 +12,14 @@ sort(FEAT_TRAINS, [
     DTS_CityLink_150,                        //1086
     DTS_CityLink_150_1st_engine,             //1087
     DTS_CityLink_150_2nd_engine,             //1089
+    DTS_L150_engine,                         //1092
+    DTS_R001_engine,                         //1095
+    DTX_Glory_engine,                        //1097
+    DTX_Koryo_engine,                        //1099
+    DTX_Sejong_engine,                       //1101
+    DTX_Sobaek_engine,                       //1103
+    DTX_Sundeok_engine,                      //1105
+    DTX_Taebaek_engine,                      //1107
 
     // AREX 열차 그룹
     AREX_Logo,                               //2514
@@ -437,10 +445,12 @@ sort(FEAT_TRAINS, [
     HEMU_430X_6Car,                          //2028
     HEMU_430X_8Car,                          //2127
     HEMU_430X_engine,                        //1056
+    Glory_430_engine,                        //1109
 
     // 고속열차 600
     KTX_Taegeuk_engine,                      //1027
     VHST_600X_engine,                        //1020
+    Glory_600_engine,                        //1111
 
     // 유지보수차량
     MSB_Speeder,                             //2178
@@ -458,11 +468,22 @@ sort(FEAT_TRAINS, [
     DTS_CityLink_150_1st_wagon,              //1088
     DTS_CityLink_150_2nd_wagon,              //1090
     DTS_CityLink_150_2nd_DD_wagon,           //1091
+    DTS_L150_wagon,                          //1093
+    DTS_L150_DD_wagon,                       //1094
+    DTS_R001_wagon,                          //1096
+    DTX_Glory_wagon,                         //1098
+    DTX_Koryo_wagon,                         //1100
+    DTX_Sejong_wagon,                        //1102
+    DTX_Sobaek_wagon,                        //1104
+    DTX_Sundeok_wagon,                       //1106
+    DTX_Taebaek_wagon,                       //1108
     H2_WJ_wagon,                             //1001
     Nextrain_wagon,                          //1019
     Nuriro_wagon,                            //1024
     Nuriro_DD_wagon,                         //1026
     TTX_wagon,                               //1055
+    Glory_430_wagon,                         //1110
+    Glory_600_wagon,                         //1112
     GTX_8Car_wagon,                          //1060
     ITX_CheongChan_wagon,                    //1062
     ITX_CheongChun_wagon,                    //1064

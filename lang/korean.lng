@@ -1197,52 +1197,27 @@ NAME_DTS_CityLink_150_1st_wagon         : DTS-CityLink 150 1세대
 NAME_DTS_CityLink_150_2nd_engine        : DTS-CityLink 150 2세대
 NAME_DTS_CityLink_150_2nd_wagon         : DTS-CityLink 150 2세대
 NAME_DTS_CityLink_150_2nd_DD_wagon      : DTS-CityLink 150 DD 2세대
-
-STR_Group_DTS_L150_NAME                           : DTX-Metro L150
-STR_DTS_L150_4Car_NAME                            : [4량] DTX-Metro L150
-STR_DTS_L150_6Car_NAME                            : [6량] DTX-Metro L150
-STR_DTS_L150_8Car_NAME                            : [8량] DTX-Metro L150
-STR_DTS_L150_10Car_NAME                           : [10량] DTX-Metro L150
-STR_DTS_L150_12Car_NAME                           : [12량] DTX-Metro L150
-STR_Group_DTS_R001_NAME                           : DTX-Metro R001
-STR_DTS_R001_6Car_NAME                            : [6량] DTX-Metro R001
-STR_DTS_R001_8Car_NAME                            : [8량] DTX-Metro R001
-STR_DTS_R001_10Car_NAME                           : [10량] DTX-Metro R001
-STR_DTX_Glory_20Car_NAME                          : [20량] DTX-영광
-STR_DTX_Sejong_engine_NAME                        : DTX-세종 기관차
-STR_Group_DTX_Sejong_NAME                         : DTX-세종
-STR_DTX_Sejong_10Car_NAME                         : [10량] DTX-세종
-STR_DTX_Sejong_20Car_NAME                         : [20량] DTX-세종
-STR_Group_DTX_Koryo_NAME                          : DTX-고려
-STR_DTX_Koryo_8Car_NAME                           : [8량] DTX-고려
-STR_DTX_Koryo_10Car_NAME                          : [10량] DTX-고려
-STR_DTX_Koryo_16Car_NAME                          : [16량] DTX-고려
-STR_DTX_Koryo_20Car_NAME                          : [20량] DTX-고려
-STR_Group_DTX_Sundeok_NAME                        : DTX-선덕
-STR_DTX_Sundeok_8Car_NAME                         : [8량] DTX-선덕
-STR_DTX_Sundeok_10Car_NAME                        : [10량] DTX-선덕
-STR_DTX_Sundeok_16Car_NAME                        : [16량] DTX-선덕
-STR_DTX_Sundeok_20Car_NAME                        : [20량] DTX-선덕
-STR_DTX_Sobaek_engine_NAME                        : DTX-소백 기관차
-STR_Group_DTX_Sobaek_NAME                         : DTX-소백
-STR_DTX_Sobaek_4Car_NAME                          : [4량] DTX-소백
-STR_DTX_Sobaek_6Car_NAME                          : [6량] DTX-소백
-STR_DTX_Sobaek_8Car_NAME                          : [8량] DTX-소백
-STR_DTX_Sobaek_10Car_NAME                         : [10량] DTX-소백
-STR_DTX_Taebaek_engine_NAME                       : DTX-태백 기관차
-STR_Group_DTX_Taebaek_NAME                        : DTX-태백
-STR_DTX_Taebaek_6Car_NAME                         : [6량] DTX-태백
-STR_DTX_Taebaek_8Car_NAME                         : [8량] DTX-태백
-STR_DTX_Taebaek_10Car_NAME                        : [10량] DTX-태백
-STR_Glory_430_engine_NAME                         : Glory 430 기관차
-STR_Group_Glory_430_NAME                          : Glory 430
-STR_Glory_430_10Car_NAME                          : [10량] Glory 430
-STR_Glory_430_16Car_NAME                          : [16량] Glory 430
-STR_Glory_600_engine_NAME                         : Glory 600 기관차
-STR_Group_Glory_600_NAME                          : Glory 600
-STR_Glory_600_8Car_NAME                           : [8량] Glory 600
-STR_Glory_600_10Car_NAME                          : [10량] Glory 600
-STR_Glory_600_16Car_NAME                          : [16량] Glory 600
+NAME_DTS_L150_engine                    : DTX-Metro L150
+NAME_DTS_L150_wagon                     : DTX-Metro L150
+NAME_DTS_L150_DD_wagon                  : DTX-Metro L150 DD
+NAME_DTS_R001_engine                    : DTX-Metro R001
+NAME_DTS_R001_wagon                     : DTX-Metro R001
+NAME_DTX_Glory_engine                   : DTX-영광
+NAME_DTX_Glory_wagon                    : DTX-영광
+NAME_DTX_Koryo_engine                   : DTX-고려
+NAME_DTX_Koryo_wagon                    : DTX-고려
+NAME_DTX_Sejong_engine                  : DTX-세종
+NAME_DTX_Sejong_wagon                   : DTX-세종
+NAME_DTX_Sobaek_engine                  : DTX-소백
+NAME_DTX_Sobaek_wagon                   : DTX-소백
+NAME_DTX_Sundeok_engine                 : DTX-선덕
+NAME_DTX_Sundeok_wagon                  : DTX-선덕
+NAME_DTX_Taebaek_engine                 : DTX-태백
+NAME_DTX_Taebaek_wagon                  : DTX-태백
+NAME_Glory_430_engine                   : Glory 430
+NAME_Glory_430_wagon                    : Glory 430
+NAME_Glory_600_engine                   : Glory 600
+NAME_Glory_600_wagon                    : Glory 600
 
 NAME_GTX_8Car                           : [8량] GTX
 NAME_GTX_engine                         : GTX
@@ -1415,9 +1390,10 @@ Livery_DEL7600_Old                      : 구도색
 Livery_DEL7600_New                      : 신도색
 Livery_DTS_CityLink_150_2nd_A           : 크로스시트
 Livery_DTS_CityLink_150_2nd_B           : 세미크로스시트
-STR_REFIT_LIVERY_DTX_Glory_1Year                  : 1주년 도색
-STR_REFIT_LIVERY_DTX_Glory_2Year                  : 2주년 도색
-STR_REFIT_LIVERY_DTX_Glory_APEC_2025              : APEC 2025
+Livery_DTX_Glory_1Year                  : 1주년 도색
+Livery_DTX_Glory_2Year                  : 2주년 도색
+Livery_DTX_Glory_APEC_2025              : APEC 2025
+
 STR_REFIT_LIVERY_HYEL_100                         : 수소열차
 STR_REFIT_LIVERY_HYEL_100_CI                      : 한국철도공사 CI
 STR_REFIT_LIVERY_HYEL_100_original                : 오리지널

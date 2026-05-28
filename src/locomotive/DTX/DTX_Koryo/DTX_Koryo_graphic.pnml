@@ -9,7 +9,7 @@ spriteset(set_DTX_Koryo_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomo
 }
 
 spriteset(set_DTX_Koryo_engineH_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Koryo/DTX_Koryo.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_DTX_Koryo_wagon_T1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Koryo/DTX_Koryo.png") {
@@ -53,12 +53,16 @@ spriteset(set_DTX_Koryo_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/lo
 }
 
 spriteset(set_DTX_Koryo_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Koryo/DTX_Koryo.png"){
-    DTS_temp(80, 324)
+    DTS_temp_r(80, 324)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_DTX_Koryo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Koryo/DTX_Koryo.png"){
-    tmpl_purchase(0, 0)
+spriteset(set_DTX_Koryo_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Koryo/DTX_Koryo.png"){
+    tmpl_purchase_for_dualhead(0, 0)
+}
+
+spriteset(set_DTX_Koryo_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Koryo/DTX_Koryo.png"){
+    tmpl_purchase(0, 162)
 }

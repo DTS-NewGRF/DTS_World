@@ -24,6 +24,10 @@ item(FEAT_TRAINS, DTX_Logo, 1076){
 
 /*--------------------------------------------------------------------
 열차 리스트
+--------------------------------------------------------------------*/
+#include "DFX/DFX.pnml"
+#include "DPX/DPX.pnml"
+#include "DTS_CityLink/DTS_CityLink.pnml"
 #include "DTS_Metro/DTS_Metro.pnml"
 #include "DTX_Glory/DTX_Glory.pnml"
 #include "DTX_Koryo/DTX_Koryo.pnml"
@@ -31,7 +35,3 @@ item(FEAT_TRAINS, DTX_Logo, 1076){
 #include "DTX_Sobaek/DTX_Sobaek.pnml"
 #include "DTX_Sundeok/DTX_Sundeok.pnml"
 #include "DTX_Taebaek/DTX_Taebaek.pnml"
---------------------------------------------------------------------*/
-#include "DFX/DFX.pnml"
-#include "DPX/DPX.pnml"
-#include "DTS_CityLink/DTS_CityLink.pnml"

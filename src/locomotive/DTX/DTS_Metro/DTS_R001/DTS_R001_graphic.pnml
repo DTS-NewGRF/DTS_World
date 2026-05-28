@@ -9,7 +9,7 @@ spriteset(set_DTS_R001_engineH, "src/locomotive/DTX/DTS_Metro/DTS_R001/DTS_R001.
 }
 
 spriteset(set_DTS_R001_engineH_Rev, "src/locomotive/DTX/DTS_Metro/DTS_R001/DTS_R001.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_DTS_R001_panto_wagon_M1, "src/locomotive/DTX/DTS_Metro/DTS_R001/DTS_R001.png") {
@@ -29,12 +29,16 @@ spriteset(set_DTS_R001_engineT_Rev, "src/locomotive/DTX/DTS_Metro/DTS_R001/DTS_R
 }
 
 spriteset(set_DTS_R001_engineT, "src/locomotive/DTX/DTS_Metro/DTS_R001/DTS_R001.png"){
-    DTS_temp(80, 162)
+    DTS_temp_r(80, 162)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_DTS_R001_purchase, "src/locomotive/DTX/DTS_Metro/DTS_R001/DTS_R001.png"){
-    tmpl_purchase(0, 0)
+spriteset(set_DTS_R001_engien_purchase, "src/locomotive/DTX/DTS_Metro/DTS_R001/DTS_R001.png"){
+    tmpl_purchase_for_dualhead(0, 0)
+}
+
+spriteset(set_DTS_R001_wagon_purchase, "src/locomotive/DTX/DTS_Metro/DTS_R001/DTS_R001.png"){
+    tmpl_purchase(0, 81)
 }

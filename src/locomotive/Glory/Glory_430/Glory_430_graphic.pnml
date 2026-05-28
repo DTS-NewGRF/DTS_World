@@ -28,7 +28,7 @@ spriteset(set_Glory_430_engineT, "src/locomotive/Glory/Glory_430/Glory_430.png")
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_Glory_430_engine_purchase, "src/locomotive/Glory/Glory_430/Glory_430.png"){
-    tmpl_purchase(0, 0)
+    tmpl_purchase_for_dualhead(0, 0)
 }
 
 spriteset(set_Glory_430_wagon_purchase, "src/locomotive/Glory/Glory_430/Glory_430.png"){

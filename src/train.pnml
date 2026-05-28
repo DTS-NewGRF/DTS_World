@@ -14,6 +14,7 @@
 #include "locomotive/EEC_EMU/EEC_EMU.pnml"
 #include "locomotive/Eurostar/Eurostar.pnml"
 #include "locomotive/FEL_8500/FEL_8500.pnml"
+#include "locomotive/Glory/Glory.pnml"
 #include "locomotive/GT26CW/GT26CW.pnml"
 #include "locomotive/GTX/GTX.pnml"
 #include "locomotive/H2_WJ/H2_WJ.pnml"

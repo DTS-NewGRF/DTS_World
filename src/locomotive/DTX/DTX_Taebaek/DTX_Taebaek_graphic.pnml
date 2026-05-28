@@ -28,7 +28,7 @@ spriteset(set_DTX_Taebaek_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/loco
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_DTX_Taebaek_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Taebaek/DTX_Taebaek.png"){
-    tmpl_purchase(0, 0)
+    tmpl_purchase_for_dualhead(0, 0)
 }
 
 spriteset(set_DTX_Taebaek_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Taebaek/DTX_Taebaek.png"){

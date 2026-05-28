@@ -17,26 +17,3 @@ switch(FEAT_TRAINS, SELF, sw_Glory_430_engine, position_in_consist_from_end == 0
     1: sw_Glory_430_engineT;
     sw_Glory_430_engineH;
 }
-
-// 1.03 삭제예정
-// 고정편성 그래픽
-switch (FEAT_TRAINS, SELF, sw_Glory_430_10car, position_in_vehid_chain % 10) {
-    0: set_Deleted_A; //default
-    1..9: set_Deleted_B;
-    }
-
-switch (FEAT_TRAINS, SELF, sw_Glory_430_16car, position_in_vehid_chain % 16) {
-    0: set_Deleted_A; //default
-    1..15: set_Deleted_B;
-    }
-
-// 편성수
-switch (FEAT_TRAINS, SELF, sw_articulated_Glory_430_10car, extra_callback_info1) {
-    1..9: Glory_430_10Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
-switch (FEAT_TRAINS, SELF, sw_articulated_Glory_430_16car, extra_callback_info1) {
-    1..15: Glory_430_16Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
