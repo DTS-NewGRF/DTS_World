@@ -10,12 +10,16 @@ spriteset(set_HYEL_Mugunhwa_wagon, "src/locomotive/HYEL/HYEL_Mugunhwa/HYEL_Mugun
 }
 
 spriteset(set_HYEL_Mugunhwa_engineT, "src/locomotive/HYEL/HYEL_Mugunhwa/HYEL_Mugunhwa.png"){
-    DTS_temp(80, 54)
+    DTS_temp_r(80, 54)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_Mugunhwa_purchase, "src/locomotive/HYEL/HYEL_Mugunhwa/HYEL_Mugunhwa.png"){
-    tmpl_purchase(0, 0)
+spriteset(set_HYEL_Mugunhwa_engine_purchase, "src/locomotive/HYEL/HYEL_Mugunhwa/HYEL_Mugunhwa.png"){
+    tmpl_purchase_for_dualhead(0, 0)
+}
+
+spriteset(set_HYEL_Mugunhwa_wagon_purchase, "src/locomotive/HYEL/HYEL_Mugunhwa/HYEL_Mugunhwa.png"){
+    tmpl_purchase(0, 27)
 }

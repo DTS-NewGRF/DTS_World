@@ -114,6 +114,25 @@
 |1110|Glory_430_wagon|
 |1111|Glory_600_engine|
 |1112|Glory_600_wagon|
+|1113|HYEL_Logo|
+|1114|HYEL_15|
+|1115|HYEL_100|
+|1116|HYEL_120_Dual|
+|1117|HYEL_120_Unit|
+|1118|HYEL_150|
+|1119|HYEL_350_engine|
+|1120|HYEL_350_wagon|
+|1121|HYEL_400_engine|
+|1122|HYEL_400_wagon|
+|1123|Constrck|
+|1124|HYEL_Gangsan|
+|1125|HYEL_Mugunhwa_engine|
+|1126|HYEL_Mugunhwa_wagon|
+|1127|HYEL_Mugunhwa_DD_engine|
+|1128|HYEL_Mugunhwa_DD_wagon|
+|1129|HYEL_PEX_Super|
+|1130|HYEL_Railjet|
+|1131|HYEL_Railjet|
 
 |2001|CY_GW_6Car|
 |2002|G_Train|

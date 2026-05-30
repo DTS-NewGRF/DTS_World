@@ -7,9 +7,9 @@ HYEL-15
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HYEL_15, 1080){
+item(FEAT_TRAINS, HYEL_15, 1114){
     property {
-        name:                           string(STR_HYEL_15_NAME);
+        name:                           string(NAME_HYEL_15);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;

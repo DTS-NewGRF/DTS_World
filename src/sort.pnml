@@ -21,6 +21,19 @@ sort(FEAT_TRAINS, [
     DTX_Sundeok_engine,                      //1105
     DTX_Taebaek_engine,                      //1107
 
+    // HYEL 열차 그룹
+    HYEL_Logo,                               //1113
+    HYEL_15,                                 //1114
+    HYEL_100,                                //1115
+    HYEL_120_Unit,                           //1117
+    HYEL_120_Dual,                           //1116
+    HYEL_150,                                //1118
+    HYEL_350_engine,                         //1119
+    HYEL_400_engine,                         //1121
+    HYEL_Mugunhwa_engine,                    //1125
+    HYEL_Mugunhwa_DD_engine,                 //1127
+    HYEL_PEX_Super,                          //1129
+
     // AREX 열차 그룹
     AREX_Logo,                               //2514
     APEX_1000_1st_6Car,                      //2340
@@ -478,6 +491,12 @@ sort(FEAT_TRAINS, [
     DTX_Sundeok_wagon,                       //1106
     DTX_Taebaek_wagon,                       //1108
     H2_WJ_wagon,                             //1001
+    HYEL_350_wagon,                          //1120
+    HYEL_400_wagon,                          //1122
+    HYEL_Gangsan,                            //1124
+    HYEL_Mugunhwa_wagon,                     //1126
+    HYEL_Mugunhwa_DD_wagon,                  //1128
+    HYEL_Railjet,                            //1130
     Nextrain_wagon,                          //1019
     Nuriro_wagon,                            //1024
     Nuriro_DD_wagon,                         //1026
@@ -586,5 +605,6 @@ sort(FEAT_TRAINS, [
     FLAT_1F,                                 //2129
     FLAT_2F,                                 //2114
     FLAT_TANK,                               //2130
+    Constrck,                                //1123
     Showcase_Flat_1F,                        //1002
     ]);

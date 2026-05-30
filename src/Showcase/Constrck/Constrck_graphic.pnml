@@ -4,13 +4,13 @@ Graphics
 /*--------------------------------------------------------------------
 HYEL Constrck
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_Constrck_FLAT_CAR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_Constrck/HYEL_Constrck.png") {
+spriteset(set_Constrck, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Showcase/Constrck/Constrck.png") {
     DTS_temp(80, 0)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_Constrck_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_Constrck/HYEL_Constrck.png"){
+spriteset(set_Constrck_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Showcase/Constrck/Constrck.png"){
     tmpl_purchase(0, 0)
 }

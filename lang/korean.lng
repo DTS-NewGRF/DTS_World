@@ -1173,6 +1173,7 @@ NAME_Group_DTX                          : DTX
 NAME_Group_DTS_CityLink_120             : DTS-CityLink 120
 NAME_Group_DTS_CityLink_150             : DTS-CityLink 150
 NAME_Group_HEMU_430X                    : HEMU-430X
+NAME_Group_HYEL                         : HYEL
 NAME_Group_ICE                          : ICE
 NAME_Group_ITX                          : ITX
 NAME_Group_ITX_Maum                     : ITX-마음
@@ -1218,7 +1219,6 @@ NAME_Glory_430_engine                   : Glory 430
 NAME_Glory_430_wagon                    : Glory 430
 NAME_Glory_600_engine                   : Glory 600
 NAME_Glory_600_wagon                    : Glory 600
-
 NAME_GTX_8Car                           : [8량] GTX
 NAME_GTX_engine                         : GTX
 NAME_GTX_wagon                          : GTX
@@ -1229,46 +1229,22 @@ NAME_HEMU_430X_8Car                     : [8량] HEMU-430X
 NAME_HEMU_430X_engine                   : HEMU-430X
 NAME_HEMU_430X_wagon                    : HEMU-430X
 NAME_HEMU_430X_DD_wagon                 : HEMU-430X DD
-
-STR_Group_HYEL_Logo_NAME                          : HYEL
-STR_HYEL_15_NAME                                  : HYEL-15
-STR_HYEL_100_NAME                                 : HYEL-100
-STR_Group_HYEL_120_NAME                           : HYEL-120
-STR_HYEL_120_1Car_NAME                            : HYEL-120
-STR_HYEL_120_Dual_NAME                            : HYEL-120 Dual
-STR_HYEL_150_NAME                                 : HYEL-150
-STR_Group_HYEL_300_NAME                           : HYEL-300
-STR_HYEL_300_8Car_NAME                            : [8량] HYEL-300
-STR_HYEL_300_10Car_NAME                           : [10량] HYEL-300
-STR_Group_HYEL_350_NAME                           : HYEL-350
-STR_HYEL_350_8Car_NAME                            : [8량] HYEL-350
-STR_HYEL_350_10Car_NAME                           : [10량] HYEL-350
-STR_HYEL_350_16Car_NAME                           : [16량] HYEL-350
-STR_HYEL_350_20Car_NAME                           : [20량] HYEL-350
-STR_Group_HYEL_400_NAME                           : HYEL-400
-STR_HYEL_400_8Car_NAME                            : [8량] HYEL-400
-STR_HYEL_400_10Car_NAME                           : [10량] HYEL-400
-STR_HYEL_400_16Car_NAME                           : [16량] HYEL-400
-STR_HYEL_Constrck_NAME                            : [20량] 건설차량
-STR_Group_HYEL_Gangsan_NAME                       : HYEL-강산
-STR_HYEL_Gangsan_3Car_NAME                        : [3량] HYEL-강산
-STR_HYEL_Gangsan_4Car_NAME                        : [4량] HYEL-강산
-STR_HYEL_Gangsan_6Car_NAME                        : [6량] HYEL-강산
-STR_HYEL_Gangsan_8Car_NAME                        : [8량] HYEL-강산
-STR_HYEL_Gangsan_10Car_NAME                       : [10량] HYEL-강산
-STR_Group_HYEL_Mugunhwa_NAME                      : HYEL-무궁화
-STR_HYEL_Mugunhwa_4Car_NAME                       : [4량] HYEL-무궁화
-STR_HYEL_Mugunhwa_6Car_NAME                       : [6량] HYEL-무궁화
-STR_HYEL_Mugunhwa_8Car_NAME                       : [8량] HYEL-무궁화
-STR_HYEL_Mugunhwa_10Car_NAME                      : [10량] HYEL-무궁화
-STR_Group_HYEL_Mugunhwa_DD_NAME                   : HYEL-무궁화 DD
-STR_HYEL_Mugunhwa_DD_6Car_NAME                    : [6량] HYEL-무궁화 DD
-STR_HYEL_Mugunhwa_DD_8Car_NAME                    : [8량] HYEL-무궁화 DD
-STR_HYEL_Mugunhwa_DD_10Car_NAME                   : [10량] HYEL-무궁화 DD
-STR_Group_HYEL_PEX_Super_NAME                     : HYEL PEX-SUPER (Premium EXpress Super)
-STR_HYEL_PEX_Super_8Car_NAME                      : [8량] HYEL PEX-SUPER
-STR_HYEL_PEX_Super_10Car_NAME                     : [10량] HYEL PEX-SUPER
-STR_HYEL_PEX_Super_14Car_NAME                     : [14량] HYEL PEX-SUPER
+NAME_HYEL_15                            : HYEL-15
+NAME_HYEL_100                           : HYEL-100
+NAME_HYEL_120_Dual                      : HYEL-120 Dual
+NAME_HYEL_120_Unit                      : HYEL-120 Unit
+NAME_HYEL_150                           : HYEL-150
+NAME_HYEL_350_engine                    : HYEL-350
+NAME_HYEL_350_wagon                     : HYEL-350
+NAME_HYEL_400_engine                    : HYEL-400
+NAME_HYEL_400_wagon                     : HYEL-400
+NAME_HYEL_Gangsan                       : HYEL-강산
+NAME_HYEL_Mugunhwa_engine               : HYEL-무궁화
+NAME_HYEL_Mugunhwa_wagon                : HYEL-무궁화
+NAME_HYEL_Mugunhwa_DD_engine            : HYEL-무궁화 DD
+NAME_HYEL_Mugunhwa_DD_wagon             : HYEL-무궁화 DD
+NAME_HYEL_PEX_Super                     : HYEL PEX-SUPER
+NAME_HYEL_Railjet                       : HYEL RailJet
 
 NAME_ITX_CheongChan_engine              : ITX-청천
 NAME_ITX_CheongChan_wagon               : ITX-청천
@@ -1281,7 +1257,7 @@ NAME_ITX_Maum_4Car                      : [4량] ITX-마음
 NAME_ITX_Maum_6Car                      : [6량] ITX-마음
 NAME_ITX_Maum_engine                    : ITX-마음
 NAME_ITX_Maum_wagon                     : ITX-마음
-NAME_ITX_Maum_DD_engine                 : ITX-마음
+NAME_ITX_Maum_DD_engine                 : ITX-마음 DD
 NAME_ITX_Maum_DD_wagon                  : ITX-마음 DD
 NAME_ITX_Saemaeul_6Car                  : [6량] ITX-새마을
 NAME_ITX_Saemaeul_engine                : ITX-새마을
@@ -1350,6 +1326,7 @@ NAME_Nextrain_engine                    : 넥스트레인
 NAME_Nextrain_wagon                     : 넥스트레인
 
 # Showcase's name
+NAME_Constrck                           : [진열용] 건설차량
 NAME_Showcase_Flat_1F                   : [진열용] 평판화차
 
 # Parameters
@@ -1393,25 +1370,13 @@ Livery_DTS_CityLink_150_2nd_B           : 세미크로스시트
 Livery_DTX_Glory_1Year                  : 1주년 도색
 Livery_DTX_Glory_2Year                  : 2주년 도색
 Livery_DTX_Glory_APEC_2025              : APEC 2025
-
-STR_REFIT_LIVERY_HYEL_100                         : 수소열차
-STR_REFIT_LIVERY_HYEL_100_CI                      : 한국철도공사 CI
-STR_REFIT_LIVERY_HYEL_100_original                : 오리지널
-STR_REFIT_LIVERY_HYEL_150                         : HYEL-150
-STR_REFIT_LIVERY_HYEL_150_SB                      : HYEL-150 바다도색
-STR_REFIT_LIVERY_HYEL_300                         : HYEL-300
-STR_REFIT_LIVERY_HYEL_300_PEX_A                   : HYEL-300 PEX-Super
-STR_REFIT_LIVERY_HYEL_300_PEX_B                   : HYEL-300 PEX-Super 무지개도색
-STR_REFIT_LIVERY_HYEL_PEX_Super_A                 : 기본도색
-STR_REFIT_LIVERY_HYEL_PEX_Super_B                 : 기본도색 (이벤트)
-STR_REFIT_LIVERY_HYEL_PEX_Super_C                 : 기본도색 (물결무늬)
-STR_REFIT_LIVERY_HYEL_PEX_Super_D                 : 기본도색 (2층객차)
-STR_REFIT_LIVERY_HYEL_PEX_Super_E                 : 기본도색 (침대차)
-STR_REFIT_LIVERY_HYEL_PEX_Super_F                 : 기본도색 (이벤트+2층객차)
-STR_REFIT_LIVERY_HYEL_PEX_Super_G                 : 기본도색 (이벤트+침대차)
-STR_REFIT_LIVERY_HYEL_PEX_Super_H                 : 무지개도색
-STR_REFIT_LIVERY_HYEL_PEX_Super_I                 : 무지개도색 (2층객차)
-STR_REFIT_LIVERY_HYEL_PEX_Super_J                 : 무지개도색 (침대차)
+Livery_HYEL_100                         : 수소열차
+Livery_HYEL_100_CI                      : 한국철도공사 CI
+Livery_HYEL_100_original                : 오리지널
+Livery_HYEL_150                         : HYEL-150
+Livery_HYEL_150_SB                      : HYEL-150 바다도색
+Livery_HYEL_PEX_Super_A                 : 기본도색
+Livery_HYEL_PEX_Super_B                 : 무지개도색
 
 Livery_ITX_CheongChun_A                 : ITX-청춘
 Livery_ITX_CheongChun_B                 : ITX-청춘 용 랩핑

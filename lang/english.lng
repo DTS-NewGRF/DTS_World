@@ -1172,6 +1172,7 @@ NAME_Group_DTX                          : DTX
 NAME_Group_DTS_CityLink_120             : DTS-CityLink 120
 NAME_Group_DTS_CityLink_150             : DTS-CityLink 150
 NAME_Group_HEMU_430X                    : HEMU-430X
+NAME_Group_HYEL                         : HYEL
 NAME_Group_ICE                          : ICE
 NAME_Group_ITX                          : ITX
 NAME_Group_ITX_Maum                     : ITX-Maum
@@ -1217,7 +1218,6 @@ NAME_Glory_430_engine                   : Glory 430
 NAME_Glory_430_wagon                    : Glory 430
 NAME_Glory_600_engine                   : Glory 600
 NAME_Glory_600_wagon                    : Glory 600
-
 NAME_GTX_8Car                           : [8Car] GTX
 NAME_GTX_engine                         : GTX
 NAME_GTX_wagon                          : GTX
@@ -1228,46 +1228,22 @@ NAME_HEMU_430X_8Car                     : [8Car] HEMU-430X
 NAME_HEMU_430X_engine                   : HEMU-430X
 NAME_HEMU_430X_wagon                    : HEMU-430X
 NAME_HEMU_430X_DD_wagon                 : HEMU-430X DD
-
-STR_Group_HYEL_Logo_NAME                          : HYEL
-STR_HYEL_15_NAME                                  : HYEL-15
-STR_HYEL_100_NAME                                 : HYEL-100
-STR_Group_HYEL_120_NAME                           : HYEL-120
-STR_HYEL_120_1Car_NAME                            : HYEL-120
-STR_HYEL_120_Dual_NAME                            : HYEL-120 Dual
-STR_HYEL_150_NAME                                 : HYEL-150
-STR_Group_HYEL_300_NAME                           : HYEL-300
-STR_HYEL_300_8Car_NAME                            : [8Car] HYEL-300
-STR_HYEL_300_10Car_NAME                           : [10Car] HYEL-300
-STR_Group_HYEL_350_NAME                           : HYEL-350
-STR_HYEL_350_8Car_NAME                            : [8Car] HYEL-350
-STR_HYEL_350_10Car_NAME                           : [10Car] HYEL-350
-STR_HYEL_350_16Car_NAME                           : [16Car] HYEL-350
-STR_HYEL_350_20Car_NAME                           : [20Car] HYEL-350
-STR_Group_HYEL_400_NAME                           : HYEL-400
-STR_HYEL_400_8Car_NAME                            : [8Car] HYEL-400
-STR_HYEL_400_10Car_NAME                           : [10Car] HYEL-400
-STR_HYEL_400_16Car_NAME                           : [16Car] HYEL-400
-STR_HYEL_Constrck_NAME                            : [20Car] construction vehicle
-STR_Group_HYEL_Gangsan_NAME                       : HYEL-Gangsan
-STR_HYEL_Gangsan_3Car_NAME                        : [3Car] HYEL-Gangsan
-STR_HYEL_Gangsan_4Car_NAME                        : [4Car] HYEL-Gangsan
-STR_HYEL_Gangsan_6Car_NAME                        : [6Car] HYEL-Gangsan
-STR_HYEL_Gangsan_8Car_NAME                        : [8Car] HYEL-Gangsan
-STR_HYEL_Gangsan_10Car_NAME                       : [10Car] HYEL-Gangsan
-STR_Group_HYEL_Mugunhwa_NAME                      : HYEL-Mugunhwa
-STR_HYEL_Mugunhwa_4Car_NAME                       : [4Car] HYEL-Mugunhwa
-STR_HYEL_Mugunhwa_6Car_NAME                       : [6Car] HYEL-Mugunhwa
-STR_HYEL_Mugunhwa_8Car_NAME                       : [8Car] HYEL-Mugunhwa
-STR_HYEL_Mugunhwa_10Car_NAME                      : [10Car] HYEL-Mugunhwa
-STR_Group_HYEL_Mugunhwa_DD_NAME                   : HYEL-Mugunhwa DD
-STR_HYEL_Mugunhwa_DD_6Car_NAME                    : [6Car] HYEL-Mugunhwa DD
-STR_HYEL_Mugunhwa_DD_8Car_NAME                    : [8Car] HYEL-Mugunhwa DD
-STR_HYEL_Mugunhwa_DD_10Car_NAME                   : [10Car] HYEL-Mugunhwa DD
-STR_Group_HYEL_PEX_Super_NAME                     : HYEL PEX-SUPER (Premium EXpress Super)
-STR_HYEL_PEX_Super_8Car_NAME                      : HYEL PEX-SUPER 8Car
-STR_HYEL_PEX_Super_10Car_NAME                     : HYEL PEX-SUPER 10Car
-STR_HYEL_PEX_Super_14Car_NAME                     : HYEL PEX-SUPER 14Car
+NAME_HYEL_15                            : HYEL-15
+NAME_HYEL_100                           : HYEL-100
+NAME_HYEL_120_Dual                      : HYEL-120 Dual
+NAME_HYEL_120_Unit                      : HYEL-120 Unit
+NAME_HYEL_150                           : HYEL-150
+NAME_HYEL_350_engine                    : HYEL-350
+NAME_HYEL_350_wagon                     : HYEL-350
+NAME_HYEL_400_engine                    : HYEL-400
+NAME_HYEL_400_wagon                     : HYEL-400
+NAME_HYEL_Gangsan                       : HYEL-Gangsan
+NAME_HYEL_Mugunhwa_engine               : HYEL-Mugunhwa
+NAME_HYEL_Mugunhwa_wagon                : HYEL-Mugunhwa
+NAME_HYEL_Mugunhwa_DD_engine            : HYEL-Mugunhwa DD
+NAME_HYEL_Mugunhwa_DD_wagon             : HYEL-Mugunhwa DD
+NAME_HYEL_PEX_Super                     : HYEL PEX-SUPER
+NAME_HYEL_Railjet                       : HYEL RailJet
 
 NAME_ITX_CheongChan_engine              : ITX-CheongChan
 NAME_ITX_CheongChan_wagon               : ITX-CheongChan
@@ -1349,6 +1325,7 @@ NAME_Nextrain_engine                    : Nextrain
 NAME_Nextrain_wagon                     : Nextrain
 
 # Showcase's name
+NAME_Constrck                           : [Showcase] construction vehicle
 NAME_Showcase_Flat_1F                   : [Showcase] Flat Car
 
 # Parameters
@@ -1392,25 +1369,13 @@ Livery_DTS_CityLink_150_2nd_B           : B Type
 Livery_DTX_Glory_1Year                  : 1Year Livery
 Livery_DTX_Glory_2Year                  : 2Year Livery
 Livery_DTX_Glory_APEC_2025              : APEC 2025
-
-STR_REFIT_LIVERY_HYEL_100                         : Hydrogen Train
-STR_REFIT_LIVERY_HYEL_100_CI                      : Korail CI
-STR_REFIT_LIVERY_HYEL_100_original                : Original
-STR_REFIT_LIVERY_HYEL_150                         : HYEL-150
-STR_REFIT_LIVERY_HYEL_150_SB                      : HYEL-150 Sea Livery
-STR_REFIT_LIVERY_HYEL_300                         : HYEL-300
-STR_REFIT_LIVERY_HYEL_300_PEX_A                   : HYEL-300 PEX-Super A Type
-STR_REFIT_LIVERY_HYEL_300_PEX_B                   : HYEL-300 PEX-Super B Type
-STR_REFIT_LIVERY_HYEL_PEX_Super_A                 : HYEL PEX_Super A
-STR_REFIT_LIVERY_HYEL_PEX_Super_B                 : HYEL PEX_Super B
-STR_REFIT_LIVERY_HYEL_PEX_Super_C                 : HYEL PEX_Super C
-STR_REFIT_LIVERY_HYEL_PEX_Super_D                 : HYEL PEX_Super D
-STR_REFIT_LIVERY_HYEL_PEX_Super_E                 : HYEL PEX_Super E
-STR_REFIT_LIVERY_HYEL_PEX_Super_F                 : HYEL PEX_Super F
-STR_REFIT_LIVERY_HYEL_PEX_Super_G                 : HYEL PEX_Super G
-STR_REFIT_LIVERY_HYEL_PEX_Super_H                 : HYEL PEX_Super H
-STR_REFIT_LIVERY_HYEL_PEX_Super_I                 : HYEL PEX_Super I
-STR_REFIT_LIVERY_HYEL_PEX_Super_J                 : HYEL PEX_Super J
+Livery_HYEL_100                         : Hydrogen Train
+Livery_HYEL_100_CI                      : Korail CI
+Livery_HYEL_100_original                : Original
+Livery_HYEL_150                         : HYEL-150
+Livery_HYEL_150_SB                      : HYEL-150 Sea Livery
+Livery_HYEL_PEX_Super_A                 : HYEL PEX_Super A
+Livery_HYEL_PEX_Super_B                 : HYEL PEX_Super B
 
 Livery_ITX_CheongChun_A                 : ITX-CheongChun A
 Livery_ITX_CheongChun_B                 : ITX-CheongChun B

@@ -1,14 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_HYEL_120_Dual_engine, position_in_vehid_chain % 2) {
-    0: set_HYEL_120_Dual_engine_PC1; //default
+switch(FEAT_TRAINS, SELF, sw_HYEL_120_Dual_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
     1: set_HYEL_120_Dual_engine_PC2;
-    }
-
-// 편성수
-switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_120_Dual, extra_callback_info1) {
-    1: HYEL_120_Dual;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
+    set_HYEL_120_Dual_engine_PC1;
+}

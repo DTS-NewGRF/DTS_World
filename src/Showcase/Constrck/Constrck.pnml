@@ -1,29 +1,23 @@
 /*--------------------------------------------------------------------
-HYEL_Constrck
+Constrck
 --------------------------------------------------------------------*/
 // Graphics
-#include "HYEL_Constrck_graphic.pnml"
-
-// Switch
-#include "HYEL_Constrck_switch.pnml"
+#include "Constrck_graphic.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HYEL_Constrck, 1098){
+item(FEAT_TRAINS, Constrck, 1123){
     property {
-        name:                           string(STR_HYEL_Constrck_NAME);
+        name:                           string(NAME_Constrck);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HYEL_Logo;
         
         //spec
-        speed:                          150km/h;
-        power:                          8000 kW;
-        weight:                         472 ton;
+        weight:                         23 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -51,14 +45,11 @@ item(FEAT_TRAINS, HYEL_Constrck, 1098){
         }
         
     graphics {
-        default:                        sw_HYEL_Constrck_20car;
-        articulated_part:               sw_articulated_HYEL_Constrck;
-        purchase:                       set_HYEL_Constrck_purchase;
-        speed:                          sw_Regular_150_speed;
+        default:                        set_Constrck;
+        purchase:                       set_Constrck_purchase;
         cargo_capacity:                 0;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
         }
         }

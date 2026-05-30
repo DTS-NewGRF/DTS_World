@@ -1,0 +1,20 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+HYEL 300
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_Railjet_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_Railjet/HYEL_Railjet.png") {
+    DTS_temp(80, 0)
+}
+
+spriteset(set_HYEL_Railjet_wagon_tail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_Railjet/HYEL_Railjet.png"){
+    DTS_temp(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_Railjet_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_Railjet/HYEL_Railjet.png"){
+    tmpl_purchase(0, 0)
+}

@@ -21,6 +21,7 @@
 #include "locomotive/HEMU_430X/HEMU_430X.pnml"
 #include "locomotive/HSR_350X/HSR_350X.pnml"
 #include "locomotive/HXD3C/HXD3C.pnml"
+#include "locomotive/HYEL/HYEL.pnml"
 #include "locomotive/ICE/ICE.pnml"
 #include "locomotive/ITX/ITX.pnml"
 #include "locomotive/Keisei_AE_series/Keisei_AE_series.pnml"

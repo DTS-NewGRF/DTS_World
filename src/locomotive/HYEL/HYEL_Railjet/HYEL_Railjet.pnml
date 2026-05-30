@@ -1,29 +1,27 @@
 /*--------------------------------------------------------------------
-HYEL-120_Dual
+HYEL-Railjet
 --------------------------------------------------------------------*/
 // Graphics
-#include "HYEL_120_Dual_graphic.pnml"
+#include "HYEL_Railjet_graphic.pnml"
 
 // Switch
-#include "HYEL_120_Dual_switch.pnml"
+#include "HYEL_Railjet_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HYEL_120_Dual, 1116){
+item(FEAT_TRAINS, HYEL_Railjet, 1130){
     property {
-        name:                           string(NAME_HYEL_120_Dual);
+        name:                           string(NAME_HYEL_Railjet);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2031, 1, 1);
+        introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HYEL_Logo;
+        variant_group:                  Train_Car;
         
         //spec
-        speed:                          150km/h;
-        power:                          17600 kW;
-        weight:                         260 ton;
+        weight:                         34 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -35,7 +33,7 @@ item(FEAT_TRAINS, HYEL_120_Dual, 1116){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 1;
+        cargo_capacity:                 63;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -51,11 +49,10 @@ item(FEAT_TRAINS, HYEL_120_Dual, 1116){
         }
         
     graphics {
-        default:                        sw_HYEL_120_Dual_engine;
-        purchase:                       set_HYEL_120_Dual_purchase;
-        cargo_capacity:                 0;
+        default:                        sw_HYEL_Railjet_wagon;
+        purchase:                       set_HYEL_Railjet_purchase;
         cost_factor:                    10;
+        loading_speed:                  25;
         running_cost_factor:            150;
-        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
