@@ -2,6 +2,7 @@
 스위치
 --------------------------------------------------------------------*/
 // 전후진 통합 코드
+// 고정편성
 switch(FEAT_TRAINS, SELF, sw_HSR_350X_engineH, train_is_driving_backwards) {
     0: set_HSR_350X_engineH;
     1: set_HSR_350X_engineH_Rev;
@@ -10,6 +11,67 @@ switch(FEAT_TRAINS, SELF, sw_HSR_350X_engineH, train_is_driving_backwards) {
 switch(FEAT_TRAINS, SELF, sw_HSR_350X_engineT, train_is_driving_backwards) {
     0: set_HSR_350X_engineT;
     1: set_HSR_350X_engineT_Rev;
+}
+
+// 자유편성
+switch(FEAT_TRAINS, SELF, sw_HSR_350X_engineT_Free, train_is_driving_backwards) {
+    0: set_HSR_350X_engineT_Free;
+    1: set_HSR_350X_engineT_Free_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_HSR_350X_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_HSR_350X_engineT_Free;
+    sw_HSR_350X_engineH;
+}
+
+// 객차
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_Free_wagon_front, position_in_vehid_chain) {
+    0: set_HSR_350X_wagon_TM1;
+    1: set_HSR_350X_wagon_TT2;
+    2: set_HSR_350X_wagon_TT3;
+    set_HSR_350X_wagon_TT4;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_Free_wagon_10car, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0: set_HSR_350X_wagon_TM5;
+    sw_HSR_350X_Free_wagon_front;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_Free_wagon_14car, position_in_vehid_chain) {
+     0: set_HSR_350X_wagon_TM1;
+     1: set_HSR_350X_wagon_TT2;
+     2..4: set_HSR_350X_wagon_TT3;
+     5: set_HSR_350X_wagon_TM5;
+     6: set_HSR_350X_wagon_TM5D;
+     7..10: set_HSR_350X_wagon_TT4;
+    11: set_HSR_350X_wagon_TM5;
+    set_HSR_350X_wagon_TT4;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_Free_wagon_20car_back, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0: set_HSR_350X_wagon_TM5;
+    set_HSR_350X_wagon_TT4;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_Free_wagon_20car_mid, position_in_vehid_chain - (num_vehs_in_vehid_chain / 2)) {
+    0: set_HSR_350X_wagon_TM5;
+    1: set_HSR_350X_wagon_TM5D;
+    sw_HSR_350X_Free_wagon_20car_back;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_Free_wagon_20car, position_in_vehid_chain) {
+    0: set_HSR_350X_wagon_TM1;
+    1: set_HSR_350X_wagon_TT2;
+    2..4: set_HSR_350X_wagon_TT3;
+    sw_HSR_350X_Free_wagon_20car_mid;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_wagon, num_vehs_in_vehid_chain) {
+     1..11: sw_HSR_350X_Free_wagon_10car;
+     12: sw_HSR_350X_Free_wagon_14car;
+    13..255: sw_HSR_350X_Free_wagon_20car;
+    set_HSR_350X_wagon_TT4;
 }
 
 // 편성그래픽
@@ -24,17 +86,6 @@ switch (FEAT_TRAINS, SELF, sw_HSR_350X_7car, position_in_vehid_chain % 7) {
     6: sw_HSR_350X_engineT;
     }
 
-// 10량
-switch (FEAT_TRAINS, SELF, sw_HSR_350X_10car, position_in_vehid_chain % 10) {
-    0: sw_HSR_350X_engineH; //default
-    1: set_HSR_350X_wagon_TM1;
-    2: set_HSR_350X_wagon_TT2;
-    3: set_HSR_350X_wagon_TT3;
-    4..7: set_HSR_350X_wagon_TT4;
-    8: set_HSR_350X_wagon_TM5;
-    9: sw_HSR_350X_engineT;
-    }
-
 // 14량
 switch (FEAT_TRAINS, SELF, sw_HSR_350X_14car, position_in_vehid_chain % 14) {
      0: sw_HSR_350X_engineH; //default
@@ -46,6 +97,18 @@ switch (FEAT_TRAINS, SELF, sw_HSR_350X_14car, position_in_vehid_chain % 14) {
      8..11: set_HSR_350X_wagon_TT4;
     12: set_HSR_350X_wagon_TM5;
     13: sw_HSR_350X_engineT;
+    }
+
+// 삭제예정
+// 10량
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_10car, position_in_vehid_chain % 10) {
+    0: sw_HSR_350X_engineH; //default
+    1: set_HSR_350X_wagon_TM1;
+    2: set_HSR_350X_wagon_TT2;
+    3: set_HSR_350X_wagon_TT3;
+    4..7: set_HSR_350X_wagon_TT4;
+    8: set_HSR_350X_wagon_TM5;
+    9: sw_HSR_350X_engineT;
     }
 
 // 20량
@@ -68,13 +131,14 @@ switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_7car, extra_callback_info1) {
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_10car, extra_callback_info1) {
-    1..9: HSR_350X_10Car;
+switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_14car, extra_callback_info1) {
+    1..13: HSR_350X_14Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_14car, extra_callback_info1) {
-    1..13: HSR_350X_14Car;
+// 삭제예정
+switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_10car, extra_callback_info1) {
+    1..9: HSR_350X_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
@@ -114,4 +178,46 @@ switch(FEAT_TRAINS, SELF, sw_HSR_350X_20car_length_in_custom, position_in_vehid_
     10..11: 8;
     12..17: 7;
     18..19: 8;
+}
+
+// 자유편성 길이
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_Free_wagon_front_length, position_in_vehid_chain) {
+    0: 8;
+    7;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_Free_wagon_10car_length_back, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0: 8; // TM5
+    sw_HSR_350X_Free_wagon_front_length;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_Free_wagon_14car_length, position_in_vehid_chain) {
+     0: 8; // TM1
+     5..6: 8;
+    11: 8; // TM5
+    7;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_Free_wagon_20car_back_length, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
+    0: 8;
+    7;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_Free_wagon_20car_mid_length, position_in_vehid_chain - (num_vehs_in_vehid_chain / 2)) {
+    0: 8; // TM5
+    1: 8; // TM5D
+    sw_HSR_350X_Free_wagon_20car_back_length;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_Free_wagon_20car_length, position_in_vehid_chain) {
+    0: 8; // TM1
+    1..4: 7;
+    sw_HSR_350X_Free_wagon_20car_mid_length;
+}
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_wagon_length, num_vehs_in_vehid_chain) {
+     1..11: sw_HSR_350X_Free_wagon_10car_length_back;
+     12: sw_HSR_350X_Free_wagon_14car_length;
+    13..255: sw_HSR_350X_Free_wagon_20car_length;
+    7;
 }

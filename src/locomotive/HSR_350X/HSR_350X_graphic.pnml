@@ -6,7 +6,7 @@ spriteset(set_HSR_350X_engineH, "src/locomotive/HSR_350X/HSR_350X.png"){
 }
 
 spriteset(set_HSR_350X_engineH_Rev, "src/locomotive/HSR_350X/HSR_350X.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_HSR_350X_wagon_TM1, "src/locomotive/HSR_350X/HSR_350X.png"){
@@ -34,6 +34,10 @@ spriteset(set_HSR_350X_wagon_TM5D, "src/locomotive/HSR_350X/HSR_350X.png") {
 }
 
 spriteset(set_HSR_350X_engineT_Rev, "src/locomotive/HSR_350X/HSR_350X.png"){
+    DTS_temp(80, 216)
+}
+
+spriteset(set_HSR_350X_engineT_Free_Rev, "src/locomotive/HSR_350X/HSR_350X.png"){
     DTS_temp_r(80, 216)
 }
 
@@ -41,9 +45,21 @@ spriteset(set_HSR_350X_engineT, "src/locomotive/HSR_350X/HSR_350X.png"){
     DTS_temp(80, 243)
 }
 
+spriteset(set_HSR_350X_engineT_Free, "src/locomotive/HSR_350X/HSR_350X.png"){
+    DTS_temp_r(80, 243)
+}
+
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_HSR_350X_purchase, "src/locomotive/HSR_350X/HSR_350X.png"){
     tmpl_purchase(0, 0)
+}
+
+spriteset(set_HSR_350X_engine_purchase, "src/locomotive/HSR_350X/HSR_350X.png"){
+    tmpl_purchase_for_dualhead(0, 0)
+}
+
+spriteset(set_HSR_350X_wagon_purchase, "src/locomotive/HSR_350X/HSR_350X.png"){
+    tmpl_purchase(0, 135)
 }

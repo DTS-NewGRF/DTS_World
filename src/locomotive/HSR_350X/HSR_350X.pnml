@@ -12,7 +12,7 @@ HSR-350X
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HSR_350X, 2200){
     property {
-        name:                           string(STR_Group_HSR_350X_NAME);
+        name:                           string(NAME_Group_HSR_350X);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -30,7 +30,7 @@ item(FEAT_TRAINS, HSR_350X, 2200){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HSR_350X_7Car, 2027){
     property {
-        name:                           string(STR_HSR_350X_7Car_NAME);
+        name:                           string(NAME_HSR_350X_7Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2002, 1, 1);
         track_type:                     ELRL;
@@ -85,8 +85,8 @@ item(FEAT_TRAINS, HSR_350X_7Car, 2027){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HSR_350X_10Car, 2020){
     property {
-        name:                           string(STR_HSR_350X_10Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2002, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -140,7 +140,7 @@ item(FEAT_TRAINS, HSR_350X_10Car, 2020){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HSR_350X_14Car, 2005){
     property {
-        name:                           string(STR_HSR_350X_14Car_NAME);
+        name:                           string(NAME_HSR_350X_14Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2002, 1, 1);
         track_type:                     ELRL;
@@ -195,8 +195,8 @@ item(FEAT_TRAINS, HSR_350X_14Car, 2005){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HSR_350X_20Car, 2021){
     property {
-        name:                           string(STR_HSR_350X_20Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(STR_To_Be_Deleted_NAME);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2002, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -242,5 +242,115 @@ item(FEAT_TRAINS, HSR_350X_20Car, 2021){
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_RotemIGCTstart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+기관차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HSR_350X_engine, 1131){
+    property {
+        name:                           string(NAME_HSR_350X_engine);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2002, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HSR_350X;
+        dual_headed:                    1;
+        
+        //spec
+        speed:                          362km/h;
+        power:                          8000 kW;
+        weight:                         37 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 0;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_HSR_350X_engine;
+        purchase:                       set_HSR_350X_engine_purchase;
+        speed:                          sw_High_350_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_RotemIGCTstart_sound;
+        }
+    
+    livery_override(HSR_350X_wagon) {
+        default:                        sw_HSR_350X_wagon;
+        loading_speed:                  25;
+        length:                         sw_HSR_350X_wagon_length;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HSR_350X_wagon, 1132){
+    property {
+        name:                           string(NAME_HSR_350X_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2002, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         37 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        length:                         7;
+        
+        //Cargo
+        cargo_capacity:                 60;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        set_HSR_350X_wagon_TT4;
+        purchase:                       set_HSR_350X_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
         }
         }

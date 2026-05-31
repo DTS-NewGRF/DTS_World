@@ -132,7 +132,8 @@
 |1128|HYEL_Mugunhwa_DD_wagon|
 |1129|HYEL_PEX_Super|
 |1130|HYEL_Railjet|
-|1131|HYEL_Railjet|
+|1131|HSR_350X_engine|
+|1132|HSR_350X_wagon|
 
 |2001|CY_GW_6Car|
 |2002|G_Train|

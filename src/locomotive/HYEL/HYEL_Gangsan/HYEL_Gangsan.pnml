@@ -46,6 +46,7 @@ item(FEAT_TRAINS, HYEL_Gangsan, 1124){
         //Flags
         misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
+        extra_flags:                    bitmask(VEHICLE_FLAG_TRAIN_HAS_CAB);
         }
         
     graphics {

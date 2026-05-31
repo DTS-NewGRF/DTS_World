@@ -47,11 +47,6 @@ STR_Special_Diesel_Car_NAME                            :특별동차 (디젤액�
 STR_EEC_EMU_10Car_NAME                                 :[10량] EEC 전기동차
 STR_FEL_8500_NAME                                      :8500호대 전기기관차
 STR_GT26CW_NAME                                        :7X00호대 디젤기관차
-STR_Group_HSR_350X_NAME                                :HSR-350X
-STR_HSR_350X_7Car_NAME                                 :[7량] HSR-350X
-STR_HSR_350X_10Car_NAME                                :[10량] HSR-350X
-STR_HSR_350X_14Car_NAME                                :[14량] HSR-350X
-STR_HSR_350X_20Car_NAME                                :[20량] HSR-350X
 STR_MSB_Speeder_NAME                                   :MSB 모터카
 STR_NEL_8100_NAME                                      :8100호대 전기기관차
 STR_NEL_8200_NAME                                      :8200호대 전기기관차
@@ -1173,6 +1168,7 @@ NAME_Group_DTX                          : DTX
 NAME_Group_DTS_CityLink_120             : DTS-CityLink 120
 NAME_Group_DTS_CityLink_150             : DTS-CityLink 150
 NAME_Group_HEMU_430X                    : HEMU-430X
+NAME_Group_HSR_350X                     : HSR-350X
 NAME_Group_HYEL                         : HYEL
 NAME_Group_ICE                          : ICE
 NAME_Group_ITX                          : ITX
@@ -1229,6 +1225,10 @@ NAME_HEMU_430X_8Car                     : [8량] HEMU-430X
 NAME_HEMU_430X_engine                   : HEMU-430X
 NAME_HEMU_430X_wagon                    : HEMU-430X
 NAME_HEMU_430X_DD_wagon                 : HEMU-430X DD
+NAME_HSR_350X_7Car                      : [7량] HSR-350X
+NAME_HSR_350X_14Car                     : [14량] HSR-350X
+NAME_HSR_350X_engine                    : HSR-350X
+NAME_HSR_350X_wagon                     : HSR-350X
 NAME_HYEL_15                            : HYEL-15
 NAME_HYEL_100                           : HYEL-100
 NAME_HYEL_120_Dual                      : HYEL-120 Dual
@@ -1245,7 +1245,6 @@ NAME_HYEL_Mugunhwa_DD_engine            : HYEL-무궁화 DD
 NAME_HYEL_Mugunhwa_DD_wagon             : HYEL-무궁화 DD
 NAME_HYEL_PEX_Super                     : HYEL PEX-SUPER
 NAME_HYEL_Railjet                       : HYEL RailJet
-
 NAME_ITX_CheongChan_engine              : ITX-청천
 NAME_ITX_CheongChan_wagon               : ITX-청천
 NAME_ITX_CheongChun_8Car                : [8량] ITX-청춘
