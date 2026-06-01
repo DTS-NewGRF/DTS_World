@@ -3,21 +3,38 @@
 --------------------------------------------------------------------*/
 //도색
 switch(FEAT_TRAINS, SELF, sw_OEL8000_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_OEL8000_I1);
-    1: return string(STR_REFIT_LIVERY_OEL8000_I2);
-    2: return string(STR_REFIT_LIVERY_OEL8000_O1);
-    3: return string(STR_REFIT_LIVERY_OEL8000_O2);
-    4: return string(STR_REFIT_LIVERY_OEL8000_N1);
-    5: return string(STR_REFIT_LIVERY_OEL8000_N2);
+    0: return string(Livery_OEL8000_I1);
+    1: return string(Livery_OEL8000_I2);
+    2: return string(Livery_OEL8000_O1);
+    3: return string(Livery_OEL8000_O2);
+    4: return string(Livery_OEL8000_N1);
+    5: return string(Livery_OEL8000_N2);
     return CB_RESULT_NO_TEXT;
 }
 
-//열차
-switch(FEAT_TRAINS, SELF, sw_OEL8000_engine, cargo_subtype) {
+// 도색그래픽 세팅
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_OEL8000_engine_Front, cargo_subtype) {
+    0: set_OEL8000_engine_I1;
     1: set_OEL8000_engine_I2;
     2: set_OEL8000_engine_O1;
     3: set_OEL8000_engine_O2;
     4: set_OEL8000_engine_N1;
     5: set_OEL8000_engine_N2;
-    set_OEL8000_engine_I1;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_OEL8000_engine_Back, cargo_subtype) {
+    0: set_OEL8000_engine_I1_Rev;
+    1: set_OEL8000_engine_I2_Rev;
+    2: set_OEL8000_engine_O1_Rev;
+    3: set_OEL8000_engine_O2_Rev;
+    4: set_OEL8000_engine_N1_Rev;
+    5: set_OEL8000_engine_N2_Rev;
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_OEL8000_engine, train_is_driving_backwards) {
+    0: sw_OEL8000_engine_Front;
+    1: sw_OEL8000_engine_Back;
 }

@@ -26,10 +26,6 @@ STR_Group_Renfe_Logo_NAME                              :Renfe
 STR_Group_Eurostar_Logo_NAME                           :Eurostar
 
 # Korea / locomotive's name
-STR_Group_CDC_NAME                                     :CDC Diesel
-STR_CDC_3Car_NAME                                      :[3Car] CDC Diesel
-STR_CDC_4Car_NAME                                      :[4Car] CDC Diesel
-STR_CDC_5Car_NAME                                      :[5Car] CDC Diesel
 STR_DEL4400_NAME                                       :DEL4400
 STR_DEL7000_NAME                                       :DEL7000
 STR_DEL7600_NAME                                       :DEL7600
@@ -48,12 +44,7 @@ STR_EEC_EMU_10Car_NAME                                 :[10Car] EEC EMU
 STR_FEL_8500_NAME                                      :FEL 8500
 STR_GT26CW_NAME                                        :GT26CW
 STR_MSB_Speeder_NAME                                   :MSB Speeder
-STR_NEL_8100_NAME                                      :NEL 8100
-STR_NEL_8200_NAME                                      :NEL 8200
-STR_OEL_8000_NAME                                      :OEL 8000
-STR_Group_RDC_NAME                                     :RDC Diesel
-STR_RDC_3Car_NAME                                      :[3Car] RDC Diesel
-STR_RDC_4Car_NAME                                      :[4Car] RDC Diesel
+
 
 # Chinese / locomotive's name
 STR_CRH380AJ_8Car_NAME                                 :[8Car] CRH380AJ
@@ -476,14 +467,6 @@ STR_REFIT_LIVERY_Cargo                                 : Cargo Train
 # Korea / Liveries locomotive
 STR_REFIT_LIVERY_AREX_1000_Old                         : Old
 STR_REFIT_LIVERY_AREX_1000_New                         : New
-STR_REFIT_LIVERY_CDC_Old                               : Old
-STR_REFIT_LIVERY_CDC_New                               : New
-STR_REFIT_LIVERY_CDC_Flower_Garden                     : Flower Garde
-STR_REFIT_LIVERY_CDC_Beach                             : Beach
-STR_REFIT_LIVERY_CDC_Baekje_Crown                      : Baekje Crown
-STR_REFIT_LIVERY_CDC_Sea_Old                           : Sea Old
-STR_REFIT_LIVERY_CDC_Sea_New                           : Sea New
-STR_REFIT_LIVERY_CDC_DMZ                               : DMZ-Train
 STR_REFIT_LIVERY_DEL4400_A                             : Old
 STR_REFIT_LIVERY_DEL4400_B                             : New
 STR_REFIT_LIVERY_DEL4400_C                             : V-Train
@@ -569,15 +552,6 @@ STR_REFIT_LIVERY_OEL8000_O1                            : 1st Old livery
 STR_REFIT_LIVERY_OEL8000_O2                            : 2nd Old livery
 STR_REFIT_LIVERY_OEL8000_N1                            : 1st New livery
 STR_REFIT_LIVERY_OEL8000_N2                            : 2nd New livery
-STR_REFIT_LIVERY_RDC                                   : RDC
-STR_REFIT_LIVERY_RDC_Cafe_A                            : RDC Cafe Car A
-STR_REFIT_LIVERY_RDC_Cafe_B                            : RDC Cafe Car B
-STR_REFIT_LIVERY_RDC_Cafe_C                            : RDC Cafe Car C
-STR_REFIT_LIVERY_RDC_PY                                : RDC Pohang Yeongdeok A type
-STR_REFIT_LIVERY_RDC_PY2                               : RDC Pohang Yeongdeok B type
-STR_REFIT_LIVERY_RDC_Gyeongbuk_Old                     : RDC Gyeongbuk Old
-STR_REFIT_LIVERY_RDC_Gyeongbuk_New                     : RDC Gyeongbuk New
-STR_REFIT_LIVERY_RDC_Gyeongbuk_Nadri                   : RDC Gyeongbuk Nadri
 STR_REFIT_LIVERY_CRH380A                               : CRH380A
 STR_REFIT_LIVERY_Vibrant_Express                       : Vibrant Express
 STR_REFIT_LIVERY_CR400BF_C                             : Golden Phoenix Livery
@@ -1179,6 +1153,8 @@ NAME_Group_PEX                          : PEX (Premium EXpress)
 NAME_Group_PEX_Super                    : PEX-Super (Premium EXpress Super)
 
 # locomotive's name
+NAME_CDC_engine                         : CDC Diesel
+NAME_CDC_wagon                          : CDC Diesel
 NAME_CTX_wagon                          : CTX
 NAME_DFX_engine                         : DFX
 NAME_DFX_wagon                          : DFX
@@ -1299,6 +1275,9 @@ NAME_Nuriro_engine                      : Korail 200000 series EMU (NURIRO)
 NAME_Nuriro_wagon                       : Korail 200000 series EMU (NURIRO)
 NAME_Nuriro_DD_engine                   : Nuriro DD
 NAME_Nuriro_DD_wagon                    : Nuriro DD
+NAME_NEL_8100                           : NEL 8100
+NAME_NEL_8200                           : NEL 8200
+NAME_OEL_8000                           : OEL 8000
 NAME_PEX_B                              : PEX Bar Car
 NAME_PEX_D                              : PEX 2F Car
 NAME_PEX_N                              : PEX 1F Car
@@ -1311,6 +1290,8 @@ NAME_PEX_Super_N                        : PEX-SUPER regular class
 NAME_PEX_Super_Post                     : PEX-SUPER POST car
 NAME_PEX_Super_S                        : PEX-SUPER sleeping car
 NAME_PEX_Super_SN                       : PEX-SUPER first class
+NAME_RDC_engine                         : RDC Diesel
+NAME_RDC_wagon                          : RDC Diesel
 NAME_Train_Car                          : Train Car
 NAME_Transparency                       : Transparency Vehicle
 NAME_TTX_6Car                           : [6Car] TTX
@@ -1358,9 +1339,14 @@ Param_Name_Passengercar_Real_speed      : Controls the speed of the carriage.
 Param_Name_Regular_High_Speed_Train     : Regular High Train Virtual speed Variable
 Param_Name_Regular_Speed_Train          : Regular Train Virtual speed Variable
 Param_Name_Semi_High_Speed_Train        : Semi High Virtual speed Train Speed variable
-Param_Name_World                                  : No World trains allowed.
+Param_Name_World                        : No World trains allowed.
 
 # Liveries Locomotive
+Livery_CDC_Old                          : Old
+Livery_CDC_New                          : New
+Livery_CDC_Flower                       : Flower Garde
+Livery_CDC_Beach                        : Beach
+Livery_CDC_Baekje                       : Baekje Crown
 Livery_DEL7600                          : Orginal
 Livery_DEL7600_Old                      : Old
 Livery_DEL7600_New                      : New
@@ -1427,6 +1413,18 @@ Livery_Nuriro_B                         : B type
 Livery_Nuriro_O                         : O-Train
 Livery_Nuriro_DS                        : Donghae Santa
 Livery_Nuriro_saemaeul                  : ITX-saemaeul
+Livery_NEL_8100_A                       : NEL 8100 A
+Livery_NEL_8100_B                       : NEL 8100 B
+Livery_OEL8000_I1                       : 1st Early livery
+Livery_OEL8000_I2                       : 2nd Early livery
+Livery_OEL8000_O1                       : 1st Old livery
+Livery_OEL8000_O2                       : 2nd Old livery
+Livery_OEL8000_N1                       : 1st New livery
+Livery_OEL8000_N2                       : 2nd New livery
+Livery_Mugunghwa                        : Mugunghwa
+Livery_Mugunghwa_cafe                   : Mugunghwa cafe
+Livery_Pohang_Yeongdeok_1               : Pohang Yeongdeok 1
+Livery_Pohang_Yeongdeok_2               : Pohang Yeongdeok 2
 Livery_SRT                              : SRT
 Livery_SRT_2cc                          : SRT 2cc
 

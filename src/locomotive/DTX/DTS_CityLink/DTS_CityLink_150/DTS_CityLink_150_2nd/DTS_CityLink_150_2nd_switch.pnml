@@ -46,12 +46,6 @@ switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_wagon_front, position_in_cons
     set_DTS_CityLink_150_2nd_wagon_MT;
 }
 
-switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_9Car_wagon_front, position_in_consist) {
-    1: set_DTS_CityLink_150_2nd_wagon_M1;
-    2: sw_DTS_CityLink_150_2nd_panto_wagon_M1;
-    set_DTS_CityLink_150_2nd_wagon_MT;
-}
-
 // 1층
 switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_6Car_wagon, position_in_consist_from_end) {
     1: sw_DTS_CityLink_150_2nd_panto_wagon_M2;
@@ -60,10 +54,10 @@ switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_6Car_wagon, position_in_consi
 }
 
 switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_9Car_wagon, position_in_consist_from_end) {
-    1: set_DTS_CityLink_150_2nd_wagon_M2;
-    2: sw_DTS_CityLink_150_2nd_panto_wagon_M2;
+    1: sw_DTS_CityLink_150_2nd_panto_wagon_M2;
+    2: set_DTS_CityLink_150_2nd_wagon_M2;
     3: set_DTS_CityLink_150_2nd_wagon_CM;
-    sw_DTS_CityLink_150_2nd_9Car_wagon_front;
+    sw_DTS_CityLink_150_2nd_wagon_front;
 }
 
 switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_wagon, num_vehs_in_consist) {

@@ -134,6 +134,10 @@
 |1130|HYEL_Railjet|
 |1131|HSR_350X_engine|
 |1132|HSR_350X_wagon|
+|1133|CDC_engine|
+|1134|CDC_wagon|
+|1135|RDC_engine|
+|1136|RDC_wagon|
 
 |2001|CY_GW_6Car|
 |2002|G_Train|

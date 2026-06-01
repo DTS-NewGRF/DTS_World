@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, OEL8000, 2417){
     property {
-        name:                           string(STR_OEL_8000_NAME);
+        name:                           string(NAME_OEL_8000);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1972, 1, 1);
         track_type:                     ELRL;

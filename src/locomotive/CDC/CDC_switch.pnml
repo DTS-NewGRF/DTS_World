@@ -2,228 +2,92 @@
 스위치
 --------------------------------------------------------------------*/
 // 도색명
-switch(FEAT_TRAINS, SELF, sw_CDC_3Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_CDC_Old);
-    1: return string(STR_REFIT_LIVERY_CDC_New);
-    2: return string(STR_REFIT_LIVERY_CDC_Flower_Garden); // 꽃동산 도색
-    3: return string(STR_REFIT_LIVERY_CDC_Baekje_Crown);  // 백제왕관 도색
-    4: return string(STR_REFIT_LIVERY_CDC_Sea_Old);       // 바다열차 구도색
-    5: return string(STR_REFIT_LIVERY_CDC_DMZ);           // DMZ
-}
-
-switch(FEAT_TRAINS, SELF, sw_CDC_4Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_CDC_Old);
-    1: return string(STR_REFIT_LIVERY_CDC_New);
-    2: return string(STR_REFIT_LIVERY_CDC_Flower_Garden); // 꽃동산 도색
-    3: return string(STR_REFIT_LIVERY_CDC_Baekje_Crown);  // 백제왕관 도색
-    4: return string(STR_REFIT_LIVERY_CDC_Sea_New);       // 바다열차 신도색
-}
-
-switch(FEAT_TRAINS, SELF, sw_CDC_5Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_CDC_Old);
-    1: return string(STR_REFIT_LIVERY_CDC_New);
-    2: return string(STR_REFIT_LIVERY_CDC_Flower_Garden); // 꽃동산 도색
-    3: return string(STR_REFIT_LIVERY_CDC_Beach);         // 해변도색
-    4: return string(STR_REFIT_LIVERY_CDC_Baekje_Crown);  // 백제왕관 도색
+switch(FEAT_TRAINS, SELF, sw_CDC_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_CDC_Old);
+    1: return string(Livery_CDC_Flower);
+    2: return string(Livery_CDC_Baekje);
+    3: return string(Livery_CDC_Beach);
+    4: return string(Livery_CDC_New);
 }
 
 // 도색그래픽 세팅
 // 전진방향
-// 3량
-switch(FEAT_TRAINS, SELF, sw_CDC_3Car_engineH_Front, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_CDC_engineH_Front, cargo_subtype) {
     0: set_CDC_Old_engineH;
-    1: set_CDC_New_engineH;
-    2: set_CDC_Flower_Garden_engineH; // 꽃동산 도색
-    3: set_CDC_Baekje_Crown_engineH;  // 백제왕관 도색
-    4: set_CDC_Sea_Old_engineH;       // 바다열차 구도색
-    5: set_CDC_DMZ_engineH;           // DMZ
+    1: set_CDC_Flower_engineH;
+    2: set_CDC_Baekje_engineH;
+    3: set_CDC_Beach_engineH;
+    4: set_CDC_New_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_CDC_3Car_wagon, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_CDC_wagon, cargo_subtype) {
     0: set_CDC_Old_wagon;
-    1: set_CDC_New_wagon;
-    2: set_CDC_Flower_Garden_wagon; // 꽃동산 도색
-    3: set_CDC_Baekje_Crown_wagon;  // 백제왕관 도색
-    4: set_CDC_Sea_Old_wagon;       // 바다열차 구도색
-    5: set_CDC_DMZ_wagon;           // DMZ
+    1: set_CDC_Flower_wagon;
+    2: set_CDC_Baekje_wagon;
+    3: set_CDC_Beach_wagon;
+    4: set_CDC_New_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_CDC_3Car_engineT_Front, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_CDC_engineT_Front, cargo_subtype) {
     0: set_CDC_Old_engineT;
-    1: set_CDC_New_engineT;
-    2: set_CDC_Flower_Garden_engineT; // 꽃동산 도색
-    3: set_CDC_Baekje_Crown_engineT;  // 백제왕관 도색
-    4: set_CDC_Sea_Old_engineT;       // 바다열차 구도색
-    5: set_CDC_DMZ_engineT;           // DMZ
-}
-
-// 4량
-switch(FEAT_TRAINS, SELF, sw_CDC_4Car_engineH_Front, cargo_subtype) {
-    0: set_CDC_Old_engineH;
-    1: set_CDC_New_engineH;
-    2: set_CDC_Flower_Garden_engineH; // 꽃동산 도색
-    3: set_CDC_Baekje_Crown_engineH;  // 백제왕관 도색
-    4: set_CDC_Sea_New_engineH;       // 바다열차 신도색
-}
-
-switch(FEAT_TRAINS, SELF, sw_CDC_4Car_wagon_M1, cargo_subtype) {
-    0: set_CDC_Old_wagon;
-    1: set_CDC_New_wagon;
-    2: set_CDC_Flower_Garden_wagon; // 꽃동산 도색
-    3: set_CDC_Baekje_Crown_wagon;  // 백제왕관 도색
-    4: set_CDC_Sea_New_wagon_M1;    // 바다열차 신도색
-}
-
-switch(FEAT_TRAINS, SELF, sw_CDC_4Car_wagon_M2, cargo_subtype) {
-    0: set_CDC_Old_wagon;
-    1: set_CDC_New_wagon;
-    2: set_CDC_Flower_Garden_wagon; // 꽃동산 도색
-    3: set_CDC_Baekje_Crown_wagon;  // 백제왕관 도색
-    4: set_CDC_Sea_New_wagon_M2;    // 바다열차 신도색
-}
-
-switch(FEAT_TRAINS, SELF, sw_CDC_4Car_engineT_Front, cargo_subtype) {
-    0: set_CDC_Old_engineT;
-    1: set_CDC_New_engineT;
-    2: set_CDC_Flower_Garden_engineT; // 꽃동산 도색
-    3: set_CDC_Baekje_Crown_engineT;  // 백제왕관 도색
-    4: set_CDC_Sea_New_engineT;       // 바다열차 신도색
-}
-
-// 5량
-switch(FEAT_TRAINS, SELF, sw_CDC_5car_engineH_Front, cargo_subtype) {
-    0: set_CDC_Old_engineH;
-    1: set_CDC_New_engineH;
-    2: set_CDC_Flower_Garden_engineH; // 꽃동산 도색
-    3: set_CDC_Beach_engineH;         // 해변도색
-    4: set_CDC_Baekje_Crown_engineH;  // 백제왕관 도색
-}
-
-switch(FEAT_TRAINS, SELF, sw_CDC_5car_wagon, cargo_subtype) {
-    0: set_CDC_Old_wagon;
-    1: set_CDC_New_wagon;
-    2: set_CDC_Flower_Garden_wagon; // 꽃동산 도색
-    3: set_CDC_Beach_wagon;         // 해변도색
-    4: set_CDC_Baekje_Crown_wagon;  // 백제왕관 도색
-}
-
-switch(FEAT_TRAINS, SELF, sw_CDC_5car_engineT_Front, cargo_subtype) {
-    0: set_CDC_Old_engineT;
-    1: set_CDC_New_engineT;
-    2: set_CDC_Flower_Garden_engineT; // 꽃동산 도색
-    3: set_CDC_Beach_engineT;         // 해변도색
-    4: set_CDC_Baekje_Crown_engineT;  // 백제왕관 도색
+    1: set_CDC_Flower_engineT;
+    2: set_CDC_Baekje_engineT;
+    3: set_CDC_Beach_engineT;
+    4: set_CDC_New_engineT;
 }
 
 // 후진방향
-// 3량
-switch(FEAT_TRAINS, SELF, sw_CDC_3Car_engineH_Back, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_CDC_engineH_Back, cargo_subtype) {
     0: set_CDC_Old_engineH_Rev;
-    1: set_CDC_New_engineH_Rev;
-    2: set_CDC_Flower_Garden_engineH_Rev; // 꽃동산 도색
-    3: set_CDC_Baekje_Crown_engineH_Rev;  // 백제왕관 도색
-    4: set_CDC_Sea_Old_engineH_Rev;       // 바다열차 구도색
-    5: set_CDC_DMZ_engineH_Rev;           // DMZ
+    1: set_CDC_Flower_engineH_Rev;
+    2: set_CDC_Baekje_engineH_Rev;
+    3: set_CDC_Beach_engineH_Rev;
+    4: set_CDC_New_engineH_Rev;
 }
 
-switch(FEAT_TRAINS, SELF, sw_CDC_3Car_engineT_Back, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_CDC_engineT_Back, cargo_subtype) {
     0: set_CDC_Old_engineT_Rev;
-    1: set_CDC_New_engineT_Rev;
-    2: set_CDC_Flower_Garden_engineT_Rev; // 꽃동산 도색
-    3: set_CDC_Baekje_Crown_engineT_Rev;  // 백제왕관 도색
-    4: set_CDC_Sea_Old_engineT_Rev;       // 바다열차 구도색
-    5: set_CDC_DMZ_engineT_Rev;           // DMZ
-}
-
-// 4량
-switch(FEAT_TRAINS, SELF, sw_CDC_4Car_engineH_Back, cargo_subtype) {
-    0: set_CDC_Old_engineH_Rev;
-    1: set_CDC_New_engineH_Rev;
-    2: set_CDC_Flower_Garden_engineH_Rev; // 꽃동산 도색
-    3: set_CDC_Baekje_Crown_engineH_Rev;  // 백제왕관 도색
-    4: set_CDC_Sea_New_engineH_Rev;       // 바다열차 신도색
-}
-
-switch(FEAT_TRAINS, SELF, sw_CDC_4Car_engineT_Back, cargo_subtype) {
-    0: set_CDC_Old_engineT_Rev;
-    1: set_CDC_New_engineT_Rev;
-    2: set_CDC_Flower_Garden_engineT_Rev; // 꽃동산 도색
-    3: set_CDC_Baekje_Crown_engineT_Rev;  // 백제왕관 도색
-    4: set_CDC_Sea_New_engineT_Rev;       // 바다열차 신도색
-}
-
-// 5량
-switch(FEAT_TRAINS, SELF, sw_CDC_5car_engineH_Back, cargo_subtype) {
-    0: set_CDC_Old_engineH_Rev;
-    1: set_CDC_New_engineH_Rev;
-    2: set_CDC_Flower_Garden_engineH_Rev; // 꽃동산 도색
-    3: set_CDC_Beach_engineH_Rev;         // 해변도색
-    4: set_CDC_Baekje_Crown_engineH_Rev;  // 백제왕관 도색
-}
-
-switch(FEAT_TRAINS, SELF, sw_CDC_5car_engineT_Back, cargo_subtype) {
-    0: set_CDC_Old_engineT_Rev;
-    1: set_CDC_New_engineT_Rev;
-    2: set_CDC_Flower_Garden_engineT_Rev; // 꽃동산 도색
-    3: set_CDC_Beach_engineT_Rev;         // 해변도색
-    4: set_CDC_Baekje_Crown_engineT_Rev;  // 백제왕관 도색
+    1: set_CDC_Flower_engineT_Rev;
+    2: set_CDC_Baekje_engineT_Rev;
+    3: set_CDC_Beach_engineT_Rev;
+    4: set_CDC_New_engineT_Rev;
 }
 
 // 전후진 통합 코드
-// 3량
-switch(FEAT_TRAINS, SELF, sw_CDC_3Car_engineH, train_is_driving_backwards) {
-    0: sw_CDC_3Car_engineH_Front;
-    1: sw_CDC_3Car_engineH_Back;
+switch(FEAT_TRAINS, SELF, sw_CDC_engineH, train_is_driving_backwards) {
+    0: sw_CDC_engineH_Front;
+    1: sw_CDC_engineH_Back;
 }
 
-switch(FEAT_TRAINS, SELF, sw_CDC_3Car_engineT, train_is_driving_backwards) {
-    0: sw_CDC_3Car_engineT_Front;
-    1: sw_CDC_3Car_engineT_Back;
+switch(FEAT_TRAINS, SELF, sw_CDC_engineT, train_is_driving_backwards) {
+    0: sw_CDC_engineT_Front;
+    1: sw_CDC_engineT_Back;
 }
 
-// 4량
-switch(FEAT_TRAINS, SELF, sw_CDC_4Car_engineH, train_is_driving_backwards) {
-    0: sw_CDC_4Car_engineH_Front;
-    1: sw_CDC_4Car_engineH_Back;
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_CDC_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_CDC_engineT;
+    sw_CDC_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_CDC_4Car_engineT, train_is_driving_backwards) {
-    0: sw_CDC_4Car_engineT_Front;
-    1: sw_CDC_4Car_engineT_Back;
-}
-
-// 5량
-switch(FEAT_TRAINS, SELF, sw_CDC_5car_engineH, train_is_driving_backwards) {
-    0: sw_CDC_5car_engineH_Front;
-    1: sw_CDC_5car_engineH_Back;
-}
-
-switch(FEAT_TRAINS, SELF, sw_CDC_5car_engineT, train_is_driving_backwards) {
-    0: sw_CDC_5car_engineT_Front;
-    1: sw_CDC_5car_engineT_Back;
-}
-
+// 삭제예정
 // 편성그래픽
 // 3량
 switch (FEAT_TRAINS, SELF, sw_CDC_3car, position_in_vehid_chain % 3) {
-    0: sw_CDC_3Car_engineH; //default
-    1: sw_CDC_3Car_wagon;
-    2: sw_CDC_3Car_engineT;
+    0: set_Deleted_A; //default
+    1..2: set_Deleted_B;
     }
 
 // 4량
 switch (FEAT_TRAINS, SELF, sw_CDC_4car, position_in_vehid_chain % 4) {
-    0: sw_CDC_4Car_engineH; //default
-    1: sw_CDC_4Car_wagon_M1;
-    2: sw_CDC_4Car_wagon_M2;
-    3: sw_CDC_4Car_engineT;
+    0: set_Deleted_A; //default
+    1..3: set_Deleted_B;
     }
 
 // 5량
 switch (FEAT_TRAINS, SELF, sw_CDC_5car, position_in_vehid_chain % 5) {
-    0: sw_CDC_5car_engineH; //default
-    1..3: sw_CDC_5car_wagon;
-    4: sw_CDC_5car_engineT;
+    0: set_Deleted_A; //default
+    1..4: set_Deleted_B;
     }
 
 // 편성수
@@ -240,14 +104,4 @@ switch (FEAT_TRAINS, SELF, sw_articulated_CDC_4car, extra_callback_info1) {
 switch (FEAT_TRAINS, SELF, sw_articulated_CDC_5car, extra_callback_info1) {
     1..4: CDC_5Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_CDC_3car_capacity_in_custom, cargo_subtype) {
-    0: return 84;
-    4: return 34;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_CDC_4car_capacity_in_custom, cargo_subtype) {
-    0: return 86;
-    4: return 30;
     }

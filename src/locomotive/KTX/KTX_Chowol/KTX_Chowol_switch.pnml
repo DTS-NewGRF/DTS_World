@@ -32,7 +32,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Chowol_engine, position_in_consist_from_end == 
 // 1층
 switch (FEAT_TRAINS, SELF, sw_KTX_Chowol_wagon_front, position_in_vehid_chain) {
     0: sw_KTX_Chowol_wagon_M1;
-    1: set_KTX_Chowol_wagon_M3;
+    2: set_KTX_Chowol_wagon_M3;
     set_KTX_Chowol_wagon_M2;
 }
 

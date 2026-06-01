@@ -5,24 +5,48 @@ spriteset(set_OEL8000_engine_I1, "src/locomotive/OEL_8000/OEL_8000.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_OEL8000_engine_I2, "src/locomotive/OEL_8000/OEL_8000.png"){
+spriteset(set_OEL8000_engine_I1_Rev, "src/locomotive/OEL_8000/OEL_8000.png"){
     DTS_temp(80, 27)
 }
 
-spriteset(set_OEL8000_engine_O1, "src/locomotive/OEL_8000/OEL_8000.png"){
+spriteset(set_OEL8000_engine_I2, "src/locomotive/OEL_8000/OEL_8000.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_OEL8000_engine_O2, "src/locomotive/OEL_8000/OEL_8000.png"){
+spriteset(set_OEL8000_engine_I2_Rev, "src/locomotive/OEL_8000/OEL_8000.png"){
     DTS_temp(80, 81)
 }
 
-spriteset(set_OEL8000_engine_N1, "src/locomotive/OEL_8000/OEL_8000.png"){
+spriteset(set_OEL8000_engine_O1, "src/locomotive/OEL_8000/OEL_8000.png"){
     DTS_temp(80, 108)
 }
 
-spriteset(set_OEL8000_engine_N2, "src/locomotive/OEL_8000/OEL_8000.png"){
+spriteset(set_OEL8000_engine_O1_Rev, "src/locomotive/OEL_8000/OEL_8000.png"){
     DTS_temp(80, 135)
+}
+
+spriteset(set_OEL8000_engine_O2, "src/locomotive/OEL_8000/OEL_8000.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_OEL8000_engine_O2_Rev, "src/locomotive/OEL_8000/OEL_8000.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_OEL8000_engine_N1, "src/locomotive/OEL_8000/OEL_8000.png"){
+    DTS_temp(80, 216)
+}
+
+spriteset(set_OEL8000_engine_N1_Rev, "src/locomotive/OEL_8000/OEL_8000.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_OEL8000_engine_N2, "src/locomotive/OEL_8000/OEL_8000.png"){
+    DTS_temp(80, 270)
+}
+
+spriteset(set_OEL8000_engine_N2_Rev, "src/locomotive/OEL_8000/OEL_8000.png"){
+    DTS_temp(80, 297)
 }
 
 /*-------------------------------------------------------------------

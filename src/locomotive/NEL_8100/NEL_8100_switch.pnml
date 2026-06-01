@@ -3,12 +3,26 @@
 --------------------------------------------------------------------*/
 // 도색
 switch(FEAT_TRAINS, SELF, sw_NEL_8100_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_NEL_8100_B);
-    return string(STR_REFIT_LIVERY_NEL_8100_A);
+    0: return string(Livery_NEL_8100_A);
+    1: return string(Livery_NEL_8100_B);
 }
 
-// 열차
-switch(FEAT_TRAINS, SELF, sw_NEL_8100_engine, cargo_subtype) {
+// 도색그래픽 세팅
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_NEL_8100_engine_Front, cargo_subtype) {
+    0: set_NEL_8100_engine_A;
     1: set_NEL_8100_engine_B;
-    set_NEL_8100_engine_A;
+}
+
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_NEL_8100_engine_Back, cargo_subtype) {
+    0: set_NEL_8100_engine_A_Rev;
+    1: set_NEL_8100_engine_B_Rev;
+    
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_NEL_8100_engine, train_is_driving_backwards) {
+    0: sw_NEL_8100_engine_Front;
+    1: sw_NEL_8100_engine_Back;
 }

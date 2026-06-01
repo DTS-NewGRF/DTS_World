@@ -5,6 +5,10 @@ spriteset(set_NEL_8200_engine, "src/locomotive/NEL_8200/NEL_8200.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_NEL_8200_engine_Rev, "src/locomotive/NEL_8200/NEL_8200.png"){
+    DTS_temp(80, 27)
+}
+
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/

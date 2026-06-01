@@ -2,110 +2,55 @@
 스위치
 --------------------------------------------------------------------*/
 // 도색명
-switch(FEAT_TRAINS, SELF, sw_RDC_3Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_RDC);
-    1: return string(STR_REFIT_LIVERY_RDC_Cafe_A);
-    2: return string(STR_REFIT_LIVERY_RDC_PY);
-    3: return string(STR_REFIT_LIVERY_RDC_PY2);
+switch(FEAT_TRAINS, SELF, sw_RDC_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_Mugunghwa);
+    1: return string(Livery_Pohang_Yeongdeok_1);
+    2: return string(Livery_Pohang_Yeongdeok_2);
 }
 
-switch(FEAT_TRAINS, SELF, sw_RDC_4car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_RDC);
-    1: return string(STR_REFIT_LIVERY_RDC_Cafe_A);
-    2: return string(STR_REFIT_LIVERY_RDC_Cafe_B);
-    3: return string(STR_REFIT_LIVERY_RDC_Cafe_C);
-    4: return string(STR_REFIT_LIVERY_RDC_Gyeongbuk_Old);
-    5: return string(STR_REFIT_LIVERY_RDC_Gyeongbuk_New);
-    6: return string(STR_REFIT_LIVERY_RDC_Gyeongbuk_Nadri);
+switch(FEAT_TRAINS, SELF, sw_RDC_wagon_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_Mugunghwa);
+    1: return string(Livery_Mugunghwa_cafe);
+    2: return string(Livery_Pohang_Yeongdeok_1);
+    3: return string(Livery_Pohang_Yeongdeok_2);
 }
 
 // 도색그래픽 세팅
 // 열차
 // 전진방향
-// 3량
 switch(FEAT_TRAINS, SELF, sw_RDC_engineH_Front, cargo_subtype) {
-    0..1: set_RDC_engineH;
-    2: set_RDC_PY_engineH;
-    3: set_RDC_PY2_engineH;
+    0: set_Mugunghwa_engineH;
+    1: set_Pohang_Yeongdeok_1_engineH;
+    2: set_Pohang_Yeongdeok_2_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_RDC_wagon, cargo_subtype) {
-    0: set_RDC_wagon_M1;
-    1: set_RDC_wagon_M1Cafe;
-    2: set_RDC_PY_wagon;
-    3: set_RDC_PY2_wagon;
+    0: set_Mugunghwa_wagon;
+    1: set_Mugunghwa_wagon_Cafe;
+    2: set_Pohang_Yeongdeok_1_wagon;
+    3: set_Pohang_Yeongdeok_2_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_RDC_engineT_Front, cargo_subtype) {
-    0..1: set_RDC_engineT;
-    2: set_RDC_PY_engineT;
-    3: set_RDC_PY2_engineT;
-}
-
-// 4량
-switch(FEAT_TRAINS, SELF, sw_RDC_4car_engineH_Front, cargo_subtype) {
-    0..3: set_RDC_engineH;
-    4: set_RDC_Gyeongbuk_engineH;
-    5: set_RDC_Gyeongbuk_New_engineH;
-    6: set_RDC_Gyeongbuk_Nadri_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_RDC_4car_wagon_M1, cargo_subtype) {
-    0..2: set_RDC_wagon_M2;
-    3: set_RDC_wagon_M2Cafe;
-    4: set_RDC_Gyeongbuk_wagon_M1;
-    5: set_RDC_Gyeongbuk_New_wagon_M1;
-    6: set_RDC_Gyeongbuk_Nadri_wagon_M1;
-}
-
-switch(FEAT_TRAINS, SELF, sw_RDC_4car_wagon_M2, cargo_subtype) {
-    0: set_RDC_wagon_M1;
-    1: set_RDC_wagon_M1Cafe;
-    2: set_RDC_wagon_M2Cafe;
-    3: set_RDC_wagon_M1Cafe;
-    4: set_RDC_Gyeongbuk_wagon_M2;
-    5: set_RDC_Gyeongbuk_New_wagon_M2;
-    6: set_RDC_Gyeongbuk_Nadri_wagon_M2;
-}
-
-switch(FEAT_TRAINS, SELF, sw_RDC_4car_engineT_Front, cargo_subtype) {
-    0..3: set_RDC_engineT;
-    4: set_RDC_Gyeongbuk_engineT;
-    5: set_RDC_Gyeongbuk_New_engineT;
-    6: set_RDC_Gyeongbuk_Nadri_engineT;
+    0: set_Mugunghwa_engineT;
+    1: set_Pohang_Yeongdeok_1_engineT;
+    2: set_Pohang_Yeongdeok_2_engineT;
 }
 
 // 후진방향
-// 3량
 switch(FEAT_TRAINS, SELF, sw_RDC_engineH_Back, cargo_subtype) {
-    0..1: set_RDC_engineH_Rev;
-    2: set_RDC_PY_engineH_Rev;
-    3: set_RDC_PY2_engineH_Rev;
+    0: set_Mugunghwa_engineH_Rev;
+    1: set_Pohang_Yeongdeok_1_engineH_Rev;
+    2: set_Pohang_Yeongdeok_2_engineH_Rev;
 }
 
 switch(FEAT_TRAINS, SELF, sw_RDC_engineT_Back, cargo_subtype) {
-    0..1: set_RDC_engineT_Rev;
-    2: set_RDC_PY_engineT_Rev;
-    3: set_RDC_PY2_engineT_Rev;
-}
-
-// 4량
-switch(FEAT_TRAINS, SELF, sw_RDC_4car_engineH_Back, cargo_subtype) {
-    0..3: set_RDC_engineH_Rev;
-    4: set_RDC_Gyeongbuk_engineH_Rev;
-    5: set_RDC_Gyeongbuk_New_engineH_Rev;
-    6: set_RDC_Gyeongbuk_Nadri_engineH_Rev;
-}
-
-switch(FEAT_TRAINS, SELF, sw_RDC_4car_engineT_Back, cargo_subtype) {
-    0..3: set_RDC_engineT;
-    4: set_RDC_Gyeongbuk_engineT_Rev;
-    5: set_RDC_Gyeongbuk_New_engineT_Rev;
-    6: set_RDC_Gyeongbuk_Nadri_engineT_Rev;
+    0: set_Mugunghwa_engineT_Rev;
+    1: set_Pohang_Yeongdeok_1_engineT_Rev;
+    2: set_Pohang_Yeongdeok_2_engineT_Rev;
 }
 
 // 전후진 통합 코드
-// 3량
 switch(FEAT_TRAINS, SELF, sw_RDC_engineH, train_is_driving_backwards) {
     0: sw_RDC_engineH_Front;
     1: sw_RDC_engineH_Back;
@@ -116,31 +61,24 @@ switch(FEAT_TRAINS, SELF, sw_RDC_engineT, train_is_driving_backwards) {
     1: sw_RDC_engineT_Back;
 }
 
-// 4량
-switch(FEAT_TRAINS, SELF, sw_RDC_4car_engineH, train_is_driving_backwards) {
-    0: sw_RDC_4car_engineH_Front;
-    1: sw_RDC_4car_engineH_Back;
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_RDC_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_RDC_engineT;
+    sw_RDC_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_RDC_4car_engineT, train_is_driving_backwards) {
-    0: sw_RDC_4car_engineT_Front;
-    1: sw_RDC_4car_engineT_Back;
-}
-
+// 삭제예정
 // 편성그래픽
 // 3량
 switch (FEAT_TRAINS, SELF, sw_RDC_3car, position_in_vehid_chain % 3) {
-    0: sw_RDC_engineH; //default
-    1: sw_RDC_wagon;
-    2: sw_RDC_engineT;
+    0: set_Deleted_A; //default
+    1..2: set_Deleted_B;
     }
 
 // 4량
 switch (FEAT_TRAINS, SELF, sw_RDC_4car, position_in_vehid_chain % 4) {
-    0: sw_RDC_4car_engineH; //default
-    1: sw_RDC_4car_wagon_M1;
-    2: sw_RDC_4car_wagon_M2;
-    3: sw_RDC_4car_engineT;
+    0: set_Deleted_A; //default
+    1..3: set_Deleted_B;
     }
 
 // 편성수

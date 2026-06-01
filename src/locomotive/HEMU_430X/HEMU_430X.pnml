@@ -187,11 +187,6 @@ item(FEAT_TRAINS, HEMU_430X_engine, 1056){
         default:                        sw_HEMU_430X_Free_wagon;
         loading_speed:                  25;
         }
-    
-    livery_override(HEMU_430X_DD_wagon) {
-        default:                        sw_HEMU_430X_DD_Free_wagon;
-        loading_speed:                  25;
-        }
         }
 
 /*--------------------------------------------------------------------

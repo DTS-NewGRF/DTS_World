@@ -5,8 +5,16 @@ spriteset(set_NEL_8100_engine_A, "src/locomotive/NEL_8100/NEL_8100.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_NEL_8100_engine_B, "src/locomotive/NEL_8100/NEL_8100.png"){
+spriteset(set_NEL_8100_engine_A_Rev, "src/locomotive/NEL_8100/NEL_8100.png"){
     DTS_temp(80, 27)
+}
+
+spriteset(set_NEL_8100_engine_B, "src/locomotive/NEL_8100/NEL_8100.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_NEL_8100_engine_B_Rev, "src/locomotive/NEL_8100/NEL_8100.png"){
+    DTS_temp(80, 81)
 }
 
 /*--------------------------------------------------------------------

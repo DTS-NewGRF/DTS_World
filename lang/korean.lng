@@ -26,10 +26,6 @@ STR_Group_Renfe_Logo_NAME                              :Renfe
 STR_Group_Eurostar_Logo_NAME                           :유로스타
 
 # Korea / locomotive's name
-STR_Group_CDC_NAME                                     :CDC 디젤동차
-STR_CDC_3Car_NAME                                      :[3량] CDC 디젤동차
-STR_CDC_4Car_NAME                                      :[4량] CDC 디젤동차
-STR_CDC_5Car_NAME                                      :[5량] CDC 디젤동차
 STR_DEL4400_NAME                                       :DEL4400
 STR_DEL7000_NAME                                       :DEL7000
 STR_DEL7600_NAME                                       :DEL7600
@@ -48,12 +44,6 @@ STR_EEC_EMU_10Car_NAME                                 :[10량] EEC 전기동차
 STR_FEL_8500_NAME                                      :8500호대 전기기관차
 STR_GT26CW_NAME                                        :7X00호대 디젤기관차
 STR_MSB_Speeder_NAME                                   :MSB 모터카
-STR_NEL_8100_NAME                                      :8100호대 전기기관차
-STR_NEL_8200_NAME                                      :8200호대 전기기관차
-STR_OEL_8000_NAME                                      :8000호대 전기기관차
-STR_Group_RDC_NAME                                     :RDC 디젤동차
-STR_RDC_3Car_NAME                                      :[3량] RDC 디젤동차
-STR_RDC_4Car_NAME                                      :[4량] RDC 디젤동차
 
 # Chinese / locomotive's name
 STR_CRH380AJ_8Car_NAME                                 :[8량] CRH380AJ
@@ -477,14 +467,6 @@ STR_REFIT_LIVERY_Cargo                                 : 수송차
 # Korea / Liveries locomotive
 STR_REFIT_LIVERY_AREX_1000_Old                         : 구도색
 STR_REFIT_LIVERY_AREX_1000_New                         : 신도색
-STR_REFIT_LIVERY_CDC_Old                               : 구도색
-STR_REFIT_LIVERY_CDC_New                               : 신도색
-STR_REFIT_LIVERY_CDC_Flower_Garden                     : 꽃동산 도색
-STR_REFIT_LIVERY_CDC_Beach                             : 해변 도색
-STR_REFIT_LIVERY_CDC_Baekje_Crown                      : 백제왕관 도색
-STR_REFIT_LIVERY_CDC_Sea_Old                           : 바다열차 구도색
-STR_REFIT_LIVERY_CDC_Sea_New                           : 바다열차 신도색
-STR_REFIT_LIVERY_CDC_DMZ                               : DMZ-Train
 STR_REFIT_LIVERY_DEL4400_A                             : 구도색
 STR_REFIT_LIVERY_DEL4400_B                             : 신도색
 STR_REFIT_LIVERY_DEL4400_C                             : V-Train
@@ -570,15 +552,6 @@ STR_REFIT_LIVERY_OEL8000_O1                            : 초기형 구도색
 STR_REFIT_LIVERY_OEL8000_O2                            : 후기형 구도색
 STR_REFIT_LIVERY_OEL8000_N1                            : 초기형 신도색
 STR_REFIT_LIVERY_OEL8000_N2                            : 후기형 신도색
-STR_REFIT_LIVERY_RDC                                   : 일반실
-STR_REFIT_LIVERY_RDC_Cafe_A                            : 카페객차 편성 A
-STR_REFIT_LIVERY_RDC_Cafe_B                            : 카페객차 편성 B
-STR_REFIT_LIVERY_RDC_Cafe_C                            : 카페객차 편성 C
-STR_REFIT_LIVERY_RDC_PY                                : 포항영덕랩핑 A
-STR_REFIT_LIVERY_RDC_PY2                               : 포항영덕랩핑 B
-STR_REFIT_LIVERY_RDC_Gyeongbuk_Old                     : 경북관광순환테마 구도색
-STR_REFIT_LIVERY_RDC_Gyeongbuk_New                     : 경북관광순환테마 신도색
-STR_REFIT_LIVERY_RDC_Gyeongbuk_Nadri                   : 경북나드리
 STR_REFIT_LIVERY_CRH380A                               : CRH380A
 STR_REFIT_LIVERY_Vibrant_Express                       : 바이브런트 익스프레스
 STR_REFIT_LIVERY_CR400BF_C                             : 일반 도색
@@ -1180,6 +1153,8 @@ NAME_Group_PEX                          : PEX (Premium EXpress)
 NAME_Group_PEX_Super                    : PEX-Super (Premium EXpress Super)
 
 # locomotive's name
+NAME_CDC_engine                         : CDC 디젤동차
+NAME_CDC_wagon                          : CDC 디젤동차
 NAME_CTX_wagon                          : CTX
 NAME_DFX_engine                         : DFX
 NAME_DFX_wagon                          : DFX
@@ -1299,6 +1274,9 @@ NAME_Nuriro_engine                      : 누리로
 NAME_Nuriro_wagon                       : 누리로
 NAME_Nuriro_DD_engine                   : 누리로 DD
 NAME_Nuriro_DD_wagon                    : 누리로 DD
+NAME_NEL_8100                           : 8100호대 전기기관차
+NAME_NEL_8200                           : 8200호대 전기기관차
+NAME_OEL_8000                           : 8000호대 전기기관차
 NAME_PEX_B                              : PEX 식당칸
 NAME_PEX_D                              : PEX 2층 차량
 NAME_PEX_N                              : PEX 1층 차량
@@ -1311,6 +1289,8 @@ NAME_PEX_Super_N                        : PEX-SUPER 일반실
 NAME_PEX_Super_Post                     : PEX-SUPER 우편객차
 NAME_PEX_Super_S                        : PEX-SUPER 침대차
 NAME_PEX_Super_SN                       : PEX-SUPER 특실
+NAME_RDC_engine                         : RDC 디젤동차
+NAME_RDC_wagon                          : RDC 디젤동차
 NAME_Train_Car                          : 공통 객차
 NAME_Transparency                       : 투명기관차
 NAME_TTX_6Car                           : [6량] TTX
@@ -1361,6 +1341,11 @@ Param_Name_Semi_High_Speed_Train        : 가상 준고속열차 속도변수
 Param_Name_World                        : 월드형 열차 사용 금지
 
 # Liveries Locomotive
+Livery_CDC_Old                          : 구도색
+Livery_CDC_New                          : 신도색
+Livery_CDC_Flower                       : 꽃동산 도색
+Livery_CDC_Beach                        : 해변 도색
+Livery_CDC_Baekje                       : 백제왕관 도색
 Livery_DEL7600                          : 초기도색
 Livery_DEL7600_Old                      : 구도색
 Livery_DEL7600_New                      : 신도색
@@ -1427,6 +1412,18 @@ Livery_Nuriro_B                         : 순천향대 강의실
 Livery_Nuriro_O                         : O-Train
 Livery_Nuriro_DS                        : 동해산타
 Livery_Nuriro_saemaeul                  : ITX-새마을
+Livery_NEL_8100_A                       : 구도색
+Livery_NEL_8100_B                       : 신도색
+Livery_OEL8000_I1                       : 초기형 초기도색
+Livery_OEL8000_I2                       : 후기형 초기도색
+Livery_OEL8000_O1                       : 초기형 구도색
+Livery_OEL8000_O2                       : 후기형 구도색
+Livery_OEL8000_N1                       : 초기형 신도색
+Livery_OEL8000_N2                       : 후기형 신도색
+Livery_Mugunghwa                        : 무궁화호
+Livery_Mugunghwa_cafe                   : 무궁화호 카페객차
+Livery_Pohang_Yeongdeok_1               : 포항영덕도색 1
+Livery_Pohang_Yeongdeok_2               : 포항영덕도색 2
 Livery_SRT                              : SRT
 Livery_SRT_2cc                          : SRT 2cc
 

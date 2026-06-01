@@ -397,10 +397,7 @@ sort(FEAT_TRAINS, [
     WJapan_227_Series_EMU_500_3Car,          //2013
     
     // 일반열차
-    CDC,                                     //2344
-    CDC_3Car,                                //2345
-    CDC_4Car,                                //2346
-    CDC_5Car,                                //2347
+    CDC_engine,                              //1133
     DEL4400,                                 //2396
     DEL7000,                                 //2298
     DEL7600,                                 //2015
@@ -422,9 +419,7 @@ sort(FEAT_TRAINS, [
     NEL_8100,                                //2299
     NEL_8200,                                //2177
     OEL8000,                                 //2417
-    RDC,                                     //2348
-    RDC_3Car,                                //2349
-    RDC_4Car,                                //2350
+    RDC_engine,                              //1135
     HXD3C,                                   //2050
     NJ2,                                     //2051
     BB15000,                                 //2064
@@ -472,6 +467,7 @@ sort(FEAT_TRAINS, [
     
     // 객차
     Train_Car,                               //1000
+    CDC_wagon,                               //1134
     CTX_wagon,                               //1075
     DFX_wagon,                               //1078
     DPX_wagon,                               //1080
@@ -500,6 +496,7 @@ sort(FEAT_TRAINS, [
     Nextrain_wagon,                          //1019
     Nuriro_wagon,                            //1024
     Nuriro_DD_wagon,                         //1026
+    RDC_wagon,                               //1136
     TTX_wagon,                               //1055
     Glory_430_wagon,                         //1110
     Glory_600_wagon,                         //1112
