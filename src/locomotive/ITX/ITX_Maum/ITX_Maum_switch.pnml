@@ -100,7 +100,7 @@ switch(FEAT_TRAINS, SELF, sw_ITX_Maum_engine, position_in_consist_from_end == 0 
 }
 
 // 객차
-switch(FEAT_TRAINS, SELF, sw_ITX_Maum_DD_wagon, position_in_consist % 2) {
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_DD_wagon, position_in_vehid_chain % 2) {
     1: set_ITX_Maum_wagon_DUP2;
     set_ITX_Maum_wagon_DUP1;
 }

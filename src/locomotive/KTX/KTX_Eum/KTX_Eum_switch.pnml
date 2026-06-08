@@ -246,19 +246,8 @@ switch (FEAT_TRAINS, SELF, sw_KTX_Eum_6car, position_in_vehid_chain % 6) {
     5: sw_KTX_Eum_Fixed_engineT;
     }
 
-// 12량
-switch (FEAT_TRAINS, SELF, sw_KTX_Eum_12car, position_in_vehid_chain % 12) {
-    0: set_Deleted_A; //default
-    1..11: set_Deleted_B;
-    }
-
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Eum_6car, extra_callback_info1) {
     1..5: KTX_Eum_6Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
-switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Eum_12car, extra_callback_info1) {
-    1..11: KTX_Eum_12Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }

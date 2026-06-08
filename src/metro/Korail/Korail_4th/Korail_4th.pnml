@@ -25,13 +25,12 @@ item(FEAT_TRAINS, Korail_4th, 2183){
         purchase:                       sw_Korail_4th_purchase;
         }
         }
-
 /*--------------------------------------------------------------------
 열차정보 2량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_392000_2Car, 2139){
+item(FEAT_TRAINS, Korail_392000_2car, 2139){
     property {
-        name:                           string(STR_Korail_392000_2Car_NAME);
+        name:                           string(NAME_Korail_392000_2car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2023, 1, 1);
         track_type:                     ELRL;
@@ -41,7 +40,7 @@ item(FEAT_TRAINS, Korail_392000_2Car, 2139){
         
         //spec
         speed:                          120km/h;
-        power:                          1680 kW;
+        power:                          840 kW;
         weight:                         66 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -82,22 +81,23 @@ item(FEAT_TRAINS, Korail_392000_2Car, 2139){
         }
 
 /*--------------------------------------------------------------------
-열차정보 4량
+자유편성
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_392000_4Car, 2140){
+item(FEAT_TRAINS, Korail_392000_engine, 1137){
     property {
-        name:                           string(STR_Korail_392000_4Car_NAME);
+        name:                           string(NAME_Korail_392000_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2023, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         variant_group:                  Korail_4th;
+        dual_headed:                    1;
         
         //spec
         speed:                          120km/h;
-        power:                          1680 kW;
-        weight:                         132 ton;
+        power:                          840 kW;
+        weight:                         66 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -124,15 +124,65 @@ item(FEAT_TRAINS, Korail_392000_4Car, 2140){
         }
 
     graphics {
-        default:                        sw_Korail_392000_4car;
-        articulated_part:               sw_articulated_Korail_392000_4car;
-        purchase:                       set_Korail_392000_purchase;
+        default:                        sw_Korail_392000_engine;
+        purchase:                       set_Korail_392000_engine_purchase;
         speed:                          sw_Metro_100_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Korail_4th_392000_cargo_subtype_text;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 2량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_392000_wagon, 1138){
+    property {
+        name:                           string(NAME_Korail_392000_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2023, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         66 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 124;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Korail_392000_wagon;
+        purchase:                       set_Korail_392000_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        power:                          563;
+        cargo_subtype_text:             sw_Korail_4th_392000_cargo_subtype_text;
         }
         }
 
@@ -410,6 +460,59 @@ item(FEAT_TRAINS, Korail_4th_10Car, 2218){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Korail_4th_cargo_subtype_text;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
+        }
+        }
+    
+/*--------------------------------------------------------------------
+삭제예정
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_392000_4Car, 2140){
+    property {
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
+        introduction_date:              date(2023, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail_4th;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          1680 kW;
+        weight:                         132 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 100;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Korail_392000_4car;
+        articulated_part:               sw_articulated_Korail_392000_4car;
+        purchase:                       set_Korail_392000_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }

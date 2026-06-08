@@ -74,7 +74,7 @@ switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_engine, position_in_consist_from_end
 }
 
 // 객차
-switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_DD_wagon, position_in_consist % 2) {
+switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_DD_wagon, position_in_vehid_chain % 2) {
     1: set_ITX_CheongChun_wagon_T2;
     set_ITX_CheongChun_wagon_T1;
 }

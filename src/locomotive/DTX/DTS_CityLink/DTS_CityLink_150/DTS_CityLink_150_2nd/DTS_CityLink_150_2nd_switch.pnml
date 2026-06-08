@@ -35,7 +35,7 @@ switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_engine, position_in_consist_fr
 }
 
 // 객차
-switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_DD_wagon, position_in_consist % 2) {
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_2nd_DD_wagon, position_in_vehid_chain % 2) {
     1: set_DTS_CityLink_150_2nd_wagon_T2;
     set_DTS_CityLink_150_2nd_wagon_T1;
 }

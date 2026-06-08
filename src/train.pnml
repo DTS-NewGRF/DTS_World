@@ -104,7 +104,7 @@ spriteset(set_Deleted_A, "Deleted_Train_Image.png"){
 spriteset(set_Deleted_B, "Deleted_Train_Image.png"){
     DTS_temp(80, 27)
 }
-// 1.72 삭제처리
-// 우진산전 수소열차 4량
+// 1.73 삭제처리
+// 한국철도공사 4세대 392000 4량 
 // KTX-이음 12량
 // HSR-350X

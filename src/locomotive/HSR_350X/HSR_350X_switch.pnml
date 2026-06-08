@@ -136,30 +136,12 @@ switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_14car, extra_callback_info1) 
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-// 삭제예정
-switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_10car, extra_callback_info1) {
-    1..9: HSR_350X_10Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
-switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_20car, extra_callback_info1) {
-    1..19: HSR_350X_20Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
 // 길이
 switch(FEAT_TRAINS, SELF, sw_HSR_350X_7car_length_in_custom, position_in_vehid_chain % 7) {
     0: 8; //default;
     1: 8;
     2..4: 7;
     5..6: 8;
-}
-
-switch(FEAT_TRAINS, SELF, sw_HSR_350X_10car_length_in_custom, position_in_vehid_chain % 10) {
-    0: 8; //default;
-    1: 8;
-    2..7: 7;
-    8..9: 8;
 }
 
 switch(FEAT_TRAINS, SELF, sw_HSR_350X_14car_length_in_custom, position_in_vehid_chain % 14) {
@@ -169,15 +151,6 @@ switch(FEAT_TRAINS, SELF, sw_HSR_350X_14car_length_in_custom, position_in_vehid_
      6..7: 8;
      8..11: 7;
     12..13: 8;
-}
-
-switch(FEAT_TRAINS, SELF, sw_HSR_350X_20car_length_in_custom, position_in_vehid_chain % 20) {
-     0: 8; //default;
-     1: 8;
-     2..9: 7;
-    10..11: 8;
-    12..17: 7;
-    18..19: 8;
 }
 
 // 자유편성 길이

@@ -148,9 +148,9 @@ sort(FEAT_TRAINS, [
     Korail_3rd_8car,                         //2225
     Korail_3rd_10car,                        //2226
     Korail_4th,                              //2183
-    Korail_392000_2Car,                      //2139
+    Korail_392000_2car,                      //2139
+    Korail_392000_engine,                    //1137
     Korail_4th_G1_4Car,                      //2030
-    Korail_392000_4Car,                      //2140
     Korail_4th_4Car,                         //2124
     Korail_4th_6Car,                         //2217
     Korail_4th_8Car,                         //2461
@@ -493,6 +493,7 @@ sort(FEAT_TRAINS, [
     HYEL_Mugunhwa_wagon,                     //1126
     HYEL_Mugunhwa_DD_wagon,                  //1128
     HYEL_Railjet,                            //1130
+    Korail_392000_wagon,                     //1138
     Nextrain_wagon,                          //1019
     Nuriro_wagon,                            //1024
     Nuriro_DD_wagon,                         //1026

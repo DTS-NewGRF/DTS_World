@@ -138,6 +138,8 @@
 |1134|CDC_wagon|
 |1135|RDC_engine|
 |1136|RDC_wagon|
+|1137|Korail_392000_engine|
+|1138|Korail_392000_wagon|
 
 |2001|CY_GW_6Car|
 |2002|G_Train|
@@ -158,8 +160,7 @@
 |2017|GTX_8Car|
 |2018|Hankyu_6300_6Car|
 |2019|TTX_6Car|
-|2020|HSR_350X_10Car|
-|2021|HSR_350X_20Car|
+|~2021|[공백] |
 |2022|Hankyu_8000_6Car|
 |2023|Hankyu_8300_6Car|
 |2024|KTX_Sancheon_10Car|
@@ -197,7 +198,7 @@
 |2057|Hyundai_Rotem_Mitsubishi_8Car|
 |2058|Hyundai_Rotem_R_8Car|
 |2059|IKK_SP_1900_8Car|
-|2060|[1.72 삭제예정]|
+|2060|[공백] |
 |2061|ESPassenger_Car|
 |2062|Shinkansen_500_16Car|
 |2063|AGV_11Car|
@@ -267,7 +268,7 @@
 |2131|[공백] |
 |2132|Saemaeul_2cc|
 |~2138|[공백] |
-|2139|Korail_392000_2Car|
+|2139|Korail_392000_engine|
 |2140|Korail_392000_4Car|
 |2141|[공백] |
 |2142|NSW_TrainLink_D_6Car|
@@ -314,7 +315,6 @@
 |2187|[그룹명] Nishitetsu_9000|
 |2188|[그룹명] Hankyu_6000|
 |2189|[그룹명] Hankyu_6300|
-|2190|[1.72 삭제예정]|
 |~2192|[공백] |
 |2193|[그룹명] ITX_Maum|
 |2194|[공백] |
@@ -450,14 +450,6 @@
 |~2338|[공백] |
 |2339|APEX_2000_1st_6Car|
 |2340|APEX_1000_1st_6Car|
-|~2343|[공백] |
-|2344|[그룹명] CDC|
-|2345|CDC_3Car|
-|2346|CDC_4Car|
-|2347|CDC_5Car|
-|2348|[그룹명] RDC|
-|2349|RDC_3Car|
-|2350|RDC_4Car|
 |~2353|[공백] |
 |2354|ITX_CheongChun_8Car|
 |2355|[공백] |
@@ -522,10 +514,6 @@
 |~2422|[공백] |
 |2423|KTX_Eum_6Car|
 |2424|Daegumetro_3000_3Car|
-|2425|[그룹명] KTX_Eum|
-|2426|KTX_Eum_12Car|
-|2427|[그룹명] KTX_Cheong_Ryong|
-|2428|KTX_Cheong_Ryong_16Car|
 |~2432|[공백] |
 |2433|Dongbuk_2Car|
 |2434|Jakarta_LRT_2Car|

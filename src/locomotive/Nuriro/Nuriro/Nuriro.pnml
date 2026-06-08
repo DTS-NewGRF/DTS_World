@@ -123,6 +123,7 @@ item(FEAT_TRAINS, Nuriro_engine, 1023){
         cargo_capacity:                 66;
         weight:                         33;
         power:                          335;
+        cargo_subtype_text:             sw_Nuriro_cargo_subtype_text;
         }
         }
 

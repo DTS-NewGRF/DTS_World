@@ -2,14 +2,29 @@
 ##gender m f
 
 # GRF name and description
-GRF_Name_with_Ver                                      :다양성 열차 세트 {VERSION}
-GRF_Desc                                               :다양성 열차 세트 입니다
-GRF_URL                                                :https://github.com/DTS-NewGRF/DTS_World/releases
+GRF_Name_with_Ver                       :다양성 열차 세트 {VERSION}
+GRF_Desc                                :다양성 열차 세트 입니다
+GRF_URL                                 :https://github.com/DTS-NewGRF/DTS_World/releases
 
 # Deleted / locomotive's name
-STR_To_Be_Deleted_NAME                                 :{RED}삭제예정
+NAME_To_Be_Deleted                      :{RED}삭제예정
 
-# locomotive's name / Logo
+# Group's name
+NAME_Group_DTX                          : DTX
+NAME_Group_DTS_CityLink_120             : DTS-CityLink 120
+NAME_Group_DTS_CityLink_150             : DTS-CityLink 150
+NAME_Group_HEMU_430X                    : HEMU-430X
+NAME_Group_HSR_350X                     : HSR-350X
+NAME_Group_HYEL                         : HYEL
+NAME_Group_ICE                          : ICE
+NAME_Group_ITX                          : ITX
+NAME_Group_ITX_Maum                     : ITX-마음
+NAME_Group_KTX                          : KTX
+NAME_Group_KTX_Sancheon                 : KTX-산천
+NAME_Group_Nuriro                       : 한국철도공사 200000호대 전동차 (누리로)
+NAME_Group_PEX                          : PEX (Premium EXpress)
+NAME_Group_PEX_Super                    : PEX-Super (Premium EXpress Super)
+
 STR_Group_AREX_Logo_NAME                               :AREX
 STR_Group_Busanmetro_NAME                              :부산교통공사 전동차
 STR_Group_Daegumetro_NAME                              :대구교통공사 전동차
@@ -25,7 +40,7 @@ STR_Group_TGV_Logo_NAME                                :TGV
 STR_Group_Renfe_Logo_NAME                              :Renfe
 STR_Group_Eurostar_Logo_NAME                           :유로스타
 
-# Korea / locomotive's name
+# locomotive's name
 STR_DEL4400_NAME                                       :DEL4400
 STR_DEL7000_NAME                                       :DEL7000
 STR_DEL7600_NAME                                       :DEL7600
@@ -44,8 +59,6 @@ STR_EEC_EMU_10Car_NAME                                 :[10량] EEC 전기동차
 STR_FEL_8500_NAME                                      :8500호대 전기기관차
 STR_GT26CW_NAME                                        :7X00호대 디젤기관차
 STR_MSB_Speeder_NAME                                   :MSB 모터카
-
-# Chinese / locomotive's name
 STR_CRH380AJ_8Car_NAME                                 :[8량] CRH380AJ
 STR_Group_CR400AF_NAME                                 :CR400AF
 STR_CR400AF_8Car_NAME                                  :[8량] CR400AF
@@ -79,8 +92,6 @@ STR_CRH380D_8Car_NAME                                  :[8량] CRH380D
 STR_CRH380D_16Car_NAME                                 :[16량] CRH380D
 STR_HXD3C_NAME                                         :HXD3C
 STR_NJ2_NAME                                           :NJ2
-
-# European / locomotive's name
 NAME_AGV_11Car                                         :[11량] AGV (이탈로)
 STR_BB15000_NAME                                       :SNCF BB15000
 STR_Group_Eurostar_E300_NAME                           :유로스타 E300
@@ -107,8 +118,6 @@ STR_TGV_Pos_10Car_NAME                                 :[10량] TGV 포스
 STR_TGV_Reseau_Duplex_10Car_NAME                       :[10량] TGV 레조 듀플렉스
 STR_TGV_Sud_Est_10Car_NAME                             :[10량] TGV 쉬드-에스트
 STR_Thalys_PBKA_10Car_NAME                             :[10량] 탈리스 PBKA
-
-# Japanese / locomotive's name
 STR_Kse2_8Car_NAME                                     :[8량] 케이세이 AE형 2세대
 STR_Group_Shinkansen_0_NAME                            :신칸센 0계
 STR_Shinkansen_0_12Car_NAME                            :[12량] 신칸센 0계
@@ -133,8 +142,6 @@ STR_Shinkansen_N700_16Car_NAME                         :[16량] 신칸센 N700�
 STR_Group_Shinkansen_N700S_NAME                        :신칸센 N700S계
 STR_Shinkansen_N700S_6Car_NAME                         :[6량] 신칸센 N700S계 니시큐슈
 STR_Shinkansen_N700S_16Car_NAME                        :[16량] 신칸센 N700S계
-
-# World / locomotive's name
 STR_Al_Boraq_10Car_NAME                                :[10량] 알 보라크
 STR_Avelia_Liberty_11Car_NAME                          :[11량] 아벨리아 리버티
 STR_NHSRCL_E5_10Car_NAME                               :[10량] NHSRCL E5
@@ -145,7 +152,210 @@ STR_THSR_700T_12Car_NAME                               :[12량] 타이완 고속
 STR_Talgo_350_SRO_14Car_NAME                           :[14량] 탈고 350 SRO (하라마인 고속철도)
 STR_TRC_E6800_NAME                                     :TRC E6800 전기기관차
 
-# Korea / Metro's name
+STR_Group_Travel_wagon_NAME                            :관광열차
+STR_A_Train_NAME                                       :[4량] A-Train
+STR_Asean_Korea_NAME                                   :[7량] 한-아세안
+STR_Group_CY_GW_NAME                                   :충북영동국악와인
+STR_CY_GW_6Car_NAME                                    :[6량] 충북영동국악와인
+STR_CY_GW_7Car_NAME                                    :[7량] 충북영동국악와인
+STR_E_Train_NAME                                       :[9량] E-Train
+STR_East_Sea_5Car_NAME                                 :[5량] 동해남부선 관광열차
+STR_Group_Eco_Rail_NAME                                :에코레일
+STR_Eco_Rail_NAME                                      :에코레일
+STR_Eco_Rail_5Car_NAME                                 :[5량] 에코레일
+STR_G_Train_NAME                                       :[5량] G-Train
+STR_JA_a_NAME                                          :정선아리랑 유람열차
+STR_Lady_Bird_NAME                                     :[9량] 레이디버드
+STR_Rail_Cruise_Haerang_NAME                           :[8량] 레일크루즈 해랑
+STR_Group_S_Train_NAME                                 :S-Trian
+STR_S_Train_4Car_NAME                                  :[4량] S-Train 신도색
+STR_S_Train_5Car_NAME                                  :[5량] S-Train
+STR_TLX_5Car_NAME                                      :[5량] TLX 관광열차
+STR_V_Train_NAME                                       :[3량] V-Train
+STR_Wine_Cinema_NAME                                   :[6량] 와인시네마트레인
+STR_Wine_Panax_NAME                                    :[7량] 와인인삼트레인
+STR_Mugunhwa_2cc_NAME                                  :한국 무궁화호 2cc
+STR_Mugunhwa_Real_Normal_NAME                          :한국 무궁화호 일반실
+STR_Mugunhwa_Real_Service_NAME                         :한국 무궁화호 서비스/침대
+STR_Mugunhwa_Real_Special_NAME                         :한국 무궁화호 특실
+STR_Saemaeul_2cc_NAME                                  :한국 새마을호 2cc
+STR_Saemaeul_Real_Normal_Special_NAME                  :한국 새마을호 일반실 & 특실
+STR_Saemaeul_Real_Service_NAME                         :한국 새마을호 서비스
+STR_Group_Pidulgi_NAME                                 :비둘기호
+STR_Pidulgi_Normal_NAME                                :비둘기호 일반실
+STR_Pidulgi_Service_NAME                               :비둘기호 식당차
+STR_Group_Tong_il_NAME                                 :통일호
+STR_Tong_il_Normal_NAME                                :통일호 일반실
+STR_Tong_il_Service_NAME                               :통일호 식당차 & 침대차
+STR_Tong_il_Special_NAME                               :통일호 특실
+STR_TRC_SungShinRST_NAME                               :TRC 성신RST 객차
+STR_Group_Generatar_NAME                               :발전차
+STR_Generatar_2cc_NAME                                 :한국 발전차 2cc
+STR_Generatar_Real_OutLook_NAME                        :한국 전망형 & 직각형 발전차
+STR_Generatar_Real_Stream_lined_NAME                   :한국 유선형, 고속일반 & 고속장대형 발전차
+STR_Group_Luggage_NAME                                 :한국 수화물차
+STR_Express_Luggage_NAME                               :고속수화물차
+STR_Luggage_Olny_NAME                                  :소화물 전용차
+STR_Pidulgi_Express_Luggage_NAME                       :비둘기호 소화물차
+STR_Group_Post_Car_NAME                                :한국 우편차
+STR_Post_Car_NAME                                      :한국 우편차
+STR_Express_Post_Car_NAME                              :한국 고속 우편차
+STR_CTSPASS_NAME                                       :중국 객차 차량
+STR_CGeneratar_Car_NAME                                :중국 발전차
+STR_CLuggage_Car_NAME                                  :중국 수화물차
+STR_ETSPASS_NAME                                       :유럽 객차 차량
+STR_FLAT_1F_NAME                                       :평판화차
+STR_FLAT_Tank_NAME                                     :평판유조 화차
+STR_FLAT_2F_NAME                                       :평판화차 - 미국형
+
+NAME_CDC_engine                         : CDC 디젤동차
+NAME_CDC_wagon                          : CDC 디젤동차
+NAME_CTX_wagon                          : CTX
+NAME_DFX_engine                         : DFX
+NAME_DFX_wagon                          : DFX
+NAME_DPX_engine                         : DPX
+NAME_DPX_wagon                          : DPX
+NAME_DTS_CityLink_120_Pass_engine       : [승객] DTS-CityLink 120
+NAME_DTS_CityLink_120_Pass_wagon        : [승객] DTS-CityLink 120
+NAME_DTS_CityLink_120_Post_engine       : [우편] DTS-CityLink 120
+NAME_DTS_CityLink_120_Post_wagon        : [우편] DTS-CityLink 120
+NAME_DTS_CityLink_150_1st_engine        : DTS-CityLink 150 1세대
+NAME_DTS_CityLink_150_1st_wagon         : DTS-CityLink 150 1세대
+NAME_DTS_CityLink_150_2nd_engine        : DTS-CityLink 150 2세대
+NAME_DTS_CityLink_150_2nd_wagon         : DTS-CityLink 150 2세대
+NAME_DTS_CityLink_150_2nd_DD_wagon      : DTS-CityLink 150 DD 2세대
+NAME_DTS_L150_engine                    : DTX-Metro L150
+NAME_DTS_L150_wagon                     : DTX-Metro L150
+NAME_DTS_L150_DD_wagon                  : DTX-Metro L150 DD
+NAME_DTS_R001_engine                    : DTX-Metro R001
+NAME_DTS_R001_wagon                     : DTX-Metro R001
+NAME_DTX_Glory_engine                   : DTX-영광
+NAME_DTX_Glory_wagon                    : DTX-영광
+NAME_DTX_Koryo_engine                   : DTX-고려
+NAME_DTX_Koryo_wagon                    : DTX-고려
+NAME_DTX_Sejong_engine                  : DTX-세종
+NAME_DTX_Sejong_wagon                   : DTX-세종
+NAME_DTX_Sobaek_engine                  : DTX-소백
+NAME_DTX_Sobaek_wagon                   : DTX-소백
+NAME_DTX_Sundeok_engine                 : DTX-선덕
+NAME_DTX_Sundeok_wagon                  : DTX-선덕
+NAME_DTX_Taebaek_engine                 : DTX-태백
+NAME_DTX_Taebaek_wagon                  : DTX-태백
+NAME_Glory_430_engine                   : Glory 430
+NAME_Glory_430_wagon                    : Glory 430
+NAME_Glory_600_engine                   : Glory 600
+NAME_Glory_600_wagon                    : Glory 600
+NAME_GTX_8Car                           : [8량] GTX
+NAME_GTX_engine                         : GTX
+NAME_GTX_wagon                          : GTX
+NAME_H2_WJ_engine                       : 우진산전 수소연료전지동차
+NAME_H2_WJ_wagon                        : 우진산전 수소연료전지동차
+NAME_HEMU_430X_6Car                     : [6량] HEMU-430X
+NAME_HEMU_430X_8Car                     : [8량] HEMU-430X
+NAME_HEMU_430X_engine                   : HEMU-430X
+NAME_HEMU_430X_wagon                    : HEMU-430X
+NAME_HEMU_430X_DD_wagon                 : HEMU-430X DD
+NAME_HSR_350X_7Car                      : [7량] HSR-350X
+NAME_HSR_350X_14Car                     : [14량] HSR-350X
+NAME_HSR_350X_engine                    : HSR-350X
+NAME_HSR_350X_wagon                     : HSR-350X
+NAME_HYEL_15                            : HYEL-15
+NAME_HYEL_100                           : HYEL-100
+NAME_HYEL_120_Dual                      : HYEL-120 Dual
+NAME_HYEL_120_Unit                      : HYEL-120 Unit
+NAME_HYEL_150                           : HYEL-150
+NAME_HYEL_350_engine                    : HYEL-350
+NAME_HYEL_350_wagon                     : HYEL-350
+NAME_HYEL_400_engine                    : HYEL-400
+NAME_HYEL_400_wagon                     : HYEL-400
+NAME_HYEL_Gangsan                       : HYEL-강산
+NAME_HYEL_Mugunhwa_engine               : HYEL-무궁화
+NAME_HYEL_Mugunhwa_wagon                : HYEL-무궁화
+NAME_HYEL_Mugunhwa_DD_engine            : HYEL-무궁화 DD
+NAME_HYEL_Mugunhwa_DD_wagon             : HYEL-무궁화 DD
+NAME_HYEL_PEX_Super                     : HYEL PEX-SUPER
+NAME_HYEL_Railjet                       : HYEL RailJet
+NAME_ITX_CheongChan_engine              : ITX-청천
+NAME_ITX_CheongChan_wagon               : ITX-청천
+NAME_ITX_CheongChun_8Car                : [8량] ITX-청춘
+NAME_ITX_CheongChun_engine              : ITX-청춘
+NAME_ITX_CheongChun_wagon               : ITX-청춘
+NAME_ITX_CheongChun_DD_engine           : ITX-청춘 DD
+NAME_ITX_CheongChun_DD_wagon            : ITX-청춘 DD
+NAME_ITX_Maum_4Car                      : [4량] ITX-마음
+NAME_ITX_Maum_6Car                      : [6량] ITX-마음
+NAME_ITX_Maum_engine                    : ITX-마음
+NAME_ITX_Maum_wagon                     : ITX-마음
+NAME_ITX_Maum_DD_engine                 : ITX-마음 DD
+NAME_ITX_Maum_DD_wagon                  : ITX-마음 DD
+NAME_ITX_Saemaeul_6Car                  : [6량] ITX-새마을
+NAME_ITX_Saemaeul_engine                : ITX-새마을
+NAME_ITX_Saemaeul_wagon                 : ITX-새마을
+NAME_ITX_Saemaeul_DD_engine             : ITX-새마을 DD
+NAME_ITX_Saemaeul_DD_wagon              : ITX-새마을 DD
+NAME_KTX_1_20Car                        : [20량] KTX-1
+NAME_KTX_1_engine                       : KTX-1
+NAME_KTX_1_wagon                        : KTX-1
+NAME_KTX_Cargo_260_engine               : KTX-카고 260
+NAME_KTX_Cargo_260_wagon                : KTX-카고 260
+NAME_KTX_Cargo_300_engine               : KTX-카고 300
+NAME_KTX_Cargo_300_wagon                : KTX-카고 300
+NAME_KTX_Cargo_320_engine               : KTX-카고 320
+NAME_KTX_Cargo_320_wagon                : KTX-카고 320
+NAME_KTX_Cheong_Ryong_8Car              : [8량] KTX-청룡
+NAME_KTX_Cheong_Ryong_engine            : KTX-청룡
+NAME_KTX_Cheong_Ryong_wagon             : KTX-청룡
+NAME_KTX_Cheong_Ryong_DD_engine         : KTX-청룡 DD
+NAME_KTX_Cheong_Ryong_DD_wagon          : KTX-청룡 DD
+NAME_KTX_Chowol_engine                  : KTX-초월
+NAME_KTX_Chowol_wagon                   : KTX-초월
+NAME_KTX_Chowol_DD_wagon                : KTX-초월 DD
+NAME_KTX_Eum_6Car                       : [6량] KTX-이음
+NAME_KTX_Eum_engine                     : KTX-이음
+NAME_KTX_Eum_wagon                      : KTX-이음
+NAME_KTX_Eum_DD_engine                  : KTX-이음 DD
+NAME_KTX_Eum_DD_wagon                   : KTX-이음 DD
+NAME_KTX_Onnuri_engine                  : KTX-온누리
+NAME_KTX_Onnuri_wagon                   : KTX-온누리
+NAME_KTX_Onnuri_DD_wagon                : KTX-온누리 DD
+NAME_KTX_Sancheon_10Car                 : [10량] KTX-산천, SRT
+NAME_KTX_Sancheon_engine                : KTX-산천
+NAME_KTX_Sancheon_wagon                 : KTX-산천
+NAME_KTX_Sancheon_DD_wagon              : KTX-산천 DD
+NAME_KTX_Taegeuk_engine                 : KTX-태극
+NAME_KTX_Taegeuk_wagon                  : KTX-태극
+NAME_Nuriro_4Car                        : [4량] 누리로
+NAME_Nuriro_engine                      : 누리로
+NAME_Nuriro_wagon                       : 누리로
+NAME_Nuriro_DD_engine                   : 누리로 DD
+NAME_Nuriro_DD_wagon                    : 누리로 DD
+NAME_NEL_8100                           : 8100호대 전기기관차
+NAME_NEL_8200                           : 8200호대 전기기관차
+NAME_OEL_8000                           : 8000호대 전기기관차
+NAME_PEX_B                              : PEX 식당칸
+NAME_PEX_D                              : PEX 2층 차량
+NAME_PEX_N                              : PEX 1층 차량
+NAME_PEX_S                              : PEX 침대칸
+NAME_PEX_SN                             : PEX 특실 차량
+NAME_PEX_Super_B                        : PEX-SUPER 식당차
+NAME_PEX_Super_D                        : PEX-SUPER 2층
+NAME_PEX_Super_Generatar                : PEX-SUPER 발전차
+NAME_PEX_Super_N                        : PEX-SUPER 일반실
+NAME_PEX_Super_Post                     : PEX-SUPER 우편객차
+NAME_PEX_Super_S                        : PEX-SUPER 침대차
+NAME_PEX_Super_SN                       : PEX-SUPER 특실
+NAME_RDC_engine                         : RDC 디젤동차
+NAME_RDC_wagon                          : RDC 디젤동차
+NAME_Train_Car                          : 공통 객차
+NAME_Transparency                       : 투명기관차
+NAME_TTX_6Car                           : [6량] TTX
+NAME_TTX_engine                         : TTX
+NAME_TTX_wagon                          : TTX
+NAME_VHST_600X_engine                   : VHST-600X
+NAME_VHST_600X_wagon                    : VHST-600X
+NAME_VPassenger                         : 가상 객차 차량
+
+# Metro's name
 STR_AREX_1000_1st_6Car_NAME                            :[6량] 공항철도 1000호대 1세대 전동차
 STR_AREX_2000_1st_6Car_NAME                            :[6량] 공항철도 2000호대 1세대 전동차
 STR_AREX_2000_4th_6Car_NAME                            :[6량] 공항철도 2000호대 4세대 전동차
@@ -185,8 +395,9 @@ STR_Korail_3rd_6Car_NAME                               :[6량] 한국철도공�
 STR_Korail_3rd_8Car_NAME                               :[8량] 한국철도공사 3세대 전동차
 STR_Korail_3rd_10Car_NAME                              :[10량] 한국철도공사 3세대 전동차
 STR_Group_Korail_4th_NAME                              :한국철도공사 4세대 전동차
-STR_Korail_392000_2Car_NAME                            :[2량] 한국철도공사 4세대 3차도입분
-STR_Korail_392000_4Car_NAME                            :[4량] 한국철도공사 4세대 3차도입분
+NAME_Korail_392000_engine                            : 한국철도공사 4세대 3차도입분
+NAME_Korail_392000_wagon                             : 한국철도공사 4세대 3차도입분
+NAME_Korail_392000_2car                              : [2량] 한국철도공사 4세대 3차도입분
 STR_Korail_4th_G1_4Car_NAME                            :[4량] 한국철도공사 4세대 초기도입분
 STR_Korail_4th_4Car_NAME                               :[4량] 한국철도공사 4세대 2차도입분
 STR_Korail_4th_6Car_NAME                               :[6량] 한국철도공사 4세대 1·2차 도입분
@@ -280,8 +491,6 @@ STR_Ui_Sinseol_2Car_NAME                               :[2량] 우이신설선
 STR_Uijeongbu_Line_2Car_NAME                           :[2량] 의정부경전철
 STR_Yangsan_AGT_2Car_NAME                              :[2량] 양산 도시철도
 STR_Yongin_EverLine_NAME                               :용인경전철
-
-# Hong Kong / Metro's name
 STR_MTR_AC_Cammall_8Car_NAME                           :[8량] 홍콩 MTR 메트로카멜 교류형 전동차
 STR_MTR_AD_Tranz_CAF_A_8Car_NAME                       :[8량] 홍콩 MTR AD Tranz CAF A형
 STR_MTR_CNR_Changchun_8Car_NAME                        :[8량] 홍콩 MTR CNR 창춘 전동차
@@ -290,8 +499,6 @@ STR_MTR_DC_Cammall_8Car_NAME                           :[8량] 홍콩 MTR 메트
 STR_MTR_Hyundai_Rotem_Mitsubishi_8Car_NAME             :[8량] 홍콩 MTR 현대로템 미쓰비시 전동차
 STR_MTR_Hyundai_Rotem_R_8Car_NAME                      :[8량] 홍콩 MTR 현대로템 R형 전동차
 STR_MTR_IKK_SP_1900_8Car_NAME                          :[8량] 홍콩 MTR IKK SP 1900
-
-# Japanese / Metro's name
 STR_125_Series_EMU_NAME                                :125계 전동차
 STR_Group_227_Series_EMU_500_NAME                      :227계 500번대 전동차
 STR_227_Series_EMU_500_2Car_NAME                       :[2량] 227계 500번대 전동차
@@ -348,81 +555,49 @@ STR_Nishitetsu_8000_6Car_NAME                          :[6량] 니시테츠 8000
 STR_Group_Nishitetsu_9000_NAME                         :니시테츠 9000형
 STR_Nishitetsu_9000_2Car_NAME                          :[2량] 니시테츠 9000형
 STR_Nishitetsu_9000_3Car_NAME                          :[3량] 니시테츠 9000형
-
-# World / Metro's name
 STR_Jakarta_LRT_2Car_NAME                              :[2량] 자카르타 LRT
 STR_EMU900_10Car_NAME                                  :[10량] EMU900
 
-# wagon's name
-STR_Group_Travel_wagon_NAME                            :관광열차
-STR_A_Train_NAME                                       :[4량] A-Train
-STR_Asean_Korea_NAME                                   :[7량] 한-아세안
-STR_Group_CY_GW_NAME                                   :충북영동국악와인
-STR_CY_GW_6Car_NAME                                    :[6량] 충북영동국악와인
-STR_CY_GW_7Car_NAME                                    :[7량] 충북영동국악와인
-STR_E_Train_NAME                                       :[9량] E-Train
-STR_East_Sea_5Car_NAME                                 :[5량] 동해남부선 관광열차
-STR_Group_Eco_Rail_NAME                                :에코레일
-STR_Eco_Rail_NAME                                      :에코레일
-STR_Eco_Rail_5Car_NAME                                 :[5량] 에코레일
-STR_G_Train_NAME                                       :[5량] G-Train
-STR_JA_a_NAME                                          :정선아리랑 유람열차
-STR_Lady_Bird_NAME                                     :[9량] 레이디버드
-STR_Rail_Cruise_Haerang_NAME                           :[8량] 레일크루즈 해랑
-STR_Group_S_Train_NAME                                 :S-Trian
-STR_S_Train_4Car_NAME                                  :[4량] S-Train 신도색
-STR_S_Train_5Car_NAME                                  :[5량] S-Train
-STR_TLX_5Car_NAME                                      :[5량] TLX 관광열차
-STR_V_Train_NAME                                       :[3량] V-Train
-STR_Wine_Cinema_NAME                                   :[6량] 와인시네마트레인
-STR_Wine_Panax_NAME                                    :[7량] 와인인삼트레인
-STR_Mugunhwa_2cc_NAME                                  :한국 무궁화호 2cc
-STR_Mugunhwa_Real_Normal_NAME                          :한국 무궁화호 일반실
-STR_Mugunhwa_Real_Service_NAME                         :한국 무궁화호 서비스/침대
-STR_Mugunhwa_Real_Special_NAME                         :한국 무궁화호 특실
-STR_Saemaeul_2cc_NAME                                  :한국 새마을호 2cc
-STR_Saemaeul_Real_Normal_Special_NAME                  :한국 새마을호 일반실 & 특실
-STR_Saemaeul_Real_Service_NAME                         :한국 새마을호 서비스
-STR_Group_Pidulgi_NAME                                 :비둘기호
-STR_Pidulgi_Normal_NAME                                :비둘기호 일반실
-STR_Pidulgi_Service_NAME                               :비둘기호 식당차
-STR_Group_Tong_il_NAME                                 :통일호
-STR_Tong_il_Normal_NAME                                :통일호 일반실
-STR_Tong_il_Service_NAME                               :통일호 식당차 & 침대차
-STR_Tong_il_Special_NAME                               :통일호 특실
-STR_TRC_SungShinRST_NAME                               :TRC 성신RST 객차
-STR_Group_Generatar_NAME                               :발전차
-STR_Generatar_2cc_NAME                                 :한국 발전차 2cc
-STR_Generatar_Real_OutLook_NAME                        :한국 전망형 & 직각형 발전차
-STR_Generatar_Real_Stream_lined_NAME                   :한국 유선형, 고속일반 & 고속장대형 발전차
-STR_Group_Luggage_NAME                                 :한국 수화물차
-STR_Express_Luggage_NAME                               :고속수화물차
-STR_Luggage_Olny_NAME                                  :소화물 전용차
-STR_Pidulgi_Express_Luggage_NAME                       :비둘기호 소화물차
-STR_Group_Post_Car_NAME                                :한국 우편차
-STR_Post_Car_NAME                                      :한국 우편차
-STR_Express_Post_Car_NAME                              :한국 고속 우편차
-STR_CTSPASS_NAME                                       :중국 객차 차량
-STR_CGeneratar_Car_NAME                                :중국 발전차
-STR_CLuggage_Car_NAME                                  :중국 수화물차
-STR_ETSPASS_NAME                                       :유럽 객차 차량
-STR_FLAT_1F_NAME                                       :평판화차
-STR_FLAT_Tank_NAME                                     :평판유조 화차
-STR_FLAT_2F_NAME                                       :평판화차 - 미국형
+NAME_Nextrain_engine                    : 넥스트레인
+NAME_Nextrain_wagon                     : 넥스트레인
+
+# Showcase's name
+NAME_Constrck                           : [진열용] 건설차량
+NAME_Showcase_Flat_1F                   : [진열용] 평판화차
+
+# Parameters
+Param_Desc_Chinese                      : 중국형 열차를 사용시 체크하세요.{}- 기본:미사용
+Param_Desc_European                     : 유럽형 열차를 사용시 체크하세요.{}- 기본:미사용
+Param_Desc_High_Speed_Train             : 가상 고속열차의 속도를 조정합니다.{}- 기본:331km/h
+Param_Desc_High_Speed_Train_430         : 가상 초고속 열차의 속도를 조정합니다.{}- 기본:430km/h{}- 대상열차 : 430km/h 고속열차
+Param_Desc_High_Speed_Train_Test        : 가상 검측차 고속열차의 속도를 조정합니다.{}- 기본:600km/h
+Param_Desc_Hong_Kong                    : 홍콩형 열차를 사용시 체크하세요.{}- 기본:미사용
+Param_Desc_Japanese                     : 일본형 열차를 사용시 체크하세요.{}- 기본:미사용
+Param_Desc_Maintenance                  : 유지보수차량 사용시 체크하세요.{}- 기본:미사용
+Param_Desc_Max_Virtual_Speed            : 가상속도를 적용할지 체크합니다.{}- 기본:현실속도
+Param_Desc_Metro_Speed_Train            : 가상 지하철의 속도를 조정합니다.{}- 기본:121km/h
+Param_Desc_Passengercar_Real_speed      : 실제 객차 속도를 희망시 체크하세요.{}- 기본:객차속도제한
+Param_Desc_Regular_High_Speed_Train     : 가상 일반 준고속열차의 속도를 조정합니다.{}- 기본:181km/h{}- 대상열차 : GTX, TTX
+Param_Desc_Regular_Speed_Train          : 가상 일반열차의 속도를 조정합니다.{}- 기본:151km/h
+Param_Desc_Semi_High_Speed_Train        : 가상 준고속열차의 속도를 조정합니다.{}- 기본:250km/h
+Param_Desc_World                        : 월드형 열차를 사용시 체크하세요.{}- 기본:미사용
+Param_Name_Chinese                      : 중국형 열차 사용 금지
+Param_Name_European                     : 유럽형 열차 사용 금지
+Param_Name_High_Speed_Train             : 가상 고속열차 속도변수
+Param_Name_High_Speed_Train_430         : 가상 초고속 열차 속도변수
+Param_Name_High_Speed_Train_Test        : 가상 검측차 고속열차 속도변수
+Param_Name_Hong_Kong                    : 홍콩형 열차 사용 금지
+Param_Name_Japanese                     : 일본형 열차 사용 금지
+Param_Name_Maintenance                  : 유지보수차량 사용 금지
+Param_Name_Max_Virtual_Speed            : 가상속도 적용
+Param_Name_Metro_Speed_Train            : 가상 지하철 속도변수
+Param_Name_Passengercar_Real_speed      : 객차의 속도를 제어합니다.
+Param_Name_Regular_High_Speed_Train     : 가상 일반열차 속도변수
+Param_Name_Regular_Speed_Train          : 가상 일반 준고속열차 속도변수
+Param_Name_Semi_High_Speed_Train        : 가상 준고속열차 속도변수
+Param_Name_World                        : 월드형 열차 사용 금지
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
-# Refit (Additional text)
-TRAIN_DESC:{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{STRING}
-Informagion:{BLACK}{STRING}
-How_To_Use:{BLACK}{STRING}
-Recommended_Connection:{GREEN}{STRING}
-
-Trian_informagion                                      :정보
-
-Free                                                   :- 자유편성 열차에 사용.{}- 단독 사용가능
-Use_Free                                               :- 공통객차로 객차 구성.
-Add_wagon                                              :- 공통객차로 객차 추가
-
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] A-Train
 STR_REFIT_train_configuration_Asean_Korea              :{BLACK}열차구성 {}{GREEN}[관광열차] 한-아세안
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}열차구성 {}{GREEN}[관광열차] 충북국악와인 객차
@@ -464,7 +639,7 @@ STR_REFIT_train_configuration_Constrck                 :{BLACK}열차구성 {}{G
 STR_REFIT_LIVERY_Test                                  : 검측차
 STR_REFIT_LIVERY_Cargo                                 : 수송차
 
-# Korea / Liveries locomotive
+# Liveries Locomotive
 STR_REFIT_LIVERY_AREX_1000_Old                         : 구도색
 STR_REFIT_LIVERY_AREX_1000_New                         : 신도색
 STR_REFIT_LIVERY_DEL4400_A                             : 구도색
@@ -607,7 +782,93 @@ STR_REFIT_LIVERY_Shinkansen_E5_E8                      : 신칸센 E5+E8계
 STR_REFIT_LIVERY_Shinkansen_H5_E6                      : 신칸센 H5+E6계
 STR_REFIT_LIVERY_Shinkansen_H5_E8                      : 신칸센 H5+E8계
 
-# Liveries metro
+Livery_CDC_Old                          : 구도색
+Livery_CDC_New                          : 신도색
+Livery_CDC_Flower                       : 꽃동산 도색
+Livery_CDC_Beach                        : 해변 도색
+Livery_CDC_Baekje                       : 백제왕관 도색
+Livery_DEL7600                          : 초기도색
+Livery_DEL7600_Old                      : 구도색
+Livery_DEL7600_New                      : 신도색
+Livery_DTS_CityLink_150_2nd_A           : 크로스시트
+Livery_DTS_CityLink_150_2nd_B           : 세미크로스시트
+Livery_DTX_Glory_1Year                  : 1주년 도색
+Livery_DTX_Glory_2Year                  : 2주년 도색
+Livery_DTX_Glory_APEC_2025              : APEC 2025
+Livery_HYEL_100                         : 수소열차
+Livery_HYEL_100_CI                      : 한국철도공사 CI
+Livery_HYEL_100_original                : 오리지널
+Livery_HYEL_150                         : HYEL-150
+Livery_HYEL_150_SB                      : HYEL-150 바다도색
+Livery_HYEL_PEX_Super_A                 : 기본도색
+Livery_HYEL_PEX_Super_B                 : 무지개도색
+
+Livery_ITX_CheongChun_A                 : ITX-청춘
+Livery_ITX_CheongChun_B                 : ITX-청춘 용 랩핑
+Livery_ITX_Maum                         : ITX-마음
+Livery_ITX_Maum_High1                   : 하이원리조트
+Livery_KTX_1_1997                       : 특실 4량
+Livery_KTX_1_2007                       : 영화시네마
+Livery_KTX_1_2013                       : LTE-A
+Livery_KTX_1_2017                       : 특실 3량
+Livery_KTX_Cheong_Ryong_Eum             : 이음
+Livery_KTX_Cheong_Ryong                 : 청룡
+Livery_KTX_Cheong_Ryong_2nd             : 청룡 2세대
+Livery_SRT_320                          : SRT 320
+Livery_KTX_Cheong_Ryong_BK              : 시안
+Livery_KTX_Cheong_Ryong_CC              : 회사색상
+Livery_KTX_Cheong_Ryong_Euro            : Euro
+Livery_KTX_Cheong_Ryong_ICE             : ICE
+Livery_KTX_Cheong_Ryong_JR              : JR
+Livery_KTX_Cheong_Ryong_SRT_A           : SRT 시안
+Livery_KTX_Cheong_Ryong_SRT_B           : SRT 가상
+Livery_KTX_Cheong_Ryong_SRT_C           : SRT 컨셉 1안
+Livery_KTX_Cheong_Ryong_SRT_D           : SRT 컨셉 2안
+Livery_KTX_Cheong_Ryong_SRT_E           : SRT 컨셉 3안
+Livery_KTX_Cheong_Ryong_THRS            : THRS
+Livery_KTX_Cheong_Ryong_DD              : 청룡
+Livery_KTX_Cheong_Ryong_DD_2nd          : 청룡 2세대
+Livery_KTX_Cheong_Ryong_DD_BK           : 검정 도색
+Livery_KTX_Cheong_Ryong_DD_CC           : 회사 색상
+Livery_KTX_Eum                          : KTX-이음
+Livery_KTX_Eum_2nd                      : KTX-이음 2세대
+Livery_KTX_Eum_MD                       : KTX-이음 시안
+Livery_KTX_Eum_W                        : KTX-이음 시안 2안
+Livery_KTX_Eum_BK                       : KTX-이음 시안 3안
+Livery_KTX_Eum_SM1                      : KTX-이음 새마을 초기 도색
+Livery_KTX_Eum_SM2                      : KTX-이음 새마을 중기 도색
+Livery_KTX_Eum_SM3                      : KTX-이음 새마을 후기 도색
+Livery_KTX_Gyeonggang_Blue              : KTX-산천 경강선 시안 1안
+Livery_KTX_Gyeonggang_White             : KTX-산천 경강선 컨셉
+Livery_KTX_Honam_Sky_blue               : KTX-산천 120000호대 시안 1안
+Livery_KTX_Honam_Yellow                 : KTX-산천 120000호대 시안 2안
+Livery_KTX_Sancheon_A1                  : KTX-산천 A타입 초도분
+Livery_KTX_Sancheon_A2                  : KTX-산천 A타입 후기분
+Livery_KTX_Sancheon_B                   : KTX-산천 B타입
+Livery_KTX_Sancheon_BP                  : KTX-산천 B타입 2018 평창올림픽 도색
+Livery_Nuriro_Old                       : 구도색
+Livery_Nuriro_New                       : 신도색
+Livery_Nuriro_A                         : 한류관광
+Livery_Nuriro_B                         : 순천향대 강의실
+Livery_Nuriro_O                         : O-Train
+Livery_Nuriro_DS                        : 동해산타
+Livery_Nuriro_saemaeul                  : ITX-새마을
+Livery_NEL_8100_A                       : 구도색
+Livery_NEL_8100_B                       : 신도색
+Livery_OEL8000_I1                       : 초기형 초기도색
+Livery_OEL8000_I2                       : 후기형 초기도색
+Livery_OEL8000_O1                       : 초기형 구도색
+Livery_OEL8000_O2                       : 후기형 구도색
+Livery_OEL8000_N1                       : 초기형 신도색
+Livery_OEL8000_N2                       : 후기형 신도색
+Livery_Mugunghwa                        : 무궁화호
+Livery_Mugunghwa_cafe                   : 무궁화호 카페객차
+Livery_Pohang_Yeongdeok_1               : 포항영덕도색 1
+Livery_Pohang_Yeongdeok_2               : 포항영덕도색 2
+Livery_SRT                              : SRT
+Livery_SRT_2cc                          : SRT 2cc
+
+# Liveries Metro
 STR_REFIT_LIVERY_AUTS                                  : AUTS
 STR_REFIT_LIVERY_Busanmetro_1st_1000_Chopper           : 초퍼
 STR_REFIT_LIVERY_Busanmetro_1st_1000_VVVF              : VVVF
@@ -801,7 +1062,7 @@ STR_REFIT_LIVERY_West_Japan_227_H_Btype                : Urara 히타치, 도요
 STR_REFIT_LIVERY_West_Japan_227_L_Atype                : Urara 도시바 L편성
 STR_REFIT_LIVERY_West_Japan_227_L_Btype                : Urara 히타치, 도요전기 L편성
 
-# Liveries wagon
+# Liveries Wagon
 STR_REFIT_LIVERY_Mugunghwa_2cc_1wagon                  : 일반실 우등객차
 STR_REFIT_LIVERY_Mugunghwa_2cc_2wagon                  : 일반실 구도색 수동문
 STR_REFIT_LIVERY_Mugunghwa_2cc_3wagon                  : 일반실 구도색 자동문
@@ -1136,299 +1397,6 @@ STR_REFIT_LIVERY_FlatCC                                : 평판화차 회사색�
 STR_REFIT_LIVERY_FlatPCC                               : 평판화차 패기형 회사색상
 STR_REFIT_LIVERY_FlatP2CC                              : 평판화차 패기형 2CC
 
-# Group's name
-NAME_Group_DTX                          : DTX
-NAME_Group_DTS_CityLink_120             : DTS-CityLink 120
-NAME_Group_DTS_CityLink_150             : DTS-CityLink 150
-NAME_Group_HEMU_430X                    : HEMU-430X
-NAME_Group_HSR_350X                     : HSR-350X
-NAME_Group_HYEL                         : HYEL
-NAME_Group_ICE                          : ICE
-NAME_Group_ITX                          : ITX
-NAME_Group_ITX_Maum                     : ITX-마음
-NAME_Group_KTX                          : KTX
-NAME_Group_KTX_Sancheon                 : KTX-산천
-NAME_Group_Nuriro                       : 한국철도공사 200000호대 전동차 (누리로)
-NAME_Group_PEX                          : PEX (Premium EXpress)
-NAME_Group_PEX_Super                    : PEX-Super (Premium EXpress Super)
-
-# locomotive's name
-NAME_CDC_engine                         : CDC 디젤동차
-NAME_CDC_wagon                          : CDC 디젤동차
-NAME_CTX_wagon                          : CTX
-NAME_DFX_engine                         : DFX
-NAME_DFX_wagon                          : DFX
-NAME_DPX_engine                         : DPX
-NAME_DPX_wagon                          : DPX
-NAME_DTS_CityLink_120_Pass_engine       : [승객] DTS-CityLink 120
-NAME_DTS_CityLink_120_Pass_wagon        : [승객] DTS-CityLink 120
-NAME_DTS_CityLink_120_Post_engine       : [우편] DTS-CityLink 120
-NAME_DTS_CityLink_120_Post_wagon        : [우편] DTS-CityLink 120
-NAME_DTS_CityLink_150_1st_engine        : DTS-CityLink 150 1세대
-NAME_DTS_CityLink_150_1st_wagon         : DTS-CityLink 150 1세대
-NAME_DTS_CityLink_150_2nd_engine        : DTS-CityLink 150 2세대
-NAME_DTS_CityLink_150_2nd_wagon         : DTS-CityLink 150 2세대
-NAME_DTS_CityLink_150_2nd_DD_wagon      : DTS-CityLink 150 DD 2세대
-NAME_DTS_L150_engine                    : DTX-Metro L150
-NAME_DTS_L150_wagon                     : DTX-Metro L150
-NAME_DTS_L150_DD_wagon                  : DTX-Metro L150 DD
-NAME_DTS_R001_engine                    : DTX-Metro R001
-NAME_DTS_R001_wagon                     : DTX-Metro R001
-NAME_DTX_Glory_engine                   : DTX-영광
-NAME_DTX_Glory_wagon                    : DTX-영광
-NAME_DTX_Koryo_engine                   : DTX-고려
-NAME_DTX_Koryo_wagon                    : DTX-고려
-NAME_DTX_Sejong_engine                  : DTX-세종
-NAME_DTX_Sejong_wagon                   : DTX-세종
-NAME_DTX_Sobaek_engine                  : DTX-소백
-NAME_DTX_Sobaek_wagon                   : DTX-소백
-NAME_DTX_Sundeok_engine                 : DTX-선덕
-NAME_DTX_Sundeok_wagon                  : DTX-선덕
-NAME_DTX_Taebaek_engine                 : DTX-태백
-NAME_DTX_Taebaek_wagon                  : DTX-태백
-NAME_Glory_430_engine                   : Glory 430
-NAME_Glory_430_wagon                    : Glory 430
-NAME_Glory_600_engine                   : Glory 600
-NAME_Glory_600_wagon                    : Glory 600
-NAME_GTX_8Car                           : [8량] GTX
-NAME_GTX_engine                         : GTX
-NAME_GTX_wagon                          : GTX
-NAME_H2_WJ_engine                       : 우진산전 수소연료전지동차
-NAME_H2_WJ_wagon                        : 우진산전 수소연료전지동차
-NAME_HEMU_430X_6Car                     : [6량] HEMU-430X
-NAME_HEMU_430X_8Car                     : [8량] HEMU-430X
-NAME_HEMU_430X_engine                   : HEMU-430X
-NAME_HEMU_430X_wagon                    : HEMU-430X
-NAME_HEMU_430X_DD_wagon                 : HEMU-430X DD
-NAME_HSR_350X_7Car                      : [7량] HSR-350X
-NAME_HSR_350X_14Car                     : [14량] HSR-350X
-NAME_HSR_350X_engine                    : HSR-350X
-NAME_HSR_350X_wagon                     : HSR-350X
-NAME_HYEL_15                            : HYEL-15
-NAME_HYEL_100                           : HYEL-100
-NAME_HYEL_120_Dual                      : HYEL-120 Dual
-NAME_HYEL_120_Unit                      : HYEL-120 Unit
-NAME_HYEL_150                           : HYEL-150
-NAME_HYEL_350_engine                    : HYEL-350
-NAME_HYEL_350_wagon                     : HYEL-350
-NAME_HYEL_400_engine                    : HYEL-400
-NAME_HYEL_400_wagon                     : HYEL-400
-NAME_HYEL_Gangsan                       : HYEL-강산
-NAME_HYEL_Mugunhwa_engine               : HYEL-무궁화
-NAME_HYEL_Mugunhwa_wagon                : HYEL-무궁화
-NAME_HYEL_Mugunhwa_DD_engine            : HYEL-무궁화 DD
-NAME_HYEL_Mugunhwa_DD_wagon             : HYEL-무궁화 DD
-NAME_HYEL_PEX_Super                     : HYEL PEX-SUPER
-NAME_HYEL_Railjet                       : HYEL RailJet
-NAME_ITX_CheongChan_engine              : ITX-청천
-NAME_ITX_CheongChan_wagon               : ITX-청천
-NAME_ITX_CheongChun_8Car                : [8량] ITX-청춘
-NAME_ITX_CheongChun_engine              : ITX-청춘
-NAME_ITX_CheongChun_wagon               : ITX-청춘
-NAME_ITX_CheongChun_DD_engine           : ITX-청춘 DD
-NAME_ITX_CheongChun_DD_wagon            : ITX-청춘 DD
-NAME_ITX_Maum_4Car                      : [4량] ITX-마음
-NAME_ITX_Maum_6Car                      : [6량] ITX-마음
-NAME_ITX_Maum_engine                    : ITX-마음
-NAME_ITX_Maum_wagon                     : ITX-마음
-NAME_ITX_Maum_DD_engine                 : ITX-마음 DD
-NAME_ITX_Maum_DD_wagon                  : ITX-마음 DD
-NAME_ITX_Saemaeul_6Car                  : [6량] ITX-새마을
-NAME_ITX_Saemaeul_engine                : ITX-새마을
-NAME_ITX_Saemaeul_wagon                 : ITX-새마을
-NAME_ITX_Saemaeul_DD_engine             : ITX-새마을 DD
-NAME_ITX_Saemaeul_DD_wagon              : ITX-새마을 DD
-NAME_KTX_1_20Car                        : [20량] KTX-1
-NAME_KTX_1_engine                       : KTX-1
-NAME_KTX_1_wagon                        : KTX-1
-NAME_KTX_Cargo_260_engine               : KTX-카고 260
-NAME_KTX_Cargo_260_wagon                : KTX-카고 260
-NAME_KTX_Cargo_300_engine               : KTX-카고 300
-NAME_KTX_Cargo_300_wagon                : KTX-카고 300
-NAME_KTX_Cargo_320_engine               : KTX-카고 320
-NAME_KTX_Cargo_320_wagon                : KTX-카고 320
-NAME_KTX_Cheong_Ryong_8Car              : [8량] KTX-청룡
-NAME_KTX_Cheong_Ryong_engine            : KTX-청룡
-NAME_KTX_Cheong_Ryong_wagon             : KTX-청룡
-NAME_KTX_Cheong_Ryong_DD_engine         : KTX-청룡 DD
-NAME_KTX_Cheong_Ryong_DD_wagon          : KTX-청룡 DD
-NAME_KTX_Chowol_engine                  : KTX-초월
-NAME_KTX_Chowol_wagon                   : KTX-초월
-NAME_KTX_Chowol_DD_wagon                : KTX-초월 DD
-NAME_KTX_Eum_6Car                       : [6량] KTX-이음
-NAME_KTX_Eum_engine                     : KTX-이음
-NAME_KTX_Eum_wagon                      : KTX-이음
-NAME_KTX_Eum_DD_engine                  : KTX-이음 DD
-NAME_KTX_Eum_DD_wagon                   : KTX-이음 DD
-NAME_KTX_Onnuri_engine                  : KTX-온누리
-NAME_KTX_Onnuri_wagon                   : KTX-온누리
-NAME_KTX_Onnuri_DD_wagon                : KTX-온누리 DD
-NAME_KTX_Sancheon_10Car                 : [10량] KTX-산천, SRT
-NAME_KTX_Sancheon_engine                : KTX-산천
-NAME_KTX_Sancheon_wagon                 : KTX-산천
-NAME_KTX_Sancheon_DD_wagon              : KTX-산천 DD
-NAME_KTX_Taegeuk_engine                 : KTX-태극
-NAME_KTX_Taegeuk_wagon                  : KTX-태극
-NAME_Nuriro_4Car                        : [4량] 누리로
-NAME_Nuriro_engine                      : 누리로
-NAME_Nuriro_wagon                       : 누리로
-NAME_Nuriro_DD_engine                   : 누리로 DD
-NAME_Nuriro_DD_wagon                    : 누리로 DD
-NAME_NEL_8100                           : 8100호대 전기기관차
-NAME_NEL_8200                           : 8200호대 전기기관차
-NAME_OEL_8000                           : 8000호대 전기기관차
-NAME_PEX_B                              : PEX 식당칸
-NAME_PEX_D                              : PEX 2층 차량
-NAME_PEX_N                              : PEX 1층 차량
-NAME_PEX_S                              : PEX 침대칸
-NAME_PEX_SN                             : PEX 특실 차량
-NAME_PEX_Super_B                        : PEX-SUPER 식당차
-NAME_PEX_Super_D                        : PEX-SUPER 2층
-NAME_PEX_Super_Generatar                : PEX-SUPER 발전차
-NAME_PEX_Super_N                        : PEX-SUPER 일반실
-NAME_PEX_Super_Post                     : PEX-SUPER 우편객차
-NAME_PEX_Super_S                        : PEX-SUPER 침대차
-NAME_PEX_Super_SN                       : PEX-SUPER 특실
-NAME_RDC_engine                         : RDC 디젤동차
-NAME_RDC_wagon                          : RDC 디젤동차
-NAME_Train_Car                          : 공통 객차
-NAME_Transparency                       : 투명기관차
-NAME_TTX_6Car                           : [6량] TTX
-NAME_TTX_engine                         : TTX
-NAME_TTX_wagon                          : TTX
-NAME_VHST_600X_engine                   : VHST-600X
-NAME_VHST_600X_wagon                    : VHST-600X
-NAME_VPassenger                         : 가상 객차 차량
-
-# Metro's name
-NAME_Nextrain_engine                    : 넥스트레인
-NAME_Nextrain_wagon                     : 넥스트레인
-
-# Showcase's name
-NAME_Constrck                           : [진열용] 건설차량
-NAME_Showcase_Flat_1F                   : [진열용] 평판화차
-
-# Parameters
-Param_Desc_Chinese                      : 중국형 열차를 사용시 체크하세요.{}- 기본:미사용
-Param_Desc_European                     : 유럽형 열차를 사용시 체크하세요.{}- 기본:미사용
-Param_Desc_High_Speed_Train             : 가상 고속열차의 속도를 조정합니다.{}- 기본:331km/h
-Param_Desc_High_Speed_Train_430         : 가상 초고속 열차의 속도를 조정합니다.{}- 기본:430km/h{}- 대상열차 : 430km/h 고속열차
-Param_Desc_High_Speed_Train_Test        : 가상 검측차 고속열차의 속도를 조정합니다.{}- 기본:600km/h
-Param_Desc_Hong_Kong                    : 홍콩형 열차를 사용시 체크하세요.{}- 기본:미사용
-Param_Desc_Japanese                     : 일본형 열차를 사용시 체크하세요.{}- 기본:미사용
-Param_Desc_Maintenance                  : 유지보수차량 사용시 체크하세요.{}- 기본:미사용
-Param_Desc_Max_Virtual_Speed            : 가상속도를 적용할지 체크합니다.{}- 기본:현실속도
-Param_Desc_Metro_Speed_Train            : 가상 지하철의 속도를 조정합니다.{}- 기본:121km/h
-Param_Desc_Passengercar_Real_speed      : 실제 객차 속도를 희망시 체크하세요.{}- 기본:객차속도제한
-Param_Desc_Regular_High_Speed_Train     : 가상 일반 준고속열차의 속도를 조정합니다.{}- 기본:181km/h{}- 대상열차 : GTX, TTX
-Param_Desc_Regular_Speed_Train          : 가상 일반열차의 속도를 조정합니다.{}- 기본:151km/h
-Param_Desc_Semi_High_Speed_Train        : 가상 준고속열차의 속도를 조정합니다.{}- 기본:250km/h
-Param_Desc_World                        : 월드형 열차를 사용시 체크하세요.{}- 기본:미사용
-Param_Name_Chinese                      : 중국형 열차 사용 금지
-Param_Name_European                     : 유럽형 열차 사용 금지
-Param_Name_High_Speed_Train             : 가상 고속열차 속도변수
-Param_Name_High_Speed_Train_430         : 가상 초고속 열차 속도변수
-Param_Name_High_Speed_Train_Test        : 가상 검측차 고속열차 속도변수
-Param_Name_Hong_Kong                    : 홍콩형 열차 사용 금지
-Param_Name_Japanese                     : 일본형 열차 사용 금지
-Param_Name_Maintenance                  : 유지보수차량 사용 금지
-Param_Name_Max_Virtual_Speed            : 가상속도 적용
-Param_Name_Metro_Speed_Train            : 가상 지하철 속도변수
-Param_Name_Passengercar_Real_speed      : 객차의 속도를 제어합니다.
-Param_Name_Regular_High_Speed_Train     : 가상 일반열차 속도변수
-Param_Name_Regular_Speed_Train          : 가상 일반 준고속열차 속도변수
-Param_Name_Semi_High_Speed_Train        : 가상 준고속열차 속도변수
-Param_Name_World                        : 월드형 열차 사용 금지
-
-# Liveries Locomotive
-Livery_CDC_Old                          : 구도색
-Livery_CDC_New                          : 신도색
-Livery_CDC_Flower                       : 꽃동산 도색
-Livery_CDC_Beach                        : 해변 도색
-Livery_CDC_Baekje                       : 백제왕관 도색
-Livery_DEL7600                          : 초기도색
-Livery_DEL7600_Old                      : 구도색
-Livery_DEL7600_New                      : 신도색
-Livery_DTS_CityLink_150_2nd_A           : 크로스시트
-Livery_DTS_CityLink_150_2nd_B           : 세미크로스시트
-Livery_DTX_Glory_1Year                  : 1주년 도색
-Livery_DTX_Glory_2Year                  : 2주년 도색
-Livery_DTX_Glory_APEC_2025              : APEC 2025
-Livery_HYEL_100                         : 수소열차
-Livery_HYEL_100_CI                      : 한국철도공사 CI
-Livery_HYEL_100_original                : 오리지널
-Livery_HYEL_150                         : HYEL-150
-Livery_HYEL_150_SB                      : HYEL-150 바다도색
-Livery_HYEL_PEX_Super_A                 : 기본도색
-Livery_HYEL_PEX_Super_B                 : 무지개도색
-
-Livery_ITX_CheongChun_A                 : ITX-청춘
-Livery_ITX_CheongChun_B                 : ITX-청춘 용 랩핑
-Livery_ITX_Maum                         : ITX-마음
-Livery_ITX_Maum_High1                   : 하이원리조트
-Livery_KTX_1_1997                       : 특실 4량
-Livery_KTX_1_2007                       : 영화시네마
-Livery_KTX_1_2013                       : LTE-A
-Livery_KTX_1_2017                       : 특실 3량
-Livery_KTX_Cheong_Ryong_Eum             : 이음
-Livery_KTX_Cheong_Ryong                 : 청룡
-Livery_KTX_Cheong_Ryong_2nd             : 청룡 2세대
-Livery_SRT_320                          : SRT 320
-Livery_KTX_Cheong_Ryong_BK              : 시안
-Livery_KTX_Cheong_Ryong_CC              : 회사색상
-Livery_KTX_Cheong_Ryong_Euro            : Euro
-Livery_KTX_Cheong_Ryong_ICE             : ICE
-Livery_KTX_Cheong_Ryong_JR              : JR
-Livery_KTX_Cheong_Ryong_SRT_A           : SRT 시안
-Livery_KTX_Cheong_Ryong_SRT_B           : SRT 가상
-Livery_KTX_Cheong_Ryong_SRT_C           : SRT 컨셉 1안
-Livery_KTX_Cheong_Ryong_SRT_D           : SRT 컨셉 2안
-Livery_KTX_Cheong_Ryong_SRT_E           : SRT 컨셉 3안
-Livery_KTX_Cheong_Ryong_THRS            : THRS
-Livery_KTX_Cheong_Ryong_DD              : 청룡
-Livery_KTX_Cheong_Ryong_DD_2nd          : 청룡 2세대
-Livery_KTX_Cheong_Ryong_DD_BK           : 검정 도색
-Livery_KTX_Cheong_Ryong_DD_CC           : 회사 색상
-Livery_KTX_Eum                          : KTX-이음
-Livery_KTX_Eum_2nd                      : KTX-이음 2세대
-Livery_KTX_Eum_MD                       : KTX-이음 시안
-Livery_KTX_Eum_W                        : KTX-이음 시안 2안
-Livery_KTX_Eum_BK                       : KTX-이음 시안 3안
-Livery_KTX_Eum_SM1                      : KTX-이음 새마을 초기 도색
-Livery_KTX_Eum_SM2                      : KTX-이음 새마을 중기 도색
-Livery_KTX_Eum_SM3                      : KTX-이음 새마을 후기 도색
-Livery_KTX_Gyeonggang_Blue              : KTX-산천 경강선 시안 1안
-Livery_KTX_Gyeonggang_White             : KTX-산천 경강선 컨셉
-Livery_KTX_Honam_Sky_blue               : KTX-산천 120000호대 시안 1안
-Livery_KTX_Honam_Yellow                 : KTX-산천 120000호대 시안 2안
-Livery_KTX_Sancheon_A1                  : KTX-산천 A타입 초도분
-Livery_KTX_Sancheon_A2                  : KTX-산천 A타입 후기분
-Livery_KTX_Sancheon_B                   : KTX-산천 B타입
-Livery_KTX_Sancheon_BP                  : KTX-산천 B타입 2018 평창올림픽 도색
-Livery_Nuriro_Old                       : 구도색
-Livery_Nuriro_New                       : 신도색
-Livery_Nuriro_A                         : 한류관광
-Livery_Nuriro_B                         : 순천향대 강의실
-Livery_Nuriro_O                         : O-Train
-Livery_Nuriro_DS                        : 동해산타
-Livery_Nuriro_saemaeul                  : ITX-새마을
-Livery_NEL_8100_A                       : 구도색
-Livery_NEL_8100_B                       : 신도색
-Livery_OEL8000_I1                       : 초기형 초기도색
-Livery_OEL8000_I2                       : 후기형 초기도색
-Livery_OEL8000_O1                       : 초기형 구도색
-Livery_OEL8000_O2                       : 후기형 구도색
-Livery_OEL8000_N1                       : 초기형 신도색
-Livery_OEL8000_N2                       : 후기형 신도색
-Livery_Mugunghwa                        : 무궁화호
-Livery_Mugunghwa_cafe                   : 무궁화호 카페객차
-Livery_Pohang_Yeongdeok_1               : 포항영덕도색 1
-Livery_Pohang_Yeongdeok_2               : 포항영덕도색 2
-Livery_SRT                              : SRT
-Livery_SRT_2cc                          : SRT 2cc
-
-# Liveries Metro
-# Liveries Wagon
 Livery_VPassenger_BR                    : 기본 도색
 Livery_VPassenger_Taegeuk               : 태극 도색
 

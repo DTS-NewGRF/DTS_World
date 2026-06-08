@@ -60,9 +60,6 @@ item(FEAT_TRAINS, Nuriro_DD_engine, 1025){
         cargo_subtype_text:             sw_Nuriro_DD_cargo_subtype_text;
         sound_effect:                   sw_HITACHIStart_sound;
         start_stop:                     sw_start_stop_4Car;
-        additional_text:                string(TRAIN_DESC,
-                                        string(Informagion, string(Trian_informagion)),
-                                        string(How_To_Use, string(Add_wagon)));
         }
      livery_override(Nuriro_DD_wagon) {
         default:                        sw_Nuriro_DD_wagon_Free;
@@ -70,6 +67,7 @@ item(FEAT_TRAINS, Nuriro_DD_engine, 1025){
         cargo_capacity:                 66;
         weight:                         45;
         power:                          335;
+        cargo_subtype_text:             sw_Nuriro_DD_cargo_subtype_text;
         }
         }
    

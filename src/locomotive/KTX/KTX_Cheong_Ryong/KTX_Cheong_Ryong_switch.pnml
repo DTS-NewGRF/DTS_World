@@ -441,20 +441,9 @@ switch (FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_8car, position_in_vehid_chain % 8
     7: sw_KTX_Cheong_Ryong_Fixed_engineT;
     }
 
-// 16량
-switch (FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_16car, position_in_vehid_chain % 16) {
-    0: set_Deleted_A; //default
-    1..15: set_Deleted_B;
-    }
-
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Cheong_Ryong_8car, extra_callback_info1) {
     1..7: KTX_Cheong_Ryong_8Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
-switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Cheong_Ryong_16car, extra_callback_info1) {
-    1..15: KTX_Cheong_Ryong_16Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 

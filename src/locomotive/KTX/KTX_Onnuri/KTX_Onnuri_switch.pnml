@@ -55,12 +55,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_only_wagon, position_in_consist) {
 }
 
 // 2층
-switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_DD_wagon_front, position_in_consist) {
-    1: set_KTX_Onnuri_wagon_DUP1;
-    set_KTX_Onnuri_wagon_DUP;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_DD_wagon, position_in_consist_from_end) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_DD_wagon, position_in_vehid_chain % 2) {
     1: set_KTX_Onnuri_wagon_DUP2;
-    sw_KTX_Onnuri_DD_wagon_front;
+    set_KTX_Onnuri_wagon_DUP1;
 }
