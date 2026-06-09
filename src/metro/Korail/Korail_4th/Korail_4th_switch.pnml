@@ -53,6 +53,11 @@ switch(FEAT_TRAINS, SELF, sw_Korail_392000_engineT_Front, cargo_subtype) {
     1: set_Korail_393000_engineT;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Korail_392000_engineH_Free_Front, cargo_subtype) {
+    0: set_Korail_392000_engineH_Free;
+    1: set_Korail_393000_engineH_Free;
+}
+
 switch(FEAT_TRAINS, SELF, sw_Korail_392000_engineT_Free_Front, cargo_subtype) {
     0: set_Korail_392000_engineT_Free;
     1: set_Korail_393000_engineT_Free;
@@ -171,6 +176,11 @@ switch(FEAT_TRAINS, SELF, sw_Korail_392000_engineT_Back, cargo_subtype) {
     1: set_Korail_393000_engineT_Rev;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Korail_392000_engineH_Free_Back, cargo_subtype) {
+    0: set_Korail_392000_engineH_Free_Rev;
+    1: set_Korail_393000_engineH_Free_Rev;
+}
+
 switch(FEAT_TRAINS, SELF, sw_Korail_392000_engineT_Free_Back, cargo_subtype) {
     0: set_Korail_392000_engineT_Free_Rev;
     1: set_Korail_393000_engineT_Free_Rev;
@@ -236,6 +246,11 @@ switch(FEAT_TRAINS, SELF, sw_Korail_392000_engineT, train_is_driving_backwards) 
     1: sw_Korail_392000_engineT_Back;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Korail_392000_engineH_Free, train_is_driving_backwards) {
+    0: sw_Korail_392000_engineH_Free_Front;
+    1: sw_Korail_392000_engineH_Free_Back;
+}
+
 switch(FEAT_TRAINS, SELF, sw_Korail_392000_engineT_Free, train_is_driving_backwards) {
     0: sw_Korail_392000_engineT_Free_Front;
     1: sw_Korail_392000_engineT_Free_Back;
@@ -299,7 +314,7 @@ switch(FEAT_TRAINS, SELF, sw_Korail_4th_engineT, train_is_driving_backwards) {
 // 기관차
 switch(FEAT_TRAINS, SELF, sw_Korail_392000_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
     1: sw_Korail_392000_engineT_Free;
-    sw_Korail_392000_engineH;
+    sw_Korail_392000_engineH_Free;
 }
 
 // 편성그래픽
@@ -390,19 +405,13 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Korail_4th_10car, extra_callback_info1
 
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_6car_capacity_in_custom, cargo_subtype) {
-    0: 125;
-    1: return 119;
+    0..1: 125;
+    2: return 119;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_10car_capacity_in_custom, cargo_subtype) {
     0: 127;
     1: return 121;
-}
-
-// 출력
-switch(FEAT_TRAINS, SELF, sw_Korail_4th_6car_power_in_custom, cargo_subtype) {
-    0: return 1690; // 1260kw
-    3..5: return 2253; // 1680kw
 }
 
 // 사운드
@@ -419,6 +428,12 @@ switch(FEAT_TRAINS, SELF, sw_Korail_4th_6Car_sound, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_8Car_sound, cargo_subtype) {
     0..2: sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
     3: sw_HYUNDAIROTEMPMSMstart_sound;
+}
+
+// 차량별 출력
+switch(FEAT_TRAINS, SELF, sw_Korail_4th_6Car_power_in_custom, cargo_subtype) {
+    1..2: return 4506; // 3360kw 마력<->킬로와트 변환
+       3379; // 2520kw 마력<->킬로와트 변환
 }
 
 // 삭제예정 1.73

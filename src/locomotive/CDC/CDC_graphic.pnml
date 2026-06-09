@@ -102,6 +102,125 @@ spriteset(set_CDC_New_wagon, "src/locomotive/CDC/CDC.png") {
 }
 
 /*--------------------------------------------------------------------
+구도색 2cc
+--------------------------------------------------------------------*/
+spriteset(set_CDC_Old_2cc_engineH, "src/locomotive/CDC/CDC_Old_2cc.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CDC_Old_2cc_engineH_Rev, "src/locomotive/CDC/CDC_Old_2cc.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_CDC_Old_2cc_wagon, "src/locomotive/CDC/CDC_Old_2cc.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_CDC_Old_2cc_engineT_Rev, "src/locomotive/CDC/CDC_Old_2cc.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_CDC_Old_2cc_engineT, "src/locomotive/CDC/CDC_Old_2cc.png"){
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+신도색 2cc
+--------------------------------------------------------------------*/
+spriteset(set_CDC_New_2cc_engineH, "src/locomotive/CDC/CDC_New_2cc.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CDC_New_2cc_engineH_Rev, "src/locomotive/CDC/CDC_New_2cc.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_CDC_New_2cc_wagon, "src/locomotive/CDC/CDC_New_2cc.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_CDC_New_2cc_engineT_Rev, "src/locomotive/CDC/CDC_New_2cc.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_CDC_New_2cc_engineT, "src/locomotive/CDC/CDC_New_2cc.png"){
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+바다열차 구도색
+--------------------------------------------------------------------*/
+spriteset(set_CDC_Old_Sea_engineH, "src/locomotive/CDC/CDC_Old_Sea.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CDC_Old_Sea_engineH_Rev, "src/locomotive/CDC/CDC_Old_Sea.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_CDC_Old_Sea_wagon, "src/locomotive/CDC/CDC_Old_Sea.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_CDC_Old_Sea_engineT_Rev, "src/locomotive/CDC/CDC_Old_Sea.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_CDC_Old_Sea_engineT, "src/locomotive/CDC/CDC_Old_Sea.png"){
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
+바다열차 신도색
+--------------------------------------------------------------------*/
+spriteset(set_CDC_New_Sea_engineH, "src/locomotive/CDC/CDC_New_Sea.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CDC_New_Sea_engineH_Rev, "src/locomotive/CDC/CDC_New_Sea.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_CDC_New_Sea_wagon_M1, "src/locomotive/CDC/CDC_New_Sea.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_CDC_New_Sea_wagon_M2, "src/locomotive/CDC/CDC_New_Sea.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_CDC_New_Sea_engineT_Rev, "src/locomotive/CDC/CDC_New_Sea.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_CDC_New_Sea_engineT, "src/locomotive/CDC/CDC_New_Sea.png"){
+    DTS_temp(80, 135)
+}
+
+/*--------------------------------------------------------------------
+DMZ
+--------------------------------------------------------------------*/
+spriteset(set_CDC_DMZ_engineH, "src/locomotive/CDC/CDC_DMZ.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_CDC_DMZ_engineH_Rev, "src/locomotive/CDC/CDC_DMZ.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_CDC_DMZ_wagon, "src/locomotive/CDC/CDC_DMZ.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_CDC_DMZ_engineT_Rev, "src/locomotive/CDC/CDC_DMZ.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_CDC_DMZ_engineT, "src/locomotive/CDC/CDC_DMZ.png"){
+    DTS_temp(80, 108)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(sw_CDC_purchase, "src/locomotive/CDC/CDC.png"){

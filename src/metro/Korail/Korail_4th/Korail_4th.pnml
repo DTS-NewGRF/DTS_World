@@ -311,7 +311,7 @@ item(FEAT_TRAINS, Korail_4th_6Car, 2217){
         
         //spec
         speed:                          120km/h;
-        power:                          3360 kW;
+        power:                          2520 kW;
         weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -343,8 +343,8 @@ item(FEAT_TRAINS, Korail_4th_6Car, 2217){
         articulated_part:               sw_articulated_Korail_4th_6car;
         purchase:                       sw_Korail_4th_purchase;
         speed:                          sw_Metro_110_speed;
+        power:                          sw_Korail_4th_6Car_power_in_custom;
         cargo_capacity:                 sw_Korail_4th_6car_capacity_in_custom;
-        power:                          sw_Korail_4th_6car_power_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

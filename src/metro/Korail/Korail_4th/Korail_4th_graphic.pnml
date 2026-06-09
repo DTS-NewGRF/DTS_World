@@ -2,7 +2,7 @@
 Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
-Korail_392000
+Korail_392000 고정편성
 --------------------------------------------------------------------*/
 spriteset(set_Korail_392000_engineH, "src/metro/Korail/Korail_4th/Korail_4th_392000.png"){
     DTS_temp(80, 0)
@@ -16,24 +16,35 @@ spriteset(set_Korail_392000_engineT_Rev, "src/metro/Korail/Korail_4th/Korail_4th
     DTS_temp(80, 54)
 }
 
-spriteset(set_Korail_392000_engineT_Free_Rev, "src/metro/Korail/Korail_4th/Korail_4th_392000.png"){
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_Korail_392000_engineT, "src/metro/Korail/Korail_4th/Korail_4th_392000.png"){
     DTS_temp(80, 81)
 }
 
-spriteset(set_Korail_392000_engineT_Free, "src/metro/Korail/Korail_4th/Korail_4th_392000.png"){
+/*--------------------------------------------------------------------
+Korail_392000 자유편성
+--------------------------------------------------------------------*/
+spriteset(set_Korail_392000_engineH_Free, "src/metro/Korail/Korail_4th/Korail_4th_392000_Free.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Korail_392000_engineH_Free_Rev, "src/metro/Korail/Korail_4th/Korail_4th_392000_Free.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Korail_392000_engineT_Free_Rev, "src/metro/Korail/Korail_4th/Korail_4th_392000_Free.png"){
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_Korail_392000_engineT_Free, "src/metro/Korail/Korail_4th/Korail_4th_392000_Free.png"){
     DTS_temp_r(80, 81)
 }
 
-spriteset(set_Korail_392000_wagon, "src/metro/Korail/Korail_4th/Korail_4th_392000.png"){
+spriteset(set_Korail_392000_wagon, "src/metro/Korail/Korail_4th/Korail_4th_392000_Free.png"){
     DTS_temp(80, 108)
 }
 
 /*--------------------------------------------------------------------
-Korail_393000
+Korail_393000 고정편성
 --------------------------------------------------------------------*/
 spriteset(set_Korail_393000_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src/metro/Korail/Korail_4th/Korail_4th_393000.png"){
     DTS_temp(80, 0)
@@ -47,19 +58,30 @@ spriteset(set_Korail_393000_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "s
     DTS_temp(80, 54)
 }
 
-spriteset(set_Korail_393000_engineT_Free_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src/metro/Korail/Korail_4th/Korail_4th_393000.png"){
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_Korail_393000_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src/metro/Korail/Korail_4th/Korail_4th_393000.png"){
     DTS_temp(80, 81)
 }
 
-spriteset(set_Korail_393000_engineT_Free, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src/metro/Korail/Korail_4th/Korail_4th_393000.png"){
+/*--------------------------------------------------------------------
+Korail_393000 자유편성
+--------------------------------------------------------------------*/
+spriteset(set_Korail_393000_engineH_Free, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src/metro/Korail/Korail_4th/Korail_4th_393000_Free.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Korail_393000_engineH_Free_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src/metro/Korail/Korail_4th/Korail_4th_393000_Free.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Korail_393000_engineT_Free_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src/metro/Korail/Korail_4th/Korail_4th_393000_Free.png"){
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_Korail_393000_engineT_Free, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src/metro/Korail/Korail_4th/Korail_4th_393000_Free.png"){
     DTS_temp_r(80, 81)
 }
 
-spriteset(set_Korail_393000_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src/metro/Korail/Korail_4th/Korail_4th_393000.png"){
+spriteset(set_Korail_393000_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src/metro/Korail/Korail_4th/Korail_4th_393000_Free.png"){
     DTS_temp(80, 108)
 }
 
@@ -283,11 +305,11 @@ spriteset(set_Korail_392000_purchase, "src/metro/Korail/Korail_4th/Korail_4th_39
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_Korail_392000_engine_purchase, "src/metro/Korail/Korail_4th/Korail_4th_392000.png"){
+spriteset(set_Korail_392000_engine_purchase, "src/metro/Korail/Korail_4th/Korail_4th_392000_Free.png"){
     tmpl_purchase_for_dualhead(0, 0)
 }
 
-spriteset(set_Korail_392000_wagon_purchase, "src/metro/Korail/Korail_4th/Korail_4th_392000.png"){
+spriteset(set_Korail_392000_wagon_purchase, "src/metro/Korail/Korail_4th/Korail_4th_392000_Free.png"){
     tmpl_purchase(0, 108)
 }
 

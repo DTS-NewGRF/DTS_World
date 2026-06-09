@@ -17,6 +17,7 @@ body:
       description: 편성방식을 선택해주세요.
       options:
       - label: '고정편성'
+      - label: '자유편성'
       - label: '단일구성 (객화차 & 단일 기관차)'
     validations:
       required: true

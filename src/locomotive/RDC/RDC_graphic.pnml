@@ -66,6 +66,114 @@ spriteset(set_Pohang_Yeongdeok_2_wagon, "src/locomotive/RDC/RDC.png") {
 }
 
 /*--------------------------------------------------------------------
+무궁화 2cc
+--------------------------------------------------------------------*/
+spriteset(set_Mugunghwa_2cc_engineH, "src/locomotive/RDC/RDC_2cc.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Mugunghwa_2cc_engineH_Rev, "src/locomotive/RDC/RDC_2cc.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Mugunghwa_2cc_wagon, "src/locomotive/RDC/RDC_2cc.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Mugunghwa_2cc_wagon_Cafe, "src/locomotive/RDC/RDC_2cc.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Mugunghwa_2cc_engineT_Rev, "src/locomotive/RDC/RDC_2cc.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_Mugunghwa_2cc_engineT, "src/locomotive/RDC/RDC_2cc.png"){
+    DTS_temp(80, 135)
+}
+
+/*--------------------------------------------------------------------
+경북순환 구도색
+--------------------------------------------------------------------*/
+spriteset(set_RDC_Gyeongbuk_Old_engineH, "src/locomotive/RDC/RDC_Gyeongbuk_Old.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_RDC_Gyeongbuk_Old_engineH_Rev, "src/locomotive/RDC/RDC_Gyeongbuk_Old.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_RDC_Gyeongbuk_Old_wagon_M1, "src/locomotive/RDC/RDC_Gyeongbuk_Old.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_RDC_Gyeongbuk_Old_wagon_M2, "src/locomotive/RDC/RDC_Gyeongbuk_Old.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_RDC_Gyeongbuk_Old_engineT_Rev, "src/locomotive/RDC/RDC_Gyeongbuk_Old.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_RDC_Gyeongbuk_Old_engineT, "src/locomotive/RDC/RDC_Gyeongbuk_Old.png"){
+    DTS_temp(80, 135)
+}
+
+/*--------------------------------------------------------------------
+경북순환 신도색
+--------------------------------------------------------------------*/
+spriteset(set_RDC_Gyeongbuk_New_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_RDC_Gyeongbuk_New_engineH_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_RDC_Gyeongbuk_New_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_RDC_Gyeongbuk_New_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_RDC_Gyeongbuk_New_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_RDC_Gyeongbuk_New_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New.png"){
+    DTS_temp(80, 135)
+}
+
+/*--------------------------------------------------------------------
+경북나드리
+--------------------------------------------------------------------*/
+spriteset(set_RDC_Gyeongbuk_Nadri_engineH, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_RDC_Gyeongbuk_Nadri_engineH_Rev, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_RDC_Gyeongbuk_Nadri_wagon_M1, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_RDC_Gyeongbuk_Nadri_wagon_M2, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_RDC_Gyeongbuk_Nadri_engineT_Rev, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_RDC_Gyeongbuk_Nadri_engineT, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png"){
+    DTS_temp(80, 135)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_RDC_purchase, "src/locomotive/RDC/RDC.png"){

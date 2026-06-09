@@ -783,10 +783,15 @@ STR_REFIT_LIVERY_Shinkansen_H5_E6                      : 신칸센 H5+E6계
 STR_REFIT_LIVERY_Shinkansen_H5_E8                      : 신칸센 H5+E8계
 
 Livery_CDC_Old                          : 구도색
+Livery_CDC_Old_2cc                      : 구도색 2cc
 Livery_CDC_New                          : 신도색
+Livery_CDC_New_2cc                      : 신도색 2cc
 Livery_CDC_Flower                       : 꽃동산 도색
 Livery_CDC_Beach                        : 해변 도색
 Livery_CDC_Baekje                       : 백제왕관 도색
+Livery_CDC_Sea_Old                      : 바다열차 구도색
+Livery_CDC_Sea_New                      : 바다열차 신도색
+Livery_CDC_DMZ                          : DMZ
 Livery_DEL7600                          : 초기도색
 Livery_DEL7600_Old                      : 구도색
 Livery_DEL7600_New                      : 신도색
@@ -862,9 +867,14 @@ Livery_OEL8000_O2                       : 후기형 구도색
 Livery_OEL8000_N1                       : 초기형 신도색
 Livery_OEL8000_N2                       : 후기형 신도색
 Livery_Mugunghwa                        : 무궁화호
+Livery_Mugunghwa_2cc                    : 무궁화호 2cc
 Livery_Mugunghwa_cafe                   : 무궁화호 카페객차
+Livery_Mugunghwa_cafe_2cc               : 무궁화호 카페객차 2cc
 Livery_Pohang_Yeongdeok_1               : 포항영덕도색 1
 Livery_Pohang_Yeongdeok_2               : 포항영덕도색 2
+Livery_Gyeongbuk_Atype                  : 경북순환 구도색
+Livery_Gyeongbuk_Btype                  : 경북순환 신도색
+Livery_Gyeongbuk_Ctype                  : 경북나드리
 Livery_SRT                              : SRT
 Livery_SRT_2cc                          : SRT 2cc
 

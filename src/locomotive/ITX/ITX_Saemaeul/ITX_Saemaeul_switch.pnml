@@ -39,20 +39,15 @@ switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_DD_wagon, position_in_vehid_chain % 2)
     set_ITX_Saemaeul_wagon_DUP1;
 }
 
-switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_Free_wagon_front, position_in_vehid_chain) {
-    0: sw_ITX_Saemaeul_panto_wagon_M1;
+switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_Free_wagon_front, position_in_consist) {
+    1: sw_ITX_Saemaeul_panto_wagon_M1;
     set_ITX_Saemaeul_wagon_M;
 }
 
-switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_Free_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0: sw_ITX_Saemaeul_panto_wagon_M2;
-    1: set_ITX_Saemaeul_wagon_TM;
+switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_Free_wagon, position_in_consist_from_end) {
+    1: sw_ITX_Saemaeul_panto_wagon_M2;
+    2: set_ITX_Saemaeul_wagon_TM;
     sw_ITX_Saemaeul_Free_wagon_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_Free_wagon, num_vehs_in_vehid_chain) {
-    1..255: sw_ITX_Saemaeul_Free_wagon_full;
-    set_ITX_Saemaeul_wagon_M;
 }
 
 // 편성그래픽

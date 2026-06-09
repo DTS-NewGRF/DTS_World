@@ -790,10 +790,15 @@ STR_REFIT_LIVERY_Shinkansen_H5_E6                      : Shinkansen H5+E6
 STR_REFIT_LIVERY_Shinkansen_H5_E8                      : Shinkansen H5+E8
 
 Livery_CDC_Old                          : Old
+Livery_CDC_Old_2cc                      : Old 2cc
 Livery_CDC_New                          : New
+Livery_CDC_New_2cc                      : New 2cc
 Livery_CDC_Flower                       : Flower Garde
 Livery_CDC_Beach                        : Beach
 Livery_CDC_Baekje                       : Baekje Crown
+Livery_CDC_Sea_Old                      : Sea Old
+Livery_CDC_Sea_New                      : Sea New
+Livery_CDC_DMZ                          : DMZ
 Livery_DEL7600                          : Orginal
 Livery_DEL7600_Old                      : Old
 Livery_DEL7600_New                      : New
@@ -869,9 +874,14 @@ Livery_OEL8000_O2                       : 2nd Old livery
 Livery_OEL8000_N1                       : 1st New livery
 Livery_OEL8000_N2                       : 2nd New livery
 Livery_Mugunghwa                        : Mugunghwa
+Livery_Mugunghwa_2cc                    : Mugunghwa 2cc
 Livery_Mugunghwa_cafe                   : Mugunghwa cafe
+Livery_Mugunghwa_cafe_2cc               : Mugunghwa cafe 2cc
 Livery_Pohang_Yeongdeok_1               : Pohang Yeongdeok 1
 Livery_Pohang_Yeongdeok_2               : Pohang Yeongdeok 2
+Livery_Gyeongbuk_Atype                  : Gyeongbuk Atype
+Livery_Gyeongbuk_Btype                  : Gyeongbuk Btype
+Livery_Gyeongbuk_Ctype                  : Gyeongbuk Ctype
 Livery_SRT                              : SRT
 Livery_SRT_2cc                          : SRT 2cc
 

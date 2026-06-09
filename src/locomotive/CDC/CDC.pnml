@@ -53,6 +53,7 @@ item(FEAT_TRAINS, CDC_engine, 1133){
         purchase:                       sw_CDC_purchase;
         speed:                          sw_Regular_120_speed;
         cargo_subtype_text:             sw_CDC_cargo_subtype_text;
+        cargo_capacity:                 sw_CDC_engine_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -105,6 +106,7 @@ item(FEAT_TRAINS, CDC_wagon, 1134){
         default:                        sw_CDC_wagon;
         purchase:                       sw_CDC_wagon_purchase;
         cargo_subtype_text:             sw_CDC_cargo_subtype_text;
+        cargo_capacity:                 sw_CDC_wagon_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
