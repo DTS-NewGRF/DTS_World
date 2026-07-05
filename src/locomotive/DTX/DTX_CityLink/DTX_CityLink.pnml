@@ -4,5 +4,5 @@ CL-150
 /*--------------------------------------------------------------------
 열차 리스트
 --------------------------------------------------------------------*/
-#include "DTS_CityLink_120/DTS_CityLink_120.pnml"
+#include "DTX_CityLink_120/DTX_CityLink_120.pnml"
 #include "DTS_CityLink_150/DTS_CityLink_150.pnml"

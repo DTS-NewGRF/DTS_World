@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, AUTS_6Car, 2007){
     property {
-        name:                           string(STR_AUTS_6Car_NAME);
+        name:                           string(NAME_AUTS_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2010, 1, 1);
         track_type:                     ELRL;

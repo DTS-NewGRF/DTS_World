@@ -1,11 +1,11 @@
 /*--------------------------------------------------------------------
-DTS_CityLink_120
+DTX_CityLink_120
 --------------------------------------------------------------------*/
 // Graphics
-#include "DTS_CityLink_120_graphic.pnml"
+#include "DTX_CityLink_120_graphic.pnml"
 
 // Switch
-#include "DTS_CityLink_120_switch.pnml"
+#include "DTX_CityLink_120_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
@@ -22,7 +22,7 @@ item(FEAT_TRAINS, DTS_CityLink_120, 1081){
         }
 
     graphics {
-        purchase:                       set_DTS_CityLink_120_engine_Pass_purchase;
+        purchase:                       set_DTX_CityLink_120_engine_Pass_purchase;
         }
         }
 
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, DTS_CityLink_120, 1081){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTS_CityLink_120_Pass_engine, 1082){
     property {
-        name:                           string(NAME_DTS_CityLink_120_Pass_engine);
+        name:                           string(NAME_DTX_CityLink_120_Pass_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;
@@ -69,8 +69,8 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_engine, 1082){
         }
 
     graphics {
-        default:                        sw_DTS_CityLink_120_engine_Pass;
-        purchase:                       set_DTS_CityLink_120_engine_Pass_purchase;
+        default:                        sw_DTX_CityLink_120_engine_Pass;
+        purchase:                       set_DTX_CityLink_120_engine_Pass_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -79,7 +79,7 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_engine, 1082){
         }
     
     livery_override(DTS_CityLink_120_Pass_wagon) {
-        default:                        sw_DTS_CityLink_120_wagon_Pass;
+        default:                        sw_DTX_CityLink_120_wagon_Pass;
         loading_speed:                  25;
         power:                          671;
         }
@@ -90,7 +90,7 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_engine, 1082){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTS_CityLink_120_Post_engine, 1083){
     property {
-        name:                           string(NAME_DTS_CityLink_120_Post_engine);
+        name:                           string(NAME_DTX_CityLink_120_Post_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;
@@ -128,8 +128,8 @@ item(FEAT_TRAINS, DTS_CityLink_120_Post_engine, 1083){
         }
 
     graphics {
-        default:                        sw_DTS_CityLink_120_engine_Post;
-        purchase:                       set_DTS_CityLink_120_engine_Post_purchase;
+        default:                        sw_DTX_CityLink_120_engine_Post;
+        purchase:                       set_DTX_CityLink_120_engine_Post_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -138,7 +138,7 @@ item(FEAT_TRAINS, DTS_CityLink_120_Post_engine, 1083){
         }
     
     livery_override(DTS_CityLink_120_Post_wagon) {
-        default:                        set_DTS_CityLink_120_wagon_Post;
+        default:                        set_DTX_CityLink_120_wagon_Post;
         loading_speed:                  25;
         power:                          671;
         }
@@ -149,7 +149,7 @@ item(FEAT_TRAINS, DTS_CityLink_120_Post_engine, 1083){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTS_CityLink_120_Pass_wagon, 1084){
     property {
-        name:                           string(NAME_DTS_CityLink_120_Pass_wagon);
+        name:                           string(NAME_DTX_CityLink_120_Pass_wagon);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;
@@ -185,8 +185,8 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_wagon, 1084){
         }
 
     graphics {
-        default:                        sw_DTS_CityLink_120_wagon_Pass;
-        purchase:                       set_DTS_CityLink_120_wagon_Pass_purchase;
+        default:                        sw_DTX_CityLink_120_wagon_Pass;
+        purchase:                       set_DTX_CityLink_120_wagon_Pass_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -199,7 +199,7 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_wagon, 1084){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTS_CityLink_120_Post_wagon, 1085){
     property {
-        name:                           string(NAME_DTS_CityLink_120_Post_wagon);
+        name:                           string(NAME_DTX_CityLink_120_Post_wagon);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;
@@ -235,8 +235,8 @@ item(FEAT_TRAINS, DTS_CityLink_120_Post_wagon, 1085){
         }
 
     graphics {
-        default:                        set_DTS_CityLink_120_wagon_Post;
-        purchase:                       set_DTS_CityLink_120_wagon_Post_purchase;
+        default:                        set_DTX_CityLink_120_wagon_Post;
+        purchase:                       set_DTX_CityLink_120_wagon_Post_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -10,9 +10,9 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, WSPassenger_Tanzania, 2604){
+item(FEAT_TRAINS, TRC_SungShinRST, 2604){
     property {
-        name:                           string(STR_TRC_SungShinRST_NAME);
+        name:                           string(NAME_TRC_SungShinRST);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2022, 1, 1);
         track_type:                     RAIL;

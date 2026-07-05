@@ -27,7 +27,7 @@ item(FEAT_TRAINS, DTX_Logo, 1076){
 --------------------------------------------------------------------*/
 #include "DFX/DFX.pnml"
 #include "DPX/DPX.pnml"
-#include "DTS_CityLink/DTS_CityLink.pnml"
+#include "DTX_CityLink/DTX_CityLink.pnml"
 #include "DTS_Metro/DTS_Metro.pnml"
 #include "DTX_Glory/DTX_Glory.pnml"
 #include "DTX_Koryo/DTX_Koryo.pnml"

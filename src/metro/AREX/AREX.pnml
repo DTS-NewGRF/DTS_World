@@ -7,9 +7,9 @@
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, AREX_Logo, 2514){
+item(FEAT_TRAINS, AREX, 2514){
     property {
-        name:                           string(STR_Group_AREX_Logo_NAME);
+        name:                           string(NAME_AREX);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

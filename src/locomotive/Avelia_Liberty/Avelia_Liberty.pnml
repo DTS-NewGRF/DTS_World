@@ -12,7 +12,7 @@ Avelia_Liberty
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Avelia_Liberty_11Car, 2122){
     property {
-        name:                           string(STR_Avelia_Liberty_11Car_NAME);
+        name:                           string(NAME_Avelia_Liberty_11Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2023, 1, 1);
         track_type:                     ELRL;

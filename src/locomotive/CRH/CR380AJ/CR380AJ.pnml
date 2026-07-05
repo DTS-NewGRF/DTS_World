@@ -12,13 +12,13 @@ CRH380A Test
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CRH380AJ_8Car, 2044){
     property {
-        name:                           string(STR_CRH380AJ_8Car_NAME);
+        name:                           string(NAME_CRH380AJ_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  CRH_Logo;
+        variant_group:                  CRH;
         
         //spec
         speed:                          350km/h;

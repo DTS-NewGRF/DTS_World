@@ -12,13 +12,13 @@ CR400AF
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CR400AF, 2206){
     property {
-        name:                           string(STR_Group_CR400AF_NAME);
+        name:                           string(NAME_Group_CR400AF);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         power:                          20000 kW;
-        variant_group:                  CRH_Logo;
+        variant_group:                  CRH;
         }
 
     graphics {
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, CR400AF, 2206){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CR400AF_8Car, 2045){
     property {
-        name:                           string(STR_CR400AF_8Car_NAME);
+        name:                           string(NAME_CR400AF_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2016, 1, 1);
         track_type:                     ELRL;
@@ -83,7 +83,7 @@ item(FEAT_TRAINS, CR400AF_8Car, 2045){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CR400AF_16Car, 2148){
     property {
-        name:                           string(STR_CR400AF_16Car_NAME);
+        name:                           string(NAME_CR400AF_16Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2016, 1, 1);
         track_type:                     ELRL;
@@ -135,7 +135,7 @@ item(FEAT_TRAINS, CR400AF_16Car, 2148){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CR400AF_17Car, 2149){
     property {
-        name:                           string(STR_CR400AF_17Car_NAME);
+        name:                           string(NAME_CR400AF_17Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2016, 1, 1);
         track_type:                     ELRL;

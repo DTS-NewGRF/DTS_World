@@ -18,7 +18,7 @@ item(FEAT_TRAINS, CRH1_8Car, 2034){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  CRH_Logo;
+        variant_group:                  CRH;
         
         //spec
         speed:                          260km/h;

@@ -12,13 +12,13 @@ CR400AF_Z
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CR400AF_Z, 2207){
     property {
-        name:                           string(STR_Group_CR400AF_Z_NAME);
+        name:                           string(NAME_Group_CR400AF_Z);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         power:                          20000 kW;
-        variant_group:                  CRH_Logo;
+        variant_group:                  CRH;
         }
 
     graphics {
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, CR400AF_Z, 2207){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CR400AF_Z_8Car, 2046){
     property {
-        name:                           string(STR_CR400AF_Z_8Car_NAME);
+        name:                           string(NAME_CR400AF_Z_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2021, 1, 1);
         track_type:                     ELRL;
@@ -84,7 +84,7 @@ item(FEAT_TRAINS, CR400AF_Z_8Car, 2046){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CR400AF_Z_17Car, 2150){
     property {
-        name:                           string(STR_CR400AF_Z_17Car_NAME);
+        name:                           string(NAME_CR400AF_Z_17Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2021, 1, 1);
         track_type:                     ELRL;

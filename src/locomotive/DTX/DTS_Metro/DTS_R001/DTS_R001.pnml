@@ -12,7 +12,7 @@ DTX-Metro R001
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTS_R001_engine, 1095){
     property {
-        name:                           string(NAME_DTS_R001_engine);
+        name:                           string(NAME_DTX_R001_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
@@ -70,7 +70,7 @@ item(FEAT_TRAINS, DTS_R001_engine, 1095){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTS_R001_wagon, 1096){
     property {
-        name:                           string(NAME_DTS_R001_wagon);
+        name:                           string(NAME_DTX_R001_wagon);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;

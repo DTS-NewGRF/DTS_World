@@ -11,6 +11,6 @@ switch (FEAT_TRAINS, SELF, sw_wine_cinema_wagon, position_in_vehid_chain % 6) {
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_wine_cinema_6car, extra_callback_info1) {
-    1..5: Wine_Cinema_Passenger_Car;
+    1..5: Wine_Cinema;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }

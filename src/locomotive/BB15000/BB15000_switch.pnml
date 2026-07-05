@@ -3,24 +3,24 @@
 --------------------------------------------------------------------*/
 // 도색
 switch(FEAT_TRAINS, SELF, sw_BB15000_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_BB15000_Korail);     // Korail
-    2: return string(STR_REFIT_LIVERY_BB15000_En_Voyagee); // EN Voyagee
-    return string(STR_REFIT_LIVERY_BB15000_Orginal);
+    0: return string(Livery_BB15000_Orginal);
+    1: return string(Livery_BB15000_Korail);     // Korail
+    2: return string(Livery_BB15000_En_Voyagee); // EN Voyagee
 }
 
 // 도색그래픽 세팅
 // 전진방향
 switch(FEAT_TRAINS, SELF, sw_BB15000_engine_Front, cargo_subtype) {
-    1: set_BB15000_Korail_engine;    // KKorail
-    2: set_BB15000_EN_Voyagee_engine; // EN Voyagee
-    set_BB15000_engine;
+    0: set_BB15000_engine;
+    1: set_BB15000_Korail_engine;
+    2: set_BB15000_EN_Voyagee_engine;
 }
 
 // 후진방향
 switch(FEAT_TRAINS, SELF, sw_BB15000_engine_Back, cargo_subtype) {
-    1: set_BB15000_Korail_engine_Rev;    // KKorail
-    2: set_BB15000_EN_Voyagee_engine_Rev; // EN Voyagee
-    set_BB15000_engine_Rev;
+    0: set_BB15000_engine_Rev;
+    1: set_BB15000_Korail_engine_Rev;
+    2: set_BB15000_EN_Voyagee_engine_Rev;
 }
 
 // 전후진 통합 코드

@@ -35,7 +35,7 @@ sort(FEAT_TRAINS, [
     HYEL_PEX_Super,                          //1129
 
     // AREX 열차 그룹
-    AREX_Logo,                               //2514
+    AREX,                                    //2514
     APEX_1000_1st_6Car,                      //2340
     APEX_2000_1st_6Car,                      //2339
     APEX_2000_4th_6Car,                      //2009
@@ -282,7 +282,7 @@ sort(FEAT_TRAINS, [
     KTX_Sancheon_engine,                     //1029
     
     // CRH 중국고속열차
-    CRH_Logo,                                //2518
+    CRH,                                     //2518
     CRH1_8Car,                               //2034
     CRH1E_16Car,                             //2035
     CRH1A_A_8Car,                            //2036
@@ -547,8 +547,8 @@ sort(FEAT_TRAINS, [
     S_Train_5Car,                            //2163
     TLX_5Car,                                //2570
     V_Train_3Car,                            //2397
-    Wine_Cinema_Passenger_Car,               //2161
-    Wine_Panax_Passenger_Car,                //2160
+    Wine_Cinema,                             //2161
+    Wine_Panax,                              //2160
     Mugunhwa_2cc,                            //2245
     Mugunhwa_Real_Normal,                    //2389
     Mugunhwa_Real_Special,                   //2390
@@ -579,7 +579,7 @@ sort(FEAT_TRAINS, [
     PEX_Super_Generatar,                     //1017
     CSPassenger_Car,                         //2031
     ESPassenger_Car,                         //2061
-    WSPassenger_Tanzania,                    //2604
+    TRC_SungShinRST,                         //2604
     VPassenger,                              //1003
     
     // 발전차

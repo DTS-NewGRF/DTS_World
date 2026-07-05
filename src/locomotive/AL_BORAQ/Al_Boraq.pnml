@@ -12,7 +12,7 @@ AL-Boraq
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Al_Boraq_10Car, 2120){
     property {
-        name:                           string(STR_Al_Boraq_10Car_NAME);
+        name:                           string(NAME_Al_Boraq_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2018, 1, 1);
         track_type:                     ELRL;

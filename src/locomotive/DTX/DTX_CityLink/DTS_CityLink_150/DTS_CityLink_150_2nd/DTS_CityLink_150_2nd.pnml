@@ -12,7 +12,7 @@ DTS_CityLink_150 2세대
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTS_CityLink_150_2nd_engine, 1089){
     property {
-        name:                           string(NAME_DTS_CityLink_150_2nd_engine);
+        name:                           string(NAME_DTX_CityLink_150_2nd_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2030, 1, 1);
         track_type:                     ELRL;
@@ -74,7 +74,7 @@ item(FEAT_TRAINS, DTS_CityLink_150_2nd_engine, 1089){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTS_CityLink_150_2nd_wagon, 1090){
     property {
-        name:                           string(NAME_DTS_CityLink_150_2nd_wagon);
+        name:                           string(NAME_DTX_CityLink_150_2nd_wagon);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2030, 1, 1);
         track_type:                     ELRL;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, DTS_CityLink_150_2nd_wagon, 1090){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTS_CityLink_150_2nd_DD_wagon, 1091){
     property {
-        name:                           string(NAME_DTS_CityLink_150_2nd_DD_wagon);
+        name:                           string(NAME_DTX_CityLink_150_2nd_DD_wagon);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2030, 1, 1);
         track_type:                     ELRL;

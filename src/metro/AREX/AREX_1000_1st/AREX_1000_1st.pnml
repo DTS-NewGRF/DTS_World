@@ -12,13 +12,13 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, APEX_1000_1st_6Car, 2340){
     property {
-        name:                           string(STR_AREX_1000_1st_6Car_NAME);
+        name:                           string(NAME_AREX_1000_1st_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2006, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  AREX_Logo;
+        variant_group:                  AREX;
         
         //spec
         speed:                          165km/h;

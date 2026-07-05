@@ -12,7 +12,7 @@ BB15000
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, BB15000, 2064){
     property {
-        name:                           string(STR_BB15000_NAME);
+        name:                           string(NAME_BB15000);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1971, 1, 1);
         track_type:                     ELRL;

@@ -18,7 +18,7 @@ item(FEAT_TRAINS, CR400BF_Z, 2209){
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         power:                          20000 kW;
-        variant_group:                  CRH_Logo;
+        variant_group:                  CRH;
         }
 
     graphics {

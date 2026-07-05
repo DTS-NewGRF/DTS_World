@@ -12,7 +12,7 @@ DTX-Metro L150
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTS_L150_engine, 1092){
     property {
-        name:                           string(NAME_DTS_L150_engine);
+        name:                           string(NAME_DTX_L150_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
@@ -70,7 +70,7 @@ item(FEAT_TRAINS, DTS_L150_engine, 1092){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTS_L150_wagon, 1093){
     property {
-        name:                           string(NAME_DTS_L150_wagon);
+        name:                           string(NAME_DTX_L150_wagon);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
@@ -119,7 +119,7 @@ item(FEAT_TRAINS, DTS_L150_wagon, 1093){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTS_L150_DD_wagon, 1094){
     property {
-        name:                           string(NAME_DTS_L150_DD_wagon);
+        name:                           string(NAME_DTX_L150_DD_wagon);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;

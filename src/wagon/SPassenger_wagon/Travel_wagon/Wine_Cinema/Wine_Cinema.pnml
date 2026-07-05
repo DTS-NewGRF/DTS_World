@@ -10,9 +10,9 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, Wine_Cinema_Passenger_Car, 2161){
+item (FEAT_TRAINS, Wine_Cinema, 2161){
     property {
-        name:                           string(STR_Wine_Cinema_NAME);
+        name:                           string(NAME_Wine_Cinema);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2006, 1, 1);
         track_type:                     RAIL;
@@ -53,6 +53,5 @@ item (FEAT_TRAINS, Wine_Cinema_Passenger_Car, 2161){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_Wine_Cinema_Passenger);
         }
     }

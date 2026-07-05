@@ -289,8 +289,8 @@
 |2157|Eco_Rail_Passenger_Car|
 |2158|JA_A_Passenger_Car|
 |2159|E_Train_Passenger_Car|
-|2160|Wine_Panax_Passenger_Car|
-|2161|Wine_Cinema_Passenger_Car|
+|2160|Wine_Panax|
+|2161|Wine_Cinema|
 |2162|Lady_Bird_Passenger_Car|
 |2163|S_Train_5Car|
 |2164|A_Train_Passenger_Car|
@@ -552,11 +552,11 @@
 |2511|[그룹명] KTX_Logo|
 |2512|[그룹명] ITX_Logo|
 |2513|[공백]|
-|2514|[그룹명] AREX_Logo|
+|2514|[그룹명] AREX|
 |2515|[그룹명] MTR_Logo|
 |2516|[그룹명] Hankyu_Logo|
 |2517|[그룹명] Nishitetsu_Logo|
-|2518|[그룹명] CRH_Logo|
+|2518|[그룹명] CRH|
 |~2523|[공백] |
 |2524|[그룹명] Group_Luggage|
 |2525|Luggage_Olny|
@@ -594,7 +594,7 @@
 |2601|Renfe_Logo|
 |2602|Eurostar_Logo|
 |2603|WJapan_125_Series_EMU|
-|2604|WSPassenger_Tanzania|
+|2604|TRC_SungShinRST|
 |2605|TRC_E6800|
 |~2999|[공백]|
 |3000|[그룹명] Korail_First|
