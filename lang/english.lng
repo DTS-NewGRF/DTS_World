@@ -2,44 +2,18 @@
 
 
 # GRF name and description
-GRF_Name_with_Ver                       : Diversity Train Set {VERSION}
-GRF_Desc                                : Diversity Train Set
-GRF_URL                                 : https://github.com/DTS-NewGRF/DTS_World/releases
+GRF_Name_with_Ver                       :Diversity Train Set {VERSION}
+GRF_Desc                                :Diversity Train Set
+GRF_URL                                 :https://github.com/DTS-NewGRF/DTS_World/releases
 
 # Deleted / locomotive's name
 NAME_To_Be_Deleted                      : {RED} To Be Deleted
 
 # Parameters
-Param_Desc_Chinese                      : Please check when using Chinese trains.{}- Default: unusedParam_Desc_max_virtual_speed                           :Please check Virtual Speed.{}- Default: noVirtual speed
-Param_Desc_European                     : Please check when using European trains.{}- Default: unused
-Param_Desc_High_Speed_Train             : Adjust the Virtual speed of the high-speed train{}- Default:331km/h
-Param_Desc_High_Speed_Train_430         : Adjust the Virtual speed of the high-speed train{}- Default:430km/h{}- 430km/h train speed control
-Param_Desc_High_Speed_Train_Test        : Adjust the Virtual speed of the Test high-speed train{}- Default:600km/h
-Param_Desc_Hong_Kong                    : Please check when using Hong Kong trains.{}- Default: unused
-Param_Desc_Japanese                     : Please check when using Japanese trains.{}- Default: unused
-Param_Desc_Maintenance                  : Please check when using Maintenance trains.{}- Default: unused
-Param_Desc_Max_Virtual_Speed            : Checks whether to apply virtual speed.{}- Default: Real speed
-Param_Desc_Metro_Speed_Train            : Adjust the Virtual speed of the Metro-speed train{}- Default:121km/h
-Param_Desc_Passengercar_Real_speed      : Check the actual carriage speed if desired.{}- Basic: Passenger car speed limit
-Param_Desc_Regular_High_Speed_Train     : Adjust the Virtual speed of the Regular High speed train{}- Default:181km/h
-Param_Desc_Regular_Speed_Train          : Adjust the Virtual speed of the Regular-speed train{}- Default:151km/h
-Param_Desc_Semi_High_Speed_Train        : Adjust the Virtual speed of the Semi High Speed Train{}- Default:250km/h
-Param_Desc_World                        : Please check when using World trains.{}- Default: unused
-Param_Name_Chinese                      : No Chinese trains allowed.
-Param_Name_European                     : No European trains allowed.
-Param_Name_High_Speed_Train             : High Virtual speed Train
-Param_Name_High_Speed_Train_430         : High Virtual 430 speed Train
-Param_Name_High_Speed_Train_Test        : Test High Virtual speed Train
-Param_Name_Hong_Kong                    : No Hong Kong trains allowed.
-Param_Name_Japanese                     : No Japanese trains allowed.
-Param_Name_Maintenance                  : No Maintenance trains allowed.
 Param_Name_Max_Virtual_Speed            : Virtual speed
-Param_Name_Metro_Speed_Train            : Metro Train Virtual Speed Variable
-Param_Name_Passengercar_Real_speed      : Controls the speed of the carriage.
-Param_Name_Regular_High_Speed_Train     : Regular High Train Virtual speed Variable
-Param_Name_Regular_Speed_Train          : Regular Train Virtual speed Variable
-Param_Name_Semi_High_Speed_Train        : Semi High Virtual speed Train Speed variable
-Param_Name_World                        : No World trains allowed.
+Param_Desc_Max_Virtual_Speed            : Checks whether to apply virtual speed.{}- Default: Real speed
+Param_Name_High_Speed_Train             : High Virtual speed Train
+Param_Desc_High_Speed_Train             : Adjust the Virtual speed of the high-speed train{}- Default:331km/h
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}train configuration {}{GREEN} A-Train Passenger Car
@@ -83,6 +57,38 @@ ERROR_NOT_ENOUGH_LENGTH4                : It's too short. It should be equal or 
 ERROR_NOT_ENOUGH_LENGTH6                : It's too short. It should be equal or more than 6 cars at least.
 ERROR_NOT_ENOUGH_LENGTH8                : It's too short. It should be equal or more than 8 cars at least.
 
+# DTX engine Name
+NAME_Group_DTX_engine                   : DTX Engine
+NAME_DFX_engine                         : DFX
+NAME_DPX_engine                         : DPX
+NAME_DCL_120_Pass_engine                : [Passenger] DCL 120
+NAME_DCL_120_Post_engine                : [Post] DCL 120
+NAME_DCL_150_1st_engine                 : DCL 150 1st
+NAME_DCL_150_2nd_engine                 : DCL 2nd
+
+# DTX wagon Name
+NAME_Group_DTX_wagon                    : DTX Wagon
+NAME_DFX_wagon                          : DFX
+NAME_DPX_wagon_12car                    : [12Car] DPX
+NAME_DCL_120_Pass_wagon                 : [Passenger] DCL 120
+NAME_DCL_120_Post_wagon                 : [Post] DCL 120
+NAME_DCL_150_1st_wagon                  : DCL 150 1st
+NAME_DCL_150_1st_panto_wagon            : [Power] DCL 150 1st
+NAME_DCL_150_2nd_wagon                  : DCL 150 2nd
+NAME_DCL_150_2nd_panto_wagon            : [Power] DCL 150 2nd
+NAME_DCL_150_2nd_DD_wagon_2car          : [2Car] DCL 150 2nd DD
+
+# DTX Liveries
+Livery_DCL_150_1st_T                    : T Type
+Livery_DCL_150_1st_M                    : M Typye
+Livery_DCL_150_2nd_MT                   : (M)T Type
+Livery_DCL_150_2nd_M1                   : M1 Type
+Livery_DCL_150_2nd_M2                   : M2 Type
+Livery_DCL_150_2nd_CM                   : CM Type
+Livery_DTX_Glory_1Year                  : 1Year Livery
+Livery_DTX_Glory_2Year                  : 2Year Livery
+Livery_DTX_Glory_APEC_2025              : APEC 2025
+
 # Name
 NAME_AREX                               : AREX
 NAME_AREX_1000_1st_6Car                 : [6Car] AREX series 1000 1st
@@ -91,19 +97,7 @@ NAME_AREX_2000_4th_6Car                 : [6Car] AREX series 2000 4th
 NAME_AUTS_6Car                          : [6Car] AUTS
 NAME_Constrck                           : [Showcase] construction vehicle
 NAME_CTX_wagon                          : CTX
-NAME_DFX_engine                         : DFX
-NAME_DFX_wagon                          : DFX
-NAME_DPX_engine                         : DPX
-NAME_DPX_wagon                          : DPX
-NAME_DTX_CityLink_120_Pass_engine       : [Passenger] DTS-CityLink 120
-NAME_DTX_CityLink_120_Pass_wagon        : [Passenger] DTS-CityLink 120
-NAME_DTX_CityLink_120_Post_engine       : [Post] DTS-CityLink 120
-NAME_DTX_CityLink_120_Post_wagon        : [Post] DTS-CityLink 120
-NAME_DTX_CityLink_150_1st_engine        : DTS-CityLink 150 1st
-NAME_DTX_CityLink_150_1st_wagon         : DTS-CityLink 150 1st
-NAME_DTX_CityLink_150_2nd_engine        : DTS-CityLink 150 2nd
-NAME_DTX_CityLink_150_2nd_wagon         : DTS-CityLink 150 2nd
-NAME_DTX_CityLink_150_2nd_DD_wagon      : DTS-CityLink 150 2nd DD
+
 NAME_DTX_Glory_engine                   : DTX-Glory
 NAME_DTX_Glory_wagon                    : DTX-Glory
 NAME_DTX_Koryo_engine                   : DTX-Koryo
@@ -243,9 +237,6 @@ NAME_VPassenger                         : Virtual carriage-type passenger transp
 # Group's name
 NAME_Group_Busanmetro                   : Busan Metro
 NAME_Group_Daegumetro                   : Daegu Metro
-NAME_Group_DTX                          : DTX
-NAME_Group_DTS_CityLink_120             : DTS-CityLink 120
-NAME_Group_DTS_CityLink_150             : DTS-CityLink 150
 NAME_Group_HEMU_430X                    : HEMU-430X
 NAME_Group_HSR_350X                     : HSR-350X
 NAME_Group_HYEL                         : HYEL
@@ -653,11 +644,6 @@ Livery_Cargo                            : Cargo Train
 Livery_DEL7600                          : Orginal
 Livery_DEL7600_Old                      : Old
 Livery_DEL7600_New                      : New
-Livery_DTS_CityLink_150_2nd_A           : A Type
-Livery_DTS_CityLink_150_2nd_B           : B Type
-Livery_DTX_Glory_1Year                  : 1Year Livery
-Livery_DTX_Glory_2Year                  : 2Year Livery
-Livery_DTX_Glory_APEC_2025              : APEC 2025
 Livery_HYEL_100                         : Hydrogen Train
 Livery_HYEL_100_CI                      : Korail CI
 Livery_HYEL_100_original                : Original

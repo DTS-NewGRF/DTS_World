@@ -55,7 +55,6 @@ item(FEAT_TRAINS, ITX_CheongChan_engine, 1061){
     graphics {
         default:                        sw_ITX_CheongChan_engine;
         purchase:                       set_ITX_CheongChan_engine_purchase;
-        speed:                          sw_High_180_speed;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }

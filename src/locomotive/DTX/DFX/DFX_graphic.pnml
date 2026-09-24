@@ -25,7 +25,7 @@ spriteset(set_DFX_engineT, "src/locomotive/DTX/DFX/DFX.png"){
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_DFX_engine_purchase, "src/locomotive/DTX/DFX/DFX.png"){
-    tmpl_purchase_for_dualhead(0, 0)
+    tmpl_purchase(0, 0)
 }
 
 spriteset(set_DFX_wagon_purchase, "src/locomotive/DTX/DFX/DFX.png"){

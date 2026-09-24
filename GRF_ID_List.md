@@ -77,22 +77,22 @@
 |1073|ITX_Saemaeul_DD_wagon|
 |1074|ITX_Saemaeul_DD_engine|
 |1075|CTX_wagon|
-|1076|DTX_Logo|
+|1076|DTX_Logo_engine|
 |1077|DFX_engine|
 |1078|DFX_wagon|
 |1079|DPX_engine|
-|1080|DPX_wagon|
-|1081|DTS_CityLink_120|
-|1082|DTS_CityLink_120_Pass_engine|
-|1083|DTS_CityLink_120_Post_engine|
-|1084|DTS_CityLink_120_Pass_wagon|
-|1085|DTS_CityLink_120_Post_wagon|
-|1086|DTS_CityLink_150|
-|1087|DTS_CityLink_150_1st_engine|
-|1088|DTS_CityLink_150_1st_wagon|
-|1089|DTS_CityLink_150_2nd_engine|
-|1090|DTS_CityLink_150_2nd_wagon|
-|1091|DTS_CityLink_150_2nd_DD_wagon|
+|1080|DPX_wagon_12car|
+|1081|DCL_150_1st_panto_wagon|
+|1082|DCL_120_Pass_engine|
+|1083|DCL_120_Post_engine|
+|1084|DCL_120_Pass_wagon|
+|1085|DCL_120_Post_wagon|
+|1086|DCL_150_2nd_panto_wagon|
+|1087|DCL_150_1st_engine|
+|1088|DCL_150_1st_wagon|
+|1089|DCL_150_2nd_engine|
+|1090|DCL_150_2nd_wagon|
+|1091|DCL_150_2nd_DD_wagon_2car|
 |1092|DTS_L150_engine|
 |1093|DTS_L150_wagon|
 |1094|DTS_L150_DD_wagon|
@@ -140,6 +140,7 @@
 |1136|RDC_wagon|
 |1137|Korail_392000_engine|
 |1138|Korail_392000_wagon|
+|1139|DTX_Logo_wagon|
 
 |2001|CY_GW_6Car|
 |2002|G_Train|
@@ -269,8 +270,7 @@
 |2132|Saemaeul_2cc|
 |~2138|[공백] |
 |2139|Korail_392000_engine|
-|2140|Korail_392000_4Car|
-|2141|[공백] |
+|~2141|[공백] |
 |2142|NSW_TrainLink_D_6Car|
 |2143|Shinkansen_700_8Car|
 |2144|CRH2_16Car|

@@ -5,7 +5,7 @@
 속도 80
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Metro_80_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
+    1: return 150;
     return 80;
     }
 
@@ -13,7 +13,7 @@ switch(FEAT_TRAINS, SELF, sw_Metro_80_speed, Use_max_virtual_speed) {
 속도 85
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Metro_85_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
+    1: return 180;
     return 85;
     }
 
@@ -21,12 +21,12 @@ switch(FEAT_TRAINS, SELF, sw_Metro_85_speed, Use_max_virtual_speed) {
 속도 100
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Metro_100_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
+    1: return 150;
     return 100;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Regular_100_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
+    1: return 180;
     return 100;
     }
 
@@ -34,7 +34,7 @@ switch(FEAT_TRAINS, SELF, sw_Regular_100_speed, Use_max_virtual_speed) {
 속도 105
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Regular_105_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
+    1: return 180;
     return 105;
     }
 
@@ -42,25 +42,25 @@ switch(FEAT_TRAINS, SELF, sw_Regular_105_speed, Use_max_virtual_speed) {
 속도 110
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Metro_110_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
+    1: return 150;
     return 110;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Regular_110_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
+    1: return 180;
     return 110;
     }
 
-switch(FEAT_TRAINS, SELF, sw_wagon_110_speed, Use_Passengercar_Real_speed) {
-    1: return 110;
-    return 0;
+switch(FEAT_TRAINS, SELF, sw_wagon_110_speed, Use_max_virtual_speed) {
+    1: return 0;
+    return 110;
     }
 
 /*--------------------------------------------------------------------
 속도 115
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Metro_115_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
+    1: return 150;
     return 115;
     }
 
@@ -68,25 +68,25 @@ switch(FEAT_TRAINS, SELF, sw_Metro_115_speed, Use_max_virtual_speed) {
 속도 120
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Metro_120_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
+    1: return 150;
     return 120;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Regular_120_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
+    1: return 180;
     return 120;
     }
 
-switch(FEAT_TRAINS, SELF, sw_wagon_120_speed, Use_Passengercar_Real_speed) {
-    1: return 120;
-    return 0;
+switch(FEAT_TRAINS, SELF, sw_wagon_120_speed, Use_max_virtual_speed) {
+    1: return 0;
+    return 120;
     }
 
 /*--------------------------------------------------------------------
 속도 130
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Metro_130_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
+    1: return 150;
     return 130;
     }
 
@@ -94,7 +94,7 @@ switch(FEAT_TRAINS, SELF, sw_Metro_130_speed, Use_max_virtual_speed) {
 속도 135
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Metro_135_speed, Use_max_virtual_speed) {
-    1: return Metro_Speed_Train;
+    1: return 150;
     return 135;
     }
 
@@ -102,7 +102,7 @@ switch(FEAT_TRAINS, SELF, sw_Metro_135_speed, Use_max_virtual_speed) {
 속도 140
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Regular_140_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
+    1: return 180;
     return 140;
     }
 
@@ -110,36 +110,28 @@ switch(FEAT_TRAINS, SELF, sw_Regular_140_speed, Use_max_virtual_speed) {
 속도 150
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Regular_150_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
+    1: return 180;
     return 150;
     }
 
-switch(FEAT_TRAINS, SELF, sw_wagon_150_speed, Use_Passengercar_Real_speed) {
-    1: return 150;
-    return 0;
+switch(FEAT_TRAINS, SELF, sw_wagon_150_speed, Use_max_virtual_speed) {
+    1: return 0;
+    return 150;
     }
 
 /*--------------------------------------------------------------------
 속도 160
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Regular_160_speed, Use_max_virtual_speed) {
-    1: return Regular_Speed_Train;
+    1: return 180;
     return 160;
-    }
-
-/*--------------------------------------------------------------------
-속도 180
---------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_High_180_speed, Use_max_virtual_speed) {
-    1: return Regular_High_Speed_Train;
-    return 180;
     }
 
 /*--------------------------------------------------------------------
 속도 220
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_220_speed, Use_max_virtual_speed) {
-    1: return Semi_High_SPEED_Train;
+    1: return High_SPEED_Train;
     return 220;
     }
 
@@ -147,7 +139,7 @@ switch(FEAT_TRAINS, SELF, sw_High_220_speed, Use_max_virtual_speed) {
 속도 250
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_250_speed, Use_max_virtual_speed) {
-    1: return Semi_High_SPEED_Train;
+    1: return High_SPEED_Train;
     return 250;
     }
 
@@ -155,7 +147,7 @@ switch(FEAT_TRAINS, SELF, sw_High_250_speed, Use_max_virtual_speed) {
 속도 260
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_260_speed, Use_max_virtual_speed) {
-    1: return Semi_High_SPEED_Train;
+    1: return High_SPEED_Train;
     return 260;
     }
 
@@ -163,7 +155,7 @@ switch(FEAT_TRAINS, SELF, sw_High_260_speed, Use_max_virtual_speed) {
 속도 269
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_269_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
+    1: return High_SPEED_Train;
     return 269;
     }
 
@@ -171,7 +163,7 @@ switch(FEAT_TRAINS, SELF, sw_High_269_speed, Use_max_virtual_speed) {
 속도 275
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_275_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
+    1: return High_SPEED_Train;
     return 274;
     }
 
@@ -179,7 +171,7 @@ switch(FEAT_TRAINS, SELF, sw_High_275_speed, Use_max_virtual_speed) {
 속도 280
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_280_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
+    1: return High_SPEED_Train;
     return 279;
     }
 
@@ -187,12 +179,12 @@ switch(FEAT_TRAINS, SELF, sw_High_280_speed, Use_max_virtual_speed) {
 속도 285
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_285_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
+    1: return High_SPEED_Train;
     return 285;
     }
 
 switch(FEAT_TRAINS, SELF, sw_High_285_speed_Test, Use_max_virtual_speed) {
-    1: return High_Speed_Train_Test;
+    1: return High_SPEED_Train;
     return 285;
     }
 
@@ -200,7 +192,7 @@ switch(FEAT_TRAINS, SELF, sw_High_285_speed_Test, Use_max_virtual_speed) {
 속도 300
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_300_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
+    1: return High_SPEED_Train;
     return 300;
     }
 
@@ -208,7 +200,7 @@ switch(FEAT_TRAINS, SELF, sw_High_300_speed, Use_max_virtual_speed) {
 속도 305
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_305_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
+    1: return High_SPEED_Train;
     return 305;
     }
 
@@ -216,7 +208,7 @@ switch(FEAT_TRAINS, SELF, sw_High_305_speed, Use_max_virtual_speed) {
 속도 320
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_320_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
+    1: return High_SPEED_Train;
     return 320;
     }
 
@@ -224,7 +216,7 @@ switch(FEAT_TRAINS, SELF, sw_High_320_speed, Use_max_virtual_speed) {
 속도 330
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_330_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
+    1: return High_SPEED_Train;
     return 330;
     }
 
@@ -232,7 +224,7 @@ switch(FEAT_TRAINS, SELF, sw_High_330_speed, Use_max_virtual_speed) {
 속도 350
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_350_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
+    1: return High_SPEED_Train;
     return 350;
     }
 
@@ -240,7 +232,7 @@ switch(FEAT_TRAINS, SELF, sw_High_350_speed, Use_max_virtual_speed) {
 속도 368
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_368_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train;
+    1: return High_SPEED_Train;
     return 368;
     }
 
@@ -248,6 +240,6 @@ switch(FEAT_TRAINS, SELF, sw_High_368_speed, Use_max_virtual_speed) {
 속도 430
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_430_speed, Use_max_virtual_speed) {
-    1: return High_Speed_Train_430;
+    1: return 597;
     return 430;
     }

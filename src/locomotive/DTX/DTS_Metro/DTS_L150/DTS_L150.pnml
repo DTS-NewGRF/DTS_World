@@ -18,7 +18,7 @@ item(FEAT_TRAINS, DTS_L150_engine, 1092){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo;
+        variant_group:                  DTX_Logo_engine;
         dual_headed:                    1;
         
         //spec

@@ -1,0 +1,51 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_DCL_150_2nd_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_DCL_150_2nd_MT);
+    1: return string(Livery_DCL_150_2nd_M1);
+    2: return string(Livery_DCL_150_2nd_M2);
+    3: return string(Livery_DCL_150_2nd_CM);
+}
+
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_DCL_150_2nd_engineH, train_is_driving_backwards) {
+    0: set_DCL_150_2nd_engineH;
+    1: set_DCL_150_2nd_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DCL_150_2nd_panto_wagon, train_is_driving_backwards) {
+    0: set_DCL_150_2nd_panto_wagon;
+    1: set_DCL_150_2nd_panto_wagon_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DCL_150_2nd_engineT, train_is_driving_backwards) {
+    0: set_DCL_150_2nd_engineT;
+    1: set_DCL_150_2nd_engineT_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_DCL_150_2nd_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_DCL_150_2nd_engineT;
+    sw_DCL_150_2nd_engineH;
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_DCL_150_2nd_wagon, cargo_subtype) {
+    0: set_DCL_150_2nd_wagon_MT;
+    1: set_DCL_150_2nd_wagon_M1;
+    2: set_DCL_150_2nd_wagon_M2;
+    3: set_DCL_150_2nd_wagon_CM;
+}
+
+switch (FEAT_TRAINS, SELF, sw_DCL_150_2nd_DD_wagon_2car, position_in_vehid_chain % 2) {
+    0: set_DCL_150_2nd_wagon_T1;
+    1: set_DCL_150_2nd_wagon_T2;
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_DCL_150_2nd_DD_wagon_2car, extra_callback_info1) {
+    1: DCL_150_2nd_DD_wagon_2car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

@@ -52,7 +52,6 @@ item(FEAT_TRAINS, TTX_engine, 1054){
     graphics {
         default:                        sw_TTX_engine;
         purchase:                       set_TTX_engine_purchase;
-        speed:                          sw_High_180_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -154,7 +153,6 @@ item(FEAT_TRAINS, TTX_6Car, 2019){
         default:                        sw_TTX_6car;
         articulated_part:               sw_articulated_TTX_6car;
         purchase:                       set_TTX_purchase;
-        speed:                          sw_High_180_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -15,11 +15,10 @@ item(FEAT_TRAINS, DFX_engine, 1077){
         name:                           string(NAME_DFX_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo;
-        dual_headed:                    1;
+        variant_group:                  DTX_Logo_engine;
         
         //spec
         speed:                          600km/h;
@@ -27,8 +26,9 @@ item(FEAT_TRAINS, DFX_engine, 1077){
         weight:                         66 ton;
         tractive_effort_coefficient:    0.86;
         
-        //Model
+        //Modelㄴ
         model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
@@ -56,6 +56,7 @@ item(FEAT_TRAINS, DFX_engine, 1077){
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_osfx_65_sound;
+        start_stop:                     sw_start_stop_3Car;
         }
         }
 
@@ -70,7 +71,7 @@ item(FEAT_TRAINS, DFX_wagon, 1078){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
+        variant_group:                  DTX_Logo_wagon;
         
         //spec
         weight:                         66 ton;
@@ -101,6 +102,7 @@ item(FEAT_TRAINS, DFX_wagon, 1078){
 	graphics {
         default:                        set_DFX_wagon;
         purchase:                       set_DFX_wagon_purchase;
+        power:                          671;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

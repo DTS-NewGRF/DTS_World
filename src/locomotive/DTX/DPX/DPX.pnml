@@ -18,8 +18,7 @@ item(FEAT_TRAINS, DPX_engine, 1079){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo;
-        dual_headed:                    1;
+        variant_group:                  DTX_Logo_engine;
         
         //spec
         speed:                          600km/h;
@@ -57,21 +56,22 @@ item(FEAT_TRAINS, DPX_engine, 1079){
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_osfx_65_sound;
+        start_stop:                     sw_start_stop_3Car;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DPX_wagon, 1080){
+item(FEAT_TRAINS, DPX_wagon_12car, 1080){
     property {
-        name:                           string(NAME_DPX_wagon);
+        name:                           string(NAME_DPX_wagon_12car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
+        variant_group:                  DTX_Logo_wagon;
         
         //spec
         weight:                         66 ton;
@@ -101,8 +101,10 @@ item(FEAT_TRAINS, DPX_wagon, 1080){
         }
         
 	graphics {
-        default:                        sw_DPX_wagon;
+        default:                        sw_DPX_wagon_12car;
+        articulated_part:               sw_articulated_DPX_wagon_12car;
         purchase:                       set_DPX_wagon_purchase;
+        power:                          671;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

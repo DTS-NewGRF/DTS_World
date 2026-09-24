@@ -2,16 +2,14 @@
 정렬
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
-    //DTX 열차 그룹
-    DTX_Logo,                                //1076
+    //DTX 기관차 열차 그룹 
+    DTX_Logo_engine,                         //1076
     DFX_engine,                              //1077
     DPX_engine,                              //1079
-    DTS_CityLink_120,                        //1081
-    DTS_CityLink_120_Pass_engine,            //1082
-    DTS_CityLink_120_Post_engine,            //1083
-    DTS_CityLink_150,                        //1086
-    DTS_CityLink_150_1st_engine,             //1087
-    DTS_CityLink_150_2nd_engine,             //1089
+    DCL_120_Pass_engine,                     //1082
+    DCL_120_Post_engine,                     //1083
+    DCL_150_1st_engine,                      //1087
+    DCL_150_2nd_engine,                      //1089
     DTS_L150_engine,                         //1092
     DTS_R001_engine,                         //1095
     DTX_Glory_engine,                        //1097
@@ -20,6 +18,27 @@ sort(FEAT_TRAINS, [
     DTX_Sobaek_engine,                       //1103
     DTX_Sundeok_engine,                      //1105
     DTX_Taebaek_engine,                      //1107
+
+    //DTX 객차 열차 그룹 
+    DTX_Logo_wagon,                          //1076
+    DFX_wagon,                               //1078
+    DPX_wagon_12car,                         //1080
+    DCL_120_Pass_wagon,                      //1084
+    DCL_120_Post_wagon,                      //1085
+    DCL_150_1st_wagon,                       //1088
+    DCL_150_1st_panto_wagon,                 //1081
+    DCL_150_2nd_wagon,                       //1090
+    DCL_150_2nd_panto_wagon,                 //1086
+    DCL_150_2nd_DD_wagon_2car,               //1091
+    DTS_L150_wagon,                          //1093
+    DTS_L150_DD_wagon,                       //1094
+    DTS_R001_wagon,                          //1096
+    DTX_Glory_wagon,                         //1098
+    DTX_Koryo_wagon,                         //1100
+    DTX_Sejong_wagon,                        //1102
+    DTX_Sobaek_wagon,                        //1104
+    DTX_Sundeok_wagon,                       //1106
+    DTX_Taebaek_wagon,                       //1108
 
     // HYEL 열차 그룹
     HYEL_Logo,                               //1113
@@ -469,22 +488,6 @@ sort(FEAT_TRAINS, [
     Train_Car,                               //1000
     CDC_wagon,                               //1134
     CTX_wagon,                               //1075
-    DFX_wagon,                               //1078
-    DPX_wagon,                               //1080
-    DTS_CityLink_120_Pass_wagon,             //1084
-    DTS_CityLink_120_Post_wagon,             //1085
-    DTS_CityLink_150_1st_wagon,              //1088
-    DTS_CityLink_150_2nd_wagon,              //1090
-    DTS_CityLink_150_2nd_DD_wagon,           //1091
-    DTS_L150_wagon,                          //1093
-    DTS_L150_DD_wagon,                       //1094
-    DTS_R001_wagon,                          //1096
-    DTX_Glory_wagon,                         //1098
-    DTX_Koryo_wagon,                         //1100
-    DTX_Sejong_wagon,                        //1102
-    DTX_Sobaek_wagon,                        //1104
-    DTX_Sundeok_wagon,                       //1106
-    DTX_Taebaek_wagon,                       //1108
     H2_WJ_wagon,                             //1001
     HSR_350X_wagon,                          //1132
     HYEL_350_wagon,                          //1120

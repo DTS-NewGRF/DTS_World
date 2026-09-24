@@ -2,42 +2,23 @@
 DTX_CityLink_120
 --------------------------------------------------------------------*/
 // Graphics
-#include "DTX_CityLink_120_graphic.pnml"
+#include "DCL_120_graphic.pnml"
 
 // Switch
-#include "DTX_CityLink_120_switch.pnml"
-
-/*--------------------------------------------------------------------
-열차정보 그룹
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_CityLink_120, 1081){
-    property {
-        name:                           string(NAME_Group_DTS_CityLink_120);
-        climates_available:             NO_CLIMATE;
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        power:                          1680 kW;
-        variant_group:                  DTX_Logo;
-        }
-
-    graphics {
-        purchase:                       set_DTX_CityLink_120_engine_Pass_purchase;
-        }
-        }
+#include "DCL_120_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_CityLink_120_Pass_engine, 1082){
+item(FEAT_TRAINS, DCL_120_Pass_engine, 1082){
     property {
-        name:                           string(NAME_DTX_CityLink_120_Pass_engine);
+        name:                           string(NAME_DCL_120_Pass_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTS_CityLink_120;
+        variant_group:                  DTX_Logo_engine;
         
         //spec
         speed:                          150km/h;
@@ -69,34 +50,28 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_engine, 1082){
         }
 
     graphics {
-        default:                        sw_DTX_CityLink_120_engine_Pass;
-        purchase:                       set_DTX_CityLink_120_engine_Pass_purchase;
+        default:                        sw_DCL_120_engine_Pass;
+        purchase:                       set_DCL_120_engine_Pass_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_TOSHIBAStart_sound;
         }
-    
-    livery_override(DTS_CityLink_120_Pass_wagon) {
-        default:                        sw_DTX_CityLink_120_wagon_Pass;
-        loading_speed:                  25;
-        power:                          671;
-        }
-        }
+    }
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_CityLink_120_Post_engine, 1083){
+item(FEAT_TRAINS, DCL_120_Post_engine, 1083){
     property {
-        name:                           string(NAME_DTX_CityLink_120_Post_engine);
+        name:                           string(NAME_DCL_120_Post_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTS_CityLink_120;
+        variant_group:                  DTX_Logo_engine;
         
         //spec
         speed:                          150km/h;
@@ -128,34 +103,28 @@ item(FEAT_TRAINS, DTS_CityLink_120_Post_engine, 1083){
         }
 
     graphics {
-        default:                        sw_DTX_CityLink_120_engine_Post;
-        purchase:                       set_DTX_CityLink_120_engine_Post_purchase;
+        default:                        sw_DCL_120_engine_Post;
+        purchase:                       set_DCL_120_engine_Post_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_TOSHIBAStart_sound;
         }
-    
-    livery_override(DTS_CityLink_120_Post_wagon) {
-        default:                        set_DTX_CityLink_120_wagon_Post;
-        loading_speed:                  25;
-        power:                          671;
-        }
-        }
+    }
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_CityLink_120_Pass_wagon, 1084){
+item(FEAT_TRAINS, DCL_120_Pass_wagon, 1084){
     property {
-        name:                           string(NAME_DTX_CityLink_120_Pass_wagon);
+        name:                           string(NAME_DCL_120_Pass_wagon);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
+        variant_group:                  DTX_Logo_wagon;
         
         //spec
         weight:                         35 ton;
@@ -185,8 +154,8 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_wagon, 1084){
         }
 
     graphics {
-        default:                        sw_DTX_CityLink_120_wagon_Pass;
-        purchase:                       set_DTX_CityLink_120_wagon_Pass_purchase;
+        default:                        sw_DCL_120_wagon_Pass;
+        purchase:                       set_DCL_120_wagon_Pass_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -197,15 +166,15 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_wagon, 1084){
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_CityLink_120_Post_wagon, 1085){
+item(FEAT_TRAINS, DCL_120_Post_wagon, 1085){
     property {
-        name:                           string(NAME_DTX_CityLink_120_Post_wagon);
+        name:                           string(NAME_DCL_120_Post_wagon);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
+        variant_group:                  DTX_Logo_wagon;
         
         //spec
         weight:                         35 ton;
@@ -235,8 +204,8 @@ item(FEAT_TRAINS, DTS_CityLink_120_Post_wagon, 1085){
         }
 
     graphics {
-        default:                        set_DTX_CityLink_120_wagon_Post;
-        purchase:                       set_DTX_CityLink_120_wagon_Post_purchase;
+        default:                        set_DCL_120_wagon_Post;
+        purchase:                       set_DCL_120_wagon_Post_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

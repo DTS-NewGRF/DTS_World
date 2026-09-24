@@ -2,44 +2,18 @@
 ##gender m f
 
 # GRF name and description
-GRF_Name_with_Ver                       : 다양성 열차 세트 {VERSION}
-GRF_Desc                                : 다양성 열차 세트 입니다
-GRF_URL                                 : https://github.com/DTS-NewGRF/DTS_World/releases
+GRF_Name_with_Ver                       :다양성 열차 세트 {VERSION}
+GRF_Desc                                :다양성 열차 세트 입니다
+GRF_URL                                 :https://github.com/DTS-NewGRF/DTS_World/releases
 
 # Deleted / locomotive's name
 NAME_To_Be_Deleted                      : {RED}삭제예정
 
 # Parameters
-Param_Desc_Chinese                      : 중국형 열차를 사용시 체크하세요.{}- 기본:미사용
-Param_Desc_European                     : 유럽형 열차를 사용시 체크하세요.{}- 기본:미사용
-Param_Desc_High_Speed_Train             : 가상 고속열차의 속도를 조정합니다.{}- 기본:331km/h
-Param_Desc_High_Speed_Train_430         : 가상 초고속 열차의 속도를 조정합니다.{}- 기본:430km/h{}- 대상열차 : 430km/h 고속열차
-Param_Desc_High_Speed_Train_Test        : 가상 검측차 고속열차의 속도를 조정합니다.{}- 기본:600km/h
-Param_Desc_Hong_Kong                    : 홍콩형 열차를 사용시 체크하세요.{}- 기본:미사용
-Param_Desc_Japanese                     : 일본형 열차를 사용시 체크하세요.{}- 기본:미사용
-Param_Desc_Maintenance                  : 유지보수차량 사용시 체크하세요.{}- 기본:미사용
-Param_Desc_Max_Virtual_Speed            : 가상속도를 적용할지 체크합니다.{}- 기본:현실속도
-Param_Desc_Metro_Speed_Train            : 가상 지하철의 속도를 조정합니다.{}- 기본:121km/h
-Param_Desc_Passengercar_Real_speed      : 실제 객차 속도를 희망시 체크하세요.{}- 기본:객차속도제한
-Param_Desc_Regular_High_Speed_Train     : 가상 일반 준고속열차의 속도를 조정합니다.{}- 기본:181km/h{}- 대상열차 : GTX, TTX
-Param_Desc_Regular_Speed_Train          : 가상 일반열차의 속도를 조정합니다.{}- 기본:151km/h
-Param_Desc_Semi_High_Speed_Train        : 가상 준고속열차의 속도를 조정합니다.{}- 기본:250km/h
-Param_Desc_World                        : 월드형 열차를 사용시 체크하세요.{}- 기본:미사용
-Param_Name_Chinese                      : 중국형 열차 사용 금지
-Param_Name_European                     : 유럽형 열차 사용 금지
-Param_Name_High_Speed_Train             : 가상 고속열차 속도변수
-Param_Name_High_Speed_Train_430         : 가상 초고속 열차 속도변수
-Param_Name_High_Speed_Train_Test        : 가상 검측차 고속열차 속도변수
-Param_Name_Hong_Kong                    : 홍콩형 열차 사용 금지
-Param_Name_Japanese                     : 일본형 열차 사용 금지
-Param_Name_Maintenance                  : 유지보수차량 사용 금지
 Param_Name_Max_Virtual_Speed            : 가상속도 적용
-Param_Name_Metro_Speed_Train            : 가상 지하철 속도변수
-Param_Name_Passengercar_Real_speed      : 객차의 속도를 제어합니다.
-Param_Name_Regular_High_Speed_Train     : 가상 일반열차 속도변수
-Param_Name_Regular_Speed_Train          : 가상 일반 준고속열차 속도변수
-Param_Name_Semi_High_Speed_Train        : 가상 준고속열차 속도변수
-Param_Name_World                        : 월드형 열차 사용 금지
+Param_Desc_Max_Virtual_Speed            : 가상속도를 적용할지 체크합니다.{}- 기본:현실속도
+Param_Name_High_Speed_Train             : 가상 고속열차 속도변수
+Param_Desc_High_Speed_Train             : 가상 고속열차의 속도를 조정합니다.{}- 기본:331km/h
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] A-Train
@@ -83,6 +57,38 @@ ERROR_NOT_ENOUGH_LENGTH4                : 열차 길이가 너무 짧습니다. 
 ERROR_NOT_ENOUGH_LENGTH6                : 열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.
 ERROR_NOT_ENOUGH_LENGTH8                : 열차 길이가 너무 짧습니다. 최소한 8량 이상을 연결해야 합니다.
 
+# DTX engine Name
+NAME_Group_DTX_engine                   : DTX 기관차
+NAME_DFX_engine                         : DFX
+NAME_DPX_engine                         : DPX
+NAME_DCL_120_Pass_engine                : [승객] DCL 120
+NAME_DCL_120_Post_engine                : [우편] DCL 120
+NAME_DCL_150_1st_engine                 : DCL 150 1세대
+NAME_DCL_150_2nd_engine                 : DCL 2세대
+
+# DTX wagon Name
+NAME_Group_DTX_wagon                    : DTX 객차
+NAME_DFX_wagon                          : DFX
+NAME_DPX_wagon_12car                    : [12량] DPX
+NAME_DCL_120_Pass_wagon                 : [승객] DCL 120
+NAME_DCL_120_Post_wagon                 : [우편] DCL 120
+NAME_DCL_150_1st_wagon                  : DCL 150 1세대
+NAME_DCL_150_1st_panto_wagon            : [동력] DCL 150 1세대
+NAME_DCL_150_2nd_wagon                  : DCL 150 2세대
+NAME_DCL_150_2nd_panto_wagon            : [동력] DCL 150 2세대
+NAME_DCL_150_2nd_DD_wagon_2car          : [2량] DCL 150 DD 2세대
+
+# DTX Liveries
+Livery_DCL_150_1st_T                    : 객차 T
+Livery_DCL_150_1st_M                    : 객차 M
+Livery_DCL_150_2nd_MT                   : 객차 (M)T
+Livery_DCL_150_2nd_M1                   : 객차 M1
+Livery_DCL_150_2nd_M2                   : 객차 M2
+Livery_DCL_150_2nd_CM                   : 객차 CM
+Livery_DTX_Glory_1Year                  : 1주년 도색
+Livery_DTX_Glory_2Year                  : 2주년 도색
+Livery_DTX_Glory_APEC_2025              : APEC 2025
+
 # Name
 NAME_AREX                               : AREX
 NAME_AREX_1000_1st_6Car                 : [6량] 공항철도 1000호대 1세대 전동차
@@ -91,19 +97,7 @@ NAME_AREX_2000_4th_6Car                 : [6량] 공항철도 2000호대 4세대
 NAME_AUTS_6Car                          : [6량] 차세대전동차
 NAME_Constrck                           : [진열용] 건설차량
 NAME_CTX_wagon                          : CTX
-NAME_DFX_engine                         : DFX
-NAME_DFX_wagon                          : DFX
-NAME_DPX_engine                         : DPX
-NAME_DPX_wagon                          : DPX
-NAME_DTX_CityLink_120_Pass_engine       : [승객] DTS-CityLink 120
-NAME_DTX_CityLink_120_Pass_wagon        : [승객] DTS-CityLink 120
-NAME_DTX_CityLink_120_Post_engine       : [우편] DTS-CityLink 120
-NAME_DTX_CityLink_120_Post_wagon        : [우편] DTS-CityLink 120
-NAME_DTX_CityLink_150_1st_engine        : DTS-CityLink 150 1세대
-NAME_DTX_CityLink_150_1st_wagon         : DTS-CityLink 150 1세대
-NAME_DTX_CityLink_150_2nd_engine        : DTS-CityLink 150 2세대
-NAME_DTX_CityLink_150_2nd_wagon         : DTS-CityLink 150 2세대
-NAME_DTX_CityLink_150_2nd_DD_wagon      : DTS-CityLink 150 DD 2세대
+
 NAME_DTX_Glory_engine                   : DTX-영광
 NAME_DTX_Glory_wagon                    : DTX-영광
 NAME_DTX_Koryo_engine                   : DTX-고려
@@ -243,9 +237,6 @@ NAME_VPassenger                         : 가상 객차 차량
 # Group's name
 NAME_Group_Busanmetro                   : 부산교통공사 전동차
 NAME_Group_Daegumetro                   : 대구교통공사 전동차
-NAME_Group_DTX                          : DTX
-NAME_Group_DTS_CityLink_120             : DTS-CityLink 120
-NAME_Group_DTS_CityLink_150             : DTS-CityLink 150
 NAME_Group_HEMU_430X                    : HEMU-430X
 NAME_Group_HSR_350X                     : HSR-350X
 NAME_Group_HYEL                         : HYEL
@@ -646,11 +637,6 @@ Livery_Cargo                            : 수송차
 Livery_DEL7600                          : 초기도색
 Livery_DEL7600_Old                      : 구도색
 Livery_DEL7600_New                      : 신도색
-Livery_DTS_CityLink_150_2nd_A           : 크로스시트
-Livery_DTS_CityLink_150_2nd_B           : 세미크로스시트
-Livery_DTX_Glory_1Year                  : 1주년 도색
-Livery_DTX_Glory_2Year                  : 2주년 도색
-Livery_DTX_Glory_APEC_2025              : APEC 2025
 Livery_HYEL_100                         : 수소열차
 Livery_HYEL_100_CI                      : 한국철도공사 CI
 Livery_HYEL_100_original                : 오리지널

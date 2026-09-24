@@ -18,7 +18,7 @@ item(FEAT_TRAINS, DTX_Sundeok_engine, 1105){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo;
+        variant_group:                  DTX_Logo_engine;
         dual_headed:                    1;
         
         //spec

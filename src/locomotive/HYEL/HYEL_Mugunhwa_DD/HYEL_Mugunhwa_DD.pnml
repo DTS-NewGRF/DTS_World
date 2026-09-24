@@ -54,7 +54,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_engine, 1127){
     graphics {
         default:                        sw_HYEL_Mugunhwa_DD_engine;
         purchase:                       set_HYEL_Mugunhwa_DD_engine_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_Regular_150_speed;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;

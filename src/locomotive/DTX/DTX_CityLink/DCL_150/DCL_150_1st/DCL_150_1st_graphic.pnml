@@ -1,0 +1,52 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+DTX_CityLink_150
+--------------------------------------------------------------------*/
+spriteset(set_DCL_150_1st_engineH, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_1st/DCL_150_1st.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_DCL_150_1st_engineH_Rev, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_1st/DCL_150_1st.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_DCL_150_1st_panto_wagon, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_1st/DCL_150_1st.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_DCL_150_1st_panto_wagon_Rev, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_1st/DCL_150_1st.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_DCL_150_1st_wagon_T, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_1st/DCL_150_1st.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_DCL_150_1st_wagon_M, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_1st/DCL_150_1st.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_DCL_150_1st_engineT_Rev, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_1st/DCL_150_1st.png"){
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_DCL_150_1st_engineT, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_1st/DCL_150_1st.png"){
+    DTS_temp_r(80, 189)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_DCL_150_1st_engine_purchase, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_1st/DCL_150_1st.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_DCL_150_1st_panto_wagon_purchase, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_1st/DCL_150_1st.png"){
+    tmpl_purchase(0, 54)
+}
+
+spriteset(set_DCL_150_1st_wagon_purchase, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_1st/DCL_150_1st.png"){
+    tmpl_purchase(0, 108)
+}
