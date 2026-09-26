@@ -17,7 +17,7 @@ spriteset(set_HYEL_Mugunhwa_DD_engineT, "src/locomotive/HYEL/HYEL_Mugunhwa_DD/HY
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_HYEL_Mugunhwa_DD_engine_purchase, "src/locomotive/HYEL/HYEL_Mugunhwa_DD/HYEL_Mugunhwa_DD.png"){
-    tmpl_purchase_for_dualhead(0, 0)
+    tmpl_purchase(0, 0)
 }
 
 spriteset(set_HYEL_Mugunhwa_DD_wagon_purchase, "src/locomotive/HYEL/HYEL_Mugunhwa_DD/HYEL_Mugunhwa_DD.png"){

@@ -4,6 +4,9 @@ HYEL-120 단량
 // Graphics
 #include "HYEL_120_Unit_graphic.pnml"
 
+// Switch
+#include "HYEL_120_Unit_switch.pnml"
+
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
@@ -15,7 +18,7 @@ item(FEAT_TRAINS, HYEL_120_Unit, 1117){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HYEL_Logo;
+        variant_group:                  HYEL_Logo_engine;
         
         //spec
         speed:                          150km/h;
@@ -48,8 +51,9 @@ item(FEAT_TRAINS, HYEL_120_Unit, 1117){
         }
         
     graphics {
-        default:                        set_HYEL_120_Unit_engine;
+        default:                        sw_HYEL_120_Unit_engine;
         purchase:                       set_HYEL_120_Unit_purchase;
+        speed:                          sw_Regular_150_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -93,44 +93,44 @@
 |1089|DCL_150_2nd_engine|
 |1090|DCL_150_2nd_wagon|
 |1091|DCL_150_2nd_DD_wagon_2car|
-|1092|DTS_L150_engine|
-|1093|DTS_L150_wagon|
-|1094|DTS_L150_DD_wagon|
-|1095|DTS_R001_engine|
-|1096|DTS_R001_wagon|
+|1092|DTX_L150_engine|
+|1093|DTX_L150_wagon|
+|1094|DTX_L150_DD_wagon|
+|1095|DTX_R001_engine|
+|1096|DTX_R001_wagon|
 |1097|DTX_Glory_engine|
-|1098|DTX_Glory_wagon|
+|1098|DTX_Glory_wagon_9car|
 |1099|DTX_Koryo_engine|
-|1100|DTX_Koryo_wagon|
+|1100|DTX_Koryo_wagon_9car|
 |1101|DTX_Sejong_engine|
 |1102|DTX_Sejong_wagon|
 |1103|DTX_Sobaek_engine|
 |1104|DTX_Sobaek_wagon|
 |1105|DTX_Sundeok_engine|
-|1106|DTX_Sundeok_wagon|
+|1106|DTX_Sundeok_wagon_9car|
 |1107|DTX_Taebaek_engine|
 |1108|DTX_Taebaek_wagon|
 |1109|Glory_430_engine|
 |1110|Glory_430_wagon|
 |1111|Glory_600_engine|
 |1112|Glory_600_wagon|
-|1113|HYEL_Logo|
+|1113|HYEL_Logo_engine|
 |1114|HYEL_15|
 |1115|HYEL_100|
 |1116|HYEL_120_Dual|
 |1117|HYEL_120_Unit|
 |1118|HYEL_150|
 |1119|HYEL_350_engine|
-|1120|HYEL_350_wagon|
+|1120|HYEL_350_wagon_9car|
 |1121|HYEL_400_engine|
-|1122|HYEL_400_wagon|
+|1122|HYEL_400_wagon_5car|
 |1123|Constrck|
 |1124|HYEL_Gangsan|
 |1125|HYEL_Mugunhwa_engine|
 |1126|HYEL_Mugunhwa_wagon|
 |1127|HYEL_Mugunhwa_DD_engine|
 |1128|HYEL_Mugunhwa_DD_wagon|
-|1129|HYEL_PEX_Super|
+|1129|HYEL_PEX_Super_Psss|
 |1130|HYEL_Railjet|
 |1131|HSR_350X_engine|
 |1132|HSR_350X_wagon|
@@ -141,6 +141,21 @@
 |1137|Korail_392000_engine|
 |1138|Korail_392000_wagon|
 |1139|DTX_Logo_wagon|
+|1140|DTX_L150_panto_wagon|
+|1141|DTX_R001_panto_wagon|
+|1142|HYEL_Logo_wagon|
+|1143|HYEL_PEX_Super_Post|
+|1144|AREX_Logo_engine|
+|1145|AREX_Logo_wagon|
+|1146|AREX_1000_1st_Pass_engine|
+|1147|AREX_1000_1st_wagon_4Car|
+|1148|AREX_wagon|
+|1149|AREX_panto_wagon|
+|1150|AREX_2000_1st_engine|
+|1151|AREX_2000_1st_wagon_4Car|
+|1152|AREX_2000_4th_engine|
+|1153|AREX_2000_4th_wagon_4Car|
+|1154|AREX_1000_1st_Post_engine|
 
 |2001|CY_GW_6Car|
 |2002|G_Train|
@@ -150,7 +165,7 @@
 |2006|Standard_Metro_4Car|
 |2007|AUTS_6Car|
 |2008|H2_WJ_engine|
-|2009|APEX_2000_4th_6Car|
+|2009|[공백] |
 |2010|ITX_Maum_6Car|
 |2011|[그룹명] WJapan_227_Series_EMU_500|
 |2012|WJapan_227_Series_EMU_500_2Car|
@@ -447,9 +462,6 @@
 |2330|Eco_Rail_Passenger_5Car|
 |2331|[2차 그룹명] S_Train|
 |2332|S_Train_New_4Car|
-|~2338|[공백] |
-|2339|APEX_2000_1st_6Car|
-|2340|APEX_1000_1st_6Car|
 |~2353|[공백] |
 |2354|ITX_CheongChun_8Car|
 |2355|[공백] |
@@ -551,8 +563,7 @@
 |~2510|[공백] |
 |2511|[그룹명] KTX_Logo|
 |2512|[그룹명] ITX_Logo|
-|2513|[공백]|
-|2514|[그룹명] AREX|
+|~2514|[공백] |
 |2515|[그룹명] MTR_Logo|
 |2516|[그룹명] Hankyu_Logo|
 |2517|[그룹명] Nishitetsu_Logo|

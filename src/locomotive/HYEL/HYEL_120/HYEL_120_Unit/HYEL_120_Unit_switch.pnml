@@ -1,0 +1,8 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_HYEL_120_Unit_engine, train_is_driving_backwards) {
+    0: set_HYEL_120_Unit_engine;
+    1: set_HYEL_120_Unit_engine_Rev;
+}

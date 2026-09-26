@@ -19,34 +19,20 @@ switch(FEAT_TRAINS, SELF, sw_HYEL_350_engine, position_in_consist_from_end == 0 
 }
 
 // 객차
-switch (FEAT_TRAINS, SELF, sw_HYEL_350_wagon_front, position_in_vehid_chain) {
-    0..2: set_HYEL_350_wagon_T1;
-    3..4: set_HYEL_350_wagon_T2;
-    5..6: set_HYEL_350_wagon_T3;
-    7..8: set_HYEL_350_wagon_T4;
-    set_HYEL_350_wagon_T5;
-}
+switch (FEAT_TRAINS, SELF, sw_HYEL_350_wagon_9car, position_in_vehid_chain % 9) {
+    0: set_HYEL_350_wagon_T1;
+    1: set_HYEL_350_wagon_T2;
+    2: set_HYEL_350_wagon_T3;
+    3: set_HYEL_350_wagon_T4;
+    4: set_HYEL_350_wagon_T5;
+    5: set_HYEL_350_wagon_T6;
+    6: set_HYEL_350_wagon_T7;
+    7: set_HYEL_350_wagon_T8;
+    8: set_HYEL_350_wagon_T9;
+    }
 
-switch (FEAT_TRAINS, SELF, sw_HYEL_350_wagon_back, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0..1: set_HYEL_350_wagon_T9;
-    2..3: set_HYEL_350_wagon_T8;
-    4..5: set_HYEL_350_wagon_T7;
-    6..7: set_HYEL_350_wagon_T6;
-    set_HYEL_350_wagon_T5;
-}
-
-switch (FEAT_TRAINS, SELF, sw_HYEL_350_wagon_short, position_in_vehid_chain * 2 < num_vehs_in_vehid_chain) {
-    1: sw_HYEL_350_wagon_front;
-    0: sw_HYEL_350_wagon_back;
-}
-
-switch (FEAT_TRAINS, SELF, sw_HYEL_350_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0..7: sw_HYEL_350_wagon_back;
-    sw_HYEL_350_wagon_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_HYEL_350_wagon, num_vehs_in_vehid_chain) {
-     1..17:  sw_HYEL_350_wagon_short;
-    18..255: sw_HYEL_350_wagon_full;
-    set_HYEL_350_wagon_T5;
-}
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_350_wagon_9car, extra_callback_info1) {
+    1..8: HYEL_350_wagon_9car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

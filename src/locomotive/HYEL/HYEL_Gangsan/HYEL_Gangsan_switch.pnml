@@ -1,6 +1,14 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_HYEL_Gangsan_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_HYEL_Gangsan_M);
+    1: return string(Livery_HYEL_Gangsan_3T);
+    2: return string(Livery_HYEL_Gangsan_T);
+    3: return string(Livery_HYEL_Gangsan_TC);
+}
+
 // 전후진 통합 코드
 switch(FEAT_TRAINS, SELF, sw_HYEL_Gangsan_wagon_TC, train_is_driving_backwards) {
     0: set_HYEL_Gangsan_wagon_TC;
@@ -8,27 +16,9 @@ switch(FEAT_TRAINS, SELF, sw_HYEL_Gangsan_wagon_TC, train_is_driving_backwards) 
 }
 
 // 객차
-switch (FEAT_TRAINS, SELF, sw_HYEL_Gangsan_wagon_3car_front, position_in_vehid_chain) {
-    0: set_HYEL_Gangsan_wagon_3T;
-    set_HYEL_Gangsan_wagon_T;
-}
-
-switch (FEAT_TRAINS, SELF, sw_HYEL_Gangsan_wagon_front, position_in_vehid_chain) {
+switch(FEAT_TRAINS, SELF, sw_HYEL_Gangsan_wagon, cargo_subtype) {
     0: set_HYEL_Gangsan_wagon_M;
-    set_HYEL_Gangsan_wagon_T;
-}
-
-switch (FEAT_TRAINS, SELF, sw_HYEL_Gangsan_wagon_3car, position_in_consist_from_end) {
-    0: sw_HYEL_Gangsan_wagon_TC;
-    sw_HYEL_Gangsan_wagon_3car_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_HYEL_Gangsan_wagon_nomal, position_in_consist_from_end) {
-    0: sw_HYEL_Gangsan_wagon_TC;
-    sw_HYEL_Gangsan_wagon_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_HYEL_Gangsan_wagon, num_vehs_in_vehid_chain) {
-    2: sw_HYEL_Gangsan_wagon_3car;
-    sw_HYEL_Gangsan_wagon_nomal;
+    1: set_HYEL_Gangsan_wagon_3T;
+    2: set_HYEL_Gangsan_wagon_T;
+    3: sw_HYEL_Gangsan_wagon_TC;
 }

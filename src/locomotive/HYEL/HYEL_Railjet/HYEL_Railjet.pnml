@@ -18,7 +18,7 @@ item(FEAT_TRAINS, HYEL_Railjet, 1130){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
+        variant_group:                  HYEL_Logo_wagon;
         
         //spec
         weight:                         34 ton;
@@ -55,5 +55,6 @@ item(FEAT_TRAINS, HYEL_Railjet, 1130){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
+        cargo_subtype_text:             sw_HYEL_Railjet_cargo_subtype_text;
         }
         }

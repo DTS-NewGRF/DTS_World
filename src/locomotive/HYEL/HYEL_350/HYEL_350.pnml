@@ -18,8 +18,7 @@ item(FEAT_TRAINS, HYEL_350_engine, 1119){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HYEL_Logo;
-        dual_headed:                    1;
+        variant_group:                  HYEL_Logo_engine;
         
         //spec
         speed:                          331km/h;
@@ -65,15 +64,15 @@ item(FEAT_TRAINS, HYEL_350_engine, 1119){
 /*--------------------------------------------------------------------
 객차
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HYEL_350_wagon, 1120){
+item(FEAT_TRAINS, HYEL_350_wagon_9car, 1120){
     property {
-        name:                           string(NAME_HYEL_350_wagon);
+        name:                           string(NAME_HYEL_350_wagon_9car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2040, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
+        variant_group:                  HYEL_Logo_wagon;
         
         //spec
         weight:                         30 ton;
@@ -104,7 +103,8 @@ item(FEAT_TRAINS, HYEL_350_wagon, 1120){
         }
         
     graphics {
-        default:                        sw_HYEL_350_wagon;
+        default:                        sw_HYEL_350_wagon_9car;
+        articulated_part:               sw_articulated_HYEL_350_wagon_9car;
         purchase:                       set_HYEL_350_wagon_purchase;
         cost_factor:                    10;
         loading_speed:                  25;

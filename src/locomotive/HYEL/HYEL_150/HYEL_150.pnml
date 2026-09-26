@@ -18,10 +18,10 @@ item(FEAT_TRAINS, HYEL_150, 1118){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HYEL_Logo;
+        variant_group:                  HYEL_Logo_engine;
         
         //spec
-        speed:                          260km/h;
+        speed:                          151km/h;
         power:                          8000 kW;
         weight:                         130 ton;
         tractive_effort_coefficient:    0.3;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, HYEL_150, 1118){
     graphics {
         default:                        sw_HYEL_150_engine;
         purchase:                       set_HYEL_150_purchase;
-        speed:                          sw_High_260_speed;
+        speed:                          sw_Regular_150_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

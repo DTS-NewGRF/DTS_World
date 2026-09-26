@@ -5,6 +5,10 @@ spriteset(set_HYEL_120_Unit_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/loc
     DTS_temp(80, 0)
 }
 
+spriteset(set_HYEL_120_Unit_engine_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_120/HYEL_120_Unit/HYEL_120_Unit.png"){
+    DTS_temp(80, 27)
+}
+
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/

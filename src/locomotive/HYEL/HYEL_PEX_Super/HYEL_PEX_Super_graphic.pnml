@@ -1,41 +1,53 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_PEX_Super_WPC1_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+spriteset(set_HYEL_PEX_Super_TC_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_HYEL_PEX_Super_WPC1_engineH_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+spriteset(set_HYEL_PEX_Super_TC_engine_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
     DTS_temp(80, 27)
 }
 
-spriteset(set_HYEL_PEX_Super_RPC1_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+spriteset(set_HYEL_PEX_Super_STC_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_HYEL_PEX_Super_RPC1_engineH_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+spriteset(set_HYEL_PEX_Super_STC_engine_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
     DTS_temp(80, 81)
 }
 
-spriteset(set_HYEL_PEX_Super_WPC2_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
-    DTS_temp_r(80, 108)
+spriteset(set_HYEL_PEX_Super_FTC_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 108)
 }
 
-spriteset(set_HYEL_PEX_Super_WPC2_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
-    DTS_temp_r(80, 135)
+spriteset(set_HYEL_PEX_Super_FTC_engine_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 135)
 }
 
-spriteset(set_HYEL_PEX_Super_RPC2_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
-    DTS_temp_r(80, 162)
+spriteset(set_HYEL_PEX_Super_POST_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 162)
 }
 
-spriteset(set_HYEL_PEX_Super_RPC2_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
-    DTS_temp_r(80, 189)
+spriteset(set_HYEL_PEX_Super_POST_engine_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_HYEL_PEX_Super_GENERATOR_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 216)
+}
+
+spriteset(set_HYEL_PEX_Super_GENERATOR_engine_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    DTS_temp(80, 243)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_PEX_Super_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
-    tmpl_purchase_for_dualhead(0, 0)
+spriteset(set_HYEL_PEX_Super_Pass_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_HYEL_PEX_Super_Post_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    tmpl_purchase(0, 162)
 }

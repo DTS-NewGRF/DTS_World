@@ -2,7 +2,7 @@
 정렬
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
-    //DTX 기관차 열차 그룹 
+    // DTX 기관차 열차 그룹 
     DTX_Logo_engine,                         //1076
     DFX_engine,                              //1077
     DPX_engine,                              //1079
@@ -10,8 +10,8 @@ sort(FEAT_TRAINS, [
     DCL_120_Post_engine,                     //1083
     DCL_150_1st_engine,                      //1087
     DCL_150_2nd_engine,                      //1089
-    DTS_L150_engine,                         //1092
-    DTS_R001_engine,                         //1095
+    DTX_L150_engine,                         //1092
+    DTX_R001_engine,                         //1095
     DTX_Glory_engine,                        //1097
     DTX_Koryo_engine,                        //1099
     DTX_Sejong_engine,                       //1101
@@ -19,7 +19,7 @@ sort(FEAT_TRAINS, [
     DTX_Sundeok_engine,                      //1105
     DTX_Taebaek_engine,                      //1107
 
-    //DTX 객차 열차 그룹 
+    // DTX 객차 열차 그룹 
     DTX_Logo_wagon,                          //1076
     DFX_wagon,                               //1078
     DPX_wagon_12car,                         //1080
@@ -30,18 +30,20 @@ sort(FEAT_TRAINS, [
     DCL_150_2nd_wagon,                       //1090
     DCL_150_2nd_panto_wagon,                 //1086
     DCL_150_2nd_DD_wagon_2car,               //1091
-    DTS_L150_wagon,                          //1093
-    DTS_L150_DD_wagon,                       //1094
-    DTS_R001_wagon,                          //1096
-    DTX_Glory_wagon,                         //1098
-    DTX_Koryo_wagon,                         //1100
+    DTX_L150_wagon,                          //1093
+    DTX_L150_panto_wagon,                    //1140
+    DTX_L150_DD_wagon,                       //1094
+    DTX_R001_wagon,                          //1096
+    DTX_R001_panto_wagon,                    //1141
+    DTX_Glory_wagon_9car,                    //1098
+    DTX_Koryo_wagon_9car,                    //1100
     DTX_Sejong_wagon,                        //1102
     DTX_Sobaek_wagon,                        //1104
-    DTX_Sundeok_wagon,                       //1106
+    DTX_Sundeok_wagon_9car,                  //1106
     DTX_Taebaek_wagon,                       //1108
 
-    // HYEL 열차 그룹
-    HYEL_Logo,                               //1113
+    // HYEL 기관차 열차 그룹
+    HYEL_Logo_engine,                        //1113
     HYEL_15,                                 //1114
     HYEL_100,                                //1115
     HYEL_120_Unit,                           //1117
@@ -51,13 +53,32 @@ sort(FEAT_TRAINS, [
     HYEL_400_engine,                         //1121
     HYEL_Mugunhwa_engine,                    //1125
     HYEL_Mugunhwa_DD_engine,                 //1127
-    HYEL_PEX_Super,                          //1129
+    HYEL_PEX_Super_Psss,                     //1129
+    HYEL_PEX_Super_Post,                     //1143
 
-    // AREX 열차 그룹
-    AREX,                                    //2514
-    APEX_1000_1st_6Car,                      //2340
-    APEX_2000_1st_6Car,                      //2339
-    APEX_2000_4th_6Car,                      //2009
+    // HYEL 객차 열차 그룹
+    HYEL_Logo_wagon,                         //1142
+    HYEL_350_wagon_9car,                     //1120
+    HYEL_400_wagon_5car,                     //1122
+    HYEL_Gangsan,                            //1124
+    HYEL_Mugunhwa_wagon,                     //1126
+    HYEL_Mugunhwa_DD_wagon,                  //1128
+    HYEL_Railjet,                            //1130
+
+    // AREX 기관차 열차 그룹
+    AREX_Logo_engine,                        //1144
+    AREX_1000_1st_Pass_engine,               //1146
+    AREX_1000_1st_Post_engine,               //1154
+    AREX_2000_1st_engine,                    //1150
+    AREX_2000_4th_engine,                    //1152
+
+    // AREX 객차 열차 그룹
+    AREX_Logo_wagon,                         //1145
+    AREX_1000_1st_wagon_4Car,                //1147
+    AREX_2000_1st_wagon_4Car,                //1151
+    AREX_2000_4th_wagon_4Car,                //1153
+    AREX_wagon,                              //1148
+    AREX_panto_wagon,                        //1149
 
     // 대구교통공사
     Daegumetro,                              //2383
@@ -490,12 +511,7 @@ sort(FEAT_TRAINS, [
     CTX_wagon,                               //1075
     H2_WJ_wagon,                             //1001
     HSR_350X_wagon,                          //1132
-    HYEL_350_wagon,                          //1120
-    HYEL_400_wagon,                          //1122
-    HYEL_Gangsan,                            //1124
-    HYEL_Mugunhwa_wagon,                     //1126
-    HYEL_Mugunhwa_DD_wagon,                  //1128
-    HYEL_Railjet,                            //1130
+    
     Korail_392000_wagon,                     //1138
     Nextrain_wagon,                          //1019
     Nuriro_wagon,                            //1024

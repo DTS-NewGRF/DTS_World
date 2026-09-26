@@ -19,7 +19,6 @@ item(FEAT_TRAINS, DTX_Sejong_engine, 1101){
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         variant_group:                  DTX_Logo_engine;
-        dual_headed:                    1;
         
         //spec
         speed:                          331km/h;
@@ -72,7 +71,7 @@ item(FEAT_TRAINS, DTX_Sejong_wagon, 1102){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
+        variant_group:                  DTX_Logo_wagon;
         
         //spec
         weight:                         60 ton;

@@ -1,7 +1,14 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch (FEAT_TRAINS, SELF, sw_HYEL_Railjet_wagon, position_in_consist_from_end) {
-    0: set_HYEL_Railjet_wagon_tail;
-    set_HYEL_Railjet_wagon;
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_HYEL_Railjet_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_HYEL_Railjet_M);
+    1: return string(Livery_HYEL_Railjet_Tail);
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_HYEL_Railjet_wagon, cargo_subtype) {
+    0: set_HYEL_Railjet_wagon;
+    1: set_HYEL_Railjet_wagon_tail;
 }

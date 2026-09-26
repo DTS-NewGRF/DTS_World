@@ -1,30 +1,29 @@
 /*--------------------------------------------------------------------
-DTX-Metro L150
+DTX-Metro R001
 --------------------------------------------------------------------*/
 // Graphics
-#include "DTS_L150_graphic.pnml"
+#include "DTX_R001_graphic.pnml"
 
 // Switch
-#include "DTS_L150_switch.pnml"
+#include "DTX_R001_switch.pnml"
 
 /*--------------------------------------------------------------------
 기관차
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_L150_engine, 1092){
+item(FEAT_TRAINS, DTX_R001_engine, 1095){
     property {
-        name:                           string(NAME_DTX_L150_engine);
+        name:                           string(NAME_DTX_R001_engine);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2020, 1, 1);
+        introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         variant_group:                  DTX_Logo_engine;
-        dual_headed:                    1;
         
         //spec
         speed:                          150km/h;
-        power:                          1680 kW;
-        weight:                         35 ton;
+        power:                          3360 kW;
+        weight:                         33 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -35,7 +34,7 @@ item(FEAT_TRAINS, DTS_L150_engine, 1092){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 105;
+        cargo_capacity:                 116;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -51,35 +50,30 @@ item(FEAT_TRAINS, DTS_L150_engine, 1092){
         }
 
     graphics {
-        default:                        sw_DTS_L150_engine;
-        purchase:                       set_DTS_L150_engine_purchase;
+        default:                        sw_DTX_R001_engine;
+        purchase:                       set_DTX_R001_engien_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
-        }
-    
-    livery_override(DTS_L150_wagon) {
-        default:                        sw_DTS_L150_wagon;
-        loading_speed:                  25;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
-    
+
 /*--------------------------------------------------------------------
 객차
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_L150_wagon, 1093){
+item(FEAT_TRAINS, DTX_R001_wagon, 1096){
     property {
-        name:                           string(NAME_DTX_L150_wagon);
+        name:                           string(NAME_DTX_R001_wagon);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2020, 1, 1);
+        introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
+        variant_group:                  DTX_Logo_wagon;
         
         //spec
-        weight:                         35 ton;
+        weight:                         33 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -90,7 +84,7 @@ item(FEAT_TRAINS, DTS_L150_wagon, 1093){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 105;
+        cargo_capacity:                 116;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -106,8 +100,8 @@ item(FEAT_TRAINS, DTS_L150_wagon, 1093){
         }
 
     graphics {
-        default:                        set_DTS_L150_wagon_MTT1;
-        purchase:                       set_DTS_L150_wagon_purchase;
+        default:                        set_DTX_R001_wagon;
+        purchase:                       set_DTX_R001_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -117,18 +111,18 @@ item(FEAT_TRAINS, DTS_L150_wagon, 1093){
 /*--------------------------------------------------------------------
 객차
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_L150_DD_wagon, 1094){
+item(FEAT_TRAINS, DTX_R001_panto_wagon, 1141){
     property {
-        name:                           string(NAME_DTX_L150_DD_wagon);
+        name:                           string(NAME_DTX_R001_panto_wagon);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2020, 1, 1);
+        introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
+        variant_group:                  DTX_Logo_wagon;
         
         //spec
-        weight:                         50 ton;
+        weight:                         33 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -139,7 +133,7 @@ item(FEAT_TRAINS, DTS_L150_DD_wagon, 1094){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 130;
+        cargo_capacity:                 116;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -155,10 +149,11 @@ item(FEAT_TRAINS, DTS_L150_DD_wagon, 1094){
         }
 
     graphics {
-        default:                        set_DTS_L150_2F_wagon;
-        purchase:                       set_DTS_L150_DD_wagon_purchase;
+        default:                        set_DTX_R001_panto_wagon;
+        purchase:                       set_DTX_R001_panto_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        power:                          671;
         }
         }

@@ -8,17 +8,121 @@
 #include "AREX_2000_1st_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보
+기관차
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, APEX_2000_1st_6Car, 2339){
+item(FEAT_TRAINS, AREX_2000_1st_engine, 1150){
     property {
-        name:                           string(NAME_AREX_2000_1st_6Car);
+        name:                           string(NAME_AREX_2000_1st_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2005, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  AREX;
+        variant_group:                  AREX_Logo_engine;
+        
+        //spec
+        speed:                          165km/h;
+        power:                          2520 kW;
+        weight:                         198 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 125;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_AREX_2000_1st_engine;
+        purchase:                       set_AREX_2000_1st_engine_purchase;
+        speed:                          sw_Metro_110_speed;
+        loading_speed:                  25;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, AREX_2000_1st_wagon_4Car, 1151){
+    property {
+        name:                           string(NAME_AREX_2000_1st_wagon_4Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2005, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  AREX_Logo_wagon;
+        
+        //spec
+        speed:                          165km/h;
+        power:                          2520 kW;
+        weight:                         198 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 125;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_AREX_2000_1st_wagon_4car;
+        articulated_part:               sw_articulated_AREX_2000_1st_wagon_4car;
+        purchase:                       set_AREX_2000_1st_wagon_purchase;
+        loading_speed:                  25;
+        }
+        }
+
+/*--------------------------------------------------------------------
+삭제예정
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, APEX_2000_1st_6Car, 2339){
+    property {
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2005, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
         speed:                          165km/h;
@@ -54,9 +158,7 @@ item(FEAT_TRAINS, APEX_2000_1st_6Car, 2339){
     graphics {
         default:                        sw_AREX_2000_1st_6car;
         articulated_part:               sw_articulated_AREX_2000_1st_6car;
-        purchase:                       set_AREX_2000_1st_purchase;
-        speed:                          sw_Metro_110_speed;
+        purchase:                       set_AREX_2000_1st_engine_purchase;
         loading_speed:                  25;
-        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }

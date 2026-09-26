@@ -65,6 +65,14 @@ NAME_DCL_120_Pass_engine                : [승객] DCL 120
 NAME_DCL_120_Post_engine                : [우편] DCL 120
 NAME_DCL_150_1st_engine                 : DCL 150 1세대
 NAME_DCL_150_2nd_engine                 : DCL 2세대
+NAME_DTX_L150_engine                    : L150
+NAME_DTX_R001_engine                    : R001
+NAME_DTX_Glory_engine                   : DTX-영광
+NAME_DTX_Koryo_engine                   : DTX-고려
+NAME_DTX_Sejong_engine                  : DTX-세종
+NAME_DTX_Sobaek_engine                  : DTX-소백
+NAME_DTX_Sundeok_engine                 : DTX-선덕
+NAME_DTX_Taebaek_engine                 : DTX-태백
 
 # DTX wagon Name
 NAME_Group_DTX_wagon                    : DTX 객차
@@ -77,6 +85,17 @@ NAME_DCL_150_1st_panto_wagon            : [동력] DCL 150 1세대
 NAME_DCL_150_2nd_wagon                  : DCL 150 2세대
 NAME_DCL_150_2nd_panto_wagon            : [동력] DCL 150 2세대
 NAME_DCL_150_2nd_DD_wagon_2car          : [2량] DCL 150 DD 2세대
+NAME_DTX_L150_wagon                     : L150
+NAME_DTX_L150_panto_wagon               : [동력] L150
+NAME_DTX_L150_DD_wagon                  : L150 DD
+NAME_DTX_R001_wagon                     : R001
+NAME_DTX_R001_panto_wagon               : [동력] R001
+NAME_DTX_Glory_wagon_9car               : [9량] DTX-영광
+NAME_DTX_Koryo_wagon_9car               : [9량] DTX-고려
+NAME_DTX_Sejong_wagon                   : DTX-세종
+NAME_DTX_Sobaek_wagon                   : DTX-소백
+NAME_DTX_Sundeok_wagon_9car             : [9량] DTX-선덕
+NAME_DTX_Taebaek_wagon                  : DTX-태백
 
 # DTX Liveries
 Livery_DCL_150_1st_T                    : 객차 T
@@ -89,32 +108,71 @@ Livery_DTX_Glory_1Year                  : 1주년 도색
 Livery_DTX_Glory_2Year                  : 2주년 도색
 Livery_DTX_Glory_APEC_2025              : APEC 2025
 
+# HYEL engine Name
+NAME_Group_HYEL_engine                  : HYEL 기관차
+NAME_HYEL_15                            : HYEL-15
+NAME_HYEL_100                           : HYEL-100
+NAME_HYEL_120_Unit                      : HYEL-120 Unit
+NAME_HYEL_120_Dual                      : [2량] HYEL-120 Dual
+NAME_HYEL_150                           : HYEL-150
+NAME_HYEL_350_engine                    : HYEL-350
+NAME_HYEL_400_engine                    : HYEL-400
+NAME_HYEL_Mugunhwa_engine               : HYEL-무궁화
+NAME_HYEL_Mugunhwa_DD_engine            : HYEL-무궁화 DD
+NAME_HYEL_PEX_Super_Psss                : [승객] HYEL PEX-SUPER
+NAME_HYEL_PEX_Super_Post                : [우편] HYEL PEX-SUPER
+NAME_HYEL_Railjet                       : HYEL RailJet
+
+# HYEL wagon Name
+NAME_Group_HYEL_wagon                   : HYEL 객차
+NAME_HYEL_350_wagon_9car                : [9량] HYEL-350
+NAME_HYEL_400_wagon_5car                : [5량] HYEL-400
+NAME_HYEL_Gangsan                       : HYEL-강산
+NAME_HYEL_Mugunhwa_wagon                : HYEL-무궁화
+NAME_HYEL_Mugunhwa_DD_wagon             : HYEL-무궁화 DD
+
+# HYEL Liveries
+Livery_HYEL_100                         : 수소열차
+Livery_HYEL_100_CI                      : 한국철도공사 CI
+Livery_HYEL_100_original                : 오리지널
+Livery_HYEL_150                         : HYEL-150
+Livery_HYEL_150_SB                      : HYEL-150 바다도색
+Livery_HYEL_Gangsan_M                   : 객차 M
+Livery_HYEL_Gangsan_3T                  : 객차 3T
+Livery_HYEL_Gangsan_T                   : 객차 T
+Livery_HYEL_Gangsan_TC                  : 객차 TC
+Livery_HYEL_PEX_Super_TC                : 일반실
+Livery_HYEL_PEX_Super_FTC               : 특실
+Livery_HYEL_PEX_Super_Generator         : 발전차
+Livery_HYEL_Railjet_M                   : 객차 M
+Livery_HYEL_Railjet_Tail                : 객차 Tail
+
+# AREX engine Name
+NAME_Group_AREX_engine                  : AREX 기관차
+NAME_AREX_1000_1st_Pass_engine          : [승객] 공항철도 1000호대 1세대
+NAME_AREX_1000_1st_Post_engine          : [우편] 공항철도 1000호대 1세대
+NAME_AREX_2000_1st_engine               : 공항철도 2000호대 1세대
+NAME_AREX_2000_4th_engine               : 공항철도 2000호대 4세대
+
+# AREX wagon Name
+NAME_Group_AREX_wagon                   : AREX 객차
+NAME_AREX_1000_1st_wagon_4Car           : [4량] 공항철도 1000호대 1세대
+NAME_AREX_2000_1st_wagon_4Car           : [4량] 공항철도 2000호대 1세대
+NAME_AREX_2000_4th_wagon_4Car           : [4량] 공항철도 2000호대 4세대
+NAME_AREX_wagon                         : 공항철도
+NAME_AREX_panto_wagon                   : [동력] 공항철도
+
+# AREX Liveries
+Livery_AREX_1000_Old                    : 1000호대 구도색
+Livery_AREX_1000_New                    : 1000호대 신도색
+Livery_AREX_2000_1st                    : 2000호대 1세대
+Livery_AREX_2000_4th                    : 2000호대 4세대
+
 # Name
-NAME_AREX                               : AREX
-NAME_AREX_1000_1st_6Car                 : [6량] 공항철도 1000호대 1세대 전동차
-NAME_AREX_2000_1st_6Car                 : [6량] 공항철도 2000호대 1세대 전동차
-NAME_AREX_2000_4th_6Car                 : [6량] 공항철도 2000호대 4세대 전동차
 NAME_AUTS_6Car                          : [6량] 차세대전동차
 NAME_Constrck                           : [진열용] 건설차량
 NAME_CTX_wagon                          : CTX
 
-NAME_DTX_Glory_engine                   : DTX-영광
-NAME_DTX_Glory_wagon                    : DTX-영광
-NAME_DTX_Koryo_engine                   : DTX-고려
-NAME_DTX_Koryo_wagon                    : DTX-고려
-NAME_DTX_L150_engine                    : DTX-Metro L150
-NAME_DTX_L150_wagon                     : DTX-Metro L150
-NAME_DTX_L150_DD_wagon                  : DTX-Metro L150 DD
-NAME_DTX_R001_engine                    : DTX-Metro R001
-NAME_DTX_R001_wagon                     : DTX-Metro R001
-NAME_DTX_Sejong_engine                  : DTX-세종
-NAME_DTX_Sejong_wagon                   : DTX-세종
-NAME_DTX_Sobaek_engine                  : DTX-소백
-NAME_DTX_Sobaek_wagon                   : DTX-소백
-NAME_DTX_Sundeok_engine                 : DTX-선덕
-NAME_DTX_Sundeok_wagon                  : DTX-선덕
-NAME_DTX_Taebaek_engine                 : DTX-태백
-NAME_DTX_Taebaek_wagon                  : DTX-태백
 NAME_Glory_430_engine                   : Glory 430
 NAME_Glory_430_wagon                    : Glory 430
 NAME_Glory_600_engine                   : Glory 600
@@ -133,22 +191,7 @@ NAME_HSR_350X_7Car                      : [7량] HSR-350X
 NAME_HSR_350X_14Car                     : [14량] HSR-350X
 NAME_HSR_350X_engine                    : HSR-350X
 NAME_HSR_350X_wagon                     : HSR-350X
-NAME_HYEL_15                            : HYEL-15
-NAME_HYEL_100                           : HYEL-100
-NAME_HYEL_120_Dual                      : HYEL-120 Dual
-NAME_HYEL_120_Unit                      : HYEL-120 Unit
-NAME_HYEL_150                           : HYEL-150
-NAME_HYEL_350_engine                    : HYEL-350
-NAME_HYEL_350_wagon                     : HYEL-350
-NAME_HYEL_400_engine                    : HYEL-400
-NAME_HYEL_400_wagon                     : HYEL-400
-NAME_HYEL_Gangsan                       : HYEL-강산
-NAME_HYEL_Mugunhwa_engine               : HYEL-무궁화
-NAME_HYEL_Mugunhwa_wagon                : HYEL-무궁화
-NAME_HYEL_Mugunhwa_DD_engine            : HYEL-무궁화 DD
-NAME_HYEL_Mugunhwa_DD_wagon             : HYEL-무궁화 DD
-NAME_HYEL_PEX_Super                     : HYEL PEX-SUPER
-NAME_HYEL_Railjet                       : HYEL RailJet
+
 NAME_ITX_CheongChan_engine              : ITX-청천
 NAME_ITX_CheongChan_wagon               : ITX-청천
 NAME_ITX_CheongChun_8Car                : [8량] ITX-청춘
@@ -239,7 +282,7 @@ NAME_Group_Busanmetro                   : 부산교통공사 전동차
 NAME_Group_Daegumetro                   : 대구교통공사 전동차
 NAME_Group_HEMU_430X                    : HEMU-430X
 NAME_Group_HSR_350X                     : HSR-350X
-NAME_Group_HYEL                         : HYEL
+
 NAME_Group_ICE                          : ICE
 NAME_Group_ITX                          : ITX
 NAME_Group_ITX_Maum                     : ITX-마음
@@ -637,13 +680,7 @@ Livery_Cargo                            : 수송차
 Livery_DEL7600                          : 초기도색
 Livery_DEL7600_Old                      : 구도색
 Livery_DEL7600_New                      : 신도색
-Livery_HYEL_100                         : 수소열차
-Livery_HYEL_100_CI                      : 한국철도공사 CI
-Livery_HYEL_100_original                : 오리지널
-Livery_HYEL_150                         : HYEL-150
-Livery_HYEL_150_SB                      : HYEL-150 바다도색
-Livery_HYEL_PEX_Super_A                 : 기본도색
-Livery_HYEL_PEX_Super_B                 : 무지개도색
+
 Livery_ITX_CheongChun_A                 : ITX-청춘
 Livery_ITX_CheongChun_B                 : ITX-청춘 용 랩핑
 Livery_ITX_Maum                         : ITX-마음
@@ -868,8 +905,6 @@ STR_REFIT_LIVERY_Shinkansen_H5_E6                      : 신칸센 H5+E6계
 STR_REFIT_LIVERY_Shinkansen_H5_E8                      : 신칸센 H5+E8계
 
 # Liveries Metro
-STR_REFIT_LIVERY_AREX_1000_Old                         : 구도색
-STR_REFIT_LIVERY_AREX_1000_New                         : 신도색
 STR_REFIT_LIVERY_AUTS                                  : AUTS
 STR_REFIT_LIVERY_Busanmetro_1st_1000_Chopper           : 초퍼
 STR_REFIT_LIVERY_Busanmetro_1st_1000_VVVF              : VVVF

@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+// 도색
+switch(FEAT_TRAINS, SELF, sw_AREX_wagon_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_AREX_1000_Old);
+    1: return string(Livery_AREX_1000_New);
+    2: return string(Livery_AREX_2000_1st);
+    3: return string(Livery_AREX_2000_4th);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_AREX_panto_wagon_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_AREX_1000_Old);
+    1: return string(Livery_AREX_1000_New);
+    2: return string(Livery_AREX_2000_1st);
+    return CB_RESULT_NO_TEXT;
+}
+
+// 도색그래픽 세팅
+switch(FEAT_TRAINS, SELF, sw_AREX_wagon, cargo_subtype) {
+    0: set_AREX_1000_1st_Old_wagon_M_T;
+    1: set_AREX_1000_1st_New_wagon_M_T;
+    2: set_AREX_2000_1st_wagon;
+    3: set_AREX_2000_4th_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_AREX_panto_wagon, cargo_subtype) {
+    0: set_AREX_1000_1st_Old_panto_wagon;
+    1: set_AREX_1000_1st_New_panto_wagon;
+    2: set_AREX_2000_1st_panto_wagon;
+}

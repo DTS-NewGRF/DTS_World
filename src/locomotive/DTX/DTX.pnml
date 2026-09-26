@@ -42,7 +42,7 @@ item(FEAT_TRAINS, DTX_Logo_wagon, 1139){
 #include "DFX/DFX.pnml"
 #include "DPX/DPX.pnml"
 #include "DTX_CityLink/DTX_CityLink.pnml"
-#include "DTS_Metro/DTS_Metro.pnml"
+#include "DTX_Metro/DTX_Metro.pnml"
 #include "DTX_Glory/DTX_Glory.pnml"
 #include "DTX_Koryo/DTX_Koryo.pnml"
 #include "DTX_Sejong/DTX_Sejong.pnml"

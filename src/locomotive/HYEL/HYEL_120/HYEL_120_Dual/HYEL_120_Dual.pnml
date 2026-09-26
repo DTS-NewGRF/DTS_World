@@ -18,7 +18,7 @@ item(FEAT_TRAINS, HYEL_120_Dual, 1116){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HYEL_Logo;
+        variant_group:                  HYEL_Logo_engine;
         
         //spec
         speed:                          150km/h;
@@ -51,8 +51,10 @@ item(FEAT_TRAINS, HYEL_120_Dual, 1116){
         }
         
     graphics {
-        default:                        sw_HYEL_120_Dual_engine;
+        default:                        sw_HYEL_120_Dual_engine_2car;
+        articulated_part:               sw_articulated_HYEL_120_Dual_engine_2car;
         purchase:                       set_HYEL_120_Dual_purchase;
+        speed:                          sw_Regular_150_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

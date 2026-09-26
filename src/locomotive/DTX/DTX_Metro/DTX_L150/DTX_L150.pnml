@@ -1,29 +1,29 @@
 /*--------------------------------------------------------------------
-공항철도 1000호대 1세대 전동차
+DTX-Metro L150
 --------------------------------------------------------------------*/
 // Graphics
-#include "AREX_1000_1st_graphic.pnml"
+#include "DTX_L150_graphic.pnml"
 
 // Switch
-#include "AREX_1000_1st_switch.pnml"
+#include "DTX_L150_switch.pnml"
 
 /*--------------------------------------------------------------------
 기관차
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, AREX_1000_1st_Pass_engine, 1146){
+item(FEAT_TRAINS, DTX_L150_engine, 1092){
     property {
-        name:                           string(NAME_AREX_1000_1st_Pass_engine);
+        name:                           string(NAME_DTX_L150_engine);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2006, 1, 1);
+        introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  AREX_Logo_engine;
+        variant_group:                  DTX_Logo_engine;
         
         //spec
-        speed:                          165km/h;
-        power:                          2520 kW;
-        weight:                         198 ton;
+        speed:                          150km/h;
+        power:                          1680 kW;
+        weight:                         35 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -34,50 +34,46 @@ item(FEAT_TRAINS, AREX_1000_1st_Pass_engine, 1146){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 50;
+        cargo_capacity:                 105;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
         
         //Costs
-        cost_factor:                    10;
-        running_cost_factor:            150;
         refit_cost:                     0;
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
-        
-    graphics {
-        default:                        sw_AREX_1000_1st_engine;
-        purchase:                       sw_AREX_1000_1st_engine_purchase;
-        speed:                          sw_Metro_110_speed;
-        loading_speed:                  25;
-        cargo_subtype_text:             sw_AREX_1000_1st_cargo_subtype_text;
-        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
-        }
-        }
 
+    graphics {
+        default:                        sw_DTX_L150_engine;
+        purchase:                       set_DTX_L150_engine_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
+        }
+        }
+    
 /*--------------------------------------------------------------------
-기관차
+객차
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, AREX_1000_1st_Post_engine, 1154){
+item(FEAT_TRAINS, DTX_L150_wagon, 1093){
     property {
-        name:                           string(NAME_AREX_1000_1st_Post_engine);
+        name:                           string(NAME_DTX_L150_wagon);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2006, 1, 1);
+        introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  AREX_Logo_engine;
+        variant_group:                  DTX_Logo_wagon;
         
         //spec
-        speed:                          165km/h;
-        power:                          2520 kW;
-        weight:                         198 ton;
+        weight:                         35 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -88,102 +84,45 @@ item(FEAT_TRAINS, AREX_1000_1st_Post_engine, 1154){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 50;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [MAIL, VALU, GOOD];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC);
-        extra_weight_per_wagon:         35 ton;
-        }
-        
-    graphics {
-        default:                        sw_AREX_1000_1st_engine;
-        purchase:                       sw_AREX_1000_1st_engine_purchase;
-        speed:                          sw_Metro_110_speed;
-        loading_speed:                  25;
-        cargo_subtype_text:             sw_AREX_1000_1st_cargo_subtype_text;
-        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
-        }
-        }
-
-/*--------------------------------------------------------------------
-고정 객차
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, AREX_1000_1st_wagon_4Car, 1147){
-    property {
-        name:                           string(NAME_AREX_1000_1st_wagon_4Car);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2006, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  AREX_Logo_wagon;
-        
-        //spec
-        speed:                          165km/h;
-        power:                          2520 kW;
-        weight:                         198 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 50;
+        cargo_capacity:                 105;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
         
         //Costs
-        cost_factor:                    10;
-        running_cost_factor:            150;
         refit_cost:                     0;
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
-        
+
     graphics {
-        default:                        sw_AREX_1000_1st_4car;
-        articulated_part:               sw_articulated_AREX_1000_1st_4car;
-        purchase:                       sw_AREX_1000_1st_wagon_purchase;
+        default:                        set_DTX_L150_wagon;
+        purchase:                       set_DTX_L150_wagon_purchase;
         loading_speed:                  25;
-        cargo_subtype_text:             sw_AREX_1000_1st_cargo_subtype_text;
+        cost_factor:                    10;
+        running_cost_factor:            150;
         }
         }
 
 /*--------------------------------------------------------------------
-삭제예정
+객차
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, APEX_1000_1st_6Car, 2340){
+item(FEAT_TRAINS, DTX_L150_panto_wagon, 1140){
     property {
-        name:                           string(NAME_To_Be_Deleted);
+        name:                           string(NAME_DTX_L150_panto_wagon);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2006, 1, 1);
+        introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_Logo_wagon;
         
         //spec
-        speed:                          165km/h;
-        power:                          2520 kW;
-        weight:                         198 ton;
+        weight:                         35 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -194,27 +133,76 @@ item(FEAT_TRAINS, APEX_1000_1st_6Car, 2340){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 50;
+        cargo_capacity:                 105;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
         
         //Costs
-        cost_factor:                    10;
-        running_cost_factor:            150;
         refit_cost:                     0;
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
-        
+
     graphics {
-        default:                        sw_AREX_1000_1st_6car;
-        articulated_part:               sw_articulated_AREX_1000_1st_6car;
-        purchase:                       sw_AREX_1000_1st_engine_purchase;
+        default:                        set_DTX_L150_panto_wagon;
+        purchase:                       set_DTX_L150_panto_wagon_purchase;
         loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        power:                          671;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_L150_DD_wagon, 1094){
+    property {
+        name:                           string(NAME_DTX_L150_DD_wagon);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_Logo_wagon;
+        
+        //spec
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 130;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        set_DTX_L150_DD_wagon;
+        purchase:                       set_DTX_L150_DD_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
         }
         }

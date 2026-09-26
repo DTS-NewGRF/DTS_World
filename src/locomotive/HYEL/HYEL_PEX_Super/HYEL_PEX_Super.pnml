@@ -10,16 +10,15 @@ HYEL PEX-Super
 /*--------------------------------------------------------------------
 기관차
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, HYEL_PEX_Super, 1129){
+item (FEAT_TRAINS, HYEL_PEX_Super_Psss, 1129){
     property {
-        name:                           string(NAME_HYEL_PEX_Super);
+        name:                           string(NAME_HYEL_PEX_Super_Psss);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2024, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HYEL_Logo;
-        dual_headed:                    1;
+        variant_group:                  HYEL_Logo_engine;
         
         //spec
         speed:                          260km/h;
@@ -36,7 +35,7 @@ item (FEAT_TRAINS, HYEL_PEX_Super, 1129){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 1;
+        cargo_capacity:                 52;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -52,14 +51,69 @@ item (FEAT_TRAINS, HYEL_PEX_Super, 1129){
         }
         
     graphics {
-        default:                        sw_HYEL_PEX_Super_engine;
-        purchase:                       set_HYEL_PEX_Super_purchase;
+        default:                        sw_HYEL_PEX_Super_Pass_engine;
+        purchase:                       set_HYEL_PEX_Super_Pass_purchase;
+        speed:                          sw_High_260_speed;
+        cargo_capacity:                 sw_HYEL_PEX_Super_capacity_in_custom;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_HYEL_PEX_Super_cargo_subtype_text;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+기관차
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, HYEL_PEX_Super_Post, 1143){
+    property {
+        name:                           string(NAME_HYEL_PEX_Super_Post);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_Logo_engine;
+        
+        //spec
+        speed:                          260km/h;
+        power:                          20000 kW;
+        weight:                         48 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 110;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [MAIL, VALU];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_PEX_Super_Post_engine;
+        purchase:                       set_HYEL_PEX_Super_Post_purchase;
         speed:                          sw_High_260_speed;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
         cargo_capacity:                 0;
-        cargo_subtype_text:             sw_HYEL_PEX_Super_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
