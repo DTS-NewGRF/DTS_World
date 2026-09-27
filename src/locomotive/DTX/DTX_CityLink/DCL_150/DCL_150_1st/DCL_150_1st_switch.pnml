@@ -5,6 +5,7 @@
 switch(FEAT_TRAINS, SELF, sw_DCL_150_1st_cargo_subtype_text, cargo_subtype) {
     0: return string(Livery_DCL_150_1st_T);
     1: return string(Livery_DCL_150_1st_M);
+    2: return string(Livery_DCL_150_1st_Power);
 }
 
 // 전후진 통합 코드
@@ -33,4 +34,5 @@ switch(FEAT_TRAINS, SELF, sw_DCL_150_1st_engine, position_in_consist_from_end ==
 switch(FEAT_TRAINS, SELF, sw_DCL_150_1st_wagon, cargo_subtype) {
     0: set_DCL_150_1st_wagon_T;
     1: set_DCL_150_1st_wagon_M;
+    2: sw_DCL_150_1st_panto_wagon;
 }

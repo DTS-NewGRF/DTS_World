@@ -8,17 +8,17 @@
 #include "Daegumetro_2000_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보 6량
+삭제예정
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Daegumetro_2000_6Car, 2385){
     property {
-        name:                           string(STR_Daegumetro_2000_6Car_NAME);
+        name:                           string(NAME_Daegumetro_2000_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2004, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Daegumetro;
+        variant_group:                  Daegumetro_Logo;
         
         //spec
         speed:                          100km/h;

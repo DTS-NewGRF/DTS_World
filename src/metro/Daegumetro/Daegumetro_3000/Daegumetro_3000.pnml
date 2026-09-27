@@ -8,17 +8,16 @@
 #include "Daegumetro_3000_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보 3량
+열차 정보
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Daegumetro_3000_3Car, 2424){
     property {
-        name:                           string(STR_Daegumetro_3000_3Car_NAME);
+        name:                           string(NAME_Daegumetro_3000_3Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2014, 1, 1);
         track_type:                     GMNO;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Daegumetro;
         
         //spec
         speed:                          70km/h;

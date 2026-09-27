@@ -12,23 +12,19 @@ switch(FEAT_TRAINS, SELF, sw_HYEL_400_engineT, train_is_driving_backwards) {
     1: set_HYEL_400_engineT_Rev;
 }
 
-// 기관차
-switch(FEAT_TRAINS, SELF, sw_HYEL_400_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
-    1: sw_HYEL_400_engineT;
-    sw_HYEL_400_engineH;
-}
-
-// 객차
-switch (FEAT_TRAINS, SELF, sw_HYEL_400_wagon_5car, position_in_vehid_chain % 5) {
-    0: set_HYEL_400_wagon1;
-    1: set_HYEL_400_wagon2;
-    2: set_HYEL_400_wagon3;
-    3: set_HYEL_400_wagon4;
-    4: set_HYEL_400_wagon5;
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_HYEL_400_7car, position_in_vehid_chain % 7) {
+    0: sw_HYEL_400_engineH;
+    1: set_HYEL_400_wagon1;
+    2: set_HYEL_400_wagon2;
+    3: set_HYEL_400_wagon3;
+    4: set_HYEL_400_wagon4;
+    5: set_HYEL_400_wagon5;
+    6: sw_HYEL_400_engineT;
     }
 
 // 편성량
-switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_400_wagon_5car, extra_callback_info1) {
-    1..4: HYEL_400_wagon_5car;
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_400_7car, extra_callback_info1) {
+    1..6: HYEL_400_7Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }

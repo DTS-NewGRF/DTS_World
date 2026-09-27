@@ -51,5 +51,6 @@ item(FEAT_TRAINS, PEX_Super_Post, 1016){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
+        cargo_subtype_text:             sw_PEX_Super_Post_Wagon_cargo_subtype_text;
         }
         }

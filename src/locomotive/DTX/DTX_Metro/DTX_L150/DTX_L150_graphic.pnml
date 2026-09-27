@@ -39,10 +39,6 @@ spriteset(set_DTX_L150_engine_purchase, "src/locomotive/DTX/DTX_Metro/DTX_L150/D
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_DTX_L150_panto_wagon_purchase, "src/locomotive/DTX/DTX_Metro/DTX_L150/DTX_L150.png"){
-    tmpl_purchase(0, 54)
-}
-
 spriteset(set_DTX_L150_wagon_purchase, "src/locomotive/DTX/DTX_Metro/DTX_L150/DTX_L150.png"){
     tmpl_purchase(0, 81)
 }

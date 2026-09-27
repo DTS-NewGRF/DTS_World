@@ -46,20 +46,16 @@ spriteset(set_HYEL_350_wagon_T9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomo
 }
 
 spriteset(set_HYEL_350_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_350/HYEL_350.png"){
-    DTS_temp_r(80, 297)
+    DTS_temp(80, 297)
 }
 
 spriteset(set_HYEL_350_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_350/HYEL_350.png"){
-    DTS_temp_r(80, 324)
+    DTS_temp(80, 324)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_350_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_350/HYEL_350.png"){
+spriteset(set_HYEL_350_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_350/HYEL_350.png"){
     tmpl_purchase(0, 0)
-}
-
-spriteset(set_HYEL_350_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_350/HYEL_350.png"){
-    tmpl_purchase(0, 162)
 }

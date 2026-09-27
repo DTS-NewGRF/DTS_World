@@ -1,28 +1,47 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// N객차
-switch(FEAT_TRAINS, SELF, sw_PEX_Super_N_wagon, random_bits % 4) {
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_N_Wagon_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_PEX_Super_N_Wagon);
+    1: return string(Livery_PEX_Super_N_Tail);
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_SN_Wagon_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_PEX_Super_SN_Wagon);
+    1: return string(Livery_PEX_Super_SN_Tail);
+}
+
+// 랜덤
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_N_wagon_random, random_bits % 4) {
     1: set_PEX_Super_wagon_NB;
     2: set_PEX_Super_wagon_NC;
     3: set_PEX_Super_wagon_ND;
     set_PEX_Super_wagon_NA;
 }
 
-// SN객차
-switch(FEAT_TRAINS, SELF, sw_PEX_Super_SN_wagon, random_bits % 2) {
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_SN_wagon_random, random_bits % 2) {
     1: set_PEX_Super_wagon_SNB;
     set_PEX_Super_wagon_SNA;
 }
 
-// D객차
 switch(FEAT_TRAINS, SELF, sw_PEX_Super_D_wagon, random_bits % 3) {
     1: set_PEX_Super_wagon_DB;
     set_PEX_Super_wagon_DA;
 }
 
-// S객차
 switch(FEAT_TRAINS, SELF, sw_PEX_Super_S_wagon, random_bits % 3) {
     1: set_PEX_Super_wagon_SB;
     set_PEX_Super_wagon_SA;
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_N_wagon, cargo_subtype) {
+    0: sw_PEX_Super_N_wagon_random;
+    1: sw_HYEL_PEX_Super_TC_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_SN_wagon, cargo_subtype) {
+    0: sw_PEX_Super_SN_wagon_random;
+    1: sw_HYEL_PEX_Super_FTC_wagon;
 }

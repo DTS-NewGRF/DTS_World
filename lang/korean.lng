@@ -58,76 +58,70 @@ ERROR_NOT_ENOUGH_LENGTH6                : 열차 길이가 너무 짧습니다. 
 ERROR_NOT_ENOUGH_LENGTH8                : 열차 길이가 너무 짧습니다. 최소한 8량 이상을 연결해야 합니다.
 
 # DTX engine Name
-NAME_Group_DTX_engine                   : DTX 기관차
+NAME_Group_DTX                          : DTX
 NAME_DFX_engine                         : DFX
-NAME_DPX_engine                         : DPX
+NAME_DPX_14Car                          : [14량] DPX
 NAME_DCL_120_Pass_engine                : [승객] DCL 120
 NAME_DCL_120_Post_engine                : [우편] DCL 120
 NAME_DCL_150_1st_engine                 : DCL 150 1세대
 NAME_DCL_150_2nd_engine                 : DCL 2세대
 NAME_DTX_L150_engine                    : L150
 NAME_DTX_R001_engine                    : R001
-NAME_DTX_Glory_engine                   : DTX-영광
-NAME_DTX_Koryo_engine                   : DTX-고려
+NAME_DTX_Glory_11Car                    : [11량] DTX-영광
+NAME_DTX_Koryo_11Car                    : [11량] DTX-고려
 NAME_DTX_Sejong_engine                  : DTX-세종
 NAME_DTX_Sobaek_engine                  : DTX-소백
-NAME_DTX_Sundeok_engine                 : DTX-선덕
+NAME_DTX_Sundeok_11Car                  : [11량] DTX-선덕
 NAME_DTX_Taebaek_engine                 : DTX-태백
 
 # DTX wagon Name
-NAME_Group_DTX_wagon                    : DTX 객차
 NAME_DFX_wagon                          : DFX
-NAME_DPX_wagon_12car                    : [12량] DPX
 NAME_DCL_120_Pass_wagon                 : [승객] DCL 120
 NAME_DCL_120_Post_wagon                 : [우편] DCL 120
 NAME_DCL_150_1st_wagon                  : DCL 150 1세대
-NAME_DCL_150_1st_panto_wagon            : [동력] DCL 150 1세대
 NAME_DCL_150_2nd_wagon                  : DCL 150 2세대
-NAME_DCL_150_2nd_panto_wagon            : [동력] DCL 150 2세대
 NAME_DCL_150_2nd_DD_wagon_2car          : [2량] DCL 150 DD 2세대
 NAME_DTX_L150_wagon                     : L150
-NAME_DTX_L150_panto_wagon               : [동력] L150
 NAME_DTX_L150_DD_wagon                  : L150 DD
 NAME_DTX_R001_wagon                     : R001
-NAME_DTX_R001_panto_wagon               : [동력] R001
-NAME_DTX_Glory_wagon_9car               : [9량] DTX-영광
-NAME_DTX_Koryo_wagon_9car               : [9량] DTX-고려
 NAME_DTX_Sejong_wagon                   : DTX-세종
 NAME_DTX_Sobaek_wagon                   : DTX-소백
-NAME_DTX_Sundeok_wagon_9car             : [9량] DTX-선덕
 NAME_DTX_Taebaek_wagon                  : DTX-태백
 
 # DTX Liveries
 Livery_DCL_150_1st_T                    : 객차 T
 Livery_DCL_150_1st_M                    : 객차 M
+Livery_DCL_150_1st_Power                : 동력객차
 Livery_DCL_150_2nd_MT                   : 객차 (M)T
 Livery_DCL_150_2nd_M1                   : 객차 M1
 Livery_DCL_150_2nd_M2                   : 객차 M2
 Livery_DCL_150_2nd_CM                   : 객차 CM
+Livery_DCL_150_2nd_Power                : 동력객차
+Livery_L150_Wagon                       : 객차
+Livery_L150_Power                       : 동력객차
+Livery_R001_Wagon                       : 객차
+Livery_R001_Power                       : 동력객차
 Livery_DTX_Glory_1Year                  : 1주년 도색
 Livery_DTX_Glory_2Year                  : 2주년 도색
 Livery_DTX_Glory_APEC_2025              : APEC 2025
 
 # HYEL engine Name
-NAME_Group_HYEL_engine                  : HYEL 기관차
+NAME_Group_HYEL                         : HYEL
 NAME_HYEL_15                            : HYEL-15
 NAME_HYEL_100                           : HYEL-100
 NAME_HYEL_120_Unit                      : HYEL-120 Unit
 NAME_HYEL_120_Dual                      : [2량] HYEL-120 Dual
 NAME_HYEL_150                           : HYEL-150
-NAME_HYEL_350_engine                    : HYEL-350
-NAME_HYEL_400_engine                    : HYEL-400
+NAME_HYEL_350_11Car                     : [11량] HYEL-350
+NAME_HYEL_400_7Car                      : [7량] HYEL-400
+NAME_HYEL_Gangsan_engine                : HYEL-강산
 NAME_HYEL_Mugunhwa_engine               : HYEL-무궁화
 NAME_HYEL_Mugunhwa_DD_engine            : HYEL-무궁화 DD
-NAME_HYEL_PEX_Super_Psss                : [승객] HYEL PEX-SUPER
-NAME_HYEL_PEX_Super_Post                : [우편] HYEL PEX-SUPER
+NAME_HYEL_PEX_Super                     : HYEL PEX-SUPER
 NAME_HYEL_Railjet                       : HYEL RailJet
 
 # HYEL wagon Name
-NAME_Group_HYEL_wagon                   : HYEL 객차
-NAME_HYEL_350_wagon_9car                : [9량] HYEL-350
-NAME_HYEL_400_wagon_5car                : [5량] HYEL-400
-NAME_HYEL_Gangsan                       : HYEL-강산
+NAME_HYEL_Gangsan_wagon                 : HYEL-강산
 NAME_HYEL_Mugunhwa_wagon                : HYEL-무궁화
 NAME_HYEL_Mugunhwa_DD_wagon             : HYEL-무궁화 DD
 
@@ -147,26 +141,62 @@ Livery_HYEL_PEX_Super_Generator         : 발전차
 Livery_HYEL_Railjet_M                   : 객차 M
 Livery_HYEL_Railjet_Tail                : 객차 Tail
 
-# AREX engine Name
-NAME_Group_AREX_engine                  : AREX 기관차
+# AREX Name
+NAME_Group_AREX                         : AREX
+NAME_AREX_1000_1st_5Car                 : [5량] 공항철도 1000호대 1세대
 NAME_AREX_1000_1st_Pass_engine          : [승객] 공항철도 1000호대 1세대
 NAME_AREX_1000_1st_Post_engine          : [우편] 공항철도 1000호대 1세대
-NAME_AREX_2000_1st_engine               : 공항철도 2000호대 1세대
-NAME_AREX_2000_4th_engine               : 공항철도 2000호대 4세대
-
-# AREX wagon Name
-NAME_Group_AREX_wagon                   : AREX 객차
-NAME_AREX_1000_1st_wagon_4Car           : [4량] 공항철도 1000호대 1세대
-NAME_AREX_2000_1st_wagon_4Car           : [4량] 공항철도 2000호대 1세대
-NAME_AREX_2000_4th_wagon_4Car           : [4량] 공항철도 2000호대 4세대
-NAME_AREX_wagon                         : 공항철도
-NAME_AREX_panto_wagon                   : [동력] 공항철도
+NAME_AREX_2000_1st_6Car                 : [6량] 공항철도 2000호대 1세대
+NAME_AREX_2000_4th_6Car                 : [6량] 공항철도 2000호대 4세대
 
 # AREX Liveries
 Livery_AREX_1000_Old                    : 1000호대 구도색
 Livery_AREX_1000_New                    : 1000호대 신도색
-Livery_AREX_2000_1st                    : 2000호대 1세대
-Livery_AREX_2000_4th                    : 2000호대 4세대
+
+# Daegumetro engine Name
+NAME_Group_Daegumetro                   : 대구교통공사
+NAME_Daegumetro_1000_6Car               : [6량] 대구교통공사 1000호대
+NAME_Daegumetro_2000_6Car               : [6량] 대구교통공사 2000호대
+NAME_Daegumetro_3000_3Car               : [3량] 대구교통공사 3000호대
+
+# Daegumetro wagon Name
+NAME_Daegumetro_1000_wagon_4Car         : [4량] 대구교통공사 1000호대
+NAME_Daegumetro_2000_wagon_4Car         : [4량] 대구교통공사 2000호대
+NAME_Daegumetro_3000_wagon              : 대구교통공사 3000호대
+
+# Daegumetro Liveries
+Livery_Daegumetro_1000_GTO              : GTO
+Livery_Daegumetro_1000_IGBT             : IGBT
+STR_REFIT_LIVERY_Daegumetro_3000                       : 기본
+STR_REFIT_LIVERY_Daegumetro_3000_Urban                 : Urban
+
+# PEX wagon Name
+NAME_PEX_N                              : PEX 1층 차량
+NAME_PEX_SN                             : PEX 특실 차량
+NAME_PEX_D                              : PEX 2층 차량
+NAME_PEX_B                              : PEX 식당칸
+NAME_PEX_S                              : PEX 침대칸
+
+# PEX wagon Liveries
+
+# PEX-Super wagon Name
+NAME_PEX_Super_N                        : PEX-SUPER 일반실
+NAME_PEX_Super_SN                       : PEX-SUPER 특실
+NAME_PEX_Super_D                        : PEX-SUPER 2층
+NAME_PEX_Super_B                        : PEX-SUPER 식당차
+NAME_PEX_Super_S                        : PEX-SUPER 침대차
+NAME_PEX_Super_Post                     : PEX-SUPER 우편객차
+NAME_PEX_Super_Generatar                : PEX-SUPER 발전차
+
+# PEX-Super Liveries
+Livery_PEX_Super_N_Wagon                : 일반객차
+Livery_PEX_Super_N_Tail                 : 운전객차
+Livery_PEX_Super_SN_Wagon               : 일반객차
+Livery_PEX_Super_SN_Tail                : 운전객차
+Livery_PEX_Super_Post_Wagon             : 일반객차
+Livery_PEX_Super_Post_Tail              : 운전객차
+Livery_PEX_Super_Generatar_Wagon        : 일반객차
+Livery_PEX_Super_Generatar_Tail         : 운전객차
 
 # Name
 NAME_AUTS_6Car                          : [6량] 차세대전동차
@@ -254,18 +284,8 @@ NAME_Nuriro_DD_wagon                    : 누리로 DD
 NAME_NEL_8100                           : 8100호대 전기기관차
 NAME_NEL_8200                           : 8200호대 전기기관차
 NAME_OEL_8000                           : 8000호대 전기기관차
-NAME_PEX_B                              : PEX 식당칸
-NAME_PEX_D                              : PEX 2층 차량
-NAME_PEX_N                              : PEX 1층 차량
-NAME_PEX_S                              : PEX 침대칸
-NAME_PEX_SN                             : PEX 특실 차량
-NAME_PEX_Super_B                        : PEX-SUPER 식당차
-NAME_PEX_Super_D                        : PEX-SUPER 2층
-NAME_PEX_Super_Generatar                : PEX-SUPER 발전차
-NAME_PEX_Super_N                        : PEX-SUPER 일반실
-NAME_PEX_Super_Post                     : PEX-SUPER 우편객차
-NAME_PEX_Super_S                        : PEX-SUPER 침대차
-NAME_PEX_Super_SN                       : PEX-SUPER 특실
+
+
 NAME_RDC_engine                         : RDC 디젤동차
 NAME_RDC_wagon                          : RDC 디젤동차
 NAME_Showcase_Flat_1F                   : [진열용] 평판화차
@@ -279,7 +299,6 @@ NAME_VPassenger                         : 가상 객차 차량
 
 # Group's name
 NAME_Group_Busanmetro                   : 부산교통공사 전동차
-NAME_Group_Daegumetro                   : 대구교통공사 전동차
 NAME_Group_HEMU_430X                    : HEMU-430X
 NAME_Group_HSR_350X                     : HSR-350X
 
@@ -429,9 +448,6 @@ STR_Busanmetro_1st_2000_6Car_NAME                      :[6량] 부산교통공�
 STR_Busanmetro_2nd_2000_6Car_NAME                      :[6량] 부산교통공사 2세대 2000호대 전동차
 STR_Busanmetro_3000_4Car_NAME                          :[4량] 부산교통공사 3000호대 전동차
 STR_Busanmetro_4000_6Car_NAME                          :[6량] 부산교통공사 4000호대 전동차
-STR_Daegumetro_1000_6Car_NAME                          :[6량] 대구교통공사 1000호대 전동차
-STR_Daegumetro_2000_6Car_NAME                          :[6량] 대구교통공사 2000호대 전동차
-STR_Daegumetro_3000_3Car_NAME                          :[3량] 대구교통공사 3000호대 전동차
 STR_Daejeonmetro_1000_4Car_NAME                        :[4량] 대전교통공사 1000호대 전동차
 STR_Dongbuk_2Car_NAME                                  :[2량] 동북선
 STR_Gimpo_Gold_2Car_NAME                               :[2량] 김포골드라인
@@ -914,10 +930,7 @@ STR_REFIT_LIVERY_Busanmetro_2nd_1000_G3                : 3차분
 STR_REFIT_LIVERY_Busanmetro_2000_GTO                   : GTO
 STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
 STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
-STR_REFIT_LIVERY_Daegumetro_1000_GTO                   : GTO
-STR_REFIT_LIVERY_Daegumetro_1000_IGBT                  : IGBT
-STR_REFIT_LIVERY_Daegumetro_3000                       : 기본
-STR_REFIT_LIVERY_Daegumetro_3000_Urban                 : Urban
+
 STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_1lv    : 구도색 IGBT 1lv
 STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_2lv    : 구도색 IGBT 2lv
 STR_REFIT_LIVERY_Incheonmetro_1000_1st_New             : 신도색

@@ -59,10 +59,6 @@ spriteset(set_DTX_Sundeok_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/loco
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_DTX_Sundeok_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Sundeok/DTX_Sundeok.png"){
+spriteset(set_DTX_Sundeok_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Sundeok/DTX_Sundeok.png"){
     tmpl_purchase(0, 0)
-}
-
-spriteset(set_DTX_Sundeok_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Sundeok/DTX_Sundeok.png"){
-    tmpl_purchase(0, 162)
 }

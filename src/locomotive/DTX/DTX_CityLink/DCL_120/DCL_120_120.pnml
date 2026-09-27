@@ -18,11 +18,11 @@ item(FEAT_TRAINS, DCL_120_Pass_engine, 1082){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_engine;
+        variant_group:                  DTX_Logo;
         
         //spec
         speed:                          150km/h;
-        power:                          500 kW;
+        power:                          250 kW;
         weight:                         35 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, DCL_120_Post_engine, 1083){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_engine;
+        variant_group:                  DTX_Logo;
         
         //spec
         speed:                          150km/h;
@@ -124,7 +124,7 @@ item(FEAT_TRAINS, DCL_120_Pass_wagon, 1084){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_wagon;
+        variant_group:                  Train_Car;
         
         //spec
         weight:                         35 ton;
@@ -174,7 +174,7 @@ item(FEAT_TRAINS, DCL_120_Post_wagon, 1085){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_wagon;
+        variant_group:                  Train_Car;
         
         //spec
         weight:                         35 ton;

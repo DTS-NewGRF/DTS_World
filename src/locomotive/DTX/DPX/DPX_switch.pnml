@@ -12,30 +12,26 @@ switch(FEAT_TRAINS, SELF, sw_DPX_engineT, train_is_driving_backwards) {
     1: set_DPX_engineT_Rev;
 }
 
-// 기관차
-switch(FEAT_TRAINS, SELF, sw_DPX_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
-    1: sw_DPX_engineT;
-    sw_DPX_engineH;
-}
-
-// 객차
-switch (FEAT_TRAINS, SELF, sw_DPX_wagon_12car, position_in_vehid_chain % 12) {
-     0: sg_DPX_wagon_01;
-     1: sg_DPX_wagon_02;
-     2: sg_DPX_wagon_03;
-     3: sg_DPX_wagon_04;
-     4: sg_DPX_wagon_05;
-     5: sg_DPX_wagon_06;
-     6: sg_DPX_wagon_07;
-     7: sg_DPX_wagon_08;
-     8: sg_DPX_wagon_09;
-     9: sg_DPX_wagon_10;
-    10: sg_DPX_wagon_11;
-    11: sg_DPX_wagon_12;
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_DPX_14car, position_in_vehid_chain % 14) {
+     0: sw_DPX_engineH;
+     1: sg_DPX_wagon_01;
+     2: sg_DPX_wagon_02;
+     3: sg_DPX_wagon_03;
+     4: sg_DPX_wagon_04;
+     5: sg_DPX_wagon_05;
+     6: sg_DPX_wagon_06;
+     7: sg_DPX_wagon_07;
+     8: sg_DPX_wagon_08;
+     9: sg_DPX_wagon_09;
+    10: sg_DPX_wagon_10;
+    11: sg_DPX_wagon_11;
+    12: sg_DPX_wagon_12;
+    13: sw_DPX_engineT;
     }
 
 // 편성량
-switch (FEAT_TRAINS, SELF, sw_articulated_DPX_wagon_12car, extra_callback_info1) {
-    1..11: DPX_wagon_12car;
+switch (FEAT_TRAINS, SELF, sw_articulated_DPX_14car, extra_callback_info1) {
+    1..13: DPX_14Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }

@@ -7,7 +7,7 @@
 /*--------------------------------------------------------------------
 열차정보 그룹 대구교통공사
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Daegumetro, 2383){
+item(FEAT_TRAINS, Daegumetro_Logo, 2383){
     property {
         name:                           string(NAME_Group_Daegumetro);
         climates_available:             NO_CLIMATE;

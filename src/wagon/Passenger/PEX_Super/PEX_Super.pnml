@@ -69,6 +69,7 @@ item (FEAT_TRAINS, PEX_Super_N, 1005){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
+        cargo_subtype_text:             sw_PEX_Super_N_Wagon_cargo_subtype_text;
         }
     }
 
@@ -117,6 +118,7 @@ item (FEAT_TRAINS, PEX_Super_SN, 1006){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
+        cargo_subtype_text:             sw_PEX_Super_SN_Wagon_cargo_subtype_text;
         }
     }
 

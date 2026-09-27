@@ -10,15 +10,15 @@ DTX 선덕
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Sundeok_engine, 1105){
+item(FEAT_TRAINS, DTX_Sundeok_11Car, 1105){
     property {
-        name:                           string(NAME_DTX_Sundeok_engine);
+        name:                           string(NAME_DTX_Sundeok_11Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2035, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_engine;
+        variant_group:                  DTX_Logo;
         
         //spec
         speed:                          430km/h;
@@ -49,61 +49,13 @@ item(FEAT_TRAINS, DTX_Sundeok_engine, 1105){
         }
         
 	graphics {
-        default:                        sw_DTX_Sundeok_engine;
-        purchase:                       set_DTX_Sundeok_engine_purchase;
+        default:                        sw_DTX_Sundeok_11car;
+        articulated_part:               sw_articulated_DTX_Sundeok_11car;
+        purchase:                       set_DTX_Sundeok_purchase;
         speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_TOSHIBAIGBTPMSMstart_sound;
-        }
-        }
-
-/*--------------------------------------------------------------------
-열차정보
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Sundeok_wagon_9car, 1106){
-    property {
-        name:                           string(NAME_DTX_Sundeok_wagon_9car);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2035, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_wagon;
-        
-        //spec
-        weight:                         60 ton;
-        tractive_effort_coefficient:    0.86;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 120;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-    
-        //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_AUTOREFIT);
-        extra_weight_per_wagon:         35 ton;
-        }
-        
-	graphics {
-        default:                        sw_DTX_Sundeok_wagon_9car;
-        articulated_part:               sw_articulated_DTX_Sundeok_wagon_9car;
-        purchase:                       set_DTX_Sundeok_wagon_purchase;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
         }
         }

@@ -7,6 +7,7 @@ switch(FEAT_TRAINS, SELF, sw_DCL_150_2nd_cargo_subtype_text, cargo_subtype) {
     1: return string(Livery_DCL_150_2nd_M1);
     2: return string(Livery_DCL_150_2nd_M2);
     3: return string(Livery_DCL_150_2nd_CM);
+    4: return string(Livery_DCL_150_2nd_Power);
 }
 
 // 전후진 통합 코드
@@ -37,6 +38,7 @@ switch(FEAT_TRAINS, SELF, sw_DCL_150_2nd_wagon, cargo_subtype) {
     1: set_DCL_150_2nd_wagon_M1;
     2: set_DCL_150_2nd_wagon_M2;
     3: set_DCL_150_2nd_wagon_CM;
+    4: sw_DCL_150_2nd_panto_wagon;
 }
 
 switch (FEAT_TRAINS, SELF, sw_DCL_150_2nd_DD_wagon_2car, position_in_vehid_chain % 2) {

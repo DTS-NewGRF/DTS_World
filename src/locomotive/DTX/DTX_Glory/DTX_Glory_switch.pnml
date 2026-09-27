@@ -101,27 +101,23 @@ switch(FEAT_TRAINS, SELF, sw_DTX_Glory_engineT, train_is_driving_backwards) {
     1: sw_DTX_Glory_engineT_Back;
 }
 
-// 기관차
-switch(FEAT_TRAINS, SELF, sw_DTX_Glory_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
-    1: sw_DTX_Glory_engineT;
-    sw_DTX_Glory_engineH;
-}
-
-// 객차
-switch (FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_9car, position_in_vehid_chain % 9) {
-    0: sw_DTX_Glory_wagon_T1;
-    1: sw_DTX_Glory_wagon_T2;
-    2: sw_DTX_Glory_wagon_T3;
-    3: sw_DTX_Glory_wagon_T4;
-    4: sw_DTX_Glory_wagon_T5;
-    5: sw_DTX_Glory_wagon_T6;
-    6: sw_DTX_Glory_wagon_T7;
-    7: sw_DTX_Glory_wagon_T8;
-    8: sw_DTX_Glory_wagon_T9;
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_DTX_Glory_wagon_11car, position_in_vehid_chain % 11) {
+     0: sw_DTX_Glory_engineH;
+     1: sw_DTX_Glory_wagon_T1;
+     2: sw_DTX_Glory_wagon_T2;
+     3: sw_DTX_Glory_wagon_T3;
+     4: sw_DTX_Glory_wagon_T4;
+     5: sw_DTX_Glory_wagon_T5;
+     6: sw_DTX_Glory_wagon_T6;
+     7: sw_DTX_Glory_wagon_T7;
+     8: sw_DTX_Glory_wagon_T8;
+     9: sw_DTX_Glory_wagon_T9;
+    10: sw_DTX_Glory_engineT;
     }
 
 // 편성량
-switch (FEAT_TRAINS, SELF, sw_articulated_DTX_Glory_wagon_9car, extra_callback_info1) {
-    1..8: DTX_Glory_wagon_9car;
+switch (FEAT_TRAINS, SELF, sw_articulated_DTX_Glory_wagon_11car, extra_callback_info1) {
+    1..10: DTX_Glory_11Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }

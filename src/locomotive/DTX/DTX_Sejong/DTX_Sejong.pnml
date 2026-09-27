@@ -18,11 +18,11 @@ item(FEAT_TRAINS, DTX_Sejong_engine, 1101){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_engine;
+        variant_group:                  DTX_Logo;
         
         //spec
         speed:                          331km/h;
-        power:                          8800 kW;
+        power:                          4400 kW;
         weight:                         60 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, DTX_Sejong_wagon, 1102){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_wagon;
+        variant_group:                  Train_Car;
         
         //spec
         weight:                         60 ton;
@@ -106,5 +106,6 @@ item(FEAT_TRAINS, DTX_Sejong_wagon, 1102){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        power:                          671;
         }
         }

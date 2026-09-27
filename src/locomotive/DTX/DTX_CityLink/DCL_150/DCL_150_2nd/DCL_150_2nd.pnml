@@ -18,11 +18,11 @@ item(FEAT_TRAINS, DCL_150_2nd_engine, 1089){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_engine;
+        variant_group:                  DTX_Logo;
         
         //spec
         speed:                          150km/h;
-        power:                          1680 kW;
+        power:                          840 kW;
         weight:                         33 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, DCL_150_2nd_wagon, 1090){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_wagon;
+        variant_group:                  Train_Car;
         
         //spec
         weight:                         33 ton;
@@ -106,57 +106,8 @@ item(FEAT_TRAINS, DCL_150_2nd_wagon, 1090){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_DCL_150_2nd_cargo_subtype_text;
-        }
-        }
-
-/*--------------------------------------------------------------------
-객차
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, DCL_150_2nd_panto_wagon, 1086){
-    property {
-        name:                           string(NAME_DCL_150_2nd_panto_wagon);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2030, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_wagon;
-        
-        //spec
-        weight:                         33 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 42;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
-        extra_weight_per_wagon:         35 ton;
-        }
-
-    graphics {
-        default:                        sw_DCL_150_2nd_panto_wagon;
-        purchase:                       set_DCL_150_2nd_panto_wagon_purchase;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
         power:                          671;
+        cargo_subtype_text:             sw_DCL_150_2nd_cargo_subtype_text;
         }
         }
 
@@ -171,7 +122,7 @@ item(FEAT_TRAINS, DCL_150_2nd_DD_wagon_2car, 1091){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_wagon;
+        variant_group:                  Train_Car;
         
         //spec
         weight:                         33 ton;
@@ -207,5 +158,6 @@ item(FEAT_TRAINS, DCL_150_2nd_DD_wagon_2car, 1091){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        power:                          2682;
         }
         }

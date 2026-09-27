@@ -18,11 +18,11 @@ item(FEAT_TRAINS, DFX_engine, 1077){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_engine;
+        variant_group:                  DTX_Logo;
         
         //spec
         speed:                          600km/h;
-        power:                          40000 kW;
+        power:                          25000 kW;
         weight:                         66 ton;
         tractive_effort_coefficient:    0.86;
         
@@ -71,7 +71,7 @@ item(FEAT_TRAINS, DFX_wagon, 1078){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_wagon;
+        variant_group:                  Train_Car;
         
         //spec
         weight:                         66 ton;

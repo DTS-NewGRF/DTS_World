@@ -59,10 +59,6 @@ spriteset(set_DCL_150_2nd_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_DCL_150_2nd_panto_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_2nd/DCL_150_2nd.png", "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_2nd/DCL_150_2nd_2cc.png"){
-    tmpl_purchase(0, 54)
-}
-
 spriteset(set_DCL_150_2nd_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_2nd/DCL_150_2nd.png", "src/locomotive/DTX/DTX_CityLink/DCL_150/DCL_150_2nd/DCL_150_2nd_2cc.png"){
     tmpl_purchase(0, 108)
 }

@@ -1,8 +1,20 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_Post_Wagon_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_PEX_Super_Post_Wagon);
+    1: return string(Livery_PEX_Super_Post_Tail);
+}
+
 // 열차
-switch(FEAT_TRAINS, SELF, sw_PEX_Super_Post_wagon, random_bits % 2) {
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_Post_wagon_random, random_bits % 2) {
    0: set_PEX_Super_Post_wagon_A;
    1: set_PEX_Super_Post_wagon_B;
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_Post_wagon, cargo_subtype) {
+    0: sw_PEX_Super_Post_wagon_random;
+    1: sw_HYEL_PEX_Super_POST_wagon;
 }

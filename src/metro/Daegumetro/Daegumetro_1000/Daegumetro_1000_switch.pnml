@@ -3,8 +3,8 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Daegumetro_1000_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Daegumetro_1000_GTO);
-    1: return string(STR_REFIT_LIVERY_Daegumetro_1000_IGBT);
+    0: return string(Livery_Daegumetro_1000_GTO);
+    1: return string(Livery_Daegumetro_1000_IGBT);
 }
 
 // 전후진 통합 코드
@@ -25,7 +25,7 @@ switch (FEAT_TRAINS, SELF, sw_Daegumetro_1000_6car, position_in_vehid_chain % 6)
     2: set_Daegumetro_1000_panto_wagon;
     3: set_Daegumetro_1000_wagon;
     4: set_Daegumetro_1000_panto_wagon;
-    5: sw_Daegumetro_1000_engineT;    
+    5: sw_Daegumetro_1000_engineT;
     }
 
 // 편성수

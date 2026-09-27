@@ -9,7 +9,7 @@ spriteset(set_AREX_1000_1st_Old_engineH, "src/metro/AREX/AREX_1000_1st/AREX_1000
 }
 
 spriteset(set_AREX_1000_1st_Old_engineH_Rev, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_Old.png"){
-    DTS_temp(80, 27)
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_AREX_1000_1st_Old_wagon_M_T, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_Old.png"){
@@ -21,7 +21,7 @@ spriteset(set_AREX_1000_1st_Old_panto_wagon, "src/metro/AREX/AREX_1000_1st/AREX_
 }
 
 spriteset(set_AREX_1000_1st_Old_engineT_Rev, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_Old.png"){
-    DTS_temp(80, 108)
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_AREX_1000_1st_Old_engineT, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_Old.png"){
@@ -36,7 +36,7 @@ spriteset(set_AREX_1000_1st_New_engineH, "src/metro/AREX/AREX_1000_1st/AREX_1000
 }
 
 spriteset(set_AREX_1000_1st_New_engineH_Rev, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
-    DTS_temp(80, 27)
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_AREX_1000_1st_New_wagon_M_T, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
@@ -48,7 +48,7 @@ spriteset(set_AREX_1000_1st_New_panto_wagon, "src/metro/AREX/AREX_1000_1st/AREX_
 }
 
 spriteset(set_AREX_1000_1st_New_engineT_Rev, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
-    DTS_temp(80, 108)
+    DTS_temp_r(80, 108)
 }
 
 spriteset(set_AREX_1000_1st_New_engineT, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
@@ -58,7 +58,7 @@ spriteset(set_AREX_1000_1st_New_engineT, "src/metro/AREX/AREX_1000_1st/AREX_1000
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(sw_AREX_1000_1st_engine_purchase, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
+spriteset(sw_AREX_1000_1st_purchase, "src/metro/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
     tmpl_purchase(0, 0)
 }
 

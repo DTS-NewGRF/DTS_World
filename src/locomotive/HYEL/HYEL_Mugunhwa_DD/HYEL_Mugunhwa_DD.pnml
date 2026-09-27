@@ -18,7 +18,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_engine, 1127){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HYEL_Logo_engine;
+        variant_group:                  HYEL_Logo;
         
         //spec
         speed:                          181km/h;
@@ -72,7 +72,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_wagon, 1128){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HYEL_Logo_wagon;
+        variant_group:                  Train_Car;
         
         //spec
         weight:                         53 ton;
@@ -108,5 +108,6 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_wagon, 1128){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
+        power:                          671;
         }
         }

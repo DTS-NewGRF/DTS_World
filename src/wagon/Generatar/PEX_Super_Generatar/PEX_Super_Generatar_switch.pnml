@@ -1,8 +1,26 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-//열차
-switch(FEAT_TRAINS, SELF, sw_PEX_Super_Generatar_wagon, random_bits % 2) {
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_Generatar_Wagon_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_PEX_Super_Generatar_Wagon);
+    1: return string(Livery_PEX_Super_Generatar_Tail);
+}
+
+// 열차
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_Generatar_wagon_random, random_bits % 2) {
    0: set_PEX_Super_Generatar_wagon_A;
    1: set_PEX_Super_Generatar_wagon_B;
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_Generatar_wagon, cargo_subtype) {
+   0: sw_PEX_Super_Generatar_wagon_random;
+   1: sw_HYEL_PEX_Super_GANERATOR_wagon;
+}
+
+// 길이
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_Generatar_length_in_custom, cargo_subtype) {
+   0: 7; //default;
+   1: 8;
 }

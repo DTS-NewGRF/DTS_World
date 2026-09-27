@@ -205,11 +205,11 @@ spriteset(set_DPX_wagon_12_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/l
 }
 
 spriteset(set_DPX_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DPX/DPX.png"){
-    DTS_temp_r(80, 378)
+    DTS_temp(80, 378)
 }
 
 spriteset(set_DPX_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DPX/DPX.png"){
-    DTS_temp_r(80, 405)
+    DTS_temp(80, 405)
 }
 
 /*--------------------------------------------------------------------
@@ -362,10 +362,6 @@ spritegroup sg_DPX_wagon_12 {
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_DPX_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DPX/DPX.png"){
+spriteset(set_DPX_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DPX/DPX.png"){
     tmpl_purchase(0, 0)
-}
-
-spriteset(set_DPX_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DPX/DPX.png"){
-    tmpl_purchase(0, 54)
 }

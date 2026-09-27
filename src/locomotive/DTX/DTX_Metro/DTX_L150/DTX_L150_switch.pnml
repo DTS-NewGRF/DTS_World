@@ -1,6 +1,12 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_L150_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_L150_Wagon);
+    1: return string(Livery_L150_Power);
+}
+
 // 전후진 통합 코드
 switch(FEAT_TRAINS, SELF, sw_DTX_L150_engineH, train_is_driving_backwards) {
     0: set_DTX_L150_engineH;
@@ -16,4 +22,10 @@ switch(FEAT_TRAINS, SELF, sw_DTX_L150_engineT, train_is_driving_backwards) {
 switch(FEAT_TRAINS, SELF, sw_DTX_L150_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
     1: sw_DTX_L150_engineT;
     sw_DTX_L150_engineH;
+}
+
+// 객차
+switch(FEAT_TRAINS, SELF, sw_L150_wagon, cargo_subtype) {
+    0: set_DTX_L150_wagon;
+    1: set_DTX_L150_panto_wagon;
 }

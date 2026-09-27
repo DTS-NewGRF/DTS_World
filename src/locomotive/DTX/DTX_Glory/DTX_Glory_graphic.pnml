@@ -49,11 +49,11 @@ spriteset(set_DTX_Glory_wagon_T9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locom
 }
 
 spriteset(set_DTX_Glory_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Glory/DTX_Glory.png"){
-    DTS_temp_r(80, 297)
+    DTS_temp(80, 297)
 }
 
 spriteset(set_DTX_Glory_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Glory/DTX_Glory.png"){
-    DTS_temp_r(80, 324)
+    DTS_temp(80, 324)
 }
 
 /*--------------------------------------------------------------------
@@ -104,11 +104,11 @@ spriteset(set_DTX_Glory_2year_wagon_T9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
 }
 
 spriteset(set_DTX_Glory_2year_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Glory/DTX_Glory_2Year.png"){
-    DTS_temp_r(80, 297)
+    DTS_temp(80, 297)
 }
 
 spriteset(set_DTX_Glory_2year_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Glory/DTX_Glory_2Year.png"){
-    DTS_temp_r(80, 324)
+    DTS_temp(80, 324)
 }
 
 /*--------------------------------------------------------------------
@@ -159,21 +159,17 @@ spriteset(set_DTX_Glory_APEC_2025_wagon_T9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, 
 }
 
 spriteset(set_DTX_Glory_APEC_2025_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Glory/DTX_Glory_APEC_2025.png"){
-    DTS_temp_r(80, 297)
+    DTS_temp(80, 297)
 }
 
 spriteset(set_DTX_Glory_APEC_2025_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Glory/DTX_Glory_APEC_2025.png"){
-    DTS_temp_r(80, 324)
+    DTS_temp(80, 324)
 }
 
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_DTX_Glory_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Glory/DTX_Glory_APEC_2025.png"){
+spriteset(set_DTX_Glory_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Glory/DTX_Glory_APEC_2025.png"){
     tmpl_purchase(0, 0)
-}
-
-spriteset(set_DTX_Glory_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Glory/DTX_Glory_APEC_2025.png"){
-    tmpl_purchase(0, 162)
 }

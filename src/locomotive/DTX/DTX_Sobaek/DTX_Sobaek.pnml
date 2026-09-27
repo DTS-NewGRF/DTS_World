@@ -18,11 +18,11 @@ item(FEAT_TRAINS, DTX_Sobaek_engine, 1103){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_engine;
+        variant_group:                  DTX_Logo;
         
         //spec
         speed:                          151km/h;
-        power:                          8000 kW;
+        power:                          4000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -72,7 +72,7 @@ item(FEAT_TRAINS, DTX_Sobaek_wagon, 1104){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo_wagon;
+        variant_group:                  Train_Car;
         
         //spec
         weight:                         40 ton;
@@ -108,5 +108,6 @@ item(FEAT_TRAINS, DTX_Sobaek_wagon, 1104){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        power:                          671;
         }
         }

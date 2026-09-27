@@ -7,28 +7,14 @@ HYEL
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HYEL_Logo_engine, 1113){
+item(FEAT_TRAINS, HYEL_Logo, 1113){
     property {
-        name:                           string(NAME_Group_HYEL_engine);
+        name:                           string(NAME_Group_HYEL);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         power:                          40000 kW;
-        }
-
-    graphics {
-        purchase:                       set_HYEL_purchase;
-        }
-        }
-
-item(FEAT_TRAINS, HYEL_Logo_wagon, 1142){
-    property {
-        name:                           string(NAME_Group_HYEL_wagon);
-        climates_available:             NO_CLIMATE;
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
         }
 
     graphics {

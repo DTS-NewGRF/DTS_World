@@ -58,76 +58,70 @@ ERROR_NOT_ENOUGH_LENGTH6                : It's too short. It should be equal or 
 ERROR_NOT_ENOUGH_LENGTH8                : It's too short. It should be equal or more than 8 cars at least.
 
 # DTX engine Name
-NAME_Group_DTX_engine                   : DTX Engine
+NAME_Group_DTX                          : DTX
 NAME_DFX_engine                         : DFX
-NAME_DPX_engine                         : DPX
+NAME_DPX_14Car                          : [14Car] DPX
 NAME_DCL_120_Pass_engine                : [Passenger] DCL 120
 NAME_DCL_120_Post_engine                : [Post] DCL 120
 NAME_DCL_150_1st_engine                 : DCL 150 1st
 NAME_DCL_150_2nd_engine                 : DCL 2nd
 NAME_DTX_L150_engine                    : L150
 NAME_DTX_R001_engine                    : R001
-NAME_DTX_Glory_engine                   : DTX-Glory
-NAME_DTX_Koryo_engine                   : DTX-Koryo
+NAME_DTX_Glory_11Car                    : [11Car] DTX-Glory
+NAME_DTX_Koryo_11Car                    : [11Car] DTX-Koryo
 NAME_DTX_Sejong_engine                  : DTX-Sejong
 NAME_DTX_Sobaek_engine                  : DTX-Sobaek
-NAME_DTX_Sundeok_engine                 : DTX-Sundeok
+NAME_DTX_Sundeok_11Car                  : [11량] DTX-Sundeok
 NAME_DTX_Taebaek_engine                 : DTX-Taebaek
 
 # DTX wagon Name
-NAME_Group_DTX_wagon                    : DTX Wagon
 NAME_DFX_wagon                          : DFX
-NAME_DPX_wagon_12car                    : [12Car] DPX
 NAME_DCL_120_Pass_wagon                 : [Passenger] DCL 120
 NAME_DCL_120_Post_wagon                 : [Post] DCL 120
 NAME_DCL_150_1st_wagon                  : DCL 150 1st
-NAME_DCL_150_1st_panto_wagon            : [Power] DCL 150 1st
 NAME_DCL_150_2nd_wagon                  : DCL 150 2nd
-NAME_DCL_150_2nd_panto_wagon            : [Power] DCL 150 2nd
 NAME_DCL_150_2nd_DD_wagon_2car          : [2Car] DCL 150 2nd DD
 NAME_DTX_L150_wagon                     : L150
-NAME_DTX_L150_panto_wagon               : [Power] L150
 NAME_DTX_L150_DD_wagon                  : L150 DD
 NAME_DTX_R001_wagon                     : R001
-NAME_DTX_R001_panto_wagon               : [Power] R001
-NAME_DTX_Glory_wagon_9car               : [9Car] DTX-Glory
-NAME_DTX_Koryo_wagon_9car               : [9Car] DTX-Koryo
 NAME_DTX_Sejong_wagon                   : DTX-Sejong
 NAME_DTX_Sobaek_wagon                   : DTX-Sobaek
-NAME_DTX_Sundeok_wagon_9car             : [9Car] DTX-Sundeok
 NAME_DTX_Taebaek_wagon                  : DTX-Taebaek
 
 # DTX Liveries
 Livery_DCL_150_1st_T                    : T Type
 Livery_DCL_150_1st_M                    : M Typye
+Livery_DCL_150_1st_Power                : Power Type
 Livery_DCL_150_2nd_MT                   : (M)T Type
 Livery_DCL_150_2nd_M1                   : M1 Type
 Livery_DCL_150_2nd_M2                   : M2 Type
 Livery_DCL_150_2nd_CM                   : CM Type
+Livery_DCL_150_2nd_Power                : Power Type
+Livery_L150_Wagon                       : Wagon Type
+Livery_L150_Power                       : Power Type
+Livery_R001_Wagon                       : Wagon Type
+Livery_R001_Power                       : Power Type
 Livery_DTX_Glory_1Year                  : 1Year Livery
 Livery_DTX_Glory_2Year                  : 2Year Livery
 Livery_DTX_Glory_APEC_2025              : APEC 2025
 
 # HYEL engine Name
-NAME_Group_HYEL_engine                  : HYEL engine
+NAME_Group_HYEL                         : HYEL
 NAME_HYEL_15                            : HYEL-15
 NAME_HYEL_100                           : HYEL-100
 NAME_HYEL_120_Unit                      : HYEL-120 Unit
 NAME_HYEL_120_Dual                      : [2Car] HYEL-120 Dual
 NAME_HYEL_150                           : HYEL-150
-NAME_HYEL_350_engine                    : HYEL-350
-NAME_HYEL_400_engine                    : HYEL-400
+NAME_HYEL_350_11Car                     : [11Car] HYEL-350
+NAME_HYEL_400_7Car                      : [7Car] HYEL-400
+NAME_HYEL_Gangsan_engine                : HYEL-Gangsan
 NAME_HYEL_Mugunhwa_engine               : HYEL-Mugunhwa
 NAME_HYEL_Mugunhwa_DD_engine            : HYEL-Mugunhwa DD
-NAME_HYEL_PEX_Super_Psss                : [Passenger] HYEL PEX-SUPER
-NAME_HYEL_PEX_Super_Post                : [Post] HYEL PEX-SUPER
+NAME_HYEL_PEX_Super                     : HYEL PEX-SUPER
 NAME_HYEL_Railjet                       : HYEL RailJet
 
 # HYEL wagon Name
-NAME_Group_HYEL_wagon                   : HYEL wagon
-NAME_HYEL_350_wagon_9car                : [9Car] HYEL-350
-NAME_HYEL_400_wagon_5car                : [5Car] HYEL-400
-NAME_HYEL_Gangsan                       : HYEL-Gangsan
+NAME_HYEL_Gangsan_wagon                 : HYEL-Gangsan
 NAME_HYEL_Mugunhwa_wagon                : HYEL-Mugunhwa
 NAME_HYEL_Mugunhwa_DD_wagon             : HYEL-Mugunhwa DD
 
@@ -147,26 +141,62 @@ Livery_HYEL_PEX_Super_Generator         : Generator Car
 Livery_HYEL_Railjet_M                   : M Type
 Livery_HYEL_Railjet_Tail                : Tail Type
 
-# AREX engine Name
-NAME_Group_AREX_engine                  : AREX Engine
+# AREX Name
+NAME_Group_AREX                         : AREX
+NAME_AREX_1000_1st_5Car                 : [5Car] AREX series 1000 1st
 NAME_AREX_1000_1st_Pass_engine          : [Passenger] AREX series 1000 1st
 NAME_AREX_1000_1st_Post_engine          : [Post] AREX series 1000 1st
-NAME_AREX_2000_1st_engine               : AREX series 2000 1st
-NAME_AREX_2000_4th_engine               : AREX series 2000 4th
-
-# AREX wagon Name
-NAME_Group_AREX_wagon                   : AREX Wagon
-NAME_AREX_1000_1st_wagon_4Car           : [4Car] AREX series 1000 1st
-NAME_AREX_2000_1st_wagon_4Car           : [4Car] AREX series 2000 1st
-NAME_AREX_2000_4th_wagon_4Car           : [4Car] AREX series 2000 4th
-NAME_AREX_wagon                         : AREX
-NAME_AREX_panto_wagon                   : [Power] AREX
+NAME_AREX_2000_1st_6Car                 : [6Car] AREX series 2000 1st
+NAME_AREX_2000_4th_6Car                 : [6Car] AREX series 2000 4th
 
 # AREX Liveries
 Livery_AREX_1000_Old                    : 1000 series 1st Old
 Livery_AREX_1000_New                    : 1000 series 1st New
-Livery_AREX_2000_1st                    : 2000 series 1st
-Livery_AREX_2000_4th                    : 2000 series 4th
+
+# Daegumetro engine Name
+NAME_Group_Daegumetro                   : Daegu Metro
+NAME_Daegumetro_1000_6Car               : [6Car] Daegu Metro 1000 series
+NAME_Daegumetro_2000_6Car               : [6Car] Daegu Metro 2000 series
+NAME_Daegumetro_3000_3Car               : [3Car] Daegu Metro 3000 series
+
+# Daegumetro wagon Name
+NAME_Daegumetro_1000_wagon_4Car         : [4Car] Daegu Metro 1000 series
+NAME_Daegumetro_2000_wagon_4Car         : [4Car] Daegu Metro 2000 series
+NAME_Daegumetro_3000_wagon              : Daegu Metro 3000 series
+
+# Daegumetro Liveries
+Livery_Daegumetro_1000_GTO              : GTO
+Livery_Daegumetro_1000_IGBT             : IGBT
+STR_REFIT_LIVERY_Daegumetro_3000                       : nomal
+STR_REFIT_LIVERY_Daegumetro_3000_Urban                 : Urban
+
+# PEX wagon Name
+NAME_PEX_N                              : PEX 1F Car
+NAME_PEX_SN                             : PEX Special Car
+NAME_PEX_D                              : PEX 2F Car
+NAME_PEX_B                              : PEX Bar Car
+NAME_PEX_S                              : PEX Bad Car
+
+# PEX wagon Liveries
+
+# PEX-Super wagon Name
+NAME_PEX_Super_N                        : PEX-SUPER regular class
+NAME_PEX_Super_SN                       : PEX-SUPER first class
+NAME_PEX_Super_D                        : PEX-SUPER 2F
+NAME_PEX_Super_S                        : PEX-SUPER sleeping car
+NAME_PEX_Super_B                        : PEX-SUPER restaurant
+NAME_PEX_Super_Post                     : PEX-SUPER POST car
+NAME_PEX_Super_Generatar                : PEX-SUPER generator Car
+
+# PEX-Super Liveries
+Livery_PEX_Super_N_Wagon                : Wagon Car
+Livery_PEX_Super_N_Tail                 : Cab Car
+Livery_PEX_Super_SN_Wagon               : Wagon Car
+Livery_PEX_Super_SN_Tail                : Cab Car
+Livery_PEX_Super_Post_Wagon             : Wagon Car
+Livery_PEX_Super_Post_Tail              : Cab Car
+Livery_PEX_Super_Generatar_Wagon        : Wagon Car
+Livery_PEX_Super_Generatar_Tail         : Cab Car
 
 # Name
 NAME_AUTS_6Car                          : [6Car] AUTS
@@ -254,18 +284,8 @@ NAME_Nuriro_DD_wagon                    : Nuriro DD
 NAME_NEL_8100                           : NEL 8100
 NAME_NEL_8200                           : NEL 8200
 NAME_OEL_8000                           : OEL 8000
-NAME_PEX_B                              : PEX Bar Car
-NAME_PEX_D                              : PEX 2F Car
-NAME_PEX_N                              : PEX 1F Car
-NAME_PEX_S                              : PEX Bad Car
-NAME_PEX_SN                             : PEX Special Car
-NAME_PEX_Super_B                        : PEX-SUPER restaurant
-NAME_PEX_Super_D                        : PEX-SUPER 2F
-NAME_PEX_Super_Generatar                : PEX-SUPER generator Car
-NAME_PEX_Super_N                        : PEX-SUPER regular class
-NAME_PEX_Super_Post                     : PEX-SUPER POST car
-NAME_PEX_Super_S                        : PEX-SUPER sleeping car
-NAME_PEX_Super_SN                       : PEX-SUPER first class
+
+
 NAME_RDC_engine                         : RDC Diesel
 NAME_RDC_wagon                          : RDC Diesel
 NAME_Showcase_Flat_1F                   : [Showcase] Flat Car
@@ -279,7 +299,7 @@ NAME_VPassenger                         : Virtual carriage-type passenger transp
 
 # Group's name
 NAME_Group_Busanmetro                   : Busan Metro
-NAME_Group_Daegumetro                   : Daegu Metro
+
 NAME_Group_HEMU_430X                    : HEMU-430X
 NAME_Group_HSR_350X                     : HSR-350X
 
@@ -432,9 +452,7 @@ STR_Busanmetro_1st_2000_6Car_NAME                      :[6car] Busanmetro 1st 20
 STR_Busanmetro_2nd_2000_6Car_NAME                      :[6car] Busanmetro 2nd 2000
 STR_Busanmetro_3000_4Car_NAME                          :[4car] Busanmetro 3000
 STR_Busanmetro_4000_6Car_NAME                          :[6car] Busanmetro 4000
-STR_Daegumetro_1000_6Car_NAME                          :[6car] Daegumetro 1000
-STR_Daegumetro_2000_6Car_NAME                          :[6car] Daegumetro 2000
-STR_Daegumetro_3000_3Car_NAME                          :[3car] Daegumetro 3000
+
 STR_Daejeonmetro_1000_4Car_NAME                        :[4Car] Daejeonmetro 1000
 STR_Dongbuk_2Car_NAME                                  :[2car] Dongbuk
 STR_Gimpo_Gold_2Car_NAME                               :[2car] Gimpo Gold Line
@@ -920,10 +938,7 @@ STR_REFIT_LIVERY_Busanmetro_2nd_1000_G3                : 3rd
 STR_REFIT_LIVERY_Busanmetro_2000_GTO                   : GTO
 STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
 STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
-STR_REFIT_LIVERY_Daegumetro_1000_GTO                   : GTO
-STR_REFIT_LIVERY_Daegumetro_1000_IGBT                  : IGBT
-STR_REFIT_LIVERY_Daegumetro_3000                       : nomal
-STR_REFIT_LIVERY_Daegumetro_3000_Urban                 : Urban
+
 STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_1lv    : Old IGBT 1lv
 STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_2lv    : Old IGBT 2lv
 STR_REFIT_LIVERY_Incheonmetro_1000_1st_New             : New
