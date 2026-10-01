@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Rheostatic_S2000, 2265){
     property {
-        name:                           string(STR_Group_Rheostatic_S2000_NAME);
+        name:                           string(NAME_Group_Rheostatic_S2000);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, Rheostatic_S2000, 2265){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Rheostatic_S2000_4Car, 2266){
     property {
-        name:                           string(STR_Rheostatic_S2000_4Car_NAME);
+        name:                           string(NAME_Rheostatic_S2000_4Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1980, 1, 1);
         track_type:                     ELRL;
@@ -86,7 +86,7 @@ item(FEAT_TRAINS, Rheostatic_S2000_4Car, 2266){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Rheostatic_S2000_6Car, 2267){
     property {
-        name:                           string(STR_Rheostatic_S2000_6Car_NAME);
+        name:                           string(NAME_Rheostatic_S2000_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1986, 1, 1);
         track_type:                     ELRL;
@@ -141,7 +141,7 @@ item(FEAT_TRAINS, Rheostatic_S2000_6Car, 2267){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Rheostatic_S2000_10Car, 2268){
     property {
-        name:                           string(STR_Rheostatic_S2000_10Car_NAME);
+        name:                           string(NAME_Rheostatic_S2000_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1993, 1, 1);
         track_type:                     ELRL;

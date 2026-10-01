@@ -3,8 +3,8 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Rheostatic_S1000_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Seoulmetro_Rheostatic_S1000);
-    1: return string(STR_REFIT_LIVERY_Seoulmetro_Rheostatic_1011F);
+    0: return string(Livery_Seoulmetro_Rheostatic_S1000);
+    1: return string(Livery_Seoulmetro_Rheostatic_1011F);
 }
 
 // 도색그래픽 세팅

@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_4th, 2294){
     property {
-        name:                           string(STR_Group_Seoulmetro_4th_NAME);
+        name:                           string(NAME_Group_Seoulmetro_4th);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, Seoulmetro_4th, 2294){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_4th_4Car, 2295){
     property {
-        name:                           string(STR_Seoulmetro_4th_4Car_NAME);
+        name:                           string(NAME_Seoulmetro_4th_4Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2019, 1, 1);
         track_type:                     ELRL;
@@ -85,7 +85,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_4Car, 2295){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_4th_8000_6Car, 2400){
     property {
-        name:                           string(STR_Seoulmetro_4th_8000_6Car_NAME);
+        name:                           string(NAME_Seoulmetro_4th_8000_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2025, 1, 1);
         track_type:                     ELRL;
@@ -139,7 +139,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_8000_6Car, 2400){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_4th_9000_6Car, 2366){
     property {
-        name:                           string(STR_Seoulmetro_4th_9000_6Car_NAME);
+        name:                           string(NAME_Seoulmetro_4th_9000_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2023, 1, 1);
         track_type:                     ELRL;
@@ -193,7 +193,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_9000_6Car, 2366){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_4th_5000_8Car, 2302){
     property {
-        name:                           string(STR_Seoulmetro_4th_5000_8Car_NAME);
+        name:                           string(NAME_Seoulmetro_4th_5000_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2021, 1, 1);
         track_type:                     ELRL;
@@ -247,7 +247,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_5000_8Car, 2302){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_4th_7000_8Car, 2315){
     property {
-        name:                           string(STR_Seoulmetro_4th_7000_8Car_NAME);
+        name:                           string(NAME_Seoulmetro_4th_7000_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
@@ -302,7 +302,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_7000_8Car, 2315){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_4th_2000_10Car, 2293){
     property {
-        name:                           string(STR_Seoulmetro_4th_2000_10Car_NAME);
+        name:                           string(NAME_Seoulmetro_4th_2000_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2019, 1, 1);
         track_type:                     ELRL;
@@ -356,7 +356,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_2000_10Car, 2293){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_4th_4000_10Car, 2297){
     property {
-        name:                           string(STR_Seoulmetro_4th_4000_10Car_NAME);
+        name:                           string(NAME_Seoulmetro_4th_4000_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2023, 1, 1);
         track_type:                     ELRL;

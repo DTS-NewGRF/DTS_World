@@ -9,7 +9,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro, 2373){
     property {
-        name:                           string(STR_Group_Seoulmetro_NAME);
+        name:                           string(NAME_Group_Seoulmetro);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

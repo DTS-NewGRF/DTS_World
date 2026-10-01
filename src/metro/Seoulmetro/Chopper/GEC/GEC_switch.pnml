@@ -3,8 +3,8 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Chopper_GEC_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Chopper_GEC_NoRheostatic);
-    1: return string(STR_REFIT_LIVERY_Chopper_GEC_Rheostatic);
+    0: return string(Livery_Chopper_GEC_NoRheostatic);
+    1: return string(Livery_Chopper_GEC_Rheostatic);
 }
 
 // 도색그래픽 세팅

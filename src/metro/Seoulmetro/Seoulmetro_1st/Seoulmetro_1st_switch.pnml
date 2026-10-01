@@ -3,25 +3,25 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_5000_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Seoulmetro_1st_5000_GTO);
-    1: return string(STR_REFIT_LIVERY_Seoulmetro_1st_5000_IGBT);
+    0: return string(Livery_Seoulmetro_1st_5000_GTO);
+    1: return string(Livery_Seoulmetro_1st_5000_IGBT);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_7000_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Seoulmetro_1st_7000_Old);
-    1: return string(STR_REFIT_LIVERY_Seoulmetro_1st_7000_New);
+    0: return string(Livery_Seoulmetro_1st_7000_Old);
+    1: return string(Livery_Seoulmetro_1st_7000_New);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_1000_4000_10car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Seoulmetro_1st_1000_A);
-    1: return string(STR_REFIT_LIVERY_Seoulmetro_1st_1000_B);
-    2: return string(STR_REFIT_LIVERY_Seoulmetro_1st_4000_GTO);
-    3: return string(STR_REFIT_LIVERY_Seoulmetro_1st_4000_IGBT);
+    0: return string(Livery_Seoulmetro_1st_1000_A);
+    1: return string(Livery_Seoulmetro_1st_1000_B);
+    2: return string(Livery_Seoulmetro_1st_4000_GTO);
+    3: return string(Livery_Seoulmetro_1st_4000_IGBT);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_2000_3000_10car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Seoulmetro_1st_2000);
-    1: return string(STR_REFIT_LIVERY_Seoulmetro_1st_3000);
+    0: return string(Livery_Seoulmetro_1st_2000);
+    1: return string(Livery_Seoulmetro_1st_3000);
 }
 
 // 도색그래픽 세팅

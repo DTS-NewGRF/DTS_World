@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Chopper_Wide_Range_GEC, 2276){
     property {
-        name:                           string(STR_Group_Chopper_Wide_Range_GEC_NAME);
+        name:                           string(NAME_Group_Chopper_Wide_Range_GEC);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, Chopper_Wide_Range_GEC, 2276){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Chopper_Wide_Range_GEC_6Car, 2277){
     property {
-        name:                           string(STR_Chopper_Wide_Range_GEC_6Car_NAME);
+        name:                           string(NAME_Chopper_Wide_Range_GEC_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1984, 1, 1);
         track_type:                     ELRL;
@@ -85,7 +85,7 @@ item(FEAT_TRAINS, Chopper_Wide_Range_GEC_6Car, 2277){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Chopper_Wide_Range_GEC_10Car, 2278){
     property {
-        name:                           string(STR_Chopper_Wide_Range_GEC_10Car_NAME);
+        name:                           string(NAME_Chopper_Wide_Range_GEC_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1990, 1, 1);
         track_type:                     ELRL;

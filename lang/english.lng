@@ -2,18 +2,18 @@
 
 
 # GRF name and description
-GRF_Name_with_Ver                       :Diversity Train Set {VERSION}
-GRF_Desc                                :Diversity Train Set
-GRF_URL                                 :https://github.com/DTS-NewGRF/DTS_World/releases
+GRF_Name_with_Ver                          :Diversity Train Set {VERSION}
+GRF_Desc                                   :Diversity Train Set
+GRF_URL                                    :https://github.com/DTS-NewGRF/DTS_World/releases
 
 # Deleted / locomotive's name
-NAME_To_Be_Deleted                      : {RED} To Be Deleted
+NAME_To_Be_Deleted                         : {RED} To Be Deleted
 
 # Parameters
-Param_Name_Max_Virtual_Speed            : Virtual speed
-Param_Desc_Max_Virtual_Speed            : Checks whether to apply virtual speed.{}- Default: Real speed
-Param_Name_High_Speed_Train             : High Virtual speed Train
-Param_Desc_High_Speed_Train             : Adjust the Virtual speed of the high-speed train{}- Default:331km/h
+Param_Name_Max_Virtual_Speed               : Virtual speed
+Param_Desc_Max_Virtual_Speed               : Checks whether to apply virtual speed.{}- Default: Real speed
+Param_Name_High_Speed_Train                : High Virtual speed Train
+Param_Desc_High_Speed_Train                : Adjust the Virtual speed of the high-speed train{}- Default:331km/h
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}train configuration {}{GREEN} A-Train Passenger Car
@@ -52,123 +52,229 @@ STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configurati
 STR_REFIT_train_configuration_Constrck                 :{BLACK}train configuration {}{GREEN} It is a vehicle with a construction concept and generates 0 profits and only maintenance costs.
 
 # Errors
-ERROR_NOT_ENOUGH_LENGTH3                : It's too short. It should be equal or more than 3 cars at least.
-ERROR_NOT_ENOUGH_LENGTH4                : It's too short. It should be equal or more than 4 cars at least.
-ERROR_NOT_ENOUGH_LENGTH6                : It's too short. It should be equal or more than 6 cars at least.
-ERROR_NOT_ENOUGH_LENGTH8                : It's too short. It should be equal or more than 8 cars at least.
+ERROR_NOT_ENOUGH_LENGTH3                   : It's too short. It should be equal or more than 3 cars at least.
+ERROR_NOT_ENOUGH_LENGTH4                   : It's too short. It should be equal or more than 4 cars at least.
+ERROR_NOT_ENOUGH_LENGTH6                   : It's too short. It should be equal or more than 6 cars at least.
+ERROR_NOT_ENOUGH_LENGTH8                   : It's too short. It should be equal or more than 8 cars at least.
 
 # DTX engine Name
-NAME_Group_DTX                          : DTX
-NAME_DFX_engine                         : DFX
-NAME_DPX_14Car                          : [14Car] DPX
-NAME_DCL_120_Pass_engine                : [Passenger] DCL 120
-NAME_DCL_120_Post_engine                : [Post] DCL 120
-NAME_DCL_150_1st_engine                 : DCL 150 1st
-NAME_DCL_150_2nd_engine                 : DCL 2nd
-NAME_DTX_L150_engine                    : L150
-NAME_DTX_R001_engine                    : R001
-NAME_DTX_Glory_11Car                    : [11Car] DTX-Glory
-NAME_DTX_Koryo_11Car                    : [11Car] DTX-Koryo
-NAME_DTX_Sejong_engine                  : DTX-Sejong
-NAME_DTX_Sobaek_engine                  : DTX-Sobaek
-NAME_DTX_Sundeok_11Car                  : [11량] DTX-Sundeok
-NAME_DTX_Taebaek_engine                 : DTX-Taebaek
+NAME_Group_DTX                             : DTX
+NAME_DFX_engine                            : DFX
+NAME_DPX_14Car                             : [14Car] DPX
+NAME_DCL_120_Pass_engine                   : [Passenger] DCL 120
+NAME_DCL_120_Post_engine                   : [Post] DCL 120
+NAME_DCL_150_1st_engine                    : DCL 150 1st
+NAME_DCL_150_2nd_engine                    : DCL 2nd
+NAME_DTX_L150_engine                       : L150
+NAME_DTX_R001_engine                       : R001
+NAME_DTX_Glory_11Car                       : [11Car] DTX-Glory
+NAME_DTX_Koryo_11Car                       : [11Car] DTX-Koryo
+NAME_DTX_Sejong_engine                     : DTX-Sejong
+NAME_DTX_Sobaek_engine                     : DTX-Sobaek
+NAME_DTX_Sundeok_11Car                     : [11량] DTX-Sundeok
+NAME_DTX_Taebaek_engine                    : DTX-Taebaek
 
 # DTX wagon Name
-NAME_DFX_wagon                          : DFX
-NAME_DCL_120_Pass_wagon                 : [Passenger] DCL 120
-NAME_DCL_120_Post_wagon                 : [Post] DCL 120
-NAME_DCL_150_1st_wagon                  : DCL 150 1st
-NAME_DCL_150_2nd_wagon                  : DCL 150 2nd
-NAME_DCL_150_2nd_DD_wagon_2car          : [2Car] DCL 150 2nd DD
-NAME_DTX_L150_wagon                     : L150
-NAME_DTX_L150_DD_wagon                  : L150 DD
-NAME_DTX_R001_wagon                     : R001
-NAME_DTX_Sejong_wagon                   : DTX-Sejong
-NAME_DTX_Sobaek_wagon                   : DTX-Sobaek
-NAME_DTX_Taebaek_wagon                  : DTX-Taebaek
+NAME_DFX_wagon                             : DFX
+NAME_DCL_120_Pass_wagon                    : [Passenger] DCL 120
+NAME_DCL_120_Post_wagon                    : [Post] DCL 120
+NAME_DCL_150_1st_wagon                     : DCL 150 1st
+NAME_DCL_150_2nd_wagon                     : DCL 150 2nd
+NAME_DCL_150_2nd_DD_wagon_2car             : [2Car] DCL 150 2nd DD
+NAME_DTX_L150_wagon                        : L150
+NAME_DTX_L150_DD_wagon                     : L150 DD
+NAME_DTX_R001_wagon                        : R001
+NAME_DTX_Sejong_wagon                      : DTX-Sejong
+NAME_DTX_Sobaek_wagon                      : DTX-Sobaek
+NAME_DTX_Taebaek_wagon                     : DTX-Taebaek
 
 # DTX Liveries
-Livery_DCL_150_1st_T                    : T Type
-Livery_DCL_150_1st_M                    : M Typye
-Livery_DCL_150_1st_Power                : Power Type
-Livery_DCL_150_2nd_MT                   : (M)T Type
-Livery_DCL_150_2nd_M1                   : M1 Type
-Livery_DCL_150_2nd_M2                   : M2 Type
-Livery_DCL_150_2nd_CM                   : CM Type
-Livery_DCL_150_2nd_Power                : Power Type
-Livery_L150_Wagon                       : Wagon Type
-Livery_L150_Power                       : Power Type
-Livery_R001_Wagon                       : Wagon Type
-Livery_R001_Power                       : Power Type
-Livery_DTX_Glory_1Year                  : 1Year Livery
-Livery_DTX_Glory_2Year                  : 2Year Livery
-Livery_DTX_Glory_APEC_2025              : APEC 2025
+Livery_DCL_150_1st_T                       : T Type
+Livery_DCL_150_1st_M                       : M Typye
+Livery_DCL_150_1st_Power                   : Power Type
+Livery_DCL_150_2nd_MT                      : (M)T Type
+Livery_DCL_150_2nd_M1                      : M1 Type
+Livery_DCL_150_2nd_M2                      : M2 Type
+Livery_DCL_150_2nd_CM                      : CM Type
+Livery_DCL_150_2nd_Power                   : Power Type
+Livery_L150_Wagon                          : Wagon Type
+Livery_L150_Power                          : Power Type
+Livery_R001_Wagon                          : Wagon Type
+Livery_R001_Power                          : Power Type
+Livery_DTX_Glory_1Year                     : 1Year Livery
+Livery_DTX_Glory_2Year                     : 2Year Livery
+Livery_DTX_Glory_APEC_2025                 : APEC 2025
 
 # HYEL engine Name
-NAME_Group_HYEL                         : HYEL
-NAME_HYEL_15                            : HYEL-15
-NAME_HYEL_100                           : HYEL-100
-NAME_HYEL_120_Unit                      : HYEL-120 Unit
-NAME_HYEL_120_Dual                      : [2Car] HYEL-120 Dual
-NAME_HYEL_150                           : HYEL-150
-NAME_HYEL_350_11Car                     : [11Car] HYEL-350
-NAME_HYEL_400_7Car                      : [7Car] HYEL-400
-NAME_HYEL_Gangsan_engine                : HYEL-Gangsan
-NAME_HYEL_Mugunhwa_engine               : HYEL-Mugunhwa
-NAME_HYEL_Mugunhwa_DD_engine            : HYEL-Mugunhwa DD
-NAME_HYEL_PEX_Super                     : HYEL PEX-SUPER
-NAME_HYEL_Railjet                       : HYEL RailJet
+NAME_Group_HYEL                            : HYEL
+NAME_HYEL_15                               : HYEL-15
+NAME_HYEL_100                              : HYEL-100
+NAME_HYEL_120_Unit                         : HYEL-120 Unit
+NAME_HYEL_120_Dual                         : [2Car] HYEL-120 Dual
+NAME_HYEL_150                              : HYEL-150
+NAME_HYEL_350_11Car                        : [11Car] HYEL-350
+NAME_HYEL_400_7Car                         : [7Car] HYEL-400
+NAME_HYEL_Gangsan_engine                   : HYEL-Gangsan
+NAME_HYEL_Mugunhwa_engine                  : HYEL-Mugunhwa
+NAME_HYEL_Mugunhwa_DD_engine               : HYEL-Mugunhwa DD
+NAME_HYEL_PEX_Super                        : HYEL PEX-SUPER
+NAME_HYEL_Railjet                          : HYEL RailJet
 
 # HYEL wagon Name
-NAME_HYEL_Gangsan_wagon                 : HYEL-Gangsan
-NAME_HYEL_Mugunhwa_wagon                : HYEL-Mugunhwa
-NAME_HYEL_Mugunhwa_DD_wagon             : HYEL-Mugunhwa DD
+NAME_HYEL_Gangsan_wagon                    : HYEL-Gangsan
+NAME_HYEL_Mugunhwa_wagon                   : HYEL-Mugunhwa
+NAME_HYEL_Mugunhwa_DD_wagon                : HYEL-Mugunhwa DD
 
 # HYEL Liveries
-Livery_HYEL_100                         : Hydrogen Train
-Livery_HYEL_100_CI                      : Korail CI
-Livery_HYEL_100_original                : Original
-Livery_HYEL_150                         : HYEL-150
-Livery_HYEL_150_SB                      : HYEL-150 Sea Livery
-Livery_HYEL_Gangsan_M                   : M Type
-Livery_HYEL_Gangsan_3T                  : 3T Type
-Livery_HYEL_Gangsan_T                   : T Type
-Livery_HYEL_Gangsan_TC                  : TC Type
-Livery_HYEL_PEX_Super_TC                : Regular Class
-Livery_HYEL_PEX_Super_FTC               : First Class
-Livery_HYEL_PEX_Super_Generator         : Generator Car
-Livery_HYEL_Railjet_M                   : M Type
-Livery_HYEL_Railjet_Tail                : Tail Type
+Livery_HYEL_100                            : Hydrogen Train
+Livery_HYEL_100_CI                         : Korail CI
+Livery_HYEL_100_original                   : Original
+Livery_HYEL_150                            : HYEL-150
+Livery_HYEL_150_SB                         : HYEL-150 Sea Livery
+Livery_HYEL_Gangsan_M                      : M Type
+Livery_HYEL_Gangsan_3T                     : 3T Type
+Livery_HYEL_Gangsan_T                      : T Type
+Livery_HYEL_Gangsan_TC                     : TC Type
+Livery_HYEL_PEX_Super_TC                   : Regular Class
+Livery_HYEL_PEX_Super_FTC                  : First Class
+Livery_HYEL_PEX_Super_Generator            : Generator Car
+Livery_HYEL_Railjet_M                      : M Type
+Livery_HYEL_Railjet_Tail                   : Tail Type
 
 # AREX Name
-NAME_Group_AREX                         : AREX
-NAME_AREX_1000_1st_5Car                 : [5Car] AREX series 1000 1st
-NAME_AREX_1000_1st_Pass_engine          : [Passenger] AREX series 1000 1st
-NAME_AREX_1000_1st_Post_engine          : [Post] AREX series 1000 1st
-NAME_AREX_2000_1st_6Car                 : [6Car] AREX series 2000 1st
-NAME_AREX_2000_4th_6Car                 : [6Car] AREX series 2000 4th
+NAME_Group_AREX                            : AREX
+NAME_AREX_1000_1st_5Car                    : [5Car] AREX series 1000 1st
+NAME_AREX_1000_1st_Pass_engine             : [Passenger] AREX series 1000 1st
+NAME_AREX_1000_1st_Post_engine             : [Post] AREX series 1000 1st
+NAME_AREX_2000_1st_6Car                    : [6Car] AREX series 2000 1st
+NAME_AREX_2000_4th_6Car                    : [6Car] AREX series 2000 4th
 
 # AREX Liveries
-Livery_AREX_1000_Old                    : 1000 series 1st Old
-Livery_AREX_1000_New                    : 1000 series 1st New
+Livery_AREX_1000_Old                       : 1000 series 1st Old
+Livery_AREX_1000_New                       : 1000 series 1st New
 
-# Daegumetro engine Name
-NAME_Group_Daegumetro                   : Daegu Metro
-NAME_Daegumetro_1000_6Car               : [6Car] Daegu Metro 1000 series
-NAME_Daegumetro_2000_6Car               : [6Car] Daegu Metro 2000 series
-NAME_Daegumetro_3000_3Car               : [3Car] Daegu Metro 3000 series
-
-# Daegumetro wagon Name
-NAME_Daegumetro_1000_wagon_4Car         : [4Car] Daegu Metro 1000 series
-NAME_Daegumetro_2000_wagon_4Car         : [4Car] Daegu Metro 2000 series
-NAME_Daegumetro_3000_wagon              : Daegu Metro 3000 series
+# Daegumetro Name
+NAME_Group_Daegumetro                      : Daegu Metro
+NAME_Daegumetro_1000_6Car                  : [6Car] Daegu Metro 1000 series
+NAME_Daegumetro_2000_6Car                  : [6Car] Daegu Metro 2000 series
+NAME_Daegumetro_3000_3Car                  : [3Car] Daegu Metro 3000 series
 
 # Daegumetro Liveries
-Livery_Daegumetro_1000_GTO              : GTO
-Livery_Daegumetro_1000_IGBT             : IGBT
-STR_REFIT_LIVERY_Daegumetro_3000                       : nomal
-STR_REFIT_LIVERY_Daegumetro_3000_Urban                 : Urban
+Livery_Daegumetro_1000_GTO                 : GTO
+Livery_Daegumetro_1000_IGBT                : IGBT
+Livery_Daegumetro_3000                     : nomal
+Livery_Daegumetro_3000_Urban               : Urban
+
+# Seoulmetro Name
+NAME_Group_Seoulmetro                      : Seoul Metro
+NAME_Group_Chopper_GEC                     : Seoulmetro 2000 GEC chopper
+NAME_Chopper_GEC_6Car                      : [6Car] Seoulmetro 2000 GEC chopper
+NAME_Chopper_GEC_10Car                     : [10Car] Seoulmetro 2000 GEC chopper
+NAME_Group_Chopper_MELCO                   : Seoulmetro 2000 MELCO chopper
+NAME_Chopper_MELCO_4Car                    : [4Car] Seoulmetro 2000 MELCO chopper
+NAME_Chopper_MELCO_6Car                    : [6Car] Seoulmetro 2000 MELCO chopper
+NAME_Chopper_MELCO_10Car                   : [10Car] Seoulmetro 2000 MELCO chopper
+NAME_Group_Chopper_Wide_Range_GEC          : Seoulmetro Wide Range GEC Chopper
+NAME_Chopper_Wide_Range_GEC_6Car           : [6Car] Seoulmetro Wide Range GEC Chopper
+NAME_Chopper_Wide_Range_GEC_10Car          : [10Car] Seoulmetro Wide Range GEC Chopper
+NAME_Group_Seoulmetro_First_S1000          : Seoulmetro Rheostatic [First]
+NAME_Seoulmetro_First_S1000_6Car           : [6Car] Seoulmetro Rheostatic [First]
+NAME_Seoulmetro_First_S1000_10Car          : [10Car] Seoulmetro Rheostatic [First]
+NAME_Seoulmetro_Rheostatic_10Car           : [10Car] Seoulmetro Rheostatic [Rheostatic]
+NAME_Group_Rheostatic_S2000                : Rheostatic 2000
+NAME_Rheostatic_S2000_4Car                 : [4Car] Rheostatic 2000
+NAME_Rheostatic_S2000_6Car                 : [6Car] Rheostatic 2000
+NAME_Rheostatic_S2000_10Car                : [10Car] Rheostatic 2000
+NAME_Group_Seoulmetro_1st                  : Seoulmetro 1st
+NAME_Seoulmetro_1st_4Car                   : [4Car] Seoulmetro 1st
+NAME_Seoulmetro_1st_9000_4Car              : [4Car] Seoulmetro 1st 9000
+NAME_Seoulmetro_1st_2000_6Car              : [6Car] Seoulmetro 1st 2000
+NAME_Seoulmetro_1st_4000_6Car              : [6Car] Seoulmetro 1st 4000
+NAME_Seoulmetro_1st_8000_6Car              : [6Car] Seoulmetro 1st 8000
+NAME_Seoulmetro_1st_9000_6Car              : [6Car] Seoulmetro 1st 9000
+NAME_Seoulmetro_1st_5000_8Car              : [8Car] Seoulmetro 1st 5000
+NAME_Seoulmetro_1st_6000_8Car              : [8Car] Seoulmetro 1st 6000
+NAME_Seoulmetro_1st_7000_8Car              : [8Car] Seoulmetro 1st 7000
+NAME_Seoulmetro_1st_1000_4000_10Car        : [10Car] Seoulmetro 1st 1000, 4000
+NAME_Seoulmetro_1st_2000_3000_10Car        : [10Car] Seoulmetro 1st 2000, 3000
+NAME_Group_Seoulmetro_2nd                  : Seoulmetro 2nd
+NAME_Seoulmetro_2nd_4Car                   : [4Car] Seoulmetro 2nd 2000
+NAME_Seoulmetro_2nd_6Car                   : [6Car] Seoulmetro 2nd 2000
+NAME_Seoulmetro_2nd_8000_6Car              : [6Car] Seoulmetro 2nd 8000
+NAME_Seoulmetro_2nd_7000_8Car              : [8Car] Seoulmetro 2nd 7000
+NAME_Seoulmetro_2nd_1000_10Car             : [10Car] Seoulmetro 2nd 1000
+NAME_Seoulmetro_2nd_2000_10Car             : [10Car] Seoulmetro 2nd 2000
+NAME_Seoulmetro_2nd_3000_10Car             : [10Car] Seoulmetro 2nd 3000
+NAME_Seoulmetro_2nd_10Car                  : [10Car] Seoulmetro 2nd 
+NAME_Group_Seoulmetro_3rd                  : Seoulmetro 3rd
+NAME_Seoulmetro_3rd_6Car                   : [6Car] Seoulmetro 3rd 2000
+NAME_Seoulmetro_3rd_5000_8Car              : [8Car] Seoulmetro 3rd 5000
+NAME_Seoulmetro_3rd_7000_8Car              : [8Car] Seoulmetro 3rd 7000
+NAME_Seoulmetro_3rd_2000_10Car             : [10Car] Seoulmetro 3rd 2000 (= 5th)
+NAME_Seoulmetro_3rd_4000_10Car             : [10Car] Seoulmetro 3rd 4000
+NAME_Group_Seoulmetro_4th                  : Seoulmetro 4th
+NAME_Seoulmetro_4th_4Car                   : [4Car] Seoulmetro 4th 2000
+NAME_Seoulmetro_4th_8000_6Car              : [6Car] Seoulmetro 4th 8000
+NAME_Seoulmetro_4th_9000_6Car              : [6Car] Seoulmetro 4th 9000
+NAME_Seoulmetro_4th_5000_8Car              : [8Car] Seoulmetro 4th 5000
+NAME_Seoulmetro_4th_7000_8Car              : [8Car] Seoulmetro 4th 7000
+NAME_Seoulmetro_4th_2000_10Car             : [10Car] Seoulmetro 4th 2000
+NAME_Seoulmetro_4th_4000_10Car             : [10Car] Seoulmetro 4th 4000
+NAME_Group_Seoulmetro_5th                  : Seoulmetro 5th
+NAME_Seoulmetro_5th_2000_6Car              : [6Car] Seoulmetro 5th 2000
+NAME_Seoulmetro_5th_8000_6Car              : [6Car] Seoulmetro 5th 8000
+NAME_Seoulmetro_5th_5000_8Car              : [8Car] Seoulmetro 5th 5000
+NAME_Seoulmetro_5th_7000_8Car              : [8Car] Seoulmetro 5th 7000
+NAME_Seoulmetro_5th_4000_10Car             : [10Car] Seoulmetro 5th 4000
+NAME_Group_Seoulmetro_6th                  : Seoulmetro 6th
+NAME_Seoulmetro_6th_7000_8Car              : [8Car] Seoulmetro 6th 7000
+NAME_Seoulmetro_6th_4000_10Car             : [10Car] Seoulmetro 6th 4000
+NAME_Seoulmetro_7th_7000_8Car              : [8Car] Seoulmetro 7th 7000
+
+# Seoulmetro Liveries
+Livery_Chopper_GEC_NoRheostatic            : NoRheostatic
+Livery_Chopper_GEC_Rheostatic              : Rheostatic
+Livery_Chopper_MELCO_NoRheostatic          : NoRheostatic
+Livery_Chopper_MELCO_Rheostatic            : Rheostatic
+Livery_Chopper_Wide_Range_GEC_NoRheostatic : NoRheostatic (2000,3000,4000)
+Livery_Chopper_Wide_Range_GEC_Rheostatic   : Rheostatic (3000)
+Livery_Seoulmetro_First_Aircon             : Aircon
+Livery_Seoulmetro_First_S1000              : NoAircon
+Livery_Seoulmetro_Rheostatic_S1000         : Rheostatic livery
+Livery_Seoulmetro_Rheostatic_1011F         : Rheostatic 1011F livery
+Livery_Rheostatic_S2000_NoRheostatic       : NoRheostatic
+Livery_Rheostatic_S2000_Rheostatic         : Rheostatic
+Livery_Rheostatic_S2000_Rheostatic_A       : Rheostatic A
+Livery_Rheostatic_S2000_Rheostatic_B       : Rheostatic B
+Livery_Rheostatic_S2000_Rheostatic_C       : Rheostatic C
+Livery_Seoulmetro_1st_1000_A               : Seoulmetro 1st 1000 A
+Livery_Seoulmetro_1st_1000_B               : Seoulmetro 1st 1000 B
+Livery_Seoulmetro_1st_2000                 : Seoulmetro 1st 2000
+Livery_Seoulmetro_1st_3000                 : Seoulmetro 1st 3000
+Livery_Seoulmetro_1st_4000_GTO             : Seoulmetro 1st 4000 GTO
+Livery_Seoulmetro_1st_4000_IGBT            : Seoulmetro 1st 4000 IGBT
+Livery_Seoulmetro_1st_5000_GTO             : Seoulmetro 1st 5000 GTO
+Livery_Seoulmetro_1st_5000_IGBT            : Seoulmetro 1st 5000 IGBT
+Livery_Seoulmetro_1st_7000_Old             : Seoulmetro 1st 7000 Old
+Livery_Seoulmetro_1st_7000_New             : Seoulmetro 1st 7000 New
+Livery_Seoulmetro_2nd_2000_A               : Seoulmetro 2nd 2000 A
+Livery_Seoulmetro_2nd_2000_B               : Seoulmetro 2nd 2000 B
+Livery_Seoulmetro_2nd_GTO                  : Seoulmetro 2nd 4000 GTO
+Livery_Seoulmetro_2nd_IGBT                 : Seoulmetro 2nd 4000 IGBT
+
+# Incheonmetro Name
+STR_Group_Incheonmetro_NAME                            :Incheon Metro
+STR_Incheonmetro_1000_1st_8Car_NAME                    :[8car] Incheonmetro 1000 1st
+STR_Incheonmetro_1000_2nd_8Car_NAME                    :[8car] Incheonmetro 1000 2nd
+STR_Incheonmetro_1000_3rd_8Car_NAME                    :[8car] Incheonmetro 1000 3rd
+STR_Incheonmetro_2000_2Car_NAME                        :[2car] Incheonmetro 2000
+
+# Incheonmetro Liveries
+STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_1lv    : Old IGBT 1lv
+STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_2lv    : Old IGBT 2lv
+STR_REFIT_LIVERY_Incheonmetro_1000_1st_New             : New
+STR_REFIT_LIVERY_Incheonmetro_2000_1st                 : 1st
+STR_REFIT_LIVERY_Incheonmetro_2000_2nd                 : 2nd
 
 # PEX wagon Name
 NAME_PEX_N                              : PEX 1F Car
@@ -176,8 +282,6 @@ NAME_PEX_SN                             : PEX Special Car
 NAME_PEX_D                              : PEX 2F Car
 NAME_PEX_B                              : PEX Bar Car
 NAME_PEX_S                              : PEX Bad Car
-
-# PEX wagon Liveries
 
 # PEX-Super wagon Name
 NAME_PEX_Super_N                        : PEX-SUPER regular class
@@ -285,7 +389,6 @@ NAME_NEL_8100                           : NEL 8100
 NAME_NEL_8200                           : NEL 8200
 NAME_OEL_8000                           : OEL 8000
 
-
 NAME_RDC_engine                         : RDC Diesel
 NAME_RDC_wagon                          : RDC Diesel
 NAME_Showcase_Flat_1F                   : [Showcase] Flat Car
@@ -311,9 +414,9 @@ NAME_Group_KTX_Sancheon                 : KTX-Sancheon
 NAME_Group_Nuriro                       : Korail 200000 series EMU (NURIRO)
 NAME_Group_PEX                          : PEX (Premium EXpress)
 NAME_Group_PEX_Super                    : PEX-Super (Premium EXpress Super)
-STR_Group_Incheonmetro_NAME                            :Incheon Metro
+
 STR_Group_Korail_NAME                                  :Korail Metro
-STR_Group_Seoulmetro_NAME                              :Seoul Metro
+
 STR_Group_MTR_Logo_NAME                                :Hong Kong MTR
 STR_Group_Hankyu_Logo_NAME                             :Hankyu
 STR_Group_Nishitetsu_Logo_NAME                         :Nishitetsu
@@ -457,10 +560,7 @@ STR_Daejeonmetro_1000_4Car_NAME                        :[4Car] Daejeonmetro 1000
 STR_Dongbuk_2Car_NAME                                  :[2car] Dongbuk
 STR_Gimpo_Gold_2Car_NAME                               :[2car] Gimpo Gold Line
 STR_Gwangjumetro_1000_4Car_NAME                        :[4Car] Gwangjumetro 1000
-STR_Incheonmetro_1000_1st_8Car_NAME                    :[8car] Incheonmetro 1000 1st
-STR_Incheonmetro_1000_2nd_8Car_NAME                    :[8car] Incheonmetro 1000 2nd
-STR_Incheonmetro_1000_3rd_8Car_NAME                    :[8car] Incheonmetro 1000 3rd
-STR_Incheonmetro_2000_2Car_NAME                        :[2car] Incheonmetro 2000
+
 STR_Group_Korail_1st_NAME                              :Korail 1st 
 STR_Korail_1st_4Car_NAME                               :[4Car] Korail 1st
 STR_Korail_1st_6Car_NAME                               :[6Car] Korail 1st
@@ -497,70 +597,7 @@ STR_Korail_Second_8Car_NAME                            :[8Car] Korail Rheostatic
 STR_Korail_Second_10Car_NAME                           :[10Car] Korail Rheostatic [Second]
 STR_Korail_Third_10Car_NAME                            :[10Car] Korail Rheostatic [Third]
 STR_Korail_Rheostatic_10Car_NAME                       :[10Car] Korail Rheostatic [Rheostatic]
-STR_Group_Chopper_GEC_NAME                             :Seoulmetro 2000 GEC chopper
-STR_Chopper_GEC_6Car_NAME                              :[6Car] Seoulmetro 2000 GEC chopper
-STR_Chopper_GEC_10Car_NAME                             :[10Car] Seoulmetro 2000 GEC chopper
-STR_Group_Chopper_MELCO_NAME                           :Seoulmetro 2000 MELCO chopper
-STR_Chopper_MELCO_4Car_NAME                            :[4Car] Seoulmetro 2000 MELCO chopper
-STR_Chopper_MELCO_6Car_NAME                            :[6Car] Seoulmetro 2000 MELCO chopper
-STR_Chopper_MELCO_10Car_NAME                           :[10Car] Seoulmetro 2000 MELCO chopper
-STR_Group_Chopper_Wide_Range_GEC_NAME                  :Seoulmetro Wide Range GEC Chopper
-STR_Chopper_Wide_Range_GEC_6Car_NAME                   :[6Car] Seoulmetro Wide Range GEC Chopper
-STR_Chopper_Wide_Range_GEC_10Car_NAME                  :[10Car] Seoulmetro Wide Range GEC Chopper
-STR_Group_Seoulmetro_First_S1000_NAME                  :Seoulmetro Rheostatic [First]
-STR_Seoulmetro_First_S1000_6Car_NAME                   :[6Car] Seoulmetro Rheostatic [First]
-STR_Seoulmetro_First_S1000_10Car_NAME                  :[10Car] Seoulmetro Rheostatic [First]
-STR_Seoulmetro_Rheostatic_10Car_NAME                   :[10Car] Seoulmetro Rheostatic [Rheostatic]
-STR_Group_Rheostatic_S2000_NAME                        :Rheostatic 2000
-STR_Rheostatic_S2000_4Car_NAME                         :[4Car] Rheostatic 2000
-STR_Rheostatic_S2000_6Car_NAME                         :[6Car] Rheostatic 2000
-STR_Rheostatic_S2000_10Car_NAME                        :[10Car] Rheostatic 2000
-STR_Group_Seoulmetro_1st_NAME                          :Seoulmetro 1st
-STR_Seoulmetro_1st_4Car_NAME                           :[4Car] Seoulmetro 1st
-STR_Seoulmetro_1st_9000_4Car_NAME                      :[4Car] Seoulmetro 1st 9000
-STR_Seoulmetro_1st_2000_6Car_NAME                      :[6Car] Seoulmetro 1st 2000
-STR_Seoulmetro_1st_4000_6Car_NAME                      :[6Car] Seoulmetro 1st 4000
-STR_Seoulmetro_1st_8000_6Car_NAME                      :[6Car] Seoulmetro 1st 8000
-STR_Seoulmetro_1st_9000_6Car_NAME                      :[6Car] Seoulmetro 1st 9000
-STR_Seoulmetro_1st_5000_8Car_NAME                      :[8Car] Seoulmetro 1st 5000
-STR_Seoulmetro_1st_6000_8Car_NAME                      :[8Car] Seoulmetro 1st 6000
-STR_Seoulmetro_1st_7000_8Car_NAME                      :[8Car] Seoulmetro 1st 7000
-STR_Seoulmetro_1st_1000_4000_10Car_NAME                :[10Car] Seoulmetro 1st 1000, 4000
-STR_Seoulmetro_1st_2000_3000_10Car_NAME                :[10Car] Seoulmetro 1st 2000, 3000
-STR_Group_Seoulmetro_2nd_NAME                          :Seoulmetro 2nd
-STR_Seoulmetro_2nd_4Car_NAME                           :[4Car] Seoulmetro 2nd 2000
-STR_Seoulmetro_2nd_6Car_NAME                           :[6Car] Seoulmetro 2nd 2000
-STR_Seoulmetro_2nd_8000_6Car_NAME                      :[6Car] Seoulmetro 2nd 8000
-STR_Seoulmetro_2nd_7000_8Car_NAME                      :[8Car] Seoulmetro 2nd 7000
-STR_Seoulmetro_2nd_1000_10Car_NAME                     :[10Car] Seoulmetro 2nd 1000
-STR_Seoulmetro_2nd_2000_10Car_NAME                     :[10Car] Seoulmetro 2nd 2000
-STR_Seoulmetro_2nd_3000_10Car_NAME                     :[10Car] Seoulmetro 2nd 3000
-STR_Seoulmetro_2nd_10Car_NAME                          :[10Car] Seoulmetro 2nd 
-STR_Group_Seoulmetro_3rd_NAME                          :Seoulmetro 3rd
-STR_Seoulmetro_3rd_6Car_NAME                           :[6Car] Seoulmetro 3rd 2000
-STR_Seoulmetro_3rd_8000_6Car_NAME                      :[6Car] Seoulmetro 3rd 8000
-STR_Seoulmetro_3rd_5000_8Car_NAME                      :[8Car] Seoulmetro 3rd 5000
-STR_Seoulmetro_3rd_7000_8Car_NAME                      :[8Car] Seoulmetro 3rd 7000
-STR_Seoulmetro_3rd_2000_10Car_NAME                     :[10Car] Seoulmetro 3rd 2000 (= 5th)
-STR_Seoulmetro_3rd_4000_10Car_NAME                     :[10Car] Seoulmetro 3rd 4000
-STR_Group_Seoulmetro_4th_NAME                          :Seoulmetro 4th
-STR_Seoulmetro_4th_4Car_NAME                           :[4Car] Seoulmetro 4th 2000
-STR_Seoulmetro_4th_8000_6Car_NAME                      :[6Car] Seoulmetro 4th 8000
-STR_Seoulmetro_4th_9000_6Car_NAME                      :[6Car] Seoulmetro 4th 9000
-STR_Seoulmetro_4th_5000_8Car_NAME                      :[8Car] Seoulmetro 4th 5000
-STR_Seoulmetro_4th_7000_8Car_NAME                      :[8Car] Seoulmetro 4th 7000
-STR_Seoulmetro_4th_2000_10Car_NAME                     :[10Car] Seoulmetro 4th 2000
-STR_Seoulmetro_4th_4000_10Car_NAME                     :[10Car] Seoulmetro 4th 4000
-STR_Group_Seoulmetro_5th_NAME                          :Seoulmetro 5th
-STR_Seoulmetro_5th_2000_6Car_NAME                      :[6Car] Seoulmetro 5th 2000
-STR_Seoulmetro_5th_8000_6Car_NAME                      :[6Car] Seoulmetro 5th 8000
-STR_Seoulmetro_5th_5000_8Car_NAME                      :[8Car] Seoulmetro 5th 5000
-STR_Seoulmetro_5th_7000_8Car_NAME                      :[8Car] Seoulmetro 5th 7000
-STR_Seoulmetro_5th_4000_10Car_NAME                     :[10Car] Seoulmetro 5th 4000
-STR_Group_Seoulmetro_6th_NAME                          :Seoulmetro 6th
-STR_Seoulmetro_6th_7000_8Car_NAME                      :[8Car] Seoulmetro 6th 7000
-STR_Seoulmetro_6th_4000_10Car_NAME                     :[10Car] Seoulmetro 6th 4000
-STR_Seoulmetro_7th_7000_8Car_NAME                      :[8Car] Seoulmetro 7th 7000
+
 STR_Shinbundang_6Car_NAME                              :[6Car] Shinbundang line D000 series 
 STR_Sillim_Line_3Car_NAME                              :[3Car] Sillim Line
 STR_Standard_Metro_4Car_NAME                           :[4Car] Standard Metro
@@ -939,11 +976,6 @@ STR_REFIT_LIVERY_Busanmetro_2000_GTO                   : GTO
 STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
 STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
 
-STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_1lv    : Old IGBT 1lv
-STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_2lv    : Old IGBT 2lv
-STR_REFIT_LIVERY_Incheonmetro_1000_1st_New             : New
-STR_REFIT_LIVERY_Incheonmetro_2000_1st                 : 1st
-STR_REFIT_LIVERY_Incheonmetro_2000_2nd                 : 2nd
 STR_REFIT_LIVERY_Korail_1st_IGBT                       : IGBT
 STR_REFIT_LIVERY_Korail_1st_GTO                        : GTO
 STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT                  : 3X1K IGBT
@@ -1025,37 +1057,8 @@ STR_REFIT_LIVERY_Korail_Third_Old_B                    : Korail last KNR 2nd liv
 STR_REFIT_LIVERY_Korail_Third_New                      : Korail last Current livery
 STR_REFIT_LIVERY_Korail_Rheostatic_K1000_A             : Korail Rheostatic A
 STR_REFIT_LIVERY_Korail_Rheostatic_K1000_B             : Korail Rheostatic B
-STR_REFIT_LIVERY_Chopper_GEC_NoRheostatic              : NoRheostatic
-STR_REFIT_LIVERY_Chopper_GEC_Rheostatic                : Rheostatic
-STR_REFIT_LIVERY_Chopper_MELCO_NoRheostatic            : NoRheostatic
-STR_REFIT_LIVERY_Chopper_MELCO_Rheostatic              : Rheostatic
-STR_REFIT_LIVERY_Chopper_Wide_Range_GEC_NoRheostatic   : NoRheostatic (2000,3000,4000)
-STR_REFIT_LIVERY_Chopper_Wide_Range_GEC_Rheostatic     : Rheostatic (3000)
-STR_REFIT_LIVERY_Seoulmetro_First_S1000                : NoAircon
-STR_REFIT_LIVERY_Seoulmetro_First_Aircon               : Aircon
-STR_REFIT_LIVERY_Seoulmetro_Rheostatic_S1000           : Rheostatic livery
-STR_REFIT_LIVERY_Seoulmetro_Rheostatic_1011F           : Rheostatic 1011F livery
-STR_REFIT_LIVERY_Rheostatic_S2000_NoRheostatic         : NoRheostatic
-STR_REFIT_LIVERY_Rheostatic_S2000_Rheostatic           : Rheostatic
-STR_REFIT_LIVERY_Rheostatic_S2000_Rheostatic_A         : Rheostatic A
-STR_REFIT_LIVERY_Rheostatic_S2000_Rheostatic_B         : Rheostatic B
-STR_REFIT_LIVERY_Rheostatic_S2000_Rheostatic_C         : Rheostatic C
-STR_REFIT_LIVERY_Seoulmetro_1st_1000_A                 : Seoulmetro 1st 1000 A
-STR_REFIT_LIVERY_Seoulmetro_1st_1000_B                 : Seoulmetro 1st 1000 B
-STR_REFIT_LIVERY_Seoulmetro_1st_2000                   : Seoulmetro 1st 2000
-STR_REFIT_LIVERY_Seoulmetro_1st_3000                   : Seoulmetro 1st 3000
-STR_REFIT_LIVERY_Seoulmetro_1st_4000_IGBT              : Seoulmetro 1st 4000 IGBT
-STR_REFIT_LIVERY_Seoulmetro_1st_4000_GTO               : Seoulmetro 1st 4000 GTO
-STR_REFIT_LIVERY_Seoulmetro_1st_5000_IGBT              : Seoulmetro 1st 5000 IGBT
-STR_REFIT_LIVERY_Seoulmetro_1st_5000_GTO               : Seoulmetro 1st 5000 GTO
-STR_REFIT_LIVERY_Seoulmetro_1st_7000_Old               : Seoulmetro 1st 7000 Old
-STR_REFIT_LIVERY_Seoulmetro_1st_7000_New               : Seoulmetro 1st 7000 New
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat              : Standard MetroLong Long Seat
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat             : Standard MetroLong Cross Seat
-STR_REFIT_LIVERY_Seoulmetro_2nd_2000_A                 : Seoulmetro 2nd 2000 A
-STR_REFIT_LIVERY_Seoulmetro_2nd_2000_B                 : Seoulmetro 2nd 2000 B
-STR_REFIT_LIVERY_Seoulmetro_2nd_IGBT                   : Seoulmetro 2nd 4000 IGBT
-STR_REFIT_LIVERY_Seoulmetro_2nd_GTO                    : Seoulmetro 2nd 4000 GTO
 STR_REFIT_LIVERY_Shinbundang_G1                        : Shinbundang G1
 STR_REFIT_LIVERY_Shinbundang_G2                        : Shinbundang G2
 STR_REFIT_LIVERY_Shinbundang_G3                        : Shinbundang G3

@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_5th, 2398){
     property {
-        name:                           string(STR_Group_Seoulmetro_5th_NAME);
+        name:                           string(NAME_Group_Seoulmetro_5th);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, Seoulmetro_5th, 2398){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_5th_2000_6Car, 2290){
     property {
-        name:                           string(STR_Seoulmetro_5th_2000_6Car_NAME);
+        name:                           string(NAME_Seoulmetro_5th_2000_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2022, 1, 1);
         track_type:                     ELRL;
@@ -85,7 +85,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_2000_6Car, 2290){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_5th_8000_6Car, 2569){
     property {
-        name:                           string(STR_Seoulmetro_5th_8000_6Car_NAME);
+        name:                           string(NAME_Seoulmetro_5th_8000_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2027, 1, 1);
         track_type:                     ELRL;
@@ -139,7 +139,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_8000_6Car, 2569){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_5th_5000_8Car, 2401){
     property {
-        name:                           string(STR_Seoulmetro_5th_5000_8Car_NAME);
+        name:                           string(NAME_Seoulmetro_5th_5000_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2021, 1, 1);
         track_type:                     ELRL;
@@ -193,7 +193,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_5000_8Car, 2401){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_5th_7000_8Car, 2303){
     property {
-        name:                           string(STR_Seoulmetro_5th_7000_8Car_NAME);
+        name:                           string(NAME_Seoulmetro_5th_7000_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2021, 1, 1);
         track_type:                     ELRL;
@@ -247,7 +247,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_7000_8Car, 2303){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_5th_4000_10Car, 2399){
     property {
-        name:                           string(STR_Seoulmetro_5th_4000_10Car_NAME);
+        name:                           string(NAME_Seoulmetro_5th_4000_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;

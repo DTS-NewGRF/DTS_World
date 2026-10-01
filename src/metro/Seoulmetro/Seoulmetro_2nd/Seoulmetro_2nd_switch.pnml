@@ -3,13 +3,13 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_4000_10car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Seoulmetro_2nd_GTO);
-    1: return string(STR_REFIT_LIVERY_Seoulmetro_2nd_IGBT);
+    0: return string(Livery_Seoulmetro_2nd_GTO);
+    1: return string(Livery_Seoulmetro_2nd_IGBT);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_2000_10car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Seoulmetro_2nd_2000_A);
-    1: return string(STR_REFIT_LIVERY_Seoulmetro_2nd_2000_B);
+    0: return string(Livery_Seoulmetro_2nd_2000_A);
+    1: return string(Livery_Seoulmetro_2nd_2000_B);
 }
 
 // 도색그래픽 세팅

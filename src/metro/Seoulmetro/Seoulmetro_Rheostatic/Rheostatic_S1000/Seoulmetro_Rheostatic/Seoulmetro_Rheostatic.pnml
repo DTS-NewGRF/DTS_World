@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_Rheostatic_10Car, 2377){
     property {
-        name:                           string(STR_Seoulmetro_Rheostatic_10Car_NAME);
+        name:                           string(NAME_Seoulmetro_Rheostatic_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1999, 1, 1);
         track_type:                     ELRL;

@@ -2,18 +2,18 @@
 ##gender m f
 
 # GRF name and description
-GRF_Name_with_Ver                       :다양성 열차 세트 {VERSION}
-GRF_Desc                                :다양성 열차 세트 입니다
-GRF_URL                                 :https://github.com/DTS-NewGRF/DTS_World/releases
+GRF_Name_with_Ver                          :다양성 열차 세트 {VERSION}
+GRF_Desc                                   :다양성 열차 세트 입니다
+GRF_URL                                    :https://github.com/DTS-NewGRF/DTS_World/releases
 
 # Deleted / locomotive's name
-NAME_To_Be_Deleted                      : {RED}삭제예정
+NAME_To_Be_Deleted                         : {RED}삭제예정
 
 # Parameters
-Param_Name_Max_Virtual_Speed            : 가상속도 적용
-Param_Desc_Max_Virtual_Speed            : 가상속도를 적용할지 체크합니다.{}- 기본:현실속도
-Param_Name_High_Speed_Train             : 가상 고속열차 속도변수
-Param_Desc_High_Speed_Train             : 가상 고속열차의 속도를 조정합니다.{}- 기본:331km/h
+Param_Name_Max_Virtual_Speed               : 가상속도 적용
+Param_Desc_Max_Virtual_Speed               : 가상속도를 적용할지 체크합니다.{}- 기본:현실속도
+Param_Name_High_Speed_Train                : 가상 고속열차 속도변수
+Param_Desc_High_Speed_Train                : 가상 고속열차의 속도를 조정합니다.{}- 기본:331km/h
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] A-Train
@@ -52,123 +52,229 @@ STR_REFIT_train_configuration_Coach_Last               :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_Constrck                 :{BLACK}열차구성 {}{GREEN} 건설용 컨셉을 가진 차량으로 수익 0, 유지비만 나옵니다.
 
 # Errors
-ERROR_NOT_ENOUGH_LENGTH3                : 열차 길이가 너무 짧습니다. 최소한 3량 이상을 연결해야 합니다.
-ERROR_NOT_ENOUGH_LENGTH4                : 열차 길이가 너무 짧습니다. 최소한 4량 이상을 연결해야 합니다.
-ERROR_NOT_ENOUGH_LENGTH6                : 열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.
-ERROR_NOT_ENOUGH_LENGTH8                : 열차 길이가 너무 짧습니다. 최소한 8량 이상을 연결해야 합니다.
+ERROR_NOT_ENOUGH_LENGTH3                   : 열차 길이가 너무 짧습니다. 최소한 3량 이상을 연결해야 합니다.
+ERROR_NOT_ENOUGH_LENGTH4                   : 열차 길이가 너무 짧습니다. 최소한 4량 이상을 연결해야 합니다.
+ERROR_NOT_ENOUGH_LENGTH6                   : 열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.
+ERROR_NOT_ENOUGH_LENGTH8                   : 열차 길이가 너무 짧습니다. 최소한 8량 이상을 연결해야 합니다.
 
 # DTX engine Name
-NAME_Group_DTX                          : DTX
-NAME_DFX_engine                         : DFX
-NAME_DPX_14Car                          : [14량] DPX
-NAME_DCL_120_Pass_engine                : [승객] DCL 120
-NAME_DCL_120_Post_engine                : [우편] DCL 120
-NAME_DCL_150_1st_engine                 : DCL 150 1세대
-NAME_DCL_150_2nd_engine                 : DCL 2세대
-NAME_DTX_L150_engine                    : L150
-NAME_DTX_R001_engine                    : R001
-NAME_DTX_Glory_11Car                    : [11량] DTX-영광
-NAME_DTX_Koryo_11Car                    : [11량] DTX-고려
-NAME_DTX_Sejong_engine                  : DTX-세종
-NAME_DTX_Sobaek_engine                  : DTX-소백
-NAME_DTX_Sundeok_11Car                  : [11량] DTX-선덕
-NAME_DTX_Taebaek_engine                 : DTX-태백
+NAME_Group_DTX                             : DTX
+NAME_DFX_engine                            : DFX
+NAME_DPX_14Car                             : [14량] DPX
+NAME_DCL_120_Pass_engine                   : [승객] DCL 120
+NAME_DCL_120_Post_engine                   : [우편] DCL 120
+NAME_DCL_150_1st_engine                    : DCL 150 1세대
+NAME_DCL_150_2nd_engine                    : DCL 2세대
+NAME_DTX_L150_engine                       : L150
+NAME_DTX_R001_engine                       : R001
+NAME_DTX_Glory_11Car                       : [11량] DTX-영광
+NAME_DTX_Koryo_11Car                       : [11량] DTX-고려
+NAME_DTX_Sejong_engine                     : DTX-세종
+NAME_DTX_Sobaek_engine                     : DTX-소백
+NAME_DTX_Sundeok_11Car                     : [11량] DTX-선덕
+NAME_DTX_Taebaek_engine                    : DTX-태백
 
 # DTX wagon Name
-NAME_DFX_wagon                          : DFX
-NAME_DCL_120_Pass_wagon                 : [승객] DCL 120
-NAME_DCL_120_Post_wagon                 : [우편] DCL 120
-NAME_DCL_150_1st_wagon                  : DCL 150 1세대
-NAME_DCL_150_2nd_wagon                  : DCL 150 2세대
-NAME_DCL_150_2nd_DD_wagon_2car          : [2량] DCL 150 DD 2세대
-NAME_DTX_L150_wagon                     : L150
-NAME_DTX_L150_DD_wagon                  : L150 DD
-NAME_DTX_R001_wagon                     : R001
-NAME_DTX_Sejong_wagon                   : DTX-세종
-NAME_DTX_Sobaek_wagon                   : DTX-소백
-NAME_DTX_Taebaek_wagon                  : DTX-태백
+NAME_DFX_wagon                             : DFX
+NAME_DCL_120_Pass_wagon                    : [승객] DCL 120
+NAME_DCL_120_Post_wagon                    : [우편] DCL 120
+NAME_DCL_150_1st_wagon                     : DCL 150 1세대
+NAME_DCL_150_2nd_wagon                     : DCL 150 2세대
+NAME_DCL_150_2nd_DD_wagon_2car             : [2량] DCL 150 DD 2세대
+NAME_DTX_L150_wagon                        : L150
+NAME_DTX_L150_DD_wagon                     : L150 DD
+NAME_DTX_R001_wagon                        : R001
+NAME_DTX_Sejong_wagon                      : DTX-세종
+NAME_DTX_Sobaek_wagon                      : DTX-소백
+NAME_DTX_Taebaek_wagon                     : DTX-태백
 
 # DTX Liveries
-Livery_DCL_150_1st_T                    : 객차 T
-Livery_DCL_150_1st_M                    : 객차 M
-Livery_DCL_150_1st_Power                : 동력객차
-Livery_DCL_150_2nd_MT                   : 객차 (M)T
-Livery_DCL_150_2nd_M1                   : 객차 M1
-Livery_DCL_150_2nd_M2                   : 객차 M2
-Livery_DCL_150_2nd_CM                   : 객차 CM
-Livery_DCL_150_2nd_Power                : 동력객차
-Livery_L150_Wagon                       : 객차
-Livery_L150_Power                       : 동력객차
-Livery_R001_Wagon                       : 객차
-Livery_R001_Power                       : 동력객차
-Livery_DTX_Glory_1Year                  : 1주년 도색
-Livery_DTX_Glory_2Year                  : 2주년 도색
-Livery_DTX_Glory_APEC_2025              : APEC 2025
+Livery_DCL_150_1st_T                       : 객차 T
+Livery_DCL_150_1st_M                       : 객차 M
+Livery_DCL_150_1st_Power                   : 동력객차
+Livery_DCL_150_2nd_MT                      : 객차 (M)T
+Livery_DCL_150_2nd_M1                      : 객차 M1
+Livery_DCL_150_2nd_M2                      : 객차 M2
+Livery_DCL_150_2nd_CM                      : 객차 CM
+Livery_DCL_150_2nd_Power                   : 동력객차
+Livery_L150_Wagon                          : 객차
+Livery_L150_Power                          : 동력객차
+Livery_R001_Wagon                          : 객차
+Livery_R001_Power                          : 동력객차
+Livery_DTX_Glory_1Year                     : 1주년 도색
+Livery_DTX_Glory_2Year                     : 2주년 도색
+Livery_DTX_Glory_APEC_2025                 : APEC 2025
 
 # HYEL engine Name
-NAME_Group_HYEL                         : HYEL
-NAME_HYEL_15                            : HYEL-15
-NAME_HYEL_100                           : HYEL-100
-NAME_HYEL_120_Unit                      : HYEL-120 Unit
-NAME_HYEL_120_Dual                      : [2량] HYEL-120 Dual
-NAME_HYEL_150                           : HYEL-150
-NAME_HYEL_350_11Car                     : [11량] HYEL-350
-NAME_HYEL_400_7Car                      : [7량] HYEL-400
-NAME_HYEL_Gangsan_engine                : HYEL-강산
-NAME_HYEL_Mugunhwa_engine               : HYEL-무궁화
-NAME_HYEL_Mugunhwa_DD_engine            : HYEL-무궁화 DD
-NAME_HYEL_PEX_Super                     : HYEL PEX-SUPER
-NAME_HYEL_Railjet                       : HYEL RailJet
+NAME_Group_HYEL                            : HYEL
+NAME_HYEL_15                               : HYEL-15
+NAME_HYEL_100                              : HYEL-100
+NAME_HYEL_120_Unit                         : HYEL-120 Unit
+NAME_HYEL_120_Dual                         : [2량] HYEL-120 Dual
+NAME_HYEL_150                              : HYEL-150
+NAME_HYEL_350_11Car                        : [11량] HYEL-350
+NAME_HYEL_400_7Car                         : [7량] HYEL-400
+NAME_HYEL_Gangsan_engine                   : HYEL-강산
+NAME_HYEL_Mugunhwa_engine                  : HYEL-무궁화
+NAME_HYEL_Mugunhwa_DD_engine               : HYEL-무궁화 DD
+NAME_HYEL_PEX_Super                        : HYEL PEX-SUPER
+NAME_HYEL_Railjet                          : HYEL RailJet
 
 # HYEL wagon Name
-NAME_HYEL_Gangsan_wagon                 : HYEL-강산
-NAME_HYEL_Mugunhwa_wagon                : HYEL-무궁화
-NAME_HYEL_Mugunhwa_DD_wagon             : HYEL-무궁화 DD
+NAME_HYEL_Gangsan_wagon                    : HYEL-강산
+NAME_HYEL_Mugunhwa_wagon                   : HYEL-무궁화
+NAME_HYEL_Mugunhwa_DD_wagon                : HYEL-무궁화 DD
 
 # HYEL Liveries
-Livery_HYEL_100                         : 수소열차
-Livery_HYEL_100_CI                      : 한국철도공사 CI
-Livery_HYEL_100_original                : 오리지널
-Livery_HYEL_150                         : HYEL-150
-Livery_HYEL_150_SB                      : HYEL-150 바다도색
-Livery_HYEL_Gangsan_M                   : 객차 M
-Livery_HYEL_Gangsan_3T                  : 객차 3T
-Livery_HYEL_Gangsan_T                   : 객차 T
-Livery_HYEL_Gangsan_TC                  : 객차 TC
-Livery_HYEL_PEX_Super_TC                : 일반실
-Livery_HYEL_PEX_Super_FTC               : 특실
-Livery_HYEL_PEX_Super_Generator         : 발전차
-Livery_HYEL_Railjet_M                   : 객차 M
-Livery_HYEL_Railjet_Tail                : 객차 Tail
+Livery_HYEL_100                            : 수소열차
+Livery_HYEL_100_CI                         : 한국철도공사 CI
+Livery_HYEL_100_original                   : 오리지널
+Livery_HYEL_150                            : HYEL-150
+Livery_HYEL_150_SB                         : HYEL-150 바다도색
+Livery_HYEL_Gangsan_M                      : 객차 M
+Livery_HYEL_Gangsan_3T                     : 객차 3T
+Livery_HYEL_Gangsan_T                      : 객차 T
+Livery_HYEL_Gangsan_TC                     : 객차 TC
+Livery_HYEL_PEX_Super_TC                   : 일반실
+Livery_HYEL_PEX_Super_FTC                  : 특실
+Livery_HYEL_PEX_Super_Generator            : 발전차
+Livery_HYEL_Railjet_M                      : 객차 M
+Livery_HYEL_Railjet_Tail                   : 객차 Tail
 
 # AREX Name
-NAME_Group_AREX                         : AREX
-NAME_AREX_1000_1st_5Car                 : [5량] 공항철도 1000호대 1세대
-NAME_AREX_1000_1st_Pass_engine          : [승객] 공항철도 1000호대 1세대
-NAME_AREX_1000_1st_Post_engine          : [우편] 공항철도 1000호대 1세대
-NAME_AREX_2000_1st_6Car                 : [6량] 공항철도 2000호대 1세대
-NAME_AREX_2000_4th_6Car                 : [6량] 공항철도 2000호대 4세대
+NAME_Group_AREX                            : AREX
+NAME_AREX_1000_1st_5Car                    : [5량] 공항철도 1000호대 1세대
+NAME_AREX_1000_1st_Pass_engine             : [승객] 공항철도 1000호대 1세대
+NAME_AREX_1000_1st_Post_engine             : [우편] 공항철도 1000호대 1세대
+NAME_AREX_2000_1st_6Car                    : [6량] 공항철도 2000호대 1세대
+NAME_AREX_2000_4th_6Car                    : [6량] 공항철도 2000호대 4세대
 
 # AREX Liveries
-Livery_AREX_1000_Old                    : 1000호대 구도색
-Livery_AREX_1000_New                    : 1000호대 신도색
+Livery_AREX_1000_Old                       : 1000호대 구도색
+Livery_AREX_1000_New                       : 1000호대 신도색
 
-# Daegumetro engine Name
-NAME_Group_Daegumetro                   : 대구교통공사
-NAME_Daegumetro_1000_6Car               : [6량] 대구교통공사 1000호대
-NAME_Daegumetro_2000_6Car               : [6량] 대구교통공사 2000호대
-NAME_Daegumetro_3000_3Car               : [3량] 대구교통공사 3000호대
-
-# Daegumetro wagon Name
-NAME_Daegumetro_1000_wagon_4Car         : [4량] 대구교통공사 1000호대
-NAME_Daegumetro_2000_wagon_4Car         : [4량] 대구교통공사 2000호대
-NAME_Daegumetro_3000_wagon              : 대구교통공사 3000호대
+# Daegumetro Name
+NAME_Group_Daegumetro                      : 대구교통공사
+NAME_Daegumetro_1000_6Car                  : [6량] 대구교통공사 1000호대
+NAME_Daegumetro_2000_6Car                  : [6량] 대구교통공사 2000호대
+NAME_Daegumetro_3000_3Car                  : [3량] 대구교통공사 3000호대
 
 # Daegumetro Liveries
-Livery_Daegumetro_1000_GTO              : GTO
-Livery_Daegumetro_1000_IGBT             : IGBT
-STR_REFIT_LIVERY_Daegumetro_3000                       : 기본
-STR_REFIT_LIVERY_Daegumetro_3000_Urban                 : Urban
+Livery_Daegumetro_1000_GTO                 : GTO
+Livery_Daegumetro_1000_IGBT                : IGBT
+Livery_Daegumetro_3000                     : 기본
+Livery_Daegumetro_3000_Urban               : Urban
+
+# Seoulmetro Name
+NAME_Group_Seoulmetro                      : 서울교통공사 전동차
+NAME_Group_Chopper_GEC                     : 서울교통공사 2000호대 GEC초퍼
+NAME_Chopper_GEC_6Car                      : [6량] 서울교통공사 2000호대 GEC초퍼
+NAME_Chopper_GEC_10Car                     : [10량] 서울교통공사 2000호대 GEC초퍼
+NAME_Group_Chopper_MELCO                   : 서울교통공사 2000호대 멜코초퍼
+NAME_Chopper_MELCO_4Car                    : [4량] 서울교통공사 2000호대 멜코초퍼
+NAME_Chopper_MELCO_6Car                    : [6량] 서울교통공사 2000호대 멜코초퍼
+NAME_Chopper_MELCO_10Car                   : [10량] 서울교통공사 2000호대 멜코초퍼
+NAME_Group_Chopper_Wide_Range_GEC          : 서울교통공사 광폭형 GEC초퍼
+NAME_Chopper_Wide_Range_GEC_6Car           : [6량] 서울교통공사 광폭형 GEC초퍼
+NAME_Chopper_Wide_Range_GEC_10Car          : [10량] 서울교통공사 광폭형 GEC초퍼
+NAME_Group_Seoulmetro_First_S1000          : 서울교통공사 저항제어 전동차 [초기저항]
+NAME_Seoulmetro_First_S1000_6Car           : [6량] 서울교통공사 저항제어 전동차 [초기저항]
+NAME_Seoulmetro_First_S1000_10Car          : [10량] 서울교통공사 저항제어 전동차 [초기저항]
+NAME_Seoulmetro_Rheostatic_10Car           : [10량] 서울교통공사 저항제어 전동차 [개조저항]
+NAME_Group_Rheostatic_S2000                : 서울교통공사 2000호대 저항제어 전동차
+NAME_Rheostatic_S2000_4Car                 : [4량] 서울교통공사 2000호대 저항제어 전동차
+NAME_Rheostatic_S2000_6Car                 : [6량] 서울교통공사 2000호대 저항제어 전동차
+NAME_Rheostatic_S2000_10Car                : [10량] 서울교통공사 2000호대 저항제어 전동차
+NAME_Group_Seoulmetro_1st                  : 서울교통공사 1세대 전동차
+NAME_Seoulmetro_1st_4Car                   : [4량] 서울교통공사 1세대 2000호대 전동차
+NAME_Seoulmetro_1st_9000_4Car              : [4량] 서울교통공사 1세대 9000호대 전동차
+NAME_Seoulmetro_1st_2000_6Car              : [6량] 서울교통공사 1세대 2000호대 전동차
+NAME_Seoulmetro_1st_4000_6Car              : [6량] 서울교통공사 1세대 4000호대 전동차
+NAME_Seoulmetro_1st_8000_6Car              : [6량] 서울교통공사 1세대 8000호대 전동차
+NAME_Seoulmetro_1st_9000_6Car              : [6량] 서울교통공사 1세대 9000호대 전동차
+NAME_Seoulmetro_1st_5000_8Car              : [8량] 서울교통공사 1세대 5000호대 전동차
+NAME_Seoulmetro_1st_6000_8Car              : [8량] 서울교통공사 1세대 6000호대 전동차
+NAME_Seoulmetro_1st_7000_8Car              : [8량] 서울교통공사 1세대 7000호대 전동차
+NAME_Seoulmetro_1st_1000_4000_10Car        : [10량] 서울교통공사 1세대 1000, 4000호대 전동차
+NAME_Seoulmetro_1st_2000_3000_10Car        : [10량] 서울교통공사 1세대 2000, 3000호대 전동차
+NAME_Group_Seoulmetro_2nd                  : 서울교통공사 2세대 전동차
+NAME_Seoulmetro_2nd_4Car                   : [4량] 서울교통공사 2세대 2000호대 전동차
+NAME_Seoulmetro_2nd_6Car                   : [6량] 서울교통공사 2세대 2000호대 전동차
+NAME_Seoulmetro_2nd_8000_6Car              : [6량] 서울교통공사 2세대 8000호대 전동차
+NAME_Seoulmetro_2nd_7000_8Car              : [8량] 서울교통공사 2세대 7000호대 전동차
+NAME_Seoulmetro_2nd_1000_10Car             : [10량] 서울교통공사 2세대 1000호대 전동차
+NAME_Seoulmetro_2nd_2000_10Car             : [10량] 서울교통공사 2세대 2000호대 전동차
+NAME_Seoulmetro_2nd_3000_10Car             : [10량] 서울교통공사 2세대 3000호대 전동차
+NAME_Seoulmetro_2nd_10Car                  : [10량] 서울교통공사 2세대 4000호대 전동차
+NAME_Group_Seoulmetro_3rd                  : 서울교통공사 3세대 전동차
+NAME_Seoulmetro_3rd_6Car                   : [6량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
+NAME_Seoulmetro_3rd_5000_8Car              : [8량] 서울교통공사 3세대 5000호대 전동차
+NAME_Seoulmetro_3rd_7000_8Car              : [8량] 서울교통공사 3세대 7000호대 전동차
+NAME_Seoulmetro_3rd_2000_10Car             : [10량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
+NAME_Seoulmetro_3rd_4000_10Car             : [10량] 서울교통공사 3세대 4000호대 전동차
+NAME_Group_Seoulmetro_4th                  : 서울교통공사 4세대 전동차
+NAME_Seoulmetro_4th_4Car                   : [4량] 서울교통공사 4세대 2000호대 전동차
+NAME_Seoulmetro_4th_8000_6Car              : [6량] 서울교통공사 4세대 8000호대 전동차
+NAME_Seoulmetro_4th_9000_6Car              : [6량] 서울교통공사 4세대 9000호대 전동차
+NAME_Seoulmetro_4th_5000_8Car              : [8량] 서울교통공사 4세대 5000호대 전동차
+NAME_Seoulmetro_4th_7000_8Car              : [8량] 서울교통공사 4세대 7000호대 전동차
+NAME_Seoulmetro_4th_2000_10Car             : [10량] 서울교통공사 4세대 2000호대 전동차
+NAME_Seoulmetro_4th_4000_10Car             : [10량] 서울교통공사 4세대 4000호대 전동차
+NAME_Group_Seoulmetro_5th                  : 서울교통공사 5세대 전동차
+NAME_Seoulmetro_5th_2000_6Car              : [6량] 서울교통공사 5세대 2000호대 전동차
+NAME_Seoulmetro_5th_8000_6Car              : [6량] 서울교통공사 5세대 8000호대 전동차
+NAME_Seoulmetro_5th_5000_8Car              : [8량] 서울교통공사 5세대 5000호대 전동차
+NAME_Seoulmetro_5th_7000_8Car              : [8량] 서울교통공사 5세대 7000호대 전동차
+NAME_Seoulmetro_5th_4000_10Car             : [10량] 서울교통공사 5세대 4000호대 전동차
+NAME_Group_Seoulmetro_6th                  : 서울교통공사 6세대 전동차
+NAME_Seoulmetro_6th_7000_8Car              : [8량] 서울교통공사 6세대 7000호대 전동차
+NAME_Seoulmetro_6th_4000_10Car             : [10량] 서울교통공사 6세대 4000호대 전동차
+NAME_Seoulmetro_7th_7000_8Car              : [8량] 서울교통공사 7세대 7000호대 전동차
+
+# Seoulmetro Liveries
+Livery_Chopper_GEC_NoRheostatic            : 미개조
+Livery_Chopper_GEC_Rheostatic              : 개조
+Livery_Chopper_MELCO_NoRheostatic          : 미개조
+Livery_Chopper_MELCO_Rheostatic            : 개조
+Livery_Chopper_Wide_Range_GEC_NoRheostatic : 미개조 (2000,3000,4000)
+Livery_Chopper_Wide_Range_GEC_Rheostatic   : 개조 (3000)
+Livery_Seoulmetro_First_Aircon             : 냉방
+Livery_Seoulmetro_First_S1000              : 비냉방
+Livery_Seoulmetro_Rheostatic_S1000         : 개조저항
+Livery_Seoulmetro_Rheostatic_1011F         : 1011F
+Livery_Rheostatic_S2000_NoRheostatic       : 미개조
+Livery_Rheostatic_S2000_Rheostatic         : 개조
+Livery_Rheostatic_S2000_Rheostatic_A       : 개조
+Livery_Rheostatic_S2000_Rheostatic_B       : 개조 (정사각형 출입문)
+Livery_Rheostatic_S2000_Rheostatic_C       : 개조 (GEC초퍼 무동력 객차)
+Livery_Seoulmetro_1st_1000_A               : 서울교통공사 1세대 1000호대
+Livery_Seoulmetro_1st_1000_B               : 서울교통공사 1세대 1000호대 (초기저항 부수객차 편성)
+Livery_Seoulmetro_1st_2000                 : 서울교통공사 1세대 2000호대
+Livery_Seoulmetro_1st_3000                 : 서울교통공사 1세대 3000호대
+Livery_Seoulmetro_1st_4000_GTO             : 서울교통공사 1세대 4000호대 GTO
+Livery_Seoulmetro_1st_4000_IGBT            : 서울교통공사 1세대 4000호대 IGBT
+Livery_Seoulmetro_1st_5000_GTO             : 서울교통공사 1세대 5000호대 GTO
+Livery_Seoulmetro_1st_5000_IGBT            : 서울교통공사 1세대 5000호대 IGBT
+Livery_Seoulmetro_1st_7000_Old             : 서울교통공사 1세대 7000호대 초기도색
+Livery_Seoulmetro_1st_7000_New             : 서울교통공사 1세대 7000호대 현도색
+Livery_Seoulmetro_2nd_2000_A               : 서울교통공사 2세대 2000호대
+Livery_Seoulmetro_2nd_2000_B               : 서울교통공사 2세대 2000호대 초퍼부수객차
+Livery_Seoulmetro_2nd_GTO                  : 서울교통공사 2세대 4000호대 GTO
+Livery_Seoulmetro_2nd_IGBT                 : 서울교통공사 2세대 4000호대 IGBT
+
+# Incheonmetro Name
+STR_Group_Incheonmetro_NAME                            :인천교통공사 전동차
+STR_Incheonmetro_1000_1st_8Car_NAME                    :[8량] 인천교통공사 1000호대 1세대 전동차
+STR_Incheonmetro_1000_2nd_8Car_NAME                    :[8량] 인천교통공사 1000호대 2세대 전동차
+STR_Incheonmetro_1000_3rd_8Car_NAME                    :[8량] 인천교통공사 1000호대 3세대 전동차
+STR_Incheonmetro_2000_2Car_NAME                        :[2량] 인천교통공사 2000호대 전동차
+
+# Incheonmetro Liveries
+STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_1lv    : 구도색 IGBT 1lv
+STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_2lv    : 구도색 IGBT 2lv
+STR_REFIT_LIVERY_Incheonmetro_1000_1st_New             : 신도색
+STR_REFIT_LIVERY_Incheonmetro_2000_1st                 : 1세대
+STR_REFIT_LIVERY_Incheonmetro_2000_2nd                 : 2세대
 
 # PEX wagon Name
 NAME_PEX_N                              : PEX 1층 차량
@@ -176,8 +282,6 @@ NAME_PEX_SN                             : PEX 특실 차량
 NAME_PEX_D                              : PEX 2층 차량
 NAME_PEX_B                              : PEX 식당칸
 NAME_PEX_S                              : PEX 침대칸
-
-# PEX wagon Liveries
 
 # PEX-Super wagon Name
 NAME_PEX_Super_N                        : PEX-SUPER 일반실
@@ -285,7 +389,6 @@ NAME_NEL_8100                           : 8100호대 전기기관차
 NAME_NEL_8200                           : 8200호대 전기기관차
 NAME_OEL_8000                           : 8000호대 전기기관차
 
-
 NAME_RDC_engine                         : RDC 디젤동차
 NAME_RDC_wagon                          : RDC 디젤동차
 NAME_Showcase_Flat_1F                   : [진열용] 평판화차
@@ -310,9 +413,9 @@ NAME_Group_KTX_Sancheon                 : KTX-산천
 NAME_Group_Nuriro                       : 한국철도공사 200000호대 전동차 (누리로)
 NAME_Group_PEX                          : PEX (Premium EXpress)
 NAME_Group_PEX_Super                    : PEX-Super (Premium EXpress Super)
-STR_Group_Incheonmetro_NAME                            :인천교통공사 전동차
+
 STR_Group_Korail_NAME                                  :한국철도공사 통근형 전동차
-STR_Group_Seoulmetro_NAME                              :서울교통공사 전동차
+
 STR_Group_MTR_Logo_NAME                                :홍콩 MTR
 STR_Group_Hankyu_Logo_NAME                             :한큐전철
 STR_Group_Nishitetsu_Logo_NAME                         :니시테츠
@@ -452,10 +555,7 @@ STR_Daejeonmetro_1000_4Car_NAME                        :[4량] 대전교통공�
 STR_Dongbuk_2Car_NAME                                  :[2량] 동북선
 STR_Gimpo_Gold_2Car_NAME                               :[2량] 김포골드라인
 STR_Gwangjumetro_1000_4Car_NAME                        :[4량] 광주교통공사 1000호대 전동차
-STR_Incheonmetro_1000_1st_8Car_NAME                    :[8량] 인천교통공사 1000호대 1세대 전동차
-STR_Incheonmetro_1000_2nd_8Car_NAME                    :[8량] 인천교통공사 1000호대 2세대 전동차
-STR_Incheonmetro_1000_3rd_8Car_NAME                    :[8량] 인천교통공사 1000호대 3세대 전동차
-STR_Incheonmetro_2000_2Car_NAME                        :[2량] 인천교통공사 2000호대 전동차
+
 STR_Group_Korail_1st_NAME                              :한국철도공사 1세대 전동차
 STR_Korail_1st_4Car_NAME                               :[4량] 한국철도공사 1세대
 STR_Korail_1st_6Car_NAME                               :[6량] 한국철도공사 1세대
@@ -492,70 +592,7 @@ STR_Korail_Second_8Car_NAME                            :[8량] 한국철도공�
 STR_Korail_Second_10Car_NAME                           :[10량] 한국철도공사 저항제어 전동차 [중기저항]
 STR_Korail_Third_10Car_NAME                            :[10량] 한국철도공사 저항제어 전동차 [신조저항]
 STR_Korail_Rheostatic_10Car_NAME                       :[10량] 한국철도공사 저항제어 전동차 [개조저항]
-STR_Group_Chopper_GEC_NAME                             :서울교통공사 2000호대 GEC초퍼
-STR_Chopper_GEC_6Car_NAME                              :[6량] 서울교통공사 2000호대 GEC초퍼
-STR_Chopper_GEC_10Car_NAME                             :[10량] 서울교통공사 2000호대 GEC초퍼
-STR_Group_Chopper_MELCO_NAME                           :서울교통공사 2000호대 멜코초퍼
-STR_Chopper_MELCO_4Car_NAME                            :[4량] 서울교통공사 2000호대 멜코초퍼
-STR_Chopper_MELCO_6Car_NAME                            :[6량] 서울교통공사 2000호대 멜코초퍼
-STR_Chopper_MELCO_10Car_NAME                           :[10량] 서울교통공사 2000호대 멜코초퍼
-STR_Group_Chopper_Wide_Range_GEC_NAME                  :서울교통공사 광폭형 GEC초퍼
-STR_Chopper_Wide_Range_GEC_6Car_NAME                   :[6량] 서울교통공사 광폭형 GEC초퍼
-STR_Chopper_Wide_Range_GEC_10Car_NAME                  :[10량] 서울교통공사 광폭형 GEC초퍼
-STR_Group_Seoulmetro_First_S1000_NAME                  :서울교통공사 저항제어 전동차 [초기저항]
-STR_Seoulmetro_First_S1000_6Car_NAME                   :[6량] 서울교통공사 저항제어 전동차 [초기저항]
-STR_Seoulmetro_First_S1000_10Car_NAME                  :[10량] 서울교통공사 저항제어 전동차 [초기저항]
-STR_Seoulmetro_Rheostatic_10Car_NAME                   :[10량] 서울교통공사 저항제어 전동차 [개조저항]
-STR_Group_Rheostatic_S2000_NAME                        :서울교통공사 2000호대 저항제어 전동차
-STR_Rheostatic_S2000_4Car_NAME                         :[4량] 서울교통공사 2000호대 저항제어 전동차
-STR_Rheostatic_S2000_6Car_NAME                         :[6량] 서울교통공사 2000호대 저항제어 전동차
-STR_Rheostatic_S2000_10Car_NAME                        :[10량] 서울교통공사 2000호대 저항제어 전동차
-STR_Group_Seoulmetro_1st_NAME                          :서울교통공사 1세대 전동차
-STR_Seoulmetro_1st_4Car_NAME                           :[4량] 서울교통공사 1세대 2000호대 전동차
-STR_Seoulmetro_1st_9000_4Car_NAME                      :[4량] 서울교통공사 1세대 9000호대 전동차
-STR_Seoulmetro_1st_2000_6Car_NAME                      :[6량] 서울교통공사 1세대 2000호대 전동차
-STR_Seoulmetro_1st_4000_6Car_NAME                      :[6량] 서울교통공사 1세대 4000호대 전동차
-STR_Seoulmetro_1st_8000_6Car_NAME                      :[6량] 서울교통공사 1세대 8000호대 전동차
-STR_Seoulmetro_1st_9000_6Car_NAME                      :[6량] 서울교통공사 1세대 9000호대 전동차
-STR_Seoulmetro_1st_5000_8Car_NAME                      :[8량] 서울교통공사 1세대 5000호대 전동차
-STR_Seoulmetro_1st_6000_8Car_NAME                      :[8량] 서울교통공사 1세대 6000호대 전동차
-STR_Seoulmetro_1st_7000_8Car_NAME                      :[8량] 서울교통공사 1세대 7000호대 전동차
-STR_Seoulmetro_1st_1000_4000_10Car_NAME                :[10량] 서울교통공사 1세대 1000, 4000호대 전동차
-STR_Seoulmetro_1st_2000_3000_10Car_NAME                :[10량] 서울교통공사 1세대 2000, 3000호대 전동차
-STR_Group_Seoulmetro_2nd_NAME                          :서울교통공사 2세대 전동차
-STR_Seoulmetro_2nd_4Car_NAME                           :[4량] 서울교통공사 2세대 2000호대 전동차
-STR_Seoulmetro_2nd_6Car_NAME                           :[6량] 서울교통공사 2세대 2000호대 전동차
-STR_Seoulmetro_2nd_8000_6Car_NAME                      :[6량] 서울교통공사 2세대 8000호대 전동차
-STR_Seoulmetro_2nd_7000_8Car_NAME                      :[8량] 서울교통공사 2세대 7000호대 전동차
-STR_Seoulmetro_2nd_1000_10Car_NAME                     :[10량] 서울교통공사 2세대 1000호대 전동차
-STR_Seoulmetro_2nd_2000_10Car_NAME                     :[10량] 서울교통공사 2세대 2000호대 전동차
-STR_Seoulmetro_2nd_3000_10Car_NAME                     :[10량] 서울교통공사 2세대 3000호대 전동차
-STR_Seoulmetro_2nd_10Car_NAME                          :[10량] 서울교통공사 2세대 4000호대 전동차
-STR_Group_Seoulmetro_3rd_NAME                          :서울교통공사 3세대 전동차
-STR_Seoulmetro_3rd_6Car_NAME                           :[6량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
-STR_Seoulmetro_3rd_8000_6Car_NAME                      :[6량] 서울교통공사 3세대 8000호대 전동차
-STR_Seoulmetro_3rd_5000_8Car_NAME                      :[8량] 서울교통공사 3세대 5000호대 전동차
-STR_Seoulmetro_3rd_7000_8Car_NAME                      :[8량] 서울교통공사 3세대 7000호대 전동차
-STR_Seoulmetro_3rd_2000_10Car_NAME                     :[10량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
-STR_Seoulmetro_3rd_4000_10Car_NAME                     :[10량] 서울교통공사 3세대 4000호대 전동차
-STR_Group_Seoulmetro_4th_NAME                          :서울교통공사 4세대 전동차
-STR_Seoulmetro_4th_4Car_NAME                           :[4량] 서울교통공사 4세대 2000호대 전동차
-STR_Seoulmetro_4th_8000_6Car_NAME                      :[6량] 서울교통공사 4세대 8000호대 전동차
-STR_Seoulmetro_4th_9000_6Car_NAME                      :[6량] 서울교통공사 4세대 9000호대 전동차
-STR_Seoulmetro_4th_5000_8Car_NAME                      :[8량] 서울교통공사 4세대 5000호대 전동차
-STR_Seoulmetro_4th_7000_8Car_NAME                      :[8량] 서울교통공사 4세대 7000호대 전동차
-STR_Seoulmetro_4th_2000_10Car_NAME                     :[10량] 서울교통공사 4세대 2000호대 전동차
-STR_Seoulmetro_4th_4000_10Car_NAME                     :[10량] 서울교통공사 4세대 4000호대 전동차
-STR_Group_Seoulmetro_5th_NAME                          :서울교통공사 5세대 전동차
-STR_Seoulmetro_5th_2000_6Car_NAME                      :[6량] 서울교통공사 5세대 2000호대 전동차
-STR_Seoulmetro_5th_8000_6Car_NAME                      :[6량] 서울교통공사 5세대 8000호대 전동차
-STR_Seoulmetro_5th_5000_8Car_NAME                      :[8량] 서울교통공사 5세대 5000호대 전동차
-STR_Seoulmetro_5th_7000_8Car_NAME                      :[8량] 서울교통공사 5세대 7000호대 전동차
-STR_Seoulmetro_5th_4000_10Car_NAME                     :[10량] 서울교통공사 5세대 4000호대 전동차
-STR_Group_Seoulmetro_6th_NAME                          :서울교통공사 6세대 전동차
-STR_Seoulmetro_6th_7000_8Car_NAME                      :[8량] 서울교통공사 6세대 7000호대 전동차
-STR_Seoulmetro_6th_4000_10Car_NAME                     :[10량] 서울교통공사 6세대 4000호대 전동차
-STR_Seoulmetro_7th_7000_8Car_NAME                      :[8량] 서울교통공사 7세대 7000호대 전동차
+
 STR_Shinbundang_6Car_NAME                              :[6량] 신분당선 D000호대 전동차
 STR_Sillim_Line_3Car_NAME                              :[3량] 신림선 전동차
 STR_Standard_Metro_4Car_NAME                           :[4량] 한국형 표준전동차
@@ -931,11 +968,6 @@ STR_REFIT_LIVERY_Busanmetro_2000_GTO                   : GTO
 STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
 STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
 
-STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_1lv    : 구도색 IGBT 1lv
-STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_2lv    : 구도색 IGBT 2lv
-STR_REFIT_LIVERY_Incheonmetro_1000_1st_New             : 신도색
-STR_REFIT_LIVERY_Incheonmetro_2000_1st                 : 1세대
-STR_REFIT_LIVERY_Incheonmetro_2000_2nd                 : 2세대
 STR_REFIT_LIVERY_Korail_1st_IGBT                       : IGBT
 STR_REFIT_LIVERY_Korail_1st_GTO                        : GTO
 STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT                  : 3X1K IGBT
@@ -1017,35 +1049,7 @@ STR_REFIT_LIVERY_Korail_Third_Old_B                    : 신조저항 구도색 
 STR_REFIT_LIVERY_Korail_Third_New                      : 신조저항 신도색
 STR_REFIT_LIVERY_Korail_Rheostatic_K1000_A             : 코레일 개조저항 A
 STR_REFIT_LIVERY_Korail_Rheostatic_K1000_B             : 코레일 개조저항 B
-STR_REFIT_LIVERY_Chopper_GEC_NoRheostatic              : 미개조
-STR_REFIT_LIVERY_Chopper_GEC_Rheostatic                : 개조
-STR_REFIT_LIVERY_Chopper_MELCO_NoRheostatic            : 미개조
-STR_REFIT_LIVERY_Chopper_MELCO_Rheostatic              : 개조
-STR_REFIT_LIVERY_Chopper_Wide_Range_GEC_NoRheostatic   : 미개조 (2000,3000,4000)
-STR_REFIT_LIVERY_Chopper_Wide_Range_GEC_Rheostatic     : 개조 (3000)
-STR_REFIT_LIVERY_Seoulmetro_First_S1000                : 비냉방
-STR_REFIT_LIVERY_Seoulmetro_First_Aircon               : 냉방
-STR_REFIT_LIVERY_Seoulmetro_Rheostatic_S1000           : 개조저항
-STR_REFIT_LIVERY_Seoulmetro_Rheostatic_1011F           : 1011F
-STR_REFIT_LIVERY_Rheostatic_S2000_NoRheostatic         : 미개조
-STR_REFIT_LIVERY_Rheostatic_S2000_Rheostatic           : 개조
-STR_REFIT_LIVERY_Rheostatic_S2000_Rheostatic_A         : 개조
-STR_REFIT_LIVERY_Rheostatic_S2000_Rheostatic_B         : 개조 (정사각형 출입문)
-STR_REFIT_LIVERY_Rheostatic_S2000_Rheostatic_C         : 개조 (GEC초퍼 무동력 객차)
-STR_REFIT_LIVERY_Seoulmetro_1st_1000_A                 : 서울교통공사 1세대 1000호대
-STR_REFIT_LIVERY_Seoulmetro_1st_1000_B                 : 서울교통공사 1세대 1000호대 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Seoulmetro_1st_2000                   : 서울교통공사 1세대 2000호대
-STR_REFIT_LIVERY_Seoulmetro_1st_3000                   : 서울교통공사 1세대 3000호대
-STR_REFIT_LIVERY_Seoulmetro_1st_4000_IGBT              : 서울교통공사 1세대 4000호대 IGBT
-STR_REFIT_LIVERY_Seoulmetro_1st_4000_GTO               : 서울교통공사 1세대 4000호대 GTO
-STR_REFIT_LIVERY_Seoulmetro_1st_5000_IGBT              : 서울교통공사 1세대 5000호대 IGBT
-STR_REFIT_LIVERY_Seoulmetro_1st_5000_GTO               : 서울교통공사 1세대 5000호대 GTO
-STR_REFIT_LIVERY_Seoulmetro_1st_7000_Old               : 서울교통공사 1세대 7000호대 초기도색
-STR_REFIT_LIVERY_Seoulmetro_1st_7000_New               : 서울교통공사 1세대 7000호대 현도색
-STR_REFIT_LIVERY_Seoulmetro_2nd_2000_A                 : 서울교통공사 2세대 2000호대
-STR_REFIT_LIVERY_Seoulmetro_2nd_2000_B                 : 서울교통공사 2세대 2000호대 초퍼부수객차
-STR_REFIT_LIVERY_Seoulmetro_2nd_IGBT                   : 서울교통공사 2세대 4000호대 IGBT
-STR_REFIT_LIVERY_Seoulmetro_2nd_GTO                    : 서울교통공사 2세대 4000호대 GTO
+
 STR_REFIT_LIVERY_Shinbundang_G1                        : 1세대
 STR_REFIT_LIVERY_Shinbundang_G2                        : 2세대
 STR_REFIT_LIVERY_Shinbundang_G3                        : 3세대
