@@ -3,9 +3,9 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Busanmetro_2nd_1000_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Busanmetro_2nd_1000_G1);
-    1: return string(STR_REFIT_LIVERY_Busanmetro_2nd_1000_G2);
-    2: return string(STR_REFIT_LIVERY_Busanmetro_2nd_1000_G3);
+    0: return string(Livery_Busanmetro_2nd_1000_G1);
+    1: return string(Livery_Busanmetro_2nd_1000_G2);
+    2: return string(Livery_Busanmetro_2nd_1000_G3);
 }
 
 // 도색그래픽 세팅

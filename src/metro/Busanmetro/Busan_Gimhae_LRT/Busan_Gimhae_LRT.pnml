@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Busan_Gimhae_LRT_2Car, 2407){
     property {
-        name:                           string(STR_Busan_Gimhae_LRT_2Car_NAME);
+        name:                           string(NAME_Busan_Gimhae_LRT_2Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2009, 1, 1);
         track_type:                     KR_3RD_RAIL;

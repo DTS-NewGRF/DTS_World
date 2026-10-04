@@ -3,9 +3,9 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Incheonmetro_1000_1st_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Incheonmetro_1000_1st_New);
-    1: return string(STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_1lv);
-    2: return string(STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_2lv);
+    0: return string(Livery_Incheonmetro_1000_1st_New);
+    1: return string(Livery_Incheonmetro_1000_1st_Old_IGBT_1lv);
+    2: return string(Livery_Incheonmetro_1000_1st_Old_IGBT_2lv);
 }
 
 // 도색그래픽 세팅

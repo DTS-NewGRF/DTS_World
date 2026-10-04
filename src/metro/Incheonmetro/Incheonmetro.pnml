@@ -9,7 +9,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Incheonmetro, 2386){
     property {
-        name:                           string(STR_Group_Incheonmetro_NAME);
+        name:                           string(NAME_Group_Incheonmetro);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

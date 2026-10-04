@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Busanmetro_1st_2000_6Car, 2381){
     property {
-        name:                           string(STR_Busanmetro_1st_2000_6Car_NAME);
+        name:                           string(NAME_Busanmetro_1st_2000_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1997, 1, 1);
         track_type:                     ELRL;

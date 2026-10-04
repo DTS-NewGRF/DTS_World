@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Incheonmetro_1000_1st_8Car, 2387){
     property {
-        name:                           string(STR_Incheonmetro_1000_1st_8Car_NAME);
+        name:                           string(NAME_Incheonmetro_1000_1st_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1998, 1, 1);
         track_type:                     ELRL;
