@@ -3,40 +3,40 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_G1_4Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Korail_4th_G1_2CC);
-    1: return string(STR_REFIT_LIVERY_Korail_4th_G1_381K);
+    0: return string(Livery_Korail_4th_G1_2CC);
+    1: return string(Livery_Korail_4th_G1_381K);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_G3_4Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Korail_4th_G3_SI);
-    1: return string(STR_REFIT_LIVERY_Korail_4th_G3_PMSM);
+    0: return string(Livery_Korail_4th_G3_SI);
+    1: return string(Livery_Korail_4th_G3_PMSM);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_6Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Korail_4th_G2_SI);
-    1: return string(STR_REFIT_LIVERY_Korail_4th_G3_SI);
-    2: return string(STR_REFIT_LIVERY_Korail_4th_G3_PMSM);
+    0: return string(Livery_Korail_4th_G2_SI);
+    1: return string(Livery_Korail_4th_G3_SI);
+    2: return string(Livery_Korail_4th_G3_PMSM);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_8Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Korail_4th_G2_2cc);
-    1: return string(STR_REFIT_LIVERY_Korail_4th_G2_2nd_A);
-    2: return string(STR_REFIT_LIVERY_Korail_4th_G2_2nd_B);
-    3: return string(STR_REFIT_LIVERY_Korail_4th_G3_PMSM);
+    0: return string(Livery_Korail_4th_G2_2cc);
+    1: return string(Livery_Korail_4th_G2_2nd_A);
+    2: return string(Livery_Korail_4th_G2_2nd_B);
+    3: return string(Livery_Korail_4th_G3_PMSM);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Korail_4th_G2_SI1);
-    1: return string(STR_REFIT_LIVERY_Korail_4th_G2_SI2);      // 1차분 싱글 2
-    2: return string(STR_REFIT_LIVERY_Korail_4th_G2_DOB);      // 1차분 더블
-    3: return string(STR_REFIT_LIVERY_Korail_4th_G3_SI1);      // 2차분 싱글 1
-    4: return string(STR_REFIT_LIVERY_Korail_4th_G3_SI2);      // 2차분 싱글 2
-    5: return string(STR_REFIT_LIVERY_Korail_4th_G3_DOB);      // 2차분 더블
+    0: return string(Livery_Korail_4th_G2_SI1);
+    1: return string(Livery_Korail_4th_G2_SI2);      // 1차분 싱글 2
+    2: return string(Livery_Korail_4th_G2_DOB);      // 1차분 더블
+    3: return string(Livery_Korail_4th_G3_SI1);      // 2차분 싱글 1
+    4: return string(Livery_Korail_4th_G3_SI2);      // 2차분 싱글 2
+    5: return string(Livery_Korail_4th_G3_DOB);      // 2차분 더블
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_392000_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Korail_4th_G3_392000);
-    1: return string(STR_REFIT_LIVERY_Korail_4th_G3_393000);
+    0: return string(Livery_Korail_4th_G3_392000);
+    1: return string(Livery_Korail_4th_G3_393000);
 }
 
 // 도색그래픽 세팅

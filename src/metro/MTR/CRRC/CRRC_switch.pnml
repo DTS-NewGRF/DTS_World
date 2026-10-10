@@ -2,8 +2,8 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_MTR_CRRC_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_MTR_CRRC_Sipang);  // CRRC 쓰팡
-    return string(STR_REFIT_LIVERY_MTR_CRRC_Changchun);
+    1: return string(Livery_CRRC_Sipang);  // CRRC 쓰팡
+    return string(Livery_CRRC_Changchun);
 }
 
 switch(FEAT_TRAINS, SELF, sw_MTR_CRRC_engineH, cargo_subtype) {

@@ -3,8 +3,8 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Hankyu_6300_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Hankyu_6300_A);
-    1: return string(STR_REFIT_LIVERY_Hankyu_6300_B);
+    0: return string(Livery_Hankyu_6300_A);
+    1: return string(Livery_Hankyu_6300_B);
 }
 
 // 도색그래픽 세팅

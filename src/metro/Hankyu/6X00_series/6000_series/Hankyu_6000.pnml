@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Hankyu_6000, 2188){
     property {
-        name:                           string(STR_Group_Hankyu_6000_NAME);
+        name:                           string(NAME_Group_Hankyu_6000);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, Hankyu_6000, 2188){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Hankyu_6000_2Car, 2169){
     property {
-        name:                           string(STR_Hankyu_6000_2Car_NAME);
+        name:                           string(NAME_Hankyu_6000_2Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1976, 1, 1);
         track_type:                     ELRL;
@@ -86,7 +86,7 @@ item(FEAT_TRAINS, Hankyu_6000_2Car, 2169){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Hankyu_6000_3Car, 2170){
     property {
-        name:                           string(STR_Hankyu_6000_3Car_NAME);
+        name:                           string(NAME_Hankyu_6000_3Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1998, 1, 1);
         track_type:                     ELRL;
@@ -141,7 +141,7 @@ item(FEAT_TRAINS, Hankyu_6000_3Car, 2170){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Hankyu_6000_4Car, 2171){
     property {
-        name:                           string(STR_Hankyu_6000_4Car_NAME);
+        name:                           string(NAME_Hankyu_6000_4Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1980, 1, 1);
         track_type:                     ELRL;
@@ -196,7 +196,7 @@ item(FEAT_TRAINS, Hankyu_6000_4Car, 2171){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Hankyu_6000_6Car, 2446){
     property {
-        name:                           string(STR_Hankyu_6000_6Car_NAME);
+        name:                           string(NAME_Hankyu_6000_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1976, 1, 1);
         track_type:                     ELRL;
@@ -251,7 +251,7 @@ item(FEAT_TRAINS, Hankyu_6000_6Car, 2446){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Hankyu_6000_8Car, 2172){
     property {
-        name:                           string(STR_Hankyu_6000_8Car_NAME);
+        name:                           string(NAME_Hankyu_6000_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1976, 1, 1);
         track_type:                     ELRL;

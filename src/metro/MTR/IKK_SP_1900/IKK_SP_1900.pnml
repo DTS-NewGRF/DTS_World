@@ -12,7 +12,7 @@ MTR IKK SP 1900
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, IKK_SP_1900_8Car, 2059){
     property {
-        name:                           string(STR_MTR_IKK_SP_1900_8Car_NAME);
+        name:                           string(NAME_IKK_SP_1900_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1999, 1, 1);
         track_type:                     ELRL;

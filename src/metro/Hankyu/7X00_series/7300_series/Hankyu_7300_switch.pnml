@@ -4,19 +4,19 @@
 // 도색명
 // 2, 6, 7량
 switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Hankyu_7300);
-    1: return string(STR_REFIT_LIVERY_Hankyu_7300_1998);
-    2: return string(STR_REFIT_LIVERY_Hankyu_7300_2014);
+    0: return string(Livery_Hankyu_7300);
+    1: return string(Livery_Hankyu_7300_1998);
+    2: return string(Livery_Hankyu_7300_2014);
     return CB_RESULT_NO_TEXT;
 }
 
 // 8량
 switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_8Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Hankyu_7300);
-    1: return string(STR_REFIT_LIVERY_Hankyu_7300_1998);
-    2: return string(STR_REFIT_LIVERY_Hankyu_7300_2008);
-    3: return string(STR_REFIT_LIVERY_Hankyu_7300_2014);
-    4: return string(STR_REFIT_LIVERY_Hankyu_7300_2014_VVVF);
+    0: return string(Livery_Hankyu_7300);
+    1: return string(Livery_Hankyu_7300_1998);
+    2: return string(Livery_Hankyu_7300_2008);
+    3: return string(Livery_Hankyu_7300_2014);
+    4: return string(Livery_Hankyu_7300_2014_VVVF);
     return CB_RESULT_NO_TEXT;
 }
 

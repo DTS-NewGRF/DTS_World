@@ -191,112 +191,115 @@ NAME_Busanmetro_1st_2000_6Car              : [6량] 부산교통공사 1세대 2
 NAME_Busanmetro_2nd_2000_6Car              : [6량] 부산교통공사 2세대 2000호대 전동차
 NAME_Busanmetro_3000_4Car                  : [4량] 부산교통공사 3000호대 전동차
 NAME_Busanmetro_4000_6Car                  : [6량] 부산교통공사 4000호대 전동차
-STR_Group_Korail_NAME                                  :한국철도공사 통근형 전동차
-STR_Group_Korail_1st_NAME                              :한국철도공사 1세대 전동차
-STR_Korail_1st_4Car_NAME                               :[4량] 한국철도공사 1세대
-STR_Korail_1st_6Car_NAME                               :[6량] 한국철도공사 1세대
-STR_Korail_1st_10Car_NAME                              :[10량] 한국철도공사 1세대
-STR_Group_Korail_2nd_NAME                              :한국철도공사 2세대 전동차
-STR_Korail_2nd_6Car_NAME                               :[6량] 한국철도공사 2세대
-STR_Korail_2nd_10Car_NAME                              :[10량] 한국철도공사 2세대
-STR_Group_Korail_3rd_NAME                              :한국철도공사 3세대 전동차
-STR_Korail_3rd_ST_4Car_NAME                            :[4량] 한국철도공사 3세대 1차 도입분
-STR_Korail_3rd_G2_4Car_NAME                            :[4량] 한국철도공사 3세대 2차 도입분
-STR_Korail_3rd_6Car_NAME                               :[6량] 한국철도공사 3세대 전동차
-STR_Korail_3rd_8Car_NAME                               :[8량] 한국철도공사 3세대 전동차
-STR_Korail_3rd_10Car_NAME                              :[10량] 한국철도공사 3세대 전동차
-STR_Group_Korail_4th_NAME                              :한국철도공사 4세대 전동차
-STR_Korail_4th_G1_4Car_NAME                            :[4량] 한국철도공사 4세대 초기도입분
-STR_Korail_4th_4Car_NAME                               :[4량] 한국철도공사 4세대 2차도입분
-STR_Korail_4th_6Car_NAME                               :[6량] 한국철도공사 4세대 1·2차 도입분
-STR_Korail_4th_8Car_NAME                               :[8량] 한국철도공사 4세대 2차도입분
-STR_Korail_4th_10Car_NAME                              :[10량] 한국철도공사 4세대 1·2차 도입분
-STR_Korail_5th_10Car_NAME                              :[10량] 한국철도공사 5세대 전동차
-STR_Group_Korail_6th_NAME                              :한국철도공사 6세대 전동차
-STR_Korail_6th_4Car_NAME                               :[4량] 한국철도공사 6세대 전동차
-STR_Korail_6th_6Car_NAME                               :[6량] 한국철도공사 6세대 전동차
-STR_Korail_6th_8Car_NAME                               :[8량] 한국철도공사 6세대 전동차
-STR_Group_Korail_First_NAME                            :한국철도공사 저항제어 전동차 [초기저항]
-STR_Korail_First_4Car_NAME                             :[4량] 한국철도공사 저항제어 전동차 [초기저항]
-STR_Korail_First_6Car_NAME                             :[6량] 한국철도공사 저항제어 전동차 [초기저항]
-STR_Korail_First_8Car_NAME                             :[8량] 한국철도공사 저항제어 전동차 [초기저항]
-STR_Korail_First_10Car_NAME                            :[10량] 한국철도공사 저항제어 전동차 [초기저항]
-STR_Group_Korail_Second_NAME                           :한국철도공사 저항제어 전동차 [중기저항]
-STR_Korail_Second_4Car_NAME                            :[4량] 한국철도공사 저항제어 전동차 [중기저항]
-STR_Korail_Second_6Car_NAME                            :[6량] 한국철도공사 저항제어 전동차 [중기저항]
-STR_Korail_Second_8Car_NAME                            :[8량] 한국철도공사 저항제어 전동차 [중기저항]
-STR_Korail_Second_10Car_NAME                           :[10량] 한국철도공사 저항제어 전동차 [중기저항]
-STR_Korail_Third_10Car_NAME                            :[10량] 한국철도공사 저항제어 전동차 [신조저항]
-STR_Korail_Rheostatic_10Car_NAME                       :[10량] 한국철도공사 저항제어 전동차 [개조저항]
-STR_Group_Nishitetsu_Logo_NAME                         :니시테츠
-STR_Nishitetsu_1000_4Car_NAME                          :[4량] 니시테츠 1000형
-STR_Nishitetsu_2000_6Car_NAME                          :[6량] 니시테츠 2000형
-STR_Group_Nishitetsu_3000_NAME                         :니시테츠 3000형
-STR_Nishitetsu_3000_2Car_NAME                          :[2량] 니시테츠 3000형
-STR_Nishitetsu_3000_3Car_NAME                          :[3량] 니시테츠 3000형
-STR_Nishitetsu_3000_5Car_NAME                          :[5량] 니시테츠 3000형
-STR_Group_Nishitetsu_5000_NAME                         :니시테츠 5000형
-STR_Nishitetsu_5000_3Car_NAME                          :[3량] 니시테츠 5000형
-STR_Nishitetsu_5000_4Car_NAME                          :[4량] 니시테츠 5000형
-STR_Group_Nishitetsu_6000_NAME                         :니시테츠 6000형
-STR_Nishitetsu_6000_3Car_NAME                          :[3량] 니시테츠 6000형
-STR_Nishitetsu_6000_4Car_NAME                          :[4량] 니시테츠 6000형
-STR_Nishitetsu_6050_3Car_NAME                          :[3량] 니시테츠 6050형
-STR_Nishitetsu_6050_4Car_NAME                          :[4량] 니시테츠 6050형
-STR_Nishitetsu_7000_2Car_NAME                          :[2량] 니시테츠 7000형
-STR_Nishitetsu_8000_6Car_NAME                          :[6량] 니시테츠 8000형
-STR_Group_Nishitetsu_9000_NAME                         :니시테츠 9000형
-STR_Nishitetsu_9000_2Car_NAME                          :[2량] 니시테츠 9000형
-STR_Nishitetsu_9000_3Car_NAME                          :[3량] 니시테츠 9000형
-STR_Group_Hankyu_Logo_NAME                             :한큐전철
-STR_Hankyu_1000_8Car_NAME                              :[8량] 한큐전철 신1000형
-STR_Hankyu_1300_8Car_NAME                              :[8량] 한큐전철 신1300형
-STR_Group_Hankyu_6000_NAME                             :한큐전철 6000형
-STR_Hankyu_6000_2Car_NAME                              :[2량] 한큐전철 6000형
-STR_Hankyu_6000_3Car_NAME                              :[3량] 한큐전철 6000형
-STR_Hankyu_6000_4Car_NAME                              :[4량] 한큐전철 6000형
-STR_Hankyu_6000_6Car_NAME                              :[6량] 한큐전철 6000형
-STR_Hankyu_6000_8Car_NAME                              :[8량] 한큐전철 6000형
-STR_Group_Hankyu_6300_NAME                             :한큐전철 6300형
-STR_Hankyu_6300_4Car_NAME                              :[4량] 한큐전철 6300형
-STR_Hankyu_6300_6Car_NAME                              :[6량] 한큐전철 6300형
-STR_Hankyu_6300_8Car_NAME                              :[8량] 한큐전철 6300형
-STR_Group_Hankyu_7000_NAME                             :한큐전철 7000형
-STR_Hankyu_7000_2Car_NAME                              :[2량] 한큐전철 7000형
-STR_Hankyu_7000_4Car_NAME                              :[4량] 한큐전철 7000형
-STR_Hankyu_7000_6Car_NAME                              :[6량] 한큐전철 7000형
-STR_Hankyu_7000_8Car_NAME                              :[8량] 한큐전철 7000형
-STR_Group_Hankyu_7300_NAME                             :한큐전철 7300형
-STR_Hankyu_7300_2Car_NAME                              :[2량] 한큐전철 7300형
-STR_Hankyu_7300_6Car_NAME                              :[6량] 한큐전철 7300형
-STR_Hankyu_7300_7Car_NAME                              :[7량] 한큐전철 7300형
-STR_Hankyu_7300_8Car_NAME                              :[8량] 한큐전철 7300형
-STR_Group_Hankyu_8000_NAME                             :한큐전철 8000형
-STR_Hankyu_8000_2Car_NAME                              :[2량] 한큐전철 8000형
-STR_Hankyu_8000_6Car_NAME                              :[6량] 한큐전철 8000형
-STR_Hankyu_8000_8Car_NAME                              :[8량] 한큐전철 8000형
-STR_Hankyu_8200_2Car_NAME                              :[2량] 한큐전철 8200형
-STR_Group_Hankyu_8300_NAME                             :한큐전철 8300형
-STR_Hankyu_8300_2Car_NAME                              :[2량] 한큐전철 8300형
-STR_Hankyu_8300_6Car_NAME                              :[6량] 한큐전철 8300형
-STR_Hankyu_8300_8Car_NAME                              :[8량] 한큐전철 8300형
-STR_Hankyu_9000_8Car_NAME                              :[8량] 한큐전철 9000형
-STR_Hankyu_9300_8Car_NAME                              :[8량] 한큐전철 9300형
-STR_Group_MTR_Logo_NAME                                :홍콩 MTR
-STR_MTR_AC_Cammall_8Car_NAME                           :[8량] 홍콩 MTR 메트로카멜 교류형 전동차
-STR_MTR_AD_Tranz_CAF_A_8Car_NAME                       :[8량] 홍콩 MTR AD Tranz CAF A형
-STR_MTR_CNR_Changchun_8Car_NAME                        :[8량] 홍콩 MTR CNR 창춘 전동차
-STR_MTR_CRRC_8Car_NAME                                 :[8량] 홍콩 MTR CRRC 전동차
-STR_MTR_DC_Cammall_8Car_NAME                           :[8량] 홍콩 MTR 메트로카멜 직류형 전동차
-STR_MTR_Hyundai_Rotem_Mitsubishi_8Car_NAME             :[8량] 홍콩 MTR 현대로템 미쓰비시 전동차
-STR_MTR_Hyundai_Rotem_R_8Car_NAME                      :[8량] 홍콩 MTR 현대로템 R형 전동차
-STR_MTR_IKK_SP_1900_8Car_NAME                          :[8량] 홍콩 MTR IKK SP 1900
-NAME_Group_Nuriro                       : 한국철도공사 200000호대 전동차 (누리로)
-NAME_Nuriro_4Car                        : [4량] 누리로
-NAME_Nuriro_engine                      : 누리로
-NAME_Nuriro_wagon                       : 누리로
-NAME_Nuriro_DD_engine                   : 누리로 DD
-NAME_Nuriro_DD_wagon                    : 누리로 DD
+NAME_Group_Korail                          : 한국철도공사 통근형 전동차
+NAME_Group_Korail_1st                      : 한국철도공사 1세대 전동차
+NAME_Korail_1st_4Car                       : [4량] 한국철도공사 1세대
+NAME_Korail_1st_6Car                       : [6량] 한국철도공사 1세대
+NAME_Korail_1st_10Car                      : [10량] 한국철도공사 1세대
+NAME_Group_Korail_2nd                      : 한국철도공사 2세대 전동차
+NAME_Korail_2nd_6Car                       : [6량] 한국철도공사 2세대
+NAME_Korail_2nd_10Car                      : [10량] 한국철도공사 2세대
+NAME_Group_Korail_3rd                      : 한국철도공사 3세대 전동차
+NAME_Korail_3rd_ST_4Car                    : [4량] 한국철도공사 3세대 1차 도입분
+NAME_Korail_3rd_G2_4Car                    : [4량] 한국철도공사 3세대 2차 도입분
+NAME_Korail_3rd_6Car                       : [6량] 한국철도공사 3세대 전동차
+NAME_Korail_3rd_8Car                       : [8량] 한국철도공사 3세대 전동차
+NAME_Korail_3rd_10Car                      : [10량] 한국철도공사 3세대 전동차
+NAME_Group_Korail_4th                      : 한국철도공사 4세대 전동차
+NAME_Korail_392000_2car                    : [2량] 한국철도공사 4세대 3차도입분
+NAME_Korail_392000_engine                  : 한국철도공사 4세대 3차도입분
+NAME_Korail_392000_wagon                   : 한국철도공사 4세대 3차도입분
+NAME_Korail_4th_G1_4Car                    : [4량] 한국철도공사 4세대 초기도입분
+NAME_Korail_4th_4Car                       : [4량] 한국철도공사 4세대 2차도입분
+NAME_Korail_4th_6Car                       : [6량] 한국철도공사 4세대 1·2차 도입분
+NAME_Korail_4th_8Car                       : [8량] 한국철도공사 4세대 2차도입분
+NAME_Korail_4th_10Car                      : [10량] 한국철도공사 4세대 1·2차 도입분
+NAME_Korail_5th_10Car                      : [10량] 한국철도공사 5세대 전동차
+NAME_Group_Korail_6th                      : 한국철도공사 6세대 전동차
+NAME_Korail_6th_4Car                       : [4량] 한국철도공사 6세대 전동차
+NAME_Korail_6th_6Car                       : [6량] 한국철도공사 6세대 전동차
+NAME_Korail_6th_8Car                       : [8량] 한국철도공사 6세대 전동차
+NAME_Group_Korail_First                    : 한국철도공사 저항제어 전동차 [초기저항]
+NAME_Korail_First_4Car                     : [4량] 한국철도공사 저항제어 전동차 [초기저항]
+NAME_Korail_First_6Car                     : [6량] 한국철도공사 저항제어 전동차 [초기저항]
+NAME_Korail_First_8Car                     : [8량] 한국철도공사 저항제어 전동차 [초기저항]
+NAME_Korail_First_10Car                    : [10량] 한국철도공사 저항제어 전동차 [초기저항]
+NAME_Group_Korail_Second                   : 한국철도공사 저항제어 전동차 [중기저항]
+NAME_Korail_Second_4Car                    : [4량] 한국철도공사 저항제어 전동차 [중기저항]
+NAME_Korail_Second_6Car                    : [6량] 한국철도공사 저항제어 전동차 [중기저항]
+NAME_Korail_Second_8Car                    : [8량] 한국철도공사 저항제어 전동차 [중기저항]
+NAME_Korail_Second_10Car                   : [10량] 한국철도공사 저항제어 전동차 [중기저항]
+NAME_Korail_Third_10Car                    : [10량] 한국철도공사 저항제어 전동차 [신조저항]
+NAME_Korail_Rheostatic_10Car               : [10량] 한국철도공사 저항제어 전동차 [개조저항]
+NAME_Group_Nishitetsu_Logo                 : 니시테츠
+NAME_Nishitetsu_1000_4Car                  : [4량] 니시테츠 1000형
+NAME_Nishitetsu_2000_6Car                  : [6량] 니시테츠 2000형
+NAME_Group_Nishitetsu_3000                 : 니시테츠 3000형
+NAME_Nishitetsu_3000_2Car                  : [2량] 니시테츠 3000형
+NAME_Nishitetsu_3000_3Car                  : [3량] 니시테츠 3000형
+NAME_Nishitetsu_3000_5Car                  : [5량] 니시테츠 3000형
+NAME_Group_Nishitetsu_5000                 : 니시테츠 5000형
+NAME_Nishitetsu_5000_3Car                  : [3량] 니시테츠 5000형
+NAME_Nishitetsu_5000_4Car                  : [4량] 니시테츠 5000형
+NAME_Group_Nishitetsu_6000                 : 니시테츠 6000형
+NAME_Nishitetsu_6000_3Car                  : [3량] 니시테츠 6000형
+NAME_Nishitetsu_6000_4Car                  : [4량] 니시테츠 6000형
+NAME_Nishitetsu_6050_3Car                  : [3량] 니시테츠 6050형
+NAME_Nishitetsu_6050_4Car                  : [4량] 니시테츠 6050형
+NAME_Nishitetsu_7000_2Car                  : [2량] 니시테츠 7000형
+NAME_Nishitetsu_8000_6Car                  : [6량] 니시테츠 8000형
+NAME_Group_Nishitetsu_9000                 : 니시테츠 9000형
+NAME_Nishitetsu_9000_2Car                  : [2량] 니시테츠 9000형
+NAME_Nishitetsu_9000_3Car                  : [3량] 니시테츠 9000형
+NAME_Group_Hankyu_Logo                     : 한큐전철
+NAME_Hankyu_1000_8Car                      : [8량] 한큐전철 신1000형
+NAME_Hankyu_1300_8Car                      : [8량] 한큐전철 신1300형
+NAME_Group_Hankyu_6000                     : 한큐전철 6000형
+NAME_Hankyu_6000_2Car                      : [2량] 한큐전철 6000형
+NAME_Hankyu_6000_3Car                      : [3량] 한큐전철 6000형
+NAME_Hankyu_6000_4Car                      : [4량] 한큐전철 6000형
+NAME_Hankyu_6000_6Car                      : [6량] 한큐전철 6000형
+NAME_Hankyu_6000_8Car                      : [8량] 한큐전철 6000형
+NAME_Group_Hankyu_6300                     : 한큐전철 6300형
+NAME_Hankyu_6300_4Car                      : [4량] 한큐전철 6300형
+NAME_Hankyu_6300_6Car                      : [6량] 한큐전철 6300형
+NAME_Hankyu_6300_8Car                      : [8량] 한큐전철 6300형
+NAME_Group_Hankyu_7000                     : 한큐전철 7000형
+NAME_Hankyu_7000_2Car                      : [2량] 한큐전철 7000형
+NAME_Hankyu_7000_4Car                      : [4량] 한큐전철 7000형
+NAME_Hankyu_7000_6Car                      : [6량] 한큐전철 7000형
+NAME_Hankyu_7000_8Car                      : [8량] 한큐전철 7000형
+NAME_Group_Hankyu_7300                     : 한큐전철 7300형
+NAME_Hankyu_7300_2Car                      : [2량] 한큐전철 7300형
+NAME_Hankyu_7300_6Car                      : [6량] 한큐전철 7300형
+NAME_Hankyu_7300_7Car                      : [7량] 한큐전철 7300형
+NAME_Hankyu_7300_8Car                      : [8량] 한큐전철 7300형
+NAME_Group_Hankyu_8000                     : 한큐전철 8000형
+NAME_Hankyu_8000_2Car                      : [2량] 한큐전철 8000형
+NAME_Hankyu_8000_6Car                      : [6량] 한큐전철 8000형
+NAME_Hankyu_8000_8Car                      : [8량] 한큐전철 8000형
+NAME_Hankyu_8200_2Car                      : [2량] 한큐전철 8200형
+NAME_Group_Hankyu_8300                     : 한큐전철 8300형
+NAME_Hankyu_8300_2Car                      : [2량] 한큐전철 8300형
+NAME_Hankyu_8300_6Car                      : [6량] 한큐전철 8300형
+NAME_Hankyu_8300_8Car                      : [8량] 한큐전철 8300형
+NAME_Hankyu_9000_8Car                      : [8량] 한큐전철 9000형
+NAME_Hankyu_9300_8Car                      : [8량] 한큐전철 9300형
+NAME_Group_MTR_Logo                        : 홍콩 MTR
+NAME_AC_Cammall_8Car                       : [8량] 메트로카멜 교류형 전동차
+NAME_AD_Tranz_CAF_A_8Car                   : [8량] AD Tranz CAF A형
+NAME_CNR_Changchun_8Car                    : [8량] CNR 창춘 전동차
+NAME_CRRC_8Car                             : [8량] CRRC 전동차
+NAME_DC_Cammall_8Car                       : [8량] 메트로카멜 직류형 전동차
+NAME_Hyundai_Rotem_Mitsubishi_8Car         : [8량] 현대로템 미쓰비시 전동차
+NAME_Hyundai_Rotem_R_8Car                  : [8량] 현대로템 R형 전동차
+NAME_IKK_SP_1900_8Car                      : [8량] IKK SP 1900
+NAME_Group_Nuriro                          : 누리로
+NAME_Nuriro_4Car                           : [4량] 누리로
+NAME_Nuriro_engine                         : 누리로
+NAME_Nuriro_wagon                          : 누리로
+NAME_Nuriro_DD_engine                      : 누리로 DD
+NAME_Nuriro_DD_wagon                       : 누리로 DD
 NAME_Group_ITX                          : ITX
 NAME_Group_ITX_Maum                     : ITX-마음
 NAME_ITX_CheongChan_engine              : ITX-청천
@@ -594,10 +597,6 @@ STR_FLAT_2F_NAME                                       :평판화차 - 미국형
 NAME_Constrck                           : [진열용] 건설차량
 NAME_Showcase_Flat_1F                   : [진열용] 평판화차
 
-NAME_Korail_392000_engine               : 한국철도공사 4세대 3차도입분
-NAME_Korail_392000_wagon                : 한국철도공사 4세대 3차도입분
-NAME_Korail_392000_2car                 : [2량] 한국철도공사 4세대 3차도입분
-
 # Test/Mail/Passenger
 Livery_Test                             : 검측차
 Livery_Cargo                            : 수송차
@@ -677,148 +676,147 @@ Livery_Busanmetro_1st_1000_VVVF            : VVVF
 Livery_Busanmetro_2nd_1000_G1              : 1차분
 Livery_Busanmetro_2nd_1000_G2              : 2차분
 Livery_Busanmetro_2nd_1000_G3              : 3차분
-STR_REFIT_LIVERY_Busanmetro_2000_GTO                   : GTO
-STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
-STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
-STR_REFIT_LIVERY_Korail_1st_IGBT                       : IGBT
-STR_REFIT_LIVERY_Korail_1st_GTO                        : GTO
-STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT                  : 3X1K IGBT
-STR_REFIT_LIVERY_Korail_1st_3X1K_GTO                   : 3X1K GTO
-STR_REFIT_LIVERY_Korail_1st_3X1K_A_IGBT                : 3X1K IGBT
-STR_REFIT_LIVERY_Korail_1st_3X1K_A_GTO                 : 3X1K GTO
-STR_REFIT_LIVERY_Korail_1st_3X1K_B_IGBT                : 3X1K IGBT 부수객차 편성
-STR_REFIT_LIVERY_Korail_1st_3X1K_B_GTO                 : 3X1K GTO 부수객차 편성
-STR_REFIT_LIVERY_Korail_1st_2030_GTO                   : 2030
-STR_REFIT_LIVERY_Korail_1st_2030_IGBT                  : 2030 IGBT
-STR_REFIT_LIVERY_Korail_1st_5000_A                     : 5000
-STR_REFIT_LIVERY_Korail_1st_5000_B                     : 5000 부수객차 편성
-STR_REFIT_LIVERY_Korail_1st_3000_Old                   : 3000 구도색
-STR_REFIT_LIVERY_Korail_1st_3000_New                   : 3000 신도색
-STR_REFIT_LIVERY_Korail_2nd_IGBT                       : IGBT
-STR_REFIT_LIVERY_Korail_2nd_GTO                        : GTO
-STR_REFIT_LIVERY_Korail_2nd_311K_IGBT                  : 311K IGBT
-STR_REFIT_LIVERY_Korail_2nd_341K_IGBT                  : 341K IGBT
-STR_REFIT_LIVERY_Korail_2nd_311K_GTO                   : 311K GTO
-STR_REFIT_LIVERY_Korail_2nd_341K_GTO                   : 341K GTO
-STR_REFIT_LIVERY_Korail_2nd_2030                       : 2030
-STR_REFIT_LIVERY_Korail_2nd_5000                       : 5000
-STR_REFIT_LIVERY_Korail_3rd_ST_DOB                     : ST 더블암
-STR_REFIT_LIVERY_Korail_3rd_ST_331K_DOB                : ST 더블암 331K
-STR_REFIT_LIVERY_Korail_3rd_ST_SI                      : ST 싱글암
-STR_REFIT_LIVERY_Korail_3rd_AL_311K                    : AL 311K
-STR_REFIT_LIVERY_Korail_3rd_AL_331K_Toshiba            : AL 331K 도시바
-STR_REFIT_LIVERY_Korail_3rd_AL_331K_Woojin             : AL 331K 우진산전
-STR_REFIT_LIVERY_Korail_3rd_AL_361K_A                  : AL 361K 출입문 도색
-STR_REFIT_LIVERY_Korail_3rd_AL_361K_B                  : AL 361K 줄무늬 도색
-STR_REFIT_LIVERY_Korail_3rd_Bike                       : 자전거 도색
-STR_REFIT_LIVERY_Korail_3rd_Civil_complaint_365        : 민원전철365 도색
-STR_REFIT_LIVERY_Korail_3rd_371_381                    : 경강선(371K) & 동해선(381K)
-STR_REFIT_LIVERY_Korail_4th_G1_2CC                     : 기본도색 (2CC)
-STR_REFIT_LIVERY_Korail_4th_G1_381K                    : 동해선
-STR_REFIT_LIVERY_Korail_4th_G2_SI                      : 1차분
-STR_REFIT_LIVERY_Korail_4th_G2_SI1                     : 1차분 싱글암1개
-STR_REFIT_LIVERY_Korail_4th_G2_SI2                     : 1차분 싱글암2개
-STR_REFIT_LIVERY_Korail_4th_G2_DOB                     : 1차분 더블암
-STR_REFIT_LIVERY_Korail_4th_G2_2cc                     : 기본도색 (2CC)
-STR_REFIT_LIVERY_Korail_4th_G2_2nd_A                   : 경춘선 도색
-STR_REFIT_LIVERY_Korail_4th_G2_2nd_B                   : 경의중앙선 도색
-STR_REFIT_LIVERY_Korail_4th_G3_SI                      : 2차분
-STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : 2차분 싱글암1개
-STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : 2차분 싱글암2개
-STR_REFIT_LIVERY_Korail_4th_G3_DOB                     : 2차분 더블암
-STR_REFIT_LIVERY_Korail_4th_G3_PMSM                    : {GREEN}[가상] {BLACK}PMSM
-STR_REFIT_LIVERY_Korail_4th_G3_392000                  : 한국철도공사 4세대 3차도입분
-STR_REFIT_LIVERY_Korail_4th_G3_393000                  : 393000호대
-STR_REFIT_LIVERY_Korail_5th_Nomal                      : 기본형
-STR_REFIT_LIVERY_Korail_5th_Update_software            : 소프트웨어개선
-STR_REFIT_LIVERY_Korail_6th_Concept1                   : 시안1
-STR_REFIT_LIVERY_Korail_6th_Concept1_2cc               : 시안1 2cc
-STR_REFIT_LIVERY_Korail_First_K1000_Initial            : 초기저항 철도청 초기도색 [비냉방]
-STR_REFIT_LIVERY_Korail_First_K1000_Initial_Aircon_A   : 초기저항 철도청 초기도색 [냉방개조]
-STR_REFIT_LIVERY_Korail_First_K1000_Initial_Aircon_B   : 초기저항 철도청 초기도색 [냉방개조] 중기저항객차 편성
-STR_REFIT_LIVERY_Korail_First_K1000_Old_A              : 초기저항 철도청 구도색
-STR_REFIT_LIVERY_Korail_First_K1000_Old_B              : 초기저항 철도청 구도색 중기저항객차 편성
-STR_REFIT_LIVERY_Korail_Second_Initial_1_A             : 중기저항 초기형 초기도색
-STR_REFIT_LIVERY_Korail_Second_Initial_1_B             : 중기저항 초기형 초기도색 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Korail_Second_Old_1_A                 : 중기저항 초기형 구도색
-STR_REFIT_LIVERY_Korail_Second_Old_1_B                 : 중기저항 초기형 구도색 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Korail_Second_Old_1_C                 : 중기저항 초기형 구도색 (전차량 동력객차)
-STR_REFIT_LIVERY_Korail_Second_Old_1_D                 : 중기저항 초기형 구도색 (초기저항 동력객차 편성 시) A
-STR_REFIT_LIVERY_Korail_Second_Old_1_E                 : 중기저항 초기형 구도색 (초기저항 동력객차 편성 시) B
-STR_REFIT_LIVERY_Korail_Second_New_1_A                 : 중기저항 초기형 신도색
-STR_REFIT_LIVERY_Korail_Second_New_1_B                 : 중기저항 초기형 신도색 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Korail_Second_New_1_C                 : 중기저항 초기형 신도색 (전차량 동력객차)
-STR_REFIT_LIVERY_Korail_Second_New_1_D                 : 중기저항 초기형 신도색 (초기저항 동력객차 편성 시) A
-STR_REFIT_LIVERY_Korail_Second_New_1_E                 : 중기저항 초기형 신도색 (초기저항 동력객차 편성 시) B
-STR_REFIT_LIVERY_Korail_Second_Initial_2_A             : 중기저항 후기형 초기도색
-STR_REFIT_LIVERY_Korail_Second_Initial_2_B             : 중기저항 후기형 초기도색 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Korail_Second_Old_2_A                 : 중기저항 후기형 구도색
-STR_REFIT_LIVERY_Korail_Second_Old_2_B                 : 중기저항 후기형 구도색 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Korail_Second_New_2_A                 : 중기저항 후기형 신도색
-STR_REFIT_LIVERY_Korail_Second_New_2_B                 : 중기저항 후기형 신도색 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Korail_Third_Old_A                    : 신조저항 구도색
-STR_REFIT_LIVERY_Korail_Third_Old_B                    : 신조저항 구도색 (무동력객차 편성)
-STR_REFIT_LIVERY_Korail_Third_New                      : 신조저항 신도색
-STR_REFIT_LIVERY_Korail_Rheostatic_K1000_A             : 코레일 개조저항 A
-STR_REFIT_LIVERY_Korail_Rheostatic_K1000_B             : 코레일 개조저항 B
-STR_REFIT_LIVERY_Nishitetsu_1000_Normal                : 니시테츠 1000형 일반도색
-STR_REFIT_LIVERY_Nishitetsu_1000_Normal_Aircon         : 니시테츠 1000형 냉방개조
-STR_REFIT_LIVERY_Nishitetsu_1000_Original              : 니시테츠 1000형 초기도색
-STR_REFIT_LIVERY_Nishitetsu_1000_Express               : 니시테츠 1000형 특급도색
-STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run              : 니시테츠 1000형 특별도색
-STR_REFIT_LIVERY_Nishitetsu_2000_Normal                : 니시테츠 2000형 일반도색
-STR_REFIT_LIVERY_Nishitetsu_2000_Express               : 니시테츠 2000형 특급도색
-STR_REFIT_LIVERY_Nishitetsu_5000_MG                    : 니시테츠 5000형 전동발전기
-STR_REFIT_LIVERY_Nishitetsu_5000_SIV                   : 니시테츠 5000형 정지형 인버터
-STR_REFIT_LIVERY_Nishitetsu_6050_GTO                   : GTO
-STR_REFIT_LIVERY_Nishitetsu_6050_SIC                   : SIC
-STR_REFIT_LIVERY_Nishitetsu_7000                       : 니시테츠 7000형
-STR_REFIT_LIVERY_Nishitetsu_7050                       : 니시테츠 7050형
-STR_REFIT_LIVERY_Hankyu_6000                           : 구도색
-STR_REFIT_LIVERY_Hankyu_6000_6Car_A                    : 고베선 구도색
-STR_REFIT_LIVERY_Hankyu_6000_6Car_B                    : 다카라즈카선 구도색
-STR_REFIT_LIVERY_Hankyu_6000_1993                      : 구도색 쪽창개조
-STR_REFIT_LIVERY_Hankyu_6000_1993_6Car_A               : 고베선 구도색 쪽창개조
-STR_REFIT_LIVERY_Hankyu_6000_1993_6Car_B               : 다카라즈카 구도색 쪽창개조
-STR_REFIT_LIVERY_Hankyu_6000_1998_A                    : 현도색
-STR_REFIT_LIVERY_Hankyu_6000_1998_B                    : 현도색 쪽창개조
-STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_A               : 고베선 현도색 미개조
-STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_B               : 고베선 현도색
-STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_C               : 다카라즈카선 현도색 미개조
-STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_D               : 다카라즈카선 현도색
-STR_REFIT_LIVERY_Hankyu_6300_A                         : 0번대
-STR_REFIT_LIVERY_Hankyu_6300_B                         : 30번대
-STR_REFIT_LIVERY_Hankyu_7000                           : 구도색
-STR_REFIT_LIVERY_Hankyu_7000_1984                      : 구도색 재조정
-STR_REFIT_LIVERY_Hankyu_7000_1998                      : 현 도색 미개조
-STR_REFIT_LIVERY_Hankyu_7000_2009                      : 7007F
-STR_REFIT_LIVERY_Hankyu_7000_2011                      : 현 도색
-STR_REFIT_LIVERY_Hankyu_7000_2016                      : 현 도색 (VVVF)
-STR_REFIT_LIVERY_Hankyu_7300                           : 구도색
-STR_REFIT_LIVERY_Hankyu_7300_1998                      : 현 도색 미개조
-STR_REFIT_LIVERY_Hankyu_7300_2008                      : 7320F
-STR_REFIT_LIVERY_Hankyu_7300_2014                      : 현 도색
-STR_REFIT_LIVERY_Hankyu_7300_2014_VVVF                 : 현 도색 (VVVF)
-STR_REFIT_LIVERY_Hankyu_8000_Long_Seat                 : 한큐 8000형 롱 시트
-STR_REFIT_LIVERY_Hankyu_8000_Cross_Seat                : 한큐 8000형 크로스 시트
-STR_REFIT_LIVERY_Hankyu_8300_Long_Seat                 : 한큐 8300형 롱 시트
-STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat                : 한큐 8300형 크로스 시트
-STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express    : MTR AD Tranz CAF A Type Airport Express
-STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung         : MTR AD Tranz CAF A Type Tung Chung
-STR_REFIT_LIVERY_MTR_DC_Cammall                        : MTR 메트로카멜 직류형 미개조형
-STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding               : MTR 메트로카멜 직류형 개조형
-STR_REFIT_LIVERY_MTR_DC_Cammall_Disney                 : MTR 메트로카멜 직류형 디즈니선
-STR_REFIT_LIVERY_MTR_CNR_Changchun                     : MTR CNR 창춘 전동차
-STR_REFIT_LIVERY_MTR_CNR_Changchun_South_Island        : MTR CNR 창춘 남부섬선
-STR_REFIT_LIVERY_MTR_CRRC_Changchun                    : MTR CRRC 창춘 전동차
-STR_REFIT_LIVERY_MTR_CRRC_Sipang                       : MTR CRRC 쓰팡 전동차
-Livery_Nuriro_Old                       : 구도색
-Livery_Nuriro_New                       : 신도색
-Livery_Nuriro_A                         : 한류관광
-Livery_Nuriro_B                         : 순천향대 강의실
-Livery_Nuriro_O                         : O-Train
-Livery_Nuriro_DS                        : 동해산타
-Livery_Nuriro_saemaeul                  : ITX-새마을
+Livery_Busanmetro_2000_GTO                 : GTO
+Livery_Busanmetro_2000_WOOJIN              : WOOJIN
+Livery_Busanmetro_2000_DAWONSYS            : DAWONSYS
+Livery_Korail_1st_GTO                      : GTO
+Livery_Korail_1st_IGBT                     : IGBT
+Livery_Korail_1st_3X1K_GTO                 : 3X1K GTO
+Livery_Korail_1st_3X1K_IGBT                : 3X1K IGBT
+Livery_Korail_1st_3X1K_A_GTO               : 3X1K GTO
+Livery_Korail_1st_3X1K_A_IGBT              : 3X1K IGBT
+Livery_Korail_1st_3X1K_B_IGBT              : 3X1K IGBT 부수객차 편성
+Livery_Korail_1st_3X1K_B_GTO               : 3X1K GTO 부수객차 편성
+Livery_Korail_1st_2030_GTO                 : 2030
+Livery_Korail_1st_2030_IGBT                : 2030 IGBT
+Livery_Korail_1st_5000_A                   : 5000
+Livery_Korail_1st_5000_B                   : 5000 부수객차 편성
+Livery_Korail_1st_3000_Old                 : 3000 구도색
+Livery_Korail_1st_3000_New                 : 3000 신도색
+Livery_Korail_2nd_IGBT                     : IGBT
+Livery_Korail_2nd_GTO                      : GTO
+Livery_Korail_2nd_311K_IGBT                : 311K IGBT
+Livery_Korail_2nd_341K_IGBT                : 341K IGBT
+Livery_Korail_2nd_311K_GTO                 : 311K GTO
+Livery_Korail_2nd_341K_GTO                 : 341K GTO
+Livery_Korail_2nd_2030                     : 2030
+Livery_Korail_2nd_5000                     : 5000
+Livery_Korail_3rd_ST_DOB                   : ST 더블암
+Livery_Korail_3rd_ST_331K_DOB              : ST 더블암 331K
+Livery_Korail_3rd_ST_SI                    : ST 싱글암
+Livery_Korail_3rd_AL_331K_Toshiba          : AL 331K 도시바
+Livery_Korail_3rd_AL_331K_Woojin           : AL 331K 우진산전
+Livery_Korail_3rd_AL_361K_A                : AL 361K 출입문 도색
+Livery_Korail_3rd_AL_361K_B                : AL 361K 줄무늬 도색
+Livery_Korail_3rd_Bike                     : 자전거 도색
+Livery_Korail_3rd_Civil_complaint_365      : 민원전철365 도색
+Livery_Korail_3rd_371_381                  : 경강선(371K) & 동해선(381K)
+Livery_Korail_4th_G1_2CC                   : 기본도색 (2CC)
+Livery_Korail_4th_G1_381K                  : 동해선
+Livery_Korail_4th_G2_SI                    : 1차분
+Livery_Korail_4th_G2_SI1                   : 1차분 싱글암1개
+Livery_Korail_4th_G2_SI2                   : 1차분 싱글암2개
+Livery_Korail_4th_G2_DOB                   : 1차분 더블암
+Livery_Korail_4th_G2_2cc                   : 기본도색 (2CC)
+Livery_Korail_4th_G2_2nd_A                 : 경춘선 도색
+Livery_Korail_4th_G2_2nd_B                 : 경의중앙선 도색
+Livery_Korail_4th_G3_SI                    : 2차분
+Livery_Korail_4th_G3_SI1                   : 2차분 싱글암1개
+Livery_Korail_4th_G3_SI2                   : 2차분 싱글암2개
+Livery_Korail_4th_G3_DOB                   : 2차분 더블암
+Livery_Korail_4th_G3_PMSM                  : {GREEN}[가상] {BLACK}PMSM
+Livery_Korail_4th_G3_392000                : 한국철도공사 4세대 3차도입분
+Livery_Korail_4th_G3_393000                : 393000호대
+Livery_Korail_5th_Nomal                    : 기본형
+Livery_Korail_5th_Update_software          : 소프트웨어개선
+Livery_Korail_6th_Concept1                 : 시안1
+Livery_Korail_6th_Concept1_2cc             : 시안1 2cc
+Livery_Korail_First_K1000_Initial          : 초기저항 철도청 초기도색 [비냉방]
+Livery_Korail_First_K1000_Initial_Aircon_A : 초기저항 철도청 초기도색 [냉방개조]
+Livery_Korail_First_K1000_Initial_Aircon_B : 초기저항 철도청 초기도색 [냉방개조] 중기저항객차 편성
+Livery_Korail_First_K1000_Old_A            : 초기저항 철도청 구도색
+Livery_Korail_First_K1000_Old_B            : 초기저항 철도청 구도색 중기저항객차 편성
+Livery_Korail_Second_Initial_1_A           : 중기저항 초기형 초기도색
+Livery_Korail_Second_Initial_1_B           : 중기저항 초기형 초기도색 (초기저항 부수객차 편성)
+Livery_Korail_Second_Old_1_A               : 중기저항 초기형 구도색
+Livery_Korail_Second_Old_1_B               : 중기저항 초기형 구도색 (초기저항 부수객차 편성)
+Livery_Korail_Second_Old_1_C               : 중기저항 초기형 구도색 (전차량 동력객차)
+Livery_Korail_Second_Old_1_D               : 중기저항 초기형 구도색 (초기저항 동력객차 편성 시) A
+Livery_Korail_Second_Old_1_E               : 중기저항 초기형 구도색 (초기저항 동력객차 편성 시) B
+Livery_Korail_Second_New_1_A               : 중기저항 초기형 신도색
+Livery_Korail_Second_New_1_B               : 중기저항 초기형 신도색 (초기저항 부수객차 편성)
+Livery_Korail_Second_New_1_C               : 중기저항 초기형 신도색 (전차량 동력객차)
+Livery_Korail_Second_New_1_D               : 중기저항 초기형 신도색 (초기저항 동력객차 편성 시) A
+Livery_Korail_Second_New_1_E               : 중기저항 초기형 신도색 (초기저항 동력객차 편성 시) B
+Livery_Korail_Second_Initial_2_A           : 중기저항 후기형 초기도색
+Livery_Korail_Second_Initial_2_B           : 중기저항 후기형 초기도색 (초기저항 부수객차 편성)
+Livery_Korail_Second_Old_2_A               : 중기저항 후기형 구도색
+Livery_Korail_Second_Old_2_B               : 중기저항 후기형 구도색 (초기저항 부수객차 편성)
+Livery_Korail_Second_New_2_A               : 중기저항 후기형 신도색
+Livery_Korail_Second_New_2_B               : 중기저항 후기형 신도색 (초기저항 부수객차 편성)
+Livery_Korail_Third_Old_A                  : 신조저항 구도색
+Livery_Korail_Third_Old_B                  : 신조저항 구도색 (무동력객차 편성)
+Livery_Korail_Third_New                    : 신조저항 신도색
+Livery_Korail_Rheostatic_K1000_A           : 코레일 개조저항 A
+Livery_Korail_Rheostatic_K1000_B           : 코레일 개조저항 B
+Livery_Nishitetsu_1000_Normal              : 니시테츠 1000형 일반도색
+Livery_Nishitetsu_1000_Normal_Aircon       : 니시테츠 1000형 냉방개조
+Livery_Nishitetsu_1000_Original            : 니시테츠 1000형 초기도색
+Livery_Nishitetsu_1000_Express             : 니시테츠 1000형 특급도색
+Livery_Nishitetsu_1000_Last_Run            : 니시테츠 1000형 특별도색
+Livery_Nishitetsu_2000_Normal              : 니시테츠 2000형 일반도색
+Livery_Nishitetsu_2000_Express             : 니시테츠 2000형 특급도색
+Livery_Nishitetsu_5000_MG                  : 니시테츠 5000형 전동발전기
+Livery_Nishitetsu_5000_SIV                 : 니시테츠 5000형 정지형 인버터
+Livery_Nishitetsu_6050_GTO                 : GTO
+Livery_Nishitetsu_6050_SIC                 : SIC
+Livery_Nishitetsu_7000                     : 니시테츠 7000형
+Livery_Nishitetsu_7050                     : 니시테츠 7050형
+Livery_Hankyu_6000                         : 구도색
+Livery_Hankyu_6000_6Car_A                  : 고베선 구도색
+Livery_Hankyu_6000_6Car_B                  : 다카라즈카선 구도색
+Livery_Hankyu_6000_1993                    : 구도색 쪽창개조
+Livery_Hankyu_6000_1993_6Car_A             : 고베선 구도색 쪽창개조
+Livery_Hankyu_6000_1993_6Car_B             : 다카라즈카 구도색 쪽창개조
+Livery_Hankyu_6000_1998_A                  : 현도색
+Livery_Hankyu_6000_1998_B                  : 현도색 쪽창개조
+Livery_Hankyu_6000_1998_6Car_A             : 고베선 현도색 미개조
+Livery_Hankyu_6000_1998_6Car_B             : 고베선 현도색
+Livery_Hankyu_6000_1998_6Car_C             : 다카라즈카선 현도색 미개조
+Livery_Hankyu_6000_1998_6Car_D             : 다카라즈카선 현도색
+Livery_Hankyu_6300_A                       : 0번대
+Livery_Hankyu_6300_B                       : 30번대
+Livery_Hankyu_7000                         : 구도색
+Livery_Hankyu_7000_1984                    : 구도색 재조정
+Livery_Hankyu_7000_1998                    : 현 도색 미개조
+Livery_Hankyu_7000_2009                    : 7007F
+Livery_Hankyu_7000_2011                    : 현 도색
+Livery_Hankyu_7000_2016                    : 현 도색 (VVVF)
+Livery_Hankyu_7300                         : 구도색
+Livery_Hankyu_7300_1998                    : 현 도색 미개조
+Livery_Hankyu_7300_2008                    : 7320F
+Livery_Hankyu_7300_2014                    : 현 도색
+Livery_Hankyu_7300_2014_VVVF               : 현 도색 (VVVF)
+Livery_Hankyu_8000_Long_Seat               : 롱 시트
+Livery_Hankyu_8000_Cross_Seat              : 크로스 시트
+Livery_Hankyu_8300_Long_Seat               : 롱 시트
+Livery_Hankyu_8300_Cross_Seat              : 크로스 시트
+Livery_AD_Tranz_CAF_A_Airport_Express      : Airport Express
+Livery_AD_Tranz_CAF_A_Tung_Chung           : Tung Chung
+Livery_DC_Cammall                          : 미개조형
+Livery_DC_Cammall_Remoding                 : 개조형
+Livery_DC_Cammall_Disney                   : 디즈니선
+Livery_CNR_Changchun                       : 창춘 전동차
+Livery_CNR_Changchun_South_Island          : 남부섬선
+Livery_CRRC_Changchun                      : 창춘
+Livery_CRRC_Sipang                         : 쓰팡
+Livery_Nuriro_Old                          : 구도색
+Livery_Nuriro_New                          : 신도색
+Livery_Nuriro_A                            : 한류관광
+Livery_Nuriro_B                            : 순천향대 강의실
+Livery_Nuriro_O                            : O-Train
+Livery_Nuriro_DS                           : 동해산타
+Livery_Nuriro_saemaeul                     : ITX-새마을
 Livery_ITX_CheongChun_A                 : ITX-청춘
 Livery_ITX_CheongChun_B                 : ITX-청춘 용 랩핑
 Livery_ITX_Maum                         : ITX-마음

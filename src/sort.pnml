@@ -244,7 +244,7 @@ sort(FEAT_TRAINS, [
     IKK_SP_1900_8Car,               //2059
 
     // 누리로
-    Nuriro_Logo,                    //2513
+    Nuriro_Logo,                    //1081
     Nuriro_4Car,                    //2324
     Nuriro_engine,                  //1023
     Nuriro_DD_engine,               //1025
@@ -484,15 +484,17 @@ sort(FEAT_TRAINS, [
     HYEL_Mugunhwa_wagon,            //1126
     HYEL_Mugunhwa_DD_wagon,         //1128
     HYEL_Railjet,                   //1130
+    Korail_392000_wagon,            //1138
+    Nuriro_wagon,                   //1024
+    Nuriro_DD_wagon,                //1026
+
     CDC_wagon,                      //1134
     CTX_wagon,                      //1075
     H2_WJ_wagon,                    //1001
     HSR_350X_wagon,                 //1132
-    
-    Korail_392000_wagon,            //1138
+
     Nextrain_wagon,                 //1019
-    Nuriro_wagon,                   //1024
-    Nuriro_DD_wagon,                //1026
+    
     RDC_wagon,                      //1136
     TTX_wagon,                      //1055
     Glory_430_wagon,                //1110

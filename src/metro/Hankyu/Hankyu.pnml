@@ -9,7 +9,7 @@ Hankyu
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Hankyu_Logo, 2516){
     property {
-        name:                           string(STR_Group_Hankyu_Logo_NAME);
+        name:                           string(NAME_Group_Hankyu_Logo);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

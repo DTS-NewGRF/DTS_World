@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Hankyu_9300_8Car, 2247){
     property {
-        name:                           string(STR_Hankyu_9300_8Car_NAME);
+        name:                           string(NAME_Hankyu_9300_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2010, 1, 1);
         track_type:                     ELRL;

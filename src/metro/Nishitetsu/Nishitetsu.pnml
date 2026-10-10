@@ -9,7 +9,7 @@ Nishtietsu
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Nishitetsu_Logo, 2517){
     property {
-        name:                           string(STR_Group_Nishitetsu_Logo_NAME);
+        name:                           string(NAME_Group_Nishitetsu_Logo);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

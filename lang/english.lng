@@ -191,112 +191,115 @@ NAME_Busanmetro_1st_2000_6Car              : [6car] Busanmetro 1st 2000
 NAME_Busanmetro_2nd_2000_6Car              : [6car] Busanmetro 2nd 2000
 NAME_Busanmetro_3000_4Car                  : [4car] Busanmetro 3000
 NAME_Busanmetro_4000_6Car                  : [6car] Busanmetro 4000
-STR_Group_Korail_NAME                                  :Korail Metro
-STR_Group_Korail_1st_NAME                              :Korail 1st 
-STR_Korail_1st_4Car_NAME                               :[4Car] Korail 1st
-STR_Korail_1st_6Car_NAME                               :[6Car] Korail 1st
-STR_Korail_1st_10Car_NAME                              :[10Car] Korail 1st
-STR_Group_Korail_2nd_NAME                              :Korail 2nd
-STR_Korail_2nd_6Car_NAME                               :[6Car] Korail 2nd
-STR_Korail_2nd_10Car_NAME                              :[10Car] Korail 2nd
-STR_Group_Korail_3rd_NAME                              :Korail 3rd
-STR_Korail_3rd_ST_4Car_NAME                            :[4car] Korail 3rd Generation 1nd
-STR_Korail_3rd_G2_4Car_NAME                            :[4car] Korail 3rd Generation 2nd
-STR_Korail_3rd_6Car_NAME                               :[6car] Korail 3rd
-STR_Korail_3rd_8Car_NAME                               :[8car] Korail 3rd
-STR_Korail_3rd_10Car_NAME                              :[10car] Korail 3rd
-STR_Group_Korail_4th_NAME                              :Korail 4th
-STR_Korail_4th_G1_4Car_NAME                            :[4Car] Korail 4th
-STR_Korail_4th_4Car_NAME                               :[4Car] Korail 4th Generation 2nd
-STR_Korail_4th_6Car_NAME                               :[6Car] Korail 4th Generation 1nd, 2nd
-STR_Korail_4th_8Car_NAME                               :[8Car] Korail 4th Generation 2nd
-STR_Korail_4th_10Car_NAME                              :[10Car] Korail 4th Generation 1nd, 2nd
-STR_Korail_5th_10Car_NAME                              :[10Car] Korail 5th
-STR_Group_Korail_6th_NAME                              :Korail 6th
-STR_Korail_6th_4Car_NAME                               :[4Car] Korail 6th
-STR_Korail_6th_6Car_NAME                               :[6Car] Korail 6th
-STR_Korail_6th_8Car_NAME                               :[8Car] Korail 6th
-STR_Group_Korail_First_NAME                            :Korail Rheostatic
-STR_Korail_First_4Car_NAME                             :[4Car] Korail Rheostatic
-STR_Korail_First_6Car_NAME                             :[6Car] Korail Rheostatic
-STR_Korail_First_8Car_NAME                             :[8Car] Korail Rheostatic
-STR_Korail_First_10Car_NAME                            :[10Car] Korail Rheostatic
-STR_Group_Korail_Second_NAME                           :Korail Rheostatic [Second]
-STR_Korail_Second_4Car_NAME                            :[4Car] Korail Rheostatic [Second]
-STR_Korail_Second_6Car_NAME                            :[6Car] Korail Rheostatic [Second]
-STR_Korail_Second_8Car_NAME                            :[8Car] Korail Rheostatic [Second]
-STR_Korail_Second_10Car_NAME                           :[10Car] Korail Rheostatic [Second]
-STR_Korail_Third_10Car_NAME                            :[10Car] Korail Rheostatic [Third]
-STR_Korail_Rheostatic_10Car_NAME                       :[10Car] Korail Rheostatic [Rheostatic]
-STR_Group_Nishitetsu_Logo_NAME                         :Nishitetsu
-STR_Nishitetsu_1000_4Car_NAME                          :[4Car] Nishitetsu 1000
-STR_Nishitetsu_2000_6Car_NAME                          :[6Car] Nishitetsu 2000
-STR_Group_Nishitetsu_3000_NAME                         :Nishitetsu 3000
-STR_Nishitetsu_3000_2Car_NAME                          :[2Car] Nishitetsu 3000
-STR_Nishitetsu_3000_3Car_NAME                          :[3Car] Nishitetsu 3000
-STR_Nishitetsu_3000_5Car_NAME                          :[5Car] Nishitetsu 3000
-STR_Group_Nishitetsu_5000_NAME                         :Nishitetsu 5000
-STR_Nishitetsu_5000_3Car_NAME                          :[3Car] Nishitetsu 5000
-STR_Nishitetsu_5000_4Car_NAME                          :[4Car] Nishitetsu 5000
-STR_Group_Nishitetsu_6000_NAME                         :Nishitetsu 6000
-STR_Nishitetsu_6000_3Car_NAME                          :[3Car] Nishitetsu 6000
-STR_Nishitetsu_6000_4Car_NAME                          :[4Car] Nishitetsu 6000
-STR_Nishitetsu_6050_3Car_NAME                          :[3Car] Nishitetsu 6050
-STR_Nishitetsu_6050_4Car_NAME                          :[4Car] Nishitetsu 6050
-STR_Nishitetsu_7000_2Car_NAME                          :[2Car] Nishitetsu 7000
-STR_Nishitetsu_8000_6Car_NAME                          :[6Car] Nishitetsu 8000
-STR_Group_Nishitetsu_9000_NAME                         :Nishitetsu 9000
-STR_Nishitetsu_9000_2Car_NAME                          :[2Car] Nishitetsu 9000
-STR_Nishitetsu_9000_3Car_NAME                          :[3Car] Nishitetsu 9000
-STR_Group_Hankyu_Logo_NAME                             :Hankyu
-STR_Hankyu_1000_8Car_NAME                              :[8Car] Hankyu New 1000
-STR_Hankyu_1300_8Car_NAME                              :[8Car] Hankyu New 1300
-STR_Group_Hankyu_6000_NAME                             :Hankyu 6000
-STR_Hankyu_6000_2Car_NAME                              :[2Car] Hankyu 6000
-STR_Hankyu_6000_3Car_NAME                              :[3Car] Hankyu 6000
-STR_Hankyu_6000_4Car_NAME                              :[4Car] Hankyu 6000
-STR_Hankyu_6000_6Car_NAME                              :[6Car] Hankyu 6000
-STR_Hankyu_6000_8Car_NAME                              :[8Car] Hankyu 6000
-STR_Group_Hankyu_6300_NAME                             :Hankyu 6300
-STR_Hankyu_6300_4Car_NAME                              :[4Car] Hankyu 6300
-STR_Hankyu_6300_6Car_NAME                              :[6Car] Hankyu 6300
-STR_Hankyu_6300_8Car_NAME                              :[8Car] Hankyu 6300
-STR_Group_Hankyu_7000_NAME                             :Hankyu 7000
-STR_Hankyu_7000_2Car_NAME                              :[2Car] Hankyu 7000
-STR_Hankyu_7000_4Car_NAME                              :[4Car] Hankyu 7000
-STR_Hankyu_7000_6Car_NAME                              :[6Car] Hankyu 7000
-STR_Hankyu_7000_8Car_NAME                              :[8Car] Hankyu 7000
-STR_Group_Hankyu_7300_NAME                             :Hankyu 7300
-STR_Hankyu_7300_2Car_NAME                              :[2Car] Hankyu 7300
-STR_Hankyu_7300_6Car_NAME                              :[6Car] Hankyu 7300
-STR_Hankyu_7300_7Car_NAME                              :[7Car] Hankyu 7300
-STR_Hankyu_7300_8Car_NAME                              :[8Car] Hankyu 7300
-STR_Group_Hankyu_8000_NAME                             :Hankyu 8000
-STR_Hankyu_8000_2Car_NAME                              :[2Car] Hankyu 8000
-STR_Hankyu_8000_6Car_NAME                              :[6Car] Hankyu 8000
-STR_Hankyu_8000_8Car_NAME                              :[8Car] Hankyu 8000
-STR_Hankyu_8200_2Car_NAME                              :[2Car] Hankyu 8200
-STR_Group_Hankyu_8300_NAME                             :Hankyu 8300
-STR_Hankyu_8300_2Car_NAME                              :[2Car] Hankyu 8300
-STR_Hankyu_8300_6Car_NAME                              :[6Car] Hankyu 8300
-STR_Hankyu_8300_8Car_NAME                              :[8Car] Hankyu 8300
-STR_Hankyu_9000_8Car_NAME                              :[8Car] Hankyu 9000
-STR_Hankyu_9300_8Car_NAME                              :[8Car] Hankyu 9300
-STR_Group_MTR_Logo_NAME                                :Hong Kong MTR
-STR_MTR_AC_Cammall_8Car_NAME                           :[8Car] MTR Cammall AC Train
-STR_MTR_AD_Tranz_CAF_A_8Car_NAME                       :[8Car] MTR AD Tranz CAF A Type
-STR_MTR_CNR_Changchun_8Car_NAME                        :[8Car] MTR CNR Changchun Trian
-STR_MTR_CRRC_8Car_NAME                                 :[8Car] MTR CRRC Trian
-STR_MTR_DC_Cammall_8Car_NAME                           :[8Car] MTR Cammall DC Train
-STR_MTR_Hyundai_Rotem_Mitsubishi_8Car_NAME             :[8Car] MTR Hyundai Rotem Mitsubishi Trian
-STR_MTR_Hyundai_Rotem_R_8Car_NAME                      :[8Car] MTR Hyundai Rotem R Type Train
-STR_MTR_IKK_SP_1900_8Car_NAME                          :[8Car] MTR IKK SP 1900
-NAME_Group_Nuriro                       : Korail 200000 series EMU (NURIRO)
-NAME_Nuriro_4Car                        : [4Car] Korail 200000 series EMU (NURIRO)
-NAME_Nuriro_engine                      : Korail 200000 series EMU (NURIRO)
-NAME_Nuriro_wagon                       : Korail 200000 series EMU (NURIRO)
-NAME_Nuriro_DD_engine                   : Nuriro DD
-NAME_Nuriro_DD_wagon                    : Nuriro DD
+NAME_Group_Korail                          : Korail Metro
+NAME_Group_Korail_1st                      : Korail 1st 
+NAME_Korail_1st_4Car                       : [4Car] Korail 1st
+NAME_Korail_1st_6Car                       : [6Car] Korail 1st
+NAME_Korail_1st_10Car                      : [10Car] Korail 1st
+NAME_Group_Korail_2nd                      : Korail 2nd
+NAME_Korail_2nd_6Car                       : [6Car] Korail 2nd
+NAME_Korail_2nd_10Car                      : [10Car] Korail 2nd
+NAME_Group_Korail_3rd                      : Korail 3rd
+NAME_Korail_3rd_ST_4Car                    : [4car] Korail 3rd Generation 1nd
+NAME_Korail_3rd_G2_4Car                    : [4car] Korail 3rd Generation 2nd
+NAME_Korail_3rd_6Car                       : [6car] Korail 3rd
+NAME_Korail_3rd_8Car                       : [8car] Korail 3rd
+NAME_Korail_3rd_10Car                      : [10car] Korail 3rd
+NAME_Group_Korail_4th                      : Korail 4th
+NAME_Korail_392000_2car                    : [2Car] Korail 392000
+NAME_Korail_392000_engine                  : Korail 392000
+NAME_Korail_392000_wagon                   : Korail 392000
+NAME_Korail_4th_G1_4Car                    : [4Car] Korail 4th
+NAME_Korail_4th_4Car                       : [4Car] Korail 4th Generation 2nd
+NAME_Korail_4th_6Car                       : [6Car] Korail 4th Generation 1nd, 2nd
+NAME_Korail_4th_8Car                       : [8Car] Korail 4th Generation 2nd
+NAME_Korail_4th_10Car                      : [10Car] Korail 4th Generation 1nd, 2nd
+NAME_Korail_5th_10Car                      : [10Car] Korail 5th
+NAME_Group_Korail_6th                      : Korail 6th
+NAME_Korail_6th_4Car                       : [4Car] Korail 6th
+NAME_Korail_6th_6Car                       : [6Car] Korail 6th
+NAME_Korail_6th_8Car                       : [8Car] Korail 6th
+NAME_Group_Korail_First                    : Korail Rheostatic
+NAME_Korail_First_4Car                     : [4Car] Korail Rheostatic
+NAME_Korail_First_6Car                     : [6Car] Korail Rheostatic
+NAME_Korail_First_8Car                     : [8Car] Korail Rheostatic
+NAME_Korail_First_10Car                    : [10Car] Korail Rheostatic
+NAME_Group_Korail_Second                   : Korail Rheostatic [Second]
+NAME_Korail_Second_4Car                    : [4Car] Korail Rheostatic [Second]
+NAME_Korail_Second_6Car                    : [6Car] Korail Rheostatic [Second]
+NAME_Korail_Second_8Car                    : [8Car] Korail Rheostatic [Second]
+NAME_Korail_Second_10Car                   : [10Car] Korail Rheostatic [Second]
+NAME_Korail_Third_10Car                    : [10Car] Korail Rheostatic [Third]
+NAME_Korail_Rheostatic_10Car               : [10Car] Korail Rheostatic [Rheostatic]
+NAME_Group_Nishitetsu_Logo                 : Nishitetsu
+NAME_Nishitetsu_1000_4Car                  : [4Car] Nishitetsu 1000
+NAME_Nishitetsu_2000_6Car                  : [6Car] Nishitetsu 2000
+NAME_Group_Nishitetsu_3000                 : Nishitetsu 3000
+NAME_Nishitetsu_3000_2Car                  : [2Car] Nishitetsu 3000
+NAME_Nishitetsu_3000_3Car                  : [3Car] Nishitetsu 3000
+NAME_Nishitetsu_3000_5Car                  : [5Car] Nishitetsu 3000
+NAME_Group_Nishitetsu_5000                 : Nishitetsu 5000
+NAME_Nishitetsu_5000_3Car                  : [3Car] Nishitetsu 5000
+NAME_Nishitetsu_5000_4Car                  : [4Car] Nishitetsu 5000
+NAME_Group_Nishitetsu_6000                 : Nishitetsu 6000
+NAME_Nishitetsu_6000_3Car                  : [3Car] Nishitetsu 6000
+NAME_Nishitetsu_6000_4Car                  : [4Car] Nishitetsu 6000
+NAME_Nishitetsu_6050_3Car                  : [3Car] Nishitetsu 6050
+NAME_Nishitetsu_6050_4Car                  : [4Car] Nishitetsu 6050
+NAME_Nishitetsu_7000_2Car                  : [2Car] Nishitetsu 7000
+NAME_Nishitetsu_8000_6Car                  : [6Car] Nishitetsu 8000
+NAME_Group_Nishitetsu_9000                 : Nishitetsu 9000
+NAME_Nishitetsu_9000_2Car                  : [2Car] Nishitetsu 9000
+NAME_Nishitetsu_9000_3Car                  : [3Car] Nishitetsu 9000
+NAME_Group_Hankyu_Logo                     : Hankyu
+NAME_Hankyu_1000_8Car                      : [8Car] Hankyu New 1000
+NAME_Hankyu_1300_8Car                      : [8Car] Hankyu New 1300
+NAME_Group_Hankyu_6000                     : Hankyu 6000
+NAME_Hankyu_6000_2Car                      : [2Car] Hankyu 6000
+NAME_Hankyu_6000_3Car                      : [3Car] Hankyu 6000
+NAME_Hankyu_6000_4Car                      : [4Car] Hankyu 6000
+NAME_Hankyu_6000_6Car                      : [6Car] Hankyu 6000
+NAME_Hankyu_6000_8Car                      : [8Car] Hankyu 6000
+NAME_Group_Hankyu_6300                     : Hankyu 6300
+NAME_Hankyu_6300_4Car                      : [4Car] Hankyu 6300
+NAME_Hankyu_6300_6Car                      : [6Car] Hankyu 6300
+NAME_Hankyu_6300_8Car                      : [8Car] Hankyu 6300
+NAME_Group_Hankyu_7000                     : Hankyu 7000
+NAME_Hankyu_7000_2Car                      : [2Car] Hankyu 7000
+NAME_Hankyu_7000_4Car                      : [4Car] Hankyu 7000
+NAME_Hankyu_7000_6Car                      : [6Car] Hankyu 7000
+NAME_Hankyu_7000_8Car                      : [8Car] Hankyu 7000
+NAME_Group_Hankyu_7300                     : Hankyu 7300
+NAME_Hankyu_7300_2Car                      : [2Car] Hankyu 7300
+NAME_Hankyu_7300_6Car                      : [6Car] Hankyu 7300
+NAME_Hankyu_7300_7Car                      : [7Car] Hankyu 7300
+NAME_Hankyu_7300_8Car                      : [8Car] Hankyu 7300
+NAME_Group_Hankyu_8000                     : Hankyu 8000
+NAME_Hankyu_8000_2Car                      : [2Car] Hankyu 8000
+NAME_Hankyu_8000_6Car                      : [6Car] Hankyu 8000
+NAME_Hankyu_8000_8Car                      : [8Car] Hankyu 8000
+NAME_Hankyu_8200_2Car                      : [2Car] Hankyu 8200
+NAME_Group_Hankyu_8300                     : Hankyu 8300
+NAME_Hankyu_8300_2Car                      : [2Car] Hankyu 8300
+NAME_Hankyu_8300_6Car                      : [6Car] Hankyu 8300
+NAME_Hankyu_8300_8Car                      : [8Car] Hankyu 8300
+NAME_Hankyu_9000_8Car                      : [8Car] Hankyu 9000
+NAME_Hankyu_9300_8Car                      : [8Car] Hankyu 9300
+NAME_Group_MTR_Logo                        : Hong Kong MTR
+NAME_AC_Cammall_8Car                       : [8Car] Cammall AC Train
+NAME_AD_Tranz_CAF_A_8Car                   : [8Car] AD Tranz CAF A Type
+NAME_CNR_Changchun_8Car                    : [8Car] CNR Changchun Trian
+NAME_CRRC_8Car                             : [8Car] CRRC Trian
+NAME_DC_Cammall_8Car                       : [8Car] Cammall DC Train
+NAME_Hyundai_Rotem_Mitsubishi_8Car         : [8Car] Hyundai Rotem Mitsubishi Trian
+NAME_Hyundai_Rotem_R_8Car                  : [8Car] Hyundai Rotem R Type Train
+NAME_IKK_SP_1900_8Car                      : [8Car] IKK SP 1900
+NAME_Group_Nuriro                          : Korail 200000 series EMU (NURIRO)
+NAME_Nuriro_4Car                           : [4Car] Korail 200000 series EMU (NURIRO)
+NAME_Nuriro_engine                         : Korail 200000 series EMU (NURIRO)
+NAME_Nuriro_wagon                          : Korail 200000 series EMU (NURIRO)
+NAME_Nuriro_DD_engine                      : Nuriro DD
+NAME_Nuriro_DD_wagon                       : Nuriro DD
 NAME_Group_ITX                          : ITX
 NAME_Group_ITX_Maum                     : ITX-Maum
 NAME_ITX_CheongChan_engine              : ITX-CheongChan
@@ -594,10 +597,6 @@ STR_FLAT_2F_NAME                                       :Flat Car - American
 NAME_Constrck                           : [Showcase] construction vehicle
 NAME_Showcase_Flat_1F                   : [진열용] 평판화차
 
-NAME_Korail_392000_engine               : Korail 392000
-NAME_Korail_392000_wagon                : Korail 392000
-NAME_Korail_392000_2car                 : [2Car] Korail 392000
-
 # Test/Mail/Passenger
 Livery_Test                             : Test Train
 Livery_Cargo                            : Cargo Train
@@ -677,148 +676,147 @@ Livery_Busanmetro_1st_1000_VVVF            : VVVF
 Livery_Busanmetro_2nd_1000_G1              : 1st
 Livery_Busanmetro_2nd_1000_G2              : 2nd
 Livery_Busanmetro_2nd_1000_G3              : 3rd
-STR_REFIT_LIVERY_Busanmetro_2000_GTO                   : GTO
-STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
-STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
-STR_REFIT_LIVERY_Korail_1st_IGBT                       : IGBT
-STR_REFIT_LIVERY_Korail_1st_GTO                        : GTO
-STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT                  : 3X1K IGBT
-STR_REFIT_LIVERY_Korail_1st_3X1K_GTO                   : 3X1K GTO
-STR_REFIT_LIVERY_Korail_1st_3X1K_A_IGBT                : 3X1K A IGBT
-STR_REFIT_LIVERY_Korail_1st_3X1K_A_GTO                 : 3X1K A GTO
-STR_REFIT_LIVERY_Korail_1st_3X1K_B_IGBT                : 3X1K B IGBT
-STR_REFIT_LIVERY_Korail_1st_3X1K_B_GTO                 : 3X1K B GTO
-STR_REFIT_LIVERY_Korail_1st_2030_GTO                   : 2030
-STR_REFIT_LIVERY_Korail_1st_2030_IGBT                  : 2030 IGBT
-STR_REFIT_LIVERY_Korail_1st_5000_A                     : 5000 A
-STR_REFIT_LIVERY_Korail_1st_5000_B                     : 5000 B
-STR_REFIT_LIVERY_Korail_1st_3000_Old                   : 3000 Old
-STR_REFIT_LIVERY_Korail_1st_3000_New                   : 3000 New
-STR_REFIT_LIVERY_Korail_2nd_IGBT                       : IGBT
-STR_REFIT_LIVERY_Korail_2nd_GTO                        : GTO
-STR_REFIT_LIVERY_Korail_2nd_311K_IGBT                  : 311K IGBT
-STR_REFIT_LIVERY_Korail_2nd_341K_IGBT                  : 341K IGBT
-STR_REFIT_LIVERY_Korail_2nd_311K_GTO                   : 311K GTO
-STR_REFIT_LIVERY_Korail_2nd_341K_GTO                   : 341K GTO
-STR_REFIT_LIVERY_Korail_2nd_2030                       : 2030
-STR_REFIT_LIVERY_Korail_2nd_5000                       : 5000
-STR_REFIT_LIVERY_Korail_3rd_ST_DOB                     : ST DOB
-STR_REFIT_LIVERY_Korail_3rd_ST_331K_DOB                : DOB 331K
-STR_REFIT_LIVERY_Korail_3rd_ST_SI                      : SI
-STR_REFIT_LIVERY_Korail_3rd_AL_311K                    : AL 311K
-STR_REFIT_LIVERY_Korail_3rd_AL_331K_Toshiba            : AL 331K TOSHIBA
-STR_REFIT_LIVERY_Korail_3rd_AL_331K_Woojin             : AL 331K WOOJIN
-STR_REFIT_LIVERY_Korail_3rd_AL_361K_A                  : AL 361K door color
-STR_REFIT_LIVERY_Korail_3rd_AL_361K_B                  : AL 361K line color
-STR_REFIT_LIVERY_Korail_3rd_Bike                       : Bike Train
-STR_REFIT_LIVERY_Korail_3rd_Civil_complaint_365        : Civil complaint 365
-STR_REFIT_LIVERY_Korail_3rd_371_381                    : 371K & 381K
-STR_REFIT_LIVERY_Korail_4th_G1_2CC                     : 2CC
-STR_REFIT_LIVERY_Korail_4th_G1_381K                    : 381K
-STR_REFIT_LIVERY_Korail_4th_G2_SI                      : Generation 1
-STR_REFIT_LIVERY_Korail_4th_G2_SI1                     : Generation 1 SI1
-STR_REFIT_LIVERY_Korail_4th_G2_SI2                     : Generation 1 SI2
-STR_REFIT_LIVERY_Korail_4th_G2_DOB                     : Generation 1 DOB
-STR_REFIT_LIVERY_Korail_4th_G2_2cc                     : 2CC
-STR_REFIT_LIVERY_Korail_4th_G2_2nd_A                   : Generation 2
-STR_REFIT_LIVERY_Korail_4th_G2_2nd_B                   : Gyeongui-Jungang line
-STR_REFIT_LIVERY_Korail_4th_G3_SI                      : Generation 2
-STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : Generation 2 SI1
-STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : Generation 2 SI2
-STR_REFIT_LIVERY_Korail_4th_G3_DOB                     : Generation 2 DOB
-STR_REFIT_LIVERY_Korail_4th_G3_PMSM                    : PMSM
-STR_REFIT_LIVERY_Korail_4th_G3_392000                  : Generation 3
-STR_REFIT_LIVERY_Korail_4th_G3_393000                  : korail 393 series
-STR_REFIT_LIVERY_Korail_5th_Nomal                      : Nomal
-STR_REFIT_LIVERY_Korail_5th_Update_software            : Update software
-STR_REFIT_LIVERY_Korail_6th_Concept1                   : Concept1
-STR_REFIT_LIVERY_Korail_6th_Concept1_2cc               : Concept1 2cc
-STR_REFIT_LIVERY_Korail_First_K1000_Initial            : Korail First KNR 1st livery
-STR_REFIT_LIVERY_Korail_First_K1000_Initial_Aircon_A   : Korail First KNR 1st livery Aircon A
-STR_REFIT_LIVERY_Korail_First_K1000_Initial_Aircon_B   : Korail First KNR 1st livery Aircon B
-STR_REFIT_LIVERY_Korail_First_K1000_Old_A              : Korail First KNR 2nd livery A
-STR_REFIT_LIVERY_Korail_First_K1000_Old_B              : Korail First KNR 2nd livery B
-STR_REFIT_LIVERY_Korail_Second_Initial_1_A             : Korail Second KNR 1st livery A
-STR_REFIT_LIVERY_Korail_Second_Initial_1_B             : Korail Second KNR 1st livery B
-STR_REFIT_LIVERY_Korail_Second_Old_1_A                 : Korail Second KNR 2nd livery A
-STR_REFIT_LIVERY_Korail_Second_Old_1_B                 : Korail Second KNR 2nd livery B
-STR_REFIT_LIVERY_Korail_Second_Old_1_C                 : Korail Second KNR 2nd livery C
-STR_REFIT_LIVERY_Korail_Second_Old_1_D                 : Korail Second KNR 2nd livery D
-STR_REFIT_LIVERY_Korail_Second_Old_1_E                 : Korail Second KNR 2nd livery E
-STR_REFIT_LIVERY_Korail_Second_New_1_A                 : Korail Second KNR 1st Current livery A
-STR_REFIT_LIVERY_Korail_Second_New_1_B                 : Korail Second KNR 1st Current livery B
-STR_REFIT_LIVERY_Korail_Second_New_1_C                 : Korail Second KNR 1st Current livery C
-STR_REFIT_LIVERY_Korail_Second_New_1_D                 : Korail Second KNR 1st Current livery D
-STR_REFIT_LIVERY_Korail_Second_New_1_E                 : Korail Second KNR 1st Current livery E
-STR_REFIT_LIVERY_Korail_Second_Initial_2_A             : Korail Second KNR 1st Last livery A
-STR_REFIT_LIVERY_Korail_Second_Initial_2_B             : Korail Second KNR 1st Last livery B
-STR_REFIT_LIVERY_Korail_Second_Old_2_A                 : Korail Second KNR 2st Last livery A
-STR_REFIT_LIVERY_Korail_Second_Old_2_B                 : Korail Second KNR 2st Last livery B
-STR_REFIT_LIVERY_Korail_Second_New_2_A                 : Korail Second KNR 2st Last Current livery A
-STR_REFIT_LIVERY_Korail_Second_New_2_B                 : Korail Second KNR 2st Last Current livery B
-STR_REFIT_LIVERY_Korail_Third_Old_A                    : Korail last KNR 2nd livery A
-STR_REFIT_LIVERY_Korail_Third_Old_B                    : Korail last KNR 2nd livery B
-STR_REFIT_LIVERY_Korail_Third_New                      : Korail last Current livery
-STR_REFIT_LIVERY_Korail_Rheostatic_K1000_A             : Korail Rheostatic A
-STR_REFIT_LIVERY_Korail_Rheostatic_K1000_B             : Korail Rheostatic B
-STR_REFIT_LIVERY_Nishitetsu_1000_Normal                : Nishitetsu 1000 series Normal
-STR_REFIT_LIVERY_Nishitetsu_1000_Normal_Aircon         : Nishitetsu 1000 series Normal Aircon
-STR_REFIT_LIVERY_Nishitetsu_1000_Original              : Nishitetsu 1000 series Original
-STR_REFIT_LIVERY_Nishitetsu_1000_Express               : Nishitetsu 1000 series Express
-STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run              : Nishitetsu 1000 series Last Run
-STR_REFIT_LIVERY_Nishitetsu_2000_Normal                : Nishitetsu 2000 series Normal
-STR_REFIT_LIVERY_Nishitetsu_2000_Express               : Nishitetsu 2000 series Express
-STR_REFIT_LIVERY_Nishitetsu_5000_MG                    : Nishitetsu 5000 series MG
-STR_REFIT_LIVERY_Nishitetsu_5000_SIV                   : Nishitetsu 5000 series SIV
-STR_REFIT_LIVERY_Nishitetsu_6050_GTO                   : GTO
-STR_REFIT_LIVERY_Nishitetsu_6050_SIC                   : SIC
-STR_REFIT_LIVERY_Nishitetsu_7000                       : Nishitetsu 7000
-STR_REFIT_LIVERY_Nishitetsu_7050                       : Nishitetsu 7050
-STR_REFIT_LIVERY_Hankyu_6000                           : Old
-STR_REFIT_LIVERY_Hankyu_6000_6Car_A                    : Old 6Car A
-STR_REFIT_LIVERY_Hankyu_6000_6Car_B                    : Old 6Car B
-STR_REFIT_LIVERY_Hankyu_6000_1993                      : Old 1993
-STR_REFIT_LIVERY_Hankyu_6000_1993_6Car_A               : Old 1993 6Car A
-STR_REFIT_LIVERY_Hankyu_6000_1993_6Car_B               : Old 1993 6Car B
-STR_REFIT_LIVERY_Hankyu_6000_1998_A                    : New A
-STR_REFIT_LIVERY_Hankyu_6000_1998_B                    : New B
-STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_A               : New 1998 6Car A
-STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_B               : New 1998 6Car B
-STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_C               : New 1998 6Car C
-STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_D               : New 1998 6Car D
-STR_REFIT_LIVERY_Hankyu_6300_A                         : A Type
-STR_REFIT_LIVERY_Hankyu_6300_B                         : B Type
-STR_REFIT_LIVERY_Hankyu_7000                           : orginal
-STR_REFIT_LIVERY_Hankyu_7000_1984                      : 1984
-STR_REFIT_LIVERY_Hankyu_7000_1998                      : 1998
-STR_REFIT_LIVERY_Hankyu_7000_2009                      : 2009
-STR_REFIT_LIVERY_Hankyu_7000_2011                      : 2011
-STR_REFIT_LIVERY_Hankyu_7000_2016                      : 2016
-STR_REFIT_LIVERY_Hankyu_7300                           : Orginal
-STR_REFIT_LIVERY_Hankyu_7300_1998                      : 1998
-STR_REFIT_LIVERY_Hankyu_7300_2008                      : 2008
-STR_REFIT_LIVERY_Hankyu_7300_2014                      : 2014
-STR_REFIT_LIVERY_Hankyu_7300_2014_VVVF                 : 2014 (VVVF)
-STR_REFIT_LIVERY_Hankyu_8000_Long_Seat                 : Hankyu 8000 Long Seat
-STR_REFIT_LIVERY_Hankyu_8000_Cross_Seat                : Hankyu 8000 Cross Seat
-STR_REFIT_LIVERY_Hankyu_8300_Long_Seat                 : Hankyu 8300 Long Seat
-STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat                : Hankyu 8300 Cross Seat
-STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express    : MTR AD Tranz CAF A Type Airport Express
-STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung         : MTR AD Tranz CAF A Type Tung Chung
-STR_REFIT_LIVERY_MTR_DC_Cammall                        : MTR Cammall DC Type no remoding Car
-STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding               : MTR Cammall DC Type remoding Car
-STR_REFIT_LIVERY_MTR_DC_Cammall_Disney                 : MTR Cammall DC Type Disney Car
-STR_REFIT_LIVERY_MTR_CNR_Changchun                     : MTR CNR Changchun
-STR_REFIT_LIVERY_MTR_CNR_Changchun_South_Island        : MTR CNR Changchun South Island
-STR_REFIT_LIVERY_MTR_CRRC_Changchun                    : MTR CRRC Changchun Train
-STR_REFIT_LIVERY_MTR_CRRC_Sipang                       : MTR CRRC Sipang Train
-Livery_Nuriro_Old                       : Old
-Livery_Nuriro_New                       : New
-Livery_Nuriro_A                         : A type
-Livery_Nuriro_B                         : B type
-Livery_Nuriro_O                         : O-Train
-Livery_Nuriro_DS                        : Donghae Santa
-Livery_Nuriro_saemaeul                  : ITX-saemaeul
+Livery_Busanmetro_2000_GTO                 : GTO
+Livery_Busanmetro_2000_WOOJIN              : WOOJIN
+Livery_Busanmetro_2000_DAWONSYS            : DAWONSYS
+Livery_Korail_1st_IGBT                     : IGBT
+Livery_Korail_1st_GTO                      : GTO
+Livery_Korail_1st_3X1K_GTO                 : 3X1K GTO
+Livery_Korail_1st_3X1K_IGBT                : 3X1K IGBT
+Livery_Korail_1st_3X1K_A_GTO               : 3X1K A GTO
+Livery_Korail_1st_3X1K_A_IGBT              : 3X1K A IGBT
+Livery_Korail_1st_3X1K_B_IGBT              : 3X1K B IGBT
+Livery_Korail_1st_3X1K_B_GTO               : 3X1K B GTO
+Livery_Korail_1st_2030_GTO                 : 2030
+Livery_Korail_1st_2030_IGBT                : 2030 IGBT
+Livery_Korail_1st_5000_A                   : 5000 A
+Livery_Korail_1st_5000_B                   : 5000 B
+Livery_Korail_1st_3000_Old                 : 3000 Old
+Livery_Korail_1st_3000_New                 : 3000 New
+Livery_Korail_2nd_IGBT                     : IGBT
+Livery_Korail_2nd_GTO                      : GTO
+Livery_Korail_2nd_311K_IGBT                : 311K IGBT
+Livery_Korail_2nd_341K_IGBT                : 341K IGBT
+Livery_Korail_2nd_311K_GTO                 : 311K GTO
+Livery_Korail_2nd_341K_GTO                 : 341K GTO
+Livery_Korail_2nd_2030                     : 2030
+Livery_Korail_2nd_5000                     : 5000
+Livery_Korail_3rd_ST_DOB                   : ST DOB
+Livery_Korail_3rd_ST_331K_DOB              : DOB 331K
+Livery_Korail_3rd_ST_SI                    : SI
+Livery_Korail_3rd_AL_331K_Toshiba          : AL 331K TOSHIBA
+Livery_Korail_3rd_AL_331K_Woojin           : AL 331K WOOJIN
+Livery_Korail_3rd_AL_361K_A                : AL 361K door color
+Livery_Korail_3rd_AL_361K_B                : AL 361K line color
+Livery_Korail_3rd_Bike                     : Bike Train
+Livery_Korail_3rd_Civil_complaint_365      : Civil complaint 365
+Livery_Korail_3rd_371_381                  : 371K & 381K
+Livery_Korail_4th_G1_2CC                   : 2CC
+Livery_Korail_4th_G1_381K                  : 381K
+Livery_Korail_4th_G2_SI                    : Generation 1
+Livery_Korail_4th_G2_SI1                   : Generation 1 SI1
+Livery_Korail_4th_G2_SI2                   : Generation 1 SI2
+Livery_Korail_4th_G2_DOB                   : Generation 1 DOB
+Livery_Korail_4th_G2_2cc                   : 2CC
+Livery_Korail_4th_G2_2nd_A                 : Generation 2
+Livery_Korail_4th_G2_2nd_B                 : Gyeongui-Jungang line
+Livery_Korail_4th_G3_SI                    : Generation 2
+Livery_Korail_4th_G3_SI1                   : Generation 2 SI1
+Livery_Korail_4th_G3_SI2                   : Generation 2 SI2
+Livery_Korail_4th_G3_DOB                   : Generation 2 DOB
+Livery_Korail_4th_G3_PMSM                  : PMSM
+Livery_Korail_4th_G3_392000                : Generation 3
+Livery_Korail_4th_G3_393000                : korail 393 series
+Livery_Korail_5th_Nomal                    : Nomal
+Livery_Korail_5th_Update_software          : Update software
+Livery_Korail_6th_Concept1                 : Concept1
+Livery_Korail_6th_Concept1_2cc             : Concept1 2cc
+Livery_Korail_First_K1000_Initial          : Korail First KNR 1st livery
+Livery_Korail_First_K1000_Initial_Aircon_A : Korail First KNR 1st livery Aircon A
+Livery_Korail_First_K1000_Initial_Aircon_B : Korail First KNR 1st livery Aircon B
+Livery_Korail_First_K1000_Old_A            : Korail First KNR 2nd livery A
+Livery_Korail_First_K1000_Old_B            : Korail First KNR 2nd livery B
+Livery_Korail_Second_Initial_1_A           : Korail Second KNR 1st livery A
+Livery_Korail_Second_Initial_1_B           : Korail Second KNR 1st livery B
+Livery_Korail_Second_Old_1_A               : Korail Second KNR 2nd livery A
+Livery_Korail_Second_Old_1_B               : Korail Second KNR 2nd livery B
+Livery_Korail_Second_Old_1_C               : Korail Second KNR 2nd livery C
+Livery_Korail_Second_Old_1_D               : Korail Second KNR 2nd livery D
+Livery_Korail_Second_Old_1_E               : Korail Second KNR 2nd livery E
+Livery_Korail_Second_New_1_A               : Korail Second KNR 1st Current livery A
+Livery_Korail_Second_New_1_B               : Korail Second KNR 1st Current livery B
+Livery_Korail_Second_New_1_C               : Korail Second KNR 1st Current livery C
+Livery_Korail_Second_New_1_D               : Korail Second KNR 1st Current livery D
+Livery_Korail_Second_New_1_E               : Korail Second KNR 1st Current livery E
+Livery_Korail_Second_Initial_2_A           : Korail Second KNR 1st Last livery A
+Livery_Korail_Second_Initial_2_B           : Korail Second KNR 1st Last livery B
+Livery_Korail_Second_Old_2_A               : Korail Second KNR 2st Last livery A
+Livery_Korail_Second_Old_2_B               : Korail Second KNR 2st Last livery B
+Livery_Korail_Second_New_2_A               : Korail Second KNR 2st Last Current livery A
+Livery_Korail_Second_New_2_B               : Korail Second KNR 2st Last Current livery B
+Livery_Korail_Third_Old_A                  : Korail last KNR 2nd livery A
+Livery_Korail_Third_Old_B                  : Korail last KNR 2nd livery B
+Livery_Korail_Third_New                    : Korail last Current livery
+Livery_Korail_Rheostatic_K1000_A           : Korail Rheostatic A
+Livery_Korail_Rheostatic_K1000_B           : Korail Rheostatic B
+Livery_Nishitetsu_1000_Normal              : Nishitetsu 1000 series Normal
+Livery_Nishitetsu_1000_Normal_Aircon       : Nishitetsu 1000 series Normal Aircon
+Livery_Nishitetsu_1000_Original            : Nishitetsu 1000 series Original
+Livery_Nishitetsu_1000_Express             : Nishitetsu 1000 series Express
+Livery_Nishitetsu_1000_Last_Run            : Nishitetsu 1000 series Last Run
+Livery_Nishitetsu_2000_Normal              : Nishitetsu 2000 series Normal
+Livery_Nishitetsu_2000_Express             : Nishitetsu 2000 series Express
+Livery_Nishitetsu_5000_MG                  : Nishitetsu 5000 series MG
+Livery_Nishitetsu_5000_SIV                 : Nishitetsu 5000 series SIV
+Livery_Nishitetsu_6050_GTO                 : GTO
+Livery_Nishitetsu_6050_SIC                 : SIC
+Livery_Nishitetsu_7000                     : Nishitetsu 7000
+Livery_Nishitetsu_7050                     : Nishitetsu 7050
+Livery_Hankyu_6000                         : Old
+Livery_Hankyu_6000_6Car_A                  : Old 6Car A
+Livery_Hankyu_6000_6Car_B                  : Old 6Car B
+Livery_Hankyu_6000_1993                    : Old 1993
+Livery_Hankyu_6000_1993_6Car_A             : Old 1993 6Car A
+Livery_Hankyu_6000_1993_6Car_B             : Old 1993 6Car B
+Livery_Hankyu_6000_1998_A                  : New A
+Livery_Hankyu_6000_1998_B                  : New B
+Livery_Hankyu_6000_1998_6Car_A             : New 1998 6Car A
+Livery_Hankyu_6000_1998_6Car_B             : New 1998 6Car B
+Livery_Hankyu_6000_1998_6Car_C             : New 1998 6Car C
+Livery_Hankyu_6000_1998_6Car_D             : New 1998 6Car D
+Livery_Hankyu_6300_A                       : A Type
+Livery_Hankyu_6300_B                       : B Type
+Livery_Hankyu_7000                         : orginal
+Livery_Hankyu_7000_1984                    : 1984
+Livery_Hankyu_7000_1998                    : 1998
+Livery_Hankyu_7000_2009                    : 2009
+Livery_Hankyu_7000_2011                    : 2011
+Livery_Hankyu_7000_2016                    : 2016
+Livery_Hankyu_7300                         : Orginal
+Livery_Hankyu_7300_1998                    : 1998
+Livery_Hankyu_7300_2008                    : 2008
+Livery_Hankyu_7300_2014                    : 2014
+Livery_Hankyu_7300_2014_VVVF               : 2014 (VVVF)
+Livery_Hankyu_8000_Long_Seat               : Long Seat
+Livery_Hankyu_8000_Cross_Seat              : Cross Seat
+Livery_Hankyu_8300_Long_Seat               : Long Seat
+Livery_Hankyu_8300_Cross_Seat              : Cross Seat
+Livery_AD_Tranz_CAF_A_Airport_Express      : Airport Express
+Livery_AD_Tranz_CAF_A_Tung_Chung           : Tung Chung
+Livery_DC_Cammall                          : no remoding Car
+Livery_DC_Cammall_Remoding                 : remoding Car
+Livery_DC_Cammall_Disney                   : Disney Car
+Livery_CNR_Changchun                       : Changchun
+Livery_CNR_Changchun_South_Island          : South Island
+Livery_CRRC_Changchun                      : Changchun
+Livery_CRRC_Sipang                         : Sipang
+Livery_Nuriro_Old                          : Old
+Livery_Nuriro_New                          : New
+Livery_Nuriro_A                            : A type
+Livery_Nuriro_B                            : B type
+Livery_Nuriro_O                            : O-Train
+Livery_Nuriro_DS                           : Donghae Santa
+Livery_Nuriro_saemaeul                     : ITX-saemaeul
 Livery_ITX_CheongChun_A                 : ITX-CheongChun A
 Livery_ITX_CheongChun_B                 : ITX-CheongChun B
 Livery_ITX_Maum                         : ITX-Maum

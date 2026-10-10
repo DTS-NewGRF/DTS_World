@@ -1,5 +1,23 @@
 #include "locomotive/DTX/DTX.pnml"
 #include "locomotive/HYEL/HYEL.pnml"
+#include "metro/AREX/AREX.pnml"
+#include "metro/Daegumetro/Daegumetro.pnml"
+#include "metro/Seoulmetro/Seoulmetro.pnml"
+#include "metro/Incheonmetro/Incheonmetro.pnml"
+#include "metro/Busanmetro/Busanmetro.pnml"
+#include "metro/Korail/Korail.pnml"
+#include "metro/Dongbuk/Dongbuk.pnml"
+#include "metro/Gimpo_Gold/Gimpo_Gold.pnml"
+#include "metro/Sillim_Line/Sillim_Line.pnml"
+#include "metro/UI_Sinseol/UI_Sinseol.pnml"
+#include "metro/Uijeongbu_Line/Uijeongbu_Line.pnml"
+#include "metro/Yangsan_AGT/Yangsan_AGT.pnml"
+#include "metro/Yongin_EverLine/Yongin_EverLine.pnml"
+#include "metro/Nishitetsu/Nishitetsu.pnml"
+#include "metro/Hankyu/Hankyu.pnml"
+#include "metro/MTR/MTR.pnml"
+
+#include "locomotive/Nuriro/Nuriro.pnml"
 
 #include "locomotive/AGV/AGV.pnml"
 #include "locomotive/AL_BORAQ/Al_Boraq.pnml"
@@ -35,7 +53,7 @@
 #include "locomotive/NHSRCL_E5/NHSRCL_E5.pnml"
 #include "locomotive/NJ2/NJ2.pnml"
 #include "locomotive/NSW_TrainLink_D/NSW_TrainLink_D.pnml"
-#include "locomotive/Nuriro/Nuriro.pnml"
+
 #include "locomotive/OEL_8000/OEL_8000.pnml"
 #include "locomotive/Shinkansen/Shinkansen.pnml"
 #include "locomotive/RDC/RDC.pnml"
@@ -49,31 +67,22 @@
 #include "locomotive/VHST_600X/VHST_600X.pnml"
 
 // Metro
-#include "metro/AREX/AREX.pnml"
 #include "metro/AUTS/AUTS.pnml"
-#include "metro/Busanmetro/Busanmetro.pnml"
-#include "metro/Daegumetro/Daegumetro.pnml"
 #include "metro/Daejeonmetro/Daejeonmetro.pnml"
-#include "metro/Dongbuk/Dongbuk.pnml"
+
 #include "metro/EMU900/EMU900.pnml"
-#include "metro/Gimpo_Gold/Gimpo_Gold.pnml"
+
 #include "metro/Gwangjumetro/Gwangjumetro.pnml"
-#include "metro/Hankyu/Hankyu.pnml"
-#include "metro/Incheonmetro/Incheonmetro.pnml"
+
 #include "metro/Jakarta_LRT/Jakarta_LRT.pnml"
 #include "metro/Japan/Japan.pnml"
-#include "metro/Korail/Korail.pnml"
-#include "metro/MTR/MTR.pnml"
+
 #include "metro/Nextrain/Nextrain.pnml"
-#include "metro/Nishitetsu/Nishitetsu.pnml"
-#include "metro/Seoulmetro/Seoulmetro.pnml"
+
+
 #include "metro/Shinbundang/Shinbundang.pnml"
-#include "metro/Sillim_Line/Sillim_Line.pnml"
+
 #include "metro/standard/Standard.pnml"
-#include "metro/UI_Sinseol/UI_Sinseol.pnml"
-#include "metro/Uijeongbu_Line/Uijeongbu_Line.pnml"
-#include "metro/Yangsan_AGT/Yangsan_AGT.pnml"
-#include "metro/Yongin_EverLine/Yongin_EverLine.pnml"
 
 // wagon
 #include "wagon/CGeneratar_Car/CGeneratar_Car.pnml"
@@ -109,5 +118,4 @@ spriteset(set_Deleted_B, "Deleted_Train_Image.png"){
 }
 
 // 1.74 삭제예정
-// AREX 1000호대 1세대, 2000호대 1세대, 4세대
-// 대구지하철 1000호대, 2000호대, 3000호대
+// 누리로 자유편성 기관차

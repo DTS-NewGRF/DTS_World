@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Nishitetsu_8000_6Car, 2103){
     property {
-        name:                           string(STR_Nishitetsu_8000_6Car_NAME);
+        name:                           string(NAME_Nishitetsu_8000_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1989, 1, 1);
         track_type:                     ELRL;

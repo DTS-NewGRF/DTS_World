@@ -3,17 +3,17 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Korail_2nd_6Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Korail_2nd_GTO);
-    1: return string(STR_REFIT_LIVERY_Korail_2nd_IGBT);
+    0: return string(Livery_Korail_2nd_GTO);
+    1: return string(Livery_Korail_2nd_IGBT);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_2nd_10Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Korail_2nd_311K_GTO);
-    1: return string(STR_REFIT_LIVERY_Korail_2nd_341K_IGBT);
-    2: return string(STR_REFIT_LIVERY_Korail_2nd_311K_IGBT);
-    3: return string(STR_REFIT_LIVERY_Korail_2nd_341K_GTO);
-    4: return string(STR_REFIT_LIVERY_Korail_2nd_2030);
-    5: return string(STR_REFIT_LIVERY_Korail_2nd_5000);
+    0: return string(Livery_Korail_2nd_311K_GTO);
+    1: return string(Livery_Korail_2nd_341K_IGBT);
+    2: return string(Livery_Korail_2nd_311K_IGBT);
+    3: return string(Livery_Korail_2nd_341K_GTO);
+    4: return string(Livery_Korail_2nd_2030);
+    5: return string(Livery_Korail_2nd_5000);
 }
 
 // 도색그래픽 세팅

@@ -2,11 +2,11 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_1000_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Nishitetsu_1000_Normal_Aircon); // 냉방도색
-    2: return string(STR_REFIT_LIVERY_Nishitetsu_1000_Original);      // 초기도색
-    3: return string(STR_REFIT_LIVERY_Nishitetsu_1000_Express);       // 특급도색
-    4: return string(STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run);      // 특별도색
-    return string(STR_REFIT_LIVERY_Nishitetsu_1000_Normal);
+    1: return string(Livery_Nishitetsu_1000_Normal_Aircon); // 냉방도색
+    2: return string(Livery_Nishitetsu_1000_Original);      // 초기도색
+    3: return string(Livery_Nishitetsu_1000_Express);       // 특급도색
+    4: return string(Livery_Nishitetsu_1000_Last_Run);      // 특별도색
+    return string(Livery_Nishitetsu_1000_Normal);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_1000_engineH, cargo_subtype) {

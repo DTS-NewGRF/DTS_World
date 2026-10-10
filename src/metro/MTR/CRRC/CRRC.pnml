@@ -12,7 +12,7 @@ MTR CRRC
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, MTR_CRRC_8Car, 2056){
     property {
-        name:                           string(STR_MTR_CRRC_8Car_NAME);
+        name:                           string(NAME_CRRC_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2015, 1, 1);
         track_type:                     ELRL;

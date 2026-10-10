@@ -3,8 +3,8 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Korail_6th_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Korail_6th_Concept1_2cc);
-    1: return string(STR_REFIT_LIVERY_Korail_6th_Concept1);
+    0: return string(Livery_Korail_6th_Concept1_2cc);
+    1: return string(Livery_Korail_6th_Concept1);
 }
 
 // 도색그래픽 세팅

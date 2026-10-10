@@ -12,7 +12,7 @@ MTR Cammall DC
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, MTR_DC_Cammall_8Car, 2054){
     property {
-        name:                           string(STR_MTR_DC_Cammall_8Car_NAME);
+        name:                           string(NAME_DC_Cammall_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1977, 1, 1);
         track_type:                     ELRL;

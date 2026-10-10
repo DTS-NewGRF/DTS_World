@@ -2,8 +2,8 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_2000_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Nishitetsu_2000_Express);       // 특급도색
-    return string(STR_REFIT_LIVERY_Nishitetsu_2000_Normal);
+    1: return string(Livery_Nishitetsu_2000_Express);       // 특급도색
+    return string(Livery_Nishitetsu_2000_Normal);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_2000_engineH, cargo_subtype) {

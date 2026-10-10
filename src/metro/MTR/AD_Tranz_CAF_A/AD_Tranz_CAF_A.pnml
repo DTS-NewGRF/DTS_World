@@ -12,7 +12,7 @@ MTR AD Tranz Caf A
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, AD_Tranz_CAF_A_8Car, 2052){
     property {
-        name:                           string(STR_MTR_AD_Tranz_CAF_A_8Car_NAME);
+        name:                           string(NAME_AD_Tranz_CAF_A_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1996, 1, 1);
         track_type:                     ELRL;

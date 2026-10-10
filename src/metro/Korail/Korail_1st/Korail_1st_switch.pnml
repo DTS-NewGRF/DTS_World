@@ -3,28 +3,28 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_4car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Korail_1st_GTO);
-    1: return string(STR_REFIT_LIVERY_Korail_1st_IGBT);
+    0: return string(Livery_Korail_1st_GTO);
+    1: return string(Livery_Korail_1st_IGBT);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_6car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Korail_1st_3X1K_GTO);
-    1: return string(STR_REFIT_LIVERY_Korail_1st_2030_GTO);
-    2: return string(STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT);
-    3: return string(STR_REFIT_LIVERY_Korail_1st_2030_IGBT);
+    0: return string(Livery_Korail_1st_3X1K_GTO);
+    1: return string(Livery_Korail_1st_2030_GTO);
+    2: return string(Livery_Korail_1st_3X1K_IGBT);
+    3: return string(Livery_Korail_1st_2030_IGBT);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_10car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Korail_1st_3X1K_A_GTO);
-    1: return string(STR_REFIT_LIVERY_Korail_1st_3X1K_B_IGBT);
-    2: return string(STR_REFIT_LIVERY_Korail_1st_3X1K_A_IGBT);
-    3: return string(STR_REFIT_LIVERY_Korail_1st_3X1K_B_GTO);
-    4: return string(STR_REFIT_LIVERY_Korail_1st_2030_GTO);
-    5: return string(STR_REFIT_LIVERY_Korail_1st_5000_A);
-    6: return string(STR_REFIT_LIVERY_Korail_1st_5000_B);
-    7: return string(STR_REFIT_LIVERY_Korail_1st_3000_Old);
-    8: return string(STR_REFIT_LIVERY_Korail_1st_3000_New);
-    9: return string(STR_REFIT_LIVERY_Korail_1st_2030_IGBT);
+    0: return string(Livery_Korail_1st_3X1K_A_GTO);
+    1: return string(Livery_Korail_1st_3X1K_B_IGBT);
+    2: return string(Livery_Korail_1st_3X1K_A_IGBT);
+    3: return string(Livery_Korail_1st_3X1K_B_GTO);
+    4: return string(Livery_Korail_1st_2030_GTO);
+    5: return string(Livery_Korail_1st_5000_A);
+    6: return string(Livery_Korail_1st_5000_B);
+    7: return string(Livery_Korail_1st_3000_Old);
+    8: return string(Livery_Korail_1st_3000_New);
+    9: return string(Livery_Korail_1st_2030_IGBT);
 }
 
 // 도색그래픽 세팅

@@ -9,7 +9,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail, 2240){
     property {
-        name:                           string(STR_Group_Korail_NAME);
+        name:                           string(NAME_Group_Korail);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

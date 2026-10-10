@@ -3,24 +3,24 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Korail_Second_cargo_subtype_text, cargo_subtype) {
-     0: return string(STR_REFIT_LIVERY_Korail_Second_Initial_1_A);
-     1: return string(STR_REFIT_LIVERY_Korail_Second_Initial_1_B);
-     2: return string(STR_REFIT_LIVERY_Korail_Second_Old_1_A);
-     3: return string(STR_REFIT_LIVERY_Korail_Second_Old_1_B);
-     4: return string(STR_REFIT_LIVERY_Korail_Second_Old_1_C);
-     5: return string(STR_REFIT_LIVERY_Korail_Second_Old_1_D);
-     6: return string(STR_REFIT_LIVERY_Korail_Second_Old_1_E);
-     7: return string(STR_REFIT_LIVERY_Korail_Second_New_1_A);
-     8: return string(STR_REFIT_LIVERY_Korail_Second_New_1_B);
-     9: return string(STR_REFIT_LIVERY_Korail_Second_New_1_C);
-    10: return string(STR_REFIT_LIVERY_Korail_Second_New_1_D);
-    11: return string(STR_REFIT_LIVERY_Korail_Second_New_1_E);
-    12: return string(STR_REFIT_LIVERY_Korail_Second_Initial_2_A);
-    13: return string(STR_REFIT_LIVERY_Korail_Second_Initial_2_B);
-    14: return string(STR_REFIT_LIVERY_Korail_Second_Old_2_A);
-    15: return string(STR_REFIT_LIVERY_Korail_Second_Old_2_B);
-    16: return string(STR_REFIT_LIVERY_Korail_Second_New_2_A);
-    17: return string(STR_REFIT_LIVERY_Korail_Second_New_2_B);
+     0: return string(Livery_Korail_Second_Initial_1_A);
+     1: return string(Livery_Korail_Second_Initial_1_B);
+     2: return string(Livery_Korail_Second_Old_1_A);
+     3: return string(Livery_Korail_Second_Old_1_B);
+     4: return string(Livery_Korail_Second_Old_1_C);
+     5: return string(Livery_Korail_Second_Old_1_D);
+     6: return string(Livery_Korail_Second_Old_1_E);
+     7: return string(Livery_Korail_Second_New_1_A);
+     8: return string(Livery_Korail_Second_New_1_B);
+     9: return string(Livery_Korail_Second_New_1_C);
+    10: return string(Livery_Korail_Second_New_1_D);
+    11: return string(Livery_Korail_Second_New_1_E);
+    12: return string(Livery_Korail_Second_Initial_2_A);
+    13: return string(Livery_Korail_Second_Initial_2_B);
+    14: return string(Livery_Korail_Second_Old_2_A);
+    15: return string(Livery_Korail_Second_Old_2_B);
+    16: return string(Livery_Korail_Second_New_2_A);
+    17: return string(Livery_Korail_Second_New_2_B);
 }
 
 // 도색그래픽 세팅

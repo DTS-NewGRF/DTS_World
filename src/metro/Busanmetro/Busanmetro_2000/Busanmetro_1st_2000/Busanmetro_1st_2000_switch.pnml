@@ -3,9 +3,9 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Busanmetro_1st_2000_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Busanmetro_2000_GTO);
-    1: return string(STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN);
-    2: return string(STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS);
+    0: return string(Livery_Busanmetro_2000_GTO);
+    1: return string(Livery_Busanmetro_2000_WOOJIN);
+    2: return string(Livery_Busanmetro_2000_DAWONSYS);
 }
 
 // 전후진 통합 코드

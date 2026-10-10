@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Nishitetsu_9000, 2187){
     property {
-        name:                           string(STR_Group_Nishitetsu_9000_NAME);
+        name:                           string(NAME_Group_Nishitetsu_9000);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, Nishitetsu_9000, 2187){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Nishitetsu_9000_2Car, 2104){
     property {
-        name:                           string(STR_Nishitetsu_9000_2Car_NAME);
+        name:                           string(NAME_Nishitetsu_9000_2Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2016, 1, 1);
         track_type:                     ELRL;
@@ -85,7 +85,7 @@ item(FEAT_TRAINS, Nishitetsu_9000_2Car, 2104){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Nishitetsu_9000_3Car, 2113){
     property {
-        name:                           string(STR_Nishitetsu_9000_3Car_NAME);
+        name:                           string(NAME_Nishitetsu_9000_3Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2016, 1, 1);
         track_type:                     ELRL;

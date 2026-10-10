@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_3rd, 2219){
     property {
-        name:                           string(STR_Group_Korail_3rd_NAME);
+        name:                           string(NAME_Group_Korail_3rd);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, Korail_3rd, 2219){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_3rd_ST_4car, 2222){
     property {
-        name:                           string(STR_Korail_3rd_ST_4Car_NAME);
+        name:                           string(NAME_Korail_3rd_ST_4Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2011, 1, 1);
         track_type:                     ELRL;
@@ -86,7 +86,7 @@ item(FEAT_TRAINS, Korail_3rd_ST_4car, 2222){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_3rd_G2_4car, 2223){
     property {
-        name:                           string(STR_Korail_3rd_G2_4Car_NAME);
+        name:                           string(NAME_Korail_3rd_G2_4Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2021, 1, 1);
         track_type:                     ELRL;
@@ -140,7 +140,7 @@ item(FEAT_TRAINS, Korail_3rd_G2_4car, 2223){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_3rd_6car, 2224){
     property {
-        name:                           string(STR_Korail_3rd_6Car_NAME);
+        name:                           string(NAME_Korail_3rd_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2011, 1, 1);
         track_type:                     ELRL;
@@ -195,7 +195,7 @@ item(FEAT_TRAINS, Korail_3rd_6car, 2224){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_3rd_8car, 2225){
     property {
-        name:                           string(STR_Korail_3rd_8Car_NAME);
+        name:                           string(NAME_Korail_3rd_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2006, 1, 1);
         track_type:                     ELRL;
@@ -250,7 +250,7 @@ item(FEAT_TRAINS, Korail_3rd_8car, 2225){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_3rd_10car, 2226){
     property {
-        name:                           string(STR_Korail_3rd_10Car_NAME);
+        name:                           string(NAME_Korail_3rd_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2005, 1, 1);
         track_type:                     ELRL;

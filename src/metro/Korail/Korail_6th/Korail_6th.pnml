@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_6th, 2530){
     property {
-        name:                           string(STR_Group_Korail_6th_NAME);
+        name:                           string(NAME_Group_Korail_6th);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, Korail_6th, 2530){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_6th_4Car, 2531){
     property {
-        name:                           string(STR_Korail_6th_4Car_NAME);
+        name:                           string(NAME_Korail_6th_4Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2027, 1, 1);
         track_type:                     ELRL;
@@ -86,7 +86,7 @@ item(FEAT_TRAINS, Korail_6th_4Car, 2531){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_6th_6Car, 2532){
     property {
-        name:                           string(STR_Korail_6th_6Car_NAME);
+        name:                           string(NAME_Korail_6th_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2027, 1, 1);
         track_type:                     ELRL;
@@ -141,7 +141,7 @@ item(FEAT_TRAINS, Korail_6th_6Car, 2532){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_6th_8Car, 2533){
     property {
-        name:                           string(STR_Korail_6th_8Car_NAME);
+        name:                           string(NAME_Korail_6th_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2027, 1, 1);
         track_type:                     ELRL;

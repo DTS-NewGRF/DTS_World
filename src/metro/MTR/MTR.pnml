@@ -9,7 +9,7 @@ MTR
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, MTR_Logo, 2515){
     property {
-        name:                           string(STR_Group_MTR_Logo_NAME);
+        name:                           string(NAME_Group_MTR_Logo);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

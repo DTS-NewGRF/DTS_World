@@ -3,8 +3,8 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Hankyu_8000_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Hankyu_8000_Long_Seat);
-    1: return string(STR_REFIT_LIVERY_Hankyu_8000_Cross_Seat); // 크로스 시트
+    0: return string(Livery_Hankyu_8000_Long_Seat);
+    1: return string(Livery_Hankyu_8000_Cross_Seat); // 크로스 시트
 }
 
 // 전후진 통합 코드

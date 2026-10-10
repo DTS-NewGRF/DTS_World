@@ -82,7 +82,7 @@
 |1078|DFX_wagon|
 |1079|DPX_14Car|
 |1080|HYEL_Gangsan_engine|
-|~1081|[공백] |
+|1081|Nuriro_Logo|
 |1082|DCL_120_Pass_engine|
 |1083|DCL_120_Post_engine|
 |1084|DCL_120_Pass_wagon|
