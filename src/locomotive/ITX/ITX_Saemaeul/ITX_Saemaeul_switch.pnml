@@ -22,35 +22,23 @@ switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_engineT, train_is_driving_backwards) {
     1: set_ITX_Saemaeul_engineT_Rev;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_engineT_Free, train_is_driving_backwards) {
-    0: set_ITX_Saemaeul_engineT_Free;
-    1: set_ITX_Saemaeul_engineT_Free_Rev;
-}
-
 // 기관차
 switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
-    1: sw_ITX_Saemaeul_engineT_Free;
+    1: sw_ITX_Saemaeul_engineT;
     sw_ITX_Saemaeul_engineH;
 }
 
-// 객차
-switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_DD_wagon, position_in_vehid_chain % 2) {
-    1: set_ITX_Saemaeul_wagon_DUP2;
-    set_ITX_Saemaeul_wagon_DUP1;
-}
-
-switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_Free_wagon_front, position_in_consist) {
-    1: sw_ITX_Saemaeul_panto_wagon_M1;
-    set_ITX_Saemaeul_wagon_M;
-}
-
-switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_Free_wagon, position_in_consist_from_end) {
-    1: sw_ITX_Saemaeul_panto_wagon_M2;
-    2: set_ITX_Saemaeul_wagon_TM;
-    sw_ITX_Saemaeul_Free_wagon_front;
+switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_DD_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: set_ITX_Saemaeul_DD_engineT;
+    set_ITX_Saemaeul_DD_engineH;
 }
 
 // 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_wagon_DUP, position_in_vehid_chain % 2) {
+    0: set_ITX_Saemaeul_wagon_DUP1; //default
+    1: set_ITX_Saemaeul_wagon_DUP2;
+    }
+
 switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_6car, position_in_vehid_chain % 6) {
     0: sw_ITX_Saemaeul_engineH; //default
     1: sw_ITX_Saemaeul_panto_wagon_M1;
@@ -61,6 +49,11 @@ switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_6car, position_in_vehid_chain % 6) {
     }
 
 // 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_ITX_Saemaeul_wagon_DUP, extra_callback_info1) {
+    1: ITX_Saemaeul_DD_wagon;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
 switch (FEAT_TRAINS, SELF, sw_articulated_ITX_Saemaeul_6car, extra_callback_info1) {
     1..5: ITX_Saemaeul_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

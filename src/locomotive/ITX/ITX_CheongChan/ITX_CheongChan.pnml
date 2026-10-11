@@ -14,12 +14,11 @@ item(FEAT_TRAINS, ITX_CheongChan_engine, 1061){
     property {
         name:                           string(NAME_ITX_CheongChan_engine);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2024, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         variant_group:                  ITX_Logo;
-        dual_headed:                    1;
         
         //spec
         speed:                          181km/h;
@@ -30,6 +29,7 @@ item(FEAT_TRAINS, ITX_CheongChan_engine, 1061){
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
@@ -57,11 +57,6 @@ item(FEAT_TRAINS, ITX_CheongChan_engine, 1061){
         purchase:                       set_ITX_CheongChan_engine_purchase;
         loading_speed:                  25;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
-        }
-    
-    livery_override(ITX_CheongChan_wagon) {
-        default:                        sw_ITX_CheongChan_Free_wagon;
-        loading_speed:                  25;
         }
         }
 
@@ -108,8 +103,9 @@ item(FEAT_TRAINS, ITX_CheongChan_wagon, 1062){
         }
         
     graphics {
-        default:                        sw_ITX_CheongChan_Free_wagon;
+        default:                        set_ITX_CheongChan_wagon_T;
         purchase:                       set_ITX_CheongChan_wagon_purchase;
         loading_speed:                  25;
+        power:                          335;
         }
         }

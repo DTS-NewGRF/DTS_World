@@ -300,26 +300,26 @@ NAME_Nuriro_engine                         : 누리로
 NAME_Nuriro_wagon                          : 누리로
 NAME_Nuriro_DD_engine                      : 누리로 DD
 NAME_Nuriro_DD_wagon                       : 누리로 DD
-NAME_Group_ITX                          : ITX
-NAME_Group_ITX_Maum                     : ITX-마음
-NAME_ITX_CheongChan_engine              : ITX-청천
-NAME_ITX_CheongChan_wagon               : ITX-청천
-NAME_ITX_CheongChun_8Car                : [8량] ITX-청춘
-NAME_ITX_CheongChun_engine              : ITX-청춘
-NAME_ITX_CheongChun_wagon               : ITX-청춘
-NAME_ITX_CheongChun_DD_engine           : ITX-청춘 DD
-NAME_ITX_CheongChun_DD_wagon            : ITX-청춘 DD
-NAME_ITX_Maum_4Car                      : [4량] ITX-마음
-NAME_ITX_Maum_6Car                      : [6량] ITX-마음
-NAME_ITX_Maum_engine                    : ITX-마음
-NAME_ITX_Maum_wagon                     : ITX-마음
-NAME_ITX_Maum_DD_engine                 : ITX-마음 DD
-NAME_ITX_Maum_DD_wagon                  : ITX-마음 DD
-NAME_ITX_Saemaeul_6Car                  : [6량] ITX-새마을
-NAME_ITX_Saemaeul_engine                : ITX-새마을
-NAME_ITX_Saemaeul_wagon                 : ITX-새마을
-NAME_ITX_Saemaeul_DD_engine             : ITX-새마을 DD
-NAME_ITX_Saemaeul_DD_wagon              : ITX-새마을 DD
+NAME_Group_ITX                             : ITX
+NAME_ITX_Maum_4Car                         : [4량] ITX-마음
+NAME_ITX_Maum_6Car                         : [6량] ITX-마음
+NAME_ITX_Maum_engine                       : ITX-마음
+NAME_ITX_Maum_wagon                        : ITX-마음
+NAME_ITX_Maum_DD_engine                    : ITX-마음 DD
+NAME_ITX_Maum_DD_wagon                     : [2량] ITX-마음 DD
+NAME_ITX_Saemaeul_6Car                     : [6량] ITX-새마을
+NAME_ITX_Saemaeul_engine                   : ITX-새마을
+NAME_ITX_Saemaeul_wagon                    : ITX-새마을
+NAME_ITX_Saemaeul_DD_engine                : ITX-새마을 DD
+NAME_ITX_Saemaeul_DD_wagon                 : [2량] ITX-새마을 DD
+NAME_ITX_CheongChan_engine                 : ITX-청천
+NAME_ITX_CheongChan_wagon                  : ITX-청천
+NAME_ITX_CheongChun_8Car                   : [8량] ITX-청춘
+NAME_ITX_CheongChun_engine                 : ITX-청춘
+NAME_ITX_CheongChun_wagon                  : ITX-청춘
+NAME_ITX_CheongChun_DD_engine              : ITX-청춘 DD
+NAME_ITX_CheongChun_DD_wagon               : [2량] ITX-청춘 DD
+
 NAME_Group_KTX                          : KTX
 NAME_Group_KTX_Sancheon                 : KTX-산천
 NAME_KTX_1_20Car                        : [20량] KTX-1
@@ -817,10 +817,12 @@ Livery_Nuriro_B                            : 순천향대 강의실
 Livery_Nuriro_O                            : O-Train
 Livery_Nuriro_DS                           : 동해산타
 Livery_Nuriro_saemaeul                     : ITX-새마을
-Livery_ITX_CheongChun_A                 : ITX-청춘
-Livery_ITX_CheongChun_B                 : ITX-청춘 용 랩핑
-Livery_ITX_Maum                         : ITX-마음
-Livery_ITX_Maum_High1                   : 하이원리조트
+Livery_ITX_Maum                            : ITX-마음
+Livery_ITX_Maum_High1                      : 하이원리조트
+Livery_ITX_CheongChun_A                    : ITX-청춘
+Livery_ITX_CheongChun_B                    : ITX-청춘 용 랩핑
+Livery_ITX_CheongChun_T3                   : 특실 객차
+Livery_ITX_CheongChun_MC                   : 객차 M
 Livery_KTX_1_1997                       : 특실 4량
 Livery_KTX_1_2007                       : 영화시네마
 Livery_KTX_1_2013                       : LTE-A

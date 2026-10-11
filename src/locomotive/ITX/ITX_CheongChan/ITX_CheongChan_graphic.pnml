@@ -52,7 +52,7 @@ spriteset(set_ITX_CheongChan_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/l
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_ITX_CheongChan_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){
-    tmpl_purchase_for_dualhead(0, 0)
+    tmpl_purchase(0, 0)
 }
 
 spriteset(set_ITX_CheongChan_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){

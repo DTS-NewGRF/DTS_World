@@ -87,7 +87,7 @@ item(FEAT_TRAINS, Nuriro_engine, 1023){
     property {
         name:                           string(NAME_Nuriro_engine);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2008, 1, 1);
+        introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Nuriro_engine, 1023){
 
      graphics {
         default:                        sw_Nuriro_engine;
-        purchase:                       set_Nuriro_purchase;
+        purchase:                       set_Nuriro_Free_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -143,7 +143,7 @@ item(FEAT_TRAINS, Nuriro_DD_engine, 1025){
     property {
         name:                           string(NAME_Nuriro_DD_engine);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2020, 1, 1);
+        introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;

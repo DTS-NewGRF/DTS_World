@@ -251,7 +251,6 @@ sort(FEAT_TRAINS, [
 
     // ITX 열차 그룹
     ITX_Logo,                       //2512
-    ITX_Maum,                       //2193
     ITX_Maum_4Car,                  //2166
     ITX_Maum_6Car,                  //2010
     ITX_Maum_engine,                //1067
@@ -487,6 +486,13 @@ sort(FEAT_TRAINS, [
     Korail_392000_wagon,            //1138
     Nuriro_wagon,                   //1024
     Nuriro_DD_wagon,                //1026
+    ITX_Maum_wagon,                 //1068
+    ITX_Maum_DD_wagon,              //1069
+    ITX_Saemaeul_wagon,             //1072
+    ITX_Saemaeul_DD_wagon,          //1073
+    ITX_CheongChan_wagon,           //1062
+    ITX_CheongChun_wagon,           //1064
+    ITX_CheongChun_DD_wagon,        //1065
 
     CDC_wagon,                      //1134
     CTX_wagon,                      //1075
@@ -500,13 +506,6 @@ sort(FEAT_TRAINS, [
     Glory_430_wagon,                //1110
     Glory_600_wagon,                //1112
     GTX_8Car_wagon,                 //1060
-    ITX_CheongChan_wagon,           //1062
-    ITX_CheongChun_wagon,           //1064
-    ITX_CheongChun_DD_wagon,        //1065
-    ITX_Maum_wagon,                 //1068
-    ITX_Maum_DD_wagon,              //1069
-    ITX_Saemaeul_wagon,             //1072
-    ITX_Saemaeul_DD_wagon,          //1073
     KTX_1_wagon,                    //1053
     KTX_Eum_wagon,                  //1036
     KTX_Eum_DD_wagon,               //1038

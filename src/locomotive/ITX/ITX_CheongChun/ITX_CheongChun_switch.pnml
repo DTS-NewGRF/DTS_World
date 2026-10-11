@@ -7,6 +7,12 @@ switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_cargo_subtype_text, cargo_subtype) {
     1: return string(Livery_ITX_CheongChun_B);
 }
 
+switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_wagon_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_ITX_CheongChun_MC);
+    1: return string(Livery_ITX_CheongChun_T3);
+}
+
+
 // 도색그래픽 세팅
 // 열차
 // 전진방향
@@ -20,11 +26,6 @@ switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_engineT_Front, cargo_subtype) {
     1: set_ITX_CheongChun_D_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_engineT_Free_Front, cargo_subtype) {
-    0: set_ITX_CheongChun_engineT_Free;
-    1: set_ITX_CheongChun_D_engineT_Free;
-}
-
 // 후진방향
 switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_engineH_Back, cargo_subtype) {
     0: set_ITX_CheongChun_engineH_Rev;
@@ -34,11 +35,6 @@ switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_engineH_Back, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_engineT_Back, cargo_subtype) {
     0: set_ITX_CheongChun_engineT_Rev;
     1: set_ITX_CheongChun_D_engineT_Rev;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_engineT_Free_Back, cargo_subtype) {
-    0: set_ITX_CheongChun_engineT_Free_Rev;
-    1: set_ITX_CheongChun_D_engineT_Free_Rev;
 }
 
 // 전후진 통합 코드
@@ -62,57 +58,29 @@ switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_engineT, train_is_driving_backwards)
     1: sw_ITX_CheongChun_engineT_Back;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_engineT_Free, train_is_driving_backwards) {
-    0: sw_ITX_CheongChun_engineT_Free_Front;
-    1: sw_ITX_CheongChun_engineT_Free_Back;
-}
-
 // 기관차
 switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
-    1: sw_ITX_CheongChun_engineT_Free;
+    1: sw_ITX_CheongChun_engineT;
     sw_ITX_CheongChun_engineH;
 }
 
+switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_DD_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: set_ITX_CheongChun_DD_engineT;
+    set_ITX_CheongChun_DD_engineH;
+}
+
 // 객차
-switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_DD_wagon, position_in_vehid_chain % 2) {
-    1: set_ITX_CheongChun_wagon_T2;
-    set_ITX_CheongChun_wagon_T1;
-}
-
-switch (FEAT_TRAINS, SELF, sw_ITX_CheongChun_Free_wagon_front, position_in_vehid_chain) {
-    0: sw_ITX_CheongChun_panto_wagon_M1;
-    set_ITX_CheongChun_wagon_M1;
-}
-
-// 1층
-switch (FEAT_TRAINS, SELF, sw_ITX_CheongChun_Free_6Car_wagon, position_in_consist_from_end) {
-    1: sw_ITX_CheongChun_panto_wagon_M2;
-    2: set_ITX_CheongChun_wagon_M2;
-    sw_ITX_CheongChun_Free_wagon_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_ITX_CheongChun_Free_9Car_wagon, position_in_consist_from_end) {
-    1: sw_ITX_CheongChun_panto_wagon_M2;
-    2: set_ITX_CheongChun_wagon_M2;
-    3: set_ITX_CheongChun_wagon_MC;
-    sw_ITX_CheongChun_Free_wagon_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_ITX_CheongChun_Free_wagon, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    1: sw_ITX_CheongChun_panto_wagon_M2;
-    2: set_ITX_CheongChun_wagon_M2;
-    3: set_ITX_CheongChun_wagon_T3;
-    4: set_ITX_CheongChun_wagon_MC;
-    sw_ITX_CheongChun_Free_wagon_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_ITX_CheongChun_wagon, num_vehs_in_consist) {
-    0..8: sw_ITX_CheongChun_Free_6Car_wagon;
-    9: sw_ITX_CheongChun_Free_9Car_wagon;
-    sw_ITX_CheongChun_Free_wagon;
+switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_wagon, cargo_subtype) {
+    0: set_ITX_CheongChun_wagon_MC;
+    1: set_ITX_CheongChun_wagon_T3;
 }
 
 // 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_ITX_CheongChun_DD_wagon, position_in_vehid_chain % 2) {
+    0: set_ITX_CheongChun_wagon_T1; //default
+    1: set_ITX_CheongChun_wagon_T2;
+    }
+
 switch (FEAT_TRAINS, SELF, sw_ITX_CheongChun_8car, position_in_vehid_chain % 8) {
     0: sw_ITX_CheongChun_engineH; //default
     1: sw_ITX_CheongChun_panto_wagon_M1;
@@ -125,6 +93,11 @@ switch (FEAT_TRAINS, SELF, sw_ITX_CheongChun_8car, position_in_vehid_chain % 8) 
     }
 
 // 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_ITX_CheongChun_DD_wagon, extra_callback_info1) {
+    1: ITX_CheongChun_DD_wagon;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
 switch (FEAT_TRAINS, SELF, sw_articulated_ITX_CheongChun_8car, extra_callback_info1) {
     1..7: ITX_CheongChun_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

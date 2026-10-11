@@ -57,16 +57,8 @@ spriteset(set_ITX_CheongChun_engineT_Rev, "src/locomotive/ITX/ITX_CheongChun/ITX
     DTS_temp(80, 324)
 }
 
-spriteset(set_ITX_CheongChun_engineT_Free_Rev, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun.png"){
-    DTS_temp_r(80, 324)
-}
-
 spriteset(set_ITX_CheongChun_engineT, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun.png"){
     DTS_temp(80, 351)
-}
-
-spriteset(set_ITX_CheongChun_engineT_Free, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun.png"){
-    DTS_temp_r(80, 351)
 }
 
 /*--------------------------------------------------------------------
@@ -84,16 +76,19 @@ spriteset(set_ITX_CheongChun_D_engineT_Rev, "src/locomotive/ITX/ITX_CheongChun/I
     DTS_temp(80, 54)
 }
 
-spriteset(set_ITX_CheongChun_D_engineT_Free_Rev, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun_D.png"){
-    DTS_temp_r(80, 54)
-}
-
 spriteset(set_ITX_CheongChun_D_engineT, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun_D.png"){
     DTS_temp(80, 81)
 }
 
-spriteset(set_ITX_CheongChun_D_engineT_Free, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun_D.png"){
-    DTS_temp_r(80, 81)
+/*--------------------------------------------------------------------
+ITX-청춘 DD
+--------------------------------------------------------------------*/
+spriteset(set_ITX_CheongChun_DD_engineH, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun_DD.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_ITX_CheongChun_DD_engineT, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun_DD.png"){
+    DTS_temp(80, 27)
 }
 
 /*--------------------------------------------------------------------
@@ -108,11 +103,15 @@ spriteset(set_ITX_CheongChun_purchase, "src/locomotive/ITX/ITX_CheongChun/ITX_Ch
 }
 
 spriteset(set_ITX_CheongChun_engine_purchase, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun.png"){
-    tmpl_purchase_for_dualhead(0, 0)
+    tmpl_purchase(0, 27)
 }
 
 spriteset(set_ITX_CheongChun_wagon_purchase, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun.png"){
     tmpl_purchase(0, 108)
+}
+
+spriteset(set_ITX_CheongChun_DD_engine_purchase, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun_DD.png"){
+    tmpl_purchase(0, 27)
 }
 
 spriteset(set_ITX_CheongChun_DD_wagon_purchase, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun.png"){

@@ -8,25 +8,6 @@ ITX-마음
 #include "ITX_Maum_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보 그룹
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, ITX_Maum, 2193){
-    property {
-        name:                           string(NAME_Group_ITX_Maum);
-        climates_available:             NO_CLIMATE;
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        power:                          1000 kW;
-        variant_group:                  ITX_Logo;
-        }
-
-    graphics {
-        purchase:                       set_ITX_Maum_purchase;
-        }
-        }
-
-/*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ITX_Maum_4Car, 2166){
@@ -136,18 +117,17 @@ item(FEAT_TRAINS, ITX_Maum_6Car, 2010){
         }
 
 /*--------------------------------------------------------------------
-기관차
+자유편성
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ITX_Maum_engine, 1067){
     property {
         name:                           string(NAME_ITX_Maum_engine);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2022, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         variant_group:                  ITX_Logo;
-        dual_headed:                    1;
         
         //spec
         speed:                          165km/h;
@@ -158,6 +138,7 @@ item(FEAT_TRAINS, ITX_Maum_engine, 1067){
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
@@ -182,15 +163,65 @@ item(FEAT_TRAINS, ITX_Maum_engine, 1067){
         
     graphics {
         default:                        sw_ITX_Maum_engine;
-        purchase:                       set_ITX_Maum_engine_purchase;
+        purchase:                       set_ITX_Maum_Free_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
+        cargo_subtype_text:             sw_ITX_Maum_cargo_subtype_text;
         }
-    
-    livery_override(ITX_Maum_wagon) {
-        default:                        sw_ITX_Maum_wagon;
+        }
+
+/*--------------------------------------------------------------------
+자유편성
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, ITX_Maum_DD_engine, 1070){
+    property {
+        name:                           string(NAME_ITX_Maum_DD_engine);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  ITX_Logo;
+        
+        //spec
+        speed:                          165km/h;
+        power:                          4000 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 104;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_ITX_Maum_DD_engine;
+        purchase:                       set_ITX_Maum_DD_engine_purchase;
+        speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
+        sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
         }
 
@@ -237,9 +268,10 @@ item(FEAT_TRAINS, ITX_Maum_wagon, 1068){
         }
         
     graphics {
-        default:                        set_ITX_Maum_wagon_M;
+        default:                        set_ITX_Maum_wagon_T;
         purchase:                       set_ITX_Maum_wagon_purchase;
         loading_speed:                  25;
+        power:                          335;
         }
         }
 
@@ -286,8 +318,10 @@ item(FEAT_TRAINS, ITX_Maum_DD_wagon, 1069){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_DD_wagon;
+        default:                        sw_ITX_Maum_wagon_DUP;
+        articulated_part:               sw_articulated_ITX_Maum_DD_wagon;
         purchase:                       set_ITX_Maum_DD_wagon_purchase;
         loading_speed:                  25;
+        power:                          335;
         }
         }
