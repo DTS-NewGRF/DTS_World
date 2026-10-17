@@ -22,7 +22,7 @@ item(FEAT_TRAINS, DTX_Koryo_11Car, 1099){
         
         //spec
         speed:                          430km/h;
-        power:                          25000 kW;
+        power:                          40000 kW;
         weight:                         60 ton;
         tractive_effort_coefficient:    0.86;
         
@@ -52,7 +52,6 @@ item(FEAT_TRAINS, DTX_Koryo_11Car, 1099){
         default:                        sw_DTX_Koryo_11car;
         articulated_part:               sw_articulated_DTX_Koryo_11car;
         purchase:                       set_DTX_Koryo_purchase;
-        speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

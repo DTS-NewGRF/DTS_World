@@ -10,10 +10,15 @@ GRF_URL                                    :https://github.com/DTS-NewGRF/DTS_Wo
 NAME_To_Be_Deleted                         : {RED} To Be Deleted
 
 # Parameters
-Param_Name_Max_Virtual_Speed               : Virtual speed
-Param_Desc_Max_Virtual_Speed               : Checks whether to apply virtual speed.{}- Default: Real speed
-Param_Name_High_Speed_Train                : High Virtual speed Train
-Param_Desc_High_Speed_Train                : Adjust the Virtual speed of the high-speed train{}- Default:331km/h
+Param_Name_Speed                           : Sets the train speed.
+Param_Desc_Speed                           : Selects the operating speed, design speed, or MU control speed.{}- Default: MU Control Speed
+Param_Operation_Speed                      : Operating Speed
+Param_Design_Speed                         : Design Speed
+Param_MU_Operation_Speed                   : MU Control Speed
+Param_Name_Regular_Speed_Train             : Conventional Train Speed Control
+Param_Desc_Regular_Speed_Train             : Adjusts the speed of all conventional trains collectively.{}- Default: 150 km/h
+Param_Name_High_Speed_Train                : High-Speed Train Speed Control
+Param_Desc_High_Speed_Train                : Adjusts the speed of all high-speed trains collectively.{}- Default: 331 km/h
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}train configuration {}{GREEN} A-Train Passenger Car
@@ -66,16 +71,27 @@ NAME_DCL_120_Pass_engine                   : [Passenger] DCL 120
 NAME_DCL_120_Pass_wagon                    : [Passenger] DCL 120
 NAME_DCL_120_Post_engine                   : [Post] DCL 120
 NAME_DCL_120_Post_wagon                    : [Post] DCL 120
-NAME_DCL_150_1st_engine                    : DCL 150 1st
-NAME_DCL_150_1st_wagon                     : DCL 150 1st
-NAME_DCL_150_2nd_engine                    : DCL 2nd
-NAME_DCL_150_2nd_wagon                     : DCL 150 2nd
-NAME_DCL_150_2nd_DD_wagon_2car             : [2Car] DCL 150 2nd DD
-NAME_DTX_L150_engine                       : L150
-NAME_DTX_L150_wagon                        : L150
-NAME_DTX_L150_DD_wagon                     : L150 DD
-NAME_DTX_R001_engine                       : R001
-NAME_DTX_R001_wagon                        : R001
+NAME_Group_DCL_150_1st                     : DCL 150 1st
+NAME_DCL_150_1st_4Car                      : [4Car] DCL 150 1st
+NAME_DCL_150_1st_6Car                      : [6Car] DCL 150 1st
+NAME_DCL_150_1st_8Car                      : [8Car] DCL 150 1st
+NAME_DCL_150_1st_10Car                     : [10Car] DCL 150 1st
+NAME_Group_DCL_150_2nd                     : DCL 150 2nd
+NAME_DCL_150_2nd_4Car                      : [4Car] DCL 150 2nd
+NAME_DCL_150_2nd_6Car                      : [6Car] DCL 150 2nd
+NAME_DCL_150_2nd_8Car                      : [8Car] DCL 150 2nd
+NAME_DCL_150_2nd_10Car                     : [10Car] DCL 150 2nd
+NAME_Group_DTX_L150                        : L150
+NAME_DTX_L150_4Car                         : [4Car] L150
+NAME_DTX_L150_6Car                         : [6Car] L150
+NAME_DTX_L150_8Car                         : [8Car] L150
+NAME_DTX_L150_10Car                        : [10Car] L150
+NAME_DTX_L150_12Car                        : [12Car] L150
+NAME_Group_DTX_R001                        : R001
+NAME_DTX_R001_4Car                         : [4Car] R001
+NAME_DTX_R001_6Car                         : [6Car] R001
+NAME_DTX_R001_8Car                         : [8Car] R001
+NAME_DTX_R001_10Car                        : [10Car] R001
 NAME_DTX_Glory_11Car                       : [11Car] DTX-Glory
 NAME_DTX_Koryo_11Car                       : [11Car] DTX-Koryo
 NAME_DTX_Sejong_engine                     : DTX-Sejong
@@ -319,14 +335,18 @@ NAME_ITX_CheongChun_engine                 : ITX-CheongChun
 NAME_ITX_CheongChun_wagon                  : ITX-CheongChun
 NAME_ITX_CheongChun_DD_engine              : ITX-CheongChun DD
 NAME_ITX_CheongChun_DD_wagon               : [2Car] ITX-CheongChun DD
+NAME_Group_KTX                             : KTX
+NAME_KTX_Cargo_260_engine                  : KTX-Cargo 260
+NAME_KTX_Cargo_260_wagon                   : KTX-Cargo 260
+NAME_KTX_Eum_6Car                          : [6Car] KTX-EUM
+NAME_KTX_Eum_engine                        : KTX-EUM
+NAME_KTX_Eum_wagon                         : KTX-EUM
 
-NAME_Group_KTX                          : KTX
 NAME_Group_KTX_Sancheon                 : KTX-Sancheon
 NAME_KTX_1_20Car                        : [20Car] TGV-K
 NAME_KTX_1_engine                       : TGV-K
 NAME_KTX_1_wagon                        : TGV-K
-NAME_KTX_Cargo_260_engine               : KTX-Cargo 260
-NAME_KTX_Cargo_260_wagon                : KTX-Cargo 260
+
 NAME_KTX_Cargo_300_engine               : KTX-Cargo 300
 NAME_KTX_Cargo_300_wagon                : KTX-Cargo 300
 NAME_KTX_Cargo_320_engine               : KTX-Cargo 320
@@ -339,9 +359,6 @@ NAME_KTX_Cheong_Ryong_DD_wagon          : KTX-Cheong Ryong DD
 NAME_KTX_Chowol_engine                  : KTX-Chowol
 NAME_KTX_Chowol_wagon                   : KTX-Chowol
 NAME_KTX_Chowol_DD_wagon                : KTX-Chowol DD
-NAME_KTX_Eum_6Car                       : [6Car] KTX-EUM
-NAME_KTX_Eum_engine                     : KTX-EUM
-NAME_KTX_Eum_wagon                      : KTX-EUM
 NAME_KTX_Eum_DD_engine                  : KTX-EUM DD
 NAME_KTX_Eum_DD_wagon                   : KTX-EUM DD
 NAME_KTX_Onnuri_engine                  : KTX-Onnuri
@@ -602,18 +619,6 @@ Livery_Test                             : Test Train
 Livery_Cargo                            : Cargo Train
 
 # Liveries
-Livery_DCL_150_1st_T                       : T Type
-Livery_DCL_150_1st_M                       : M Typye
-Livery_DCL_150_1st_Power                   : Power Type
-Livery_DCL_150_2nd_MT                      : (M)T Type
-Livery_DCL_150_2nd_M1                      : M1 Type
-Livery_DCL_150_2nd_M2                      : M2 Type
-Livery_DCL_150_2nd_CM                      : CM Type
-Livery_DCL_150_2nd_Power                   : Power Type
-Livery_L150_Wagon                          : Wagon Type
-Livery_L150_Power                          : Power Type
-Livery_R001_Wagon                          : Wagon Type
-Livery_R001_Power                          : Power Type
 Livery_DTX_Glory_1Year                     : 1Year Livery
 Livery_DTX_Glory_2Year                     : 2Year Livery
 Livery_DTX_Glory_APEC_2025                 : APEC 2025
@@ -823,6 +828,14 @@ Livery_ITX_CheongChun_A                    : ITX-CheongChun A
 Livery_ITX_CheongChun_B                    : ITX-CheongChun B
 Livery_ITX_CheongChun_T3                   : special Car
 Livery_ITX_CheongChun_MC                   : M Type
+Livery_KTX_Eum                             : Eum
+Livery_KTX_Eum_2nd                         : Eum 2nd
+Livery_KTX_Eum_MD                          : Prototype Livery
+Livery_KTX_Eum_W                           : White Livery
+Livery_KTX_Eum_BK                          : Black Livery
+Livery_KTX_Eum_SM1                         : Saemaeul First Livery
+Livery_KTX_Eum_SM2                         : Saemaeul Second Livery
+Livery_KTX_Eum_SM3                         : Saemaeul Third Livery
 Livery_KTX_1_1997                       : Special 4Car
 Livery_KTX_1_2007                       : Move Cinema
 Livery_KTX_1_2013                       : LTE-A
@@ -846,14 +859,7 @@ Livery_KTX_Cheong_Ryong_DD              : KTX-Cheong Ryong
 Livery_KTX_Cheong_Ryong_DD_BK           : Black Livery
 Livery_KTX_Cheong_Ryong_DD_CC           : Company Color
 Livery_KTX_Cheong_Ryong_DD_2nd          : KTX-Cheong Ryong 2nd
-Livery_KTX_Eum                          : KTX-Eum
-Livery_KTX_Eum_2nd                      : KTX-Eum 2nd
-Livery_KTX_Eum_MD                       : KTX-Eum Prototype Livery
-Livery_KTX_Eum_W                        : KTX-Eum White Livery
-Livery_KTX_Eum_BK                       : KTX-Eum Black Livery
-Livery_KTX_Eum_SM1                      : KTX-Eum Saemaeul First Livery
-Livery_KTX_Eum_SM2                      : KTX-Eum Saemaeul Second Livery
-Livery_KTX_Eum_SM3                      : KTX-Eum Saemaeul Third Livery
+
 Livery_KTX_Gyeonggang_Blue              : KTX-Gyeonggang Blue Livery
 Livery_KTX_Gyeonggang_White             : KTX-Gyeonggang White Livery
 Livery_KTX_Honam_Sky_blue               : KTX-Sancheon 120000 1

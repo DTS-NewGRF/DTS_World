@@ -8,12 +8,247 @@ DTX-Metro R001
 #include "DTX_R001_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_R001, 1158){
+    property {
+        name:                           string(NAME_Group_DTX_R001);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2400 kW;
+        variant_group:                  DTX_Logo;
+        }
+
+    graphics {
+        purchase:                       set_DTX_R001_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_R001_4Car, 1159){
+    property {
+        name:                           string(NAME_DTX_R001_4Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_R001;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          3360 kW;
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 116;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DTX_R001_4car;
+        articulated_part:               sw_articulated_DTX_R001_4car;
+        purchase:                       set_DTX_R001_purchase;
+        speed:                          sw_Regular_150_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_R001_6Car, 1160){
+    property {
+        name:                           string(NAME_DTX_R001_6Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_R001;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          3360 kW;
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 116;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DTX_R001_6car;
+        articulated_part:               sw_articulated_DTX_R001_6car;
+        purchase:                       set_DTX_R001_purchase;
+        speed:                          sw_Regular_150_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_R001_8Car, 1161){
+    property {
+        name:                           string(NAME_DTX_R001_8Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_R001;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          3360 kW;
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 121;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DTX_R001_8car;
+        articulated_part:               sw_articulated_DTX_R001_8car;
+        purchase:                       set_DTX_R001_purchase;
+        speed:                          sw_Regular_150_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_R001_10Car, 1162){
+    property {
+        name:                           string(NAME_DTX_R001_10Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_R001;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          3360 kW;
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 121;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DTX_R001_10car;
+        articulated_part:               sw_articulated_DTX_R001_10car;
+        purchase:                       set_DTX_R001_purchase;
+        speed:                          sw_Regular_150_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
 기관차
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTX_R001_engine, 1095){
     property {
-        name:                           string(NAME_DTX_R001_engine);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -50,12 +285,11 @@ item(FEAT_TRAINS, DTX_R001_engine, 1095){
         }
 
     graphics {
-        default:                        sw_DTX_R001_engine;
-        purchase:                       set_DTX_R001_engien_purchase;
+        default:                        set_Deleted_A;
+        purchase:                       set_DTX_R001_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -64,8 +298,8 @@ item(FEAT_TRAINS, DTX_R001_engine, 1095){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTX_R001_wagon, 1096){
     property {
-        name:                           string(NAME_DTX_R001_wagon);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -100,12 +334,11 @@ item(FEAT_TRAINS, DTX_R001_wagon, 1096){
         }
 
     graphics {
-        default:                        sw_R001_wagon;
-        purchase:                       set_DTX_R001_wagon_purchase;
+        default:                        set_Deleted_B;
+        purchase:                       set_DTX_R001_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_R001_cargo_subtype_text;
         power:                          671;
         }
         }

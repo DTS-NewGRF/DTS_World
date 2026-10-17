@@ -54,6 +54,7 @@ item(FEAT_TRAINS, Incheonmetro_2000_2Car, 2408){
         default:                        sw_Incheonmetro_2000_2car;
         articulated_part:               sw_articulated_Incheonmetro_2000_2car;
         purchase:                       sw_Incheonmetro_2000_purchase;
+        speed:                          sw_Metro_80_90_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

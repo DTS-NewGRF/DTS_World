@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Nuriro_4Car, 2324){
         default:                        sw_Nuriro_4Car;
         articulated_part:               sw_articulated_Nuriro_4Car;
         purchase:                       set_Nuriro_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, Nuriro_engine, 1023){
      graphics {
         default:                        sw_Nuriro_engine;
         purchase:                       set_Nuriro_Free_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -182,7 +182,7 @@ item(FEAT_TRAINS, Nuriro_DD_engine, 1025){
      graphics {
         default:                        sw_Nuriro_DD_engine;
         purchase:                       set_Nuriro_DD_engine_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

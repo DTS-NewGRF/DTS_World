@@ -265,7 +265,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_Free_panto_wagon_M4_Front, cargo_s
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_Free_engineT_Front, cargo_subtype) {
-     0: set_KTX_Eum_engineT_Free;
+     0: set_KTX_Eum_engineT;
      1: set_KTX_Cheong_Ryong_engineT_Free;
      2: set_KTX_Cheong_Ryong_2nd_engineT_Free;
      3: set_SRT_320_engineT_Free;
@@ -338,7 +338,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_Free_panto_wagon_M4_Back, cargo_su
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_Free_engineT_Back, cargo_subtype) {
-     0: set_KTX_Eum_engineT_Free_Rev;
+     0: set_KTX_Eum_engineT_Rev;
      1: set_KTX_Cheong_Ryong_engineT_Free_Rev;
      2: set_KTX_Cheong_Ryong_2nd_engineT_Free_Rev;
      3: set_SRT_320_engineT_Free_Rev;    

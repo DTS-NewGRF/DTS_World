@@ -54,6 +54,7 @@ item(FEAT_TRAINS, GTX_8Car, 2017){
         default:                        sw_GTX_8car;
         articulated_part:               sw_articulated_GTX_8car;
         purchase:                       set_GTX_purchase;
+        speed:                          sw_Regular_180_198_speed;
         loading_speed:                  25;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
@@ -106,6 +107,7 @@ item(FEAT_TRAINS, GTX_8Car_engine, 1059){
     graphics {
         default:                        sw_GTX_engine;
         purchase:                       set_GTX_engine_purchase;
+        speed:                          sw_Regular_180_198_speed;
         loading_speed:                  25;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }

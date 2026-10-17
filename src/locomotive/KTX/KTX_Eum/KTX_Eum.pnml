@@ -14,22 +14,22 @@ item(FEAT_TRAINS, KTX_Eum_engine, 1035){
     property {
         name:                           string(NAME_KTX_Eum_engine);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2020, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        introduction_date:              date(2032, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         variant_group:                  KTX_Logo;
-        dual_headed:                    1;
         
         //spec
         speed:                          260km/h;
-        power:                          9112 kW;
+        power:                          40000 kW;
         weight:                         35 ton;
         tractive_effort_coefficient:    0.579;
         air_drag_coefficient:           0.01;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
@@ -59,14 +59,6 @@ item(FEAT_TRAINS, KTX_Eum_engine, 1035){
         loading_speed:                  25;
         cargo_subtype_text:             sw_KTX_Eum_Free_cargo_subtype_text;
         sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
-        }
-    
-    livery_override(KTX_Eum_wagon) {
-        default:                        sw_KTX_Eum_Free_wagon;
-        cargo_subtype_text:             sw_KTX_Eum_Free_cargo_subtype_text;
-        loading_speed:                  25;
-        cargo_capacity:                 64;
-        weight:                         35;
         }
         }
 
@@ -117,6 +109,7 @@ item(FEAT_TRAINS, KTX_Eum_wagon, 1036){
         purchase:                       set_KTX_Eum_wagon_purchase;
         loading_speed:                  25;
         cargo_subtype_text:             sw_KTX_Eum_Free_cargo_subtype_text;
+        power:                          335;
         }
         }
 

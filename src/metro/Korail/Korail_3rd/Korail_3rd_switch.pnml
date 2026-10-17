@@ -359,3 +359,11 @@ switch(FEAT_TRAINS, SELF, sw_Korail_3rd_8Car_sound, cargo_subtype) {
     5: sw_WOOJIN_IGBT_2start_sound;
     2..4: sw_TOSHIBAIGBTKStart_sound;
 }
+
+// 속도
+switch(FEAT_TRAINS, SELF, sw_Korail_3rd_10car_speed, cargo_subtype) {
+    0: sw_Metro_110_speed;
+    1: sw_Metro_110_120_speed;
+    2: sw_Metro_110_speed;
+    3: sw_Metro_110_speed;
+}

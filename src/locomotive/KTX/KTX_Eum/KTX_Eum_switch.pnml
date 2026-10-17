@@ -82,17 +82,6 @@ switch(FEAT_TRAINS, SELF, set_KTX_Eum_Free_engineH_Front, cargo_subtype) {
     7: set_KTX_Eum_SM3_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_panto_wagon_M1_Front, cargo_subtype) {
-    0: set_KTX_Eum_panto_wagon_M1;
-    1: set_KTX_Eum_2nd_panto_wagon_M1;
-    2: set_KTX_Eum_MD_wagon_M1;
-    3: set_KTX_Eum_W_wagon_M1;
-    4: set_KTX_Eum_BK_wagon_M1;
-    5: set_KTX_Eum_SM1_wagon_M1;
-    6: set_KTX_Eum_SM2_wagon_M1;
-    7: set_KTX_Eum_SM3_wagon_M1;
-}
-
 switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_wagon_M2, cargo_subtype) {
     0: set_KTX_Eum_wagon_M2;
     1: set_KTX_Eum_2nd_wagon_M2;
@@ -104,20 +93,9 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_wagon_M2, cargo_subtype) {
     7: set_KTX_Eum_SM3_wagon_M2;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_panto_wagon_M3_Front, cargo_subtype) {
-    0: set_KTX_Eum_panto_wagon_M4;
-    1: set_KTX_Eum_2nd_panto_wagon_M4;
-    2: set_KTX_Eum_MD_wagon_M3;
-    3: set_KTX_Eum_W_wagon_M3;
-    4: set_KTX_Eum_BK_wagon_M3;
-    5: set_KTX_Eum_SM1_wagon_M3;
-    6: set_KTX_Eum_SM2_wagon_M3;
-    7: set_KTX_Eum_SM3_wagon_M3;
-}
-
 switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engineT_Front, cargo_subtype) {
-    0: set_KTX_Eum_engineT_Free;
-    1: set_KTX_Eum_2nd_engineT_Free;
+    0: set_KTX_Eum_engineT;
+    1: set_KTX_Eum_2nd_engineT;
     2: set_KTX_Eum_MD_engineT;
     3: set_KTX_Eum_W_engineT;
     4: set_KTX_Eum_BK_engineT;
@@ -138,31 +116,9 @@ switch(FEAT_TRAINS, SELF, set_KTX_Eum_Free_engineH_Back, cargo_subtype) {
     7: set_KTX_Eum_SM3_engineH_Rev;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_panto_wagon_M1_Back, cargo_subtype) {
-    0: set_KTX_Eum_panto_wagon_M1_Rev;
-    1: set_KTX_Eum_2nd_panto_wagon_M1_Rev;
-    2: set_KTX_Eum_MD_wagon_M1_Rev;
-    3: set_KTX_Eum_W_wagon_M1_Rev;
-    4: set_KTX_Eum_BK_wagon_M1_Rev;
-    5: set_KTX_Eum_SM1_wagon_M1_Rev;
-    6: set_KTX_Eum_SM2_wagon_M1_Rev;
-    7: set_KTX_Eum_SM3_wagon_M1_Rev;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_panto_wagon_M3_Back, cargo_subtype) {
-    0: set_KTX_Eum_panto_wagon_M4_Rev;
-    1: set_KTX_Eum_2nd_panto_wagon_M4_Rev;
-    2: set_KTX_Eum_MD_wagon_M3_Rev;
-    3: set_KTX_Eum_W_wagon_M3_Rev;
-    4: set_KTX_Eum_BK_wagon_M3_Rev;
-    5: set_KTX_Eum_SM1_wagon_M3_Rev;
-    6: set_KTX_Eum_SM2_wagon_M3_Rev;
-    7: set_KTX_Eum_SM3_wagon_M3_Rev;
-}
-
 switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engineT_Back, cargo_subtype) {
-    0: set_KTX_Eum_engineT_Free_Rev;
-    1: set_KTX_Eum_2nd_engineT_Free_Rev;
+    0: set_KTX_Eum_engineT_Rev;
+    1: set_KTX_Eum_2nd_engineT_Rev;
     2: set_KTX_Eum_MD_engineT_Rev;
     3: set_KTX_Eum_W_engineT_Rev;
     4: set_KTX_Eum_BK_engineT_Rev;
@@ -199,16 +155,6 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engineH, train_is_driving_backwards) {
     1: set_KTX_Eum_Free_engineH_Back;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_panto_wagon_M1, train_is_driving_backwards) {
-    0: sw_KTX_Eum_Free_panto_wagon_M1_Front;
-    1: sw_KTX_Eum_Free_panto_wagon_M1_Back;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_panto_wagon_M3, train_is_driving_backwards) {
-    0: sw_KTX_Eum_Free_panto_wagon_M3_Front;
-    1: sw_KTX_Eum_Free_panto_wagon_M3_Back;
-}
-
 switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engineT, train_is_driving_backwards) {
     0: sw_KTX_Eum_Free_engineT_Front;
     1: sw_KTX_Eum_Free_engineT_Back;
@@ -218,23 +164,6 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engineT, train_is_driving_backwards) {
 switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
     1: sw_KTX_Eum_Free_engineT;
     sw_KTX_Eum_Free_engineH;
-}
-
-// 객차
-// 자유객차
-switch (FEAT_TRAINS, SELF, sw_KTX_Eum_Free_wagon_front, position_in_vehid_chain) {
-    0: sw_KTX_Eum_Free_panto_wagon_M1;
-    sw_KTX_Eum_Free_wagon_M2;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Eum_Free_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0: sw_KTX_Eum_Free_panto_wagon_M3;
-    sw_KTX_Eum_Free_wagon_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Eum_Free_wagon, num_vehs_in_vehid_chain) {
-     1..255: sw_KTX_Eum_Free_wagon_full;
-    sw_KTX_Eum_Free_wagon_M2;
 }
 
 // 고정편성 그래픽

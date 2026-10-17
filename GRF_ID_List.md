@@ -87,27 +87,27 @@
 |1083|DCL_120_Post_engine|
 |1084|DCL_120_Pass_wagon|
 |1085|DCL_120_Post_wagon|
-|1086|[공백] |
-|1087|DCL_150_1st_engine|
-|1088|DCL_150_1st_wagon|
-|1089|DCL_150_2nd_engine|
-|1090|DCL_150_2nd_wagon|
-|1091|DCL_150_2nd_DD_wagon_2car|
-|1092|DTX_L150_engine|
-|1093|DTX_L150_wagon|
-|1094|DTX_L150_DD_wagon|
-|1095|DTX_R001_engine|
-|1096|DTX_R001_wagon|
+|1086|[그룹명] DCL_150_1st|
+|1087|1.74 삭제예정|
+|1088|1.74 삭제예정|
+|1089|1.74 삭제예정|
+|1090|1.74 삭제예정|
+|1091|1.74 삭제예정|
+|1092|1.74 삭제예정|
+|1093|1.74 삭제예정|
+|1094|1.74 삭제예정|
+|1095|1.74 삭제예정|
+|1096|1.74 삭제예정|
 |1097|DTX_Glory_engine|
-|1098|[공백] |
+|1098|DCL_150_1st_4Car|
 |1099|DTX_Koryo_11Car|
-|1100|[공백] |
+|1100|DCL_150_1st_6Car|
 |1101|DTX_Sejong_engine|
 |1102|DTX_Sejong_wagon|
 |1103|DTX_Sobaek_engine|
 |1104|DTX_Sobaek_wagon|
 |1105|DTX_Sundeok_11Car|
-|1106|[공백] |
+|1106|DCL_150_1st_8Car|
 |1107|DTX_Taebaek_engine|
 |1108|DTX_Taebaek_wagon|
 |1109|Glory_430_engine|
@@ -121,9 +121,9 @@
 |1117|HYEL_120_Unit|
 |1118|HYEL_150|
 |1119|HYEL_350_11Car|
-|1120|[공백] |
+|1120|DCL_150_1st_10Car|
 |1121|HYEL_400_7Car|
-|1122|[공백] |
+|1122|[그룹명] DCL_150_2nd|
 |1123|Constrck|
 |1124|HYEL_Gangsan_wagon|
 |1125|HYEL_Mugunhwa_engine|
@@ -140,14 +140,26 @@
 |1136|RDC_wagon|
 |1137|Korail_392000_engine|
 |1138|Korail_392000_wagon|
-|~1143|[공백] |
+|1139|DCL_150_2nd_4Car|
+|1140|DCL_150_2nd_6Car|
+|1141|DCL_150_2nd_8Car|
+|1142|DCL_150_2nd_10Car|
+|1143|[그룹명] DTX_L150|
 |1144|AREX_Logo|
-|1145|[공백] |
+|1145|DTX_L150_4Car|
 |1146|AREX_1000_1st_Pass_engine|
-|1147|[공백] |
+|1147|DTX_L150_6Car|
 |1148|AREX_wagon|
 |1149|AREX_panto_wagon|
 |1154|AREX_1000_1st_Post_engine|
+|1155|DTX_L150_8Car|
+|1156|DTX_L150_10Car|
+|1157|DTX_L150_12Car|
+|1158|[그룹명] DTX_R001|
+|1159|DTX_R001_4Car|
+|1160|DTX_R001_6Car|
+|1161|DTX_R001_8Car|
+|1162|DTX_R001_10Car|
 
 |2001|CY_GW_6Car|
 |2002|G_Train|

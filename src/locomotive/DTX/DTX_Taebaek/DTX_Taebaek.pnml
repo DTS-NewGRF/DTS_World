@@ -52,7 +52,6 @@ item(FEAT_TRAINS, DTX_Taebaek_engine, 1107){
     graphics {
         default:                        sw_DTX_Taebaek_engine;
         purchase:                       set_DTX_Taebaek_engine_purchase;
-        speed:                          sw_High_260_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

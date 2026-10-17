@@ -53,7 +53,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_6Car, 2327){
         default:                        sw_ITX_Saemaeul_6car;
         articulated_part:               sw_articulated_ITX_Saemaeul_6car;
         purchase:                       set_ITX_Saemaeul_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -107,7 +107,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_engine, 1071){
 	graphics {
         default:                        sw_ITX_Saemaeul_engine;
         purchase:                       set_ITX_Saemaeul_Free_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -161,7 +161,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_DD_engine, 1074){
 	graphics {
         default:                        sw_ITX_Saemaeul_DD_engine;
         purchase:                       set_ITX_Saemaeul_DD_engine_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

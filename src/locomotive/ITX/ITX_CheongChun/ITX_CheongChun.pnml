@@ -55,6 +55,7 @@ item(FEAT_TRAINS, ITX_CheongChun_8Car, 2354){
         default:                        sw_ITX_CheongChun_8car;
         articulated_part:               sw_articulated_ITX_CheongChun_8car;
         purchase:                       set_ITX_CheongChun_purchase;
+        speed:                          sw_Regular_180_198_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_ITX_CheongChun_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBAStart_sound;
@@ -108,6 +109,7 @@ item(FEAT_TRAINS, ITX_CheongChun_engine, 1063){
     graphics {
         default:                        sw_ITX_CheongChun_engine;
         purchase:                       set_ITX_CheongChun_engine_purchase;
+        speed:                          sw_Regular_180_198_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_ITX_CheongChun_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBAStart_sound;
@@ -159,6 +161,7 @@ item(FEAT_TRAINS, ITX_CheongChun_DD_engine, 1066){
 	graphics {
         default:                        sw_ITX_CheongChun_DD_engine;
         purchase:                       set_ITX_CheongChun_DD_engine_purchase;
+        speed:                          sw_Regular_180_198_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

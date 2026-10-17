@@ -10,10 +10,15 @@ GRF_URL                                    :https://github.com/DTS-NewGRF/DTS_Wo
 NAME_To_Be_Deleted                         : {RED}삭제예정
 
 # Parameters
-Param_Name_Max_Virtual_Speed               : 가상속도 적용
-Param_Desc_Max_Virtual_Speed               : 가상속도를 적용할지 체크합니다.{}- 기본:현실속도
-Param_Name_High_Speed_Train                : 가상 고속열차 속도변수
-Param_Desc_High_Speed_Train                : 가상 고속열차의 속도를 조정합니다.{}- 기본:331km/h
+Param_Name_Speed                           : 열차의 속도를 정합니다.
+Param_Desc_Speed                           : 영업속도, 설계속도, 일괄속도를 체크합니다.{}- 기본:일괄속도
+Param_Operation_Speed                      : 영업속도
+Param_Design_Speed                         : 설계속도
+Param_MU_Operation_Speed                   : 일괄제어속도
+Param_Name_Regular_Speed_Train             : 일반열차 일괄제어 속도변수
+Param_Desc_Regular_Speed_Train             : 일반열차의 속도를 일괄적으로 조정합니다.{}- 기본:150km/h
+Param_Name_High_Speed_Train                : 고속열차 일괄제어 속도변수
+Param_Desc_High_Speed_Train                : 고속열차의 속도를 일괄적으로 조정합니다.{}- 기본:331km/h
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] A-Train
@@ -66,16 +71,27 @@ NAME_DCL_120_Pass_engine                   : [승객] DCL 120
 NAME_DCL_120_Pass_wagon                    : [승객] DCL 120
 NAME_DCL_120_Post_engine                   : [우편] DCL 120
 NAME_DCL_120_Post_wagon                    : [우편] DCL 120
-NAME_DCL_150_1st_engine                    : DCL 150 1세대
-NAME_DCL_150_1st_wagon                     : DCL 150 1세대
-NAME_DCL_150_2nd_engine                    : DCL 2세대
-NAME_DCL_150_2nd_wagon                     : DCL 150 2세대
-NAME_DCL_150_2nd_DD_wagon_2car             : [2량] DCL 150 DD 2세대
-NAME_DTX_L150_engine                       : L150
-NAME_DTX_L150_wagon                        : L150
-NAME_DTX_L150_DD_wagon                     : L150 DD
-NAME_DTX_R001_engine                       : R001
-NAME_DTX_R001_wagon                        : R001
+NAME_Group_DCL_150_1st                     : DCL 150 1세대
+NAME_DCL_150_1st_4Car                      : [4량] DCL 150 1세대
+NAME_DCL_150_1st_6Car                      : [6량] DCL 150 1세대
+NAME_DCL_150_1st_8Car                      : [8량] DCL 150 1세대
+NAME_DCL_150_1st_10Car                     : [10량] DCL 150 1세대
+NAME_Group_DCL_150_2nd                     : DCL 150 2세대
+NAME_DCL_150_2nd_4Car                      : [4량] DCL 150 2세대
+NAME_DCL_150_2nd_6Car                      : [6량] DCL 150 2세대
+NAME_DCL_150_2nd_8Car                      : [8량] DCL 150 2세대
+NAME_DCL_150_2nd_10Car                     : [10량] DCL 150 2세대
+NAME_Group_DTX_L150                        : L150
+NAME_DTX_L150_4Car                         : [4량] L150
+NAME_DTX_L150_6Car                         : [6량] L150
+NAME_DTX_L150_8Car                         : [8량] L150
+NAME_DTX_L150_10Car                        : [10량] L150
+NAME_DTX_L150_12Car                        : [12량] L150
+NAME_Group_DTX_R001                        : R001
+NAME_DTX_R001_4Car                         : [4량] R001
+NAME_DTX_R001_6Car                         : [6량] R001
+NAME_DTX_R001_8Car                         : [8량] R001
+NAME_DTX_R001_10Car                        : [10량] R001
 NAME_DTX_Glory_11Car                       : [11량] DTX-영광
 NAME_DTX_Koryo_11Car                       : [11량] DTX-고려
 NAME_DTX_Sejong_engine                     : DTX-세종
@@ -319,14 +335,18 @@ NAME_ITX_CheongChun_engine                 : ITX-청춘
 NAME_ITX_CheongChun_wagon                  : ITX-청춘
 NAME_ITX_CheongChun_DD_engine              : ITX-청춘 DD
 NAME_ITX_CheongChun_DD_wagon               : [2량] ITX-청춘 DD
+NAME_Group_KTX                             : KTX
+NAME_KTX_Cargo_260_engine                  : KTX-카고 260
+NAME_KTX_Cargo_260_wagon                   : KTX-카고 260
+NAME_KTX_Eum_6Car                          : [6량] KTX-이음
+NAME_KTX_Eum_engine                        : KTX-이음
+NAME_KTX_Eum_wagon                         : KTX-이음
 
-NAME_Group_KTX                          : KTX
 NAME_Group_KTX_Sancheon                 : KTX-산천
 NAME_KTX_1_20Car                        : [20량] KTX-1
 NAME_KTX_1_engine                       : KTX-1
 NAME_KTX_1_wagon                        : KTX-1
-NAME_KTX_Cargo_260_engine               : KTX-카고 260
-NAME_KTX_Cargo_260_wagon                : KTX-카고 260
+
 NAME_KTX_Cargo_300_engine               : KTX-카고 300
 NAME_KTX_Cargo_300_wagon                : KTX-카고 300
 NAME_KTX_Cargo_320_engine               : KTX-카고 320
@@ -339,9 +359,7 @@ NAME_KTX_Cheong_Ryong_DD_wagon          : KTX-청룡 DD
 NAME_KTX_Chowol_engine                  : KTX-초월
 NAME_KTX_Chowol_wagon                   : KTX-초월
 NAME_KTX_Chowol_DD_wagon                : KTX-초월 DD
-NAME_KTX_Eum_6Car                       : [6량] KTX-이음
-NAME_KTX_Eum_engine                     : KTX-이음
-NAME_KTX_Eum_wagon                      : KTX-이음
+
 NAME_KTX_Eum_DD_engine                  : KTX-이음 DD
 NAME_KTX_Eum_DD_wagon                   : KTX-이음 DD
 NAME_KTX_Onnuri_engine                  : KTX-온누리
@@ -602,18 +620,6 @@ Livery_Test                             : 검측차
 Livery_Cargo                            : 수송차
 
 # Liveries
-Livery_DCL_150_1st_T                       : 객차 T
-Livery_DCL_150_1st_M                       : 객차 M
-Livery_DCL_150_1st_Power                   : 동력객차
-Livery_DCL_150_2nd_MT                      : 객차 (M)T
-Livery_DCL_150_2nd_M1                      : 객차 M1
-Livery_DCL_150_2nd_M2                      : 객차 M2
-Livery_DCL_150_2nd_CM                      : 객차 CM
-Livery_DCL_150_2nd_Power                   : 동력객차
-Livery_L150_Wagon                          : 객차
-Livery_L150_Power                          : 동력객차
-Livery_R001_Wagon                          : 객차
-Livery_R001_Power                          : 동력객차
 Livery_DTX_Glory_1Year                     : 1주년 도색
 Livery_DTX_Glory_2Year                     : 2주년 도색
 Livery_DTX_Glory_APEC_2025                 : APEC 2025
@@ -823,6 +829,14 @@ Livery_ITX_CheongChun_A                    : ITX-청춘
 Livery_ITX_CheongChun_B                    : ITX-청춘 용 랩핑
 Livery_ITX_CheongChun_T3                   : 특실 객차
 Livery_ITX_CheongChun_MC                   : 객차 M
+Livery_KTX_Eum                             : 이음
+Livery_KTX_Eum_2nd                         : 이음 2세대
+Livery_KTX_Eum_MD                          : 시안
+Livery_KTX_Eum_W                           : 시안 2안
+Livery_KTX_Eum_BK                          : 시안 3안
+Livery_KTX_Eum_SM1                         : 새마을 초기 도색
+Livery_KTX_Eum_SM2                         : 새마을 중기 도색
+Livery_KTX_Eum_SM3                         : 새마을 후기 도색
 Livery_KTX_1_1997                       : 특실 4량
 Livery_KTX_1_2007                       : 영화시네마
 Livery_KTX_1_2013                       : LTE-A
@@ -846,14 +860,7 @@ Livery_KTX_Cheong_Ryong_DD              : 청룡
 Livery_KTX_Cheong_Ryong_DD_2nd          : 청룡 2세대
 Livery_KTX_Cheong_Ryong_DD_BK           : 검정 도색
 Livery_KTX_Cheong_Ryong_DD_CC           : 회사 색상
-Livery_KTX_Eum                          : KTX-이음
-Livery_KTX_Eum_2nd                      : KTX-이음 2세대
-Livery_KTX_Eum_MD                       : KTX-이음 시안
-Livery_KTX_Eum_W                        : KTX-이음 시안 2안
-Livery_KTX_Eum_BK                       : KTX-이음 시안 3안
-Livery_KTX_Eum_SM1                      : KTX-이음 새마을 초기 도색
-Livery_KTX_Eum_SM2                      : KTX-이음 새마을 중기 도색
-Livery_KTX_Eum_SM3                      : KTX-이음 새마을 후기 도색
+
 Livery_KTX_Gyeonggang_Blue              : KTX-산천 경강선 시안 1안
 Livery_KTX_Gyeonggang_White             : KTX-산천 경강선 컨셉
 Livery_KTX_Honam_Sky_blue               : KTX-산천 120000호대 시안 1안

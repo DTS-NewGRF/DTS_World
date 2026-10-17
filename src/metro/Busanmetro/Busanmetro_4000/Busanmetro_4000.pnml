@@ -55,6 +55,7 @@ item(FEAT_TRAINS, Busanmetro_4000_6Car, 2412){
         default:                        sw_Busanmetro_4000_6car;
         articulated_part:               sw_articulated_Busanmetro_4000_6car;
         purchase:                       set_Busanmetro_4000_purchase;
+        speed:                          sw_Metro_60_70_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -55,7 +55,7 @@ item(FEAT_TRAINS, ITX_Maum_4Car, 2166){
         default:                        sw_ITX_Maum_4car;
         articulated_part:               sw_articulated_ITX_Maum_4car;
         purchase:                       set_ITX_Maum_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         cargo_subtype_text:             sw_ITX_Maum_cargo_subtype_text;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
@@ -110,7 +110,7 @@ item(FEAT_TRAINS, ITX_Maum_6Car, 2010){
         default:                        sw_ITX_Maum_6car;
         articulated_part:               sw_articulated_ITX_Maum_6car;
         purchase:                       set_ITX_Maum_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
@@ -164,7 +164,7 @@ item(FEAT_TRAINS, ITX_Maum_engine, 1067){
     graphics {
         default:                        sw_ITX_Maum_engine;
         purchase:                       set_ITX_Maum_Free_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         cargo_subtype_text:             sw_ITX_Maum_cargo_subtype_text;
@@ -219,7 +219,7 @@ item(FEAT_TRAINS, ITX_Maum_DD_engine, 1070){
     graphics {
         default:                        sw_ITX_Maum_DD_engine;
         purchase:                       set_ITX_Maum_DD_engine_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }

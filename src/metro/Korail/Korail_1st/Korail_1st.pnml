@@ -183,7 +183,7 @@ item(FEAT_TRAINS, Korail_1st_10car, 2232){
         default:                        sw_Korail_1st_10car;
         articulated_part:               sw_articulated_Korail_1st_10car;
         purchase:                       sw_Korail_1st_purchase;
-        speed:                          sw_Metro_110_speed;
+        speed:                          sw_Korail_1st_10Car_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

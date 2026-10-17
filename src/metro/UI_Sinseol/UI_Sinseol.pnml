@@ -54,6 +54,7 @@ item(FEAT_TRAINS, Ui_Sinseol_2Car, 2409){
         default:                        sw_UI_Sinseol_2car;
         articulated_part:               sw_articulated_UI_Sinseol_2car;
         purchase:                       set_UI_Sinseol_purchase;
+        speed:                          sw_Metro_70_80_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

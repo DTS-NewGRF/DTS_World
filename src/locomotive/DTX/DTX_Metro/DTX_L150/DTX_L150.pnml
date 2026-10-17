@@ -8,17 +8,306 @@ DTX-Metro L150
 #include "DTX_L150_switch.pnml"
 
 /*--------------------------------------------------------------------
-기관차
+열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_L150_engine, 1092){
+item(FEAT_TRAINS, DTX_L150, 1143){
     property {
-        name:                           string(NAME_DTX_L150_engine);
+        name:                           string(NAME_Group_DTX_L150);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2400 kW;
+        variant_group:                  DTX_Logo;
+        }
+
+    graphics {
+        purchase:                       set_DTX_L150_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_L150_4Car, 1145){
+    property {
+        name:                           string(NAME_DTX_L150_4Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo;
+        variant_group:                  DTX_L150;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          880 kW;
+        weight:                         35 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 105;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DTX_L150_4car;
+        articulated_part:               sw_articulated_DTX_L150_4car;
+        purchase:                       set_DTX_L150_purchase;
+        speed:                          sw_Metro_150_165_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_L150_6Car, 1147){
+    property {
+        name:                           string(NAME_DTX_L150_6Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_L150;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          880 kW;
+        weight:                         35 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 107;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DTX_L150_6car;
+        articulated_part:               sw_articulated_DTX_L150_6car;
+        purchase:                       set_DTX_L150_purchase;
+        speed:                          sw_Metro_150_165_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_L150_8Car, 1155){
+    property {
+        name:                           string(NAME_DTX_L150_8Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_L150;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          880 kW;
+        weight:                         35 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 143;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DTX_L150_8car;
+        articulated_part:               sw_articulated_DTX_L150_8car;
+        purchase:                       set_DTX_L150_purchase;
+        speed:                          sw_Metro_150_165_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_L150_10Car, 1156){
+    property {
+        name:                           string(NAME_DTX_L150_10Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_L150;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          1320 kW;
+        weight:                         35 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 106;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DTX_L150_10car;
+        articulated_part:               sw_articulated_DTX_L150_10car;
+        purchase:                       set_DTX_L150_purchase;
+        speed:                          sw_Metro_150_165_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_L150_12Car, 1157){
+    property {
+        name:                           string(NAME_DTX_L150_12Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_L150;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          1320 kW;
+        weight:                         35 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 105;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DTX_L150_12car;
+        articulated_part:               sw_articulated_DTX_L150_12car;
+        purchase:                       set_DTX_L150_purchase;
+        speed:                          sw_Metro_150_165_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+기관차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DTX_L150_engine, 1092){
+    property {
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_L150;
         
         //spec
         speed:                          150km/h;
@@ -50,12 +339,11 @@ item(FEAT_TRAINS, DTX_L150_engine, 1092){
         }
 
     graphics {
-        default:                        sw_DTX_L150_engine;
-        purchase:                       set_DTX_L150_engine_purchase;
+        default:                        set_Deleted_A;
+        purchase:                       set_DTX_L150_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM2start_sound;
         }
         }
     
@@ -64,8 +352,8 @@ item(FEAT_TRAINS, DTX_L150_engine, 1092){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTX_L150_wagon, 1093){
     property {
-        name:                           string(NAME_DTX_L150_wagon);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -100,13 +388,12 @@ item(FEAT_TRAINS, DTX_L150_wagon, 1093){
         }
 
     graphics {
-        default:                        sw_L150_wagon;
-        purchase:                       set_DTX_L150_wagon_purchase;
+        default:                        set_Deleted_B;
+        purchase:                       set_DTX_L150_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         power:                          671;
-        cargo_subtype_text:             sw_L150_cargo_subtype_text;
         }
         }
 
@@ -115,8 +402,8 @@ item(FEAT_TRAINS, DTX_L150_wagon, 1093){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DTX_L150_DD_wagon, 1094){
     property {
-        name:                           string(NAME_DTX_L150_DD_wagon);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -151,8 +438,8 @@ item(FEAT_TRAINS, DTX_L150_DD_wagon, 1094){
         }
 
     graphics {
-        default:                        set_DTX_L150_DD_wagon;
-        purchase:                       set_DTX_L150_DD_wagon_purchase;
+        default:                        set_Deleted_B;
+        purchase:                       set_DTX_L150_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -2,16 +2,34 @@
 매개변수
 --------------------------------------------------------------------*/
 param {
-        Use_max_virtual_speed {
-            type: bool;
-            name: string(Param_Name_Max_Virtual_Speed);
-            desc: string(Param_Desc_Max_Virtual_Speed);
-            def_value: 1;
+       Speed_Train {
+            type: int;
+            name: string(Param_Name_Speed);
+            desc: string(Param_Desc_Speed);
+            min_value: 0;
+            max_value: 2;
+            def_value: 2;
+            names: {
+                0: string(Param_Operation_Speed);
+                1: string(Param_Design_Speed);
+                2: string(Param_MU_Operation_Speed);
+            };
             }
     }
 
 param {
-        High_SPEED_Train {
+        Regular_Speed_Train {
+            type: int;
+            name: string(Param_Name_Regular_Speed_Train);
+            desc: string(Param_Desc_Regular_Speed_Train);
+            min_value: 150;
+            max_value: 181;
+            def_value: 150;
+            }
+    }
+
+param {
+        High_Speed_Train {
             type: int;
             name: string(Param_Name_High_Speed_Train);
             desc: string(Param_Desc_High_Speed_Train);

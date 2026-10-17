@@ -17,11 +17,11 @@ spriteset(set_DTX_Sejong_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomot
 }
 
 spriteset(set_DTX_Sejong_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Sejong/DTX_Sejong.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_DTX_Sejong_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTX_Sejong/DTX_Sejong.png"){
-    DTS_temp_r(80, 108)
+    DTS_temp(80, 108)
 }
 
 /*--------------------------------------------------------------------

@@ -54,6 +54,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_engine, 1080){
     graphics {
         default:                        sw_HYEL_Gangsan_engine;
         purchase:                       set_HYEL_Gangsan_engine_purchase;
+        speed:                          sw_Regular_150_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         loading_speed:                  25;

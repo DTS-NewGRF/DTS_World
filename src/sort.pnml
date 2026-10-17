@@ -8,10 +8,27 @@ sort(FEAT_TRAINS, [
     DPX_14Car,                      //1079
     DCL_120_Pass_engine,            //1082
     DCL_120_Post_engine,            //1083
-    DCL_150_1st_engine,             //1087
-    DCL_150_2nd_engine,             //1089
-    DTX_L150_engine,                //1092
-    DTX_R001_engine,                //1095
+    DCL_150_1st,                    //1086
+    DCL_150_1st_4Car,               //1098
+    DCL_150_1st_6Car,               //1100
+    DCL_150_1st_8Car,               //1106
+    DCL_150_1st_10Car,              //1120
+    DCL_150_2nd,                    //1122
+    DCL_150_2nd_4Car,               //1139
+    DCL_150_2nd_6Car,               //1140
+    DCL_150_2nd_8Car,               //1141
+    DCL_150_2nd_10Car,              //1142
+    DTX_L150,                       //1143
+    DTX_L150_4Car,                  //1145
+    DTX_L150_6Car,                  //1147
+    DTX_L150_8Car,                  //1155
+    DTX_L150_10Car,                 //1156
+    DTX_L150_12Car,                 //1157
+    DTX_R001,                       //1158
+    DTX_R001_4Car,                  //1159
+    DTX_R001_6Car,                  //1160
+    DTX_R001_8Car,                  //1161
+    DTX_R001_10Car,                 //1162
     DTX_Glory_11Car,                //1097
     DTX_Koryo_11Car,                //1099
     DTX_Sejong_engine,              //1101
@@ -470,12 +487,6 @@ sort(FEAT_TRAINS, [
     DFX_wagon,                      //1078
     DCL_120_Pass_wagon,             //1084
     DCL_120_Post_wagon,             //1085
-    DCL_150_1st_wagon,              //1088
-    DCL_150_2nd_wagon,              //1090
-    DCL_150_2nd_DD_wagon_2car,      //1091
-    DTX_L150_wagon,                 //1093
-    DTX_L150_DD_wagon,              //1094
-    DTX_R001_wagon,                 //1096
     DTX_Sejong_wagon,               //1102
     DTX_Sobaek_wagon,               //1104
     DTX_Taebaek_wagon,              //1108
@@ -493,6 +504,9 @@ sort(FEAT_TRAINS, [
     ITX_CheongChan_wagon,           //1062
     ITX_CheongChun_wagon,           //1064
     ITX_CheongChun_DD_wagon,        //1065
+    KTX_Cargo_260_wagon,            //1047
+    KTX_Eum_wagon,                  //1036
+    KTX_Eum_DD_wagon,               //1038
 
     CDC_wagon,                      //1134
     CTX_wagon,                      //1075
@@ -507,9 +521,7 @@ sort(FEAT_TRAINS, [
     Glory_600_wagon,                //1112
     GTX_8Car_wagon,                 //1060
     KTX_1_wagon,                    //1053
-    KTX_Eum_wagon,                  //1036
-    KTX_Eum_DD_wagon,               //1038
-    KTX_Cargo_260_wagon,            //1047
+    
     KTX_Cargo_300_wagon,            //1049
     KTX_Cargo_320_wagon,            //1051
     KTX_Cheong_Ryong_wagon,         //1043

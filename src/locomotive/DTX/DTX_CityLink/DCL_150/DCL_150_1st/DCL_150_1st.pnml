@@ -8,17 +8,252 @@ DTX_CityLink_150 1세대
 #include "DCL_150_1st_switch.pnml"
 
 /*--------------------------------------------------------------------
-기관차
+열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DCL_150_1st_engine, 1087){
+item(FEAT_TRAINS, DCL_150_1st, 1086){
     property {
-        name:                           string(NAME_DCL_150_1st_engine);
+        name:                           string(NAME_Group_DCL_150_1st);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2400 kW;
+        variant_group:                  DTX_Logo;
+        }
+
+    graphics {
+        purchase:                       set_DCL_150_1st_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 4량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DCL_150_1st_4Car, 1098){
+    property {
+        name:                           string(NAME_DCL_150_1st_4Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Logo;
+        variant_group:                  DCL_150_1st;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          920 kW;
+        weight:                         21 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 54;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DCL_150_1st_4car;
+        articulated_part:               sw_articulated_DCL_150_1st_4car;
+        purchase:                       set_DCL_150_1st_purchase;
+        speed:                          sw_Regular_150_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DCL_150_1st_6Car, 1100){
+    property {
+        name:                           string(NAME_DCL_150_1st_6Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DCL_150_1st;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          1380 kW;
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 55;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DCL_150_1st_6car;
+        articulated_part:               sw_articulated_DCL_150_1st_6car;
+        purchase:                       set_DCL_150_1st_purchase;
+        speed:                          sw_Regular_150_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DCL_150_1st_8Car, 1106){
+    property {
+        name:                           string(NAME_DCL_150_1st_8Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DCL_150_1st;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          1840 kW;
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 55;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DCL_150_1st_8car;
+        articulated_part:               sw_articulated_DCL_150_1st_8car;
+        purchase:                       set_DCL_150_1st_purchase;
+        speed:                          sw_Regular_150_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DCL_150_1st_10Car, 1120){
+    property {
+        name:                           string(NAME_DCL_150_1st_10Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DCL_150_1st;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          1840 kW;
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 55;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DCL_150_1st_10car;
+        articulated_part:               sw_articulated_DCL_150_1st_10car;
+        purchase:                       set_DCL_150_1st_purchase;
+        speed:                          sw_Regular_150_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+기관차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DCL_150_1st_engine, 1087){
+    property {
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DCL_150_1st;
         
         //spec
         speed:                          150km/h;
@@ -50,13 +285,11 @@ item(FEAT_TRAINS, DCL_150_1st_engine, 1087){
         }
 
     graphics {
-        default:                        sw_DCL_150_1st_engine;
-        purchase:                       set_DCL_150_1st_engine_purchase;
-        speed:                          sw_Regular_150_speed;
+        default:                        set_Deleted_A;
+        purchase:                       set_DCL_150_1st_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
         }
         }
 
@@ -65,13 +298,13 @@ item(FEAT_TRAINS, DCL_150_1st_engine, 1087){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DCL_150_1st_wagon, 1088){
     property {
-        name:                           string(NAME_DCL_150_1st_wagon);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
+        variant_group:                  DCL_150_1st;
         
         //spec
         weight:                         33 ton;
@@ -101,12 +334,11 @@ item(FEAT_TRAINS, DCL_150_1st_wagon, 1088){
         }
 
     graphics {
-        default:                        sw_DCL_150_1st_wagon;
-        purchase:                       set_DCL_150_1st_wagon_purchase;
+        default:                        set_Deleted_B;
+        purchase:                       set_DCL_150_1st_purchase;
         power:                          671;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_DCL_150_1st_cargo_subtype_text;
         }
         }

@@ -52,7 +52,6 @@ item(FEAT_TRAINS, DTX_Sundeok_11Car, 1105){
         default:                        sw_DTX_Sundeok_11car;
         articulated_part:               sw_articulated_DTX_Sundeok_11car;
         purchase:                       set_DTX_Sundeok_purchase;
-        speed:                          sw_High_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
