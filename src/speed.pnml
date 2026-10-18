@@ -280,6 +280,12 @@ switch(FEAT_TRAINS, SELF, sw_High_260_speed, Speed_Train) {
     2: return 260;
     }
 
+switch(FEAT_TRAINS, SELF, sw_High_260_286_speed, Speed_Train) {
+    0: return 260;
+    1: return 286;
+    2: return 260;
+    }
+
 /*--------------------------------------------------------------------
 속도 269
 --------------------------------------------------------------------*/
@@ -340,12 +346,30 @@ switch(FEAT_TRAINS, SELF, sw_High_305_speed, Speed_Train) {
     2: return High_Speed_Train;
     }
 
+switch(FEAT_TRAINS, SELF, sw_High_305_330_speed, Speed_Train) {
+    0: return 305;
+    1: return 330;
+    2: return High_Speed_Train;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_High_305_350_speed, Speed_Train) {
+    0: return 305;
+    1: return 350;
+    2: return High_Speed_Train;
+    }
+
 /*--------------------------------------------------------------------
 속도 320
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_320_speed, Speed_Train) {
     0: return 320;
     1: return 320;
+    2: return High_Speed_Train;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_High_320_352_speed, Speed_Train) {
+    0: return 320;
+    1: return 352;
     2: return High_Speed_Train;
     }
 
@@ -368,11 +392,17 @@ switch(FEAT_TRAINS, SELF, sw_High_350_speed, Speed_Train) {
     }
 
 /*--------------------------------------------------------------------
-속도 368
+속도 370
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_368_speed, Speed_Train) {
     0: return 368;
     1: return 368;
+    2: return High_Speed_Train;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_High_370_400_speed, Speed_Train) {
+    0: return 368;
+    1: return 400;
     2: return High_Speed_Train;
     }
 

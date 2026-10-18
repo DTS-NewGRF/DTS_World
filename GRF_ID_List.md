@@ -28,33 +28,33 @@
 |1024|Nuriro_wagon|
 |1025|Nuriro_DD_engine|
 |1026|Nuriro_DD_wagon|
-|1027|KTX_Taegeuk_engine|
-|1028|KTX_Taegeuk_wagon|
-|1029|KTX_Sancheon_engine|
-|1030|KTX_Sancheon_wagon|
-|1031|KTX_Sancheon_DD_wagon|
-|1032|KTX_Onnuri_engine|
-|1033|KTX_Onnuri_wagon|
-|1034|KTX_Onnuri_DD_wagon|
-|1035|KTX_Eum_engine|
-|1036|KTX_Eum_wagon|
-|1037|KTX_Eum_DD_engine|
-|1038|KTX_Eum_DD_wagon|
-|1039|KTX_Chowol_engine|
-|1040|KTX_Chowol_wagon|
+|1027|1.74 삭제예정|
+|1028|1.74 삭제예정|
+|1029|1.74 삭제예정|
+|1030|1.74 삭제예정|
+|1031|KTX_Sancheon_DD_10Car|
+|1032|1.74 삭제예정|
+|1033|1.74 삭제예정|
+|1034|1.74 삭제예정|
+|1035|1.74 삭제예정|
+|1036|1.74 삭제예정|
+|1037|1.74 삭제예정|
+|1038|1.74 삭제예정|
+|1039|1.74 삭제예정|
+|1040|1.74 삭제예정|
 |1041|KTX_Chowol_DD_wagon|
 |1042|KTX_Cheong_Ryong_engine|
 |1043|KTX_Cheong_Ryong_wagon|
-|1044|KTX_Cheong_Ryong_DD_engine|
-|1045|KTX_Cheong_Ryong_DD_wagon|
-|1046|KTX_Cargo_260_engine|
-|1047|KTX_Cargo_260_wagon|
-|1048|KTX_Cargo_300_engine|
-|1049|KTX_Cargo_300_wagon|
-|1050|KTX_Cargo_320_engine|
-|1051|KTX_Cargo_320_wagon|
-|1052|KTX_1_engine|
-|1053|KTX_1_wagon|
+|1044|1.74 삭제예정|
+|1045|1.74 삭제예정|
+|1046|1.74 삭제예정|
+|1047|1.74 삭제예정|
+|1048|KTX_Sancheon_C_engine|
+|1049|KTX_Sancheon_Cargo|
+|1050|1.74 삭제예정|
+|1051|1.74 삭제예정|
+|1052|1.74 삭제예정|
+|1053|1.74 삭제예정|
 |1054|TTX_engine|
 |1055|TTX_wagon|
 |1056|HEMU_430X_engine|
@@ -76,7 +76,7 @@
 |1072|ITX_Saemaeul_wagon|
 |1073|ITX_Saemaeul_DD_wagon|
 |1074|ITX_Saemaeul_DD_engine|
-|1075|CTX_wagon|
+|1075|KTX_Sancheon_C_wagon_4Car|
 |1076|DTX_Logo|
 |1077|DFX_engine|
 |1078|DFX_wagon|
@@ -160,6 +160,20 @@
 |1160|DTX_R001_6Car|
 |1161|DTX_R001_8Car|
 |1162|DTX_R001_10Car|
+|1163|KTX_Cargo_260_6Car|
+|1164|KTX_Eum_DD_6Car|
+|1165|KTX_Sancheon_C_wagon_8Car|
+|1166|KTX_Cargo_320_8Car|
+|1167|[그룹명] KTX_Cheong_Ryong|
+|1168|KTX_Cheong_Ryong_Export_8Car|
+|1169|KTX_Cheong_Ryong_Export_12Car|
+|1170|KTX_Cheong_Ryong_Export_16Car|
+|1171|KTX_Cheong_Ryong_DD_8Car|
+|1172|KTX_Chowol_8Car|
+|1173|[그룹명] KTX_Onnuri|
+|1174|KTX_Onnuri_8Car|
+|1175|KTX_Onnuri_10Car|
+|1176|KTX_Taegeuk_12Car|
 
 |2001|CY_GW_6Car|
 |2002|G_Train|

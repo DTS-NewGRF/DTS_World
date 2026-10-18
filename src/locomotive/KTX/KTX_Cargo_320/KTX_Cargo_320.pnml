@@ -8,12 +8,66 @@ KTX-카고 320
 #include "KTX_Cargo_320_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 6량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Cargo_320_8Car, 1166){
+    property {
+        name:                           string(NAME_KTX_Cargo_320_8Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2027, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  KTX_Logo;
+        
+        //spec
+        speed:                          320km/h;
+        power:                          14400 kW;
+        weight:                         280 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 90;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [MAIL, VALU, GOOD];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_KTX_Cargo_320_8car;
+        articulated_part:               sw_articulated_KTX_Cargo_320_8car;
+        purchase:                       set_KTX_Cargo_320_purchase;
+        speed:                          sw_High_320_352_speed;
+        loading_speed:                  25;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Cargo_320_engine, 1050){
     property {
-        name:                           string(NAME_KTX_Cargo_320_engine);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2027, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -51,18 +105,11 @@ item(FEAT_TRAINS, KTX_Cargo_320_engine, 1050){
         }
 
     graphics {
-        default:                        sw_KTX_Cargo_320_engine;
-        purchase:                       set_KTX_Cargo_320_engine_purchase;
-        speed:                          sw_High_320_speed;
+        default:                        set_Deleted_A;
+        purchase:                       set_KTX_Cargo_320_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
-        }
-    
-    livery_override(KTX_Cargo_320_wagon) {
-        default:                        sw_KTX_Cargo_320_wagon;
-        loading_speed:                  25;
         }
         }
 
@@ -71,8 +118,8 @@ item(FEAT_TRAINS, KTX_Cargo_320_engine, 1050){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Cargo_320_wagon, 1051){
     property {
-        name:                           string(NAME_KTX_Cargo_320_wagon);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2027, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -107,8 +154,8 @@ item(FEAT_TRAINS, KTX_Cargo_320_wagon, 1051){
         }
 
     graphics {
-        default:                        set_KTX_Cargo_320_wagon_M3;
-        purchase:                       set_KTX_Cargo_320_wagon_purchase;
+        default:                        set_Deleted_B;
+        purchase:                       set_KTX_Cargo_320_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

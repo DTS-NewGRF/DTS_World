@@ -48,11 +48,13 @@ item (FEAT_TRAINS, HYEL_PEX_Super, 1129){
         //Flags
         misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
+        extra_flags:                    bitmask(VEHICLE_FLAG_TRAIN_HAS_CAB);
         }
         
     graphics {
         default:                        sw_HYEL_PEX_Super_engine;
         purchase:                       set_HYEL_PEX_Super_purchase;
+        speed:                          sw_High_260_286_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         loading_speed:                  25;

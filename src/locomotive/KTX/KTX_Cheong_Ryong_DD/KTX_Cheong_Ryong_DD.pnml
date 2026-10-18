@@ -8,12 +8,67 @@ KTX-청룡 DD
 #include "KTX_Cheong_Ryong_DD_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차 정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Cheong_Ryong_DD_8Car, 1171){
+    property {
+        name:                           string(NAME_KTX_Cheong_Ryong_DD_8Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  KTX_Logo;
+        
+        //spec
+        speed:                          362km/h;
+        power:                          15000 kW;
+        weight:                         39 ton;
+        tractive_effort_coefficient:    0.775;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 90;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_KTX_Cheong_Ryong_DD_8car;
+        articulated_part:               sw_articulated_KTX_Cheong_Ryong_DD_8car;
+        purchase:                       set_KTX_Cheong_Ryong_DD_purchase;
+        speed:                          sw_High_320_352_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_KTX_Cheong_Ryong_DD_cargo_subtype_text;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
 기관차
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Cheong_Ryong_DD_engine, 1044){
     property {
-        name:                           string(NAME_KTX_Cheong_Ryong_DD_engine);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -51,20 +106,11 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_DD_engine, 1044){
         }
 
 	graphics {
-        default:                        sw_KTX_Cheong_Ryong_DD_engine;
-        purchase:                       set_KTX_Cheong_Ryong_DD_engine_purchase;
-        speed:                          sw_High_320_speed;
+        default:                        set_Deleted_A;
+        purchase:                       set_KTX_Cheong_Ryong_DD_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_KTX_Cheong_Ryong_DD_cargo_subtype_text;
-        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
-        }
-    
-    livery_override(KTX_Cheong_Ryong_DD_wagon) {
-        default:                        sw_KTX_Cheong_Ryong_DD_wagon;
-        cargo_subtype_text:             sw_KTX_Cheong_Ryong_DD_cargo_subtype_text;
-        loading_speed:                  25;
         }
         }
 
@@ -73,8 +119,8 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_DD_engine, 1044){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Cheong_Ryong_DD_wagon, 1045){
     property {
-        name:                           string(NAME_KTX_Cheong_Ryong_DD_wagon);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -109,11 +155,10 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_DD_wagon, 1045){
         }
 
 	graphics {
-        default:                        sw_KTX_Cheong_Ryong_DD_order_wagon;
-        purchase:                       set_KTX_Cheong_Ryong_DD_wagon_purchase;
+        default:                        set_Deleted_B;
+        purchase:                       set_KTX_Cheong_Ryong_DD_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_KTX_Cheong_Ryong_DD_cargo_subtype_text;
         }
         }

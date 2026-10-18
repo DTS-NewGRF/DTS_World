@@ -7,13 +7,33 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_DD_engineH, train_is_driving_backwards) {
     1: set_KTX_Eum_DD_engineH_Rev;
 }
 
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_DD_wagon_M1, train_is_driving_backwards) {
+    0: set_KTX_Eum_DD_wagon_M1;
+    1: set_KTX_Eum_DD_wagon_M1_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_DD_wagon_M3, train_is_driving_backwards) {
+    0: set_KTX_Eum_DD_wagon_M3;
+    1: set_KTX_Eum_DD_wagon_M3_Rev;
+}
+
 switch(FEAT_TRAINS, SELF, sw_KTX_Eum_DD_engineT, train_is_driving_backwards) {
     0: set_KTX_Eum_DD_engineT;
     1: set_KTX_Eum_DD_engineT_Rev;
 }
 
-// 기관차
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_DD_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
-    1: sw_KTX_Eum_DD_engineT;
-    sw_KTX_Eum_DD_engineH;
-}
+// 고정편성 그래픽
+switch (FEAT_TRAINS, SELF, sw_KTX_Eum_DD_6car, position_in_vehid_chain % 6) {
+    0: sw_KTX_Eum_DD_engineH; //default
+    1: sw_KTX_Eum_DD_wagon_M1;
+    2: set_KTX_Eum_DD_wagon_M2;
+    3: set_KTX_Eum_DD_wagon_M2_1;
+    4: sw_KTX_Eum_DD_wagon_M3;
+    5: sw_KTX_Eum_DD_engineT;
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Eum_DD_6car, extra_callback_info1) {
+    1..5: KTX_Eum_DD_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

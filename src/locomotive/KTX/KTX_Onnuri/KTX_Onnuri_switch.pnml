@@ -22,40 +22,38 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_engineT, train_is_driving_backwards) {
     1: set_KTX_Onnuri_engineT_Rev;
 }
 
-// 기관차
-switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
-    1: sw_KTX_Onnuri_engineT;
-    sw_KTX_Onnuri_engineH;
-}
-
-// 객차
-// 1층
-switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_wagon_M3_Only_10Car, num_vehs_in_consist) {
-    10: set_KTX_Onnuri_wagon_M3_Only_10Car;
-    set_KTX_Onnuri_wagon_M3;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_wagon_front, position_in_consist) {
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_KTX_Onnuri_8car, position_in_vehid_chain % 8) {
+    0: sw_KTX_Onnuri_engineH; //default
     1: sw_KTX_Onnuri_wagon_M1;
     2: set_KTX_Onnuri_wagon_M2;
-    3: sw_KTX_Onnuri_wagon_M3_Only_10Car;
-    set_KTX_Onnuri_wagon_M2;
-}
+    3: set_KTX_Onnuri_wagon_M3;
+    4: set_KTX_Onnuri_wagon_M2;
+    5: set_KTX_Onnuri_wagon_M2;
+    6: sw_KTX_Onnuri_wagon_M4;
+    7: sw_KTX_Onnuri_engineT;
+    }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_wagon, position_in_consist_from_end) {
-    1: sw_KTX_Onnuri_wagon_M4;
-    sw_KTX_Onnuri_wagon_front;
-}
+switch (FEAT_TRAINS, SELF, sw_KTX_Onnuri_10car, position_in_vehid_chain % 10) {
+    0: sw_KTX_Onnuri_engineH; //default
+    1: sw_KTX_Onnuri_wagon_M1;
+    2: set_KTX_Onnuri_wagon_M2;
+    3: set_KTX_Onnuri_wagon_M3_Only_10Car;
+    4: set_KTX_Onnuri_wagon_DUP1;
+    5: set_KTX_Onnuri_wagon_DUP2;
+    6: set_KTX_Onnuri_wagon_M2;
+    7: set_KTX_Onnuri_wagon_M2;
+    8: sw_KTX_Onnuri_wagon_M4;
+    9: sw_KTX_Onnuri_engineT;
+    }
 
-// 1층 only
-switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_only_wagon, position_in_consist) {
-    1: set_KTX_Onnuri_wagon_M2;
-    2: sw_KTX_Onnuri_wagon_M3_Only_10Car;
-    set_KTX_Onnuri_wagon_M2;
-}
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Onnuri_8car, extra_callback_info1) {
+    1..7: KTX_Onnuri_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
-// 2층
-switch(FEAT_TRAINS, SELF, sw_KTX_Onnuri_DD_wagon, position_in_vehid_chain % 2) {
-    1: set_KTX_Onnuri_wagon_DUP2;
-    set_KTX_Onnuri_wagon_DUP1;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Onnuri_10car, extra_callback_info1) {
+    1..9: KTX_Onnuri_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

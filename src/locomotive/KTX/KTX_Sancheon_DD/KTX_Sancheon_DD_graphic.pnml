@@ -6,7 +6,7 @@ spriteset(set_KTX_Sancheon_DD_engineH, "src/locomotive/KTX/KTX_Sancheon_DD/KTX_S
 }
 
 spriteset(set_KTX_Sancheon_DD_engineH_Rev, "src/locomotive/KTX/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
-    DTS_temp_r(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_KTX_Sancheon_DD_wagon_T1, "src/locomotive/KTX/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
@@ -30,7 +30,7 @@ spriteset(set_KTX_Sancheon_DD_wagon_T5, "src/locomotive/KTX/KTX_Sancheon_DD/KTX_
 }
 
 spriteset(set_KTX_Sancheon_DD_engineT_Rev, "src/locomotive/KTX/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
-    DTS_temp_r(80, 189)
+    DTS_temp(80, 189)
 }
 
 spriteset(set_KTX_Sancheon_DD_engineT, "src/locomotive/KTX/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
@@ -40,6 +40,6 @@ spriteset(set_KTX_Sancheon_DD_engineT, "src/locomotive/KTX/KTX_Sancheon_DD/KTX_S
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_KTX_Sancheon_DD_wagon_purchase, "src/locomotive/KTX/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
-    tmpl_purchase(0, 54)
+spriteset(set_KTX_Sancheon_DD_purchase, "src/locomotive/KTX/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
+    tmpl_purchase(0, 0)
 }

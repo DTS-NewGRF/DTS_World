@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_KTX_Sancheon_C_engineH, "src/locomotive/KTX/KTX_Sancheon_C/KTX_Sancheon_Cargo.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_KTX_Sancheon_Cargo, "src/locomotive/KTX/KTX_Sancheon_C/KTX_Sancheon_Cargo.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_KTX_Sancheon_C_engineT, "src/locomotive/KTX/KTX_Sancheon_C/KTX_Sancheon_Cargo.png"){
+    DTS_temp(80, 54)
+}
+
+/*--------------------------------------------------------------------
+CTX
+--------------------------------------------------------------------*/
+spriteset(set_KTX_Sancheon_C_wagon_T1, "src/locomotive/KTX/KTX_Sancheon_C/KTX_Sancheon_C.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_KTX_Sancheon_C_wagon_T2, "src/locomotive/KTX/KTX_Sancheon_C/KTX_Sancheon_C.png") {
+    DTS_temp(80, 27)
+}
+
+spriteset(set_KTX_Sancheon_C_wagon_T3, "src/locomotive/KTX/KTX_Sancheon_C/KTX_Sancheon_C.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_KTX_Sancheon_C_wagon_T4, "src/locomotive/KTX/KTX_Sancheon_C/KTX_Sancheon_C.png"){
+    DTS_temp(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_KTX_Sancheon_C_purchase, "src/locomotive/KTX/KTX_Sancheon_C/KTX_Sancheon_Cargo.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_KTX_Sancheon_C_wagon_purchase, "src/locomotive/KTX/KTX_Sancheon_C/KTX_Sancheon_C.png"){
+    tmpl_purchase(0, 00)
+}
+
+spriteset(set_KTX_Sancheon_Cargo_purchase, "src/locomotive/KTX/KTX_Sancheon_C/KTX_Sancheon_Cargo.png"){
+    tmpl_purchase(0, 27)
+}

@@ -72,7 +72,7 @@ item(FEAT_TRAINS, DTX_R001_4Car, 1159){
         default:                        sw_DTX_R001_4car;
         articulated_part:               sw_articulated_DTX_R001_4car;
         purchase:                       set_DTX_R001_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, DTX_R001_6Car, 1160){
         default:                        sw_DTX_R001_6car;
         articulated_part:               sw_articulated_DTX_R001_6car;
         purchase:                       set_DTX_R001_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -180,7 +180,7 @@ item(FEAT_TRAINS, DTX_R001_8Car, 1161){
         default:                        sw_DTX_R001_8car;
         articulated_part:               sw_articulated_DTX_R001_8car;
         purchase:                       set_DTX_R001_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -234,7 +234,7 @@ item(FEAT_TRAINS, DTX_R001_10Car, 1162){
         default:                        sw_DTX_R001_10car;
         articulated_part:               sw_articulated_DTX_R001_10car;
         purchase:                       set_DTX_R001_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Metro_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

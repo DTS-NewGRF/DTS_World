@@ -72,7 +72,7 @@ item(FEAT_TRAINS, DCL_150_2nd_4Car, 1139){
         default:                        sw_DCL_150_2nd_4car;
         articulated_part:               sw_articulated_DCL_150_2nd_4car;
         purchase:                       set_DCL_150_2nd_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Regular_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, DCL_150_2nd_6Car, 1140){
         default:                        sw_DCL_150_2nd_6car;
         articulated_part:               sw_articulated_DCL_150_2nd_6car;
         purchase:                       set_DCL_150_2nd_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Regular_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -180,7 +180,7 @@ item(FEAT_TRAINS, DCL_150_2nd_8Car, 1141){
         default:                        sw_DCL_150_2nd_8car;
         articulated_part:               sw_articulated_DCL_150_2nd_8car;
         purchase:                       set_DCL_150_2nd_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Regular_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -234,7 +234,7 @@ item(FEAT_TRAINS, DCL_150_2nd_10Car, 1142){
         default:                        sw_DCL_150_2nd_10car;
         articulated_part:               sw_articulated_DCL_150_2nd_10car;
         purchase:                       set_DCL_150_2nd_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Regular_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

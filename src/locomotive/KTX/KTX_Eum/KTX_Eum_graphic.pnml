@@ -332,11 +332,3 @@ spriteset(set_KTX_Eum_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/lo
 spriteset(set_KTX_Eum_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX/KTX_Eum/KTX_Eum_2cc.png"){
     tmpl_purchase(0, 0)
 }
-
-spriteset(set_KTX_Eum_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX/KTX_Eum/KTX_Eum_2cc.png"){
-    tmpl_purchase(0, 0)
-}
-
-spriteset(set_KTX_Eum_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX/KTX_Eum/KTX_Eum_2cc.png"){
-    tmpl_purchase(0, 108)
-}

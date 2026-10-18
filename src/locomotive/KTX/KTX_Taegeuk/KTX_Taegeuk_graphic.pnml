@@ -50,11 +50,11 @@ spriteset(set_KTX_Taegeuk_wagon_T9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/loc
 }
 
 spriteset(set_KTX_Taegeuk_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Taegeuk/KTX_Taegeuk.png"){
-    DTS_temp_r(80, 324)
+    DTS_temp(80, 324)
 }
 
 spriteset(set_KTX_Taegeuk_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Taegeuk/KTX_Taegeuk.png"){
-    DTS_temp_r(80, 351)
+    DTS_temp(80, 351)
 }
 
 /*--------------------------------------------------------------------
@@ -64,10 +64,6 @@ spriteset(set_KTX_Taegeuk_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "sr
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_KTX_Taegeuk_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Taegeuk/KTX_Taegeuk.png"){
-    tmpl_purchase_for_dualhead(0, 0)
-}
-
-spriteset(set_KTX_Taegeuk_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Taegeuk/KTX_Taegeuk.png"){
-    tmpl_purchase(0, 54)
+spriteset(set_KTX_Taegeuk_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Taegeuk/KTX_Taegeuk.png"){
+    tmpl_purchase(0, 0)
 }

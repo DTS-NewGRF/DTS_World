@@ -52,16 +52,8 @@ spriteset(set_KTX_1_engineT_Rev, "src/locomotive/KTX/KTX_1/KTX_1.png"){
     DTS_temp(80, 297)
 }
 
-spriteset(set_KTX_1_engineT_Free_Rev, "src/locomotive/KTX/KTX_1/KTX_1.png"){
-    DTS_temp_r(80, 297)
-}
-
 spriteset(set_KTX_1_engineT, "src/locomotive/KTX/KTX_1/KTX_1.png"){
     DTS_temp(80, 324)
-}
-
-spriteset(set_KTX_1_engineT_Free, "src/locomotive/KTX/KTX_1/KTX_1.png"){
-    DTS_temp_r(80, 324)
 }
 
 /*--------------------------------------------------------------------
@@ -122,16 +114,8 @@ spriteset(set_KTX_1_LTE_A_engineT_Rev, "src/locomotive/KTX/KTX_1/KTX_1_LTE_A.png
     DTS_temp(80, 297)
 }
 
-spriteset(set_KTX_1_LTE_A_engineT_Free_Rev, "src/locomotive/KTX/KTX_1/KTX_1_LTE_A.png"){
-    DTS_temp_r(80, 297)
-}
-
 spriteset(set_KTX_1_LTE_A_engineT, "src/locomotive/KTX/KTX_1/KTX_1_LTE_A.png"){
     DTS_temp(80, 324)
-}
-
-spriteset(set_KTX_1_LTE_A_engineT_Free, "src/locomotive/KTX/KTX_1/KTX_1_LTE_A.png"){
-    DTS_temp_r(80, 324)
 }
 
 /*--------------------------------------------------------------------
@@ -139,12 +123,4 @@ spriteset(set_KTX_1_LTE_A_engineT_Free, "src/locomotive/KTX/KTX_1/KTX_1_LTE_A.pn
 --------------------------------------------------------------------*/
 spriteset(set_KTX_1_purchase, "src/locomotive/KTX/KTX_1/KTX_1.png"){
     tmpl_purchase(0, 0)
-}
-
-spriteset(set_KTX_1_engine_purchase, "src/locomotive/KTX/KTX_1/KTX_1.png"){
-    tmpl_purchase_for_dualhead(0, 0)
-}
-
-spriteset(set_KTX_1_wagon_purchase, "src/locomotive/KTX/KTX_1/KTX_1.png"){
-    tmpl_purchase(0, 81)
 }

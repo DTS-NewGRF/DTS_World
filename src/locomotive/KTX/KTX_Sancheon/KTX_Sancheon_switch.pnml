@@ -9,15 +9,6 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_cargo_subtype_text, cargo_subtype) {
     3: return string(Livery_SRT_2cc);
     4: return string(Livery_KTX_Sancheon_B);
     5: return string(Livery_KTX_Sancheon_BP);
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_cargo_subtype_text, cargo_subtype) {
-    0: return string(Livery_KTX_Sancheon_A1);
-    1: return string(Livery_KTX_Sancheon_A2);
-    2: return string(Livery_SRT);
-    3: return string(Livery_SRT_2cc);
-    4: return string(Livery_KTX_Sancheon_B);
-    5: return string(Livery_KTX_Sancheon_BP);
     6: return string(Livery_KTX_Honam_Sky_blue);
     7: return string(Livery_KTX_Honam_Yellow);
     8: return string(Livery_KTX_Gyeonggang_Blue);
@@ -25,104 +16,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_cargo_subtype_text, cargo_subtype
 }
 
 // 도색그래픽 세팅
-// 고정열차
 // 전진방향
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_engineH_Front, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_engineH;
-    1: set_KTX_Sancheon_A2_engineH;
-    2: set_SRT_engineH;
-    3: set_SRT_2cc_engineH;
-    4: set_KTX_Sancheon_B_engineH;
-    5: set_KTX_Sancheon_BP_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_wagon_T1, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_wagon_T1;
-    1: set_KTX_Sancheon_A2_wagon_T1;
-    2: set_SRT_wagon_T1;
-    3: set_SRT_2cc_wagon_T1;
-    4..5: set_KTX_Sancheon_B_wagon_T1;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_wagon_T2, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_wagon_T2;
-    1: set_KTX_Sancheon_A2_wagon_T2;
-    2: set_SRT_wagon_T2;
-    3: set_SRT_2cc_wagon_T2;
-    4..5: set_KTX_Sancheon_B_wagon_T2;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_wagon_T3, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_wagon_T3;
-    1: set_KTX_Sancheon_A2_wagon_T3;
-    2: set_SRT_wagon_T3;
-    3: set_SRT_2cc_wagon_T3;
-    4..5: set_KTX_Sancheon_B_wagon_T3;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_wagon_T4, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_wagon_T4;
-    1: set_KTX_Sancheon_A2_wagon_T4;
-    2: set_SRT_wagon_T4;
-    3: set_SRT_2cc_wagon_T4;
-    4..5: set_KTX_Sancheon_B_wagon_T4;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_wagon_T5, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_wagon_T5;
-    1: set_KTX_Sancheon_A2_wagon_T5;
-    2: set_SRT_wagon_T5;
-    3: set_SRT_2cc_wagon_T5;
-    4..5: set_KTX_Sancheon_B_wagon_T5;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_wagon_7Car, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_wagon_T6;
-    1: set_KTX_Sancheon_A2_wagon_T6;
-    2: set_SRT_wagon_T4;
-    3: set_SRT_2cc_wagon_T4;
-    4..5: set_KTX_Sancheon_B_wagon_T4;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_wagon_8Car, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_wagon_T7;
-    1: set_KTX_Sancheon_A2_wagon_T7;
-    2: set_SRT_wagon_T6;
-    3: set_SRT_2cc_wagon_T6;
-    4..5: set_KTX_Sancheon_B_wagon_T6;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_engineT_Front, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_engineT;
-    1: set_KTX_Sancheon_A2_engineT;
-    2: set_SRT_engineT;
-    3: set_SRT_2cc_engineT;
-    4: set_KTX_Sancheon_B_engineT;
-    5: set_KTX_Sancheon_BP_engineT;
-}
-
-// 후진방향
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_engineH_Back, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_engineH_Rev;
-    1: set_KTX_Sancheon_A2_engineH_Rev;
-    2: set_SRT_engineH_Rev;
-    3: set_SRT_2cc_engineH_Rev;
-    4: set_KTX_Sancheon_B_engineH_Rev;
-    5: set_KTX_Sancheon_BP_engineH_Rev;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_engineT_Back, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_engineT_Rev;
-    1: set_KTX_Sancheon_A2_engineT_Rev;
-    2: set_SRT_engineT_Rev;
-    3: set_SRT_2cc_engineT_Rev;
-    4: set_KTX_Sancheon_B_engineT_Rev;
-    5: set_KTX_Sancheon_BP_engineT_Rev;
-}
-
-// 자유편성
-// 전진방향
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_engineH_Front, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_engineH_Front, cargo_subtype) {
     0: set_KTX_Sancheon_A1_engineH;
     1: set_KTX_Sancheon_A2_engineH;
     2: set_SRT_engineH;
@@ -135,7 +30,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_engineH_Front, cargo_subtype) {
     9: set_KTX_Gyeonggang_White_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_T1, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_wagon_T1, cargo_subtype) {
     0: set_KTX_Sancheon_A1_wagon_T1;
     1: set_KTX_Sancheon_A2_wagon_T1;
     2: set_SRT_wagon_T1;
@@ -147,7 +42,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_T1, cargo_subtype) {
     9: set_KTX_Gyeonggang_White_wagon_T1;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_T2, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_wagon_T2, cargo_subtype) {
     0: set_KTX_Sancheon_A1_wagon_T2;
     1: set_KTX_Sancheon_A2_wagon_T2;
     2: set_SRT_wagon_T2;
@@ -159,7 +54,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_T2, cargo_subtype) {
     9: set_KTX_Gyeonggang_White_wagon_T2;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_T3, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_wagon_T3, cargo_subtype) {
     0: set_KTX_Sancheon_A1_wagon_T3;
     1: set_KTX_Sancheon_A2_wagon_T3;
     2: set_SRT_wagon_T3;
@@ -171,7 +66,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_T3, cargo_subtype) {
     9: set_KTX_Gyeonggang_White_wagon_T3;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_T4, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_wagon_T4, cargo_subtype) {
     0: set_KTX_Sancheon_A1_wagon_T4;
     1: set_KTX_Sancheon_A2_wagon_T4;
     2: set_SRT_wagon_T4;
@@ -183,7 +78,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_T4, cargo_subtype) {
     9: set_KTX_Gyeonggang_White_wagon_T4;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_T5, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_wagon_T5, cargo_subtype) {
     0: set_KTX_Sancheon_A1_wagon_T5;
     1: set_KTX_Sancheon_A2_wagon_T5;
     2: set_SRT_wagon_T5;
@@ -195,7 +90,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_T5, cargo_subtype) {
     9: set_KTX_Gyeonggang_White_wagon_T5;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_7Car, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_wagon_7Car, cargo_subtype) {
     0: set_KTX_Sancheon_A1_wagon_T6;
     1: set_KTX_Sancheon_A2_wagon_T6;
     2: set_SRT_wagon_T4;
@@ -207,7 +102,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_7Car, cargo_subtype) {
     9: set_KTX_Gyeonggang_White_wagon_T4;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_8Car, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_wagon_8Car, cargo_subtype) {
     0: set_KTX_Sancheon_A1_wagon_T7;
     1: set_KTX_Sancheon_A2_wagon_T7;
     2: set_SRT_wagon_T6;
@@ -219,13 +114,13 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_8Car, cargo_subtype) {
     9: set_KTX_Gyeonggang_White_wagon_T6;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_engineT_Front, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_engineT_Free;
-    1: set_KTX_Sancheon_A2_engineT_Free;
-    2: set_SRT_engineT_Free;
-    3: set_SRT_2cc_engineT_Free;
-    4: set_KTX_Sancheon_B_engineT_Free;
-    5: set_KTX_Sancheon_BP_engineT_Free;
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_engineT_Front, cargo_subtype) {
+    0: set_KTX_Sancheon_A1_engineT;
+    1: set_KTX_Sancheon_A2_engineT;
+    2: set_SRT_engineT;
+    3: set_SRT_2cc_engineT;
+    4: set_KTX_Sancheon_B_engineT;
+    5: set_KTX_Sancheon_BP_engineT;
     6: set_KTX_Honam_Sky_blue_engineT;
     7: set_KTX_Honam_Yellow_engineT;
     8: set_KTX_Gyeonggang_Blue_engineT;
@@ -233,7 +128,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_engineT_Front, cargo_subtype) {
 }
 
 // 후진방향
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_engineH_Back, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_engineH_Back, cargo_subtype) {
     0: set_KTX_Sancheon_A1_engineH_Rev;
     1: set_KTX_Sancheon_A2_engineH_Rev;
     2: set_SRT_engineH_Rev;
@@ -246,13 +141,13 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_engineH_Back, cargo_subtype) {
     9: set_KTX_Gyeonggang_White_engineH_Rev;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_engineT_Back, cargo_subtype) {
-    0: set_KTX_Sancheon_A1_engineT_Free_Rev;
-    1: set_KTX_Sancheon_A2_engineT_Free_Rev;
-    2: set_SRT_engineT_Free_Rev;
-    3: set_SRT_2cc_engineT_Free_Rev;
-    4: set_KTX_Sancheon_B_engineT_Free_Rev;
-    5: set_KTX_Sancheon_BP_engineT_Free_Rev;
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_engineT_Back, cargo_subtype) {
+    0: set_KTX_Sancheon_A1_engineT_Rev;
+    1: set_KTX_Sancheon_A2_engineT_Rev;
+    2: set_SRT_engineT_Rev;
+    3: set_SRT_2cc_engineT_Rev;
+    4: set_KTX_Sancheon_B_engineT_Rev;
+    5: set_KTX_Sancheon_BP_engineT_Rev;
     6: set_KTX_Honam_Sky_blue_engineT_Rev;
     7: set_KTX_Honam_Yellow_engineT_Rev;
     8: set_KTX_Gyeonggang_Blue_engineT_Rev;
@@ -260,94 +155,27 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_engineT_Back, cargo_subtype) {
 }
 
 // 전후진 통합 코드
-// 고정편성
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_engineH, train_is_driving_backwards) {
-    0: sw_KTX_Sancheon_Fixed_engineH_Front;
-    1: sw_KTX_Sancheon_Fixed_engineH_Back;
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_engineH, train_is_driving_backwards) {
+    0: sw_KTX_Sancheon_engineH_Front;
+    1: sw_KTX_Sancheon_engineH_Back;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Fixed_engineT, train_is_driving_backwards) {
-    0: sw_KTX_Sancheon_Fixed_engineT_Front;
-    1: sw_KTX_Sancheon_Fixed_engineT_Back;
-}
-
-// 자유편성
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_engineH, train_is_driving_backwards) {
-    0: sw_KTX_Sancheon_Free_engineH_Front;
-    1: sw_KTX_Sancheon_Free_engineH_Back;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_engineT, train_is_driving_backwards) {
-    0: sw_KTX_Sancheon_Free_engineT_Front;
-    1: sw_KTX_Sancheon_Free_engineT_Back;
-}
-
-// 기관차
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
-    1: sw_KTX_Sancheon_Free_engineT;
-    sw_KTX_Sancheon_Free_engineH;
-}
-
-// 객차
-// 자유객차
-switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_front, position_in_vehid_chain) {
-    0: sw_KTX_Sancheon_Free_wagon_T1;
-    1: sw_KTX_Sancheon_Free_wagon_T2;
-    2: sw_KTX_Sancheon_Free_wagon_T3;
-    3: sw_KTX_Sancheon_Free_wagon_T4;
-    sw_KTX_Sancheon_Free_wagon_T5;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_back, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0: sw_KTX_Sancheon_Free_wagon_8Car;
-    1: sw_KTX_Sancheon_Free_wagon_7Car;
-    sw_KTX_Sancheon_Free_wagon_T5;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0..1: sw_KTX_Sancheon_Free_wagon_back;
-    sw_KTX_Sancheon_Free_wagon_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_Free_wagon, num_vehs_in_vehid_chain) {
-     1..255: sw_KTX_Sancheon_Free_wagon_full;
-    sw_KTX_Sancheon_Free_wagon_T5;
-}
-
-// 그외 객차
-switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_order_wagon_front, position_in_vehid_chain) {
-    0: sw_KTX_Sancheon_Free_wagon_T2;
-    1: sw_KTX_Sancheon_Free_wagon_T3;
-    2: sw_KTX_Sancheon_Free_wagon_T4;
-    sw_KTX_Sancheon_Free_wagon_T5;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_order_wagon_back, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0: sw_KTX_Sancheon_Free_wagon_7Car;
-    sw_KTX_Sancheon_Free_wagon_T5;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_order_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0..1: sw_KTX_Sancheon_order_wagon_back;
-    sw_KTX_Sancheon_order_wagon_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_order_wagon, num_vehs_in_vehid_chain) {
-     1..255: sw_KTX_Sancheon_order_wagon_full;
-    sw_KTX_Sancheon_Free_wagon_T5;
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_engineT, train_is_driving_backwards) {
+    0: sw_KTX_Sancheon_engineT_Front;
+    1: sw_KTX_Sancheon_engineT_Back;
 }
 
 // 고정편성 그래픽
 switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_10car, position_in_vehid_chain % 10) {
-    0: sw_KTX_Sancheon_Fixed_engineH; //default
-    1: sw_KTX_Sancheon_Fixed_wagon_T1;
-    2: sw_KTX_Sancheon_Fixed_wagon_T2;
-    3: sw_KTX_Sancheon_Fixed_wagon_T3;
-    4: sw_KTX_Sancheon_Fixed_wagon_T4;
-    5..6: sw_KTX_Sancheon_Fixed_wagon_T5;
-    7: sw_KTX_Sancheon_Fixed_wagon_7Car;
-    8: sw_KTX_Sancheon_Fixed_wagon_8Car;
-    9: sw_KTX_Sancheon_Fixed_engineT;
+    0: sw_KTX_Sancheon_engineH; //default
+    1: sw_KTX_Sancheon_wagon_T1;
+    2: sw_KTX_Sancheon_wagon_T2;
+    3: sw_KTX_Sancheon_wagon_T3;
+    4: sw_KTX_Sancheon_wagon_T4;
+    5..6: sw_KTX_Sancheon_wagon_T5;
+    7: sw_KTX_Sancheon_wagon_7Car;
+    8: sw_KTX_Sancheon_wagon_8Car;
+    9: sw_KTX_Sancheon_engineT;
     }
 
 // 편성수
@@ -362,18 +190,6 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_wagon_length_in_custom, position_in_ve
     2..7: 7;
     8..9: 8;
 }
-
-// 자유 객차 길이
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_wagon_length_in_custom_back, position_in_consist_from_end) {
-    1: 8;
-    7;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_wagon_Free_length_in_custom, position_in_consist) {
-    1: 8;
-    sw_KTX_Sancheon_wagon_length_in_custom_back;
-}
-
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_capacity_in_custom, cargo_subtype) {
     0..3: return 38;
@@ -382,10 +198,12 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_capacity_in_custom, cargo_subtype) {
 
 // 사운드
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_sound, cargo_subtype) {
-    0: sw_KTXSCstart_sound;    // KTX-산천 A타입 초기분
-    1: sw_KTXSCstart_sound; // KTX-산천 A타입 후기분
-    2: sw_KTXSCstart_sound; // KTX-산천 120000호대 시안 1안
-    3: sw_KTXSCstart_sound; // SRT 2cc
-    4: sw_KTXSC140000start_sound; // KTX-산천 B타입
-    5: sw_KTXSC140000start_sound; // KTX-산천 B타입 평창올림픽
+    0: sw_KTXSCstart_sound;
+    4..5: sw_KTXSC140000start_sound;
+}
+
+// 속도
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_10Car_speed, cargo_subtype) {
+    0: sw_High_305_330_speed;
+    4..5: sw_High_305_350_speed;
 }

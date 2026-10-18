@@ -44,10 +44,6 @@ spriteset(set_KTX_Eum_DD_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locom
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_KTX_Eum_DD_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+spriteset(set_KTX_Eum_DD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
     tmpl_purchase(0, 0)
-}
-
-spriteset(set_KTX_Eum_DD_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD.png", "src/locomotive/KTX/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
-    tmpl_purchase(0, 108)
 }

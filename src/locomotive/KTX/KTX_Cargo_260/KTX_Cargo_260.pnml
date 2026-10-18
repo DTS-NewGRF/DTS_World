@@ -10,10 +10,64 @@ KTX-이음 260
 /*--------------------------------------------------------------------
 기관차
 --------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Cargo_260_6Car, 1163){
+    property {
+        name:                           string(NAME_KTX_Cargo_260_6Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2032, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  KTX_Logo;
+        
+        //spec
+        speed:                          260km/h;
+        power:                          9600 kW;
+        weight:                         35 ton;
+        tractive_effort_coefficient:    0.579;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 90;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [MAIL, VALU, GOOD];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_KTX_Cargo_260_6car;
+        articulated_part:               sw_articulated_KTX_Cargo_260_6car;
+        purchase:                       set_KTX_Cargo_260_purchase;
+        speed:                          sw_High_260_286_speed;
+        loading_speed:                  25;
+        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+기관차
+--------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Cargo_260_engine, 1046){
     property {
-        name:                           string(NAME_KTX_Cargo_260_engine);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2032, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
@@ -53,11 +107,9 @@ item(FEAT_TRAINS, KTX_Cargo_260_engine, 1046){
         }
         
     graphics {
-        default:                        sw_KTX_Cargo_260_engine;
-        purchase:                       set_KTX_Cargo_260_engine_purchase;
-        speed:                          sw_High_260_speed;
+        default:                        set_Deleted_A;
+        purchase:                       set_KTX_Cargo_260_purchase;
         loading_speed:                  25;
-        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
         }
         }
 
@@ -66,8 +118,8 @@ item(FEAT_TRAINS, KTX_Cargo_260_engine, 1046){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Cargo_260_wagon, 1047){
     property {
-        name:                           string(NAME_KTX_Cargo_260_wagon);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -104,8 +156,8 @@ item(FEAT_TRAINS, KTX_Cargo_260_wagon, 1047){
         }
         
     graphics {
-        default:                        set_KTX_Cargo_260_wagon;
-        purchase:                       set_KTX_Cargo_260_wagon_purchase;
+        default:                        set_Deleted_B;
+        purchase:                       set_KTX_Cargo_260_purchase;
         loading_speed:                  25;
         power:                          335;
         }

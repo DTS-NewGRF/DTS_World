@@ -52,7 +52,7 @@ item(FEAT_TRAINS, DCL_120_Pass_engine, 1082){
     graphics {
         default:                        sw_DCL_120_engine_Pass;
         purchase:                       set_DCL_120_engine_Pass_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Regular_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -105,7 +105,7 @@ item(FEAT_TRAINS, DCL_120_Post_engine, 1083){
     graphics {
         default:                        sw_DCL_120_engine_Post;
         purchase:                       set_DCL_120_engine_Post_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Regular_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -42,11 +42,11 @@ spriteset(set_KTX_Chowol_wagon_M4_Rev, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol
 }
 
 spriteset(set_KTX_Chowol_engineT_Rev, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
-    DTS_temp_r(80, 270)
+    DTS_temp(80, 270)
 }
 
 spriteset(set_KTX_Chowol_engineT, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
-    DTS_temp_r(80, 297)
+    DTS_temp(80, 297)
 }
 
 /*--------------------------------------------------------------------
@@ -56,14 +56,6 @@ spriteset(set_KTX_Chowol_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_KTX_Chowol_engine_purchase, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
-    tmpl_purchase_for_dualhead(0, 0)
-}
-
-spriteset(set_KTX_Chowol_wagon_purchase, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
-    tmpl_purchase(0, 108)
-}
-
-spriteset(set_KTX_Chowol_DD_wagon_purchase, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
-    tmpl_purchase(0, 162)
+spriteset(set_KTX_Chowol_purchase, "src/locomotive/KTX/KTX_Chowol/KTX_Chowol.png"){
+    tmpl_purchase(0, 0)
 }

@@ -5,12 +5,6 @@
 switch(FEAT_TRAINS, SELF, sw_KTX_Eum_cargo_subtype_text, cargo_subtype) {
     0: return string(Livery_KTX_Eum);
     1: return string(Livery_KTX_Eum_2nd);
-    return CB_RESULT_NO_TEXT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_cargo_subtype_text, cargo_subtype) {
-    0: return string(Livery_KTX_Eum);
-    1: return string(Livery_KTX_Eum_2nd);
     2: return string(Livery_KTX_Eum_MD);
     3: return string(Livery_KTX_Eum_W);
     4: return string(Livery_KTX_Eum_BK);
@@ -21,57 +15,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_cargo_subtype_text, cargo_subtype) {
 }
 
 // 도색그래픽 세팅
-// 고정열차
 // 전진방향
-switch(FEAT_TRAINS, SELF, set_KTX_Eum_Fixed_engineH_Front, cargo_subtype) {
-    0: set_KTX_Eum_engineH;
-    1: set_KTX_Eum_2nd_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Fixed_panto_wagon_M1_Front, cargo_subtype) {
-    0: set_KTX_Eum_panto_wagon_M1;
-    1: set_KTX_Eum_2nd_panto_wagon_M1;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Fixed_wagon_M2, cargo_subtype) {
-    0: set_KTX_Eum_wagon_M2;
-    1: set_KTX_Eum_2nd_wagon_M2;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Fixed_panto_wagon_M3_Front, cargo_subtype) {
-    0: set_KTX_Eum_panto_wagon_M4;
-    1: set_KTX_Eum_2nd_panto_wagon_M4;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Fixed_engineT_Front, cargo_subtype) {
-    0: set_KTX_Eum_engineT;
-    1: set_KTX_Eum_2nd_engineT;    
-}
-
-// 후진방향
-switch(FEAT_TRAINS, SELF, set_KTX_Eum_Fixed_engineH_Back, cargo_subtype) {
-    0: set_KTX_Eum_engineH_Rev;
-    1: set_KTX_Eum_2nd_engineH_Rev;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Fixed_panto_wagon_M1_Back, cargo_subtype) {
-    0: set_KTX_Eum_panto_wagon_M1_Rev;
-    1: set_KTX_Eum_2nd_panto_wagon_M1_Rev;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Fixed_panto_wagon_M3_Back, cargo_subtype) {
-    0: set_KTX_Eum_panto_wagon_M4_Rev;
-    1: set_KTX_Eum_2nd_panto_wagon_M4_Rev;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Fixed_engineT_Back, cargo_subtype) {
-    0: set_KTX_Eum_engineT_Rev;
-    1: set_KTX_Eum_2nd_engineT_Rev;    
-}
-
-// 자유편성
-// 전진방향
-switch(FEAT_TRAINS, SELF, set_KTX_Eum_Free_engineH_Front, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, set_KTX_Eum_engineH_Front, cargo_subtype) {
     0: set_KTX_Eum_engineH;
     1: set_KTX_Eum_2nd_engineH;
     2: set_KTX_Eum_MD_engineH;
@@ -82,7 +27,18 @@ switch(FEAT_TRAINS, SELF, set_KTX_Eum_Free_engineH_Front, cargo_subtype) {
     7: set_KTX_Eum_SM3_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_wagon_M2, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_panto_wagon_M1_Front, cargo_subtype) {
+    0: set_KTX_Eum_panto_wagon_M1;
+    1: set_KTX_Eum_2nd_panto_wagon_M1;
+    2: set_KTX_Eum_MD_wagon_M1;
+    3: set_KTX_Eum_W_wagon_M1;
+    4: set_KTX_Eum_BK_wagon_M1;
+    5: set_KTX_Eum_SM1_wagon_M1;
+    6: set_KTX_Eum_SM2_wagon_M1;
+    7: set_KTX_Eum_SM3_wagon_M1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M2, cargo_subtype) {
     0: set_KTX_Eum_wagon_M2;
     1: set_KTX_Eum_2nd_wagon_M2;
     2: set_KTX_Eum_MD_wagon_M2;
@@ -93,7 +49,18 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_wagon_M2, cargo_subtype) {
     7: set_KTX_Eum_SM3_wagon_M2;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engineT_Front, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_panto_wagon_M4_Front, cargo_subtype) {
+    0: set_KTX_Eum_panto_wagon_M4;
+    1: set_KTX_Eum_2nd_panto_wagon_M4;
+    2: set_KTX_Eum_MD_wagon_M3;
+    3: set_KTX_Eum_W_wagon_M3;
+    4: set_KTX_Eum_BK_wagon_M3;
+    5: set_KTX_Eum_SM1_wagon_M3;
+    6: set_KTX_Eum_SM2_wagon_M3;
+    7: set_KTX_Eum_SM3_wagon_M3;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineT_Front, cargo_subtype) {
     0: set_KTX_Eum_engineT;
     1: set_KTX_Eum_2nd_engineT;
     2: set_KTX_Eum_MD_engineT;
@@ -105,7 +72,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engineT_Front, cargo_subtype) {
 }
 
 // 후진방향
-switch(FEAT_TRAINS, SELF, set_KTX_Eum_Free_engineH_Back, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, set_KTX_Eum_engineH_Back, cargo_subtype) {
     0: set_KTX_Eum_engineH_Rev;
     1: set_KTX_Eum_2nd_engineH_Rev;
     2: set_KTX_Eum_MD_engineH_Rev;
@@ -116,7 +83,29 @@ switch(FEAT_TRAINS, SELF, set_KTX_Eum_Free_engineH_Back, cargo_subtype) {
     7: set_KTX_Eum_SM3_engineH_Rev;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engineT_Back, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_panto_wagon_M1_Back, cargo_subtype) {
+    0: set_KTX_Eum_panto_wagon_M1_Rev;
+    1: set_KTX_Eum_2nd_panto_wagon_M1_Rev;
+    2: set_KTX_Eum_MD_wagon_M1_Rev;
+    3: set_KTX_Eum_W_wagon_M1_Rev;
+    4: set_KTX_Eum_BK_wagon_M1_Rev;
+    5: set_KTX_Eum_SM1_wagon_M1_Rev;
+    6: set_KTX_Eum_SM2_wagon_M1_Rev;
+    7: set_KTX_Eum_SM3_wagon_M1_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_panto_wagon_M4_Back, cargo_subtype) {
+    0: set_KTX_Eum_panto_wagon_M4_Rev;
+    1: set_KTX_Eum_2nd_panto_wagon_M4_Rev;
+    2: set_KTX_Eum_MD_wagon_M3_Rev;
+    3: set_KTX_Eum_W_wagon_M3_Rev;
+    4: set_KTX_Eum_BK_wagon_M3_Rev;
+    5: set_KTX_Eum_SM1_wagon_M3_Rev;
+    6: set_KTX_Eum_SM2_wagon_M3_Rev;
+    7: set_KTX_Eum_SM3_wagon_M3_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineT_Back, cargo_subtype) {
     0: set_KTX_Eum_engineT_Rev;
     1: set_KTX_Eum_2nd_engineT_Rev;
     2: set_KTX_Eum_MD_engineT_Rev;
@@ -124,55 +113,37 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engineT_Back, cargo_subtype) {
     4: set_KTX_Eum_BK_engineT_Rev;
     5: set_KTX_Eum_SM1_engineT_Rev;
     6: set_KTX_Eum_SM2_engineT_Rev;
-    7: set_KTX_Eum_SM3_engineT_Rev;    
+    7: set_KTX_Eum_SM3_engineT_Rev;
 }
 
 // 전후진 통합 코드
-// 고정편성
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Fixed_engineH, train_is_driving_backwards) {
-    0: set_KTX_Eum_Fixed_engineH_Front;
-    1: set_KTX_Eum_Fixed_engineH_Back;
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineH, train_is_driving_backwards) {
+    0: set_KTX_Eum_engineH_Front;
+    1: set_KTX_Eum_engineH_Back;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Fixed_panto_wagon_M1, train_is_driving_backwards) {
-    0: sw_KTX_Eum_Fixed_panto_wagon_M1_Front;
-    1: sw_KTX_Eum_Fixed_panto_wagon_M1_Back;
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_panto_wagon_M1, train_is_driving_backwards) {
+    0: sw_KTX_Eum_panto_wagon_M1_Front;
+    1: sw_KTX_Eum_panto_wagon_M1_Back;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Fixed_panto_wagon_M3, train_is_driving_backwards) {
-    0: sw_KTX_Eum_Fixed_panto_wagon_M3_Front;
-    1: sw_KTX_Eum_Fixed_panto_wagon_M3_Back;
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_panto_wagon_M4, train_is_driving_backwards) {
+    0: sw_KTX_Eum_panto_wagon_M4_Front;
+    1: sw_KTX_Eum_panto_wagon_M4_Back;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Fixed_engineT, train_is_driving_backwards) {
-    0: sw_KTX_Eum_Fixed_engineT_Front;
-    1: sw_KTX_Eum_Fixed_engineT_Back;
-}
-
-// 자유편성
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engineH, train_is_driving_backwards) {
-    0: set_KTX_Eum_Free_engineH_Front;
-    1: set_KTX_Eum_Free_engineH_Back;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engineT, train_is_driving_backwards) {
-    0: sw_KTX_Eum_Free_engineT_Front;
-    1: sw_KTX_Eum_Free_engineT_Back;
-}
-
-// 기관차
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_Free_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
-    1: sw_KTX_Eum_Free_engineT;
-    sw_KTX_Eum_Free_engineH;
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineT, train_is_driving_backwards) {
+    0: sw_KTX_Eum_engineT_Front;
+    1: sw_KTX_Eum_engineT_Back;
 }
 
 // 고정편성 그래픽
 switch (FEAT_TRAINS, SELF, sw_KTX_Eum_6car, position_in_vehid_chain % 6) {
-    0: sw_KTX_Eum_Fixed_engineH; //default
-    1: sw_KTX_Eum_Fixed_panto_wagon_M1;
-    2..3: sw_KTX_Eum_Fixed_wagon_M2;
-    4: sw_KTX_Eum_Fixed_panto_wagon_M3;
-    5: sw_KTX_Eum_Fixed_engineT;
+    0: sw_KTX_Eum_engineH; //default
+    1: sw_KTX_Eum_panto_wagon_M1;
+    2..3: sw_KTX_Eum_wagon_M2;
+    4: sw_KTX_Eum_panto_wagon_M4;
+    5: sw_KTX_Eum_engineT;
     }
 
 // 편성량

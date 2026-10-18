@@ -22,26 +22,20 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Cargo_320_engineT, train_is_driving_backwards) 
     1: set_KTX_Cargo_320_engineT_Rev;
 }
 
-// 기관차
-switch(FEAT_TRAINS, SELF, sw_KTX_Cargo_320_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
-    1: sw_KTX_Cargo_320_engineT;
-    sw_KTX_Cargo_320_engineH;
-}
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_KTX_Cargo_320_8car, position_in_vehid_chain % 8) {
+    0: sw_KTX_Cargo_320_engineH;
+    1: sw_KTX_Cargo_320_panto_wagon_M1;
+    2: set_KTX_Cargo_320_wagon_M2;
+    3: set_KTX_Cargo_320_wagon_M3;
+    4: set_KTX_Cargo_320_wagon_M2;
+    5: set_KTX_Cargo_320_wagon_M2;
+    6: sw_KTX_Cargo_320_panto_wagon_M4;
+    7: sw_KTX_Cargo_320_engineT;
+    }
 
-// 객차
-switch (FEAT_TRAINS, SELF, sw_KTX_Cargo_320_wagon_M3_front, position_in_vehid_chain) {
-    0: sw_KTX_Cargo_320_panto_wagon_M1;
-    1: set_KTX_Cargo_320_wagon_M2;
-    set_KTX_Cargo_320_wagon_M3;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Cargo_320_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0: sw_KTX_Cargo_320_panto_wagon_M4;
-    1..2: set_KTX_Cargo_320_wagon_M2;
-    sw_KTX_Cargo_320_wagon_M3_front;
-}
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Cargo_320_wagon, num_vehs_in_vehid_chain) {
-     1..255: sw_KTX_Cargo_320_wagon_full;
-    set_KTX_Cargo_320_wagon_M3;
-}
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Cargo_320_8car, extra_callback_info1) {
+    1..7: KTX_Cargo_320_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

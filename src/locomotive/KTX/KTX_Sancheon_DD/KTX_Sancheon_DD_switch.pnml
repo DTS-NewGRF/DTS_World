@@ -1,26 +1,30 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 자유객차
-switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_DD_wagon_front, position_in_vehid_chain) {
-    0: set_KTX_Sancheon_DD_wagon_T1;
-    1: set_KTX_Sancheon_DD_wagon_T2;
-    2: set_KTX_Sancheon_DD_wagon_T3;
-    3: set_KTX_Sancheon_DD_wagon_T2;
-    set_KTX_Sancheon_DD_wagon_T4;
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_DD_engineH, train_is_driving_backwards) {
+    0: set_KTX_Sancheon_DD_engineH;
+    1: set_KTX_Sancheon_DD_engineH_Rev;
 }
 
-switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_DD_wagon_back, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0: set_KTX_Sancheon_DD_wagon_T5;
-    set_KTX_Sancheon_DD_wagon_T4;
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_DD_engineT, train_is_driving_backwards) {
+    0: set_KTX_Sancheon_DD_engineT;
+    1: set_KTX_Sancheon_DD_engineT_Rev;
 }
 
-switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_DD_wagon_full, num_vehs_in_vehid_chain - 1 - position_in_vehid_chain) {
-    0..1: sw_KTX_Sancheon_DD_wagon_back;
-    sw_KTX_Sancheon_DD_wagon_front;
-}
+// 고정편성 그래픽
+switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_DD_10car, position_in_vehid_chain % 10) {
+    0: sw_KTX_Sancheon_DD_engineH; //default
+    1: set_KTX_Sancheon_DD_wagon_T1;
+    2: set_KTX_Sancheon_DD_wagon_T2;
+    3: set_KTX_Sancheon_DD_wagon_T3;
+    4..7: set_KTX_Sancheon_DD_wagon_T4;
+    8: set_KTX_Sancheon_DD_wagon_T5;
+    9: sw_KTX_Sancheon_DD_engineT;
+    }
 
-switch (FEAT_TRAINS, SELF, sw_KTX_Sancheon_DD_wagon, num_vehs_in_vehid_chain) {
-     1..255: sw_KTX_Sancheon_DD_wagon_full;
-    set_KTX_Sancheon_DD_wagon_T4;
-}
+// 편성수
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Sancheon_DD_10car, extra_callback_info1) {
+    1..9: KTX_Sancheon_DD_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

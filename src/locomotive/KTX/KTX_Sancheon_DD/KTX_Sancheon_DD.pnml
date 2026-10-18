@@ -8,20 +8,22 @@ KTX-산천 DD
 #include "KTX_Sancheon_DD_switch.pnml"
 
 /*--------------------------------------------------------------------
-객차
+열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, KTX_Sancheon_DD_wagon, 1031){
+item(FEAT_TRAINS, KTX_Sancheon_DD_10Car, 1031){
     property {
-        name:                           string(NAME_KTX_Sancheon_DD_wagon);
+        name:                           string(NAME_KTX_Sancheon_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
+        variant_group:                  KTX_Logo;
         
         //spec
-        weight:                         39 ton;
+        speed:                          300km/h;
+        power:                          8800 kW;
+        weight:                         350 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -32,7 +34,7 @@ item(FEAT_TRAINS, KTX_Sancheon_DD_wagon, 1031){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 75;
+        cargo_capacity:                 60;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -47,11 +49,14 @@ item(FEAT_TRAINS, KTX_Sancheon_DD_wagon, 1031){
         extra_weight_per_wagon:         35 ton;
         }
 
-    graphics {
-        default:                        sw_KTX_Sancheon_DD_wagon;
-        purchase:                       set_KTX_Sancheon_DD_wagon_purchase;
+	graphics {
+        default:                        sw_KTX_Sancheon_DD_10car;
+        articulated_part:               sw_articulated_KTX_Sancheon_DD_10car;
+        purchase:                       set_KTX_Sancheon_DD_purchase;
+        speed:                          sw_High_305_350_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        sound_effect:                   sw_KTXSC140000start_sound;
         }
         }

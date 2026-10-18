@@ -336,40 +336,28 @@ NAME_ITX_CheongChun_wagon                  : ITX-CheongChun
 NAME_ITX_CheongChun_DD_engine              : ITX-CheongChun DD
 NAME_ITX_CheongChun_DD_wagon               : [2Car] ITX-CheongChun DD
 NAME_Group_KTX                             : KTX
-NAME_KTX_Cargo_260_engine                  : KTX-Cargo 260
-NAME_KTX_Cargo_260_wagon                   : KTX-Cargo 260
+NAME_KTX_Cargo_260_6Car                    : [6Car] KTX-Cargo 260
 NAME_KTX_Eum_6Car                          : [6Car] KTX-EUM
-NAME_KTX_Eum_engine                        : KTX-EUM
-NAME_KTX_Eum_wagon                         : KTX-EUM
-
-NAME_Group_KTX_Sancheon                 : KTX-Sancheon
-NAME_KTX_1_20Car                        : [20Car] TGV-K
-NAME_KTX_1_engine                       : TGV-K
-NAME_KTX_1_wagon                        : TGV-K
-
-NAME_KTX_Cargo_300_engine               : KTX-Cargo 300
-NAME_KTX_Cargo_300_wagon                : KTX-Cargo 300
-NAME_KTX_Cargo_320_engine               : KTX-Cargo 320
-NAME_KTX_Cargo_320_wagon                : KTX-Cargo 320
-NAME_KTX_Cheong_Ryong_8Car              : [8Car] KTX-Cheong Ryong
-NAME_KTX_Cheong_Ryong_engine            : KTX-Cheong Ryong
-NAME_KTX_Cheong_Ryong_wagon             : KTX-Cheong Ryong
-NAME_KTX_Cheong_Ryong_DD_engine         : KTX-Cheong Ryong DD
-NAME_KTX_Cheong_Ryong_DD_wagon          : KTX-Cheong Ryong DD
-NAME_KTX_Chowol_engine                  : KTX-Chowol
-NAME_KTX_Chowol_wagon                   : KTX-Chowol
-NAME_KTX_Chowol_DD_wagon                : KTX-Chowol DD
-NAME_KTX_Eum_DD_engine                  : KTX-EUM DD
-NAME_KTX_Eum_DD_wagon                   : KTX-EUM DD
-NAME_KTX_Onnuri_engine                  : KTX-Onnuri
-NAME_KTX_Onnuri_wagon                   : KTX-Onnuri
-NAME_KTX_Onnuri_DD_wagon                : KTX-Onnuri DD
-NAME_KTX_Sancheon_10Car                 : [10Car] KTX-Sancheon, SRT
-NAME_KTX_Sancheon_engine                : KTX-Sancheon
-NAME_KTX_Sancheon_wagon                 : KTX-Sancheon
-NAME_KTX_Sancheon_DD_wagon              : KTX-Sancheon DD
-NAME_KTX_Taegeuk_engine                 : KTX-Taegeuk
-NAME_KTX_Taegeuk_wagon                  : KTX Taegeuk
+NAME_KTX_Eum_DD_6Car                       : [6Car] KTX-EUM DD
+NAME_KTX_1_20Car                           : [20Car] TGV-K
+NAME_KTX_Sancheon_10Car                    : [10Car] KTX-Sancheon
+NAME_KTX_Sancheon_C_engine                 : KTX-Sancheon C
+NAME_KTX_Sancheon_C_wagon_4Car             : [4Car] KTX-Sancheon C
+NAME_KTX_Sancheon_C_wagon_8Car             : [8Car] KTX-Sancheon C
+NAME_KTX_Sancheon_Cargo                    : KTX-Sancheon Cargo
+NAME_KTX_Sancheon_DD_10Car                 : [10Car] KTX-Sancheon DD
+NAME_KTX_Cargo_320_8Car                    : [8Car] KTX-Cargo 320
+NAME_Group_KTX_Cheong_Ryong                : KTX-Cheong Ryong
+NAME_KTX_Cheong_Ryong_8Car                 : [8Car] KTX-Cheong Ryong
+NAME_KTX_Cheong_Ryong_Export_8Car          : [8Car] KTX-Cheong Ryong Export
+NAME_KTX_Cheong_Ryong_Export_12Car         : [12Car] KTX-Cheong Ryong Export
+NAME_KTX_Cheong_Ryong_Export_16Car         : [16Car] KTX-Cheong Ryong Export
+NAME_KTX_Cheong_Ryong_DD_8Car              : [8Car] KTX-Cheong Ryong DD
+NAME_KTX_Chowol_8Car                       : [8Car] KTX-Chowol
+NAME_Group_KTX_Onnuri                      : KTX-Onnuri
+NAME_KTX_Onnuri_8Car                       : [8Car] KTX-Onnuri
+NAME_KTX_Onnuri_10Car                      : [10Car] KTX-Onnuri
+NAME_KTX_Taegeuk_12Car                     : [12Car] KTX-Taegeuk
 NAME_Group_CRH                          : CRH
 NAME_CRH380AJ_8Car                      : [8Car] CRH380AJ
 NAME_Group_CR400AF                      : CR400AF
@@ -540,7 +528,6 @@ STR_Group_227_Series_EMU_500_NAME                      :227 Series EMU 500
 STR_227_Series_EMU_500_2Car_NAME                       :[2Car] 227 Series EMU 500
 STR_227_Series_EMU_500_3Car_NAME                       :[3Car] 227 Series EMU 500
 NAME_Train_Car                          : Train Car
-NAME_CTX_wagon                          : CTX
 STR_Group_Travel_wagon_NAME                            :Travel Train
 STR_A_Train_NAME                                       :[4Car] A-Train Passenger Car
 STR_Asean_Korea_NAME                                   :[7Car] ASEAN Korea
@@ -836,38 +823,37 @@ Livery_KTX_Eum_BK                          : Black Livery
 Livery_KTX_Eum_SM1                         : Saemaeul First Livery
 Livery_KTX_Eum_SM2                         : Saemaeul Second Livery
 Livery_KTX_Eum_SM3                         : Saemaeul Third Livery
-Livery_KTX_1_1997                       : Special 4Car
-Livery_KTX_1_2007                       : Move Cinema
-Livery_KTX_1_2013                       : LTE-A
-Livery_KTX_1_2017                       : Special 3Car
-Livery_KTX_Cheong_Ryong_Eum             : KTX-Eum
-Livery_KTX_Cheong_Ryong                 : KTX-Cheong Ryong
-Livery_KTX_Cheong_Ryong_2nd             : KTX-Cheong Ryong 2nd
-Livery_SRT_320                          : SRT 320
-Livery_KTX_Cheong_Ryong_BK              : Black Livery
-Livery_KTX_Cheong_Ryong_CC              : Company Colour
-Livery_KTX_Cheong_Ryong_Euro            : Euro
-Livery_KTX_Cheong_Ryong_ICE             : ICE
-Livery_KTX_Cheong_Ryong_JR              : JR
-Livery_KTX_Cheong_Ryong_SRT_A           : SRT A
-Livery_KTX_Cheong_Ryong_SRT_B           : SRT B
-Livery_KTX_Cheong_Ryong_SRT_C           : SRT C
-Livery_KTX_Cheong_Ryong_SRT_D           : SRT D
-Livery_KTX_Cheong_Ryong_SRT_E           : SRT E
-Livery_KTX_Cheong_Ryong_THRS            : THRS
-Livery_KTX_Cheong_Ryong_DD              : KTX-Cheong Ryong
-Livery_KTX_Cheong_Ryong_DD_BK           : Black Livery
-Livery_KTX_Cheong_Ryong_DD_CC           : Company Color
-Livery_KTX_Cheong_Ryong_DD_2nd          : KTX-Cheong Ryong 2nd
+Livery_KTX_1_1997                          : Special 4Car
+Livery_KTX_1_2007                          : Move Cinema
+Livery_KTX_1_2013                          : LTE-A
+Livery_KTX_1_2017                          : Special 3Car
+Livery_KTX_Sancheon_A1                     : KTX-Sancheon Atype 1
+Livery_KTX_Sancheon_A2                     : KTX-Sancheon Atype 2
+Livery_KTX_Sancheon_B                      : KTX-Sancheon Btype 1
+Livery_KTX_Sancheon_BP                     : KTX-Sancheon Btype 2
+Livery_KTX_Gyeonggang_Blue                 : KTX-Gyeonggang Blue Livery
+Livery_KTX_Gyeonggang_White                : KTX-Gyeonggang White Livery
+Livery_KTX_Honam_Sky_blue                  : KTX-Sancheon 120000 1
+Livery_KTX_Honam_Yellow                    : KTX-Sancheon 120000 2
+Livery_KTX_Cheong_Ryong_Eum                : KTX-Eum
+Livery_KTX_Cheong_Ryong                    : KTX-Cheong Ryong
+Livery_KTX_Cheong_Ryong_2nd                : KTX-Cheong Ryong 2nd
+Livery_SRT_320                             : SRT 320
+Livery_KTX_Cheong_Ryong_BK                 : Black Livery
+Livery_KTX_Cheong_Ryong_CC                 : Company Colour
+Livery_KTX_Cheong_Ryong_SRT_A              : SRT A
+Livery_KTX_Cheong_Ryong_SRT_B              : SRT B
+Livery_KTX_Cheong_Ryong_SRT_C              : SRT C
+Livery_KTX_Cheong_Ryong_SRT_D              : SRT D
+Livery_KTX_Cheong_Ryong_SRT_E              : SRT E
+Livery_KTX_Cheong_Ryong_ICE                : ICE
+Livery_KTX_Cheong_Ryong_Euro               : Euro
+Livery_KTX_Cheong_Ryong_JR                 : JR
+Livery_KTX_Cheong_Ryong_DD                 : KTX-Cheong Ryong
+Livery_KTX_Cheong_Ryong_DD_BK              : Black Livery
+Livery_KTX_Cheong_Ryong_DD_CC              : Company Color
+Livery_KTX_Cheong_Ryong_DD_2nd             : KTX-Cheong Ryong 2nd
 
-Livery_KTX_Gyeonggang_Blue              : KTX-Gyeonggang Blue Livery
-Livery_KTX_Gyeonggang_White             : KTX-Gyeonggang White Livery
-Livery_KTX_Honam_Sky_blue               : KTX-Sancheon 120000 1
-Livery_KTX_Honam_Yellow                 : KTX-Sancheon 120000 2
-Livery_KTX_Sancheon_A1                  : KTX-Sancheon Atype 1
-Livery_KTX_Sancheon_A2                  : KTX-Sancheon Atype 2
-Livery_KTX_Sancheon_B                   : KTX-Sancheon Btype 1
-Livery_KTX_Sancheon_BP                  : KTX-Sancheon Btype 2
 STR_REFIT_LIVERY_CRH380A                               : CRH380A
 STR_REFIT_LIVERY_Vibrant_Express                       : Vibrant Express
 STR_REFIT_LIVERY_CR400BF_C                             : Golden Phoenix Livery

@@ -1,25 +1,24 @@
 /*--------------------------------------------------------------------
-KTX-카고 300
+KTX-산천 C
 --------------------------------------------------------------------*/
 // Graphics
-#include "KTX_Cargo_300_graphic.pnml"
+#include "KTX_Sancheon_C_graphic.pnml"
 
 // Switch
-#include "KTX_Cargo_300_switch.pnml"
+#include "KTX_Sancheon_C_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 화물전용
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, KTX_Cargo_300_engine, 1048){
+item(FEAT_TRAINS, KTX_Sancheon_C_engine, 1048){
     property {
-        name:                           string(NAME_KTX_Cargo_300_engine);
+        name:                           string(NAME_KTX_Sancheon_C_engine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         variant_group:                  KTX_Logo;
-        dual_headed:                    1;
         
         //spec
         speed:                          300km/h;
@@ -35,7 +34,7 @@ item(FEAT_TRAINS, KTX_Cargo_300_engine, 1048){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 60;
+        cargo_capacity:                 1;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [MAIL, VALU];
@@ -46,14 +45,15 @@ item(FEAT_TRAINS, KTX_Cargo_300_engine, 1048){
         running_cost_base:              RUNNING_COST_DIESEL;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
 
 	graphics {
-        default:                        sw_KTX_Cargo_300_engine;
-        purchase:                       set_KTX_Cargo_300_engine_purchase;
-        speed:                          sw_High_305_speed;
+        default:                        sw_KTX_Sancheon_C_engine;
+        purchase:                       set_KTX_Sancheon_C_purchase;
+        speed:                          sw_High_305_330_speed;
+        cargo_capacity:                 0;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -62,60 +62,11 @@ item(FEAT_TRAINS, KTX_Cargo_300_engine, 1048){
         }
 
 /*--------------------------------------------------------------------
-열차정보 화물전용
+열차정보 승객전용
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, KTX_Cargo_300_wagon, 1049){
+item(FEAT_TRAINS, KTX_Sancheon_C_wagon_4Car, 1075){
     property {
-        name:                           string(NAME_KTX_Cargo_300_wagon);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2020, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
-        
-        //spec
-        weight:                         37 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 60;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [MAIL, VALU];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_DIESEL;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT);
-        extra_weight_per_wagon:         35 ton;
-        }
-
-	graphics {
-        default:                        set_KTX_Cargo_300_wagon;
-        purchase:                       set_KTX_Cargo_300_wagon_purchase;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        }
-        }
-
-/*--------------------------------------------------------------------
-열차정보 화물전용
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, CTX_wagon, 1075){
-    property {
-        name:                           string(NAME_CTX_wagon);
+        name:                           string(NAME_KTX_Sancheon_C_wagon_4Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
@@ -146,13 +97,113 @@ item(FEAT_TRAINS, CTX_wagon, 1075){
         running_cost_base:              RUNNING_COST_DIESEL;
         
         //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_KTX_Sancheon_C_wagon_4car;
+        articulated_part:               sw_articulated_KTX_Sancheon_C_wagon_4car;
+        purchase:                       set_KTX_Sancheon_C_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 승객전용
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Sancheon_C_wagon_8Car, 1165){
+    property {
+        name:                           string(NAME_KTX_Sancheon_C_wagon_8Car);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         37 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 60;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_KTX_Sancheon_C_wagon_8car;
+        articulated_part:               sw_articulated_KTX_Sancheon_C_wagon_8car;
+        purchase:                       set_KTX_Sancheon_C_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 화물전용
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Sancheon_Cargo, 1049){
+    property {
+        name:                           string(NAME_KTX_Sancheon_Cargo);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         37 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 60;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [MAIL, VALU];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        
+        //Flags
         misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
         }
 
 	graphics {
-        default:                        sw_CTX_Free_wagon;
-        purchase:                       set_CTX_wagon_purchase;
+        default:                        set_KTX_Sancheon_Cargo;
+        purchase:                       set_KTX_Sancheon_Cargo_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

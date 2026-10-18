@@ -53,7 +53,7 @@ item(FEAT_TRAINS, HYEL_120_Unit, 1117){
     graphics {
         default:                        sw_HYEL_120_Unit_engine;
         purchase:                       set_HYEL_120_Unit_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Regular_150_165_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;
