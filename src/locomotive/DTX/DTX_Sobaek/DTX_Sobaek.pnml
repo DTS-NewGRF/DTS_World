@@ -53,7 +53,7 @@ item(FEAT_TRAINS, DTX_Sobaek_engine, 1103){
 	graphics {
         default:                        sw_DTX_Sobaek_engine;
         purchase:                       set_DTX_Sobaek_engine_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Regular_150_165_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
