@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_500, 2202){
     property {
-        name:                           string(STR_Group_Shinkansen_500_NAME);
+        name:                           string(NAME_Group_Shinkansen_500);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, Shinkansen_500, 2202){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_500_8Car, 2086){
     property {
-        name:                           string(STR_Shinkansen_500_8Car_NAME);
+        name:                           string(NAME_Shinkansen_500_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1997, 3, 22);
         track_type:                     ELRL;
@@ -85,7 +85,7 @@ item(FEAT_TRAINS, Shinkansen_500_8Car, 2086){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_500_16Car, 2062){
     property {
-        name:                           string(STR_Shinkansen_500_16Car_NAME);
+        name:                           string(NAME_Shinkansen_500_16Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1997, 3, 22);
         track_type:                     ELRL;

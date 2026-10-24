@@ -9,7 +9,7 @@ TGV
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, TGV_Logo, 2600){
     property {
-        name:                           string(STR_Group_TGV_Logo_NAME);
+        name:                           string(NAME_Group_TGV);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -25,12 +25,12 @@ item(FEAT_TRAINS, TGV_Logo, 2600){
 /*--------------------------------------------------------------------
 열차 리스트
 --------------------------------------------------------------------*/
-#include "TGV_A/TGV_A.pnml"
 #include "TGV_Duplex/TGV_Duplex.pnml"
-#include "TGV_La_Poste/TGV_La_Poste.pnml"
-#include "TGV_M/TGV_M.pnml"
 #include "TGV_Pos/TGV_Pos.pnml"
 #include "Thalys_PBKA/Thalys_PBKA.pnml"
-#include "TGV_R/TGV_R.pnml"
 #include "TGV_Sud_Est/TGV_Sud_Est.pnml"
 #include "TGV_Reseau_Dulpex/TGV_Reseau_Duplex.pnml"
+#include "TGV_A/TGV_A.pnml"
+#include "TGV_R/TGV_R.pnml"
+#include "TGV_La_Poste/TGV_La_Poste.pnml"
+#include "TGV_M/TGV_M.pnml"

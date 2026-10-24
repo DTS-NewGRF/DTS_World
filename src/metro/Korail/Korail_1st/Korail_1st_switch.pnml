@@ -244,13 +244,6 @@ switch(FEAT_TRAINS, SELF, sw_Korail_1st_10Car_sound, cargo_subtype) {
 // 속도
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_10Car_speed, cargo_subtype) {
     0: sw_Metro_110_speed;
-    1: sw_Metro_110_speed;
-    2: sw_Metro_110_speed;
-    3: sw_Metro_110_speed;
-    4: sw_Metro_110_speed;
-    5: sw_Metro_110_speed;
-    6: sw_Metro_110_speed;
     7: sw_Metro_90_110_speed;
     8: sw_Metro_90_110_speed;
-    9: sw_Metro_110_speed;
 }

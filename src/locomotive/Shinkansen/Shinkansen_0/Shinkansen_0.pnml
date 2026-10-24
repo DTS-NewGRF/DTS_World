@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_0, 2197){
     property {
-        name:                           string(STR_Group_Shinkansen_0_NAME);
+        name:                           string(NAME_Group_Shinkansen_0);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, Shinkansen_0, 2197){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_0_12Car, 2085){
     property {
-        name:                           string(STR_Shinkansen_0_12Car_NAME);
+        name:                           string(NAME_Shinkansen_0_12Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1964, 10, 1);
         track_type:                     ELRL;
@@ -72,7 +72,7 @@ item(FEAT_TRAINS, Shinkansen_0_12Car, 2085){
         default:                        sw_Shinkansen_0_12car;
         articulated_part:               sw_articulated_Shinkansen_0_12car;
         purchase:                       set_Shinkansen_0_purchase;
-        speed:                          sw_High_220_speed;
+        speed:                          sw_High_220_230_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -85,7 +85,7 @@ item(FEAT_TRAINS, Shinkansen_0_12Car, 2085){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_0_16Car, 2126){
     property {
-        name:                           string(STR_Shinkansen_0_16Car_NAME);
+        name:                           string(NAME_Shinkansen_0_16Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1964, 10, 1);
         track_type:                     ELRL;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, Shinkansen_0_16Car, 2126){
         default:                        sw_Shinkansen_0_16car;
         articulated_part:               sw_articulated_Shinkansen_0_16car;
         purchase:                       set_Shinkansen_0_purchase;
-        speed:                          sw_High_220_speed;
+        speed:                          sw_High_220_230_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

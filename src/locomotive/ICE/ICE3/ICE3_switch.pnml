@@ -3,11 +3,11 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_ICE3_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_ICE3_red);      // ICE 3 레드
-    1: return string(STR_REFIT_LIVERY_ICE3_green);   // ICE 3 그린
-    2: return string(STR_REFIT_LIVERY_ICE3M_red);   // ICE 3M 레드
-    3: return string(STR_REFIT_LIVERY_ICE3M_green);   // ICE 3M 그린
-    4: return string(STR_REFIT_LIVERY_ICE3M_Blue);   // ICE 3M 블루
+    0: return string(Livery_ICE3_red);      // ICE 3 레드
+    1: return string(Livery_ICE3_green);   // ICE 3 그린
+    2: return string(Livery_ICE3M_red);   // ICE 3M 레드
+    3: return string(Livery_ICE3M_green);   // ICE 3M 그린
+    4: return string(Livery_ICE3M_Blue);   // ICE 3M 블루
 }
 
 // 도색그래픽 세팅

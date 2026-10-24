@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_E5_H5_10Car, 2092){
     property {
-        name:                           string(STR_Shinkansen_E5_H5_10Car_NAME);
+        name:                           string(NAME_Shinkansen_E5_H5_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2011, 3, 5);
         track_type:                     ELRL;

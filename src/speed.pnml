@@ -262,6 +262,12 @@ switch(FEAT_TRAINS, SELF, sw_High_220_speed, Speed_Train) {
     2: return 260;
     }
 
+switch(FEAT_TRAINS, SELF, sw_High_220_230_speed, Speed_Train) {
+    0: return 220;
+    1: return 230;
+    2: return 260;
+    }
+
 /*--------------------------------------------------------------------
 속도 250
 --------------------------------------------------------------------*/
@@ -334,6 +340,12 @@ switch(FEAT_TRAINS, SELF, sw_High_285_speed_Test, Speed_Train) {
 switch(FEAT_TRAINS, SELF, sw_High_300_speed, Speed_Train) {
     0: return 300;
     1: return 300;
+    2: return High_Speed_Train;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_High_300_360_speed, Speed_Train) {
+    0: return 300;
+    1: return 360;
     2: return High_Speed_Train;
     }
 

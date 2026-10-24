@@ -25,15 +25,9 @@ item(FEAT_TRAINS, CRH, 2518){
 /*--------------------------------------------------------------------
 열차 리스트
 --------------------------------------------------------------------*/
-#include "CR380AJ/CR380AJ.pnml"
-#include "CR400AF/CR400AF.pnml"
-#include "CR400AF_Z/CR400AF_Z.pnml"
-#include "CR400BF/CR400BF.pnml"
-#include "CR400BF_C/CR400BF_C.pnml"
-#include "CR400BF_Z/CR400BF_Z.pnml"
 #include "CRH1/CRH1.pnml"
-#include "CRH1A_A/CRH1A_A.pnml"
 #include "CRH1E/CRH1E.pnml"
+#include "CRH1A_A/CRH1A_A.pnml"
 #include "CRH2/CRH2.pnml"
 #include "CRH2C/CRH2C.pnml"
 #include "CRH3/CRH3.pnml"
@@ -41,3 +35,9 @@ item(FEAT_TRAINS, CRH, 2518){
 #include "CRH380B/CRH380B.pnml"
 #include "CRH380C/CRH380C.pnml"
 #include "CRH380D/CRH380D.pnml"
+#include "CR400AF/CR400AF.pnml"
+#include "CR400AF_Z/CR400AF_Z.pnml"
+#include "CR400BF/CR400BF.pnml"
+#include "CR400BF_C/CR400BF_C.pnml"
+#include "CR400BF_Z/CR400BF_Z.pnml"
+#include "CR380AJ/CR380AJ.pnml"

@@ -12,7 +12,7 @@ E300 유로스타
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Eurostar_E300, 2544){
     property {
-        name:                           string(STR_Group_Eurostar_E300_NAME);
+        name:                           string(NAME_Group_Eurostar_E300);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -30,7 +30,7 @@ item(FEAT_TRAINS, Eurostar_E300, 2544){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Eurostar_E300_16Car, 2545){
     property {
-        name:                           string(STR_Eurostar_E300_16Car_NAME);
+        name:                           string(NAME_Eurostar_E300_16Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1992, 1, 1);
         track_type:                     ELRL;
@@ -86,7 +86,7 @@ item(FEAT_TRAINS, Eurostar_E300_16Car, 2545){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Eurostar_E300_20Car, 2065){
     property {
-        name:                           string(STR_Eurostar_E300_20Car_NAME);
+        name:                           string(NAME_Eurostar_E300_20Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1992, 1, 1);
         track_type:                     ELRL;

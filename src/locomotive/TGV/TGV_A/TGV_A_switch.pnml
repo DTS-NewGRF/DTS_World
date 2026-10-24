@@ -3,9 +3,9 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_TGV_A_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_TGV_Atlantic);
-    1: return string(STR_REFIT_LIVERY_TGV_Lacroix);
-    2: return string(STR_REFIT_LIVERY_TGV_Carmillon);
+    0: return string(Livery_TGV_Atlantic);
+    1: return string(Livery_TGV_Lacroix);
+    2: return string(Livery_TGV_Carmillon);
 }
 
 // 도색그래픽 세팅

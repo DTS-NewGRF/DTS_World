@@ -9,7 +9,7 @@ Renfe
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Renfe_Logo, 2601){
     property {
-        name:                           string(STR_Group_Renfe_Logo_NAME);
+        name:                           string(NAME_Group_Renfe);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -25,7 +25,7 @@ item(FEAT_TRAINS, Renfe_Logo, 2601){
 /*--------------------------------------------------------------------
 열차 리스트
 --------------------------------------------------------------------*/
+#include "Renfe_S_130/Renfe_S_130.pnml"
 #include "Renfe_S_100/Renfe_S_100.pnml"
 #include "Renfe_S_102/Renfe_S_102.pnml"
 #include "Renfe_S_103/Renfe_S_103.pnml"
-#include "Renfe_S_130/Renfe_S_130.pnml"

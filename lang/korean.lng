@@ -358,90 +358,90 @@ NAME_Group_KTX_Onnuri                      : KTX-온누리
 NAME_KTX_Onnuri_8Car                       : [8량] KTX-온누리
 NAME_KTX_Onnuri_10Car                      : [10량] KTX-온누리
 NAME_KTX_Taegeuk_12Car                     : [12량] KTX-태극
-NAME_Group_CRH                          : CRH
-NAME_CRH380AJ_8Car                      : [8량] CRH380AJ
-NAME_Group_CR400AF                      : CR400AF
-NAME_CR400AF_8Car                       : [8량] CR400AF
-NAME_CR400AF_16Car                      : [16량] CR400AF
-NAME_CR400AF_17Car                      : [17량] CR400AF
-NAME_Group_CR400AF_Z                    : CR400AF-Z
-NAME_CR400AF_Z_8Car                     : [8량] CR400AF-Z
-NAME_CR400AF_Z_17Car                    : [17량] CR400AF-Z
-NAME_Group_CR400BF                      : CR400BF
-NAME_CR400BF_8Car                       : [8량] CR400BF
-NAME_CR400BF_16Car                      : [16량] CR400BF
-NAME_CR400BF_17Car                      : [17량] CR400BF
-STR_CR400BF_C_8Car_NAME                                :[8량] CR400BF-C
-STR_Group_CR400BF_Z_NAME                               :CR400BF-Z
-STR_CR400BF_Z_8Car_NAME                                :[8량] CR400BF-Z
-STR_CR400BF_Z_17Car_NAME                               :[17량] CR400BF-Z
-STR_CRH1_8Car_NAME                                     :[8량] CRH1A
-STR_CRH1A_A_8Car_NAME                                  :[8량] CRH1A-A
-STR_CRH1E_16Car_NAME                                   :[16량] CRH1E
-STR_CRH2_8Car_NAME                                     :[8량] CRH2A
-STR_CRH2_16Car_NAME                                    :[16량] CRH2B
-STR_CRH2C_8Car_NAME                                    :[8량] CRH2C
-STR_CRH3_8Car_NAME                                     :[8량] CRH3C
-STR_CRH380A_8Car_NAME                                  :[8량] CRH380A
-STR_CRH380A_16Car_NAME                                 :[16량] CRH380AL
-STR_CRH380B_8Car_NAME                                  :[8량] CRH380B
-STR_CRH380B_16Car_NAME                                 :[16량] CRH380BL
-STR_CRH380C_16Car_NAME                                 :[16량] CRH380CL
-STR_Group_CRH380D_NAME                                 :CRH380D
-STR_CRH380D_8Car_NAME                                  :[8량] CRH380D
-STR_CRH380D_16Car_NAME                                 :[16량] CRH380D
-STR_Group_Eurostar_Logo_NAME                           :유로스타
-STR_Group_Eurostar_E300_NAME                           :유로스타 E300
-STR_Eurostar_E300_16Car_NAME                           :[16량] 유로스타 E300
-STR_Eurostar_E300_20Car_NAME                           :[20량] 유로스타 E300
-STR_Eurostar_E320_16Car_NAME                           :[16량] 유로스타 E320
-NAME_Group_ICE                          : ICE
-STR_ICE1_14Car_NAME                                    :[14량] ICE1
-STR_ICE2_8Car_NAME                                     :[8량] ICE2
-STR_ICE3_8Car_NAME                                     :[8량] ICE3
-STR_ICE3V_8Car_NAME                                    :[8량] ICE3 (벨라로 D)
-STR_Group_ICE4_NAME                                    :ICE4
-STR_ICE4_7Car_NAME                                     :[7량] ICE4
-STR_ICE4_12Car_NAME                                    :[12량] ICE4
-STR_Group_Renfe_Logo_NAME                              :Renfe
-STR_Renfe_S_100_10Car_NAME                             :[10량] 렌페 AVE S-100
-STR_Renfe_S_102_14Car_NAME                             :[14량] 렌페 AVE S-102
-STR_Renfe_S_103_8Car_NAME                              :[8량] 렌페 AVE S-103
-STR_Renfe_S_130_13Car_NAME                             :[13량] 렌페 S-130
-STR_Group_Shinkansen_Logo_NAME                         :신칸센
-STR_Group_Shinkansen_0_NAME                            :신칸센 0계
-STR_Shinkansen_0_12Car_NAME                            :[12량] 신칸센 0계
-STR_Shinkansen_0_16Car_NAME                            :[16량] 신칸센 0계
-STR_Group_Shinkansen_500_NAME                          :신칸센 500계
-STR_Shinkansen_500_8Car_NAME                           :[8량] 신칸센 500계
-STR_Shinkansen_500_16Car_NAME                          :[16량] 신칸센 500계
-STR_Group_Shinkansen_700_NAME                          :신칸센 700계
-STR_Shinkansen_700_8Car_NAME                           :[8량] 신칸센 700계 레일스타
-STR_Shinkansen_700_16Car_NAME                          :[16량] 신칸센 700계
-STR_Shinkansen_800_6Car_NAME                           :[6량] 신칸센 800계
-STR_Shinkansen_923_7Car_NAME                           :[7량] 신칸센 923형 (닥터 옐로우)
-STR_Shinkansen_E2_10Car_NAME                           :[10량] 신칸센 E2계
-STR_Group_Shinkansen_E5_H5_NAME                        :신칸센 E5·H5계
-STR_Shinkansen_E5_H5_10Car_NAME                        :[10량] 신칸센 E5·H5계
-STR_Shinkansen_E6_7Car_NAME                            :[7량] 신칸센 E6계
-STR_Shinkansen_E7_W7_12Car_NAME                        :[12량] 신칸센 E7·W7계
-STR_Shinkansen_E8_7Car_NAME                            :[7량] 신칸센 E8계
-STR_Group_Shinkansen_N700_NAME                         :신칸센 N700계
-STR_Shinkansen_N700_8Car_NAME                          :[8량] 신칸센 N700계 큐슈
-STR_Shinkansen_N700_16Car_NAME                         :[16량] 신칸센 N700계
-STR_Group_Shinkansen_N700S_NAME                        :신칸센 N700S계
-STR_Shinkansen_N700S_6Car_NAME                         :[6량] 신칸센 N700S계 니시큐슈
-STR_Shinkansen_N700S_16Car_NAME                        :[16량] 신칸센 N700S계
-STR_Group_TGV_Logo_NAME                                :TGV
-STR_TGV_A_12Car_NAME                                   :[12량] TGV 아틀랑티크
-STR_TGV_Duplex_10Car_NAME                              :[10량] TGV 듀플렉스
-STR_TGV_La_Poste_10Car_NAME                            :[10량] TGV 라포스트
-STR_TGV_M_11Car_NAME                                   :[11량] TGV M
-STR_TGV_R_10Car_NAME                                   :[10량] TGV 레조
-STR_TGV_Pos_10Car_NAME                                 :[10량] TGV 포스
-STR_TGV_Reseau_Duplex_10Car_NAME                       :[10량] TGV 레조 듀플렉스
-STR_TGV_Sud_Est_10Car_NAME                             :[10량] TGV 쉬드-에스트
-STR_Thalys_PBKA_10Car_NAME                             :[10량] 탈리스 PBKA
+NAME_Group_CRH                             : CRH
+NAME_CRH1_8Car                             : [8량] CRH1A
+NAME_CRH1E_16Car                           : [16량] CRH1E
+NAME_CRH1A_A_8Car                          : [8량] CRH1A-A
+NAME_CRH2_8Car                             : [8량] CRH2A
+NAME_CRH2_16Car                            : [16량] CRH2B
+NAME_CRH2C_8Car                            : [8량] CRH2C
+NAME_CRH3_8Car                             : [8량] CRH3C
+NAME_CRH380A_8Car                          : [8량] CRH380A
+NAME_CRH380A_16Car                         : [16량] CRH380AL
+NAME_CRH380B_8Car                          : [8량] CRH380B
+NAME_CRH380B_16Car                         : [16량] CRH380BL
+NAME_CRH380C_16Car                         : [16량] CRH380CL
+NAME_Group_CRH380D                         : CRH380D
+NAME_CRH380D_8Car                          : [8량] CRH380D
+NAME_CRH380D_16Car                         : [16량] CRH380D
+NAME_Group_CR400AF                         : CR400AF
+NAME_CR400AF_8Car                          : [8량] CR400AF
+NAME_CR400AF_16Car                         : [16량] CR400AF
+NAME_CR400AF_17Car                         : [17량] CR400AF
+NAME_Group_CR400AF_Z                       : CR400AF-Z
+NAME_CR400AF_Z_8Car                        : [8량] CR400AF-Z
+NAME_CR400AF_Z_17Car                       : [17량] CR400AF-Z
+NAME_Group_CR400BF                         : CR400BF
+NAME_CR400BF_8Car                          : [8량] CR400BF
+NAME_CR400BF_16Car                         : [16량] CR400BF
+NAME_CR400BF_17Car                         : [17량] CR400BF
+NAME_CR400BF_C_8Car                        : [8량] CR400BF-C
+NAME_Group_CR400BF_Z                       : CR400BF-Z
+NAME_CR400BF_Z_8Car                        : [8량] CR400BF-Z
+NAME_CR400BF_Z_17Car                       : [17량] CR400BF-Z
+NAME_CRH380AJ_8Car                         : [8량] CRH380AJ
+NAME_Group_Eurostar                        : 유로스타
+NAME_Group_Eurostar_E300                   : 유로스타 E300
+NAME_Eurostar_E300_16Car                   : [16량] 유로스타 E300
+NAME_Eurostar_E300_20Car                   : [20량] 유로스타 E300
+NAME_Eurostar_E320_16Car                   : [16량] 유로스타 E320
+NAME_Group_ICE                             : ICE
+NAME_ICE1_14Car                            : [14량] ICE1
+NAME_ICE2_8Car                             : [8량] ICE2
+NAME_ICE3_8Car                             : [8량] ICE3
+NAME_ICE3V_8Car                            : [8량] ICE3 (벨라로 D)
+NAME_Group_ICE4                            : ICE4
+NAME_ICE4_7Car                             : [7량] ICE4
+NAME_ICE4_12Car                            : [12량] ICE4
+NAME_Group_Renfe                           : Renfe
+NAME_Renfe_S_130_13Car                     : [13량] 렌페 S-130
+NAME_Renfe_S_100_10Car                     : [10량] 렌페 AVE S-100
+NAME_Renfe_S_102_14Car                     : [14량] 렌페 AVE S-102
+NAME_Renfe_S_103_8Car                      : [8량] 렌페 AVE S-103
+NAME_Group_Shinkansen                      : 신칸센
+NAME_Group_Shinkansen_0                    : 신칸센 0계
+NAME_Shinkansen_0_12Car                    : [12량] 신칸센 0계
+NAME_Shinkansen_0_16Car                    : [16량] 신칸센 0계
+NAME_Group_Shinkansen_700                  : 신칸센 700계
+NAME_Shinkansen_700_8Car                   : [8량] 신칸센 700계 레일스타
+NAME_Shinkansen_700_16Car                  : [16량] 신칸센 700계
+NAME_Shinkansen_800_6Car                   : [6량] 신칸센 800계
+NAME_Shinkansen_E2_10Car                   : [10량] 신칸센 E2계
+NAME_Shinkansen_E7_W7_12Car                : [12량] 신칸센 E7·W7계
+NAME_Group_Shinkansen_500                  : 신칸센 500계
+NAME_Shinkansen_500_8Car                   : [8량] 신칸센 500계
+NAME_Shinkansen_500_16Car                  : [16량] 신칸센 500계
+NAME_Group_Shinkansen_N700                 : 신칸센 N700계
+NAME_Shinkansen_N700_8Car                  : [8량] 신칸센 N700계 큐슈
+NAME_Shinkansen_N700_16Car                 : [16량] 신칸센 N700계
+NAME_Group_Shinkansen_N700S                : 신칸센 N700S계
+NAME_Shinkansen_N700S_6Car                 : [6량] 신칸센 N700S계 니시큐슈
+NAME_Shinkansen_N700S_16Car                : [16량] 신칸센 N700S계
+NAME_Shinkansen_E5_H5_10Car                : [10량] 신칸센 E5·H5계
+NAME_Shinkansen_E6_7Car                    : [7량] 신칸센 E6계
+NAME_Shinkansen_E8_7Car                    : [7량] 신칸센 E8계
+NAME_Shinkansen_923_7Car                   : [7량] 신칸센 923형 (닥터 옐로우)
+NAME_Group_TGV                             : TGV
+NAME_TGV_Duplex_10Car                      : [10량] TGV 듀플렉스
+NAME_TGV_Pos_10Car                         : [10량] TGV 포스
+NAME_Thalys_PBKA_10Car                     : [10량] 탈리스 PBKA
+NAME_TGV_Sud_Est_10Car                     : [10량] TGV 쉬드-에스트
+NAME_TGV_Reseau_Duplex_10Car               : [10량] TGV 레조 듀플렉스
+NAME_TGV_A_12Car                           : [12량] TGV 아틀랑티크
+NAME_TGV_R_10Car                           : [10량] TGV 레조
+NAME_TGV_La_Poste_10Car                    : [10량] TGV 라포스트
+NAME_TGV_M_11Car                           : [11량] TGV M
+
 NAME_AUTS_6Car                          : [6량] 차세대전동차
 NAME_Nextrain_engine                    : 넥스트레인
 NAME_Nextrain_wagon                     : 넥스트레인
@@ -602,8 +602,8 @@ NAME_Constrck                           : [진열용] 건설차량
 NAME_Showcase_Flat_1F                   : [진열용] 평판화차
 
 # Test/Mail/Passenger
-Livery_Test                             : 검측차
-Livery_Cargo                            : 수송차
+Livery_Test                               : 검측차
+Livery_Cargo                              : 수송차
 
 # Liveries
 Livery_DTX_Glory_1Year                     : 1주년 도색
@@ -853,59 +853,50 @@ Livery_KTX_Cheong_Ryong_DD                 : 청룡
 Livery_KTX_Cheong_Ryong_DD_2nd             : 청룡 2세대
 Livery_KTX_Cheong_Ryong_DD_BK              : 검정 도색
 Livery_KTX_Cheong_Ryong_DD_CC              : 회사 색상
-
-STR_REFIT_LIVERY_CRH380A                               : CRH380A
-STR_REFIT_LIVERY_Vibrant_Express                       : 바이브런트 익스프레스
-STR_REFIT_LIVERY_CR400BF_C                             : 일반 도색
-STR_REFIT_LIVERY_CR400BF_C_O                           : 2022 베이징동계올림픽 도색
-STR_REFIT_LIVERY_Eurostar_E300_1993                    : 유로스타 구도색
-STR_REFIT_LIVERY_Eurostar_E300_2015                    : 유로스타 신도색
-STR_REFIT_LIVERY_ICE2_red                              : 레드 도색
-STR_REFIT_LIVERY_ICE2_green                            : 그린 도색
-STR_REFIT_LIVERY_ICE3_red                              : ICE 3 레드 도색
-STR_REFIT_LIVERY_ICE3_green                            : ICE 3 그린 도색
-STR_REFIT_LIVERY_ICE3M_red                             : ICE 3M 레드 도색
-STR_REFIT_LIVERY_ICE3M_green                           : ICE 3M 그린 도색
-STR_REFIT_LIVERY_ICE3M_Blue                            : ICE 3M 유로파 도색
-STR_REFIT_LIVERY_ICE3V_red                             : 레드 도색
-STR_REFIT_LIVERY_ICE3V_green                           : 그린 도색
-STR_REFIT_LIVERY_ICE4_red                              : 레드 도색
-STR_REFIT_LIVERY_ICE4_green                            : 그린 도색
-STR_REFIT_LIVERY_Renfe_S_100_old                       : 초기 도색
-STR_REFIT_LIVERY_Renfe_S_100_new                       : 리뉴얼 도색
-STR_REFIT_LIVERY_Renfe_S_130_Alvia                     : Alvia
-STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob                 : Aprosiyob
-STR_REFIT_LIVERY_Shinkansen_0                          : 오리지널
-STR_REFIT_LIVERY_Shinkansen_0_renewal                  : 리뉴얼
-STR_REFIT_LIVERY_Shinkansen_E2_Pink                    : E2계 - 분홍
-STR_REFIT_LIVERY_Shinkansen_E2_Red                     : E2계 - 빨강
-STR_REFIT_LIVERY_Shinkansen_E5                         : 신칸센 E5계
-STR_REFIT_LIVERY_Shinkansen_H5                         : 신칸센 H5계
-STR_REFIT_LIVERY_Shinkansen_E5_E6                      : 신칸센 E5+E6계
-STR_REFIT_LIVERY_Shinkansen_E5_E8                      : 신칸센 E5+E8계
-STR_REFIT_LIVERY_Shinkansen_H5_E6                      : 신칸센 H5+E6계
-STR_REFIT_LIVERY_Shinkansen_H5_E8                      : 신칸센 H5+E8계
-STR_REFIT_LIVERY_TGV_Atlantic                          : 아틀란틱 블루
-STR_REFIT_LIVERY_TGV_Atlantic_1st                      : 1세대 아틀란틱 블루
-STR_REFIT_LIVERY_TGV_Atlantic_2nd                      : 2세대 아틀란틱 블루
-STR_REFIT_LIVERY_TGV_Atlantic_First_2Car               : 아틀란틱 블루 2량 특실
-STR_REFIT_LIVERY_TGV_Atlantic_First_3Car               : 아틀란틱 블루 3량 특실
-STR_REFIT_LIVERY_TGV_Carmillon                         : 카밀론
-STR_REFIT_LIVERY_TGV_Carmillon_1st                     : 1세대 카밀론
-STR_REFIT_LIVERY_TGV_Carmillon_2nd                     : 2세대 카밀론
-STR_REFIT_LIVERY_TGV_Lacroix                           : 라크루아
-STR_REFIT_LIVERY_TGV_Lyair                             : 리리아
-STR_REFIT_LIVERY_TGV_M_A                               : TGV-M A편성
-STR_REFIT_LIVERY_TGV_M_B                               : TGV-M B편성
-STR_REFIT_LIVERY_TGV_M_Inoui                           : Inoui
-STR_REFIT_LIVERY_TGV_M_Rame                            : Rame D'Essal
-STR_REFIT_LIVERY_TGV_Ouigo                             : 위고
-STR_REFIT_LIVERY_TGV_Sud_Est_Original                  : 오렌지도색
-STR_REFIT_LIVERY_TGV_Sud_Est_Last                      : 라스트런 특별도색
-STR_REFIT_LIVERY_TGV_Thalys_PBKA_Old                   : 탈리스 PBKA 구도색
-STR_REFIT_LIVERY_TGV_Thalys_PBKA_New                   : 탈리스 PBKA 신도색
-STR_REFIT_LIVERY_TGV_Thalys_Ruby                       : 탈리스 루비
-STR_REFIT_LIVERY_AUTS                                  : AUTS
+Livery_CRH380A                             : CRH380A
+Livery_Vibrant_Express                     : 바이브런트 익스프레스
+Livery_CR400BF_C                           : 일반 도색
+Livery_CR400BF_C_O                         : 2022 베이징동계올림픽 도색
+Livery_Eurostar_E300_1993                  : 유로스타 구도색
+Livery_Eurostar_E300_2015                  : 유로스타 신도색
+Livery_ICE_red                             : 레드 도색
+Livery_ICE_green                           : 그린 도색
+Livery_ICE3_red                            : ICE 3 레드 도색
+Livery_ICE3_green                          : ICE 3 그린 도색
+Livery_ICE3M_red                           : ICE 3M 레드 도색
+Livery_ICE3M_green                         : ICE 3M 그린 도색
+Livery_ICE3M_Blue                          : ICE 3M 유로파 도색
+Livery_Renfe_S_130_Alvia                   : Alvia
+Livery_Renfe_S_130_Aprosiyob               : Aprosiyob
+Livery_Renfe_S_100_old                     : 초기 도색
+Livery_Renfe_S_100_new                     : 리뉴얼 도색
+Livery_Shinkansen_0                        : 오리지널
+Livery_Shinkansen_0_renewal                : 리뉴얼
+Livery_Shinkansen_E2_Pink                  : 분홍
+Livery_Shinkansen_E2_Red                   : 빨강
+Livery_Shinkansen_E5                       : 신칸센 E5계
+Livery_Shinkansen_H5                       : 신칸센 H5계
+Livery_TGV_Atlantic                        : 아틀란틱 블루
+Livery_TGV_Atlantic_1st                    : 1세대 아틀란틱 블루
+Livery_TGV_Atlantic_2nd                    : 2세대 아틀란틱 블루
+Livery_TGV_Atlantic_First_2Car             : 아틀란틱 블루 2량 특실
+Livery_TGV_Atlantic_First_3Car             : 아틀란틱 블루 3량 특실
+Livery_TGV_Carmillon                       : 카밀론
+Livery_TGV_Carmillon_1st                   : 1세대 카밀론
+Livery_TGV_Carmillon_2nd                   : 2세대 카밀론
+Livery_TGV_Lacroix                         : 라크루아
+Livery_TGV_Lyair                           : 리리아
+Livery_TGV_M_A                             : TGV-M A편성
+Livery_TGV_M_B                             : TGV-M B편성
+Livery_TGV_M_Inoui                         : Inoui
+Livery_TGV_M_Rame                          : Rame D'Essal
+Livery_TGV_Ouigo                           : 위고
+Livery_TGV_Sud_Est_Original                : 오렌지도색
+Livery_TGV_Sud_Est_Last                    : 라스트런 특별도색
+Livery_TGV_Thalys_PBKA_Old                 : 탈리스 PBKA 구도색
+Livery_TGV_Thalys_PBKA_New                 : 탈리스 PBKA 신도색
+Livery_TGV_Thalys_Ruby                     : 탈리스 루비
+STR_REFIT_LIVERY_AUTS                                : AUTS
 
 Livery_PEX_Super_N_Wagon                : 일반객차
 Livery_PEX_Super_N_Tail                 : 운전객차
@@ -956,439 +947,439 @@ Livery_CDC_Baekje                       : 백제왕관 도색
 Livery_CDC_Sea_Old                      : 바다열차 구도색
 Livery_CDC_Sea_New                      : 바다열차 신도색
 Livery_CDC_DMZ                          : DMZ
-STR_REFIT_LIVERY_DEL4400_A                             : 구도색
-STR_REFIT_LIVERY_DEL4400_B                             : 신도색
-STR_REFIT_LIVERY_DEL4400_C                             : V-Train
-STR_REFIT_LIVERY_DEL4400_D                             : 교외선
-STR_REFIT_LIVERY_DEL7000_A                             : 기본도색
-STR_REFIT_LIVERY_DEL7000_B                             : 구도색
-STR_REFIT_LIVERY_DEL7000_C                             : 신도색
-STR_REFIT_LIVERY_DHC_FF                                : DHC PP 초기도색 초기형
-STR_REFIT_LIVERY_DHC_FL_A                              : DHC PP 초기도색 후기형 A
-STR_REFIT_LIVERY_DHC_FL_B                              : DHC PP 초기도색 후기형 B
-STR_REFIT_LIVERY_DHC_FLS                               : DHC PP 초기도색 후기형 특실편성
-STR_REFIT_LIVERY_DHC_OF                                : DHC PP 구도색 초기형
-STR_REFIT_LIVERY_DHC_OL_A                              : DHC PP 구도색 후기형 A
-STR_REFIT_LIVERY_DHC_OL_B                              : DHC PP 구도색 후기형 B
-STR_REFIT_LIVERY_DHC_OL_C                              : DHC PP 구도색 후기형 C
-STR_REFIT_LIVERY_DHC_OLS                               : DHC PP 구도색 후기형 특실편성
-STR_REFIT_LIVERY_DHC_New_A                             : DHC PP 신도색 A
-STR_REFIT_LIVERY_DHC_New_B                             : DHC PP 신도색 B
-STR_REFIT_LIVERY_DHC_New_C                             : DHC PP 신도색 C
-STR_REFIT_LIVERY_DHC_New_Cafe_A                        : DHC PP 신도색 카페편성 A
-STR_REFIT_LIVERY_DHC_New_Cafe_B                        : DHC PP 신도색 카페편성 B
-STR_REFIT_LIVERY_DHC_New_Cafe_C                        : DHC PP 신도색 카페편성 C
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1961                 : 초기형 초기도색
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1966                 : 후기형 초기도색
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A               : 후기형 편운전대 초기도색 세미크로스시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B               : 후기형 편운전대 초기도색 롱시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O               : 보급열차 양운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O1              : 보급열차 편운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B1              : 비둘기호 초기형
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B2              : 비둘기호 후기형
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BA              : 비둘기호 편운전대 세미크로스시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BB              : 비둘기호 편운전대 롱시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T               : 통일호 양운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T1              : 통일호 편운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M               : 무궁화호 양운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1              : 무궁화호 편운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B               : 비둘기호 한국철도 CI 2 양운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1A             : 비둘기호 한국철도 CI 2 편운전대 세미크로스시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1B             : 비둘기호 한국철도 CI 2 편운전대 롱시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1966_2car_C          : 초기도색 크로스시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_2car_C          : 보통급행
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_2car_L          : 초기도색 롱시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_C          : 비둘기호 초기도색 크로스시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_L          : 비둘기호 초기도색 롱시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_T          : 통일호
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_M          : 무궁화호
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_C          : 비둘기호 후기도색 크로스시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_L          : 비둘기호 후기도색 롱시트
-STR_REFIT_LIVERY_Special_Diesel_Car_1969               : 특별동차 초기도색
-STR_REFIT_LIVERY_Special_Diesel_Car_1986               : 특별동차 초기도색 (냉방개조)
-STR_REFIT_LIVERY_Special_Diesel_Car_1994               : 특별동차 구도색
-STR_REFIT_LIVERY_EEC_EMU_1980                          : 초기 도색 (회사 색상 지원)
-STR_REFIT_LIVERY_EEC_EMU_1996                          : 후기 도색 (2CC 색상 지원)
-STR_REFIT_LIVERY_FEL_8500                              : 기본도색
-STR_REFIT_LIVERY_FEL_8500_A_train                      : A-Train
-STR_REFIT_LIVERY_FEL_8500_A_train_New                  : A-Train 신도색
-STR_REFIT_LIVERY_FEL_8500_G_train                      : G-Train
-STR_REFIT_LIVERY_FEL_8500_G_train_New                  : G-Train 신도색
-STR_REFIT_LIVERY_FEL_8500_Haerang_train                : Haerang
-STR_REFIT_LIVERY_FEL_8500_S_train                      : S-Train
-STR_REFIT_LIVERY_FEL_8500_V_train                      : V-Train
-STR_REFIT_LIVERY_FEL_8500_Wine_train                   : Wine
-STR_REFIT_LIVERY_GT26CW_1971_F                         : 화물 초기도색
-STR_REFIT_LIVERY_GT26CW_1971_K                         : 관광호
-STR_REFIT_LIVERY_GT26CW_1971_S                         : 여객 초기도색
-STR_REFIT_LIVERY_GT26CW_1995                           : 구도색
-STR_REFIT_LIVERY_GT26CW_2005                           : 신도색
-STR_REFIT_LIVERY_GT26CW_2006                           : 레이디버드
-STR_REFIT_LIVERY_GT26CW_2008                           : 레일크루즈 해랑
-STR_REFIT_LIVERY_GT26CW_2012                           : 화물 신도색
-STR_REFIT_LIVERY_GT26CW_2013                           : 남도해양관광열차 구도색
-STR_REFIT_LIVERY_GT26CW_2015                           : 서해금빛열차 구도색
-STR_REFIT_LIVERY_GT26CW_2018                           : 충북영동국악와인열차
-STR_REFIT_LIVERY_GT26CW_2019_1                         : 한-아세안열차 (국악와인랩핑)
-STR_REFIT_LIVERY_GT26CW_2019_2                         : 한-아세안열차 (한국철도공사 CI)
-STR_REFIT_LIVERY_GT26CW_2020                           : 남도해양관광열차 신도색
-STR_REFIT_LIVERY_GT26CW_2023                           : 서해금빛열차 신도색
-STR_REFIT_LIVERY_NEL_8100_A                            : 구도색
-STR_REFIT_LIVERY_NEL_8100_B                            : 신도색
-STR_REFIT_LIVERY_OEL8000_I1                            : 초기형 초기도색
-STR_REFIT_LIVERY_OEL8000_I2                            : 후기형 초기도색
-STR_REFIT_LIVERY_OEL8000_O1                            : 초기형 구도색
-STR_REFIT_LIVERY_OEL8000_O2                            : 후기형 구도색
-STR_REFIT_LIVERY_OEL8000_N1                            : 초기형 신도색
-STR_REFIT_LIVERY_OEL8000_N2                            : 후기형 신도색
+STR_REFIT_LIVERY_DEL4400_A                           : 구도색
+STR_REFIT_LIVERY_DEL4400_B                           : 신도색
+STR_REFIT_LIVERY_DEL4400_C                           : V-Train
+STR_REFIT_LIVERY_DEL4400_D                           : 교외선
+STR_REFIT_LIVERY_DEL7000_A                           : 기본도색
+STR_REFIT_LIVERY_DEL7000_B                           : 구도색
+STR_REFIT_LIVERY_DEL7000_C                           : 신도색
+STR_REFIT_LIVERY_DHC_FF                              : DHC PP 초기도색 초기형
+STR_REFIT_LIVERY_DHC_FL_A                            : DHC PP 초기도색 후기형 A
+STR_REFIT_LIVERY_DHC_FL_B                            : DHC PP 초기도색 후기형 B
+STR_REFIT_LIVERY_DHC_FLS                             : DHC PP 초기도색 후기형 특실편성
+STR_REFIT_LIVERY_DHC_OF                              : DHC PP 구도색 초기형
+STR_REFIT_LIVERY_DHC_OL_A                            : DHC PP 구도색 후기형 A
+STR_REFIT_LIVERY_DHC_OL_B                            : DHC PP 구도색 후기형 B
+STR_REFIT_LIVERY_DHC_OL_C                            : DHC PP 구도색 후기형 C
+STR_REFIT_LIVERY_DHC_OLS                             : DHC PP 구도색 후기형 특실편성
+STR_REFIT_LIVERY_DHC_New_A                           : DHC PP 신도색 A
+STR_REFIT_LIVERY_DHC_New_B                           : DHC PP 신도색 B
+STR_REFIT_LIVERY_DHC_New_C                           : DHC PP 신도색 C
+STR_REFIT_LIVERY_DHC_New_Cafe_A                      : DHC PP 신도색 카페편성 A
+STR_REFIT_LIVERY_DHC_New_Cafe_B                      : DHC PP 신도색 카페편성 B
+STR_REFIT_LIVERY_DHC_New_Cafe_C                      : DHC PP 신도색 카페편성 C
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1961               : 초기형 초기도색
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1966               : 후기형 초기도색
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A             : 후기형 편운전대 초기도색 세미크로스시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B             : 후기형 편운전대 초기도색 롱시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O             : 보급열차 양운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O1            : 보급열차 편운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B1            : 비둘기호 초기형
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B2            : 비둘기호 후기형
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BA            : 비둘기호 편운전대 세미크로스시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BB            : 비둘기호 편운전대 롱시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T             : 통일호 양운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T1            : 통일호 편운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M             : 무궁화호 양운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1            : 무궁화호 편운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B             : 비둘기호 한국철도 CI 2 양운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1A           : 비둘기호 한국철도 CI 2 편운전대 세미크로스시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1B           : 비둘기호 한국철도 CI 2 편운전대 롱시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1966_2car_C        : 초기도색 크로스시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_2car_C        : 보통급행
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_2car_L        : 초기도색 롱시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_C        : 비둘기호 초기도색 크로스시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_L        : 비둘기호 초기도색 롱시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_T        : 통일호
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_M        : 무궁화호
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_C        : 비둘기호 후기도색 크로스시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_L        : 비둘기호 후기도색 롱시트
+STR_REFIT_LIVERY_Special_Diesel_Car_1969             : 특별동차 초기도색
+STR_REFIT_LIVERY_Special_Diesel_Car_1986             : 특별동차 초기도색 (냉방개조)
+STR_REFIT_LIVERY_Special_Diesel_Car_1994             : 특별동차 구도색
+STR_REFIT_LIVERY_EEC_EMU_1980                        : 초기 도색 (회사 색상 지원)
+STR_REFIT_LIVERY_EEC_EMU_1996                        : 후기 도색 (2CC 색상 지원)
+STR_REFIT_LIVERY_FEL_8500                            : 기본도색
+STR_REFIT_LIVERY_FEL_8500_A_train                    : A-Train
+STR_REFIT_LIVERY_FEL_8500_A_train_New                : A-Train 신도색
+STR_REFIT_LIVERY_FEL_8500_G_train                    : G-Train
+STR_REFIT_LIVERY_FEL_8500_G_train_New                : G-Train 신도색
+STR_REFIT_LIVERY_FEL_8500_Haerang_train              : Haerang
+STR_REFIT_LIVERY_FEL_8500_S_train                    : S-Train
+STR_REFIT_LIVERY_FEL_8500_V_train                    : V-Train
+STR_REFIT_LIVERY_FEL_8500_Wine_train                 : Wine
+STR_REFIT_LIVERY_GT26CW_1971_F                       : 화물 초기도색
+STR_REFIT_LIVERY_GT26CW_1971_K                       : 관광호
+STR_REFIT_LIVERY_GT26CW_1971_S                       : 여객 초기도색
+STR_REFIT_LIVERY_GT26CW_1995                         : 구도색
+STR_REFIT_LIVERY_GT26CW_2005                         : 신도색
+STR_REFIT_LIVERY_GT26CW_2006                         : 레이디버드
+STR_REFIT_LIVERY_GT26CW_2008                         : 레일크루즈 해랑
+STR_REFIT_LIVERY_GT26CW_2012                         : 화물 신도색
+STR_REFIT_LIVERY_GT26CW_2013                         : 남도해양관광열차 구도색
+STR_REFIT_LIVERY_GT26CW_2015                         : 서해금빛열차 구도색
+STR_REFIT_LIVERY_GT26CW_2018                         : 충북영동국악와인열차
+STR_REFIT_LIVERY_GT26CW_2019_1                       : 한-아세안열차 (국악와인랩핑)
+STR_REFIT_LIVERY_GT26CW_2019_2                       : 한-아세안열차 (한국철도공사 CI)
+STR_REFIT_LIVERY_GT26CW_2020                         : 남도해양관광열차 신도색
+STR_REFIT_LIVERY_GT26CW_2023                         : 서해금빛열차 신도색
+STR_REFIT_LIVERY_NEL_8100_A                          : 구도색
+STR_REFIT_LIVERY_NEL_8100_B                          : 신도색
+STR_REFIT_LIVERY_OEL8000_I1                          : 초기형 초기도색
+STR_REFIT_LIVERY_OEL8000_I2                          : 후기형 초기도색
+STR_REFIT_LIVERY_OEL8000_O1                          : 초기형 구도색
+STR_REFIT_LIVERY_OEL8000_O2                          : 후기형 구도색
+STR_REFIT_LIVERY_OEL8000_N1                          : 초기형 신도색
+STR_REFIT_LIVERY_OEL8000_N2                          : 후기형 신도색
 
 # Liveries Metro
-STR_REFIT_LIVERY_Shinbundang_G1                        : 1세대
-STR_REFIT_LIVERY_Shinbundang_G2                        : 2세대
-STR_REFIT_LIVERY_Shinbundang_G3                        : 3세대
-STR_REFIT_LIVERY_Standard_Metro_Long_Seat              : 한국 표준형 지하철 롱 시트
-STR_REFIT_LIVERY_Standard_Metro_Cross_Seat             : 한국 표준형 지하철 크로스 시트
+STR_REFIT_LIVERY_Shinbundang_G1                      : 1세대
+STR_REFIT_LIVERY_Shinbundang_G2                      : 2세대
+STR_REFIT_LIVERY_Shinbundang_G3                      : 3세대
+STR_REFIT_LIVERY_Standard_Metro_Long_Seat            : 한국 표준형 지하철 롱 시트
+STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           : 한국 표준형 지하철 크로스 시트
 
-STR_REFIT_LIVERY_West_Japan_125_1panto                 : 125계 팬터그래프 1개
-STR_REFIT_LIVERY_West_Japan_125_2panto                 : 125계 팬터그래프 2개
-STR_REFIT_LIVERY_West_Japan_227_R_Atype                : Urara 도시바 R편성
-STR_REFIT_LIVERY_West_Japan_227_R_Btype                : Urara 히타치, 도요전기 R편성
-STR_REFIT_LIVERY_West_Japan_227_H_Atype                : Urara 도시바 H편성
-STR_REFIT_LIVERY_West_Japan_227_H_Btype                : Urara 히타치, 도요전기 H편성
-STR_REFIT_LIVERY_West_Japan_227_L_Atype                : Urara 도시바 L편성
-STR_REFIT_LIVERY_West_Japan_227_L_Btype                : Urara 히타치, 도요전기 L편성
+STR_REFIT_LIVERY_West_Japan_125_1panto               : 125계 팬터그래프 1개
+STR_REFIT_LIVERY_West_Japan_125_2panto               : 125계 팬터그래프 2개
+STR_REFIT_LIVERY_West_Japan_227_R_Atype              : Urara 도시바 R편성
+STR_REFIT_LIVERY_West_Japan_227_R_Btype              : Urara 히타치, 도요전기 R편성
+STR_REFIT_LIVERY_West_Japan_227_H_Atype              : Urara 도시바 H편성
+STR_REFIT_LIVERY_West_Japan_227_H_Btype              : Urara 히타치, 도요전기 H편성
+STR_REFIT_LIVERY_West_Japan_227_L_Atype              : Urara 도시바 L편성
+STR_REFIT_LIVERY_West_Japan_227_L_Btype              : Urara 히타치, 도요전기 L편성
 
 # Liveries Wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_1wagon                  : 일반실 우등객차
-STR_REFIT_LIVERY_Mugunghwa_2cc_2wagon                  : 일반실 구도색 수동문
-STR_REFIT_LIVERY_Mugunghwa_2cc_3wagon                  : 일반실 구도색 자동문
-STR_REFIT_LIVERY_Mugunghwa_2cc_4wagon                  : 일반실 신도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_5wagon                  : 일반실 리미트객차 구도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_6wagon                  : 일반실 리미트객차 신도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_7wagon                  : 일반실 격하특실 구도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_8wagon                  : 일반실 격하특실 신도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_9wagon                  : 일반실 해태특실 신도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_10wagon                 : 특실 한진특실 구도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_11wagon                 : 특실 해태특실 구도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_12wagon                 : 특실 해태특실 신도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_13wagon                 : 특실 격하특실 신도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_14wagon                 : 식당차 우등객차
-STR_REFIT_LIVERY_Mugunghwa_2cc_15wagon                 : 식당차 구도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_16wagon                 : 식당차 리미트객차 구도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_17wagon                 : 식당차 격하특실 구도색, 신도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_18wagon                 : 카페객차 신도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_19wagon                 : 카페객차 리미트객차 구도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_20wagon                 : 카페객차 리미트객차 신도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_21wagon                 : 침대객차 초기도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_22wagon                 : 침대객차 구도색 수동문
-STR_REFIT_LIVERY_Mugunghwa_2cc_23wagon                 : 침대객차 구도색 자동문
-STR_REFIT_LIVERY_Mugunghwa_2cc_24wagon                 : 침대객차 리미트객차 구도색
-STR_REFIT_LIVERY_Mugunghwa_2cc_25wagon                 : 침대객차 리미트객차 신도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG1              : 우등객차 녹색 일반실
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG2              : 우등객차 녹색 방송실
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I1               : 초기도색 일반실
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I2               : 초기도색 방송실
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N1               : 장대형객차 구도색 일반실
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N2               : 장대형객차 구도색 방송실
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N3               : 장대형객차 구도색 방송실 (휠체어석)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O1               : 직각객차 일반실 (수동문)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O2               : 직각객차 방송실 (수동문)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O3               : 직각객차 일반실 (자동문)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O4               : 직각객차 방송실 (자동문)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L1               : 리미트객차 구도색 일반실
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L2               : 리미트객차 구도색 방송실 (휠체어석)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN1              : 장대형 신도색 일반실 1
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN2              : 장대형 신도색 방송실 1
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN3              : 장대형 신도색 일반실 2
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN4              : 장대형 신도색 방송실 2
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN5              : 장대형 신도색 방송실 (휠체어석)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN6              : 장대형 신도색 방송실 개조
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SA               : 새마을호 격하 유선형 신도색 A형
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SB               : 새마을호 격하 유선형 신도색 B형
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN1              : 리미트객차 신도색 일반실
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN2              : 리미트객차 신도색 방송실 (휠체어석)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN1              : 리미트객차 교외선도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN2              : 리미트객차 교외선도색 방송실 (휠체어석)
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR1            : 우등열차 일반 침대객차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC1            : 우등열차 별실 침대객차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR2            : 일반 침대객차 초기도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC2            : 별실 침대객차 초기도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS1             : 반식반객 초기도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF1            : 새마을호 격하 식당차 초기도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SMF             : 새마을호 격하 유선형 식당차 초기도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF2            : 새마을호 격하 식당차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS2             : 반식반객
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDFS            : 새마을호 전망실 개조 반식반객
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP1            : 일반 침대객차 (수동문)
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP2            : 별실 침대객차 개조 (수동문)
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSMF            : 새마을호 격하 유선형 식당차 구도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_OPG             : 놀이방 반식반객 구도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP1           : 일반 침대객차 (자동문)
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP2           : 별실 침대객차 개조 (자동문)
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_WAD             : 예식장객차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_CAFE            : 카페객차 구도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_PC              : PC방 객차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_PG              : 바둑객차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_CP              : 문화홍보객차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_RF              : 리미트객차 식당차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORS             : 리미트객차 구도색 침대차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDC             : 2003년 대구 하계 유니버시아드 객차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_NPG             : 놀이방 반식반객 신도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_NCAFE           : 카페객차 신도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_NSMF            : 새마을호 격하 유선형 식당차 신도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_NNC             : 장대형 카페객차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORC             : 리미트객차 구도색 카페객차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRC             : 리미트객차 신도색 카페객차
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRS             : 리미트객차 신도색 침대차
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1             : 우등객차 적색 특실
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1              : 직각객차 특실 초기도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI              : 초기 새마을호 격하 특실 초기도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF              : 대우중공업 특실 초기도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMA             : 유선형 새마을호 객차 A타입 초기도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMB             : 유선형 새마을호 객차 B타입 초기도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_ONF             : 한진중공업 특실
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMI             : 직각객차 특실 구도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSI             : 초기 새마을호 격하 특실 구도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMF             : 대우중공업 특실
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSA             : 유선형 새마을호 객차 A타입 구도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSB             : 유선형 새마을호 객차 B타입 구도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHF             : 해태특실 구도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHFM            : 해태특실 구도색 가족실
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_NHF             : 해태특실 신도색
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSB             : 장대형 새마을호 격하 B타입
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSC             : 장대형 새마을호 격하 C타입
-STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922            : 3등 객차 (1922)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933            : 3등 객차 (1933)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938            : 3등 객차 (1938)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954            : 3등 객차 (1954)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_1               : 보통열차 크로스시트 1
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_2               : 보통열차 크로스시트 2
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1962                 : 보통열차 롱시트 (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1963                 : 보통열차 크로스시트 (1963)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1965                 : 보통열차 크로스시트 (1965)
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1965                 : 보통열차 롱시트 (1965)
-STR_REFIT_LIVERY_Pidulgi_Normal_DC_1966                : 디젤액압동차 부수차 초기도색
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_R               : 보통급행 객차
-STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954_B          : 비둘기호 초기도색 크로스시트 (1954)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B               : 비둘기호 초기도색 크로스시트 1 (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B               : 비둘기호 초기도색 롱시트 (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B               : 비둘기호 초기도색 크로스시트 2 (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B1              : 비둘기호 초기도색 크로스시트 1 (1963)
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B2              : 비둘기호 초기도색 크로스시트 2 (1963)
-STR_REFIT_LIVERY_Pidulgi_Normal_FD_1963_B              : 통일호 특실 격하 비둘기호 초기도색
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B               : 비둘기호 초기도색 (1965)
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B               : 비둘기호 초기도색 롱시트 (1965) & 디젤액압동차 부수차
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B2              : 비둘기호 구도색 크로스시트 1 (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B2              : 비둘기호 구도색 롱시트 (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B2              : 비둘기호 구도색 크로스시트 2 (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B3              : 비둘기호 구도색 크로스시트 (1963)
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B4              : 통일호 격하 비둘기호 구도색 크로스시트
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B2              : 비둘기호 구도색 크로스시트 (1965)
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B2              : 비둘기호 구도색 롱시트 (1965) & 디젤액압동차 부수차
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B3              : 비둘기호 후기도색 롱시트 (1965) & 디젤액압동차 부수차
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B3              : 비둘기호 후기도색 크로스시트 (1965)
-STR_REFIT_LIVERY_Pidulgi_Service_C_MADE_1936           : 보통열차 식당차 (1936)
-STR_REFIT_LIVERY_Pidulgi_Service_1964                  : 보통열차 식당차 (1964)
-STR_REFIT_LIVERY_Tong_il_Normal_T_1963                 : 특급열차 (1963)
-STR_REFIT_LIVERY_Tong_il_Normal_T_1968                 : 급행열차
-STR_REFIT_LIVERY_Tong_il_Normal_T_1974                 : 특급열차 (1974)
-STR_REFIT_LIVERY_Tong_il_Normal_FD_1963                : 특급열차 특실격하
-STR_REFIT_LIVERY_Tong_il_Normal_B_1962_U               : 비둘기호 격상 통일호
-STR_REFIT_LIVERY_Tong_il_Normal_T2_1963_1968           : 통일호 초기도색 비냉방 (1963, 1968)
-STR_REFIT_LIVERY_Tong_il_Normal_T2_1974                : 통일호 초기도색 비냉방 (1974)
-STR_REFIT_LIVERY_Tong_il_Normal_FD_1963_T              : 통일호 초기도색 특실격하
-STR_REFIT_LIVERY_Tong_il_Normal_T2_1984                : 통일호 초기도색 냉방개조
-STR_REFIT_LIVERY_Tong_il_Normal_TO_1989                : 무궁화호 격하 통일호 초기도색 일반실
-STR_REFIT_LIVERY_Tong_il_Normal_T_1994                 : 통일호 구도색 (급행)
-STR_REFIT_LIVERY_Tong_il_Normal_TO1                    : 무궁화호 격하 통일호 구도색 일반실
-STR_REFIT_LIVERY_Tong_il_Normal_TO2                    : 무궁화호 격하 통일호 구도색 방송실
-STR_REFIT_LIVERY_Tong_il_Normal_T_1997                 : 통일호 구도색 (완행)
-STR_REFIT_LIVERY_Tong_il_Service_D_1966	               : 특급열차 식당차
-STR_REFIT_LIVERY_Tong_il_Service_S_1966                : 특급열차 침대차 초기형
-STR_REFIT_LIVERY_Tong_il_Service_D_1968                : 급행열차 식당차
-STR_REFIT_LIVERY_Tong_il_Service_S_1975                : 특급열차 침대차 후기형
-STR_REFIT_LIVERY_Tong_il_Service_S_1984                : 통일호 초기도색 침대차
-STR_REFIT_LIVERY_Tong_il_Service_S_1994                : 통일호 급행 침대차
-STR_REFIT_LIVERY_Tong_il_Service_S_1997                : 통일호 완행 침대차
-STR_REFIT_LIVERY_Tong_il_Special_F_1963_2              : 2등 객차
-STR_REFIT_LIVERY_Tong_il_Special_F_1963_T              : 특급열차 (1963)
-STR_REFIT_LIVERY_Tong_il_Special_F_1968                : 급행열차
-STR_REFIT_LIVERY_Tong_il_Special_F_1974                : 특급열차 (1974)
-STR_REFIT_LIVERY_Tong_il_Special_F2_1974               : 통일호 초기도색
-STR_REFIT_LIVERY_Tong_il_Special_F2_1984               : 통일호 초기도색 (냉방개조)
-STR_REFIT_LIVERY_Tong_il_Special_F_1994                : 통일호 구도색 (급행)
-STR_REFIT_LIVERY_Tong_il_Special_F_1997                : 통일호 구도색 (완행)
-STR_REFIT_LIVERY_Saemaeul_2cc_1wagon                   : 일반실 관광호
-STR_REFIT_LIVERY_Saemaeul_2cc_1wagon_S                 : 일반실 관광호 특실
-STR_REFIT_LIVERY_Saemaeul_2cc_2wagon                   : 일반실 유선형 객차 초기 도색
-STR_REFIT_LIVERY_Saemaeul_2cc_2wagon_S                 : 일반실 유선형 객차 초기 도색 특실
-STR_REFIT_LIVERY_Saemaeul_2cc_3wagon                   : 일반실 장대형 객차 초기 도색
-STR_REFIT_LIVERY_Saemaeul_2cc_3wagon_S                 : 일반실 장대형 객차 초기 도색 특실
-STR_REFIT_LIVERY_Saemaeul_2cc_4wagon                   : 일반실 유선형, 장대형 객차 구도색
-STR_REFIT_LIVERY_Saemaeul_2cc_5wagon                   : 일반실 유선형, 장대형 객차 신도색
-STR_REFIT_LIVERY_Saemaeul_2cc_6wagon                   : 무궁화 격상 일반실
-STR_REFIT_LIVERY_Saemaeul_2cc_7wagon                   : 특실 유선형, 장대형 구도색
-STR_REFIT_LIVERY_Saemaeul_2cc_8wagon                   : 특실 유선형, 장대형 신도색
-STR_REFIT_LIVERY_Saemaeul_2cc_9wagon                   : 식당차 관광호 객차
-STR_REFIT_LIVERY_Saemaeul_2cc_10wagon                  : 반식반객 관광호 전망객차
-STR_REFIT_LIVERY_Saemaeul_2cc_11wagon                  : 식당차 유선형 초기도색
-STR_REFIT_LIVERY_Saemaeul_2cc_12wagon                  : 식당차 장대형 초기도색
-STR_REFIT_LIVERY_Saemaeul_2cc_13wagon                  : 식당차 유선형, 장대형 구도색·신도색
-STR_REFIT_LIVERY_Saemaeul_2cc_14wagon                  : 카페객차 유선형, 장대형
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KN1      : 관광호 일반실
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KN2      : 관광호 방송실
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KF       : 관광호 특실
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KSI      : 새마을호 일반실
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLA1     : 유선형 새마을호 A형 초기도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLB1     : 유선형 새마을호 B형 초기도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLF1     : 유선형 새마을호 특실 초기도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLB2     : 장대형 새마을호 B형 초기도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLC      : 장대형 새마을호 C형 초기도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLF2     : 장대형 새마을호 특실 초기도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLA     : 유선형 새마을호 A형 구도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLB     : 유선형&장대형 새마을호 B형 구도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLC     : 장대형 새마을호 C형 구도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_FDSL     : 유선형 새마을호 특실 격하 일반실
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLF     : 장대형 새마을호 특실 구도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLB     : 장대형 새마을호 B형 신도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLC     : 장대형 새마을호 C형 신도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLF     : 장대형 새마을호 특실 신도색
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_LN1      : 리미트 격상형 새마을호 일반실
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_LN2      : 리미트 격상형 새마을호 방송실 (휠체어석)
-STR_REFIT_LIVERY_Saemaeul_Real_Service_SF1             : 관광호 식당차
-STR_REFIT_LIVERY_Saemaeul_Real_Service_SP1             : 관광호 전망실 반식반객
-STR_REFIT_LIVERY_Saemaeul_Real_Service_SF2             : 새마을호 유선형 식당차 초기도색
-STR_REFIT_LIVERY_Saemaeul_Real_Service_SP2             : 새마을호 유선형 반식반객 초기도색
-STR_REFIT_LIVERY_Saemaeul_Real_Service_SF3             : 새마을호 장대형 식당차 초기도색
-STR_REFIT_LIVERY_Saemaeul_Real_Service_OSF             : 새마을호 유선형 & 장대형 식당차 구도색
-STR_REFIT_LIVERY_Saemaeul_Real_Service_OSP             : 새마을호 유선형 반식반객 구도색
-STR_REFIT_LIVERY_Saemaeul_Real_Service_NSF             : 새마을호 신도색 식당차
-STR_REFIT_LIVERY_Saemaeul_Real_Service_NSC             : 새마을호 카페객차
-STR_REFIT_LIVERY_A_Train_Old                           : 구도색
-STR_REFIT_LIVERY_A_Train_New                           : 신도색
-STR_REFIT_LIVERY_E_Train_Old                           : 구도색
-STR_REFIT_LIVERY_E_Train_New                           : 신도색
-STR_REFIT_LIVERY_G_Train_Old                           : 구도색
-STR_REFIT_LIVERY_G_Train_New                           : 신도색
-STR_REFIT_LIVERY_JA_a_Old                              : 구도색
-STR_REFIT_LIVERY_JA_a_New                              : 신도색
-STR_REFIT_LIVERY_S_Train_Old_B                         : 구도색 파랑
-STR_REFIT_LIVERY_S_Train_Old_P                         : 구도색 분홍
-STR_REFIT_LIVERY_S_Train_New                           : 신도색
-STR_REFIT_LIVERY_Generatar_2cc                         : 발전차
-STR_REFIT_LIVERY_Generatar_2cc_S1                      : 전망형 발전차 초기도색
-STR_REFIT_LIVERY_Generatar_2cc_L1                      : 장대형 구형 발전차 초기도색
-STR_REFIT_LIVERY_Generatar_2cc_T1                      : 구형 발전차 초기도색
-STR_REFIT_LIVERY_Generatar_2cc_S2                      : 전망형 발전차
-STR_REFIT_LIVERY_Generatar_2cc_L2                      : 장대형 구형 발전차
-STR_REFIT_LIVERY_Generatar_2cc_T2                      : 구형 발전차
-STR_REFIT_LIVERY_Generatar_2cc_ST                      : 유선형 발전차 새마을호 도색
-STR_REFIT_LIVERY_Generatar_2cc_HJ                      : 유선형 발전차
-STR_REFIT_LIVERY_Generatar_Real_OutLook_S1             : 관광호 전망발전차 1
-STR_REFIT_LIVERY_Generatar_Real_OutLook_S2             : 관광호 전망발전차 2
-STR_REFIT_LIVERY_Generatar_Real_OutLook_SEA_T          : 동해남부선 관광열차
-STR_REFIT_LIVERY_Generatar_Real_OutLook_L1             : 장대형 발전차 새마을호 초기도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1            : 장대형 발전차 통일호 초기도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_SMY            : 무궁화호 초기도색 전망발전차 노랑
-STR_REFIT_LIVERY_Generatar_Real_OutLook_SMW            : 무궁화호 초기도색 전망발전차 흰색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_T1             : 저속발전차 통일호 초기도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_TB             : 저속발전차 통일호 남색도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB            : 장대형 발전차 통일호 남색도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_TOM            : 저속발전차 무궁화호 구도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_SOM            : 전망발전차 무궁화호 구도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_RSOM           : 전망발전차 개조 무궁화호 구도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_LOM            : 장대형 발전차 무궁화호 구도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_STG            : 전망발전차 통일호 녹색도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_RSTG           : 전망발전차 개조 통일호 녹색도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_TG             : 저속발전차 통일호 녹색도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_LTG            : 장대형 발전차 통일호 녹색도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_SNM            : 전망발전차 무궁화호 신도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_RSNM           : 전망발전차 개조 무궁화호 신도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_TNM            : 저속발전차 무궁화호 신도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_LNM            : 장대형 발전차 무궁화호 신도색
-STR_REFIT_LIVERY_Generatar_Real_OutLook_RB             : 레이디버드
-STR_REFIT_LIVERY_Generatar_Real_OutLook_MC	           : 통통통 뮤직카페트레인
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS        : 장대형 새마을호 초기도색
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS        : 유선형 새마을호 초기도색
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS       : 새마을호 구도색 ST
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM       : 무궁화호 구도색 ST
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS       : 통일호 구도색 IR
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS       : 정선아리랑 유람열차 구도색
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS       : 새마을호 신도색 ST
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM       : 무궁화호 신도색 ST
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS       : 무궁화호 신도색 IR
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS       : 정선아리랑 유람열차 신도색
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR        : 레일크루즈 해랑
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_MR        : 팔도농심체험열차
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SB        : 남도해양관광열차 파랑
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SP        : 남도해양관광열차 분홍
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_JA        : 정선아리랑열차 구도색
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WG        : 서해금빛열차 구도색
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN        : 충북영동국악와인열차
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NS        : 남도해양관광열차 신도색
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NA        : 정선아리랑열차 신도색
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NG        : 서해금빛열차 신도색
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_GY        : 교외선 도색
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LMM       : 무궁화호 신도색 ST 재도색
-STR_REFIT_LIVERY_Express_Luggage_VA                    : 소화물차 A (가상도색)
-STR_REFIT_LIVERY_Express_Luggage_VB                    : 소화물차 B (가상도색)
-STR_REFIT_LIVERY_Express_Luggage_LOM                   : 무궁화호 구도색
-STR_REFIT_LIVERY_Express_Luggage_LNM                   : 무궁화호 신도색
-STR_REFIT_LIVERY_Express_Luggage_MTB                   : 정선MTB열차
-STR_REFIT_LIVERY_Express_Luggage_A                     : 에코레일 초기도색 A
-STR_REFIT_LIVERY_Express_Luggage_B                     : 에코레일 초기도색 B
-STR_REFIT_LIVERY_Express_Luggage_C                     : 에코레일 초기도색 C
-STR_REFIT_LIVERY_Express_Luggage_D                     : 에코레일 초기도색 D
-STR_REFIT_LIVERY_Express_Luggage_OEA                   : 에코레일 4대강 도색 A
-STR_REFIT_LIVERY_Express_Luggage_OEB                   : 에코레일 4대강 도색 B
-STR_REFIT_LIVERY_Express_Luggage_OEC                   : 에코레일 4대강 도색 C
-STR_REFIT_LIVERY_Express_Luggage_OED                   : 에코레일 4대강 도색 D
-STR_REFIT_LIVERY_Express_Luggage_OR                    : 에코레일 구도색 주황
-STR_REFIT_LIVERY_Express_Luggage_YL                    : 에코레일 구도색 노랑
-STR_REFIT_LIVERY_Express_Luggage_PK                    : 에코레일 구도색 분홍
-STR_REFIT_LIVERY_Express_Luggage_GN                    : 에코레일 구도색 녹색
-STR_REFIT_LIVERY_Express_Luggage_MP                    : 우체국 당일특급 도색
-STR_REFIT_LIVERY_Express_Luggage_EA                    : 에코레일 신도색 A
-STR_REFIT_LIVERY_Express_Luggage_EB                    : 에코레일 신도색 B
-STR_REFIT_LIVERY_Express_Luggage_WN                    : 충북영동국악와인열차
-STR_REFIT_LIVERY_Express_Luggage_GL                    : 생활물류트레인
-STR_REFIT_LIVERY_Luggage_Olny_1998_G                   : 1998년식 (녹색)
-STR_REFIT_LIVERY_Luggage_Olny_1999_G                   : 1999년식 (녹색)
-STR_REFIT_LIVERY_Luggage_Olny_1998_B                   : 1998년식 (파랑)
-STR_REFIT_LIVERY_Luggage_Olny_1999_B                   : 1999년식 (파랑)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1935_L   : 3등열차 소화물 (1935)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1951_L   : 3등열차 소화물 (1951)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_L        : 보통열차 소화물 (1962)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_L        : 보통열차 소화물 (1968)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1951_LB  : 비둘기호 초기 소화물 (1951)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_LB       : 비둘기호 초기 소화물 (1962)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_LB       : 비둘기호 초기 소화물 (1968)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_LB2      : 비둘기호 구도색 소화물 (1962)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_LB2      : 비둘기호 구도색 소화물 (1968)
-STR_REFIT_LIVERY_Post_Car_POST_1973                    : 우편차 전용도색
-STR_REFIT_LIVERY_Post_Car_POST_1994                    : 우편차 표준도색
-STR_REFIT_LIVERY_Express_Post_Car_POST_M_1993          : 무궁화 구도색
-STR_REFIT_LIVERY_Express_Post_Car_POST_M_2005          : 무궁화 신도색
-STR_REFIT_LIVERY_CSPassenger_wagon_1F_Red              : 25형 1층 빨강 도색
-STR_REFIT_LIVERY_CSPassenger_wagon_1F_Green            : 25형 1층 녹색 도색
-STR_REFIT_LIVERY_CSPassenger_wagon_1F_White            : 25형 1층 흰색 도색
-STR_REFIT_LIVERY_CSPassenger_wagon_2F                  : 25형 2층
-STR_REFIT_LIVERY_CSPassenger_wagon_Bed_3nd             : 25형 3등석 침대차량
-STR_REFIT_LIVERY_CSPassenger_wagon_Bed_2nd             : 25형 2등석 침대차량
-STR_REFIT_LIVERY_CSPassenger_wagon_Bed_1nd             : 25형 1등석 침대차량
-STR_REFIT_LIVERY_CGeneratar_Car_White                  : 중국 발전차 흰색도색
-STR_REFIT_LIVERY_CGeneratar_Car_Green                  : 중국 발전차 녹색도색
-STR_REFIT_LIVERY_CLuggage_Car_Red                      : 중국 수화물차 빨강도색
-STR_REFIT_LIVERY_CLuggage_Car_Green                    : 중국 수화물차 녹색도색
-STR_REFIT_LIVERY_CLuggage_Car_WhiteA                   : 중국 수화물차 흰색도색 A
-STR_REFIT_LIVERY_CLuggage_Car_WhiteB                   : 중국 수화물차 흰색도색 B
-STR_REFIT_LIVERY_Original_1nd_Passenger_Car            : 1등석
-STR_REFIT_LIVERY_Original_2nd_Passenger_Car            : 2등석
-STR_REFIT_LIVERY_Original_Bar_Passenger_Car            : 식당칸
-STR_REFIT_LIVERY_Original_HF_Passenger_Car             : 1/2 1,2등석
-STR_REFIT_LIVERY_FlatCC                                : 평판화차 회사색상
-STR_REFIT_LIVERY_FlatPCC                               : 평판화차 패기형 회사색상
-STR_REFIT_LIVERY_FlatP2CC                              : 평판화차 패기형 2CC
+STR_REFIT_LIVERY_Mugunghwa_2cc_1wagon                : 일반실 우등객차
+STR_REFIT_LIVERY_Mugunghwa_2cc_2wagon                : 일반실 구도색 수동문
+STR_REFIT_LIVERY_Mugunghwa_2cc_3wagon                : 일반실 구도색 자동문
+STR_REFIT_LIVERY_Mugunghwa_2cc_4wagon                : 일반실 신도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_5wagon                : 일반실 리미트객차 구도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_6wagon                : 일반실 리미트객차 신도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_7wagon                : 일반실 격하특실 구도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_8wagon                : 일반실 격하특실 신도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_9wagon                : 일반실 해태특실 신도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_10wagon               : 특실 한진특실 구도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_11wagon               : 특실 해태특실 구도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_12wagon               : 특실 해태특실 신도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_13wagon               : 특실 격하특실 신도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_14wagon               : 식당차 우등객차
+STR_REFIT_LIVERY_Mugunghwa_2cc_15wagon               : 식당차 구도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_16wagon               : 식당차 리미트객차 구도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_17wagon               : 식당차 격하특실 구도색, 신도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_18wagon               : 카페객차 신도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_19wagon               : 카페객차 리미트객차 구도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_20wagon               : 카페객차 리미트객차 신도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_21wagon               : 침대객차 초기도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_22wagon               : 침대객차 구도색 수동문
+STR_REFIT_LIVERY_Mugunghwa_2cc_23wagon               : 침대객차 구도색 자동문
+STR_REFIT_LIVERY_Mugunghwa_2cc_24wagon               : 침대객차 리미트객차 구도색
+STR_REFIT_LIVERY_Mugunghwa_2cc_25wagon               : 침대객차 리미트객차 신도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG1            : 우등객차 녹색 일반실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG2            : 우등객차 녹색 방송실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I1             : 초기도색 일반실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I2             : 초기도색 방송실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N1             : 장대형객차 구도색 일반실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N2             : 장대형객차 구도색 방송실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N3             : 장대형객차 구도색 방송실 (휠체어석)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O1             : 직각객차 일반실 (수동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O2             : 직각객차 방송실 (수동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O3             : 직각객차 일반실 (자동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O4             : 직각객차 방송실 (자동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L1             : 리미트객차 구도색 일반실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L2             : 리미트객차 구도색 방송실 (휠체어석)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN1            : 장대형 신도색 일반실 1
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN2            : 장대형 신도색 방송실 1
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN3            : 장대형 신도색 일반실 2
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN4            : 장대형 신도색 방송실 2
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN5            : 장대형 신도색 방송실 (휠체어석)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN6            : 장대형 신도색 방송실 개조
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SA             : 새마을호 격하 유선형 신도색 A형
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SB             : 새마을호 격하 유선형 신도색 B형
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN1            : 리미트객차 신도색 일반실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN2            : 리미트객차 신도색 방송실 (휠체어석)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN1            : 리미트객차 교외선도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN2            : 리미트객차 교외선도색 방송실 (휠체어석)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR1          : 우등열차 일반 침대객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC1          : 우등열차 별실 침대객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR2          : 일반 침대객차 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC2          : 별실 침대객차 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS1           : 반식반객 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF1          : 새마을호 격하 식당차 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SMF           : 새마을호 격하 유선형 식당차 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF2          : 새마을호 격하 식당차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS2           : 반식반객
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDFS          : 새마을호 전망실 개조 반식반객
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP1          : 일반 침대객차 (수동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP2          : 별실 침대객차 개조 (수동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSMF          : 새마을호 격하 유선형 식당차 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OPG           : 놀이방 반식반객 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP1         : 일반 침대객차 (자동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP2         : 별실 침대객차 개조 (자동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_WAD           : 예식장객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_CAFE          : 카페객차 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_PC            : PC방 객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_PG            : 바둑객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_CP            : 문화홍보객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_RF            : 리미트객차 식당차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORS           : 리미트객차 구도색 침대차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDC           : 2003년 대구 하계 유니버시아드 객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NPG           : 놀이방 반식반객 신도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NCAFE         : 카페객차 신도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NSMF          : 새마을호 격하 유선형 식당차 신도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NNC           : 장대형 카페객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORC           : 리미트객차 구도색 카페객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRC           : 리미트객차 신도색 카페객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRS           : 리미트객차 신도색 침대차
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1           : 우등객차 적색 특실
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1            : 직각객차 특실 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI            : 초기 새마을호 격하 특실 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF            : 대우중공업 특실 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMA           : 유선형 새마을호 객차 A타입 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMB           : 유선형 새마을호 객차 B타입 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_ONF           : 한진중공업 특실
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMI           : 직각객차 특실 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSI           : 초기 새마을호 격하 특실 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMF           : 대우중공업 특실
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSA           : 유선형 새마을호 객차 A타입 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSB           : 유선형 새마을호 객차 B타입 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHF           : 해태특실 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHFM          : 해태특실 구도색 가족실
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_NHF           : 해태특실 신도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSB           : 장대형 새마을호 격하 B타입
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSC           : 장대형 새마을호 격하 C타입
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922          : 3등 객차 (1922)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933          : 3등 객차 (1933)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938          : 3등 객차 (1938)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954          : 3등 객차 (1954)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_1             : 보통열차 크로스시트 1
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_2             : 보통열차 크로스시트 2
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1962               : 보통열차 롱시트 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1963               : 보통열차 크로스시트 (1963)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1965               : 보통열차 크로스시트 (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965               : 보통열차 롱시트 (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_DC_1966              : 디젤액압동차 부수차 초기도색
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_R             : 보통급행 객차
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954_B        : 비둘기호 초기도색 크로스시트 (1954)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B             : 비둘기호 초기도색 크로스시트 1 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B             : 비둘기호 초기도색 롱시트 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B             : 비둘기호 초기도색 크로스시트 2 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B1            : 비둘기호 초기도색 크로스시트 1 (1963)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B2            : 비둘기호 초기도색 크로스시트 2 (1963)
+STR_REFIT_LIVERY_Pidulgi_Normal_FD_1963_B            : 통일호 특실 격하 비둘기호 초기도색
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B             : 비둘기호 초기도색 (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B             : 비둘기호 초기도색 롱시트 (1965) & 디젤액압동차 부수차
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B2            : 비둘기호 구도색 크로스시트 1 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B2            : 비둘기호 구도색 롱시트 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B2            : 비둘기호 구도색 크로스시트 2 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B3            : 비둘기호 구도색 크로스시트 (1963)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B4            : 통일호 격하 비둘기호 구도색 크로스시트
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B2            : 비둘기호 구도색 크로스시트 (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B2            : 비둘기호 구도색 롱시트 (1965) & 디젤액압동차 부수차
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B3            : 비둘기호 후기도색 롱시트 (1965) & 디젤액압동차 부수차
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B3            : 비둘기호 후기도색 크로스시트 (1965)
+STR_REFIT_LIVERY_Pidulgi_Service_C_MADE_1936         : 보통열차 식당차 (1936)
+STR_REFIT_LIVERY_Pidulgi_Service_1964                : 보통열차 식당차 (1964)
+STR_REFIT_LIVERY_Tong_il_Normal_T_1963               : 특급열차 (1963)
+STR_REFIT_LIVERY_Tong_il_Normal_T_1968               : 급행열차
+STR_REFIT_LIVERY_Tong_il_Normal_T_1974               : 특급열차 (1974)
+STR_REFIT_LIVERY_Tong_il_Normal_FD_1963              : 특급열차 특실격하
+STR_REFIT_LIVERY_Tong_il_Normal_B_1962_U             : 비둘기호 격상 통일호
+STR_REFIT_LIVERY_Tong_il_Normal_T2_1963_1968         : 통일호 초기도색 비냉방 (1963, 1968)
+STR_REFIT_LIVERY_Tong_il_Normal_T2_1974              : 통일호 초기도색 비냉방 (1974)
+STR_REFIT_LIVERY_Tong_il_Normal_FD_1963_T            : 통일호 초기도색 특실격하
+STR_REFIT_LIVERY_Tong_il_Normal_T2_1984              : 통일호 초기도색 냉방개조
+STR_REFIT_LIVERY_Tong_il_Normal_TO_1989              : 무궁화호 격하 통일호 초기도색 일반실
+STR_REFIT_LIVERY_Tong_il_Normal_T_1994               : 통일호 구도색 (급행)
+STR_REFIT_LIVERY_Tong_il_Normal_TO1                  : 무궁화호 격하 통일호 구도색 일반실
+STR_REFIT_LIVERY_Tong_il_Normal_TO2                  : 무궁화호 격하 통일호 구도색 방송실
+STR_REFIT_LIVERY_Tong_il_Normal_T_1997               : 통일호 구도색 (완행)
+STR_REFIT_LIVERY_Tong_il_Service_D_1966	             : 특급열차 식당차
+STR_REFIT_LIVERY_Tong_il_Service_S_1966              : 특급열차 침대차 초기형
+STR_REFIT_LIVERY_Tong_il_Service_D_1968              : 급행열차 식당차
+STR_REFIT_LIVERY_Tong_il_Service_S_1975              : 특급열차 침대차 후기형
+STR_REFIT_LIVERY_Tong_il_Service_S_1984              : 통일호 초기도색 침대차
+STR_REFIT_LIVERY_Tong_il_Service_S_1994              : 통일호 급행 침대차
+STR_REFIT_LIVERY_Tong_il_Service_S_1997              : 통일호 완행 침대차
+STR_REFIT_LIVERY_Tong_il_Special_F_1963_2            : 2등 객차
+STR_REFIT_LIVERY_Tong_il_Special_F_1963_T            : 특급열차 (1963)
+STR_REFIT_LIVERY_Tong_il_Special_F_1968              : 급행열차
+STR_REFIT_LIVERY_Tong_il_Special_F_1974              : 특급열차 (1974)
+STR_REFIT_LIVERY_Tong_il_Special_F2_1974             : 통일호 초기도색
+STR_REFIT_LIVERY_Tong_il_Special_F2_1984             : 통일호 초기도색 (냉방개조)
+STR_REFIT_LIVERY_Tong_il_Special_F_1994              : 통일호 구도색 (급행)
+STR_REFIT_LIVERY_Tong_il_Special_F_1997              : 통일호 구도색 (완행)
+STR_REFIT_LIVERY_Saemaeul_2cc_1wagon                 : 일반실 관광호
+STR_REFIT_LIVERY_Saemaeul_2cc_1wagon_S               : 일반실 관광호 특실
+STR_REFIT_LIVERY_Saemaeul_2cc_2wagon                 : 일반실 유선형 객차 초기 도색
+STR_REFIT_LIVERY_Saemaeul_2cc_2wagon_S               : 일반실 유선형 객차 초기 도색 특실
+STR_REFIT_LIVERY_Saemaeul_2cc_3wagon                 : 일반실 장대형 객차 초기 도색
+STR_REFIT_LIVERY_Saemaeul_2cc_3wagon_S               : 일반실 장대형 객차 초기 도색 특실
+STR_REFIT_LIVERY_Saemaeul_2cc_4wagon                 : 일반실 유선형, 장대형 객차 구도색
+STR_REFIT_LIVERY_Saemaeul_2cc_5wagon                 : 일반실 유선형, 장대형 객차 신도색
+STR_REFIT_LIVERY_Saemaeul_2cc_6wagon                 : 무궁화 격상 일반실
+STR_REFIT_LIVERY_Saemaeul_2cc_7wagon                 : 특실 유선형, 장대형 구도색
+STR_REFIT_LIVERY_Saemaeul_2cc_8wagon                 : 특실 유선형, 장대형 신도색
+STR_REFIT_LIVERY_Saemaeul_2cc_9wagon                 : 식당차 관광호 객차
+STR_REFIT_LIVERY_Saemaeul_2cc_10wagon                : 반식반객 관광호 전망객차
+STR_REFIT_LIVERY_Saemaeul_2cc_11wagon                : 식당차 유선형 초기도색
+STR_REFIT_LIVERY_Saemaeul_2cc_12wagon                : 식당차 장대형 초기도색
+STR_REFIT_LIVERY_Saemaeul_2cc_13wagon                : 식당차 유선형, 장대형 구도색·신도색
+STR_REFIT_LIVERY_Saemaeul_2cc_14wagon                : 카페객차 유선형, 장대형
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KN1    : 관광호 일반실
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KN2    : 관광호 방송실
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KF     : 관광호 특실
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KSI    : 새마을호 일반실
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLA1   : 유선형 새마을호 A형 초기도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLB1   : 유선형 새마을호 B형 초기도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLF1   : 유선형 새마을호 특실 초기도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLB2   : 장대형 새마을호 B형 초기도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLC    : 장대형 새마을호 C형 초기도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLF2   : 장대형 새마을호 특실 초기도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLA   : 유선형 새마을호 A형 구도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLB   : 유선형&장대형 새마을호 B형 구도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLC   : 장대형 새마을호 C형 구도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_FDSL   : 유선형 새마을호 특실 격하 일반실
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLF   : 장대형 새마을호 특실 구도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLB   : 장대형 새마을호 B형 신도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLC   : 장대형 새마을호 C형 신도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLF   : 장대형 새마을호 특실 신도색
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_LN1    : 리미트 격상형 새마을호 일반실
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_LN2    : 리미트 격상형 새마을호 방송실 (휠체어석)
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SF1           : 관광호 식당차
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SP1           : 관광호 전망실 반식반객
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SF2           : 새마을호 유선형 식당차 초기도색
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SP2           : 새마을호 유선형 반식반객 초기도색
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SF3           : 새마을호 장대형 식당차 초기도색
+STR_REFIT_LIVERY_Saemaeul_Real_Service_OSF           : 새마을호 유선형 & 장대형 식당차 구도색
+STR_REFIT_LIVERY_Saemaeul_Real_Service_OSP           : 새마을호 유선형 반식반객 구도색
+STR_REFIT_LIVERY_Saemaeul_Real_Service_NSF           : 새마을호 신도색 식당차
+STR_REFIT_LIVERY_Saemaeul_Real_Service_NSC           : 새마을호 카페객차
+STR_REFIT_LIVERY_A_Train_Old                         : 구도색
+STR_REFIT_LIVERY_A_Train_New                         : 신도색
+STR_REFIT_LIVERY_E_Train_Old                         : 구도색
+STR_REFIT_LIVERY_E_Train_New                         : 신도색
+STR_REFIT_LIVERY_G_Train_Old                         : 구도색
+STR_REFIT_LIVERY_G_Train_New                         : 신도색
+STR_REFIT_LIVERY_JA_a_Old                            : 구도색
+STR_REFIT_LIVERY_JA_a_New                            : 신도색
+STR_REFIT_LIVERY_S_Train_Old_B                       : 구도색 파랑
+STR_REFIT_LIVERY_S_Train_Old_P                       : 구도색 분홍
+STR_REFIT_LIVERY_S_Train_New                         : 신도색
+STR_REFIT_LIVERY_Generatar_2cc                       : 발전차
+STR_REFIT_LIVERY_Generatar_2cc_S1                    : 전망형 발전차 초기도색
+STR_REFIT_LIVERY_Generatar_2cc_L1                    : 장대형 구형 발전차 초기도색
+STR_REFIT_LIVERY_Generatar_2cc_T1                    : 구형 발전차 초기도색
+STR_REFIT_LIVERY_Generatar_2cc_S2                    : 전망형 발전차
+STR_REFIT_LIVERY_Generatar_2cc_L2                    : 장대형 구형 발전차
+STR_REFIT_LIVERY_Generatar_2cc_T2                    : 구형 발전차
+STR_REFIT_LIVERY_Generatar_2cc_ST                    : 유선형 발전차 새마을호 도색
+STR_REFIT_LIVERY_Generatar_2cc_HJ                    : 유선형 발전차
+STR_REFIT_LIVERY_Generatar_Real_OutLook_S1           : 관광호 전망발전차 1
+STR_REFIT_LIVERY_Generatar_Real_OutLook_S2           : 관광호 전망발전차 2
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SEA_T        : 동해남부선 관광열차
+STR_REFIT_LIVERY_Generatar_Real_OutLook_L1           : 장대형 발전차 새마을호 초기도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1          : 장대형 발전차 통일호 초기도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SMY          : 무궁화호 초기도색 전망발전차 노랑
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SMW          : 무궁화호 초기도색 전망발전차 흰색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_T1           : 저속발전차 통일호 초기도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TB           : 저속발전차 통일호 남색도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB          : 장대형 발전차 통일호 남색도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TOM          : 저속발전차 무궁화호 구도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SOM          : 전망발전차 무궁화호 구도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RSOM         : 전망발전차 개조 무궁화호 구도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LOM          : 장대형 발전차 무궁화호 구도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_STG          : 전망발전차 통일호 녹색도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RSTG         : 전망발전차 개조 통일호 녹색도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TG           : 저속발전차 통일호 녹색도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LTG          : 장대형 발전차 통일호 녹색도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SNM          : 전망발전차 무궁화호 신도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RSNM         : 전망발전차 개조 무궁화호 신도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TNM          : 저속발전차 무궁화호 신도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LNM          : 장대형 발전차 무궁화호 신도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RB           : 레이디버드
+STR_REFIT_LIVERY_Generatar_Real_OutLook_MC	         : 통통통 뮤직카페트레인
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS      : 장대형 새마을호 초기도색
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS      : 유선형 새마을호 초기도색
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS     : 새마을호 구도색 ST
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM     : 무궁화호 구도색 ST
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS     : 통일호 구도색 IR
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS     : 정선아리랑 유람열차 구도색
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS     : 새마을호 신도색 ST
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM     : 무궁화호 신도색 ST
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS     : 무궁화호 신도색 IR
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS     : 정선아리랑 유람열차 신도색
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR      : 레일크루즈 해랑
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_MR      : 팔도농심체험열차
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SB      : 남도해양관광열차 파랑
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SP      : 남도해양관광열차 분홍
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_JA      : 정선아리랑열차 구도색
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WG      : 서해금빛열차 구도색
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN      : 충북영동국악와인열차
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NS      : 남도해양관광열차 신도색
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NA      : 정선아리랑열차 신도색
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NG      : 서해금빛열차 신도색
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_GY      : 교외선 도색
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LMM     : 무궁화호 신도색 ST 재도색
+STR_REFIT_LIVERY_Express_Luggage_VA                  : 소화물차 A (가상도색)
+STR_REFIT_LIVERY_Express_Luggage_VB                  : 소화물차 B (가상도색)
+STR_REFIT_LIVERY_Express_Luggage_LOM                 : 무궁화호 구도색
+STR_REFIT_LIVERY_Express_Luggage_LNM                 : 무궁화호 신도색
+STR_REFIT_LIVERY_Express_Luggage_MTB                 : 정선MTB열차
+STR_REFIT_LIVERY_Express_Luggage_A                   : 에코레일 초기도색 A
+STR_REFIT_LIVERY_Express_Luggage_B                   : 에코레일 초기도색 B
+STR_REFIT_LIVERY_Express_Luggage_C                   : 에코레일 초기도색 C
+STR_REFIT_LIVERY_Express_Luggage_D                   : 에코레일 초기도색 D
+STR_REFIT_LIVERY_Express_Luggage_OEA                 : 에코레일 4대강 도색 A
+STR_REFIT_LIVERY_Express_Luggage_OEB                 : 에코레일 4대강 도색 B
+STR_REFIT_LIVERY_Express_Luggage_OEC                 : 에코레일 4대강 도색 C
+STR_REFIT_LIVERY_Express_Luggage_OED                 : 에코레일 4대강 도색 D
+STR_REFIT_LIVERY_Express_Luggage_OR                  : 에코레일 구도색 주황
+STR_REFIT_LIVERY_Express_Luggage_YL                  : 에코레일 구도색 노랑
+STR_REFIT_LIVERY_Express_Luggage_PK                  : 에코레일 구도색 분홍
+STR_REFIT_LIVERY_Express_Luggage_GN                  : 에코레일 구도색 녹색
+STR_REFIT_LIVERY_Express_Luggage_MP                  : 우체국 당일특급 도색
+STR_REFIT_LIVERY_Express_Luggage_EA                  : 에코레일 신도색 A
+STR_REFIT_LIVERY_Express_Luggage_EB                  : 에코레일 신도색 B
+STR_REFIT_LIVERY_Express_Luggage_WN                  : 충북영동국악와인열차
+STR_REFIT_LIVERY_Express_Luggage_GL                  : 생활물류트레인
+STR_REFIT_LIVERY_Luggage_Olny_1998_G                 : 1998년식 (녹색)
+STR_REFIT_LIVERY_Luggage_Olny_1999_G                 : 1999년식 (녹색)
+STR_REFIT_LIVERY_Luggage_Olny_1998_B                 : 1998년식 (파랑)
+STR_REFIT_LIVERY_Luggage_Olny_1999_B                 : 1999년식 (파랑)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1935_L : 3등열차 소화물 (1935)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1951_L : 3등열차 소화물 (1951)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_L      : 보통열차 소화물 (1962)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_L      : 보통열차 소화물 (1968)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1951_LB: 비둘기호 초기 소화물 (1951)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_LB     : 비둘기호 초기 소화물 (1962)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_LB     : 비둘기호 초기 소화물 (1968)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_LB2    : 비둘기호 구도색 소화물 (1962)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_LB2    : 비둘기호 구도색 소화물 (1968)
+STR_REFIT_LIVERY_Post_Car_POST_1973                  : 우편차 전용도색
+STR_REFIT_LIVERY_Post_Car_POST_1994                  : 우편차 표준도색
+STR_REFIT_LIVERY_Express_Post_Car_POST_M_1993        : 무궁화 구도색
+STR_REFIT_LIVERY_Express_Post_Car_POST_M_2005        : 무궁화 신도색
+STR_REFIT_LIVERY_CSPassenger_wagon_1F_Red            : 25형 1층 빨강 도색
+STR_REFIT_LIVERY_CSPassenger_wagon_1F_Green          : 25형 1층 녹색 도색
+STR_REFIT_LIVERY_CSPassenger_wagon_1F_White          : 25형 1층 흰색 도색
+STR_REFIT_LIVERY_CSPassenger_wagon_2F                : 25형 2층
+STR_REFIT_LIVERY_CSPassenger_wagon_Bed_3nd           : 25형 3등석 침대차량
+STR_REFIT_LIVERY_CSPassenger_wagon_Bed_2nd           : 25형 2등석 침대차량
+STR_REFIT_LIVERY_CSPassenger_wagon_Bed_1nd           : 25형 1등석 침대차량
+STR_REFIT_LIVERY_CGeneratar_Car_White                : 중국 발전차 흰색도색
+STR_REFIT_LIVERY_CGeneratar_Car_Green                : 중국 발전차 녹색도색
+STR_REFIT_LIVERY_CLuggage_Car_Red                    : 중국 수화물차 빨강도색
+STR_REFIT_LIVERY_CLuggage_Car_Green                  : 중국 수화물차 녹색도색
+STR_REFIT_LIVERY_CLuggage_Car_WhiteA                 : 중국 수화물차 흰색도색 A
+STR_REFIT_LIVERY_CLuggage_Car_WhiteB                 : 중국 수화물차 흰색도색 B
+STR_REFIT_LIVERY_Original_1nd_Passenger_Car          : 1등석
+STR_REFIT_LIVERY_Original_2nd_Passenger_Car          : 2등석
+STR_REFIT_LIVERY_Original_Bar_Passenger_Car          : 식당칸
+STR_REFIT_LIVERY_Original_HF_Passenger_Car           : 1/2 1,2등석
+STR_REFIT_LIVERY_FlatCC                              : 평판화차 회사색상
+STR_REFIT_LIVERY_FlatPCC                             : 평판화차 패기형 회사색상
+STR_REFIT_LIVERY_FlatP2CC                            : 평판화차 패기형 2CC
 Livery_TRC_SungShinRST_ECB              : 2등 객차, 3등 객차(ECB)
 Livery_TRC_SungShinRST_BCB              : 1등 객차(BCB)
 Livery_TRC_SungShinRST_BCB_K            : 1등 객차 1도어(BCB-K)

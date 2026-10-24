@@ -9,7 +9,7 @@ Shinkansen
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_Logo, 2599){
     property {
-        name:                           string(STR_Group_Shinkansen_Logo_NAME);
+        name:                           string(NAME_Group_Shinkansen);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -26,14 +26,14 @@ item(FEAT_TRAINS, Shinkansen_Logo, 2599){
 열차 리스트
 --------------------------------------------------------------------*/
 #include "Shinkansen_0/Shinkansen_0.pnml"
-#include "Shinkansen_500/Shinkansen_500.pnml"
 #include "Shinkansen_700/Shinkansen_700.pnml"
 #include "Shinkansen_800/Shinkansen_800.pnml"
+#include "Shinkansen_E2/Shinkansen_E2.pnml"
+#include "Shinkansen_E7_W7/Shinkansen_E7_W7.pnml"
+#include "Shinkansen_500/Shinkansen_500.pnml"
 #include "Shinkansen_N700/Shinkansen_N700.pnml"
 #include "Shinkansen_N700_S/Shinkansen_N700_S.pnml"
-#include "Shinkansen_E2/Shinkansen_E2.pnml"
 #include "Shinkansen_E5/Shinkansen_E5.pnml"
 #include "Shinkansen_E6/Shinkansen_E6.pnml"
-#include "Shinkansen_E7_W7/Shinkansen_E7_W7.pnml"
 #include "Shinkansen_E8/Shinkansen_E8.pnml"
 #include "Shinkansen_923/Shinkansen_923.pnml"

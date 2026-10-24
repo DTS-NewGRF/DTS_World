@@ -12,7 +12,7 @@ ICE3
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ICE3_8Car, 2069){
     property {
-        name:                           string(STR_ICE3_8Car_NAME);
+        name:                           string(NAME_ICE3_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1999, 1, 1);
         track_type:                     ELRL;

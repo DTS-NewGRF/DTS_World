@@ -12,7 +12,7 @@ TGV 아틀랑티크 / TGV Atlantique
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, TGV_A_12Car, 2080){
     property {
-        name:                           string(STR_TGV_A_12Car_NAME);
+        name:                           string(NAME_TGV_A_12Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1989, 9, 24);
         track_type:                     ELRL;

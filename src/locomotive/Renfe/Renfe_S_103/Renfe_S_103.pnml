@@ -12,7 +12,7 @@ Renfe S-103
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Renfe_S_103_8Car, 2074){
     property {
-        name:                           string(STR_Renfe_S_103_8Car_NAME);
+        name:                           string(NAME_Renfe_S_103_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2006, 1, 1);
         track_type:                     ELRL;

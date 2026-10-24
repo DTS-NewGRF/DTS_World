@@ -3,8 +3,8 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_0_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Shinkansen_0);
-    1: return string(STR_REFIT_LIVERY_Shinkansen_0_renewal); // 리뉴얼
+    0: return string(Livery_Shinkansen_0);
+    1: return string(Livery_Shinkansen_0_renewal); // 리뉴얼
 }
 
 // 도색그래픽 세팅

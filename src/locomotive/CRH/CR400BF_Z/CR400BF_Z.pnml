@@ -12,7 +12,7 @@ CR400BF_Z
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CR400BF_Z, 2209){
     property {
-        name:                           string(STR_Group_CR400BF_Z_NAME);
+        name:                           string(NAME_Group_CR400BF_Z);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, CR400BF_Z, 2209){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CR400BF_Z_8Car, 2049){
     property {
-        name:                           string(STR_CR400BF_Z_8Car_NAME);
+        name:                           string(NAME_CR400BF_Z_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2021, 1, 1);
         track_type:                     ELRL;
@@ -84,7 +84,7 @@ item(FEAT_TRAINS, CR400BF_Z_8Car, 2049){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CR400BF_Z_17Car, 2153){
     property {
-        name:                           string(STR_CR400BF_Z_17Car_NAME);
+        name:                           string(NAME_CR400BF_Z_17Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2021, 1, 1);
         track_type:                     ELRL;

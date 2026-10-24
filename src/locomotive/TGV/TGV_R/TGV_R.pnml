@@ -12,7 +12,7 @@ TGV 레조 / TGV Reseau
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, TGV_R_10Car, 2154){
     property {
-        name:                           string(STR_TGV_R_10Car_NAME);
+        name:                           string(NAME_TGV_R_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1989, 9, 24);
         track_type:                     ELRL;

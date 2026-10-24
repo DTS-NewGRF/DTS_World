@@ -12,7 +12,7 @@ Renfe-S-130
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Renfe_S_130_13Car, 2075){
     property {
-        name:                           string(STR_Renfe_S_130_13Car_NAME);
+        name:                           string(NAME_Renfe_S_130_13Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2010, 1, 1);
         track_type:                     ELRL;

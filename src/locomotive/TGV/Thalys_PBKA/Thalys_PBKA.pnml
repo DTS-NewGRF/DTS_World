@@ -12,7 +12,7 @@ TGV Thalys
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Thalys_PBKA_10Car, 2402){
     property {
-        name:                           string(STR_Thalys_PBKA_10Car_NAME);
+        name:                           string(NAME_Thalys_PBKA_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2006, 1, 1);
         track_type:                     ELRL;

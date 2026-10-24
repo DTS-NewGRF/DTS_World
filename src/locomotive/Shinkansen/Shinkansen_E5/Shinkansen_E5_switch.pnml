@@ -3,8 +3,8 @@
 --------------------------------------------------------------------*/
 //도색명
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Shinkansen_E5);
-    1: return string(STR_REFIT_LIVERY_Shinkansen_H5);   // H5
+    0: return string(Livery_Shinkansen_E5);
+    1: return string(Livery_Shinkansen_H5);   // H5
 }
 
 // 도색그래픽 세팅

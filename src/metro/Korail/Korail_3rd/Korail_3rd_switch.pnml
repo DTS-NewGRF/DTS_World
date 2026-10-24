@@ -361,9 +361,17 @@ switch(FEAT_TRAINS, SELF, sw_Korail_3rd_8Car_sound, cargo_subtype) {
 }
 
 // 속도
+switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4car_speed, cargo_subtype) {
+    0: sw_Metro_110_speed;
+    3: sw_Metro_110_120_speed;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_3rd_6car_speed, cargo_subtype) {
+    0: sw_Metro_110_speed;
+    1: sw_Metro_110_120_speed;
+}
+
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_10car_speed, cargo_subtype) {
     0: sw_Metro_110_speed;
     1: sw_Metro_110_120_speed;
-    2: sw_Metro_110_speed;
-    3: sw_Metro_110_speed;
 }

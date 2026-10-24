@@ -3,8 +3,8 @@
 --------------------------------------------------------------------*/
 //도색명
 switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Eurostar_E300_1993);
-    1: return string(STR_REFIT_LIVERY_Eurostar_E300_2015);
+    0: return string(Livery_Eurostar_E300_1993);
+    1: return string(Livery_Eurostar_E300_2015);
     return CB_RESULT_NO_TEXT;
 }
 

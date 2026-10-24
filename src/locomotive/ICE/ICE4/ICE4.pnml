@@ -12,7 +12,7 @@ ICE4
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ICE4, 2196){
     property {
-        name:                           string(STR_Group_ICE4_NAME);
+        name:                           string(NAME_Group_ICE4);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, ICE4, 2196){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ICE4_7Car, 2071){
     property {
-        name:                           string(STR_ICE4_7Car_NAME);
+        name:                           string(NAME_ICE4_7Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;
@@ -85,7 +85,7 @@ item(FEAT_TRAINS, ICE4_7Car, 2071){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ICE4_12Car, 2123){
     property {
-        name:                           string(STR_ICE4_12Car_NAME);
+        name:                           string(NAME_ICE4_12Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;

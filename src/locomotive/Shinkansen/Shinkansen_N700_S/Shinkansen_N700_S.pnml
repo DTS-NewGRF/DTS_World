@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_N700_S, 2204){
     property {
-        name:                           string(STR_Group_Shinkansen_N700S_NAME);
+        name:                           string(NAME_Group_Shinkansen_N700S);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -31,7 +31,7 @@ item(FEAT_TRAINS, Shinkansen_N700_S, 2204){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_N700_S_6Car, 2090){
     property {
-        name:                           string(STR_Shinkansen_N700S_6Car_NAME);
+        name:                           string(NAME_Shinkansen_N700S_6Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 7, 1);
         track_type:                     ELRL;
@@ -84,7 +84,7 @@ item(FEAT_TRAINS, Shinkansen_N700_S_6Car, 2090){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_N700_S_16Car, 2156){
     property {
-        name:                           string(STR_Shinkansen_N700S_16Car_NAME);
+        name:                           string(NAME_Shinkansen_N700S_16Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 7, 1);
         track_type:                     ELRL;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Shinkansen_N700_S_16Car, 2156){
         default:                        sw_Shinkansen_N700S_16car;
         articulated_part:               sw_articulated_Shinkansen_N700S_16car;
         purchase:                       set_Shinkansen_N700S_S_purchase;
-        speed:                          sw_High_300_speed;
+        speed:                          sw_High_300_360_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

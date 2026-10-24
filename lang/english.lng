@@ -358,90 +358,90 @@ NAME_Group_KTX_Onnuri                      : KTX-Onnuri
 NAME_KTX_Onnuri_8Car                       : [8Car] KTX-Onnuri
 NAME_KTX_Onnuri_10Car                      : [10Car] KTX-Onnuri
 NAME_KTX_Taegeuk_12Car                     : [12Car] KTX-Taegeuk
-NAME_Group_CRH                          : CRH
-NAME_CRH380AJ_8Car                      : [8Car] CRH380AJ
-NAME_Group_CR400AF                      : CR400AF
-NAME_CR400AF_8Car                       : [8Car] CR400AF
-NAME_CR400AF_16Car                      : [16Car] CR400AF
-NAME_CR400AF_17Car                      : [17Car] CR400AF
-NAME_Group_CR400AF_Z                    : CR400AF-Z
-NAME_CR400AF_Z_8Car                     : [8Car] CR400AF-Z
-NAME_CR400AF_Z_17Car                    : [17Car] CR400AF-Z
-NAME_Group_CR400BF                      : CR400BF
-NAME_CR400BF_8Car                       : [8Car] CR400BF
-NAME_CR400BF_16Car                      : [16Car] CR400BF
-NAME_CR400BF_17Car                      : [17Car] CR400BF
-STR_CR400BF_C_8Car_NAME                                :[8Car] CR400BF-C
-STR_Group_CR400BF_Z_NAME                               :CR400BF-Z
-STR_CR400BF_Z_8Car_NAME                                :[8Car] CR400BF-Z
-STR_CR400BF_Z_17Car_NAME                               :[17Car] CR400BF-Z
-STR_CRH1_8Car_NAME                                     :[8Car] CRH1A
-STR_CRH1A_A_8Car_NAME                                  :[8Car] CRH1A-A
-STR_CRH1E_16Car_NAME                                   :[16Car] CRH1E
-STR_CRH2_8Car_NAME                                     :[8Car] CRH2A
-STR_CRH2_16Car_NAME                                    :[16Car] CRH2B
-STR_CRH2C_8Car_NAME                                    :[8Car] CRH2C
-STR_CRH3_8Car_NAME                                     :[8Car] CRH3C
-STR_CRH380A_8Car_NAME                                  :[8Car] CRH380A
-STR_CRH380A_16Car_NAME                                 :[16Car] CRH380AL
-STR_CRH380B_8Car_NAME                                  :[8Car] CRH380B
-STR_CRH380B_16Car_NAME                                 :[16Car] CRH380B
-STR_CRH380C_16Car_NAME                                 :[16Car] CRH380CL
-STR_Group_CRH380D_NAME                                 :CRH380D
-STR_CRH380D_8Car_NAME                                  :[8Car] CRH380D
-STR_CRH380D_16Car_NAME                                 :[16Car] CRH380D
-STR_Group_Eurostar_Logo_NAME                           :Eurostar
-STR_Group_Eurostar_E300_NAME                           :Eurostar E300
-STR_Eurostar_E300_16Car_NAME                           :[16Car] Eurostar E300
-STR_Eurostar_E300_20Car_NAME                           :[20Car] Eurostar E300
-STR_Eurostar_E320_16Car_NAME                           :[16Car] Eurostar E320
-NAME_Group_ICE                          : ICE
-STR_ICE1_14Car_NAME                                    :[14Car] ICE1
-STR_ICE2_8Car_NAME                                     :[8Car] ICE2
-STR_ICE3_8Car_NAME                                     :[8Car] ICE3
-STR_ICE3V_8Car_NAME                                    :[8Car] ICE3 (Velaro D)
-STR_Group_ICE4_NAME                                    :ICE4
-STR_ICE4_7Car_NAME                                     :[7Car] ICE4
-STR_ICE4_12Car_NAME                                    :[12Car] ICE4
-STR_Group_Renfe_Logo_NAME                              :Renfe
-STR_Renfe_S_100_10Car_NAME                             :[10Car] Renfe AVE S-100
-STR_Renfe_S_102_14Car_NAME                             :[14Car] Renfe AVE S-102
-STR_Renfe_S_103_8Car_NAME                              :[8Car] Renfe AVE S-103
-STR_Renfe_S_130_13Car_NAME                             :[13Car] Renfe S-130
-STR_Group_Shinkansen_Logo_NAME                         :Shinkansen
-STR_Group_Shinkansen_0_NAME                            :Shinkansen 0
-STR_Shinkansen_0_12Car_NAME                            :[12Car] Shinkansen 0
-STR_Shinkansen_0_16Car_NAME                            :[16Car] Shinkansen 0
-STR_Group_Shinkansen_500_NAME                          :Shinkansen 500
-STR_Shinkansen_500_8Car_NAME                           :[8Car] Shinkansen 500
-STR_Shinkansen_500_16Car_NAME                          :[16Car] Shinkansen 500
-STR_Group_Shinkansen_700_NAME                          :Shinkansen 700
-STR_Shinkansen_700_8Car_NAME                           :[8Car] Shinkansen 700
-STR_Shinkansen_700_16Car_NAME                          :[16Car] Shinkansen 700
-STR_Shinkansen_800_6Car_NAME                           :[6Car] Shinkansen 800
-STR_Shinkansen_923_7Car_NAME                           :[7Car] Shinkansen 923
-STR_Shinkansen_E2_10Car_NAME                           :[10Car] Shinkansen E2
-STR_Group_Shinkansen_E5_H5_NAME                        :Shinkansen E5·H5
-STR_Shinkansen_E5_H5_10Car_NAME                        :[10Car] Shinkansen E5·H5
-STR_Shinkansen_E6_7Car_NAME                            :[7Car] Shinkansen E6
-STR_Shinkansen_E7_W7_12Car_NAME                        :[12Car] Shinkansen E7·W7
-STR_Shinkansen_E8_7Car_NAME                            :[7Car] Shinkansen E8
-STR_Group_Shinkansen_N700_NAME                         :Shinkansen N700
-STR_Shinkansen_N700_8Car_NAME                          :[8Car] Shinkansen N700 Sanyo-Kyushu Shinkansen
-STR_Shinkansen_N700_16Car_NAME                         :[16Car] Shinkansen N700
-STR_Group_Shinkansen_N700S_NAME                        :Shinkansen N700S
-STR_Shinkansen_N700S_6Car_NAME                         :[6Car] Shinkansen N700S Nishikyushu Shinkansen
-STR_Shinkansen_N700S_16Car_NAME                        :[16Car] Shinkansen N700S
-STR_Group_TGV_Logo_NAME                                :TGV
-STR_TGV_A_12Car_NAME                                   :[12Car] TGV Atlantique
-STR_TGV_Duplex_10Car_NAME                              :[10Car] TGV Duplex
-STR_TGV_La_Poste_10Car_NAME                            :[10Car] TGV La Poste
-STR_TGV_M_11Car_NAME                                   :[11Car] TGV M
-STR_TGV_R_10Car_NAME                                   :[10Car] TGV Reseau
-STR_TGV_Pos_10Car_NAME                                 :[10Car] TGV Pos
-STR_TGV_Reseau_Duplex_10Car_NAME                       :[10Car] TGV Reseau Duplex
-STR_TGV_Sud_Est_10Car_NAME                             :[10Car] TGV Sud-Est
-STR_Thalys_PBKA_10Car_NAME                             :[10Car] Thalys PBKA
+NAME_Group_CRH                             : CRH
+NAME_CRH1_8Car                             : [8Car] CRH1A
+NAME_CRH1E_16Car                           : [16Car] CRH1E
+NAME_CRH1A_A_8Car                          : [8Car] CRH1A-A
+NAME_CRH2_8Car                             : [8Car] CRH2A
+NAME_CRH2_16Car                            : [16Car] CRH2B
+NAME_CRH2C_8Car                            : [8Car] CRH2C
+NAME_CRH3_8Car                             : [8Car] CRH3C
+NAME_CRH380A_8Car                          : [8Car] CRH380A
+NAME_CRH380A_16Car                         : [16Car] CRH380AL
+NAME_CRH380B_8Car                          : [8Car] CRH380B
+NAME_CRH380B_16Car                         : [16Car] CRH380BL
+NAME_CRH380C_16Car                         : [16Car] CRH380CL
+NAME_Group_CRH380D                         : CRH380D
+NAME_CRH380D_8Car                          : [8Car] CRH380D
+NAME_CRH380D_16Car                         : [16Car] CRH380D
+NAME_Group_CR400AF                         : CR400AF
+NAME_CR400AF_8Car                          : [8Car] CR400AF
+NAME_CR400AF_16Car                         : [16Car] CR400AF
+NAME_CR400AF_17Car                         : [17Car] CR400AF
+NAME_Group_CR400AF_Z                       : CR400AF-Z
+NAME_CR400AF_Z_8Car                        : [8Car] CR400AF-Z
+NAME_CR400AF_Z_17Car                       : [17Car] CR400AF-Z
+NAME_Group_CR400BF                         : CR400BF
+NAME_CR400BF_8Car                          : [8Car] CR400BF
+NAME_CR400BF_16Car                         : [16Car] CR400BF
+NAME_CR400BF_17Car                         : [17Car] CR400BF
+NAME_CR400BF_C_8Car                        : [8Car] CR400BF-C
+NAME_Group_CR400BF_Z                       : CR400BF-Z
+NAME_CR400BF_Z_8Car                        : [8Car] CR400BF-Z
+NAME_CR400BF_Z_17Car                       : [17Car] CR400BF-Z
+NAME_CRH380AJ_8Car                         : [8Car] CRH380AJ
+NAME_Group_Eurostar                        : Eurostar
+NAME_Group_Eurostar_E300                   : Eurostar E300
+NAME_Eurostar_E300_16Car                   : [16Car] Eurostar E300
+NAME_Eurostar_E300_20Car                   : [20Car] Eurostar E300
+NAME_Eurostar_E320_16Car                   : [16Car] Eurostar E320
+NAME_Group_ICE                             : ICE
+NAME_ICE1_14Car                            : [14Car] ICE1
+NAME_ICE2_8Car                             : [8Car] ICE2
+NAME_ICE3_8Car                             : [8Car] ICE3
+NAME_ICE3V_8Car                            : [8Car] ICE3 (Velaro D)
+NAME_Group_ICE4                            : ICE4
+NAME_ICE4_7Car                             : [7Car] ICE4
+NAME_ICE4_12Car                            : [12Car] ICE4
+NAME_Group_Renfe                           : Renfe
+NAME_Renfe_S_130_13Car                     : [13Car] Renfe S-130
+NAME_Renfe_S_100_10Car                     : [10Car] Renfe AVE S-100
+NAME_Renfe_S_102_14Car                     : [14Car] Renfe AVE S-102
+NAME_Renfe_S_103_8Car                      : [8Car] Renfe AVE S-103
+NAME_Group_Shinkansen                      : Shinkansen
+NAME_Group_Shinkansen_0                    : Shinkansen 0
+NAME_Shinkansen_0_12Car                    : [12Car] Shinkansen 0
+NAME_Shinkansen_0_16Car                    : [16Car] Shinkansen 0
+NAME_Group_Shinkansen_700                  : Shinkansen 700
+NAME_Shinkansen_700_8Car                   : [8Car] Shinkansen 700
+NAME_Shinkansen_700_16Car                  : [16Car] Shinkansen 700
+NAME_Shinkansen_800_6Car                   : [6Car] Shinkansen 800
+NAME_Shinkansen_E2_10Car                   : [10Car] Shinkansen E2
+NAME_Shinkansen_E7_W7_12Car                : [12Car] Shinkansen E7·W7
+NAME_Group_Shinkansen_500                  : Shinkansen 500
+NAME_Shinkansen_500_8Car                   : [8Car] Shinkansen 500
+NAME_Shinkansen_500_16Car                  : [16Car] Shinkansen 500
+NAME_Group_Shinkansen_N700                 : Shinkansen N700
+NAME_Shinkansen_N700_8Car                  : [8Car] Shinkansen N700 Sanyo-Kyushu Shinkansen
+NAME_Shinkansen_N700_16Car                 : [16Car] Shinkansen N700
+NAME_Group_Shinkansen_N700S                : Shinkansen N700S
+NAME_Shinkansen_N700S_6Car                 : [6Car] Shinkansen N700S Nishikyushu Shinkansen
+NAME_Shinkansen_N700S_16Car                : [16Car] Shinkansen N700S
+NAME_Shinkansen_E5_H5_10Car                : [10Car] Shinkansen E5·H5
+NAME_Shinkansen_E6_7Car                    : [7Car] Shinkansen E6
+NAME_Shinkansen_E8_7Car                    : [7Car] Shinkansen E8
+NAME_Shinkansen_923_7Car                   : [7Car] Shinkansen 923
+NAME_Group_TGV                             : TGV
+NAME_TGV_Duplex_10Car                      : [10Car] TGV Duplex
+NAME_TGV_Pos_10Car                         : [10Car] TGV Pos
+NAME_Thalys_PBKA_10Car                     : [10Car] Thalys PBKA
+NAME_TGV_Sud_Est_10Car                     : [10Car] TGV Sud-Est
+NAME_TGV_Reseau_Duplex_10Car               : [10Car] TGV Reseau Duplex
+NAME_TGV_A_12Car                           : [12Car] TGV Atlantique
+NAME_TGV_R_10Car                           : [10Car] TGV Reseau
+NAME_TGV_La_Poste_10Car                    : [10Car] TGV La Poste
+NAME_TGV_M_11Car                           : [11Car] TGV M
+
 NAME_AUTS_6Car                          : [6Car] AUTS
 NAME_Nextrain_engine                    : Nextrain
 NAME_Nextrain_wagon                     : Nextrain
@@ -853,59 +853,50 @@ Livery_KTX_Cheong_Ryong_DD                 : KTX-Cheong Ryong
 Livery_KTX_Cheong_Ryong_DD_BK              : Black Livery
 Livery_KTX_Cheong_Ryong_DD_CC              : Company Color
 Livery_KTX_Cheong_Ryong_DD_2nd             : KTX-Cheong Ryong 2nd
-
-STR_REFIT_LIVERY_CRH380A                               : CRH380A
-STR_REFIT_LIVERY_Vibrant_Express                       : Vibrant Express
-STR_REFIT_LIVERY_CR400BF_C                             : Golden Phoenix Livery
-STR_REFIT_LIVERY_CR400BF_C_O                           : Beijing 2022 Winter Olympics Livery
-STR_REFIT_LIVERY_Eurostar_E300_1993                    : Eurostar Old Livery
-STR_REFIT_LIVERY_Eurostar_E300_2015                    : Eurostar New Livery
-STR_REFIT_LIVERY_ICE2_red                              : Red Livery
-STR_REFIT_LIVERY_ICE2_green                            : Green Livery
-STR_REFIT_LIVERY_ICE3_red                              : ICE 3 Red Livery
-STR_REFIT_LIVERY_ICE3_green                            : ICE 3 Green Livery
-STR_REFIT_LIVERY_ICE3M_red                             : ICE 3M Red Livery
-STR_REFIT_LIVERY_ICE3M_green                           : ICE 3M Green Livery
-STR_REFIT_LIVERY_ICE3M_Blue                            : ICE 3M Europa Livery
-STR_REFIT_LIVERY_ICE3V_red                             : Red Livery
-STR_REFIT_LIVERY_ICE3V_green                           : Green Livery
-STR_REFIT_LIVERY_ICE4_red                              : Red Livery
-STR_REFIT_LIVERY_ICE4_green                            : Green Livery
-STR_REFIT_LIVERY_Renfe_S_100_old                       : Old Livery
-STR_REFIT_LIVERY_Renfe_S_100_new                       : Renewal Livery
-STR_REFIT_LIVERY_Renfe_S_130_Alvia                     : Alvia
-STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob                 : Aprosiyob
-STR_REFIT_LIVERY_Shinkansen_0                          : Original Livery
-STR_REFIT_LIVERY_Shinkansen_0_renewal                  : Renewal Livery
-STR_REFIT_LIVERY_Shinkansen_E2_Pink                    : Pink line Livery
-STR_REFIT_LIVERY_Shinkansen_E2_Red                     : Red line Livery
-STR_REFIT_LIVERY_Shinkansen_E5                         : Shinkansen E5
-STR_REFIT_LIVERY_Shinkansen_H5                         : Shinkansen H5
-STR_REFIT_LIVERY_Shinkansen_E5_E6                      : Shinkansen E5+E6
-STR_REFIT_LIVERY_Shinkansen_E5_E8                      : Shinkansen E5+E8
-STR_REFIT_LIVERY_Shinkansen_H5_E6                      : Shinkansen H5+E6
-STR_REFIT_LIVERY_Shinkansen_H5_E8                      : Shinkansen H5+E8
-STR_REFIT_LIVERY_TGV_Atlantic                          : Atlantic Blue
-STR_REFIT_LIVERY_TGV_Atlantic_1st                      : 1st Atlantic Blue
-STR_REFIT_LIVERY_TGV_Atlantic_2nd                      : 2nd Atlantic Blue
-STR_REFIT_LIVERY_TGV_Atlantic_First_2Car               : Atlantic Blue First 2Car
-STR_REFIT_LIVERY_TGV_Atlantic_First_3Car               : Atlantic Blue First 3Car
-STR_REFIT_LIVERY_TGV_Carmillon                         : Carmillon
-STR_REFIT_LIVERY_TGV_Carmillon_1st                     : 1st Carmillon
-STR_REFIT_LIVERY_TGV_Carmillon_2nd                     : 2nd Carmillon
-STR_REFIT_LIVERY_TGV_Lacroix                           : Lacroix
-STR_REFIT_LIVERY_TGV_Lyair                             : Lyria
-STR_REFIT_LIVERY_TGV_M_A                               : TGV-M A Type
-STR_REFIT_LIVERY_TGV_M_B                               : TGV-M B Type
-STR_REFIT_LIVERY_TGV_M_Inoui                           : Inoui
-STR_REFIT_LIVERY_TGV_M_Rame                            : Rame D'Essal
-STR_REFIT_LIVERY_TGV_Ouigo                             : Ouigo
-STR_REFIT_LIVERY_TGV_Sud_Est_Original                  : Orange
-STR_REFIT_LIVERY_TGV_Sud_Est_Last                      : Last run Event
-STR_REFIT_LIVERY_TGV_Thalys_PBKA_Old                   : Thalys PBKA Old
-STR_REFIT_LIVERY_TGV_Thalys_PBKA_New                   : Thalys PBKA New
-STR_REFIT_LIVERY_TGV_Thalys_Ruby                       : Thalys Ruby
-STR_REFIT_LIVERY_AUTS                                  : AUTS
+Livery_CRH380A                             : CRH380A
+Livery_Vibrant_Express                     : Vibrant Express
+Livery_CR400BF_C                           : Golden Phoenix Livery
+Livery_CR400BF_C_O                         : Beijing 2022 Winter Olympics Livery
+Livery_Eurostar_E300_1993                  : Eurostar Old Livery
+Livery_Eurostar_E300_2015                  : Eurostar New Livery
+Livery_ICE_red                             : Red Livery
+Livery_ICE_green                           : Green Livery
+Livery_ICE3_red                            : ICE 3 Red Livery
+Livery_ICE3_green                          : ICE 3 Green Livery
+Livery_ICE3M_red                           : ICE 3M Red Livery
+Livery_ICE3M_green                         : ICE 3M Green Livery
+Livery_ICE3M_Blue                          : ICE 3M Europa Livery
+Livery_Renfe_S_130_Alvia                   : Alvia
+Livery_Renfe_S_130_Aprosiyob               : Aprosiyob
+Livery_Renfe_S_100_old                     : Old Livery
+Livery_Renfe_S_100_new                     : Renewal Livery
+Livery_Shinkansen_0                        : Original Livery
+Livery_Shinkansen_0_renewal                : Renewal Livery
+Livery_Shinkansen_E2_Pink                  : Pink line Livery
+Livery_Shinkansen_E2_Red                   : Red line Livery
+Livery_Shinkansen_E5                       : Shinkansen E5
+Livery_Shinkansen_H5                       : Shinkansen H5
+Livery_TGV_Atlantic                        : Atlantic Blue
+Livery_TGV_Atlantic_1st                    : 1st Atlantic Blue
+Livery_TGV_Atlantic_2nd                    : 2nd Atlantic Blue
+Livery_TGV_Atlantic_First_2Car             : Atlantic Blue First 2Car
+Livery_TGV_Atlantic_First_3Car             : Atlantic Blue First 3Car
+Livery_TGV_Carmillon                       : Carmillon
+Livery_TGV_Carmillon_1st                   : 1st Carmillon
+Livery_TGV_Carmillon_2nd                   : 2nd Carmillon
+Livery_TGV_Lacroix                         : Lacroix
+Livery_TGV_Lyair                           : Lyria
+Livery_TGV_M_A                             : TGV-M A Type
+Livery_TGV_M_B                             : TGV-M B Type
+Livery_TGV_M_Inoui                         : Inoui
+Livery_TGV_M_Rame                          : Rame D'Essal
+Livery_TGV_Ouigo                           : Ouigo
+Livery_TGV_Sud_Est_Original                : Orange
+Livery_TGV_Sud_Est_Last                    : Last run Event
+Livery_TGV_Thalys_PBKA_Old                 : Thalys PBKA Old
+Livery_TGV_Thalys_PBKA_New                 : Thalys PBKA New
+Livery_TGV_Thalys_Ruby                     : Thalys Ruby
+STR_REFIT_LIVERY_AUTS                                : AUTS
 
 Livery_PEX_Super_N_Wagon                : Wagon Car
 Livery_PEX_Super_N_Tail                 : Cab Car
@@ -956,439 +947,439 @@ Livery_CDC_Baekje                       : Baekje Crown
 Livery_CDC_Sea_Old                      : Sea Old
 Livery_CDC_Sea_New                      : Sea New
 Livery_CDC_DMZ                          : DMZ
-STR_REFIT_LIVERY_DEL4400_A                             : Old
-STR_REFIT_LIVERY_DEL4400_B                             : New
-STR_REFIT_LIVERY_DEL4400_C                             : V-Train
-STR_REFIT_LIVERY_DEL4400_D                             : Gyooe Line livery
-STR_REFIT_LIVERY_DEL7000_A                             : DEL7000_A
-STR_REFIT_LIVERY_DEL7000_B                             : DEL7000_B
-STR_REFIT_LIVERY_DEL7000_C                             : DEL7000_C
-STR_REFIT_LIVERY_DHC_FF                                : DHC PP First First
-STR_REFIT_LIVERY_DHC_FL_A                              : DHC PP First Last A
-STR_REFIT_LIVERY_DHC_FL_B                              : DHC PP First Last B
-STR_REFIT_LIVERY_DHC_FLS                               : DHC PP First Last Special Car
-STR_REFIT_LIVERY_DHC_OF                                : DHC PP Old First
-STR_REFIT_LIVERY_DHC_OL_A                              : DHC PP Old Last A
-STR_REFIT_LIVERY_DHC_OL_B                              : DHC PP Old Last B
-STR_REFIT_LIVERY_DHC_OL_C                              : DHC PP Old Last C
-STR_REFIT_LIVERY_DHC_OLS                               : DHC PP Old Last Special Car
-STR_REFIT_LIVERY_DHC_New_A                             : DHC PP New A
-STR_REFIT_LIVERY_DHC_New_B                             : DHC PP New B
-STR_REFIT_LIVERY_DHC_New_C                             : DHC PP New C
-STR_REFIT_LIVERY_DHC_New_Cafe_A                        : DHC PP New Cafe A
-STR_REFIT_LIVERY_DHC_New_Cafe_B                        : DHC PP New Cafe B
-STR_REFIT_LIVERY_DHC_New_Cafe_C                        : DHC PP New Cafe C
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1961                 : 1st Original livery
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1966                 : 2nd Original livery
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A               : 2nd Single Cab Original livery Semi cross seat
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B               : 2nd Single Cab Original livery Long seat
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O               : regular express train Double Cab
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O1              : regular express train Single Cab
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B1              : Bidulgi 1st
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B2              : Bidulgi 2nd
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BA              : Bidulgi Single Cab Semi cross seat
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BB              : Bidulgi Single Cab Long seat
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T               : Tongil Double Cab
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T1              : Tongil Singie Cab
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M               : Mugunghwa Double Cab
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1              : Mugunghwa Singie Cab
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B               : Bidulgi KNR 2
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1A             : Bidulgi Single Cab Semi cross seat KNR 2
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1B             : Bidulgi Single Cab Long seat KNR 2
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1966_2car_C          : 1966 C
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_2car_C          : 1974 C
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_2car_L          : 1975 L
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_C          : 1984 C
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_L          : 1984 L
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_T          : 1984 T
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_M          : 1984 M
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_C          : 1994 C
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_L          : 1994 L
-STR_REFIT_LIVERY_Special_Diesel_Car_1969               : Special car first livery
-STR_REFIT_LIVERY_Special_Diesel_Car_1986               : Special car first livery (AIRCON)
-STR_REFIT_LIVERY_Special_Diesel_Car_1994               : Special car second livery
-STR_REFIT_LIVERY_EEC_EMU_1980                          : Superiority & Mugunghwa first livery
-STR_REFIT_LIVERY_EEC_EMU_1996                          : Mugunghwa & Tong-il second livery
-STR_REFIT_LIVERY_FEL_8500                              : Orginal
-STR_REFIT_LIVERY_FEL_8500_A_train                      : A-Train
-STR_REFIT_LIVERY_FEL_8500_A_train_New                  : A-Train New Color
-STR_REFIT_LIVERY_FEL_8500_G_train                      : G-Train
-STR_REFIT_LIVERY_FEL_8500_G_train_New                  : G-Train New Color
-STR_REFIT_LIVERY_FEL_8500_Haerang_train                : Haerang
-STR_REFIT_LIVERY_FEL_8500_S_train                      : S-Train
-STR_REFIT_LIVERY_FEL_8500_V_train                      : V-Train
-STR_REFIT_LIVERY_FEL_8500_Wine_train                   : Wine
-STR_REFIT_LIVERY_GT26CW_1971_F                         : Early livery Cargo
-STR_REFIT_LIVERY_GT26CW_1971_K                         : Kwan kwang Ho
-STR_REFIT_LIVERY_GT26CW_1971_S                         : Early livery Passinger
-STR_REFIT_LIVERY_GT26CW_1995                           : Old livery
-STR_REFIT_LIVERY_GT26CW_2005                           : New livery
-STR_REFIT_LIVERY_GT26CW_2006                           : Ladybird
-STR_REFIT_LIVERY_GT26CW_2008                           : RAIL CRUISE HAERANG
-STR_REFIT_LIVERY_GT26CW_2012                           : New livery Cargo
-STR_REFIT_LIVERY_GT26CW_2013                           : Old livery S-train
-STR_REFIT_LIVERY_GT26CW_2015                           : Old livery G-train
-STR_REFIT_LIVERY_GT26CW_2018                           : Chungbuk Yeongdong Gugak & Wine Train
-STR_REFIT_LIVERY_GT26CW_2019_1                         : ASEAN Korea Train (Gugak & Wine)
-STR_REFIT_LIVERY_GT26CW_2019_2                         : ASEAN Korea Train (KORAIL CI)
-STR_REFIT_LIVERY_GT26CW_2020                           : New livery S-train
-STR_REFIT_LIVERY_GT26CW_2023                           : New livery G-train
-STR_REFIT_LIVERY_NEL_8100_A                            : NEL 8100 A
-STR_REFIT_LIVERY_NEL_8100_B                            : NEL 8100 B
-STR_REFIT_LIVERY_OEL8000_I1                            : 1st Early livery
-STR_REFIT_LIVERY_OEL8000_I2                            : 2nd Early livery
-STR_REFIT_LIVERY_OEL8000_O1                            : 1st Old livery
-STR_REFIT_LIVERY_OEL8000_O2                            : 2nd Old livery
-STR_REFIT_LIVERY_OEL8000_N1                            : 1st New livery
-STR_REFIT_LIVERY_OEL8000_N2                            : 2nd New livery
+STR_REFIT_LIVERY_DEL4400_A                           : Old
+STR_REFIT_LIVERY_DEL4400_B                           : New
+STR_REFIT_LIVERY_DEL4400_C                           : V-Train
+STR_REFIT_LIVERY_DEL4400_D                           : Gyooe Line livery
+STR_REFIT_LIVERY_DEL7000_A                           : DEL7000_A
+STR_REFIT_LIVERY_DEL7000_B                           : DEL7000_B
+STR_REFIT_LIVERY_DEL7000_C                           : DEL7000_C
+STR_REFIT_LIVERY_DHC_FF                              : DHC PP First First
+STR_REFIT_LIVERY_DHC_FL_A                            : DHC PP First Last A
+STR_REFIT_LIVERY_DHC_FL_B                            : DHC PP First Last B
+STR_REFIT_LIVERY_DHC_FLS                             : DHC PP First Last Special Car
+STR_REFIT_LIVERY_DHC_OF                              : DHC PP Old First
+STR_REFIT_LIVERY_DHC_OL_A                            : DHC PP Old Last A
+STR_REFIT_LIVERY_DHC_OL_B                            : DHC PP Old Last B
+STR_REFIT_LIVERY_DHC_OL_C                            : DHC PP Old Last C
+STR_REFIT_LIVERY_DHC_OLS                             : DHC PP Old Last Special Car
+STR_REFIT_LIVERY_DHC_New_A                           : DHC PP New A
+STR_REFIT_LIVERY_DHC_New_B                           : DHC PP New B
+STR_REFIT_LIVERY_DHC_New_C                           : DHC PP New C
+STR_REFIT_LIVERY_DHC_New_Cafe_A                      : DHC PP New Cafe A
+STR_REFIT_LIVERY_DHC_New_Cafe_B                      : DHC PP New Cafe B
+STR_REFIT_LIVERY_DHC_New_Cafe_C                      : DHC PP New Cafe C
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1961               : 1st Original livery
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1966               : 2nd Original livery
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A             : 2nd Single Cab Original livery Semi cross seat
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B             : 2nd Single Cab Original livery Long seat
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O             : regular express train Double Cab
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O1            : regular express train Single Cab
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B1            : Bidulgi 1st
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B2            : Bidulgi 2nd
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BA            : Bidulgi Single Cab Semi cross seat
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BB            : Bidulgi Single Cab Long seat
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T             : Tongil Double Cab
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T1            : Tongil Singie Cab
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M             : Mugunghwa Double Cab
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1            : Mugunghwa Singie Cab
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B             : Bidulgi KNR 2
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1A           : Bidulgi Single Cab Semi cross seat KNR 2
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1B           : Bidulgi Single Cab Long seat KNR 2
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1966_2car_C        : 1966 C
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_2car_C        : 1974 C
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_2car_L        : 1975 L
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_C        : 1984 C
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_L        : 1984 L
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_T        : 1984 T
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_M        : 1984 M
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_C        : 1994 C
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_L        : 1994 L
+STR_REFIT_LIVERY_Special_Diesel_Car_1969             : Special car first livery
+STR_REFIT_LIVERY_Special_Diesel_Car_1986             : Special car first livery (AIRCON)
+STR_REFIT_LIVERY_Special_Diesel_Car_1994             : Special car second livery
+STR_REFIT_LIVERY_EEC_EMU_1980                        : Superiority & Mugunghwa first livery
+STR_REFIT_LIVERY_EEC_EMU_1996                        : Mugunghwa & Tong-il second livery
+STR_REFIT_LIVERY_FEL_8500                            : Orginal
+STR_REFIT_LIVERY_FEL_8500_A_train                    : A-Train
+STR_REFIT_LIVERY_FEL_8500_A_train_New                : A-Train New Color
+STR_REFIT_LIVERY_FEL_8500_G_train                    : G-Train
+STR_REFIT_LIVERY_FEL_8500_G_train_New                : G-Train New Color
+STR_REFIT_LIVERY_FEL_8500_Haerang_train              : Haerang
+STR_REFIT_LIVERY_FEL_8500_S_train                    : S-Train
+STR_REFIT_LIVERY_FEL_8500_V_train                    : V-Train
+STR_REFIT_LIVERY_FEL_8500_Wine_train                 : Wine
+STR_REFIT_LIVERY_GT26CW_1971_F                       : Early livery Cargo
+STR_REFIT_LIVERY_GT26CW_1971_K                       : Kwan kwang Ho
+STR_REFIT_LIVERY_GT26CW_1971_S                       : Early livery Passinger
+STR_REFIT_LIVERY_GT26CW_1995                         : Old livery
+STR_REFIT_LIVERY_GT26CW_2005                         : New livery
+STR_REFIT_LIVERY_GT26CW_2006                         : Ladybird
+STR_REFIT_LIVERY_GT26CW_2008                         : RAIL CRUISE HAERANG
+STR_REFIT_LIVERY_GT26CW_2012                         : New livery Cargo
+STR_REFIT_LIVERY_GT26CW_2013                         : Old livery S-train
+STR_REFIT_LIVERY_GT26CW_2015                         : Old livery G-train
+STR_REFIT_LIVERY_GT26CW_2018                         : Chungbuk Yeongdong Gugak & Wine Train
+STR_REFIT_LIVERY_GT26CW_2019_1                       : ASEAN Korea Train (Gugak & Wine)
+STR_REFIT_LIVERY_GT26CW_2019_2                       : ASEAN Korea Train (KORAIL CI)
+STR_REFIT_LIVERY_GT26CW_2020                         : New livery S-train
+STR_REFIT_LIVERY_GT26CW_2023                         : New livery G-train
+STR_REFIT_LIVERY_NEL_8100_A                          : NEL 8100 A
+STR_REFIT_LIVERY_NEL_8100_B                          : NEL 8100 B
+STR_REFIT_LIVERY_OEL8000_I1                          : 1st Early livery
+STR_REFIT_LIVERY_OEL8000_I2                          : 2nd Early livery
+STR_REFIT_LIVERY_OEL8000_O1                          : 1st Old livery
+STR_REFIT_LIVERY_OEL8000_O2                          : 2nd Old livery
+STR_REFIT_LIVERY_OEL8000_N1                          : 1st New livery
+STR_REFIT_LIVERY_OEL8000_N2                          : 2nd New livery
 
 # Liveries Metro
-STR_REFIT_LIVERY_Standard_Metro_Long_Seat              : Standard MetroLong Long Seat
-STR_REFIT_LIVERY_Standard_Metro_Cross_Seat             : Standard MetroLong Cross Seat
-STR_REFIT_LIVERY_Shinbundang_G1                        : Shinbundang G1
-STR_REFIT_LIVERY_Shinbundang_G2                        : Shinbundang G2
-STR_REFIT_LIVERY_Shinbundang_G3                        : Shinbundang G3
+STR_REFIT_LIVERY_Standard_Metro_Long_Seat            : Standard MetroLong Long Seat
+STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           : Standard MetroLong Cross Seat
+STR_REFIT_LIVERY_Shinbundang_G1                      : Shinbundang G1
+STR_REFIT_LIVERY_Shinbundang_G2                      : Shinbundang G2
+STR_REFIT_LIVERY_Shinbundang_G3                      : Shinbundang G3
 
-STR_REFIT_LIVERY_West_Japan_125_1panto                 : Series 125 EMU 1Panto
-STR_REFIT_LIVERY_West_Japan_125_2panto                 : Series 125 EMU 2Panto
-STR_REFIT_LIVERY_West_Japan_227_R_Atype                : Urara TOSHIBA R unit
-STR_REFIT_LIVERY_West_Japan_227_R_Btype                : Urara HITACHI, TOYODENKI R unit
-STR_REFIT_LIVERY_West_Japan_227_H_Atype                : Urara TOSHIBA H unit
-STR_REFIT_LIVERY_West_Japan_227_H_Btype                : Urara HITACHI, TOYODENKI H unit
-STR_REFIT_LIVERY_West_Japan_227_L_Atype                : Urara TOSHIBA L unit
-STR_REFIT_LIVERY_West_Japan_227_L_Btype                : Urara HITACHI, TOYODENKI L unit
+STR_REFIT_LIVERY_West_Japan_125_1panto               : Series 125 EMU 1Panto
+STR_REFIT_LIVERY_West_Japan_125_2panto               : Series 125 EMU 2Panto
+STR_REFIT_LIVERY_West_Japan_227_R_Atype              : Urara TOSHIBA R unit
+STR_REFIT_LIVERY_West_Japan_227_R_Btype              : Urara HITACHI, TOYODENKI R unit
+STR_REFIT_LIVERY_West_Japan_227_H_Atype              : Urara TOSHIBA H unit
+STR_REFIT_LIVERY_West_Japan_227_H_Btype              : Urara HITACHI, TOYODENKI H unit
+STR_REFIT_LIVERY_West_Japan_227_L_Atype              : Urara TOSHIBA L unit
+STR_REFIT_LIVERY_West_Japan_227_L_Btype              : Urara HITACHI, TOYODENKI L unit
 
 # Liveries Wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_1wagon                  : Mugunghwa 2cc 1wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_2wagon                  : Mugunghwa 2cc 2wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_3wagon                  : Mugunghwa 2cc 3wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_4wagon                  : Mugunghwa 2cc 4wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_5wagon                  : Mugunghwa 2cc 5wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_6wagon                  : Mugunghwa 2cc 6wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_7wagon                  : Mugunghwa 2cc 7wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_8wagon                  : Mugunghwa 2cc 8wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_9wagon                  : Mugunghwa 2cc 9wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_10wagon                 : Mugunghwa 2cc 10wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_11wagon                 : Mugunghwa 2cc 11wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_12wagon                 : Mugunghwa 2cc 12wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_13wagon                 : Mugunghwa 2cc 13wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_14wagon                 : Mugunghwa 2cc 14wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_15wagon                 : Mugunghwa 2cc 15wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_16wagon                 : Mugunghwa 2cc 16wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_17wagon                 : Mugunghwa 2cc 17wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_18wagon                 : Mugunghwa 2cc 18wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_19wagon                 : Mugunghwa 2cc 19wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_20wagon                 : Mugunghwa 2cc 20wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_21wagon                 : Mugunghwa 2cc 21wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_22wagon                 : Mugunghwa 2cc 22wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_23wagon                 : Mugunghwa 2cc 23wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_24wagon                 : Mugunghwa 2cc 24wagon
-STR_REFIT_LIVERY_Mugunghwa_2cc_25wagon                 : Mugunghwa 2cc 25wagon
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG1              : Superiority car Green regular class
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG2              : Superiority car Green studio
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I1               : Early livery regular class
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I2               : Early livery studio
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N1               : Long length Old livery regular class
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N2               : Long length Old livery studio
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N3               : long length Old livery studio (Wheelchair seat)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O1               : Old livery regular class
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O2               : Old livery studio
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O3               : Old livery regular class (Auto door)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O4               : Old livery studio (Auto door)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L1               : Rimiteu Old livery regular class
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L2               : Rimiteu Old livery studio (Wheelchair seat)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN1              : Long length New livery regular class 1
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN2              : Long length New livery studio 1
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN3              : Long length New livery regular class 2
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN4              : Long length New livery studio 2
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN5              : Long length New livery studio (Wheelchair seat)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN6              : Refurbished Long length New livery studio
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SA               : Saemaul downgrade A type
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SB               : Saemaul downgrade B type
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN1              : Rimiteu New livery regular class
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN2              : Rimiteu New livery studio (Wheelchair seat)
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN1              : Rimiteu Gyooe line livery regular class
-STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN2              : Rimiteu Gyooe line livery studio (Wheelchair seat)
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR1            : Superiority Roomette sleeping car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC1            : Superiority Compartment sleeping car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR2            : Early livery Roomette sleeping car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC2            : Early livery Compartment sleeping car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF2            : Saemaul downgrade Half-restaurant, room
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS1             : Early livery Half-restaurant, room
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF1            : Early livery Saemaul downgrade restaurant
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SMF             : Saemaul downgrade Early livery Stream lined restaurant
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDFS            : Saemaul downgrade restaurant
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS2             : Half-restaurant, room
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP1            : Roomette sleeping car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP2            : Refurbished Compartment sleeping car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSMF            : Saemaul downgrade Old livery Stream lined restaurant
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_OPG             : Old livery playroom Half-restaurant, room
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP1           : Roomette sleeping car (Auto door)
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP2           : Refurbished Compartment sleeping car (Auto door)
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_WAD             : Wedding hall car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_CAFE            : Old livery Cafe car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_PC              : PC room car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_PG              : The game of go room car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_CP              : Cultural promotion car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_RF              : Rimiteu restaurant car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORS             : Old livery Rimiteu sleeping car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDC             : Summer Universiade DAEGU 2003
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_NPG             : New livery playroom Half-restaurant, room
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_NCAFE           : New livery Cafe car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_NSMF            : Saemaul downgrade New livery Stream lined restaurant
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_NNC             : Long length Cafe car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORC             : Old livery Rimiteu Cafe car	
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRC             : New livery Rimiteu Cafe car
-STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRS             : New livery Rimiteu sleeping car
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1             : Superiority car Red
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1              : Early livery
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI              : Early Saemaul downgrade Early livery
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF              : Daewoo Early livery
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMA             : Early livery Stream lined A type
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMB             : Early livery Stream lined B type
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_ONF             : Hanjin
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMI             : Old livery
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSI             : Early Saemaul downgrade Old livery
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMF             : Daewoo
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSA             : Old livery Stream lined A type
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSB             : Old livery Stream lined B type
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHF             : Old livery Haetae
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHFM            : Old livery Haetae family room
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_NHF             : New livery Haetae
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSB             : Long length Saemaul downgrade B type
-STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSC             : Long length Saemaul downgrade C type
-STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922            : 3rd coach passenger car (1922)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933            : 3rd coach passenger car (1933)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938            : 3rd coach passenger car (1938)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954            : 3rd coach passenger car (1954)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_1               : regular train cross seat 1
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_2               : regular train cross seat 2
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1962                 : regular train long seat (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1963                 : regular train cross seat (1963)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1965                 : regular train cross seat (1965)
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1965                 : regular train long seat (1965)
-STR_REFIT_LIVERY_Pidulgi_Normal_DC_1966                : DC car non-motorized carriage first livery livery
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_R               : regular express train
-STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954_B          : Bidulgi first livery cross seat (1954)
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B               : Bidulgi first livery cross seat 1 (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B               : Bidulgi first livery long seat (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B               : Bidulgi first livery cross seat 2 (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B1              : Bidulgi first livery cross seat 1
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B2              : Bidulgi first livery cross seat 2
-STR_REFIT_LIVERY_Pidulgi_Normal_FD_1963_B              : Tong-il first class downgrade Bidulgi first livery
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B               : Bidulgi first livery (1965)
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B               : Bidulgi first livery long seat (1965) & DC car non-motorized carriage second livery
-STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B2              : Bidulgi second livery cross seat 1 (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B2              : Bidulgi second livery long seat (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B2              : Bidulgi second livery cross seat 2 (1962)
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B3              : Bidulgi second livery cross seat (1963)
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B4              : Tongil express downgrade second livery conversion cross seat
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B2              : Bidulgi second livery cross seat (1965)
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B2              : Bidulgi second livery long seat (1965) & DC car non-motorized carriage third livery
-STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B3              : Bidulgi third livery long seat (1965) & DC car non-motorized carriage Fourth livery
-STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B3              : Bidulgi third livery cross seat (1965)
-STR_REFIT_LIVERY_Pidulgi_Service_C_MADE_1936           : regular train Restaurant (1936)
-STR_REFIT_LIVERY_Pidulgi_Service_1964                  : regular train Restaurant (1964)
-STR_REFIT_LIVERY_Tong_il_Normal_T_1963                 : Super Express (1963)
-STR_REFIT_LIVERY_Tong_il_Normal_T_1968                 : Express train
-STR_REFIT_LIVERY_Tong_il_Normal_T_1974                 : Super Express (1974)
-STR_REFIT_LIVERY_Tong_il_Normal_FD_1963                : Super Express train first class downgrade regular class
-STR_REFIT_LIVERY_Tong_il_Normal_B_1962_U               : Bidulgi Upgrade car
-STR_REFIT_LIVERY_Tong_il_Normal_T2_1963_1968           : Tong-il first livery (1963, 1968)
-STR_REFIT_LIVERY_Tong_il_Normal_T2_1974                : Tong-il first livery (1974)
-STR_REFIT_LIVERY_Tong_il_Normal_FD_1963_T              : Tong-il first class downgrade regular class
-STR_REFIT_LIVERY_Tong_il_Normal_T2_1984                : Tong-il first livery (Aircon)
-STR_REFIT_LIVERY_Tong_il_Normal_TO_1989                : Tong-il first livery Mugunghwa downgrade regular class
-STR_REFIT_LIVERY_Tong_il_Normal_T_1994                 : Tong-il second livery (Express)
-STR_REFIT_LIVERY_Tong_il_Normal_TO1                    : Tong-il second livery Mugunghwa downgrade regular class
-STR_REFIT_LIVERY_Tong_il_Normal_TO2                    : Tong-il second livery Mugunghwa downgrade studio
-STR_REFIT_LIVERY_Tong_il_Normal_T_1997                 : Tong-il second livery (All stop)
-STR_REFIT_LIVERY_Tong_il_Service_D_1966	               : Super Express restaurant car
-STR_REFIT_LIVERY_Tong_il_Service_S_1966                : 1st Super Express sleeping car
-STR_REFIT_LIVERY_Tong_il_Service_D_1968                : Express train restaurant car
-STR_REFIT_LIVERY_Tong_il_Service_S_1975                : 2nd Super Express sleeping car
-STR_REFIT_LIVERY_Tong_il_Service_S_1984                : Tong-il first livery sleeping car
-STR_REFIT_LIVERY_Tong_il_Service_S_1994                : Tong-il second livery (Express) sleeping car
-STR_REFIT_LIVERY_Tong_il_Service_S_1997                : Tong-il second livery (All stop) sleeping car
-STR_REFIT_LIVERY_Tong_il_Special_F_1963_2              : 2nd coach passenger car
-STR_REFIT_LIVERY_Tong_il_Special_F_1963_T              : Super Express (1963)
-STR_REFIT_LIVERY_Tong_il_Special_F_1968                : Express train
-STR_REFIT_LIVERY_Tong_il_Special_F_1974                : Super Express (1974)
-STR_REFIT_LIVERY_Tong_il_Special_F2_1974               : Tong-il first livery
-STR_REFIT_LIVERY_Tong_il_Special_F2_1984               : Tong-il first livery (Aircon)
-STR_REFIT_LIVERY_Tong_il_Special_F_1994                : Tong-il second livery (Express)
-STR_REFIT_LIVERY_Tong_il_Special_F_1997                : Tong-il second livery (All stop)
-STR_REFIT_LIVERY_Saemaeul_2cc_1wagon                   : Saemaeul 2cc 1wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_1wagon_S                 : Saemaeul 2cc 1wagon Special
-STR_REFIT_LIVERY_Saemaeul_2cc_2wagon                   : Saemaeul 2cc 2wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_2wagon_S                 : Saemaeul 2cc 2wagon Special
-STR_REFIT_LIVERY_Saemaeul_2cc_3wagon                   : Saemaeul 2cc 3wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_3wagon_S                 : Saemaeul 2cc 3wagon Special
-STR_REFIT_LIVERY_Saemaeul_2cc_4wagon                   : Saemaeul 2cc 4wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_5wagon                   : Saemaeul 2cc 5wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_6wagon                   : Saemaeul 2cc 6wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_7wagon                   : Saemaeul 2cc 7wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_8wagon                   : Saemaeul 2cc 8wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_9wagon                   : Saemaeul 2cc 9wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_10wagon                  : Saemaeul 2cc 10wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_11wagon                  : Saemaeul 2cc 11wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_12wagon                  : Saemaeul 2cc 12wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_13wagon                  : Saemaeul 2cc 13wagon
-STR_REFIT_LIVERY_Saemaeul_2cc_14wagon                  : Saemaeul 2cc 14wagon
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KN1      : Kwan kwang Ho regular class
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KN2      : Kwan kwang Ho studio
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KF       : Kwan kwang Ho First class
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KSI      : Saemaul Ho regular class
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLA1     : Early livery Stream lined Saemaul A type
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLB1     : Early livery Stream lined Saemaul B type
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLF1     : Early livery Stream lined Saemaul First class
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLB2     : Early livery Long length Saemaul B type
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLC      : Early livery Long length Saemaul C type
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLF2     : Early livery Long length Saemaul First class
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLA     : Old livery Stream lined Saemaul A type
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLB     : Old livery Stream lined&Long length Saemaul B type
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLC     : Old livery Long length Saemaul C type
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_FDSL     : Stream lined Saemaul First class downgrade regular class
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLF     : Old livery Long length Saemaul First class
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLB     : New livery Long length Saemaul B type
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLC     : New livery Long length Saemaul C type
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLF     : New livery Long length First class
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_LN1      : Rimiteu upgrade regular class
-STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_LN2      : Rimiteu upgrade studio (Wheelchair seat)
-STR_REFIT_LIVERY_Saemaeul_Real_Service_SF1             : Kwan kwang Ho restaurant
-STR_REFIT_LIVERY_Saemaeul_Real_Service_SP1             : Kwan kwang Ho outlook Half-restaurant, room
-STR_REFIT_LIVERY_Saemaeul_Real_Service_SF2             : Early livery Stream lined restaurant
-STR_REFIT_LIVERY_Saemaeul_Real_Service_SP2             : Early livery Stream lined Half-restaurant, room
-STR_REFIT_LIVERY_Saemaeul_Real_Service_SF3             : Early livery Long length restaurant
-STR_REFIT_LIVERY_Saemaeul_Real_Service_OSF             : Old livery Stream lined & Long length restaurant
-STR_REFIT_LIVERY_Saemaeul_Real_Service_OSP             : Old livery Stream lined Half-restaurant, room
-STR_REFIT_LIVERY_Saemaeul_Real_Service_NSF             : New livery restaurant
-STR_REFIT_LIVERY_Saemaeul_Real_Service_NSC             : Cafe car
-STR_REFIT_LIVERY_A_Train_Old                           : Old
-STR_REFIT_LIVERY_A_Train_New                           : New
-STR_REFIT_LIVERY_E_Train_Old                           : Old
-STR_REFIT_LIVERY_E_Train_New                           : New
-STR_REFIT_LIVERY_G_Train_Old                           : Old
-STR_REFIT_LIVERY_G_Train_New                           : New
-STR_REFIT_LIVERY_JA_a_Old                              : Old
-STR_REFIT_LIVERY_JA_a_New                              : New
-STR_REFIT_LIVERY_S_Train_Old_B                         : Old Blue
-STR_REFIT_LIVERY_S_Train_Old_P                         : Old Pink
-STR_REFIT_LIVERY_S_Train_New                           : New
-STR_REFIT_LIVERY_Generatar_2cc                         : Generatar Car
-STR_REFIT_LIVERY_Generatar_2cc_S1                      : Early livery Overview car
-STR_REFIT_LIVERY_Generatar_2cc_L1                      : Early livery Long length Old car
-STR_REFIT_LIVERY_Generatar_2cc_T1                      : Early livery Old car
-STR_REFIT_LIVERY_Generatar_2cc_S2                      : Overview car
-STR_REFIT_LIVERY_Generatar_2cc_L2                      : Long length Old car
-STR_REFIT_LIVERY_Generatar_2cc_T2                      : Old car
-STR_REFIT_LIVERY_Generatar_2cc_ST                      : Saemaul Early livery Stream lined car
-STR_REFIT_LIVERY_Generatar_2cc_HJ                      : Stream lined car
-STR_REFIT_LIVERY_Generatar_Real_OutLook_S1             : Kwan kwang Ho outlook 1
-STR_REFIT_LIVERY_Generatar_Real_OutLook_S2             : Kwan kwang Ho outlook 2
-STR_REFIT_LIVERY_Generatar_Real_OutLook_SEA_T          : East Sea Line Travel train
-STR_REFIT_LIVERY_Generatar_Real_OutLook_L1             : Saemaul Early livery Long length
-STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1            : Tongil Early livery Long length
-STR_REFIT_LIVERY_Generatar_Real_OutLook_SMY            : Mugunghwa yellow Early livery outlook
-STR_REFIT_LIVERY_Generatar_Real_OutLook_SMW            : Mugunghwa White Early livery outlook
-STR_REFIT_LIVERY_Generatar_Real_OutLook_T1             : Tongil Early livery Low speed
-STR_REFIT_LIVERY_Generatar_Real_OutLook_TB             : Old Tongil dark blue livery Low speed
-STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB            : Old Tongil dark blue livery Long length
-STR_REFIT_LIVERY_Generatar_Real_OutLook_TOM            : Old Mugunghwa livery Low speed
-STR_REFIT_LIVERY_Generatar_Real_OutLook_SOM            : Old Mugunghwa livery outlook
-STR_REFIT_LIVERY_Generatar_Real_OutLook_RSOM           : Old Mugunghwa livery outlook Refurbished
-STR_REFIT_LIVERY_Generatar_Real_OutLook_LOM            : Old Mugunghwa livery Long length
-STR_REFIT_LIVERY_Generatar_Real_OutLook_STG            : Old Tongil green livery outlook
-STR_REFIT_LIVERY_Generatar_Real_OutLook_RSTG           : Old Tongil green livery outlook Refurbished
-STR_REFIT_LIVERY_Generatar_Real_OutLook_TG             : Old Tongil green livery Low speed
-STR_REFIT_LIVERY_Generatar_Real_OutLook_LTG            : Old Tongil green livery Long length
-STR_REFIT_LIVERY_Generatar_Real_OutLook_SNM            : New Mugunghwa livery outlook
-STR_REFIT_LIVERY_Generatar_Real_OutLook_RSNM           : New Mugunghwa livery outlook Refurbished
-STR_REFIT_LIVERY_Generatar_Real_OutLook_TNM            : New Mugunghwa livery Low speed
-STR_REFIT_LIVERY_Generatar_Real_OutLook_LNM            : New Mugunghwa livery Long length
-STR_REFIT_LIVERY_Generatar_Real_OutLook_RB             : Ladybird
-STR_REFIT_LIVERY_Generatar_Real_OutLook_MC             : Tong tong tong Music Cafe train
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS        : Early livery Long length Saemaul
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS        : Early livery Stream lined Saemaul
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS       : Old livery Saemaul ST
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM       : Old livery Mugunghwa ST
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS       : Tongil IR
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS       : Old livery Jeongseon arirang
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS       : New livery Saemaul ST
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM       : New livery Mugunghwa ST
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS       : New livery Mugunghwa IR
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS       : New livery Jeongseon arirang
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR        : RAIL CRUISE HAERANG
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_MR        : Paldo Nongshim Experience train
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SB        : Old livery S-train BLUE
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SP        : Old livery S-train PINK
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_JA        : Old livery A-train
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WG        : Old livery G-train
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN        : Chungbuk Yeongdong Gugak & Wine Train
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NS        : New livery S-train
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NA        : New livery A-train
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NG        : New livery G-train
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_GY        : Rimiteu Gyooe line livery
-STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LMM       : Renewal New livery Mugunghwa ST
-STR_REFIT_LIVERY_Express_Luggage_VA                    : Virtual A
-STR_REFIT_LIVERY_Express_Luggage_VB                    : Virtual B
-STR_REFIT_LIVERY_Express_Luggage_LOM                   : Mugunghwa Old livery
-STR_REFIT_LIVERY_Express_Luggage_LNM                   : Mugunghwa New livery
-STR_REFIT_LIVERY_Express_Luggage_MTB                   : Jeongseon MTB train
-STR_REFIT_LIVERY_Express_Luggage_A                     : ECO RAIL Early livery A
-STR_REFIT_LIVERY_Express_Luggage_B                     : ECO RAIL Early livery B
-STR_REFIT_LIVERY_Express_Luggage_C                     : ECO RAIL Early livery C
-STR_REFIT_LIVERY_Express_Luggage_D                     : ECO RAIL Early livery D
-STR_REFIT_LIVERY_Express_Luggage_OEA                   : ECO RAIL 4 River livery A
-STR_REFIT_LIVERY_Express_Luggage_OEB                   : ECO RAIL 4 River livery B
-STR_REFIT_LIVERY_Express_Luggage_OEC                   : ECO RAIL 4 River livery C
-STR_REFIT_LIVERY_Express_Luggage_OED                   : ECO RAIL 4 River livery D
-STR_REFIT_LIVERY_Express_Luggage_OR                    : ECO RAIL Old livery Orange
-STR_REFIT_LIVERY_Express_Luggage_YL                    : ECO RAIL Old livery Yellow
-STR_REFIT_LIVERY_Express_Luggage_PK                    : ECO RAIL Old livery Pink
-STR_REFIT_LIVERY_Express_Luggage_GN                    : ECO RAIL Old livery Green
-STR_REFIT_LIVERY_Express_Luggage_MP                    : EXPRESS POST
-STR_REFIT_LIVERY_Express_Luggage_EA                    : ECO RAIL New livery A
-STR_REFIT_LIVERY_Express_Luggage_EB                    : ECO RAIL New livery B
-STR_REFIT_LIVERY_Express_Luggage_WN                    : Chungbuk Yeongdong Gugak & Wine Train
-STR_REFIT_LIVERY_Express_Luggage_GL                    : Logistics Train
-STR_REFIT_LIVERY_Luggage_Olny_1998_G                   : 1998 GREEN
-STR_REFIT_LIVERY_Luggage_Olny_1999_G                   : 1999 GREEN
-STR_REFIT_LIVERY_Luggage_Olny_1998_B                   : 1998 BLUE
-STR_REFIT_LIVERY_Luggage_Olny_1999_B                   : 1999 BLUE
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1935_L   : 3rd coach livery Luggage (1935)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1951_L   : 3rd coach livery Luggage (1951)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_L        : regular train Luggage (1962)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_L        : regular train Luggage (1968)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1951_LB  : Bidulgi first livery Luggage (1951)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_LB       : Bidulgi first livery Luggage (1962)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_LB       : Bidulgi first livery Luggage (1968)	
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_LB2      : Bidulgi second livery Luggage (1962)
-STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_LB2      : Bidulgi second livery Luggage (1968)
-STR_REFIT_LIVERY_Post_Car_POST_1973                    : Post car exclusive use livery
-STR_REFIT_LIVERY_Post_Car_POST_1994                    : Post car standard livery
-STR_REFIT_LIVERY_Express_Post_Car_POST_M_1993          : Mugunghwa Old livery
-STR_REFIT_LIVERY_Express_Post_Car_POST_M_2005          : Mugunghwa New livery
-STR_REFIT_LIVERY_CSPassenger_wagon_1F_Red              : 25 Type 1F Red Color Car
-STR_REFIT_LIVERY_CSPassenger_wagon_1F_Green            : 25 Type 1F Green Color Car
-STR_REFIT_LIVERY_CSPassenger_wagon_1F_White            : 25 Type 1F White Color Car
-STR_REFIT_LIVERY_CSPassenger_wagon_2F                  : 25 Type 2F Car
-STR_REFIT_LIVERY_CSPassenger_wagon_Bed_3nd             : 25 Type 3nd Bed Car
-STR_REFIT_LIVERY_CSPassenger_wagon_Bed_2nd             : 25 Type 2nd Bed Car
-STR_REFIT_LIVERY_CSPassenger_wagon_Bed_1nd             : 25 Type 1nd Bed Car
-STR_REFIT_LIVERY_CGeneratar_Car_White                  : Generatar White Car
-STR_REFIT_LIVERY_CGeneratar_Car_Green                  : Generatar Green Car
-STR_REFIT_LIVERY_CLuggage_Car_Red                      : Luggage Red Car
-STR_REFIT_LIVERY_CLuggage_Car_Green                    : Luggage Green Car
-STR_REFIT_LIVERY_CLuggage_Car_WhiteA                   : Luggage WhiteA Car
-STR_REFIT_LIVERY_CLuggage_Car_WhiteB                   : Luggage WhiteB Car
-STR_REFIT_LIVERY_Original_1nd_Passenger_Car            : 1nd Livery
-STR_REFIT_LIVERY_Original_2nd_Passenger_Car            : 2nd Livery
-STR_REFIT_LIVERY_Original_Bar_Passenger_Car            : Bar Livery
-STR_REFIT_LIVERY_Original_HF_Passenger_Car             : 1/2 1,2nd Livery
-STR_REFIT_LIVERY_FlatCC                                : Flat Car Company Color
-STR_REFIT_LIVERY_FlatPCC                               : Flat Car Trailer Color
-STR_REFIT_LIVERY_FlatP2CC                              : Flat Car Trailer 2CC Color
+STR_REFIT_LIVERY_Mugunghwa_2cc_1wagon                : Mugunghwa 2cc 1wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_2wagon                : Mugunghwa 2cc 2wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_3wagon                : Mugunghwa 2cc 3wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_4wagon                : Mugunghwa 2cc 4wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_5wagon                : Mugunghwa 2cc 5wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_6wagon                : Mugunghwa 2cc 6wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_7wagon                : Mugunghwa 2cc 7wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_8wagon                : Mugunghwa 2cc 8wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_9wagon                : Mugunghwa 2cc 9wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_10wagon               : Mugunghwa 2cc 10wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_11wagon               : Mugunghwa 2cc 11wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_12wagon               : Mugunghwa 2cc 12wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_13wagon               : Mugunghwa 2cc 13wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_14wagon               : Mugunghwa 2cc 14wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_15wagon               : Mugunghwa 2cc 15wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_16wagon               : Mugunghwa 2cc 16wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_17wagon               : Mugunghwa 2cc 17wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_18wagon               : Mugunghwa 2cc 18wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_19wagon               : Mugunghwa 2cc 19wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_20wagon               : Mugunghwa 2cc 20wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_21wagon               : Mugunghwa 2cc 21wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_22wagon               : Mugunghwa 2cc 22wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_23wagon               : Mugunghwa 2cc 23wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_24wagon               : Mugunghwa 2cc 24wagon
+STR_REFIT_LIVERY_Mugunghwa_2cc_25wagon               : Mugunghwa 2cc 25wagon
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG1            : Superiority car Green regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG2            : Superiority car Green studio
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I1             : Early livery regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I2             : Early livery studio
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N1             : Long length Old livery regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N2             : Long length Old livery studio
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N3             : long length Old livery studio (Wheelchair seat)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O1             : Old livery regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O2             : Old livery studio
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O3             : Old livery regular class (Auto door)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O4             : Old livery studio (Auto door)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L1             : Rimiteu Old livery regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L2             : Rimiteu Old livery studio (Wheelchair seat)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN1            : Long length New livery regular class 1
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN2            : Long length New livery studio 1
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN3            : Long length New livery regular class 2
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN4            : Long length New livery studio 2
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN5            : Long length New livery studio (Wheelchair seat)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN6            : Refurbished Long length New livery studio
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SA             : Saemaul downgrade A type
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SB             : Saemaul downgrade B type
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN1            : Rimiteu New livery regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN2            : Rimiteu New livery studio (Wheelchair seat)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN1            : Rimiteu Gyooe line livery regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN2            : Rimiteu Gyooe line livery studio (Wheelchair seat)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR1          : Superiority Roomette sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC1          : Superiority Compartment sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR2          : Early livery Roomette sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC2          : Early livery Compartment sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF2          : Saemaul downgrade Half-restaurant, room
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS1           : Early livery Half-restaurant, room
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF1          : Early livery Saemaul downgrade restaurant
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SMF           : Saemaul downgrade Early livery Stream lined restaurant
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDFS          : Saemaul downgrade restaurant
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS2           : Half-restaurant, room
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP1          : Roomette sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP2          : Refurbished Compartment sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSMF          : Saemaul downgrade Old livery Stream lined restaurant
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OPG           : Old livery playroom Half-restaurant, room
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP1         : Roomette sleeping car (Auto door)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP2         : Refurbished Compartment sleeping car (Auto door)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_WAD           : Wedding hall car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_CAFE          : Old livery Cafe car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_PC            : PC room car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_PG            : The game of go room car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_CP            : Cultural promotion car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_RF            : Rimiteu restaurant car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORS           : Old livery Rimiteu sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDC           : Summer Universiade DAEGU 2003
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NPG           : New livery playroom Half-restaurant, room
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NCAFE         : New livery Cafe car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NSMF          : Saemaul downgrade New livery Stream lined restaurant
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NNC           : Long length Cafe car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORC           : Old livery Rimiteu Cafe car	
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRC           : New livery Rimiteu Cafe car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRS           : New livery Rimiteu sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1           : Superiority car Red
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1            : Early livery
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI            : Early Saemaul downgrade Early livery
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF            : Daewoo Early livery
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMA           : Early livery Stream lined A type
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMB           : Early livery Stream lined B type
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_ONF           : Hanjin
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMI           : Old livery
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSI           : Early Saemaul downgrade Old livery
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMF           : Daewoo
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSA           : Old livery Stream lined A type
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSB           : Old livery Stream lined B type
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHF           : Old livery Haetae
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHFM          : Old livery Haetae family room
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_NHF           : New livery Haetae
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSB           : Long length Saemaul downgrade B type
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSC           : Long length Saemaul downgrade C type
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922          : 3rd coach passenger car (1922)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933          : 3rd coach passenger car (1933)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938          : 3rd coach passenger car (1938)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954          : 3rd coach passenger car (1954)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_1             : regular train cross seat 1
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_2             : regular train cross seat 2
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1962               : regular train long seat (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1963               : regular train cross seat (1963)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1965               : regular train cross seat (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965               : regular train long seat (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_DC_1966              : DC car non-motorized carriage first livery livery
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_R             : regular express train
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954_B        : Bidulgi first livery cross seat (1954)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B             : Bidulgi first livery cross seat 1 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B             : Bidulgi first livery long seat (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B             : Bidulgi first livery cross seat 2 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B1            : Bidulgi first livery cross seat 1
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B2            : Bidulgi first livery cross seat 2
+STR_REFIT_LIVERY_Pidulgi_Normal_FD_1963_B            : Tong-il first class downgrade Bidulgi first livery
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B             : Bidulgi first livery (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B             : Bidulgi first livery long seat (1965) & DC car non-motorized carriage second livery
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B2            : Bidulgi second livery cross seat 1 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B2            : Bidulgi second livery long seat (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B2            : Bidulgi second livery cross seat 2 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B3            : Bidulgi second livery cross seat (1963)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B4            : Tongil express downgrade second livery conversion cross seat
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B2            : Bidulgi second livery cross seat (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B2            : Bidulgi second livery long seat (1965) & DC car non-motorized carriage third livery
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B3            : Bidulgi third livery long seat (1965) & DC car non-motorized carriage Fourth livery
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B3            : Bidulgi third livery cross seat (1965)
+STR_REFIT_LIVERY_Pidulgi_Service_C_MADE_1936         : regular train Restaurant (1936)
+STR_REFIT_LIVERY_Pidulgi_Service_1964                : regular train Restaurant (1964)
+STR_REFIT_LIVERY_Tong_il_Normal_T_1963               : Super Express (1963)
+STR_REFIT_LIVERY_Tong_il_Normal_T_1968               : Express train
+STR_REFIT_LIVERY_Tong_il_Normal_T_1974               : Super Express (1974)
+STR_REFIT_LIVERY_Tong_il_Normal_FD_1963              : Super Express train first class downgrade regular class
+STR_REFIT_LIVERY_Tong_il_Normal_B_1962_U             : Bidulgi Upgrade car
+STR_REFIT_LIVERY_Tong_il_Normal_T2_1963_1968         : Tong-il first livery (1963, 1968)
+STR_REFIT_LIVERY_Tong_il_Normal_T2_1974              : Tong-il first livery (1974)
+STR_REFIT_LIVERY_Tong_il_Normal_FD_1963_T            : Tong-il first class downgrade regular class
+STR_REFIT_LIVERY_Tong_il_Normal_T2_1984              : Tong-il first livery (Aircon)
+STR_REFIT_LIVERY_Tong_il_Normal_TO_1989              : Tong-il first livery Mugunghwa downgrade regular class
+STR_REFIT_LIVERY_Tong_il_Normal_T_1994               : Tong-il second livery (Express)
+STR_REFIT_LIVERY_Tong_il_Normal_TO1                  : Tong-il second livery Mugunghwa downgrade regular class
+STR_REFIT_LIVERY_Tong_il_Normal_TO2                  : Tong-il second livery Mugunghwa downgrade studio
+STR_REFIT_LIVERY_Tong_il_Normal_T_1997               : Tong-il second livery (All stop)
+STR_REFIT_LIVERY_Tong_il_Service_D_1966	             : Super Express restaurant car
+STR_REFIT_LIVERY_Tong_il_Service_S_1966              : 1st Super Express sleeping car
+STR_REFIT_LIVERY_Tong_il_Service_D_1968              : Express train restaurant car
+STR_REFIT_LIVERY_Tong_il_Service_S_1975              : 2nd Super Express sleeping car
+STR_REFIT_LIVERY_Tong_il_Service_S_1984              : Tong-il first livery sleeping car
+STR_REFIT_LIVERY_Tong_il_Service_S_1994              : Tong-il second livery (Express) sleeping car
+STR_REFIT_LIVERY_Tong_il_Service_S_1997              : Tong-il second livery (All stop) sleeping car
+STR_REFIT_LIVERY_Tong_il_Special_F_1963_2            : 2nd coach passenger car
+STR_REFIT_LIVERY_Tong_il_Special_F_1963_T            : Super Express (1963)
+STR_REFIT_LIVERY_Tong_il_Special_F_1968              : Express train
+STR_REFIT_LIVERY_Tong_il_Special_F_1974              : Super Express (1974)
+STR_REFIT_LIVERY_Tong_il_Special_F2_1974             : Tong-il first livery
+STR_REFIT_LIVERY_Tong_il_Special_F2_1984             : Tong-il first livery (Aircon)
+STR_REFIT_LIVERY_Tong_il_Special_F_1994              : Tong-il second livery (Express)
+STR_REFIT_LIVERY_Tong_il_Special_F_1997              : Tong-il second livery (All stop)
+STR_REFIT_LIVERY_Saemaeul_2cc_1wagon                 : Saemaeul 2cc 1wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_1wagon_S               : Saemaeul 2cc 1wagon Special
+STR_REFIT_LIVERY_Saemaeul_2cc_2wagon                 : Saemaeul 2cc 2wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_2wagon_S               : Saemaeul 2cc 2wagon Special
+STR_REFIT_LIVERY_Saemaeul_2cc_3wagon                 : Saemaeul 2cc 3wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_3wagon_S               : Saemaeul 2cc 3wagon Special
+STR_REFIT_LIVERY_Saemaeul_2cc_4wagon                 : Saemaeul 2cc 4wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_5wagon                 : Saemaeul 2cc 5wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_6wagon                 : Saemaeul 2cc 6wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_7wagon                 : Saemaeul 2cc 7wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_8wagon                 : Saemaeul 2cc 8wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_9wagon                 : Saemaeul 2cc 9wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_10wagon                : Saemaeul 2cc 10wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_11wagon                : Saemaeul 2cc 11wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_12wagon                : Saemaeul 2cc 12wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_13wagon                : Saemaeul 2cc 13wagon
+STR_REFIT_LIVERY_Saemaeul_2cc_14wagon                : Saemaeul 2cc 14wagon
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KN1    : Kwan kwang Ho regular class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KN2    : Kwan kwang Ho studio
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KF     : Kwan kwang Ho First class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KSI    : Saemaul Ho regular class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLA1   : Early livery Stream lined Saemaul A type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLB1   : Early livery Stream lined Saemaul B type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLF1   : Early livery Stream lined Saemaul First class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLB2   : Early livery Long length Saemaul B type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLC    : Early livery Long length Saemaul C type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLF2   : Early livery Long length Saemaul First class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLA   : Old livery Stream lined Saemaul A type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLB   : Old livery Stream lined&Long length Saemaul B type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLC   : Old livery Long length Saemaul C type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_FDSL   : Stream lined Saemaul First class downgrade regular class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLF   : Old livery Long length Saemaul First class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLB   : New livery Long length Saemaul B type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLC   : New livery Long length Saemaul C type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLF   : New livery Long length First class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_LN1    : Rimiteu upgrade regular class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_LN2    : Rimiteu upgrade studio (Wheelchair seat)
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SF1           : Kwan kwang Ho restaurant
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SP1           : Kwan kwang Ho outlook Half-restaurant, room
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SF2           : Early livery Stream lined restaurant
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SP2           : Early livery Stream lined Half-restaurant, room
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SF3           : Early livery Long length restaurant
+STR_REFIT_LIVERY_Saemaeul_Real_Service_OSF           : Old livery Stream lined & Long length restaurant
+STR_REFIT_LIVERY_Saemaeul_Real_Service_OSP           : Old livery Stream lined Half-restaurant, room
+STR_REFIT_LIVERY_Saemaeul_Real_Service_NSF           : New livery restaurant
+STR_REFIT_LIVERY_Saemaeul_Real_Service_NSC           : Cafe car
+STR_REFIT_LIVERY_A_Train_Old                         : Old
+STR_REFIT_LIVERY_A_Train_New                         : New
+STR_REFIT_LIVERY_E_Train_Old                         : Old
+STR_REFIT_LIVERY_E_Train_New                         : New
+STR_REFIT_LIVERY_G_Train_Old                         : Old
+STR_REFIT_LIVERY_G_Train_New                         : New
+STR_REFIT_LIVERY_JA_a_Old                            : Old
+STR_REFIT_LIVERY_JA_a_New                            : New
+STR_REFIT_LIVERY_S_Train_Old_B                       : Old Blue
+STR_REFIT_LIVERY_S_Train_Old_P                       : Old Pink
+STR_REFIT_LIVERY_S_Train_New                         : New
+STR_REFIT_LIVERY_Generatar_2cc                       : Generatar Car
+STR_REFIT_LIVERY_Generatar_2cc_S1                    : Early livery Overview car
+STR_REFIT_LIVERY_Generatar_2cc_L1                    : Early livery Long length Old car
+STR_REFIT_LIVERY_Generatar_2cc_T1                    : Early livery Old car
+STR_REFIT_LIVERY_Generatar_2cc_S2                    : Overview car
+STR_REFIT_LIVERY_Generatar_2cc_L2                    : Long length Old car
+STR_REFIT_LIVERY_Generatar_2cc_T2                    : Old car
+STR_REFIT_LIVERY_Generatar_2cc_ST                    : Saemaul Early livery Stream lined car
+STR_REFIT_LIVERY_Generatar_2cc_HJ                    : Stream lined car
+STR_REFIT_LIVERY_Generatar_Real_OutLook_S1           : Kwan kwang Ho outlook 1
+STR_REFIT_LIVERY_Generatar_Real_OutLook_S2           : Kwan kwang Ho outlook 2
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SEA_T        : East Sea Line Travel train
+STR_REFIT_LIVERY_Generatar_Real_OutLook_L1           : Saemaul Early livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1          : Tongil Early livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SMY          : Mugunghwa yellow Early livery outlook
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SMW          : Mugunghwa White Early livery outlook
+STR_REFIT_LIVERY_Generatar_Real_OutLook_T1           : Tongil Early livery Low speed
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TB           : Old Tongil dark blue livery Low speed
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB          : Old Tongil dark blue livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TOM          : Old Mugunghwa livery Low speed
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SOM          : Old Mugunghwa livery outlook
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RSOM         : Old Mugunghwa livery outlook Refurbished
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LOM          : Old Mugunghwa livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_STG          : Old Tongil green livery outlook
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RSTG         : Old Tongil green livery outlook Refurbished
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TG           : Old Tongil green livery Low speed
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LTG          : Old Tongil green livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SNM          : New Mugunghwa livery outlook
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RSNM         : New Mugunghwa livery outlook Refurbished
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TNM          : New Mugunghwa livery Low speed
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LNM          : New Mugunghwa livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RB           : Ladybird
+STR_REFIT_LIVERY_Generatar_Real_OutLook_MC           : Tong tong tong Music Cafe train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS      : Early livery Long length Saemaul
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS      : Early livery Stream lined Saemaul
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS     : Old livery Saemaul ST
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM     : Old livery Mugunghwa ST
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS     : Tongil IR
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS     : Old livery Jeongseon arirang
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS     : New livery Saemaul ST
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM     : New livery Mugunghwa ST
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS     : New livery Mugunghwa IR
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS     : New livery Jeongseon arirang
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR      : RAIL CRUISE HAERANG
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_MR      : Paldo Nongshim Experience train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SB      : Old livery S-train BLUE
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SP      : Old livery S-train PINK
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_JA      : Old livery A-train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WG      : Old livery G-train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN      : Chungbuk Yeongdong Gugak & Wine Train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NS      : New livery S-train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NA      : New livery A-train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NG      : New livery G-train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_GY      : Rimiteu Gyooe line livery
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LMM     : Renewal New livery Mugunghwa ST
+STR_REFIT_LIVERY_Express_Luggage_VA                  : Virtual A
+STR_REFIT_LIVERY_Express_Luggage_VB                  : Virtual B
+STR_REFIT_LIVERY_Express_Luggage_LOM                 : Mugunghwa Old livery
+STR_REFIT_LIVERY_Express_Luggage_LNM                 : Mugunghwa New livery
+STR_REFIT_LIVERY_Express_Luggage_MTB                 : Jeongseon MTB train
+STR_REFIT_LIVERY_Express_Luggage_A                   : ECO RAIL Early livery A
+STR_REFIT_LIVERY_Express_Luggage_B                   : ECO RAIL Early livery B
+STR_REFIT_LIVERY_Express_Luggage_C                   : ECO RAIL Early livery C
+STR_REFIT_LIVERY_Express_Luggage_D                   : ECO RAIL Early livery D
+STR_REFIT_LIVERY_Express_Luggage_OEA                 : ECO RAIL 4 River livery A
+STR_REFIT_LIVERY_Express_Luggage_OEB                 : ECO RAIL 4 River livery B
+STR_REFIT_LIVERY_Express_Luggage_OEC                 : ECO RAIL 4 River livery C
+STR_REFIT_LIVERY_Express_Luggage_OED                 : ECO RAIL 4 River livery D
+STR_REFIT_LIVERY_Express_Luggage_OR                  : ECO RAIL Old livery Orange
+STR_REFIT_LIVERY_Express_Luggage_YL                  : ECO RAIL Old livery Yellow
+STR_REFIT_LIVERY_Express_Luggage_PK                  : ECO RAIL Old livery Pink
+STR_REFIT_LIVERY_Express_Luggage_GN                  : ECO RAIL Old livery Green
+STR_REFIT_LIVERY_Express_Luggage_MP                  : EXPRESS POST
+STR_REFIT_LIVERY_Express_Luggage_EA                  : ECO RAIL New livery A
+STR_REFIT_LIVERY_Express_Luggage_EB                  : ECO RAIL New livery B
+STR_REFIT_LIVERY_Express_Luggage_WN                  : Chungbuk Yeongdong Gugak & Wine Train
+STR_REFIT_LIVERY_Express_Luggage_GL                  : Logistics Train
+STR_REFIT_LIVERY_Luggage_Olny_1998_G                 : 1998 GREEN
+STR_REFIT_LIVERY_Luggage_Olny_1999_G                 : 1999 GREEN
+STR_REFIT_LIVERY_Luggage_Olny_1998_B                 : 1998 BLUE
+STR_REFIT_LIVERY_Luggage_Olny_1999_B                 : 1999 BLUE
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1935_L : 3rd coach livery Luggage (1935)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1951_L : 3rd coach livery Luggage (1951)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_L      : regular train Luggage (1962)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_L      : regular train Luggage (1968)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1951_LB: Bidulgi first livery Luggage (1951)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_LB     : Bidulgi first livery Luggage (1962)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_LB     : Bidulgi first livery Luggage (1968)	
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_LB2    : Bidulgi second livery Luggage (1962)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_LB2    : Bidulgi second livery Luggage (1968)
+STR_REFIT_LIVERY_Post_Car_POST_1973                  : Post car exclusive use livery
+STR_REFIT_LIVERY_Post_Car_POST_1994                  : Post car standard livery
+STR_REFIT_LIVERY_Express_Post_Car_POST_M_1993        : Mugunghwa Old livery
+STR_REFIT_LIVERY_Express_Post_Car_POST_M_2005        : Mugunghwa New livery
+STR_REFIT_LIVERY_CSPassenger_wagon_1F_Red            : 25 Type 1F Red Color Car
+STR_REFIT_LIVERY_CSPassenger_wagon_1F_Green          : 25 Type 1F Green Color Car
+STR_REFIT_LIVERY_CSPassenger_wagon_1F_White          : 25 Type 1F White Color Car
+STR_REFIT_LIVERY_CSPassenger_wagon_2F                : 25 Type 2F Car
+STR_REFIT_LIVERY_CSPassenger_wagon_Bed_3nd           : 25 Type 3nd Bed Car
+STR_REFIT_LIVERY_CSPassenger_wagon_Bed_2nd           : 25 Type 2nd Bed Car
+STR_REFIT_LIVERY_CSPassenger_wagon_Bed_1nd           : 25 Type 1nd Bed Car
+STR_REFIT_LIVERY_CGeneratar_Car_White                : Generatar White Car
+STR_REFIT_LIVERY_CGeneratar_Car_Green                : Generatar Green Car
+STR_REFIT_LIVERY_CLuggage_Car_Red                    : Luggage Red Car
+STR_REFIT_LIVERY_CLuggage_Car_Green                  : Luggage Green Car
+STR_REFIT_LIVERY_CLuggage_Car_WhiteA                 : Luggage WhiteA Car
+STR_REFIT_LIVERY_CLuggage_Car_WhiteB                 : Luggage WhiteB Car
+STR_REFIT_LIVERY_Original_1nd_Passenger_Car          : 1nd Livery
+STR_REFIT_LIVERY_Original_2nd_Passenger_Car          : 2nd Livery
+STR_REFIT_LIVERY_Original_Bar_Passenger_Car          : Bar Livery
+STR_REFIT_LIVERY_Original_HF_Passenger_Car           : 1/2 1,2nd Livery
+STR_REFIT_LIVERY_FlatCC                              : Flat Car Company Color
+STR_REFIT_LIVERY_FlatPCC                             : Flat Car Trailer Color
+STR_REFIT_LIVERY_FlatP2CC                            : Flat Car Trailer 2CC Color
 Livery_TRC_SungShinRST_ECB              : 2nd, 3rd coach(ECB)
 Livery_TRC_SungShinRST_BCB              : 1st coach(BCB)
 Livery_TRC_SungShinRST_BCB_K            : 1st coach 1Door(BCB-K)

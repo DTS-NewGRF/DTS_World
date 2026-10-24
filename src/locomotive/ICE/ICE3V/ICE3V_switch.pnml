@@ -3,8 +3,8 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_ICE3V_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_ICE3V_red);      // ICE 3 Velaro D 레드
-    1: return string(STR_REFIT_LIVERY_ICE3V_green);   // ICE 3 Velaro D 그린
+    0: return string(Livery_ICE_red);      // ICE 3 Velaro D 레드
+    1: return string(Livery_ICE_green);   // ICE 3 Velaro D 그린
 }
 
 // 도색그래픽 세팅

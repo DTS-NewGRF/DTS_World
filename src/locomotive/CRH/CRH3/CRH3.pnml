@@ -12,7 +12,7 @@ CRH3
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CRH3_8Car, 2039){
     property {
-        name:                           string(STR_CRH3_8Car_NAME);
+        name:                           string(NAME_CRH3_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2008, 1, 1);
         track_type:                     ELRL;
