@@ -4,9 +4,6 @@ HYEL-Railjet
 // Graphics
 #include "HYEL_Railjet_graphic.pnml"
 
-// Switch
-#include "HYEL_Railjet_switch.pnml"
-
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
@@ -46,16 +43,66 @@ item(FEAT_TRAINS, HYEL_Railjet, 1130){
         //Flags
         misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
-        extra_flags:                    bitmask(VEHICLE_FLAG_TRAIN_HAS_CAB);
         }
         
     graphics {
-        default:                        sw_HYEL_Railjet_wagon;
+        default:                        set_HYEL_Railjet_wagon;
         purchase:                       set_HYEL_Railjet_purchase;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_HYEL_Railjet_cargo_subtype_text;
+        power:                          671;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Railjet_Tail, 1178){
+    property {
+        name:                           string(NAME_HYEL_Railjet_Tail);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         34 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 63;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        extra_flags:                    bitmask(VEHICLE_FLAG_TRAIN_HAS_CAB);
+        }
+        
+    graphics {
+        default:                        set_HYEL_Railjet_wagon_tail;
+        purchase:                       set_HYEL_Railjet_Tail_purchase;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
         power:                          671;
         }
         }

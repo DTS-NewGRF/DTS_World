@@ -17,18 +17,18 @@ spriteset(set_Glory_430_wagon, "src/locomotive/Glory/Glory_430/Glory_430.png") {
 }
 
 spriteset(set_Glory_430_engineT_Rev, "src/locomotive/Glory/Glory_430/Glory_430.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Glory_430_engineT, "src/locomotive/Glory/Glory_430/Glory_430.png"){
-    DTS_temp_r(80, 108)
+    DTS_temp(80, 108)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_Glory_430_engine_purchase, "src/locomotive/Glory/Glory_430/Glory_430.png"){
-    tmpl_purchase_for_dualhead(0, 0)
+    tmpl_purchase(0, 0)
 }
 
 spriteset(set_Glory_430_wagon_purchase, "src/locomotive/Glory/Glory_430/Glory_430.png"){

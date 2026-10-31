@@ -6,6 +6,7 @@
 적용열차
 - KTX-산천 중련
 - 우진산전 수소연료전지동차
+- 7700호대 디젤기관차
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Nostart_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/osfx_10.wav");

@@ -12,7 +12,7 @@ DEL7000
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DEL7000, 2298){
     property {
-        name:                           string(STR_DEL7000_NAME);
+        name:                           string(NAME_DEL7000);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1986, 1, 1);
         track_type:                     RAIL;

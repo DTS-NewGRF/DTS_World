@@ -3,9 +3,9 @@
 --------------------------------------------------------------------*/
 //도색
 switch(FEAT_TRAINS, SELF, sw_Special_Diesel_Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Special_Diesel_Car_1969);
-    1: return string(STR_REFIT_LIVERY_Special_Diesel_Car_1986);
-    2: return string(STR_REFIT_LIVERY_Special_Diesel_Car_1994);
+    0: return string(Livery_Special_Diesel_Car_1969);
+    1: return string(Livery_Special_Diesel_Car_1986);
+    2: return string(Livery_Special_Diesel_Car_1994);
     return CB_RESULT_NO_TEXT;
 }
 

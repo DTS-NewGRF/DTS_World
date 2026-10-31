@@ -17,18 +17,18 @@ spriteset(set_Glory_600_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomoti
 }
 
 spriteset(set_Glory_600_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory/Glory_600/Glory_600.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Glory_600_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory/Glory_600/Glory_600.png"){
-    DTS_temp_r(80, 108)
+    DTS_temp(80, 108)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_Glory_600_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory/Glory_600/Glory_600.png"){
-    tmpl_purchase_for_dualhead(0, 0)
+    tmpl_purchase(0, 0)
 }
 
 spriteset(set_Glory_600_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory/Glory_600/Glory_600.png"){

@@ -12,7 +12,7 @@ THST_700T
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, THSR_700T_12Car, 2118){
     property {
-        name:                           string(STR_THSR_700T_12Car_NAME);
+        name:                           string(NAME_THSR_700T_12Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2007, 1, 1);
         track_type:                     ELRL;

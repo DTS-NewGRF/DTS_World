@@ -3,26 +3,27 @@
 --------------------------------------------------------------------*/
 //도색
 switch(FEAT_TRAINS, SELF, sw_GT26CW_cargo_subtype_text, cargo_subtype) {
-     0: return string(STR_REFIT_LIVERY_GT26CW_1971_F);
-     1: return string(STR_REFIT_LIVERY_GT26CW_1971_K);
-     2: return string(STR_REFIT_LIVERY_GT26CW_1971_S);
-     3: return string(STR_REFIT_LIVERY_GT26CW_1995);
-     4: return string(STR_REFIT_LIVERY_GT26CW_2005);
-     5: return string(STR_REFIT_LIVERY_GT26CW_2006);
-     6: return string(STR_REFIT_LIVERY_GT26CW_2008);
-     7: return string(STR_REFIT_LIVERY_GT26CW_2012);
-     8: return string(STR_REFIT_LIVERY_GT26CW_2013);
-     9: return string(STR_REFIT_LIVERY_GT26CW_2015);
-    10: return string(STR_REFIT_LIVERY_GT26CW_2018);
-    11: return string(STR_REFIT_LIVERY_GT26CW_2019_1);
-    12: return string(STR_REFIT_LIVERY_GT26CW_2019_2);
-    13: return string(STR_REFIT_LIVERY_GT26CW_2020);
-    14: return string(STR_REFIT_LIVERY_GT26CW_2023);
+     0: return string(Livery_GT26CW_1971_F);
+     1: return string(Livery_GT26CW_1971_K);
+     2: return string(Livery_GT26CW_1971_S);
+     3: return string(Livery_GT26CW_1995);
+     4: return string(Livery_GT26CW_2005);
+     5: return string(Livery_GT26CW_2006);
+     6: return string(Livery_GT26CW_2008);
+     7: return string(Livery_GT26CW_2012);
+     8: return string(Livery_GT26CW_2013);
+     9: return string(Livery_GT26CW_2015);
+    10: return string(Livery_GT26CW_2018);
+    11: return string(Livery_GT26CW_2019_1);
+    12: return string(Livery_GT26CW_2019_2);
+    13: return string(Livery_GT26CW_2020);
+    14: return string(Livery_GT26CW_2023);
     return CB_RESULT_NO_TEXT;
 }
 
-//열차
+// 열차
 switch(FEAT_TRAINS, SELF, sw_GT26CW_engine, cargo_subtype) {
+     0: set_GT26CW_engine_1971_F;
      1: set_GT26CW_engine_1971_K;
      2: set_GT26CW_engine_1971_S;
      3: set_GT26CW_engine_1995;
@@ -37,5 +38,10 @@ switch(FEAT_TRAINS, SELF, sw_GT26CW_engine, cargo_subtype) {
     12: set_GT26CW_engine_2019_2;
     13: set_GT26CW_engine_2020;
     14: set_GT26CW_engine_2023;
-    set_GT26CW_engine_1971_F;
+}
+
+// 속도
+switch(FEAT_TRAINS, SELF, sw_GT26CW_speed, cargo_subtype) {
+    0: sw_Regular_150_165_speed;
+    7: sw_Regular_105_speed;
 }

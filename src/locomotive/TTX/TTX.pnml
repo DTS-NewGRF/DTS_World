@@ -12,13 +12,12 @@ TTX
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, TTX_engine, 1054){
     property {
-        name:                           string(NAME_TTX_engine);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2007, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          181km/h;
@@ -50,13 +49,11 @@ item(FEAT_TRAINS, TTX_engine, 1054){
         }
 
     graphics {
-        default:                        sw_TTX_engine;
-        purchase:                       set_TTX_engine_purchase;
-        speed:                          sw_Regular_180_200_speed;
+        default:                        set_Deleted_A;
+        purchase:                       set_TTX_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_TOSHIBAStart_sound;
         }
         }
 
@@ -65,13 +62,12 @@ item(FEAT_TRAINS, TTX_engine, 1054){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, TTX_wagon, 1055){
     property {
-        name:                           string(NAME_TTX_wagon);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2007, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
         
         //spec
         weight:                         33 ton;
@@ -101,8 +97,8 @@ item(FEAT_TRAINS, TTX_wagon, 1055){
         }
 
     graphics {
-        default:                        sw_TTX_wagon;
-        purchase:                       set_TTX_wagon_purchase;
+        default:                        set_Deleted_B;
+        purchase:                       set_TTX_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

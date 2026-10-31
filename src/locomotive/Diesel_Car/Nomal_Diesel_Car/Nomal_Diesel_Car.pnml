@@ -12,7 +12,7 @@ Nomal Diesel Car
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Group_Diesel_Car, 2465){
     property {
-        name:                           string(STR_Group_Diesel_Car_NAME);
+        name:                           string(NAME_Group_Diesel_Car);
         climates_available:             NO_CLIMATE;
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -30,7 +30,7 @@ item(FEAT_TRAINS, Group_Diesel_Car, 2465){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Nomal_Diesel_Car, 2467){
     property {
-        name:                           string(STR_Nomal_Diesel_Car_NAME);
+        name:                           string(NAME_Nomal_Diesel_Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1961, 1, 1);
         track_type:                     RAIL;
@@ -85,7 +85,7 @@ item(FEAT_TRAINS, Nomal_Diesel_Car, 2467){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Nomal_Diesel_2Car_addcar, 2539){
     property {
-        name:                           string(STR_Nomal_Diesel_2Car_addcar_NAME);
+        name:                           string(NAME_Nomal_Diesel_2Car_addcar);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1966, 1, 1);
         track_type:                     RAIL;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Nomal_Diesel_2Car_addcar, 2539){
         
     graphics {
         default:                        sw_Nomal_Diesel_engine_2car;
-        purchase:                       sw_Nomal_Diesel_2car_purchase;
+        purchase:                       sw_Nomal_Diesel_Dual_2car_purchase;
         speed:                          sw_Regular_100_speed;
         cargo_capacity:                 sw_Nomal_Diesel_2car_capacity_in_custom;
         loading_speed:                  25;
@@ -141,7 +141,7 @@ item(FEAT_TRAINS, Nomal_Diesel_2Car_addcar, 2539){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Nomal_Diesel_2Car, 2540){
     property {
-        name:                           string(STR_Nomal_Diesel_2Car_NAME);
+        name:                           string(NAME_Nomal_Diesel_2Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1985, 1, 1);
         track_type:                     RAIL;

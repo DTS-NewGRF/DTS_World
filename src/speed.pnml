@@ -55,6 +55,12 @@ switch(FEAT_TRAINS, SELF, sw_Metro_85_speed, Speed_Train) {
     2: return Regular_Speed_Train;
     }
 
+switch(FEAT_TRAINS, SELF, sw_Regular_85_120_speed, Speed_Train) {
+    0: return 85;
+    1: return 120;
+    2: return Regular_Speed_Train;
+    }
+
 /*--------------------------------------------------------------------
 영업속도 90
 --------------------------------------------------------------------*/
@@ -130,6 +136,12 @@ switch(FEAT_TRAINS, SELF, sw_Metro_110_130_speed, Speed_Train) {
 switch(FEAT_TRAINS, SELF, sw_Regular_110_speed, Speed_Train) {
     0: return 110;
     1: return 110;
+    2: return Regular_Speed_Train;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Regular_110_120_speed, Speed_Train) {
+    0: return 110;
+    1: return 120;
     2: return Regular_Speed_Train;
     }
 
@@ -220,6 +232,12 @@ switch(FEAT_TRAINS, SELF, sw_Regular_150_speed, Speed_Train) {
 switch(FEAT_TRAINS, SELF, sw_Regular_150_165_speed, Speed_Train) {
     0: return 150;
     1: return 165;
+    2: return Regular_Speed_Train;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Regular_150_220_speed, Speed_Train) {
+    0: return 150;
+    1: return 220;
     2: return Regular_Speed_Train;
     }
 
@@ -394,6 +412,12 @@ switch(FEAT_TRAINS, SELF, sw_High_330_speed, Speed_Train) {
     2: return High_Speed_Train;
     }
 
+switch(FEAT_TRAINS, SELF, sw_High_330_352_speed, Speed_Train) {
+    0: return 330;
+    1: return 352;
+    2: return High_Speed_Train;
+    }
+
 /*--------------------------------------------------------------------
 속도 350
 --------------------------------------------------------------------*/
@@ -419,10 +443,25 @@ switch(FEAT_TRAINS, SELF, sw_High_370_400_speed, Speed_Train) {
     }
 
 /*--------------------------------------------------------------------
+속도 421
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_High_421_speed, Speed_Train) {
+    0: return 421;
+    1: return 421;
+    2: return 430;
+    }
+
+/*--------------------------------------------------------------------
 속도 430
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_High_430_speed, Speed_Train) {
     0: return 430;
     1: return 430;
+    2: return 430;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_High_430_450_speed, Speed_Train) {
+    0: return 430;
+    1: return 450;
     2: return 430;
     }

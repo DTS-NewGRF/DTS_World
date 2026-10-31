@@ -422,12 +422,10 @@ sort(FEAT_TRAINS, [
     DEL4400,                        //2396
     DEL7000,                        //2298
     DEL7600,                        //2015
+    DEL7700,                        //1179
     DHC_PP,                         //2356
-    DHC_PP_4Car,                    //2357
-    DHC_PP_5Car,                    //2358
-    DHC_PP_6Car,                    //2359
-    DHC_PP_7Car,                    //2360
-    DHC_PP_8Car,                    //2361
+    DHC_PP_engine_A,                //1180
+    DHC_PP_engine_B,                //1181
     Group_Diesel_Car,               //2465
     Nomal_Diesel_Car,               //2466
     Nomal_Diesel_2Car_addcar,       //2539
@@ -452,15 +450,12 @@ sort(FEAT_TRAINS, [
 
     // 준고속 180
     GTX_8Car,                       //2017
-    GTX_8Car_engine,                //1059
     TTX_6Car,                       //2019
-    TTX_engine,                     //1054
-
+    
     // 고속열차 331
     HSR_350X,                       //2200
     HSR_350X_7Car,                  //2027
     HSR_350X_14Car,                 //2005
-    HSR_350X_engine,                //1131
     AGV_11Car,                      //2063
     NHSRCL_E5_10Car,                //2116
     THSR_700T_12Car,                //2118
@@ -472,13 +467,12 @@ sort(FEAT_TRAINS, [
     HEMU_430X,                      //2205
     HEMU_430X_6Car,                 //2028
     HEMU_430X_8Car,                 //2127
-    HEMU_430X_engine,               //1056
     Glory_430_engine,               //1109
 
     // 고속열차 600
     KTX_Taegeuk_engine,             //1027
-    VHST_600X_engine,               //1020
     Glory_600_engine,               //1111
+    VHST_600X_engine,               //1020
 
     // 유지보수차량
     MSB_Speeder,                    //2178
@@ -495,9 +489,11 @@ sort(FEAT_TRAINS, [
     DTX_Sobaek_wagon,               //1104
     DTX_Taebaek_wagon,              //1108
     HYEL_Gangsan_wagon,             //1124
+    HYEL_Gangsan_wagon_Tail,        //1177
     HYEL_Mugunhwa_wagon,            //1126
     HYEL_Mugunhwa_DD_wagon,         //1128
     HYEL_Railjet,                   //1130
+    HYEL_Railjet_Tail,              //1178
     Korail_392000_wagon,            //1138
     Nuriro_wagon,                   //1024
     Nuriro_DD_wagon,                //1026
@@ -511,23 +507,15 @@ sort(FEAT_TRAINS, [
     KTX_Sancheon_C_wagon_4Car,      //1075
     KTX_Sancheon_C_wagon_8Car,      //1165
     KTX_Sancheon_Cargo,             //1049
-
-    CDC_wagon,                      //1134
-    
-    H2_WJ_wagon,                    //1001
-    HSR_350X_wagon,                 //1132
-
     Nextrain_wagon,                 //1019
-    
+    CDC_wagon,                      //1134
+    DHC_PP_wagon,                   //1182
+    H2_WJ_wagon,                    //1001
     RDC_wagon,                      //1136
-    TTX_wagon,                      //1055
     Glory_430_wagon,                //1110
     Glory_600_wagon,                //1112
-    GTX_8Car_wagon,                 //1060
-    
-    HEMU_430X_wagon,                //1057
-    HEMU_430X_DD_wagon,             //1058
     VHST_600X_wagon,                //1021
+    
     Travel_wagon,                   //2210
     A_Train_Passenger_Car,          //2164
     Asean_Korea,                    //2318

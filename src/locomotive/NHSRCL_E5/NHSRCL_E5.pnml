@@ -12,7 +12,7 @@ NHSRCL_E5
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, NHSRCL_E5_10Car, 2116){
     property {
-        name:                           string(STR_NHSRCL_E5_10Car_NAME);
+        name:                           string(NAME_NHSRCL_E5_10Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2026, 1, 1);
         track_type:                     ELRL;

@@ -35,3 +35,7 @@ spriteset(set_HYEL_Gangsan_engine_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, 
 spriteset(set_HYEL_Gangsan_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_Gangsan/HYEL_Gangsan.png"){
     tmpl_purchase(0, 54)
 }
+
+spriteset(set_HYEL_Gangsan_wagon_Tail_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_Gangsan/HYEL_Gangsan.png"){
+    tmpl_purchase(0, 108)
+}

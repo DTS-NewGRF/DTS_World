@@ -4,8 +4,8 @@
 // 도색
 switch(FEAT_TRAINS, SELF, sw_BB15000_cargo_subtype_text, cargo_subtype) {
     0: return string(Livery_BB15000_Orginal);
-    1: return string(Livery_BB15000_Korail);     // Korail
-    2: return string(Livery_BB15000_En_Voyagee); // EN Voyagee
+    1: return string(Livery_BB15000_Korail);
+    2: return string(Livery_BB15000_En_Voyagee);
 }
 
 // 도색그래픽 세팅

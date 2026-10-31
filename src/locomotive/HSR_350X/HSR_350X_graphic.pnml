@@ -55,11 +55,3 @@ spriteset(set_HSR_350X_engineT_Free, "src/locomotive/HSR_350X/HSR_350X.png"){
 spriteset(set_HSR_350X_purchase, "src/locomotive/HSR_350X/HSR_350X.png"){
     tmpl_purchase(0, 0)
 }
-
-spriteset(set_HSR_350X_engine_purchase, "src/locomotive/HSR_350X/HSR_350X.png"){
-    tmpl_purchase_for_dualhead(0, 0)
-}
-
-spriteset(set_HSR_350X_wagon_purchase, "src/locomotive/HSR_350X/HSR_350X.png"){
-    tmpl_purchase(0, 135)
-}

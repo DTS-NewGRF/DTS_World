@@ -18,11 +18,10 @@ item(FEAT_TRAINS, Glory_430_engine, 1109){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          430km/h;
-        power:                          10000 kW;
+        power:                          25000 kW;
         weight:                         42 ton;
         tractive_effort_coefficient:    0.9;
         
@@ -52,7 +51,7 @@ item(FEAT_TRAINS, Glory_430_engine, 1109){
     graphics {
         default:                        sw_Glory_430_engine;
         purchase:                       set_Glory_430_engine_purchase;
-        speed:                          sw_High_430_speed;
+        speed:                          sw_High_430_450_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -105,5 +104,6 @@ item(FEAT_TRAINS, Glory_430_wagon, 1110){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        power:                          671;
         }
         }

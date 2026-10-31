@@ -12,7 +12,7 @@ FEL-8500
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, FEL_8500, 2016){
     property {
-        name:                           string(STR_FEL_8500_NAME);
+        name:                           string(NAME_FEL_8500);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2012, 1, 1);
         track_type:                     ELRL;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, FEL_8500, 2016){
     graphics {
         default:                        sw_FEL_8500_engine;
         purchase:                       set_FEL_8500_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Regular_150_165_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

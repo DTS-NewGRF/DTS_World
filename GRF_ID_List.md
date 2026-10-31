@@ -55,13 +55,13 @@
 |1051|1.74 삭제예정|
 |1052|1.74 삭제예정|
 |1053|1.74 삭제예정|
-|1054|TTX_engine|
-|1055|TTX_wagon|
-|1056|HEMU_430X_engine|
-|1057|HEMU_430X_wagon|
-|1058|HEMU_430X_DD_wagon|
-|1059|GTX_8Car_engine|
-|1060|GTX_8Car_wagon|
+|1054|1.74 삭제예정|
+|1055|1.74 삭제예정|
+|1056|1.74 삭제예정|
+|1057|1.74 삭제예정|
+|1058|1.74 삭제예정|
+|1059|1.74 삭제예정|
+|1060|1.74 삭제예정|
 |1061|ITX_CheongChan_engine|
 |1062|ITX_CheongChan_wagon|
 |1063|ITX_CheongChun_engine|
@@ -132,8 +132,8 @@
 |1128|HYEL_Mugunhwa_DD_wagon|
 |1129|HYEL_PEX_Super|
 |1130|HYEL_Railjet|
-|1131|HSR_350X_engine|
-|1132|HSR_350X_wagon|
+|1131|1.74 삭제예정|
+|1132|1.74 삭제예정|
 |1133|CDC_engine|
 |1134|CDC_wagon|
 |1135|RDC_engine|
@@ -174,6 +174,12 @@
 |1174|KTX_Onnuri_8Car|
 |1175|KTX_Onnuri_10Car|
 |1176|KTX_Taegeuk_12Car|
+|1177|HYEL_Gangsan_wagon_Tail|
+|1178|HYEL_Railjet_Tail|
+|1179|DEL7700|
+|1180|DHC_PP_engine_A|
+|1181|DHC_PP_engine_B|
+|1182|DHC_PP_wagon|
 
 |2001|CY_GW_6Car|
 |2002|G_Train|
@@ -485,11 +491,11 @@
 |2354|ITX_CheongChun_8Car|
 |2355|[공백] |
 |2356|[그룹명] DHC_PP|
-|2357|DHC_PP_4Car|
-|2358|DHC_PP_5Car|
-|2359|DHC_PP_6Car|
-|2360|DHC_PP_7Car|
-|2361|DHC_PP_8Car|
+|2357|1.74 삭제예정|
+|2358|1.74 삭제예정|
+|2359|1.74 삭제예정|
+|2360|1.74 삭제예정|
+|2361|1.74 삭제예정|
 |~2363|[공백] |
 |2364|Seoulmetro_1st_9000_4Car|
 |2365|Seoulmetro_1st_VVVF_9000_6Car|

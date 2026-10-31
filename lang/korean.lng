@@ -111,12 +111,14 @@ NAME_HYEL_350_11Car                        : [11량] HYEL-350
 NAME_HYEL_400_7Car                         : [7량] HYEL-400
 NAME_HYEL_Gangsan_engine                   : HYEL-강산
 NAME_HYEL_Gangsan_wagon                    : HYEL-강산
+NAME_HYEL_Gangsan_wagon_Tail               : HYEL-강산 운전후미객차
 NAME_HYEL_Mugunhwa_engine                  : HYEL-무궁화
 NAME_HYEL_Mugunhwa_wagon                   : HYEL-무궁화
 NAME_HYEL_Mugunhwa_DD_engine               : HYEL-무궁화 DD
 NAME_HYEL_Mugunhwa_DD_wagon                : HYEL-무궁화 DD
 NAME_HYEL_PEX_Super                        : HYEL PEX-SUPER
 NAME_HYEL_Railjet                          : HYEL RailJet
+NAME_HYEL_Railjet_Tail                     : HYEL RailJet 운전후미객차
 NAME_Group_AREX                            : AREX
 NAME_AREX_1000_1st_5Car                    : [5량] 공항철도 1000호대 1세대
 NAME_AREX_1000_1st_Pass_engine             : [승객] 공항철도 1000호대 1세대
@@ -441,79 +443,68 @@ NAME_TGV_A_12Car                           : [12량] TGV 아틀랑티크
 NAME_TGV_R_10Car                           : [10량] TGV 레조
 NAME_TGV_La_Poste_10Car                    : [10량] TGV 라포스트
 NAME_TGV_M_11Car                           : [11량] TGV M
-
-NAME_AUTS_6Car                          : [6량] 차세대전동차
-NAME_Nextrain_engine                    : 넥스트레인
-NAME_Nextrain_wagon                     : 넥스트레인
-STR_Daejeonmetro_1000_4Car_NAME                        :[4량] 대전교통공사 1000호대 전동차
-STR_Gwangjumetro_1000_4Car_NAME                        :[4량] 광주교통공사 1000호대 전동차
-STR_Shinbundang_6Car_NAME                              :[6량] 신분당선 D000호대 전동차
-STR_Standard_Metro_4Car_NAME                           :[4량] 한국형 표준전동차
-NAME_CDC_engine                         : CDC 디젤동차
-NAME_CDC_wagon                          : CDC 디젤동차
-STR_DEL4400_NAME                                       :DEL4400
-STR_DEL7000_NAME                                       :DEL7000
-STR_DEL7600_NAME                                       :DEL7600
-STR_Group_DHC_PP_NAME                                  :DHC PP 디젤동차
-STR_DHC_PP_4Car_NAME                                   :[4량] DHC PP 디젤동차
-STR_DHC_PP_5Car_NAME                                   :[5량] DHC PP 디젤동차
-STR_DHC_PP_6Car_NAME                                   :[6량] DHC PP 디젤동차
-STR_DHC_PP_7Car_NAME                                   :[7량] DHC PP 디젤동차
-STR_DHC_PP_8Car_NAME                                   :[8량] DHC PP 디젤동차
-STR_Group_Diesel_Car_NAME                              :디젤액압동차
-STR_Nomal_Diesel_Car_NAME                              :디젤액압동차
-STR_Nomal_Diesel_2Car_addcar_NAME                      :[2량+?량] 디젤액압동차
-STR_Nomal_Diesel_2Car_NAME                             :[2량] 격상형 디젤액압동차
-STR_Special_Diesel_Car_NAME                            :특별동차 (디젤액압동차)
-STR_EEC_EMU_10Car_NAME                                 :[10량] EEC 전기동차
-STR_FEL_8500_NAME                                      :8500호대 전기기관차
-STR_GT26CW_NAME                                        :7X00호대 디젤기관차
-NAME_H2_WJ_engine                       : 우진산전 수소연료전지동차
-NAME_H2_WJ_wagon                        : 우진산전 수소연료전지동차
-NAME_NEL_8100                           : 8100호대 전기기관차
-NAME_NEL_8200                           : 8200호대 전기기관차
-NAME_OEL_8000                           : 8000호대 전기기관차
-NAME_RDC_engine                         : RDC 디젤동차
-NAME_RDC_wagon                          : RDC 디젤동차
-STR_HXD3C_NAME                                         :HXD3C
-STR_NJ2_NAME                                           :NJ2
-NAME_BB15000                            : SNCF BB15000
-STR_Kse2_8Car_NAME                                     :[8량] 케이세이 AE형 2세대
-STR_Group_NSW_TrainLink_D_NAME                         :NSW TrainLink D
-STR_NSW_TrainLink_D_4Car_NAME                          :[4량] NSW TrainLink D
-STR_NSW_TrainLink_D_6Car_NAME                          :[6량] NSW TrainLink D
-STR_TRC_E6800_NAME                                     :TRC E6800 전기기관차
-NAME_GTX_8Car                           : [8량] GTX
-NAME_GTX_engine                         : GTX
-NAME_GTX_wagon                          : GTX
-NAME_TTX_6Car                           : [6량] TTX
-NAME_TTX_engine                         : TTX
-NAME_TTX_wagon                          : TTX
-NAME_Group_HSR_350X                     : HSR-350X
-NAME_HSR_350X_7Car                      : [7량] HSR-350X
-NAME_HSR_350X_14Car                     : [14량] HSR-350X
-NAME_HSR_350X_engine                    : HSR-350X
-NAME_HSR_350X_wagon                     : HSR-350X
-NAME_AGV_11Car                          : [11량] AGV (이탈로)
-STR_NHSRCL_E5_10Car_NAME                               :[10량] NHSRCL E5
-STR_THSR_700T_12Car_NAME                               :[12량] 타이완 고속철도 700T형
-NAME_Al_Boraq_10Car                     : [10량] 알 보라크
-STR_Talgo_350_SRO_14Car_NAME                           :[14량] 탈고 350 SRO (하라마인 고속철도)
-NAME_Avelia_Liberty_11Car               : [11량] 아벨리아 리버티
-NAME_Group_HEMU_430X                    : HEMU-430X
-NAME_HEMU_430X_6Car                     : [6량] HEMU-430X
-NAME_HEMU_430X_8Car                     : [8량] HEMU-430X
-NAME_HEMU_430X_engine                   : HEMU-430X
-NAME_HEMU_430X_wagon                    : HEMU-430X
-NAME_HEMU_430X_DD_wagon                 : HEMU-430X DD
-NAME_Glory_430_engine                   : Glory 430
-NAME_Glory_430_wagon                    : Glory 430
-NAME_VHST_600X_engine                   : VHST-600X
-NAME_VHST_600X_wagon                    : VHST-600X
-NAME_Glory_600_engine                   : Glory 600
-NAME_Glory_600_wagon                    : Glory 600
-STR_MSB_Speeder_NAME                                   :MSB 모터카
-NAME_Transparency                       : 투명기관차
+NAME_AUTS_6Car                             : [6량] 차세대전동차
+NAME_Nextrain_engine                       : 넥스트레인
+NAME_Nextrain_wagon                        : 넥스트레인
+NAME_Daejeonmetro_1000_4Car                : [4량] 대전교통공사 1000호대 전동차
+NAME_Gwangjumetro_1000_4Car                : [4량] 광주교통공사 1000호대 전동차
+NAME_Shinbundang_6Car                      : [6량] 신분당선 D000호대 전동차
+NAME_Standard_Metro_4Car                   : [4량] 한국형 표준전동차
+NAME_CDC_engine                            : CDC 디젤동차
+NAME_CDC_wagon                             : CDC 디젤동차
+NAME_DEL4400                               : DEL4400
+NAME_DEL7000                               : DEL7000
+NAME_DEL7600                               : DEL7600
+NAME_DEL7700                               : 7700호대 디젤기관차
+NAME_Group_DHC_PP                          : DHC PP 디젤동차
+NAME_DHC_PP_engine_A                       : DHC PP 디젤동차 초기형
+NAME_DHC_PP_engine_B                       : DHC PP 디젤동차 후기형
+NAME_DHC_PP_wagon                          : DHC PP 디젤동차
+NAME_Group_Diesel_Car                      : 디젤액압동차
+NAME_Nomal_Diesel_Car                      : 디젤액압동차
+NAME_Nomal_Diesel_2Car_addcar              : [2량+?량] 디젤액압동차
+NAME_Nomal_Diesel_2Car                     : [2량] 격상형 디젤액압동차
+NAME_Special_Diesel_Car                    : 특별동차 (디젤액압동차)
+NAME_EEC_EMU_10Car                         : [10량] EEC 전기동차
+NAME_FEL_8500                              : 8500호대 전기기관차
+NAME_GT26CW                                : 7X00호대 디젤기관차
+NAME_H2_WJ_engine                          : 우진산전 수소연료전지동차
+NAME_H2_WJ_wagon                           : 우진산전 수소연료전지동차
+NAME_NEL_8100                              : 8100호대 전기기관차
+NAME_NEL_8200                              : 8200호대 전기기관차
+NAME_OEL_8000                              : 8000호대 전기기관차
+NAME_RDC_engine                            : RDC 디젤동차
+NAME_RDC_wagon                             : RDC 디젤동차
+NAME_HXD3C                                 : HXD3C
+NAME_NJ2                                   : NJ2
+NAME_BB15000                               : SNCF BB15000
+NAME_Kse2_8Car                             : [8량] 케이세이 AE형 2세대
+NAME_Group_NSW_TrainLink_D                 : NSW TrainLink D
+NAME_NSW_TrainLink_D_4Car                  : [4량] NSW TrainLink D
+NAME_NSW_TrainLink_D_6Car                  : [6량] NSW TrainLink D
+NAME_TRC_E6800                             : TRC E6800 전기기관차
+NAME_GTX_8Car                              : [8량] GTX
+NAME_TTX_6Car                              : [6량] TTX
+NAME_Group_HSR_350X                        : HSR-350X
+NAME_HSR_350X_7Car                         : [7량] HSR-350X
+NAME_HSR_350X_14Car                        : [14량] HSR-350X
+NAME_AGV_11Car                             : [11량] AGV (이탈로)
+NAME_NHSRCL_E5_10Car                       : [10량] NHSRCL E5
+NAME_THSR_700T_12Car                       : [12량] 타이완 고속철도 700T형
+NAME_Al_Boraq_10Car                        : [10량] 알 보라크
+NAME_Talgo_350_SRO_14Car                   : [14량] 탈고 350 SRO (하라마인 고속철도)
+NAME_Avelia_Liberty_11Car                  : [11량] 아벨리아 리버티
+NAME_Group_HEMU_430X                       : HEMU-430X
+NAME_HEMU_430X_6Car                        : [6량] HEMU-430X
+NAME_HEMU_430X_8Car                        : [8량] HEMU-430X
+NAME_Glory_430_engine                      : Glory 430
+NAME_Glory_430_wagon                       : Glory 430
+NAME_Glory_600_engine                      : Glory 600
+NAME_Glory_600_wagon                       : Glory 600
+NAME_VHST_600X_engine                      : VHST-600X
+NAME_VHST_600X_wagon                       : VHST-600X
+NAME_MSB_Speeder                           : MSB 모터카
+NAME_Transparency                          : 투명기관차
 STR_Sillim_Line_3Car_NAME                              :[3량] 신림선 전동차
 STR_Uijeongbu_Line_2Car_NAME                           :[2량] 의정부경전철
 STR_Yangsan_AGT_2Car_NAME                              :[2량] 양산 도시철도
@@ -614,15 +605,9 @@ Livery_HYEL_100_CI                         : 한국철도공사 CI
 Livery_HYEL_100_original                   : 오리지널
 Livery_HYEL_150                            : HYEL-150
 Livery_HYEL_150_SB                         : HYEL-150 바다도색
-Livery_HYEL_Gangsan_M                      : 객차 M
-Livery_HYEL_Gangsan_3T                     : 객차 3T
-Livery_HYEL_Gangsan_T                      : 객차 T
-Livery_HYEL_Gangsan_TC                     : 객차 TC
 Livery_HYEL_PEX_Super_TC                   : 일반실
 Livery_HYEL_PEX_Super_FTC                  : 특실
 Livery_HYEL_PEX_Super_Generator            : 발전차
-Livery_HYEL_Railjet_M                      : 객차 M
-Livery_HYEL_Railjet_Tail                   : 객차 Tail
 Livery_AREX_1000_Old                       : 1000호대 구도색
 Livery_AREX_1000_New                       : 1000호대 신도색
 Livery_Daegumetro_1000_GTO                 : GTO
@@ -829,6 +814,8 @@ Livery_KTX_1_2013                          : LTE-A
 Livery_KTX_1_2017                          : 특실 3량
 Livery_KTX_Sancheon_A1                     : KTX-산천 A타입 초도분
 Livery_KTX_Sancheon_A2                     : KTX-산천 A타입 후기분
+Livery_SRT                                 : SRT
+Livery_SRT_2cc                             : SRT 2cc
 Livery_KTX_Sancheon_B                      : KTX-산천 B타입
 Livery_KTX_Sancheon_BP                     : KTX-산천 B타입 2018 평창올림픽 도색
 Livery_KTX_Gyeonggang_Blue                 : KTX-산천 경강선 시안 1안
@@ -896,7 +883,153 @@ Livery_TGV_Sud_Est_Last                    : 라스트런 특별도색
 Livery_TGV_Thalys_PBKA_Old                 : 탈리스 PBKA 구도색
 Livery_TGV_Thalys_PBKA_New                 : 탈리스 PBKA 신도색
 Livery_TGV_Thalys_Ruby                     : 탈리스 루비
-STR_REFIT_LIVERY_AUTS                                : AUTS
+Livery_Shinbundang_G1                      : 1세대
+Livery_Shinbundang_G2                      : 2세대
+Livery_Shinbundang_G3                      : 3세대
+Livery_Standard_Metro_Long_Seat            : 롱 시트
+Livery_Standard_Metro_Cross_Seat           : 크로스 시트
+Livery_CDC_Old                             : 구도색
+Livery_CDC_Old_2cc                         : 구도색 2cc
+Livery_CDC_New                             : 신도색
+Livery_CDC_New_2cc                         : 신도색 2cc
+Livery_CDC_Flower                          : 꽃동산 도색
+Livery_CDC_Beach                           : 해변 도색
+Livery_CDC_Baekje                          : 백제왕관 도색
+Livery_CDC_Sea_Old                         : 바다열차 구도색
+Livery_CDC_Sea_New                         : 바다열차 신도색
+Livery_CDC_DMZ                             : DMZ
+Livery_DEL4400_A                           : 구도색
+Livery_DEL4400_B                           : 신도색
+Livery_DEL4400_C                           : V-Train
+Livery_DEL4400_D                           : 교외선
+Livery_DEL7000_A                           : 기본도색
+Livery_DEL7000_B                           : 구도색
+Livery_DEL7000_C                           : 신도색
+Livery_DEL7600                             : 초기도색
+Livery_DEL7600_Old                         : 구도색
+Livery_DEL7600_New                         : 신도색
+Livery_DHC_Early_1st                       : 초기도색 노랑
+Livery_DHC_Early_1st_B                     : 초기도색 노랑 일반실
+Livery_DHC_Early_1st_TR                    : 초기도색 노랑 반식반객
+Livery_DHC_Early_2nd                       : 초기도색 빨강
+Livery_DHC_Early_2nd_A                     : 초기도색 빨강 A형
+Livery_DHC_Early_2nd_B                     : 초기도색 빨강 B형
+Livery_DHC_Early_2nd_C                     : 초기도색 빨강 C형
+Livery_DHC_Early_2nd_F                     : 초기도색 빨강 특실
+Livery_DHC_Early_2nd_TR                    : 초기도색 빨강 반식반객
+Livery_DHC_Early_2nd_S                     : 초기도색 빨강 식당차
+Livery_DHC_Early_2nd_2cc                   : 초기도색 2cc
+Livery_DHC_Early                           : 초기도색
+Livery_DHC_Early_2cc                       : 초기도색 2cc
+Livery_DHC_Early_2cc_A                     : 초기도색 빨강 A형 2cc
+Livery_DHC_Early_2cc_B                     : 초기도색 빨강 B형 2cc
+Livery_DHC_Early_2cc_C                     : 초기도색 빨강 C형 2cc
+Livery_DHC_Early_2cc_F                     : 초기도색 빨강 특실 2cc
+Livery_DHC_Early_2cc_TR                    : 초기도색 빨강 반식반객 2cc
+Livery_DHC_Early_2cc_S                     : 초기도색 빨강 식당차 2cc
+Livery_DHC_Old                             : 구도색
+Livery_DHC_Old_A                           : 구도색 A형
+Livery_DHC_Old_B                           : 구도색 B형
+Livery_DHC_Old_C                           : 구도색 C형
+Livery_DHC_Old_F                           : 구도색 특실
+Livery_DHC_Old_TR                          : 구도색 반식반객
+Livery_DHC_Old_S                           : 구도색 식당차
+Livery_DHC_Old_2cc                         : 구도색 2cc
+Livery_DHC_Old_2cc_A                       : 구도색 A형 2cc
+Livery_DHC_Old_2cc_B                       : 구도색 B형 2cc
+Livery_DHC_Old_2cc_C                       : 구도색 C형 2cc
+Livery_DHC_Old_2cc_F                       : 구도색 특실 2cc
+Livery_DHC_Old_2cc_TR                      : 구도색 반식반객 2cc
+Livery_DHC_Old_2cc_S                       : 구도색 식당차 2cc
+Livery_DHC_New                             : 신도색
+Livery_DHC_New_A                           : 신도색 A형
+Livery_DHC_New_B                           : 신도색 B형
+Livery_DHC_New_C                           : 신도색 C형
+Livery_DHC_New_F                           : 신도색 특실
+Livery_DHC_New_S                           : 신도색 식당차
+Livery_DHC_New_Cafe                        : 신도색 카페객차
+Livery_DHC_New_2cc                         : 신도색 2cc
+Livery_DHC_New_2cc_A                       : 신도색 A형 2cc
+Livery_DHC_New_2cc_B                       : 신도색 B형 2cc
+Livery_DHC_New_2cc_C                       : 신도색 C형 2cc
+Livery_DHC_New_2cc_F                       : 신도색 특실 2cc
+Livery_DHC_New_2cc_S                       : 신도색 식당차 2cc
+Livery_DHC_New_2cc_Cafe                    : 신도색 카페객차 2cc
+Livery_Nomal_Diesel_Car_1961               : 초기형 초기도색
+Livery_Nomal_Diesel_Car_1966               : 후기형 초기도색
+Livery_Nomal_Diesel_Car_1975_A             : 후기형 편운전대 초기도색 세미크로스시트
+Livery_Nomal_Diesel_Car_1975_B             : 후기형 편운전대 초기도색 롱시트
+Livery_Nomal_Diesel_Car_1974_O             : 보급열차 양운전대
+Livery_Nomal_Diesel_Car_1974_O1            : 보급열차 편운전대
+Livery_Nomal_Diesel_Car_1980_B1            : 비둘기호 초기형
+Livery_Nomal_Diesel_Car_1980_B2            : 비둘기호 후기형
+Livery_Nomal_Diesel_Car_1984_BA            : 비둘기호 편운전대 세미크로스시트
+Livery_Nomal_Diesel_Car_1984_BB            : 비둘기호 편운전대 롱시트
+Livery_Nomal_Diesel_Car_1985_T             : 통일호 양운전대
+Livery_Nomal_Diesel_Car_1985_T1            : 통일호 편운전대
+Livery_Nomal_Diesel_Car_1985_M             : 무궁화호 양운전대
+Livery_Nomal_Diesel_Car_1985_M1            : 무궁화호 편운전대
+Livery_Nomal_Diesel_Car_1994_B             : 비둘기호 한국철도 CI 2 양운전대
+Livery_Nomal_Diesel_Car_1994_B1A           : 비둘기호 한국철도 CI 2 편운전대 세미크로스시트
+Livery_Nomal_Diesel_Car_1994_B1B           : 비둘기호 한국철도 CI 2 편운전대 롱시트
+Livery_Nomal_Diesel_Car_1966_2car_C        : 초기도색 크로스시트
+Livery_Nomal_Diesel_Car_1974_2car_C        : 보통급행
+Livery_Nomal_Diesel_Car_1975_2car_L        : 초기도색 롱시트
+Livery_Nomal_Diesel_Car_1984_2car_C        : 비둘기호 초기도색 크로스시트
+Livery_Nomal_Diesel_Car_1984_2car_L        : 비둘기호 초기도색 롱시트
+Livery_Nomal_Diesel_Car_1984_2car_T        : 통일호
+Livery_Nomal_Diesel_Car_1984_2car_M        : 무궁화호
+Livery_Nomal_Diesel_Car_1994_2car_C        : 비둘기호 후기도색 크로스시트
+Livery_Nomal_Diesel_Car_1994_2car_L        : 비둘기호 후기도색 롱시트
+Livery_Special_Diesel_Car_1969             : 특별동차 초기도색
+Livery_Special_Diesel_Car_1986             : 특별동차 초기도색 (냉방개조)
+Livery_Special_Diesel_Car_1994             : 특별동차 구도색
+Livery_EEC_EMU_1980                        : 초기 도색 (회사 색상 지원)
+Livery_EEC_EMU_1996                        : 후기 도색 (2CC 색상 지원)
+Livery_FEL_8500                            : 기본도색
+Livery_FEL_8500_A_train                    : A-Train
+Livery_FEL_8500_A_train_New                : A-Train 신도색
+Livery_FEL_8500_G_train                    : G-Train
+Livery_FEL_8500_G_train_New                : G-Train 신도색
+Livery_FEL_8500_Haerang_train              : Haerang
+Livery_FEL_8500_S_train                    : S-Train
+Livery_FEL_8500_V_train                    : V-Train
+Livery_FEL_8500_Wine_train                 : Wine
+Livery_GT26CW_1971_F                       : 화물 초기도색
+Livery_GT26CW_1971_K                       : 관광호
+Livery_GT26CW_1971_S                       : 여객 초기도색
+Livery_GT26CW_1995                         : 구도색
+Livery_GT26CW_2005                         : 신도색
+Livery_GT26CW_2006                         : 레이디버드
+Livery_GT26CW_2008                         : 레일크루즈 해랑
+Livery_GT26CW_2012                         : 화물 신도색
+Livery_GT26CW_2013                         : 남도해양관광열차 구도색
+Livery_GT26CW_2015                         : 서해금빛열차 구도색
+Livery_GT26CW_2018                         : 충북영동국악와인열차
+Livery_GT26CW_2019_1                       : 한-아세안열차 (국악와인랩핑)
+Livery_GT26CW_2019_2                       : 한-아세안열차 (한국철도공사 CI)
+Livery_GT26CW_2020                         : 남도해양관광열차 신도색
+Livery_GT26CW_2023                         : 서해금빛열차 신도색
+Livery_NEL_8100_A                          : 구도색
+Livery_NEL_8100_B                          : 신도색
+Livery_OEL8000_I1                          : 초기형 초기도색
+Livery_OEL8000_I2                          : 후기형 초기도색
+Livery_OEL8000_O1                          : 초기형 구도색
+Livery_OEL8000_O2                          : 후기형 구도색
+Livery_OEL8000_N1                          : 초기형 신도색
+Livery_OEL8000_N2                          : 후기형 신도색
+Livery_Mugunghwa                           : 무궁화호
+Livery_Mugunghwa_2cc                       : 무궁화호 2cc
+Livery_Mugunghwa_cafe                      : 무궁화호 카페객차
+Livery_Mugunghwa_cafe_2cc                  : 무궁화호 카페객차 2cc
+Livery_Pohang_Yeongdeok_1                  : 포항영덕도색 1
+Livery_Pohang_Yeongdeok_2                  : 포항영덕도색 2
+Livery_Gyeongbuk_Atype                     : 경북순환 구도색
+Livery_Gyeongbuk_Btype                     : 경북순환 신도색
+Livery_Gyeongbuk_Ctype                     : 경북나드리
+Livery_BB15000_Orginal                     : 기본도색
+Livery_BB15000_Korail                      : Korail
+Livery_BB15000_En_Voyagee                  : En Voyagee
 
 Livery_PEX_Super_N_Wagon                : 일반객차
 Livery_PEX_Super_N_Tail                 : 운전객차
@@ -907,139 +1040,10 @@ Livery_PEX_Super_Post_Tail              : 운전객차
 Livery_PEX_Super_Generatar_Wagon        : 일반객차
 Livery_PEX_Super_Generatar_Tail         : 운전객차
 
-Livery_DEL7600                          : 초기도색
-Livery_DEL7600_Old                      : 구도색
-Livery_DEL7600_New                      : 신도색
-
-Livery_NEL_8100_A                       : 구도색
-Livery_NEL_8100_B                       : 신도색
-Livery_OEL8000_I1                       : 초기형 초기도색
-Livery_OEL8000_I2                       : 후기형 초기도색
-Livery_OEL8000_O1                       : 초기형 구도색
-Livery_OEL8000_O2                       : 후기형 구도색
-Livery_OEL8000_N1                       : 초기형 신도색
-Livery_OEL8000_N2                       : 후기형 신도색
-Livery_Mugunghwa                        : 무궁화호
-Livery_Mugunghwa_2cc                    : 무궁화호 2cc
-Livery_Mugunghwa_cafe                   : 무궁화호 카페객차
-Livery_Mugunghwa_cafe_2cc               : 무궁화호 카페객차 2cc
-Livery_Pohang_Yeongdeok_1               : 포항영덕도색 1
-Livery_Pohang_Yeongdeok_2               : 포항영덕도색 2
-Livery_Gyeongbuk_Atype                  : 경북순환 구도색
-Livery_Gyeongbuk_Btype                  : 경북순환 신도색
-Livery_Gyeongbuk_Ctype                  : 경북나드리
-Livery_SRT                              : SRT
-Livery_SRT_2cc                          : SRT 2cc
 Livery_VPassenger_BR                    : 기본 도색
 Livery_VPassenger_Taegeuk               : 태극 도색
 
-# Liveries Locomotive
-Livery_BB15000_Orginal                  : 기본도색
-Livery_BB15000_Korail                   : Korail
-Livery_BB15000_En_Voyagee               : En Voyagee
-Livery_CDC_Old                          : 구도색
-Livery_CDC_Old_2cc                      : 구도색 2cc
-Livery_CDC_New                          : 신도색
-Livery_CDC_New_2cc                      : 신도색 2cc
-Livery_CDC_Flower                       : 꽃동산 도색
-Livery_CDC_Beach                        : 해변 도색
-Livery_CDC_Baekje                       : 백제왕관 도색
-Livery_CDC_Sea_Old                      : 바다열차 구도색
-Livery_CDC_Sea_New                      : 바다열차 신도색
-Livery_CDC_DMZ                          : DMZ
-STR_REFIT_LIVERY_DEL4400_A                           : 구도색
-STR_REFIT_LIVERY_DEL4400_B                           : 신도색
-STR_REFIT_LIVERY_DEL4400_C                           : V-Train
-STR_REFIT_LIVERY_DEL4400_D                           : 교외선
-STR_REFIT_LIVERY_DEL7000_A                           : 기본도색
-STR_REFIT_LIVERY_DEL7000_B                           : 구도색
-STR_REFIT_LIVERY_DEL7000_C                           : 신도색
-STR_REFIT_LIVERY_DHC_FF                              : DHC PP 초기도색 초기형
-STR_REFIT_LIVERY_DHC_FL_A                            : DHC PP 초기도색 후기형 A
-STR_REFIT_LIVERY_DHC_FL_B                            : DHC PP 초기도색 후기형 B
-STR_REFIT_LIVERY_DHC_FLS                             : DHC PP 초기도색 후기형 특실편성
-STR_REFIT_LIVERY_DHC_OF                              : DHC PP 구도색 초기형
-STR_REFIT_LIVERY_DHC_OL_A                            : DHC PP 구도색 후기형 A
-STR_REFIT_LIVERY_DHC_OL_B                            : DHC PP 구도색 후기형 B
-STR_REFIT_LIVERY_DHC_OL_C                            : DHC PP 구도색 후기형 C
-STR_REFIT_LIVERY_DHC_OLS                             : DHC PP 구도색 후기형 특실편성
-STR_REFIT_LIVERY_DHC_New_A                           : DHC PP 신도색 A
-STR_REFIT_LIVERY_DHC_New_B                           : DHC PP 신도색 B
-STR_REFIT_LIVERY_DHC_New_C                           : DHC PP 신도색 C
-STR_REFIT_LIVERY_DHC_New_Cafe_A                      : DHC PP 신도색 카페편성 A
-STR_REFIT_LIVERY_DHC_New_Cafe_B                      : DHC PP 신도색 카페편성 B
-STR_REFIT_LIVERY_DHC_New_Cafe_C                      : DHC PP 신도색 카페편성 C
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1961               : 초기형 초기도색
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1966               : 후기형 초기도색
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A             : 후기형 편운전대 초기도색 세미크로스시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B             : 후기형 편운전대 초기도색 롱시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O             : 보급열차 양운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O1            : 보급열차 편운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B1            : 비둘기호 초기형
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B2            : 비둘기호 후기형
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BA            : 비둘기호 편운전대 세미크로스시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BB            : 비둘기호 편운전대 롱시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T             : 통일호 양운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T1            : 통일호 편운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M             : 무궁화호 양운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1            : 무궁화호 편운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B             : 비둘기호 한국철도 CI 2 양운전대
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1A           : 비둘기호 한국철도 CI 2 편운전대 세미크로스시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1B           : 비둘기호 한국철도 CI 2 편운전대 롱시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1966_2car_C        : 초기도색 크로스시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_2car_C        : 보통급행
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_2car_L        : 초기도색 롱시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_C        : 비둘기호 초기도색 크로스시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_L        : 비둘기호 초기도색 롱시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_T        : 통일호
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_M        : 무궁화호
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_C        : 비둘기호 후기도색 크로스시트
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_L        : 비둘기호 후기도색 롱시트
-STR_REFIT_LIVERY_Special_Diesel_Car_1969             : 특별동차 초기도색
-STR_REFIT_LIVERY_Special_Diesel_Car_1986             : 특별동차 초기도색 (냉방개조)
-STR_REFIT_LIVERY_Special_Diesel_Car_1994             : 특별동차 구도색
-STR_REFIT_LIVERY_EEC_EMU_1980                        : 초기 도색 (회사 색상 지원)
-STR_REFIT_LIVERY_EEC_EMU_1996                        : 후기 도색 (2CC 색상 지원)
-STR_REFIT_LIVERY_FEL_8500                            : 기본도색
-STR_REFIT_LIVERY_FEL_8500_A_train                    : A-Train
-STR_REFIT_LIVERY_FEL_8500_A_train_New                : A-Train 신도색
-STR_REFIT_LIVERY_FEL_8500_G_train                    : G-Train
-STR_REFIT_LIVERY_FEL_8500_G_train_New                : G-Train 신도색
-STR_REFIT_LIVERY_FEL_8500_Haerang_train              : Haerang
-STR_REFIT_LIVERY_FEL_8500_S_train                    : S-Train
-STR_REFIT_LIVERY_FEL_8500_V_train                    : V-Train
-STR_REFIT_LIVERY_FEL_8500_Wine_train                 : Wine
-STR_REFIT_LIVERY_GT26CW_1971_F                       : 화물 초기도색
-STR_REFIT_LIVERY_GT26CW_1971_K                       : 관광호
-STR_REFIT_LIVERY_GT26CW_1971_S                       : 여객 초기도색
-STR_REFIT_LIVERY_GT26CW_1995                         : 구도색
-STR_REFIT_LIVERY_GT26CW_2005                         : 신도색
-STR_REFIT_LIVERY_GT26CW_2006                         : 레이디버드
-STR_REFIT_LIVERY_GT26CW_2008                         : 레일크루즈 해랑
-STR_REFIT_LIVERY_GT26CW_2012                         : 화물 신도색
-STR_REFIT_LIVERY_GT26CW_2013                         : 남도해양관광열차 구도색
-STR_REFIT_LIVERY_GT26CW_2015                         : 서해금빛열차 구도색
-STR_REFIT_LIVERY_GT26CW_2018                         : 충북영동국악와인열차
-STR_REFIT_LIVERY_GT26CW_2019_1                       : 한-아세안열차 (국악와인랩핑)
-STR_REFIT_LIVERY_GT26CW_2019_2                       : 한-아세안열차 (한국철도공사 CI)
-STR_REFIT_LIVERY_GT26CW_2020                         : 남도해양관광열차 신도색
-STR_REFIT_LIVERY_GT26CW_2023                         : 서해금빛열차 신도색
-STR_REFIT_LIVERY_NEL_8100_A                          : 구도색
-STR_REFIT_LIVERY_NEL_8100_B                          : 신도색
-STR_REFIT_LIVERY_OEL8000_I1                          : 초기형 초기도색
-STR_REFIT_LIVERY_OEL8000_I2                          : 후기형 초기도색
-STR_REFIT_LIVERY_OEL8000_O1                          : 초기형 구도색
-STR_REFIT_LIVERY_OEL8000_O2                          : 후기형 구도색
-STR_REFIT_LIVERY_OEL8000_N1                          : 초기형 신도색
-STR_REFIT_LIVERY_OEL8000_N2                          : 후기형 신도색
-
 # Liveries Metro
-STR_REFIT_LIVERY_Shinbundang_G1                      : 1세대
-STR_REFIT_LIVERY_Shinbundang_G2                      : 2세대
-STR_REFIT_LIVERY_Shinbundang_G3                      : 3세대
-STR_REFIT_LIVERY_Standard_Metro_Long_Seat            : 한국 표준형 지하철 롱 시트
-STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           : 한국 표준형 지하철 크로스 시트
-
 STR_REFIT_LIVERY_West_Japan_125_1panto               : 125계 팬터그래프 1개
 STR_REFIT_LIVERY_West_Japan_125_2panto               : 125계 팬터그래프 2개
 STR_REFIT_LIVERY_West_Japan_227_R_Atype              : Urara 도시바 R편성

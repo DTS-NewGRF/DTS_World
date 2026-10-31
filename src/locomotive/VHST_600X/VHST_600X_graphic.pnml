@@ -14,18 +14,18 @@ spriteset(set_VHST_600X_wagon, "src/locomotive/VHST_600X/VHST_600X.png") {
 }
 
 spriteset(set_VHST_600X_engineT_Rev, "src/locomotive/VHST_600X/VHST_600X.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_VHST_600X_engineT, "src/locomotive/VHST_600X/VHST_600X.png"){
-    DTS_temp_r(80, 108)
+    DTS_temp(80, 108)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_VHST_600X_engine_purchase, "src/locomotive/VHST_600X/VHST_600X.png"){
-    tmpl_purchase_for_dualhead(0, 0)
+    tmpl_purchase(0, 0)
 }
 
 spriteset(set_VHST_600X_wagon_purchase, "src/locomotive/VHST_600X/VHST_600X.png"){

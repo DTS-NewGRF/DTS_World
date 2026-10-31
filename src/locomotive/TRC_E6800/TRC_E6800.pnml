@@ -9,7 +9,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, TRC_E6800, 2605){
     property {
-        name:                           string(STR_TRC_E6800_NAME);
+        name:                           string(NAME_TRC_E6800);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;

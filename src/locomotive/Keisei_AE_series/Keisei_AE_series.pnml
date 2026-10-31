@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Keisei_AE_series_8Car, 2084){
     property {
-        name:                           string(STR_Kse2_8Car_NAME);
+        name:                           string(NAME_Kse2_8Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2010, 1, 1);
         track_type:                     ELRL;

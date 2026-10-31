@@ -54,11 +54,3 @@ spriteset(set_GTX_engineT_Free, "src/locomotive/GTX/GTX.png"){
 spriteset(set_GTX_purchase, "src/locomotive/GTX/GTX.png"){
     tmpl_purchase(0, 0)
 }
-
-spriteset(set_GTX_engine_purchase, "src/locomotive/GTX/GTX.png"){
-    tmpl_purchase_for_dualhead(0, 0)
-}
-
-spriteset(set_GTX_wagon_purchase, "src/locomotive/GTX/GTX.png"){
-    tmpl_purchase(0, 108)
-}

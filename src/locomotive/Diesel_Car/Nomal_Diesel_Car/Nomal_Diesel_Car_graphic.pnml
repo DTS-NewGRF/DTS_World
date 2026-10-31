@@ -108,6 +108,10 @@ spriteset(sw_Nomal_Diesel_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/loc
     tmpl_single_purchase(0, 189)
 }
 
+spriteset(sw_Nomal_Diesel_Dual_2car_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
+    tmpl_purchase_for_dualhead(0, 216)
+}
+
 spriteset(sw_Nomal_Diesel_2car_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
     tmpl_single_purchase(0, 216)
 }

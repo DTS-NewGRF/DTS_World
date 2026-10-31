@@ -59,15 +59,3 @@ spriteset(set_HEMU_430X_engineT_Free, "src/locomotive/HEMU_430X/HEMU_430X.png"){
 spriteset(set_HEMU_430X_purchase, "src/locomotive/HEMU_430X/HEMU_430X.png"){
     tmpl_purchase(0, 0)
 }
-
-spriteset(set_HEMU_430X_engine_purchase, "src/locomotive/HEMU_430X/HEMU_430X.png"){
-    tmpl_purchase_for_dualhead(0, 0)
-}
-
-spriteset(set_HEMU_430X_wagon_purchase, "src/locomotive/HEMU_430X/HEMU_430X.png"){
-    tmpl_purchase(0, 162)
-}
-
-spriteset(set_HEMU_430X_wagon_DD_purchase, "src/locomotive/HEMU_430X/HEMU_430X.png"){
-    tmpl_purchase(0, 135)
-}

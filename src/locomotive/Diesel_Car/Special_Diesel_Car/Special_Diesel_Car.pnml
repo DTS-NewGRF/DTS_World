@@ -12,7 +12,7 @@ Special Diesel Car
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Special_Diesel_Car, 2466){
     property {
-        name:                           string(STR_Special_Diesel_Car_NAME);
+        name:                           string(NAME_Special_Diesel_Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1969, 1, 1);
         track_type:                     RAIL;

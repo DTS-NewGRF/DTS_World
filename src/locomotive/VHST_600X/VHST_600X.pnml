@@ -18,11 +18,10 @@ item(FEAT_TRAINS, VHST_600X_engine, 1020){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          600km/h;
-        power:                          20000 kW;
+        power:                          25000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
         
@@ -104,5 +103,6 @@ item(FEAT_TRAINS, VHST_600X_wagon, 1021){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        power:                          671;
         }
         }

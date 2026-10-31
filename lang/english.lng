@@ -111,12 +111,14 @@ NAME_HYEL_350_11Car                        : [11Car] HYEL-350
 NAME_HYEL_400_7Car                         : [7Car] HYEL-400
 NAME_HYEL_Gangsan_engine                   : HYEL-Gangsan
 NAME_HYEL_Gangsan_wagon                    : HYEL-Gangsan
+NAME_HYEL_Gangsan_wagon_Tail               : HYEL-Gangsan Tail
 NAME_HYEL_Mugunhwa_engine                  : HYEL-Mugunhwa
 NAME_HYEL_Mugunhwa_wagon                   : HYEL-Mugunhwa
 NAME_HYEL_Mugunhwa_DD_engine               : HYEL-Mugunhwa DD
 NAME_HYEL_Mugunhwa_DD_wagon                : HYEL-Mugunhwa DD
 NAME_HYEL_PEX_Super                        : HYEL PEX-SUPER
 NAME_HYEL_Railjet                          : HYEL RailJet
+NAME_HYEL_Railjet_Tail                     : HYEL RailJet Tail
 NAME_Group_AREX                            : AREX
 NAME_AREX_1000_1st_5Car                    : [5Car] AREX series 1000 1st
 NAME_AREX_1000_1st_Pass_engine             : [Passenger] AREX series 1000 1st
@@ -441,79 +443,68 @@ NAME_TGV_A_12Car                           : [12Car] TGV Atlantique
 NAME_TGV_R_10Car                           : [10Car] TGV Reseau
 NAME_TGV_La_Poste_10Car                    : [10Car] TGV La Poste
 NAME_TGV_M_11Car                           : [11Car] TGV M
-
-NAME_AUTS_6Car                          : [6Car] AUTS
-NAME_Nextrain_engine                    : Nextrain
-NAME_Nextrain_wagon                     : Nextrain
-STR_Daejeonmetro_1000_4Car_NAME                        :[4Car] Daejeonmetro 1000
-STR_Gwangjumetro_1000_4Car_NAME                        :[4Car] Gwangjumetro 1000
-STR_Shinbundang_6Car_NAME                              :[6Car] Shinbundang line D000 series
-STR_Standard_Metro_4Car_NAME                           :[4Car] Standard Metro
-NAME_CDC_engine                         : CDC Diesel
-NAME_CDC_wagon                          : CDC Diesel
-STR_DEL4400_NAME                                       :DEL4400
-STR_DEL7000_NAME                                       :DEL7000
-STR_DEL7600_NAME                                       :DEL7600
-STR_Group_DHC_PP_NAME                                  :DHC PP Diesel
-STR_DHC_PP_4Car_NAME                                   :[4Car] DHC PP Diesel
-STR_DHC_PP_5Car_NAME                                   :[5Car] DHC PP Diesel
-STR_DHC_PP_6Car_NAME                                   :[6Car] DHC PP Diesel
-STR_DHC_PP_7Car_NAME                                   :[7Car] DHC PP Diesel
-STR_DHC_PP_8Car_NAME                                   :[8Car] DHC PP Diesel
-STR_Group_Diesel_Car_NAME                              :Diesel Car
-STR_Nomal_Diesel_Car_NAME                              :Diesel Car
-STR_Nomal_Diesel_2Car_addcar_NAME                      :[2car+add car] Diesel Car
-STR_Nomal_Diesel_2Car_NAME                             :[2Car] Diesel Car
-STR_Special_Diesel_Car_NAME                            :special car (Diesel Car)
-STR_EEC_EMU_10Car_NAME                                 :[10Car] EEC EMU
-STR_FEL_8500_NAME                                      :FEL 8500
-STR_GT26CW_NAME                                        :GT26CW
-NAME_H2_WJ_engine                       : H2 by WOOJIN
-NAME_H2_WJ_wagon                        : H2 by WOOJIN
-NAME_NEL_8100                           : NEL 8100
-NAME_NEL_8200                           : NEL 8200
-NAME_OEL_8000                           : OEL 8000
-NAME_RDC_engine                         : RDC Diesel
-NAME_RDC_wagon                          : RDC Diesel
-STR_HXD3C_NAME                                         :HXD3C
-STR_NJ2_NAME                                           :NJ2
-NAME_BB15000                            : SNCF BB15000
-STR_Kse2_8Car_NAME                                     :[8Car] Keisei AE series
-STR_Group_NSW_TrainLink_D_NAME                         :NSW TrainLink D
-STR_NSW_TrainLink_D_4Car_NAME                          :[4Car] NSW TrainLink D
-STR_NSW_TrainLink_D_6Car_NAME                          :[6Car] NSW TrainLink D
-STR_TRC_E6800_NAME                                     :TRC E6800 Electric locomotive
-NAME_GTX_8Car                           : [8Car] GTX
-NAME_GTX_engine                         : GTX
-NAME_GTX_wagon                          : GTX
-NAME_TTX_6Car                           : [6Car] TTX
-NAME_TTX_engine                         : TTX
-NAME_TTX_wagon                          : TTX
-NAME_Group_HSR_350X                     : HSR-350X
-NAME_HSR_350X_7Car                      : [7Car] HSR-350X
-NAME_HSR_350X_14Car                     : [14Car] HSR-350X
-NAME_HSR_350X_engine                    : HSR-350X
-NAME_HSR_350X_wagon                     : HSR-350X
-NAME_AGV_11Car                          : [11Car] AGV (.italo)
-STR_NHSRCL_E5_10Car_NAME                               :[10Car] NHSRCL E5
-STR_THSR_700T_12Car_NAME                               :[12Car] THSR 700T
-NAME_Al_Boraq_10Car                     : [10Car] Al-Boraq
-STR_Talgo_350_SRO_14Car_NAME                           :[14Car] Talgo 350 SRO
-NAME_Avelia_Liberty_11Car               : [11Car] Avelia Liberty
-NAME_Group_HEMU_430X                    : HEMU-430X
-NAME_HEMU_430X_6Car                     : [6Car] HEMU-430X
-NAME_HEMU_430X_8Car                     : [8Car] HEMU-430X
-NAME_HEMU_430X_engine                   : HEMU-430X
-NAME_HEMU_430X_wagon                    : HEMU-430X
-NAME_HEMU_430X_DD_wagon                 : HEMU-430X DD
-NAME_Glory_430_engine                   : Glory 430
-NAME_Glory_430_wagon                    : Glory 430
-NAME_VHST_600X_engine                   : VHST-600X
-NAME_VHST_600X_wagon                    : VHST-600X
-NAME_Glory_600_engine                   : Glory 600
-NAME_Glory_600_wagon                    : Glory 600
-STR_MSB_Speeder_NAME                                   :MSB Speeder
-NAME_Transparency                       : Transparency Vehicle
+NAME_AUTS_6Car                             : [6Car] AUTS
+NAME_Nextrain_engine                       : Nextrain
+NAME_Nextrain_wagon                        : Nextrain
+NAME_Daejeonmetro_1000_4Car                : [4Car] Daejeonmetro 1000
+NAME_Gwangjumetro_1000_4Car                : [4Car] Gwangjumetro 1000
+NAME_Shinbundang_6Car                      : [6Car] Shinbundang line D000 series
+NAME_Standard_Metro_4Car                   : [4Car] Standard Metro
+NAME_CDC_engine                            : CDC Diesel
+NAME_CDC_wagon                             : CDC Diesel
+NAME_DEL4400                               : DEL4400
+NAME_DEL7000                               : DEL7000
+NAME_DEL7600                               : DEL7600
+NAME_DEL7700                               : Class 7700 DEL
+NAME_Group_DHC_PP                          : DHC PP Diesel
+NAME_DHC_PP_engine_A                       : DHC PP Diesel A type
+NAME_DHC_PP_engine_B                       : DHC PP Diesel B type
+NAME_DHC_PP_wagon                          : DHC PP Diesel
+NAME_Group_Diesel_Car                      : Diesel Car
+NAME_Nomal_Diesel_Car                      : Diesel Car
+NAME_Nomal_Diesel_2Car_addcar              : [2car+add car] Diesel Car
+NAME_Nomal_Diesel_2Car                     : [2Car] Diesel Car
+NAME_Special_Diesel_Car                    : special car (Diesel Car)
+NAME_EEC_EMU_10Car                         : [10Car] EEC EMU
+NAME_FEL_8500                              : FEL 8500
+NAME_GT26CW                                : GT26CW
+NAME_H2_WJ_engine                          : H2 by WOOJIN
+NAME_H2_WJ_wagon                           : H2 by WOOJIN
+NAME_NEL_8100                              : NEL 8100
+NAME_NEL_8200                              : NEL 8200
+NAME_OEL_8000                              : OEL 8000
+NAME_RDC_engine                            : RDC Diesel
+NAME_RDC_wagon                             : RDC Diesel
+NAME_HXD3C                                 : HXD3C
+NAME_NJ2                                   : NJ2
+NAME_BB15000                               : SNCF BB15000
+NAME_Kse2_8Car                             : [8Car] Keisei AE series
+NAME_Group_NSW_TrainLink_D                 : NSW TrainLink D
+NAME_NSW_TrainLink_D_4Car                  : [4Car] NSW TrainLink D
+NAME_NSW_TrainLink_D_6Car                  : [6Car] NSW TrainLink D
+NAME_TRC_E6800                             : TRC E6800 Electric locomotive
+NAME_GTX_8Car                              : [8Car] GTX
+NAME_TTX_6Car                              : [6Car] TTX
+NAME_Group_HSR_350X                        : HSR-350X
+NAME_HSR_350X_7Car                         : [7Car] HSR-350X
+NAME_HSR_350X_14Car                        : [14Car] HSR-350X
+NAME_AGV_11Car                             : [11Car] AGV (.italo)
+NAME_NHSRCL_E5_10Car                       : [10Car] NHSRCL E5
+NAME_THSR_700T_12Car                       : [12Car] THSR 700T
+NAME_Al_Boraq_10Car                        : [10Car] Al-Boraq
+NAME_Talgo_350_SRO_14Car                   : [14Car] Talgo 350 SRO
+NAME_Avelia_Liberty_11Car                  : [11Car] Avelia Liberty
+NAME_Group_HEMU_430X                       : HEMU-430X
+NAME_HEMU_430X_6Car                        : [6Car] HEMU-430X
+NAME_HEMU_430X_8Car                        : [8Car] HEMU-430X
+NAME_Glory_430_engine                      : Glory 430
+NAME_Glory_430_wagon                       : Glory 430
+NAME_Glory_600_engine                      : Glory 600
+NAME_Glory_600_wagon                       : Glory 600
+NAME_VHST_600X_engine                      : VHST-600X
+NAME_VHST_600X_wagon                       : VHST-600X
+NAME_MSB_Speeder                           : MSB Speeder
+NAME_Transparency                          : Transparency Vehicle
 STR_Sillim_Line_3Car_NAME                              :[3Car] Sillim Line
 STR_Uijeongbu_Line_2Car_NAME                           :[2Car] Uijeongbu Light Rapid Transit
 STR_Yangsan_AGT_2Car_NAME                              :[2Car] Yangsan Metro AGT
@@ -614,15 +605,9 @@ Livery_HYEL_100_CI                         : Korail CI
 Livery_HYEL_100_original                   : Original
 Livery_HYEL_150                            : HYEL-150
 Livery_HYEL_150_SB                         : HYEL-150 Sea Livery
-Livery_HYEL_Gangsan_M                      : M Type
-Livery_HYEL_Gangsan_3T                     : 3T Type
-Livery_HYEL_Gangsan_T                      : T Type
-Livery_HYEL_Gangsan_TC                     : TC Type
 Livery_HYEL_PEX_Super_TC                   : Regular Class
 Livery_HYEL_PEX_Super_FTC                  : First Class
 Livery_HYEL_PEX_Super_Generator            : Generator Car
-Livery_HYEL_Railjet_M                      : M Type
-Livery_HYEL_Railjet_Tail                   : Tail Type
 Livery_AREX_1000_Old                       : 1000 series 1st Old
 Livery_AREX_1000_New                       : 1000 series 1st New
 Livery_Daegumetro_1000_GTO                 : GTO
@@ -829,6 +814,8 @@ Livery_KTX_1_2013                          : LTE-A
 Livery_KTX_1_2017                          : Special 3Car
 Livery_KTX_Sancheon_A1                     : KTX-Sancheon Atype 1
 Livery_KTX_Sancheon_A2                     : KTX-Sancheon Atype 2
+Livery_SRT                                 : SRT
+Livery_SRT_2cc                             : SRT 2cc
 Livery_KTX_Sancheon_B                      : KTX-Sancheon Btype 1
 Livery_KTX_Sancheon_BP                     : KTX-Sancheon Btype 2
 Livery_KTX_Gyeonggang_Blue                 : KTX-Gyeonggang Blue Livery
@@ -896,7 +883,153 @@ Livery_TGV_Sud_Est_Last                    : Last run Event
 Livery_TGV_Thalys_PBKA_Old                 : Thalys PBKA Old
 Livery_TGV_Thalys_PBKA_New                 : Thalys PBKA New
 Livery_TGV_Thalys_Ruby                     : Thalys Ruby
-STR_REFIT_LIVERY_AUTS                                : AUTS
+Livery_Shinbundang_G1                      : Shinbundang G1
+Livery_Shinbundang_G2                      : Shinbundang G2
+Livery_Shinbundang_G3                      : Shinbundang G3
+Livery_Standard_Metro_Long_Seat            : Long Seat
+Livery_Standard_Metro_Cross_Seat           : Cross Seat
+Livery_CDC_Old                             : Old
+Livery_CDC_Old_2cc                         : Old 2cc
+Livery_CDC_New                             : New
+Livery_CDC_New_2cc                         : New 2cc
+Livery_CDC_Flower                          : Flower Garde
+Livery_CDC_Beach                           : Beach
+Livery_CDC_Baekje                          : Baekje Crown
+Livery_CDC_Sea_Old                         : Sea Old
+Livery_CDC_Sea_New                         : Sea New
+Livery_CDC_DMZ                             : DMZ
+Livery_DEL4400_A                           : Old
+Livery_DEL4400_B                           : New
+Livery_DEL4400_C                           : V-Train
+Livery_DEL4400_D                           : Gyooe Line livery
+Livery_DEL7000_A                           : DEL7000_A
+Livery_DEL7000_B                           : DEL7000_B
+Livery_DEL7000_C                           : DEL7000_C
+Livery_DEL7600                             : Orginal
+Livery_DEL7600_Old                         : Old
+Livery_DEL7600_New                         : New
+Livery_DHC_Early_1st                       : Early livery Yellow
+Livery_DHC_Early_1st_B                     : Early livery Yellow regular class
+Livery_DHC_Early_1st_TR                    : Early livery Yellow Half-restaurant, room
+Livery_DHC_Early_2nd                       : Early livery Red
+Livery_DHC_Early_2nd_A                     : Early livery Red A type
+Livery_DHC_Early_2nd_B                     : Early livery Red B type
+Livery_DHC_Early_2nd_C                     : Early livery Red C type
+Livery_DHC_Early_2nd_F                     : Early livery Red First class
+Livery_DHC_Early_2nd_TR                    : Early livery Red Half-restaurant, room
+Livery_DHC_Early_2nd_S                     : Early livery Red restaurant
+Livery_DHC_Early_2nd_2cc                   : 2cc Early livery
+Livery_DHC_Early                           : Early livery Red
+Livery_DHC_Early_2cc                       : 2cc Early livery
+Livery_DHC_Early_2cc_A                     : 2cc Early livery Red A type
+Livery_DHC_Early_2cc_B                     : 2cc Early livery Red B type
+Livery_DHC_Early_2cc_C                     : 2cc Early livery Red C type
+Livery_DHC_Early_2cc_F                     : 2cc Early livery Red First class
+Livery_DHC_Early_2cc_TR                    : 2cc Early livery Red Half-restaurant, room
+Livery_DHC_Early_2cc_S                     : 2cc Early livery Red restaurant
+Livery_DHC_Old                             : Old livery
+Livery_DHC_Old_A                           : Old livery A type
+Livery_DHC_Old_B                           : Old livery B type
+Livery_DHC_Old_C                           : Old livery C type
+Livery_DHC_Old_F                           : Old livery First class
+Livery_DHC_Old_TR                          : Old livery Half-restaurant, room
+Livery_DHC_Old_S                           : Old livery restaurant
+Livery_DHC_Old_2cc                         : 2cc Old livery
+Livery_DHC_Old_2cc_A                       : 2cc Old livery A type
+Livery_DHC_Old_2cc_B                       : 2cc Old livery B type
+Livery_DHC_Old_2cc_C                       : 2cc Old livery C type
+Livery_DHC_Old_2cc_F                       : 2cc Old livery First class
+Livery_DHC_Old_2cc_TR                      : 2cc Old livery Half-restaurant, room
+Livery_DHC_Old_2cc_S                       : 2cc Old livery restaurant
+Livery_DHC_New                             : New livery
+Livery_DHC_New_A                           : New livery A type
+Livery_DHC_New_B                           : New livery B type
+Livery_DHC_New_C                           : New livery C type
+Livery_DHC_New_F                           : New livery First class
+Livery_DHC_New_S                           : New livery restaurant
+Livery_DHC_New_Cafe                        : New livery Cafe
+Livery_DHC_New_2cc                         : 2cc New livery
+Livery_DHC_New_2cc_A                       : 2cc New livery A type
+Livery_DHC_New_2cc_B                       : 2cc New livery B type
+Livery_DHC_New_2cc_C                       : 2cc New livery C type
+Livery_DHC_New_2cc_F                       : 2cc New livery First class
+Livery_DHC_New_2cc_S                       : 2cc New livery restaurant
+Livery_DHC_New_2cc_Cafe                    : 2cc New livery Cafe
+Livery_Nomal_Diesel_Car_1961               : 1st Original livery
+Livery_Nomal_Diesel_Car_1966               : 2nd Original livery
+Livery_Nomal_Diesel_Car_1975_A             : 2nd Single Cab Original livery Semi cross seat
+Livery_Nomal_Diesel_Car_1975_B             : 2nd Single Cab Original livery Long seat
+Livery_Nomal_Diesel_Car_1974_O             : regular express train Double Cab
+Livery_Nomal_Diesel_Car_1974_O1            : regular express train Single Cab
+Livery_Nomal_Diesel_Car_1980_B1            : Bidulgi 1st
+Livery_Nomal_Diesel_Car_1980_B2            : Bidulgi 2nd
+Livery_Nomal_Diesel_Car_1984_BA            : Bidulgi Single Cab Semi cross seat
+Livery_Nomal_Diesel_Car_1984_BB            : Bidulgi Single Cab Long seat
+Livery_Nomal_Diesel_Car_1985_T             : Tongil Double Cab
+Livery_Nomal_Diesel_Car_1985_T1            : Tongil Singie Cab
+Livery_Nomal_Diesel_Car_1985_M             : Mugunghwa Double Cab
+Livery_Nomal_Diesel_Car_1985_M1            : Mugunghwa Singie Cab
+Livery_Nomal_Diesel_Car_1994_B             : Bidulgi KNR 2
+Livery_Nomal_Diesel_Car_1994_B1A           : Bidulgi Single Cab Semi cross seat KNR 2
+Livery_Nomal_Diesel_Car_1994_B1B           : Bidulgi Single Cab Long seat KNR 2
+Livery_Nomal_Diesel_Car_1966_2car_C        : 1966 C
+Livery_Nomal_Diesel_Car_1974_2car_C        : 1974 C
+Livery_Nomal_Diesel_Car_1975_2car_L        : 1975 L
+Livery_Nomal_Diesel_Car_1984_2car_C        : 1984 C
+Livery_Nomal_Diesel_Car_1984_2car_L        : 1984 L
+Livery_Nomal_Diesel_Car_1984_2car_T        : 1984 T
+Livery_Nomal_Diesel_Car_1984_2car_M        : 1984 M
+Livery_Nomal_Diesel_Car_1994_2car_C        : 1994 C
+Livery_Nomal_Diesel_Car_1994_2car_L        : 1994 L
+Livery_Special_Diesel_Car_1969             : Special car first livery
+Livery_Special_Diesel_Car_1986             : Special car first livery (AIRCON)
+Livery_Special_Diesel_Car_1994             : Special car second livery
+Livery_EEC_EMU_1980                        : Superiority & Mugunghwa first livery
+Livery_EEC_EMU_1996                        : Mugunghwa & Tong-il second livery
+Livery_FEL_8500                            : Orginal
+Livery_FEL_8500_A_train                    : A-Train
+Livery_FEL_8500_A_train_New                : A-Train New Color
+Livery_FEL_8500_G_train                    : G-Train
+Livery_FEL_8500_G_train_New                : G-Train New Color
+Livery_FEL_8500_Haerang_train              : Haerang
+Livery_FEL_8500_S_train                    : S-Train
+Livery_FEL_8500_V_train                    : V-Train
+Livery_FEL_8500_Wine_train                 : Wine
+Livery_GT26CW_1971_F                       : Early livery Cargo
+Livery_GT26CW_1971_K                       : Kwan kwang Ho
+Livery_GT26CW_1971_S                       : Early livery Passinger
+Livery_GT26CW_1995                         : Old livery
+Livery_GT26CW_2005                         : New livery
+Livery_GT26CW_2006                         : Ladybird
+Livery_GT26CW_2008                         : RAIL CRUISE HAERANG
+Livery_GT26CW_2012                         : New livery Cargo
+Livery_GT26CW_2013                         : Old livery S-train
+Livery_GT26CW_2015                         : Old livery G-train
+Livery_GT26CW_2018                         : Chungbuk Yeongdong Gugak & Wine Train
+Livery_GT26CW_2019_1                       : ASEAN Korea Train (Gugak & Wine)
+Livery_GT26CW_2019_2                       : ASEAN Korea Train (KORAIL CI)
+Livery_GT26CW_2020                         : New livery S-train
+Livery_GT26CW_2023                         : New livery G-train
+Livery_NEL_8100_A                          : NEL 8100 A
+Livery_NEL_8100_B                          : NEL 8100 B
+Livery_OEL8000_I1                          : 1st Early livery
+Livery_OEL8000_I2                          : 2nd Early livery
+Livery_OEL8000_O1                          : 1st Old livery
+Livery_OEL8000_O2                          : 2nd Old livery
+Livery_OEL8000_N1                          : 1st New livery
+Livery_OEL8000_N2                          : 2nd New livery
+Livery_Mugunghwa                           : Mugunghwa
+Livery_Mugunghwa_2cc                       : Mugunghwa 2cc
+Livery_Mugunghwa_cafe                      : Mugunghwa cafe
+Livery_Mugunghwa_cafe_2cc                  : Mugunghwa cafe 2cc
+Livery_Pohang_Yeongdeok_1                  : Pohang Yeongdeok 1
+Livery_Pohang_Yeongdeok_2                  : Pohang Yeongdeok 2
+Livery_Gyeongbuk_Atype                     : Gyeongbuk Atype
+Livery_Gyeongbuk_Btype                     : Gyeongbuk Btype
+Livery_Gyeongbuk_Ctype                     : Gyeongbuk Ctype
+Livery_BB15000_Orginal                     : Orginal
+Livery_BB15000_Korail                      : Korail
+Livery_BB15000_En_Voyagee                  : En Voyagee
 
 Livery_PEX_Super_N_Wagon                : Wagon Car
 Livery_PEX_Super_N_Tail                 : Cab Car
@@ -907,139 +1040,10 @@ Livery_PEX_Super_Post_Tail              : Cab Car
 Livery_PEX_Super_Generatar_Wagon        : Wagon Car
 Livery_PEX_Super_Generatar_Tail         : Cab Car
 
-Livery_DEL7600                          : Orginal
-Livery_DEL7600_Old                      : Old
-Livery_DEL7600_New                      : New
-
-Livery_NEL_8100_A                       : NEL 8100 A
-Livery_NEL_8100_B                       : NEL 8100 B
-Livery_OEL8000_I1                       : 1st Early livery
-Livery_OEL8000_I2                       : 2nd Early livery
-Livery_OEL8000_O1                       : 1st Old livery
-Livery_OEL8000_O2                       : 2nd Old livery
-Livery_OEL8000_N1                       : 1st New livery
-Livery_OEL8000_N2                       : 2nd New livery
-Livery_Mugunghwa                        : Mugunghwa
-Livery_Mugunghwa_2cc                    : Mugunghwa 2cc
-Livery_Mugunghwa_cafe                   : Mugunghwa cafe
-Livery_Mugunghwa_cafe_2cc               : Mugunghwa cafe 2cc
-Livery_Pohang_Yeongdeok_1               : Pohang Yeongdeok 1
-Livery_Pohang_Yeongdeok_2               : Pohang Yeongdeok 2
-Livery_Gyeongbuk_Atype                  : Gyeongbuk Atype
-Livery_Gyeongbuk_Btype                  : Gyeongbuk Btype
-Livery_Gyeongbuk_Ctype                  : Gyeongbuk Ctype
-Livery_SRT                              : SRT
-Livery_SRT_2cc                          : SRT 2cc
 Livery_VPassenger_BR                    : Default Color
 Livery_VPassenger_Taegeuk               : Taegeuk Color
 
-# Liveries Locomotive
-Livery_BB15000_Orginal                  : Orginal
-Livery_BB15000_Korail                   : Korail
-Livery_BB15000_En_Voyagee               : En Voyagee
-Livery_CDC_Old                          : Old
-Livery_CDC_Old_2cc                      : Old 2cc
-Livery_CDC_New                          : New
-Livery_CDC_New_2cc                      : New 2cc
-Livery_CDC_Flower                       : Flower Garde
-Livery_CDC_Beach                        : Beach
-Livery_CDC_Baekje                       : Baekje Crown
-Livery_CDC_Sea_Old                      : Sea Old
-Livery_CDC_Sea_New                      : Sea New
-Livery_CDC_DMZ                          : DMZ
-STR_REFIT_LIVERY_DEL4400_A                           : Old
-STR_REFIT_LIVERY_DEL4400_B                           : New
-STR_REFIT_LIVERY_DEL4400_C                           : V-Train
-STR_REFIT_LIVERY_DEL4400_D                           : Gyooe Line livery
-STR_REFIT_LIVERY_DEL7000_A                           : DEL7000_A
-STR_REFIT_LIVERY_DEL7000_B                           : DEL7000_B
-STR_REFIT_LIVERY_DEL7000_C                           : DEL7000_C
-STR_REFIT_LIVERY_DHC_FF                              : DHC PP First First
-STR_REFIT_LIVERY_DHC_FL_A                            : DHC PP First Last A
-STR_REFIT_LIVERY_DHC_FL_B                            : DHC PP First Last B
-STR_REFIT_LIVERY_DHC_FLS                             : DHC PP First Last Special Car
-STR_REFIT_LIVERY_DHC_OF                              : DHC PP Old First
-STR_REFIT_LIVERY_DHC_OL_A                            : DHC PP Old Last A
-STR_REFIT_LIVERY_DHC_OL_B                            : DHC PP Old Last B
-STR_REFIT_LIVERY_DHC_OL_C                            : DHC PP Old Last C
-STR_REFIT_LIVERY_DHC_OLS                             : DHC PP Old Last Special Car
-STR_REFIT_LIVERY_DHC_New_A                           : DHC PP New A
-STR_REFIT_LIVERY_DHC_New_B                           : DHC PP New B
-STR_REFIT_LIVERY_DHC_New_C                           : DHC PP New C
-STR_REFIT_LIVERY_DHC_New_Cafe_A                      : DHC PP New Cafe A
-STR_REFIT_LIVERY_DHC_New_Cafe_B                      : DHC PP New Cafe B
-STR_REFIT_LIVERY_DHC_New_Cafe_C                      : DHC PP New Cafe C
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1961               : 1st Original livery
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1966               : 2nd Original livery
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A             : 2nd Single Cab Original livery Semi cross seat
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B             : 2nd Single Cab Original livery Long seat
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O             : regular express train Double Cab
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O1            : regular express train Single Cab
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B1            : Bidulgi 1st
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B2            : Bidulgi 2nd
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BA            : Bidulgi Single Cab Semi cross seat
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BB            : Bidulgi Single Cab Long seat
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T             : Tongil Double Cab
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T1            : Tongil Singie Cab
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M             : Mugunghwa Double Cab
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1            : Mugunghwa Singie Cab
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B             : Bidulgi KNR 2
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1A           : Bidulgi Single Cab Semi cross seat KNR 2
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1B           : Bidulgi Single Cab Long seat KNR 2
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1966_2car_C        : 1966 C
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_2car_C        : 1974 C
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_2car_L        : 1975 L
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_C        : 1984 C
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_L        : 1984 L
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_T        : 1984 T
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_M        : 1984 M
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_C        : 1994 C
-STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_L        : 1994 L
-STR_REFIT_LIVERY_Special_Diesel_Car_1969             : Special car first livery
-STR_REFIT_LIVERY_Special_Diesel_Car_1986             : Special car first livery (AIRCON)
-STR_REFIT_LIVERY_Special_Diesel_Car_1994             : Special car second livery
-STR_REFIT_LIVERY_EEC_EMU_1980                        : Superiority & Mugunghwa first livery
-STR_REFIT_LIVERY_EEC_EMU_1996                        : Mugunghwa & Tong-il second livery
-STR_REFIT_LIVERY_FEL_8500                            : Orginal
-STR_REFIT_LIVERY_FEL_8500_A_train                    : A-Train
-STR_REFIT_LIVERY_FEL_8500_A_train_New                : A-Train New Color
-STR_REFIT_LIVERY_FEL_8500_G_train                    : G-Train
-STR_REFIT_LIVERY_FEL_8500_G_train_New                : G-Train New Color
-STR_REFIT_LIVERY_FEL_8500_Haerang_train              : Haerang
-STR_REFIT_LIVERY_FEL_8500_S_train                    : S-Train
-STR_REFIT_LIVERY_FEL_8500_V_train                    : V-Train
-STR_REFIT_LIVERY_FEL_8500_Wine_train                 : Wine
-STR_REFIT_LIVERY_GT26CW_1971_F                       : Early livery Cargo
-STR_REFIT_LIVERY_GT26CW_1971_K                       : Kwan kwang Ho
-STR_REFIT_LIVERY_GT26CW_1971_S                       : Early livery Passinger
-STR_REFIT_LIVERY_GT26CW_1995                         : Old livery
-STR_REFIT_LIVERY_GT26CW_2005                         : New livery
-STR_REFIT_LIVERY_GT26CW_2006                         : Ladybird
-STR_REFIT_LIVERY_GT26CW_2008                         : RAIL CRUISE HAERANG
-STR_REFIT_LIVERY_GT26CW_2012                         : New livery Cargo
-STR_REFIT_LIVERY_GT26CW_2013                         : Old livery S-train
-STR_REFIT_LIVERY_GT26CW_2015                         : Old livery G-train
-STR_REFIT_LIVERY_GT26CW_2018                         : Chungbuk Yeongdong Gugak & Wine Train
-STR_REFIT_LIVERY_GT26CW_2019_1                       : ASEAN Korea Train (Gugak & Wine)
-STR_REFIT_LIVERY_GT26CW_2019_2                       : ASEAN Korea Train (KORAIL CI)
-STR_REFIT_LIVERY_GT26CW_2020                         : New livery S-train
-STR_REFIT_LIVERY_GT26CW_2023                         : New livery G-train
-STR_REFIT_LIVERY_NEL_8100_A                          : NEL 8100 A
-STR_REFIT_LIVERY_NEL_8100_B                          : NEL 8100 B
-STR_REFIT_LIVERY_OEL8000_I1                          : 1st Early livery
-STR_REFIT_LIVERY_OEL8000_I2                          : 2nd Early livery
-STR_REFIT_LIVERY_OEL8000_O1                          : 1st Old livery
-STR_REFIT_LIVERY_OEL8000_O2                          : 2nd Old livery
-STR_REFIT_LIVERY_OEL8000_N1                          : 1st New livery
-STR_REFIT_LIVERY_OEL8000_N2                          : 2nd New livery
-
 # Liveries Metro
-STR_REFIT_LIVERY_Standard_Metro_Long_Seat            : Standard MetroLong Long Seat
-STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           : Standard MetroLong Cross Seat
-STR_REFIT_LIVERY_Shinbundang_G1                      : Shinbundang G1
-STR_REFIT_LIVERY_Shinbundang_G2                      : Shinbundang G2
-STR_REFIT_LIVERY_Shinbundang_G3                      : Shinbundang G3
-
 STR_REFIT_LIVERY_West_Japan_125_1panto               : Series 125 EMU 1Panto
 STR_REFIT_LIVERY_West_Japan_125_2panto               : Series 125 EMU 2Panto
 STR_REFIT_LIVERY_West_Japan_227_R_Atype              : Urara TOSHIBA R unit

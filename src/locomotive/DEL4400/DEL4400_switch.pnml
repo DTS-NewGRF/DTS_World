@@ -3,10 +3,10 @@
 --------------------------------------------------------------------*/
 //도색명
 switch(FEAT_TRAINS, SELF, sw_DEL4400_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_DEL4400_A);
-    1: return string(STR_REFIT_LIVERY_DEL4400_B);
-    2: return string(STR_REFIT_LIVERY_DEL4400_C);
-    3: return string(STR_REFIT_LIVERY_DEL4400_D);
+    0: return string(Livery_DEL4400_A);
+    1: return string(Livery_DEL4400_B);
+    2: return string(Livery_DEL4400_C);
+    3: return string(Livery_DEL4400_D);
     return CB_RESULT_NO_TEXT;
 }
 

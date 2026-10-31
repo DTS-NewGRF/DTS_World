@@ -9,7 +9,7 @@ HXD3C
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HXD3C, 2050){
     property {
-        name:                           string(STR_HXD3C_NAME);
+        name:                           string(NAME_HXD3C);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2010, 1, 1);
         track_type:                     ELRL;

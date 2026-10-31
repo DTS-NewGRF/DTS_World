@@ -123,7 +123,7 @@ item(FEAT_TRAINS, HEMU_430X_8Car, 2127){
         default:                        sw_HEMU_430_8car;
         articulated_part:               sw_articulated_HEMU_430_8car;
         purchase:                       set_HEMU_430X_purchase;
-        speed:                          sw_High_430_speed;
+        speed:                          sw_High_421_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -136,14 +136,12 @@ item(FEAT_TRAINS, HEMU_430X_8Car, 2127){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HEMU_430X_engine, 1056){
     property {
-        name:                           string(NAME_HEMU_430X_engine);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2012, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HEMU_430X;
-        dual_headed:                    1;
         
         //spec
         speed:                          430km/h;
@@ -174,18 +172,11 @@ item(FEAT_TRAINS, HEMU_430X_engine, 1056){
         }
         
     graphics {
-        default:                        sw_HEMU_430X_engine;
-        purchase:                       set_HEMU_430X_engine_purchase;
-        speed:                          sw_High_430_speed;
+        default:                        set_Deleted_A;
+        purchase:                       set_HEMU_430X_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYUNDAIROTEMIGBTIPM1Kstart_sound;
-        }
-    
-    livery_override(HEMU_430X_wagon) {
-        default:                        sw_HEMU_430X_Free_wagon;
-        loading_speed:                  25;
         }
         }
 
@@ -194,13 +185,12 @@ item(FEAT_TRAINS, HEMU_430X_engine, 1056){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HEMU_430X_wagon, 1057){
     property {
-        name:                           string(NAME_HEMU_430X_wagon);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2012, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
         
         //spec
         weight:                         35 ton;
@@ -229,8 +219,8 @@ item(FEAT_TRAINS, HEMU_430X_wagon, 1057){
         }
         
     graphics {
-        default:                        set_HEMU_430X_wagon_M2;
-        purchase:                       set_HEMU_430X_wagon_purchase;
+        default:                        set_Deleted_B;
+        purchase:                       set_HEMU_430X_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -242,13 +232,12 @@ item(FEAT_TRAINS, HEMU_430X_wagon, 1057){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HEMU_430X_DD_wagon, 1058){
     property {
-        name:                           string(NAME_HEMU_430X_DD_wagon);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2012, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
         
         //spec
         weight:                         40 ton;
@@ -277,8 +266,8 @@ item(FEAT_TRAINS, HEMU_430X_DD_wagon, 1058){
         }
         
     graphics {
-        default:                        set_HEMU_430X_DD_wagon;
-        purchase:                       set_HEMU_430X_wagon_DD_purchase;
+        default:                        set_Deleted_B;
+        purchase:                       set_HEMU_430X_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

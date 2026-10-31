@@ -5,36 +5,72 @@ spriteset(set_FEL_8500_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_FEL_8500_A_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_engine_Rev, "src/locomotive/FEL_8500/FEL_8500.png"){
     DTS_temp(80, 27)
 }
 
-spriteset(set_FEL_8500_G_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_A_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_FEL_8500_S_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_A_Train_engine_Rev, "src/locomotive/FEL_8500/FEL_8500.png"){
     DTS_temp(80, 81)
 }
 
-spriteset(set_FEL_8500_V_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_G_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
     DTS_temp(80, 108)
+}
+
+spriteset(set_FEL_8500_G_Train_engine_Rev, "src/locomotive/FEL_8500/FEL_8500.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_FEL_8500_S_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_FEL_8500_S_Train_engine_Rev, "src/locomotive/FEL_8500/FEL_8500.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_FEL_8500_V_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+    DTS_temp(80, 216)
+}
+
+spriteset(set_FEL_8500_V_Train_engine_Rev, "src/locomotive/FEL_8500/FEL_8500.png"){
+    DTS_temp(80, 243)
 }
 
 spriteset(set_FEL_8500_Haerang_Train_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500_32bpp.png"){
     DTS_temp(80, 0)
 }
 
+spriteset(set_FEL_8500_Haerang_Train_engine_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500_32bpp.png"){
+    DTS_temp(80, 27)
+}
+
 spriteset(set_FEL_8500_Wine_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
-    DTS_temp(80, 162)
+    DTS_temp(80, 270)
+}
+
+spriteset(set_FEL_8500_Wine_Train_engine_Rev, "src/locomotive/FEL_8500/FEL_8500.png"){
+    DTS_temp(80, 297)
 }
 
 spriteset(set_FEL_8500_A_New_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
-    DTS_temp(80, 189)
+    DTS_temp(80, 324)
+}
+
+spriteset(set_FEL_8500_A_New_Train_engine_Rev, "src/locomotive/FEL_8500/FEL_8500.png"){
+    DTS_temp(80, 351)
 }
 
 spriteset(set_FEL_8500_G_New_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
-    DTS_temp(80, 216)
+    DTS_temp(80, 378)
+}
+
+spriteset(set_FEL_8500_G_New_Train_engine_Rev, "src/locomotive/FEL_8500/FEL_8500.png"){
+    DTS_temp(80, 405)
 }
 
 /*--------------------------------------------------------------------

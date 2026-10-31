@@ -65,13 +65,12 @@ item(FEAT_TRAINS, GTX_8Car, 2017){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, GTX_8Car_engine, 1059){
     property {
-        name:                           string(NAME_GTX_engine);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2023, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          181km/h;
@@ -105,11 +104,9 @@ item(FEAT_TRAINS, GTX_8Car_engine, 1059){
         }
         
     graphics {
-        default:                        sw_GTX_engine;
-        purchase:                       set_GTX_engine_purchase;
-        speed:                          sw_Regular_180_198_speed;
+        default:                        set_Deleted_A;
+        purchase:                       set_GTX_purchase;
         loading_speed:                  25;
-        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
@@ -118,13 +115,12 @@ item(FEAT_TRAINS, GTX_8Car_engine, 1059){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, GTX_8Car_wagon, 1060){
     property {
-        name:                           string(NAME_GTX_wagon);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2023, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
         
         //spec
         weight:                         33 ton;
@@ -156,8 +152,8 @@ item(FEAT_TRAINS, GTX_8Car_wagon, 1060){
         }
         
     graphics {
-        default:                        set_GTX_wagon_M2;
-        purchase:                       set_GTX_wagon_purchase;
+        default:                        set_Deleted_B;
+        purchase:                       set_GTX_purchase;
         loading_speed:                  25;
         }
         }

@@ -22,7 +22,7 @@ item(FEAT_TRAINS, KTX_Taegeuk_12Car, 1176){
         
         //spec
         speed:                          600km/h;
-        power:                          16000 kW;
+        power:                          40000 kW;
         weight:                         90 ton;
         tractive_effort_coefficient:    0.86;
         
@@ -75,7 +75,7 @@ item(FEAT_TRAINS, KTX_Taegeuk_engine, 1027){
         
         //spec
         speed:                          600km/h;
-        power:                          16000 kW;
+        power:                          40000 kW;
         weight:                         90 ton;
         tractive_effort_coefficient:    0.86;
         

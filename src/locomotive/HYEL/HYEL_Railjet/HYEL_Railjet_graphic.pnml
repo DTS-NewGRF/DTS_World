@@ -18,3 +18,7 @@ spriteset(set_HYEL_Railjet_wagon_tail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/
 spriteset(set_HYEL_Railjet_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_Railjet/HYEL_Railjet.png"){
     tmpl_purchase(0, 0)
 }
+
+spriteset(set_HYEL_Railjet_Tail_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_Railjet/HYEL_Railjet.png"){
+    tmpl_purchase(0, 27)
+}

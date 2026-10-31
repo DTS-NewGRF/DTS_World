@@ -12,7 +12,7 @@ DEL7600
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, DEL7600, 2015){
     property {
-        name:                           string(STR_DEL7600_NAME);
+        name:                           string(NAME_DEL7600);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2013, 1, 1);
         track_type:                     RAIL;
@@ -51,7 +51,7 @@ item(FEAT_TRAINS, DEL7600, 2015){
     graphics {
         default:                        sw_DEL7600_engine;
         purchase:                       sw_DEL7600_purchase;
-        speed:                          sw_Regular_150_speed;
+        speed:                          sw_Regular_150_165_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

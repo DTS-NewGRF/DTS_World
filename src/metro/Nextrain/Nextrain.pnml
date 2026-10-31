@@ -107,5 +107,6 @@ item(FEAT_TRAINS, Nextrain_wagon, 1019){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        power:                          671;
         }
         }

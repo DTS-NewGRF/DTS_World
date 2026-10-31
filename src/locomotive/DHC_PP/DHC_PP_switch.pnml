@@ -2,379 +2,262 @@
 스위치
 --------------------------------------------------------------------*/
 // 도색명
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_4Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_DHC_New_A);
-    1: return string(STR_REFIT_LIVERY_DHC_New_B);
-    2: return string(STR_REFIT_LIVERY_DHC_OL_A);
-    3: return string(STR_REFIT_LIVERY_DHC_OL_B);
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engine_A_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_DHC_Early_1st);
+    1: return string(Livery_DHC_Early_2nd);
+    2: return string(Livery_DHC_Early_2nd_2cc);
+    3: return string(Livery_DHC_Old);
+    4: return string(Livery_DHC_Old_2cc);
 }
 
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_DHC_New_A);
-    1: return string(STR_REFIT_LIVERY_DHC_OL_A);
-    2: return string(STR_REFIT_LIVERY_DHC_OF);
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engine_B_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_DHC_Early);
+    1: return string(Livery_DHC_Early_2cc);
+    2: return string(Livery_DHC_Old);
+    3: return string(Livery_DHC_Old_2cc);
+    4: return string(Livery_DHC_New);
+    5: return string(Livery_DHC_New_2cc);
 }
 
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_DHC_New_A);
-    1: return string(STR_REFIT_LIVERY_DHC_New_B);
-    2: return string(STR_REFIT_LIVERY_DHC_OL_A);
-    3: return string(STR_REFIT_LIVERY_DHC_OL_B);
-    4: return string(STR_REFIT_LIVERY_DHC_OLS);
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_cargo_subtype_text, cargo_subtype) {
-     0: return string(STR_REFIT_LIVERY_DHC_New_Cafe_A);     //신도색 카페객차 A
-     1: return string(STR_REFIT_LIVERY_DHC_New_Cafe_B); //신도색 카페객차 B
-     2: return string(STR_REFIT_LIVERY_DHC_New_Cafe_C); //신도색 일반실 카페객차
-     3: return string(STR_REFIT_LIVERY_DHC_New_A);      //신도색 A
-     4: return string(STR_REFIT_LIVERY_DHC_New_B);      //신도색 B
-     5: return string(STR_REFIT_LIVERY_DHC_New_C);      //신도색 일반실
-     6: return string(STR_REFIT_LIVERY_DHC_OL_A);       //구도색 후기형 A
-     7: return string(STR_REFIT_LIVERY_DHC_OL_B);       //구도색 후기형 B
-     8: return string(STR_REFIT_LIVERY_DHC_OL_C);       //구도색 후기형 일반실
-     9: return string(STR_REFIT_LIVERY_DHC_OLS);        //구도색 후기형 특실도색
-    10: return string(STR_REFIT_LIVERY_DHC_FL_A);       //초기도색 후기형 A
-    11: return string(STR_REFIT_LIVERY_DHC_FL_B);       //초기도색 후기형 B
-    12: return string(STR_REFIT_LIVERY_DHC_FLS);        //초기도색 후기형 특실도색
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_wagon_cargo_subtype_text, cargo_subtype) {
+     0: return string(Livery_DHC_Early_1st_B);
+     1: return string(Livery_DHC_Early_1st_TR);
+     2: return string(Livery_DHC_Early_2nd_A);
+     3: return string(Livery_DHC_Early_2nd_B);
+     4: return string(Livery_DHC_Early_2nd_C);
+     5: return string(Livery_DHC_Early_2nd_F);
+     6: return string(Livery_DHC_Early_2nd_TR);
+     7: return string(Livery_DHC_Early_2nd_S);
+     8: return string(Livery_DHC_Early_2cc_A);
+     9: return string(Livery_DHC_Early_2cc_B);
+    10: return string(Livery_DHC_Early_2cc_C);
+    11: return string(Livery_DHC_Early_2cc_F);
+    12: return string(Livery_DHC_Early_2cc_TR);
+    13: return string(Livery_DHC_Early_2cc_S);
+    14: return string(Livery_DHC_Old_A);
+    15: return string(Livery_DHC_Old_B);
+    16: return string(Livery_DHC_Old_C);
+    17: return string(Livery_DHC_Old_F);
+    18: return string(Livery_DHC_Old_TR);
+    19: return string(Livery_DHC_Old_S);
+    20: return string(Livery_DHC_Old_2cc_A);
+    21: return string(Livery_DHC_Old_2cc_B);
+    22: return string(Livery_DHC_Old_2cc_C);
+    23: return string(Livery_DHC_Old_2cc_F);
+    24: return string(Livery_DHC_Old_2cc_TR);
+    25: return string(Livery_DHC_Old_2cc_S);
+    26: return string(Livery_DHC_New_A);
+    27: return string(Livery_DHC_New_B);
+    28: return string(Livery_DHC_New_C);
+    29: return string(Livery_DHC_New_F);
+    30: return string(Livery_DHC_New_S);
+    31: return string(Livery_DHC_New_Cafe);
+    32: return string(Livery_DHC_New_2cc_A);
+    33: return string(Livery_DHC_New_2cc_B);
+    34: return string(Livery_DHC_New_2cc_C);
+    35: return string(Livery_DHC_New_2cc_F);
+    36: return string(Livery_DHC_New_2cc_S);
+    37: return string(Livery_DHC_New_2cc_Cafe);
 }
 
 // 도색그래픽 세팅
 // 열차
 // 전진방향
-// 4량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_4Car_engineH_Front, cargo_subtype) {
-    0..1: set_DHC_PP_New_engineH;
-    2..3: set_DHC_PP_OL_engineH;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engineH_A_Front, cargo_subtype) {
+    0: set_DHC_PP_engineH_A_Early_1st;
+    1: set_DHC_PP_engineH_A_Early_2nd;
+    2: set_DHC_PP_engineH_A_Early_2nd_2cc;
+    3: set_DHC_PP_engineH_A_Old;
+    4: set_DHC_PP_engineH_A_Old_2cc;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_4Car_wagon2, cargo_subtype) {
-    0..1: set_DHC_PP_New_wagon_B;
-    2..3: set_DHC_PP_OL_wagon_B;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engineT_A_Front, cargo_subtype) {
+    0: set_DHC_PP_engineT_A_Early_1st;
+    1: set_DHC_PP_engineT_A_Early_2nd;
+    2: set_DHC_PP_engineT_A_Early_2nd_2cc;
+    3: set_DHC_PP_engineT_A_Old;
+    4: set_DHC_PP_engineT_A_Old_2cc;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_4Car_wagon3, cargo_subtype) {
-    0: set_DHC_PP_New_wagon_A;
-    1: set_DHC_PP_New_wagon_C;
-    2: set_DHC_PP_OL_wagon_A;
-    3: set_DHC_PP_OL_wagon_C;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engineH_B_Front, cargo_subtype) {
+    0: set_DHC_PP_engineH_B_Early;
+    1: set_DHC_PP_engineH_B_Early_2cc;
+    2: set_DHC_PP_engineH_B_Old;
+    3: set_DHC_PP_engineH_B_Old_2cc;
+    4: set_DHC_PP_engineH_B_New;
+    5: set_DHC_PP_engineH_B_New_2cc;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_4Car_engineT_Front, cargo_subtype) {
-    0..1: set_DHC_PP_New_engineT;
-    2..3: set_DHC_PP_OL_engineT;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engineT_B_Front, cargo_subtype) {
+    0: set_DHC_PP_engineT_B_Early;
+    1: set_DHC_PP_engineT_B_Early_2cc;
+    2: set_DHC_PP_engineT_B_Old;
+    3: set_DHC_PP_engineT_B_Old_2cc;
+    4: set_DHC_PP_engineT_B_New;
+    5: set_DHC_PP_engineT_B_New_2cc;
 }
 
-// 6량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_engineH_Front, cargo_subtype) {
-    0: set_DHC_PP_New_engineH;
-    1: set_DHC_PP_OL_engineH;
-    2: set_DHC_PP_OF_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_wagon2, cargo_subtype) {
-    0: set_DHC_PP_New_wagon_B;
-    1: set_DHC_PP_OL_wagon_TR;
-    2: set_DHC_PP_OF_wagon_TR;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_wagon3, cargo_subtype) {
-    0: set_DHC_PP_New_wagon_B;
-    1: set_DHC_PP_OL_wagon_B;
-    2: set_DHC_PP_OF_wagon_B;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_wagon4, cargo_subtype) {
-    0: set_DHC_PP_New_wagon_C;
-    1: set_DHC_PP_OL_wagon_A;
-    2: set_DHC_PP_OF_wagon_A;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_wagon5, cargo_subtype) {
-    0: set_DHC_PP_New_wagon_B;
-    1: set_DHC_PP_OL_wagon_B;
-    2: set_DHC_PP_OF_wagon_B;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_engineT_Front, cargo_subtype) {
-    0: set_DHC_PP_New_engineT;
-    1: set_DHC_PP_OL_engineT;
-    2: set_DHC_PP_OF_engineT;
-}
-
-// 7량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_engineH_Front, cargo_subtype) {
-    0..1: set_DHC_PP_New_engineH;
-    2..4: set_DHC_PP_OL_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_wagon2, cargo_subtype) {
-    0..1: set_DHC_PP_New_wagon_F;
-    2..4: set_DHC_PP_OL_wagon_F;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_wagon3, cargo_subtype) {
-    0..1: set_DHC_PP_New_wagon_B;
-    2..3: set_DHC_PP_OL_wagon_B;
-    4: set_DHC_PP_OL_wagon_F;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_wagon4, cargo_subtype) {
-    0: set_DHC_PP_New_wagon_A;
-    1: set_DHC_PP_New_wagon_C;
-    2: set_DHC_PP_OL_wagon_A;
-    3: set_DHC_PP_OL_wagon_C;
-    4: set_DHC_PP_OL_wagon_F;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_wagon5, cargo_subtype) {
-    0..1: set_DHC_PP_New_wagon_B;
-    2..3: set_DHC_PP_OL_wagon_B;
-    4: set_DHC_PP_OL_wagon_F;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_wagon6, cargo_subtype) {
-    0..1: set_DHC_PP_New_wagon_B;
-    2..3: set_DHC_PP_OL_wagon_B;
-    4: set_DHC_PP_OL_wagon_F;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_engineT_Front, cargo_subtype) {
-    0..1: set_DHC_PP_New_engineT;
-    2..4: set_DHC_PP_OL_engineT;
-}
-
-// 8량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_engineH_Front, cargo_subtype) {
-     0..5: set_DHC_PP_New_engineH;
-     6..9: set_DHC_PP_OL_engineH;
-    10..12: set_DHC_PP_FL_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_wagon2, cargo_subtype) {
-     0..1: set_DHC_PP_New_wagon_F;
-     2: set_DHC_PP_New_wagon_B;
-     3..4: set_DHC_PP_New_wagon_F;
-     5: set_DHC_PP_New_wagon_B;
-     6..7: set_DHC_PP_OL_wagon_F;
-     8: set_DHC_PP_OL_wagon_B;
-     9: set_DHC_PP_OL_wagon_F;
-    10..12: set_DHC_PP_FL_wagon_F;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_wagon3, cargo_subtype) {
-     0..1: set_DHC_PP_New_wagon_SCafe;
-     2: set_DHC_PP_New_wagon_B;
-     3..4: set_DHC_PP_New_wagon_S;
-     5: set_DHC_PP_New_wagon_B;
-     6..7: set_DHC_PP_OL_wagon_S;
-     8: set_DHC_PP_OL_wagon_B;
-     9: set_DHC_PP_OL_wagon_F;
-    10..11: set_DHC_PP_FL_wagon_S;
-    12: set_DHC_PP_FL_wagon_F;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_wagon4, cargo_subtype) {
-     0..1: set_DHC_PP_New_wagon_B;
-     2: set_DHC_PP_New_wagon_SCafe;
-     3..4: set_DHC_PP_New_wagon_B;
-     5: set_DHC_PP_New_wagon_S;
-     6..7: set_DHC_PP_OL_wagon_B;
-     8..9: set_DHC_PP_OL_wagon_S;
-    10..11: set_DHC_PP_FL_wagon_B;
-    12: set_DHC_PP_FL_wagon_S;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_wagon5, cargo_subtype) {
-     0: set_DHC_PP_New_wagon_C;
-     1: set_DHC_PP_New_wagon_A;
-     2..3: set_DHC_PP_New_wagon_C;
-     4: set_DHC_PP_New_wagon_A;
-     5: set_DHC_PP_New_wagon_C;
-     6: set_DHC_PP_OL_wagon_C;
-     7: set_DHC_PP_OL_wagon_A;
-     8: set_DHC_PP_OL_wagon_C;
-     9: set_DHC_PP_OL_wagon_F;
-    10: set_DHC_PP_FL_wagon_C;
-    11: set_DHC_PP_FL_wagon_A;
-    12: set_DHC_PP_FL_wagon_F;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_wagon6, cargo_subtype) {
-     0..5: set_DHC_PP_New_wagon_B;
-     6..8: set_DHC_PP_OL_wagon_B;
-     9: set_DHC_PP_OL_wagon_F;
-    10..11: set_DHC_PP_FL_wagon_B;
-    12: set_DHC_PP_FL_wagon_F;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_wagon7, cargo_subtype) {
-     0..5: set_DHC_PP_New_wagon_B;
-     6..8: set_DHC_PP_OL_wagon_B;
-     9: set_DHC_PP_OL_wagon_F;
-    10..11: set_DHC_PP_FL_wagon_B;
-    12: set_DHC_PP_FL_wagon_F;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_engineT_Front, cargo_subtype) {
-     0..5: set_DHC_PP_New_engineT;
-     6..9: set_DHC_PP_OL_engineT;
-    10..12: set_DHC_PP_FL_engineT;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_wagon, cargo_subtype) {
+     0: set_DHC_PP_wagon_Early_1st_B;
+     1: set_DHC_PP_wagon_Early_1st_TR;
+     2: set_DHC_PP_wagon_Early_2nd_A;
+     3: set_DHC_PP_wagon_Early_2nd_B;
+     4: set_DHC_PP_wagon_Early_2nd_C;
+     5: set_DHC_PP_wagon_Early_2nd_F;
+     6: set_DHC_PP_wagon_Early_2nd_TR;
+     7: set_DHC_PP_wagon_Early_2nd_S;
+     8: set_DHC_PP_wagon_Early_2nd_2cc_A;
+     9: set_DHC_PP_wagon_Early_2nd_2cc_B;
+    10: set_DHC_PP_wagon_Early_2nd_2cc_C;
+    11: set_DHC_PP_wagon_Early_2nd_2cc_F;
+    12: set_DHC_PP_wagon_Early_2nd_2cc_TR;
+    13: set_DHC_PP_wagon_Early_2nd_2cc_S;
+    14: set_DHC_PP_wagon_Old_A;
+    15: set_DHC_PP_wagon_Old_B;
+    16: set_DHC_PP_wagon_Old_C;
+    17: set_DHC_PP_wagon_Old_F;
+    18: set_DHC_PP_wagon_Old_TR;
+    19: set_DHC_PP_wagon_Old_S;
+    20: set_DHC_PP_wagon_Old_2cc_A;
+    21: set_DHC_PP_wagon_Old_2cc_B;
+    22: set_DHC_PP_wagon_Old_2cc_C;
+    23: set_DHC_PP_wagon_Old_2cc_F;
+    24: set_DHC_PP_wagon_Old_2cc_TR;
+    25: set_DHC_PP_wagon_Old_2cc_S;
+    26: set_DHC_PP_wagon_New_A;
+    27: set_DHC_PP_wagon_New_B;
+    28: set_DHC_PP_wagon_New_C;
+    29: set_DHC_PP_wagon_New_F;
+    30: set_DHC_PP_wagon_New_S;
+    31: set_DHC_PP_wagon_New_Cafe;
+    32: set_DHC_PP_wagon_New_2cc_A;
+    33: set_DHC_PP_wagon_New_2cc_B;
+    34: set_DHC_PP_wagon_New_2cc_C;
+    35: set_DHC_PP_wagon_New_2cc_F;
+    36: set_DHC_PP_wagon_New_2cc_S;
+    37: set_DHC_PP_wagon_New_2cc_Cafe;
 }
 
 // 후진방향
-// 4량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_4Car_engineH_Back, cargo_subtype) {
-    0..1: set_DHC_PP_New_engineH_Rev;
-    2..3: set_DHC_PP_OL_engineH_Rev;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engineH_A_Back, cargo_subtype) {
+    0: set_DHC_PP_engineH_A_Early_1st_Rev;
+    1: set_DHC_PP_engineH_A_Early_2nd_Rev;
+    2: set_DHC_PP_engineH_A_Early_2nd_2cc_Rev;
+    3: set_DHC_PP_engineH_A_Old_Rev;
+    4: set_DHC_PP_engineH_A_Old_2cc_Rev;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_4Car_engineT_Back, cargo_subtype) {
-    0..1: set_DHC_PP_New_engineT_Rev;
-    2..3: set_DHC_PP_OL_engineT_Rev;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engineT_A_Back, cargo_subtype) {
+    0: set_DHC_PP_engineT_A_Early_1st_Rev;
+    1: set_DHC_PP_engineT_A_Early_2nd_Rev;
+    2: set_DHC_PP_engineT_A_Early_2nd_2cc_Rev;
+    3: set_DHC_PP_engineT_A_Old_Rev;
+    4: set_DHC_PP_engineT_A_Old_2cc_Rev;
 }
 
-// 6량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_engineH_Back, cargo_subtype) {
-    0: set_DHC_PP_New_engineH_Rev;
-    1: set_DHC_PP_OL_engineH_Rev;
-    2: set_DHC_PP_OF_engineH_Rev;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engineH_B_Back, cargo_subtype) {
+    0: set_DHC_PP_engineH_B_Early_Rev;
+    1: set_DHC_PP_engineH_B_Early_2cc_Rev;
+    2: set_DHC_PP_engineH_B_Old_Rev;
+    3: set_DHC_PP_engineH_B_Old_2cc_Rev;
+    4: set_DHC_PP_engineH_B_New_Rev;
+    5: set_DHC_PP_engineH_B_New_2cc_Rev;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_engineT_Back, cargo_subtype) {
-    0: set_DHC_PP_New_engineT_Rev;
-    1: set_DHC_PP_OL_engineT_Rev;
-    2: set_DHC_PP_OF_engineT_Rev;
-}
-
-// 7량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_engineH_Back, cargo_subtype) {
-    0..1: set_DHC_PP_New_engineH_Rev;
-    2..4: set_DHC_PP_OL_engineH_Rev;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_engineT_Back, cargo_subtype) {
-    0..1: set_DHC_PP_New_engineT_Rev;
-    2..4: set_DHC_PP_OL_engineT_Rev;
-}
-
-// 8량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_engineH_Back, cargo_subtype) {
-     0..5: set_DHC_PP_New_engineH_Rev;
-     6..9: set_DHC_PP_OL_engineH_Rev;
-    10..12: set_DHC_PP_FL_engineH_Rev;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_engineT_Back, cargo_subtype) {
-     0..5: set_DHC_PP_New_engineT_Rev;
-     6..9: set_DHC_PP_OL_engineT_Rev;
-    10..12: set_DHC_PP_FL_engineT_Rev;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engineT_B_Back, cargo_subtype) {
+    0: set_DHC_PP_engineT_B_Early_Rev;
+    1: set_DHC_PP_engineT_B_Early_2cc_Rev;
+    2: set_DHC_PP_engineT_B_Old_Rev;
+    3: set_DHC_PP_engineT_B_Old_2cc_Rev;
+    4: set_DHC_PP_engineT_B_New_Rev;
+    5: set_DHC_PP_engineT_B_New_2cc_Rev;
 }
 
 // 전후진 통합 코드
-// 4량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_4Car_engineH, train_is_driving_backwards) {
-    0: sw_DHC_PP_4Car_engineH_Front;
-    1: sw_DHC_PP_4Car_engineH_Back;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engineH_A, train_is_driving_backwards) {
+    0: sw_DHC_PP_engineH_A_Front;
+    1: sw_DHC_PP_engineH_A_Back;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_4Car_engineT, train_is_driving_backwards) {
-    0: sw_DHC_PP_4Car_engineT_Front;
-    1: sw_DHC_PP_4Car_engineT_Back;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engineT_A, train_is_driving_backwards) {
+    0: sw_DHC_PP_engineT_A_Front;
+    1: sw_DHC_PP_engineT_A_Back;
 }
 
-// 5량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_5Car_engineH, train_is_driving_backwards) {
-    0: set_DHC_PP_FF_engineH;
-    1: set_DHC_PP_FF_engineH_Rev;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engineH_B, train_is_driving_backwards) {
+    0: sw_DHC_PP_engineH_B_Front;
+    1: sw_DHC_PP_engineH_B_Back;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_5Car_engineT, train_is_driving_backwards) {
-    0: set_DHC_PP_FF_engineT;
-    1: set_DHC_PP_FF_engineT_Rev;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engineT_B, train_is_driving_backwards) {
+    0: sw_DHC_PP_engineT_B_Front;
+    1: sw_DHC_PP_engineT_B_Back;
 }
 
-// 6량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_engineH, train_is_driving_backwards) {
-    0: sw_DHC_PP_6Car_engineH_Front;
-    1: sw_DHC_PP_6Car_engineH_Back;
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engine_A, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_DHC_PP_engineT_A;
+    sw_DHC_PP_engineH_A;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_engineT, train_is_driving_backwards) {
-    0: sw_DHC_PP_6Car_engineT_Front;
-    1: sw_DHC_PP_6Car_engineT_Back;
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_engine_B, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_DHC_PP_engineT_B;
+    sw_DHC_PP_engineH_B;
 }
 
-// 7량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_engineH, train_is_driving_backwards) {
-    0: sw_DHC_PP_7Car_engineH_Front;
-    1: sw_DHC_PP_7Car_engineH_Back;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_engineT, train_is_driving_backwards) {
-    0: sw_DHC_PP_7Car_engineT_Front;
-    1: sw_DHC_PP_7Car_engineT_Back;
-}
-
-// 8량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_engineH, train_is_driving_backwards) {
-    0: sw_DHC_PP_8Car_engineH_Front;
-    1: sw_DHC_PP_8Car_engineH_Back;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_engineT, train_is_driving_backwards) {
-    0: sw_DHC_PP_8Car_engineT_Front;
-    1: sw_DHC_PP_8Car_engineT_Back;
+// 량수별 수송량
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_wagon_capacity_in_custom, cargo_subtype) {
+     1: return 50;
+     2: return 68;
+     5: return 60;
+     6..7: return 50;
+     8: return 68;
+    11: return 60;
+    12..13: return 50;
+    14: return 50;
+    17: return 60;
+    18..19: return 50;
+    20: return 68;
+    23: return 60;
+    24..25: return 50;
+    26: return 68;
+    29: return 60;
+    30..31: return 50;
+    32: return 68;
+    35: return 60;
+    36..37: return 50;
+       64;
 }
 
 // 편성그래픽
 // 4량
 switch (FEAT_TRAINS, SELF, sw_DHC_PP_4Car, position_in_vehid_chain % 4) {
-    0: sw_DHC_PP_4Car_engineH; //default
-    1: sw_DHC_PP_4Car_wagon2;
-    2: sw_DHC_PP_4Car_wagon3;
-    3: sw_DHC_PP_4Car_engineT;
+    0: set_Deleted_A; //default
+    1..3: set_Deleted_B;
     }
 
 // 5량
 switch (FEAT_TRAINS, SELF, sw_DHC_PP_5Car, position_in_vehid_chain % 5) {
-    0: sw_DHC_PP_5Car_engineH; //default
-    1: set_DHC_PP_FF_wagon_TR;
-    2..3: set_DHC_PP_FF_wagon_B;
-    4: sw_DHC_PP_5Car_engineT;
+    0: set_Deleted_A; //default
+    1..4: set_Deleted_B;
     }
 
 // 6량
 switch (FEAT_TRAINS, SELF, sw_DHC_PP_6Car, position_in_vehid_chain % 6) {
-    0: sw_DHC_PP_6Car_engineH; //default
-    1: sw_DHC_PP_6Car_wagon2;
-    2: sw_DHC_PP_6Car_wagon3;
-    3: sw_DHC_PP_6Car_wagon4;
-    4: sw_DHC_PP_6Car_wagon5;
-    5: sw_DHC_PP_6Car_engineT;
+    0: set_Deleted_A; //default
+    1..5: set_Deleted_B;
     }
 
 // 7량
 switch (FEAT_TRAINS, SELF, sw_DHC_PP_7Car, position_in_vehid_chain % 7) {
-    0: sw_DHC_PP_7Car_engineH; //default
-    1: sw_DHC_PP_7Car_wagon2;
-    2: sw_DHC_PP_7Car_wagon3;
-    3: sw_DHC_PP_7Car_wagon4;
-    4: sw_DHC_PP_7Car_wagon5;
-    5: sw_DHC_PP_7Car_wagon6;
-    6: sw_DHC_PP_7Car_engineT;    
+    0: set_Deleted_A; //default
+    1..6: set_Deleted_B;
     }
 
 // 8량
 switch (FEAT_TRAINS, SELF, sw_DHC_PP_8Car, position_in_vehid_chain % 8) {
-    0: sw_DHC_PP_8Car_engineH; //default
-    1: sw_DHC_PP_8Car_wagon2;
-    2: sw_DHC_PP_8Car_wagon3;
-    3: sw_DHC_PP_8Car_wagon4;
-    4: sw_DHC_PP_8Car_wagon5;
-    5: sw_DHC_PP_8Car_wagon6;
-    6: sw_DHC_PP_8Car_wagon7;
-    7: sw_DHC_PP_8Car_engineT;    
+    0: set_Deleted_A; //default
+    1..7: set_Deleted_B;
     }
 
 // 편성수
@@ -402,47 +285,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_DHC_PP_8car, extra_callback_info1) {
     1..7: DHC_PP_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 량수별 수송량
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_4Car_capacity_in_custom, cargo_subtype) {
-    1: return 42;
-    2: return 43;
-    3: return 43;
-       42;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_capacity_in_custom, cargo_subtype) {
-    1: return 48;
-    2: return 48;
-       50;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_7Car_capacity_in_custom, cargo_subtype) {
-    1: return 50;
-    2: return 52;
-    3: return 52;
-    4: return 40;
-       50;
-}
-
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_8Car_capacity_in_custom, cargo_subtype) {
-     1: return 49;
-     2: return 50;
-     3: return 48;
-     4: return 49;
-     5: return 50;
-     6: return 48;
-     7: return 49;
-     8: return 50;
-     9: return 40;
-    10: return 48;
-    11: return 49;
-    12: return 40;
-       48;
-}
-
-// 차량별 출력
-switch(FEAT_TRAINS, SELF, sw_DHC_PP_6Car_power_in_custom, cargo_subtype) {
-    2: return 3052; // 2276kw 마력<->킬로와트 변환
-       3963; // 2955kw 마력<->킬로와트 변환
-}

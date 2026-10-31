@@ -9,7 +9,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, MSB_Speeder, 2178){
     property {
-        name:                           string(STR_MSB_Speeder_NAME);
+        name:                           string(NAME_MSB_Speeder);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2000, 1, 1);
         track_type:                     RAIL;

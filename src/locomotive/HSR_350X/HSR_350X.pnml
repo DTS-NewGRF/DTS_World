@@ -71,7 +71,7 @@ item(FEAT_TRAINS, HSR_350X_7Car, 2027){
         default:                        sw_HSR_350X_7car;
         articulated_part:               sw_articulated_HSR_350X_7car;
         purchase:                       set_HSR_350X_purchase;
-        speed:                          sw_High_350_speed;
+        speed:                          sw_High_330_352_speed;
         length:                         sw_HSR_350X_7car_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, HSR_350X_14Car, 2005){
         default:                        sw_HSR_350X_14car;
         articulated_part:               sw_articulated_HSR_350X_14car;
         purchase:                       set_HSR_350X_purchase;
-        speed:                          sw_High_350_speed;
+        speed:                          sw_High_330_352_speed;
         length:                         sw_HSR_350X_14car_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -140,14 +140,12 @@ item(FEAT_TRAINS, HSR_350X_14Car, 2005){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HSR_350X_engine, 1131){
     property {
-        name:                           string(NAME_HSR_350X_engine);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2002, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HSR_350X;
-        dual_headed:                    1;
         
         //spec
         speed:                          362km/h;
@@ -179,19 +177,11 @@ item(FEAT_TRAINS, HSR_350X_engine, 1131){
         }
 
 	graphics {
-        default:                        sw_HSR_350X_engine;
-        purchase:                       set_HSR_350X_engine_purchase;
-        speed:                          sw_High_350_speed;
+        default:                        set_Deleted_A;
+        purchase:                       set_HSR_350X_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_RotemIGCTstart_sound;
-        }
-    
-    livery_override(HSR_350X_wagon) {
-        default:                        sw_HSR_350X_wagon;
-        loading_speed:                  25;
-        length:                         sw_HSR_350X_wagon_length;
         }
         }
 
@@ -200,13 +190,12 @@ item(FEAT_TRAINS, HSR_350X_engine, 1131){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HSR_350X_wagon, 1132){
     property {
-        name:                           string(NAME_HSR_350X_wagon);
-        climates_available:             ALL_CLIMATES;
+        name:                           string(NAME_To_Be_Deleted);
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2002, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Train_Car;
         
         //spec
         weight:                         37 ton;
@@ -237,8 +226,8 @@ item(FEAT_TRAINS, HSR_350X_wagon, 1132){
         }
 
 	graphics {
-        default:                        set_HSR_350X_wagon_TT4;
-        purchase:                       set_HSR_350X_wagon_purchase;
+        default:                        set_Deleted_B;
+        purchase:                       set_HSR_350X_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

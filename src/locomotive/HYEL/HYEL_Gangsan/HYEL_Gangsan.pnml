@@ -59,7 +59,6 @@ item(FEAT_TRAINS, HYEL_Gangsan_engine, 1080){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_HYEL_Gangsan_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
@@ -103,7 +102,6 @@ item(FEAT_TRAINS, HYEL_Gangsan_wagon, 1124){
         //Flags
         misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
-        extra_flags:                    bitmask(VEHICLE_FLAG_TRAIN_HAS_CAB);
         }
         
     graphics {
@@ -112,7 +110,58 @@ item(FEAT_TRAINS, HYEL_Gangsan_wagon, 1124){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_HYEL_Gangsan_cargo_subtype_text;
+        power:                          671;
+        }
+        }
+
+/*--------------------------------------------------------------------
+객차
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_Gangsan_wagon_Tail, 1177){
+    property {
+        name:                           string(NAME_HYEL_Gangsan_wagon_Tail);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2031, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Train_Car;
+        
+        //spec
+        weight:                         57 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 39;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        extra_flags:                    bitmask(VEHICLE_FLAG_TRAIN_HAS_CAB);
+        }
+        
+    graphics {
+        default:                        sw_HYEL_Gangsan_wagon_TC;
+        purchase:                       set_HYEL_Gangsan_wagon_Tail_purchase;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
         power:                          671;
         }
         }
