@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Ui_Sinseol_2Car, 2409){
     property {
-        name:                           string(STR_Ui_Sinseol_2Car_NAME);
+        name:                           string(NAME_Ui_Sinseol_2Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2015, 1, 1);
         track_type:                     KR_3RD_RAIL;

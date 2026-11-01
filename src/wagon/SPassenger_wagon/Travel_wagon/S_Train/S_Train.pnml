@@ -12,7 +12,7 @@ S-Trian
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, S_Train, 2331){
     property {
-        name:                           string(STR_Group_S_Train_NAME);
+        name:                           string(NAME_Group_S_Train);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -30,7 +30,7 @@ S-Train 신도색 4량
 --------------------------------------------------------------------*/
 item (FEAT_TRAINS, S_Train_New_4Car, 2332){
     property {
-        name:                           string(STR_S_Train_4Car_NAME);
+        name:                           string(NAME_S_Train_4Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     RAIL;
@@ -71,7 +71,6 @@ item (FEAT_TRAINS, S_Train_New_4Car, 2332){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_S_Train_Passenger);
         }
     }
 
@@ -80,7 +79,7 @@ S-Train 5량
 --------------------------------------------------------------------*/
 item (FEAT_TRAINS, S_Train_5Car, 2163){
     property {
-        name:                           string(STR_S_Train_5Car_NAME);
+        name:                           string(NAME_S_Train_5Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2013, 1, 1);
         track_type:                     RAIL;
@@ -115,13 +114,12 @@ item (FEAT_TRAINS, S_Train_5Car, 2163){
     }
 
     graphics {
-        default:                        sw_S_Train_wagon;
+        default:                        sw_S_Train_wagon_5car;
         articulated_part:               sw_articulated_S_Train_5car;
         purchase:                       sw_S_Train_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_subtype_text:             sw_S_Train_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_S_Train_Passenger);
         }
     }

@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Generatar_Real_OutLook, 2395){
     property {
-        name:                           string(STR_Generatar_Real_OutLook_NAME);
+        name:                           string(NAME_Generatar_Real_OutLook);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1969, 1, 1);
         track_type:                     RAIL;
@@ -55,6 +55,5 @@ item(FEAT_TRAINS, Generatar_Real_OutLook, 2395){
         running_cost_factor:            50;
         cargo_capacity:                 0;
         cargo_subtype_text:             sw_Generatar_Real_OutLook_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Generatar_Real);
         }
         }

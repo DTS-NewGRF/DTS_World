@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item (FEAT_TRAINS, Asean_Korea, 2318){
     property {
-        name:                           string(STR_Asean_Korea_NAME);
+        name:                           string(NAME_Asean_Korea);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2019, 1, 1);
         track_type:                     RAIL;
@@ -53,6 +53,5 @@ item (FEAT_TRAINS, Asean_Korea, 2318){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_Asean_Korea);
         }
     }

@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Dongbuk_2Car, 2433){
     property {
-        name:                           string(STR_Dongbuk_2Car_NAME);
+        name:                           string(NAME_Dongbuk_2Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2026, 1, 1);
         track_type:                     KR_3RD_RAIL;

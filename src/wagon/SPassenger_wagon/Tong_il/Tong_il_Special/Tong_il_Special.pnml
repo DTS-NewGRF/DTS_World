@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item (FEAT_TRAINS, Tong_il_Special, 2474){
     property {
-        name:                           string(STR_Tong_il_Special_NAME);
+        name:                           string(NAME_Tong_il_Special);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1963, 1, 1);
         track_type:                     RAIL;
@@ -54,6 +54,5 @@ item (FEAT_TRAINS, Tong_il_Special, 2474){
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_subtype_text:             sw_Tong_il_Special_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Tong_il);
         }
     }

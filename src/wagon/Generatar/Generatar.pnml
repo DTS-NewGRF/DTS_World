@@ -6,7 +6,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Group_Generatar_Car, 2541){
     property {
-        name:                           string(STR_Group_Generatar_NAME);
+        name:                           string(NAME_Group_Generatar);
         climates_available:             NO_CLIMATE;
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

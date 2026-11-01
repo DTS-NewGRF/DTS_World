@@ -9,7 +9,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Yongin_EverLine, 2411){
     property {
-        name:                           string(STR_Yongin_EverLine_NAME);
+        name:                           string(NAME_Yongin_EverLine);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2008, 1, 1);
         track_type:                     KR_3LIM_RAIL;

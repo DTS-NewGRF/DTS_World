@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item (FEAT_TRAINS, ESPassenger_Car, 2061){
     property {
-        name:                           string(STR_ETSPASS_NAME);
+        name:                           string(NAME_ETSPASS);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1971, 1, 1);
         track_type:                     RAIL;
@@ -53,6 +53,5 @@ item (FEAT_TRAINS, ESPassenger_Car, 2061){
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_subtype_text:             sw_ESPassenger_cargo_subtype_text;
-		additional_text:                string(STR_REFIT_train_configuration_ESPassenger);
         }
 	}

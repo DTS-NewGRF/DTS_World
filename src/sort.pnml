@@ -560,16 +560,20 @@ sort(FEAT_TRAINS, [
     PEX_S,                          //1015
     PEX_Super,                      //1004
     PEX_Super_N,                    //1005
+    PEX_Super_N_Tail,               //1183
     PEX_Super_SN,                   //1006
+    PEX_Super_SN_Tail,              //1184
     PEX_Super_D,                    //1007
     PEX_Super_B,                    //1008
     PEX_Super_S,                    //1009
     PEX_Super_Post,                 //1016
+    PEX_Super_Post_Tail,            //1185
     PEX_Super_Generatar,            //1017
+    PEX_Super_Generatar_Tail,       //1186
+    VPassenger,                     //1003
     CSPassenger_Car,                //2031
     ESPassenger_Car,                //2061
     TRC_SungShinRST,                //2604
-    VPassenger,                     //1003
     
     // 발전차
     Group_Generatar_Car,            //2541

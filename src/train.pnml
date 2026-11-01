@@ -6,13 +6,6 @@
 #include "metro/Incheonmetro/Incheonmetro.pnml"
 #include "metro/Busanmetro/Busanmetro.pnml"
 #include "metro/Korail/Korail.pnml"
-#include "metro/Dongbuk/Dongbuk.pnml"
-#include "metro/Gimpo_Gold/Gimpo_Gold.pnml"
-#include "metro/Sillim_Line/Sillim_Line.pnml"
-#include "metro/UI_Sinseol/UI_Sinseol.pnml"
-#include "metro/Uijeongbu_Line/Uijeongbu_Line.pnml"
-#include "metro/Yangsan_AGT/Yangsan_AGT.pnml"
-#include "metro/Yongin_EverLine/Yongin_EverLine.pnml"
 #include "metro/Nishitetsu/Nishitetsu.pnml"
 #include "metro/Hankyu/Hankyu.pnml"
 #include "metro/MTR/MTR.pnml"
@@ -67,32 +60,30 @@
 #include "locomotive/VHST_600X/VHST_600X.pnml"
 #include "locomotive/MSB_Speeder/MSB_Speeder.pnml"
 #include "locomotive/Transparency/Transparency.pnml"
-
-// Metro
-#include "metro/EMU900/EMU900.pnml"
-
+#include "metro/Sillim_Line/Sillim_Line.pnml"
+#include "metro/Uijeongbu_Line/Uijeongbu_Line.pnml"
+#include "metro/Yangsan_AGT/Yangsan_AGT.pnml"
+#include "metro/Yongin_EverLine/Yongin_EverLine.pnml"
+#include "metro/Dongbuk/Dongbuk.pnml"
+#include "metro/Gimpo_Gold/Gimpo_Gold.pnml"
+#include "metro/UI_Sinseol/UI_Sinseol.pnml"
 #include "metro/Jakarta_LRT/Jakarta_LRT.pnml"
+#include "metro/EMU900/EMU900.pnml"
 #include "metro/Japan/Japan.pnml"
-
-// wagon
-#include "wagon/CGeneratar_Car/CGeneratar_Car.pnml"
-#include "wagon/CLuggage_Car/CLuggage_Car.pnml"
+#include "wagon/Train_Car/Train_Car.pnml"
+#include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
+#include "wagon/Passenger/Passenger.pnml"
 #include "wagon/CSPassenger_wagon/CSPassenger_wagon.pnml"
 #include "wagon/ESPassenger_wagon/ESPassenger_wagon.pnml"
+#include "wagon/WSPassenger_wagon/WSPassenger_wagon.pnml"
+#include "wagon/Generatar/Generatar.pnml"
+#include "wagon/CGeneratar_Car/CGeneratar_Car.pnml"
+#include "wagon/Luggage/Luggage.pnml"
+#include "wagon/CLuggage_Car/CLuggage_Car.pnml"
+#include "wagon/Mail/Mail.pnml"
 #include "wagon/Flat_car/Flat_1F_Car/Flat_1F_Car.pnml"
 #include "wagon/Flat_car/Flat_2F_Car/Flat_2F_Car.pnml"
 #include "wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.pnml"
-#include "wagon/Generatar/Generatar.pnml"
-#include "wagon/Luggage/Luggage.pnml"
-#include "wagon/Mail/Mail.pnml"
-#include "wagon/Passenger/Passenger.pnml"
-#include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
-#include "wagon/WSPassenger_wagon/WSPassenger_wagon.pnml"
-
-// Train Car
-#include "wagon/Train_Car/Train_Car.pnml"
-
-//Showcase
 #include "Showcase/Showcase.pnml"
 
 // Sorting

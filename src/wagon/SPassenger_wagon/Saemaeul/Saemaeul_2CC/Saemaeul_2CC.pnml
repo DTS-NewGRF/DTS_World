@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item (FEAT_TRAINS, Saemaeul_2cc, 2132){
     property {
-        name:                           string(STR_Saemaeul_2cc_NAME);
+        name:                           string(NAME_Saemaeul_2cc);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1964, 1, 1);
         track_type:                     RAIL;
@@ -53,6 +53,5 @@ item (FEAT_TRAINS, Saemaeul_2cc, 2132){
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_subtype_text:             sw_Saemaeul_2cc_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Saemaeul_2cc);
         }
     }

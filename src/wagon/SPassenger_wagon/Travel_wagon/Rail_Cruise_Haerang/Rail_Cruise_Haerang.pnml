@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item (FEAT_TRAINS, Rail_Cruise_Haerang, 2405){
     property {
-        name:                           string(STR_Rail_Cruise_Haerang_NAME);
+        name:                           string(NAME_Rail_Cruise_Haerang);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2008, 1, 1);
         track_type:                     RAIL;
@@ -53,6 +53,5 @@ item (FEAT_TRAINS, Rail_Cruise_Haerang, 2405){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_Rail_Cruise_Haerang);
         }
     }

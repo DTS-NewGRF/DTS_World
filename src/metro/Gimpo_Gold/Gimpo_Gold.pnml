@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Gimpo_Gold_2Car, 2410){
     property {
-        name:                           string(STR_Gimpo_Gold_2Car_NAME);
+        name:                           string(NAME_Gimpo_Gold_2Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2017, 1, 1);
         track_type:                     KR_3RD_RAIL;

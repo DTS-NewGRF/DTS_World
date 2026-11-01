@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Uijeongbu_Line_2Car, 2413){
     property {
-        name:                           string(STR_Uijeongbu_Line_2Car_NAME);
+        name:                           string(NAME_Uijeongbu_Line_2Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2011, 1, 1);
         track_type:                     LAGT;

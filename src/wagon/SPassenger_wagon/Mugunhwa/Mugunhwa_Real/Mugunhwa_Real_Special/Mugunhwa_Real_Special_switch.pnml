@@ -3,23 +3,23 @@
 --------------------------------------------------------------------*/
 //도색
 switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_cargo_subtype_text, cargo_subtype) {
-     0: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1);
-     1: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1);
-     2: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI);
-     3: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF);
-     4: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMA);
-     5: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMB);
-     6: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_ONF);
-     7: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMI);
-     8: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSI);
-     9: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMF);
-    10: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSA);
-    11: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSB);
-    12: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHF);
-    13: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHFM);
-    14: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_NHF);
-    15: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSB);
-    16: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSC);
+     0: return string(Livery_Mugunhwa_Real_Special_MR1);
+     1: return string(Livery_Mugunhwa_Real_Special_M1);
+     2: return string(Livery_Mugunhwa_Real_Special_SI);
+     3: return string(Livery_Mugunhwa_Real_Special_MF);
+     4: return string(Livery_Mugunhwa_Real_Special_SMA);
+     5: return string(Livery_Mugunhwa_Real_Special_SMB);
+     6: return string(Livery_Mugunhwa_Real_Special_ONF);
+     7: return string(Livery_Mugunhwa_Real_Special_OMI);
+     8: return string(Livery_Mugunhwa_Real_Special_OSI);
+     9: return string(Livery_Mugunhwa_Real_Special_OMF);
+    10: return string(Livery_Mugunhwa_Real_Special_OSA);
+    11: return string(Livery_Mugunhwa_Real_Special_OSB);
+    12: return string(Livery_Mugunhwa_Real_Special_OHF);
+    13: return string(Livery_Mugunhwa_Real_Special_OHFM);
+    14: return string(Livery_Mugunhwa_Real_Special_NHF);
+    15: return string(Livery_Mugunhwa_Real_Special_NSB);
+    16: return string(Livery_Mugunhwa_Real_Special_NSC);
     return CB_RESULT_NO_TEXT;
 }
 

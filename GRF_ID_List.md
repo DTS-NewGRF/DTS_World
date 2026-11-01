@@ -180,6 +180,10 @@
 |1180|DHC_PP_engine_A|
 |1181|DHC_PP_engine_B|
 |1182|DHC_PP_wagon|
+|1183|PEX_Super_N_Tail|
+|1184|PEX_Super_SN_Tail|
+|1185|PEX_Super_Post_Tail|
+|1186|PEX_Super_Generatar_Tail|
 
 |2001|CY_GW_6Car|
 |2002|G_Train|

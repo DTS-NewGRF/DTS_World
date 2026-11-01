@@ -1,10 +1,10 @@
 /*--------------------------------------------------------------------
 객차형 승객 차량 리스트
 --------------------------------------------------------------------*/
+#include "Travel_wagon/Travel_wagon.pnml"
 #include "Mugunhwa/Mugunhwa_2CC/Mugunhwa_2CC_wagon.pnml"
 #include "Mugunhwa/Mugunhwa_Real/Mugunhwa_Real.pnml"
 #include "Saemaeul/Saemaeul_2CC/Saemaeul_2CC.pnml"
 #include "Saemaeul/Saemaeul_Real/Saemaeul_Real.pnml"
-#include "Travel_wagon/Travel_wagon.pnml"
 #include "Pidulgi/Pidulgi.pnml"
 #include "Tong_il/Tong_il.pnml"

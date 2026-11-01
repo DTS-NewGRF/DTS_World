@@ -3,31 +3,31 @@
 --------------------------------------------------------------------*/
 //도색
 switch(FEAT_TRAINS, SELF, sw_Mugunhwa_2CC_cargo_subtype_text, cargo_subtype) {
-     1: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_2wagon);     // 일반실 구도색 수동문
-     2: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_3wagon);     // 일반실 구도색 자동문
-     3: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_4wagon);     // 일반실 신도색
-     4: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_5wagon);     // 일반실 리미트객차 구도색
-     5: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_6wagon);     // 일반실 리미트객차 신도색
-     6: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_7wagon);     // 일반실 격하특실 구도색
-     7: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_8wagon);     // 일반실 격하특실 신도색
-     8: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_9wagon);     // 일반실 해태특실 신도색
-     9: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_10wagon);    // 특실 한진특실 구도색
-    10: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_11wagon);    // 특실 해태특실 구도색
-    11: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_12wagon);    // 특실 해태특실 신도색
-    12: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_13wagon);    // 특실 격하특실 신도색
-    13: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_14wagon);    // 식당차 우등객차
-    14: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_15wagon);    // 식당차 구도색
-    15: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_16wagon);    // 식당차 리미트객차 구도색
-    16: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_17wagon);    // 식당차 격하특실 구도색, 신도색
-    17: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_18wagon);    // 카페객차 신도색
-    18: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_19wagon);    // 카페객차 리미트객차 구도색
-    19: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_20wagon);    // 카페객차 리미트객차 신도색
-    20: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_21wagon);    // 침대객차 초기도색
-    21: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_22wagon);    // 침대객차 구도색 수동문
-    22: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_23wagon);    // 침대객차 구도색 자동문
-    23: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_24wagon);    // 침대객차 리미트객차 구도색
-    24: return string(STR_REFIT_LIVERY_Mugunghwa_2cc_25wagon);    // 침대객차 리미트객차 신도색
-    return string(STR_REFIT_LIVERY_Mugunghwa_2cc_1wagon);
+     1: return string(Livery_Mugunghwa_2cc_2wagon);     // 일반실 구도색 수동문
+     2: return string(Livery_Mugunghwa_2cc_3wagon);     // 일반실 구도색 자동문
+     3: return string(Livery_Mugunghwa_2cc_4wagon);     // 일반실 신도색
+     4: return string(Livery_Mugunghwa_2cc_5wagon);     // 일반실 리미트객차 구도색
+     5: return string(Livery_Mugunghwa_2cc_6wagon);     // 일반실 리미트객차 신도색
+     6: return string(Livery_Mugunghwa_2cc_7wagon);     // 일반실 격하특실 구도색
+     7: return string(Livery_Mugunghwa_2cc_8wagon);     // 일반실 격하특실 신도색
+     8: return string(Livery_Mugunghwa_2cc_9wagon);     // 일반실 해태특실 신도색
+     9: return string(Livery_Mugunghwa_2cc_10wagon);    // 특실 한진특실 구도색
+    10: return string(Livery_Mugunghwa_2cc_11wagon);    // 특실 해태특실 구도색
+    11: return string(Livery_Mugunghwa_2cc_12wagon);    // 특실 해태특실 신도색
+    12: return string(Livery_Mugunghwa_2cc_13wagon);    // 특실 격하특실 신도색
+    13: return string(Livery_Mugunghwa_2cc_14wagon);    // 식당차 우등객차
+    14: return string(Livery_Mugunghwa_2cc_15wagon);    // 식당차 구도색
+    15: return string(Livery_Mugunghwa_2cc_16wagon);    // 식당차 리미트객차 구도색
+    16: return string(Livery_Mugunghwa_2cc_17wagon);    // 식당차 격하특실 구도색, 신도색
+    17: return string(Livery_Mugunghwa_2cc_18wagon);    // 카페객차 신도색
+    18: return string(Livery_Mugunghwa_2cc_19wagon);    // 카페객차 리미트객차 구도색
+    19: return string(Livery_Mugunghwa_2cc_20wagon);    // 카페객차 리미트객차 신도색
+    20: return string(Livery_Mugunghwa_2cc_21wagon);    // 침대객차 초기도색
+    21: return string(Livery_Mugunghwa_2cc_22wagon);    // 침대객차 구도색 수동문
+    22: return string(Livery_Mugunghwa_2cc_23wagon);    // 침대객차 구도색 자동문
+    23: return string(Livery_Mugunghwa_2cc_24wagon);    // 침대객차 리미트객차 구도색
+    24: return string(Livery_Mugunghwa_2cc_25wagon);    // 침대객차 리미트객차 신도색
+    return string(Livery_Mugunghwa_2cc_1wagon);
 }
 
 //열차 랜덤세팅

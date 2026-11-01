@@ -3,26 +3,26 @@
 --------------------------------------------------------------------*/
 //도색
 switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_cargo_subtype_text, cargo_subtype) {
-     0: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KN1);
-     1: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KN2);
-     2: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KF);
-     3: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KSI);
-     4: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLA1);
-     5: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLB1);
-     6: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLF1);
-     7: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLB2);
-     8: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLC);
-     9: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLF2);
-    10: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLA);
-    11: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLB);
-    12: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLC);
-    13: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_FDSL);
-    14: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLF);
-    15: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLB);
-    16: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLC);
-    17: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLF);
-    18: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_LN1);
-    19: return string(STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_LN2);
+     0: return string(Livery_Saemaeul_Real_Normal_Special_KN1);
+     1: return string(Livery_Saemaeul_Real_Normal_Special_KN2);
+     2: return string(Livery_Saemaeul_Real_Normal_Special_KF);
+     3: return string(Livery_Saemaeul_Real_Normal_Special_KSI);
+     4: return string(Livery_Saemaeul_Real_Normal_Special_SLA1);
+     5: return string(Livery_Saemaeul_Real_Normal_Special_SLB1);
+     6: return string(Livery_Saemaeul_Real_Normal_Special_SLF1);
+     7: return string(Livery_Saemaeul_Real_Normal_Special_SLB2);
+     8: return string(Livery_Saemaeul_Real_Normal_Special_SLC);
+     9: return string(Livery_Saemaeul_Real_Normal_Special_SLF2);
+    10: return string(Livery_Saemaeul_Real_Normal_Special_OSLA);
+    11: return string(Livery_Saemaeul_Real_Normal_Special_OSLB);
+    12: return string(Livery_Saemaeul_Real_Normal_Special_OSLC);
+    13: return string(Livery_Saemaeul_Real_Normal_Special_FDSL);
+    14: return string(Livery_Saemaeul_Real_Normal_Special_OSLF);
+    15: return string(Livery_Saemaeul_Real_Normal_Special_NSLB);
+    16: return string(Livery_Saemaeul_Real_Normal_Special_NSLC);
+    17: return string(Livery_Saemaeul_Real_Normal_Special_NSLF);
+    18: return string(Livery_Saemaeul_Real_Normal_Special_LN1);
+    19: return string(Livery_Saemaeul_Real_Normal_Special_LN2);
     return CB_RESULT_NO_TEXT;
 }
 

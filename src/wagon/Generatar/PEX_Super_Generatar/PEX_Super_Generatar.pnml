@@ -21,6 +21,7 @@ item(FEAT_TRAINS, PEX_Super_Generatar, 1017){
         
         //spec
         speed:                          260km/h;
+        length:                         7;
         weight:                         30 ton;
         tractive_effort_coefficient:    0.3;
 
@@ -43,17 +44,14 @@ item(FEAT_TRAINS, PEX_Super_Generatar, 1017){
         //Flags
         misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         20 ton;
-        extra_flags:                    bitmask(VEHICLE_FLAG_TRAIN_HAS_CAB);
         }
 
 	graphics {
         default:                        sw_PEX_Super_Generatar_wagon;
         purchase:                       set_PEX_Super_Generatar_wagon_purchase;
-        length:                         sw_PEX_Super_Generatar_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_capacity:                 0;
-        cargo_subtype_text:             sw_PEX_Super_Generatar_Wagon_cargo_subtype_text;
         }
         }

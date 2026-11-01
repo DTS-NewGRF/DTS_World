@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item (FEAT_TRAINS, Mugunhwa_Real_Normal, 2389){
     property {
-        name:                           string(STR_Mugunhwa_Real_Normal_NAME);
+        name:                           string(NAME_Mugunhwa_Real_Normal);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1977, 1, 1);
         track_type:                     RAIL;
@@ -55,6 +55,5 @@ item (FEAT_TRAINS, Mugunhwa_Real_Normal, 2389){
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_subtype_text:             sw_Mugunhwa_Real_Normal_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Mugunghwa_Real);
         }
     }

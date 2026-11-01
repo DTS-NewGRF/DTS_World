@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Group_Pidulgi, 2468){
     property {
-        name:                           string(STR_Group_Pidulgi_NAME);
+        name:                           string(NAME_Group_Pidulgi);
         climates_available:             NO_CLIMATE;
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -29,7 +29,7 @@ item(FEAT_TRAINS, Group_Pidulgi, 2468){
 --------------------------------------------------------------------*/
 item (FEAT_TRAINS, Pidulgi_Normal, 2469){
     property {
-        name:                           string(STR_Pidulgi_Normal_NAME);
+        name:                           string(NAME_Pidulgi_Normal);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1960, 1, 1);
         track_type:                     RAIL;
@@ -72,6 +72,5 @@ item (FEAT_TRAINS, Pidulgi_Normal, 2469){
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_subtype_text:             Pidulgi_Normal_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Pidulgi);
         }
     }

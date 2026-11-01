@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Sillim_Line_3Car, 2414){
     property {
-        name:                           string(STR_Sillim_Line_3Car_NAME);
+        name:                           string(NAME_Sillim_Line_3Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     LAGT;

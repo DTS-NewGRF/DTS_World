@@ -2,77 +2,39 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-switch(FEAT_TRAINS, SELF, sw_S_Train_2013_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_S_Train_Old_B);
-    1: return string(STR_REFIT_LIVERY_S_Train_Old_P);
+switch(FEAT_TRAINS, SELF, sw_S_Train_cargo_subtype_text, cargo_subtype) {
+    0: return string(Livery_S_Train_Old_B);
+    1: return string(Livery_S_Train_Old_P);
+    2: return string(Livery_S_Train_New);
     return CB_RESULT_NO_TEXT;
 }
-
-switch(FEAT_TRAINS, SELF, sw_S_Train_2020_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_S_Train_Old_B);
-    1: return string(STR_REFIT_LIVERY_S_Train_Old_P);
-    2: return string(STR_REFIT_LIVERY_S_Train_New);
-    return CB_RESULT_NO_TEXT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_S_Train_cargo_subtype_text, current_year) {
-    0..2019: sw_S_Train_2013_cargo_subtype_text;
-    sw_S_Train_2020_cargo_subtype_text;
-    }
 
 //객차
-//S-Train 구도색
-switch(FEAT_TRAINS, SELF, sw_S_Train_wagon1_2013, cargo_subtype) {
-    1: set_S_Train_Old_P_1wagon;
-    set_S_Train_Old_B_1wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_S_Train_wagon2_2013, cargo_subtype) {
-    1: set_S_Train_Old_P_2wagon;
-    set_S_Train_Old_B_2wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_S_Train_wagon3_2013, cargo_subtype) {
-    1: set_S_Train_Old_P_3wagon;
-    set_S_Train_Old_B_3wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_S_Train_wagon4_2013, cargo_subtype) {
-    1: set_S_Train_Old_P_4wagon;
-    set_S_Train_Old_B_4wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_S_Train_wagon5_2013, cargo_subtype) {
-    1: set_S_Train_Old_P_5wagon;
-    set_S_Train_Old_B_5wagon;
-}
-
-//S-Train 구도색, 신도색
-switch(FEAT_TRAINS, SELF, sw_S_Train_wagon1_2020, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_S_Train_wagon1_5car, cargo_subtype) {
     1: set_S_Train_Old_P_1wagon;
     2: set_S_Train_New_1wagon;
     set_S_Train_Old_B_1wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_S_Train_wagon2_2020, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_S_Train_wagon2_5car, cargo_subtype) {
     1: set_S_Train_Old_P_2wagon;
     2: set_S_Train_New_2wagon;
     set_S_Train_Old_B_2wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_S_Train_wagon3_2020, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_S_Train_wagon3_5car, cargo_subtype) {
     1: set_S_Train_Old_P_3wagon;
     2: set_S_Train_New_3wagon;
     set_S_Train_Old_B_3wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_S_Train_wagon4_2020, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_S_Train_wagon4_5car, cargo_subtype) {
     1: set_S_Train_Old_P_4wagon;
     2: set_S_Train_New_4wagon;
     set_S_Train_Old_B_4wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_S_Train_wagon5_2020, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_S_Train_wagon5_5car, cargo_subtype) {
     1: set_S_Train_Old_P_5wagon;
     2: set_S_Train_New_5wagon;
     set_S_Train_Old_B_5wagon;
@@ -86,25 +48,12 @@ switch (FEAT_TRAINS, SELF, sw_S_Train_New_4car, position_in_vehid_chain % 4) {
     set_S_Train_New_1wagon; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_S_Train_2013, position_in_vehid_chain % 5) {
-    1:sw_S_Train_wagon2_2013;
-    2:sw_S_Train_wagon3_2013;
-    3:sw_S_Train_wagon4_2013;
-    4:sw_S_Train_wagon5_2013;
-    sw_S_Train_wagon1_2013; //default
-    }
-
-switch (FEAT_TRAINS, SELF, sw_S_Train_2020, position_in_vehid_chain % 5) {
-    1:sw_S_Train_wagon2_2020;
-    2:sw_S_Train_wagon3_2020;
-    3:sw_S_Train_wagon4_2020;
-    4:sw_S_Train_wagon5_2020;
-    sw_S_Train_wagon1_2020; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_S_Train_wagon, current_year) {
-    0..2019: sw_S_Train_2013;
-    sw_S_Train_2020;
+switch (FEAT_TRAINS, SELF, sw_S_Train_wagon_5car, position_in_vehid_chain % 5) {
+    1:sw_S_Train_wagon2_5car;
+    2:sw_S_Train_wagon3_5car;
+    3:sw_S_Train_wagon4_5car;
+    4:sw_S_Train_wagon5_5car;
+    sw_S_Train_wagon1_5car; //default
     }
 
 // 편성량

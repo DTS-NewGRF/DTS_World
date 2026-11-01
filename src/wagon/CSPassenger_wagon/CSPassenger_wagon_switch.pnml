@@ -3,13 +3,13 @@
 --------------------------------------------------------------------*/
 // 도색
 switch(FEAT_TRAINS, SELF, sw_CSPassenger_wagon_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_CSPassenger_wagon_1F_Green); //25형 1층 녹색도색
-    2: return string(STR_REFIT_LIVERY_CSPassenger_wagon_1F_White); //25형 1층 흰색도색
-    3: return string(STR_REFIT_LIVERY_CSPassenger_wagon_2F);       //25형 2층
-    4: return string(STR_REFIT_LIVERY_CSPassenger_wagon_Bed_3nd);  //25형 3등석 침대차
-    5: return string(STR_REFIT_LIVERY_CSPassenger_wagon_Bed_2nd);  //25형 2등석 침대차
-    6: return string(STR_REFIT_LIVERY_CSPassenger_wagon_Bed_1nd);  //25형 1등석 침대차
-    return string(STR_REFIT_LIVERY_CSPassenger_wagon_1F_Red);      //25형 1층 빨강도색
+    1: return string(Livery_CSPassenger_wagon_1F_Green); //25형 1층 녹색도색
+    2: return string(Livery_CSPassenger_wagon_1F_White); //25형 1층 흰색도색
+    3: return string(Livery_CSPassenger_wagon_2F);       //25형 2층
+    4: return string(Livery_CSPassenger_wagon_Bed_3nd);  //25형 3등석 침대차
+    5: return string(Livery_CSPassenger_wagon_Bed_2nd);  //25형 2등석 침대차
+    6: return string(Livery_CSPassenger_wagon_Bed_1nd);  //25형 1등석 침대차
+    return string(Livery_CSPassenger_wagon_1F_Red);      //25형 1층 빨강도색
 }
 
 // 객차

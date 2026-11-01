@@ -3,13 +3,13 @@
 --------------------------------------------------------------------*/
 //도색
 switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Tong_il_Service_D_1966);
-    1: return string(STR_REFIT_LIVERY_Tong_il_Service_S_1966);
-    2: return string(STR_REFIT_LIVERY_Tong_il_Service_D_1968);
-    3: return string(STR_REFIT_LIVERY_Tong_il_Service_S_1975);
-    4: return string(STR_REFIT_LIVERY_Tong_il_Service_S_1984);
-    5: return string(STR_REFIT_LIVERY_Tong_il_Service_S_1994);
-    6: return string(STR_REFIT_LIVERY_Tong_il_Service_S_1997);
+    0: return string(Livery_Tong_il_Service_D_1966);
+    1: return string(Livery_Tong_il_Service_S_1966);
+    2: return string(Livery_Tong_il_Service_D_1968);
+    3: return string(Livery_Tong_il_Service_S_1975);
+    4: return string(Livery_Tong_il_Service_S_1984);
+    5: return string(Livery_Tong_il_Service_S_1994);
+    6: return string(Livery_Tong_il_Service_S_1997);
     return CB_RESULT_NO_TEXT;
 }
 

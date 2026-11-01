@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, WJapan_125_Series_EMU, 2603){
     property {
-        name:                           string(STR_125_Series_EMU_NAME);
+        name:                           string(NAME_125_Series_EMU);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2002, 1, 1);
         track_type:                     NABE;

@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, WJapan_227_Series_EMU_500, 2011){
     property {
-        name:                           string(STR_Group_227_Series_EMU_500_NAME);
+        name:                           string(NAME_Group_227_Series_EMU_500);
         climates_available:             NO_CLIMATE;
         track_type:                     NABE;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -30,7 +30,7 @@ item(FEAT_TRAINS, WJapan_227_Series_EMU_500, 2011){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, WJapan_227_Series_EMU_500_2Car, 2012){
     property {
-        name:                           string(STR_227_Series_EMU_500_2Car_NAME);
+        name:                           string(NAME_227_Series_EMU_500_2Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2023, 1, 1);
         track_type:                     NABE;
@@ -85,7 +85,7 @@ item(FEAT_TRAINS, WJapan_227_Series_EMU_500_2Car, 2012){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, WJapan_227_Series_EMU_500_3Car, 2013){
     property {
-        name:                           string(STR_227_Series_EMU_500_3Car_NAME);
+        name:                           string(NAME_227_Series_EMU_500_3Car);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2023, 1, 1);
         track_type:                     NABE;

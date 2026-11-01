@@ -3,10 +3,10 @@
 --------------------------------------------------------------------*/
 // 도색
 switch(FEAT_TRAINS, SELF, sw_ESPassenger_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Original_1nd_Passenger_Car); // 1등석
-    2: return string(STR_REFIT_LIVERY_Original_Bar_Passenger_Car); // 식당칸
-    3: return string(STR_REFIT_LIVERY_Original_HF_Passenger_Car);  // 1/2 1,2등석
-    return string(STR_REFIT_LIVERY_Original_2nd_Passenger_Car);
+    1: return string(Livery_Original_1nd_Passenger_Car); // 1등석
+    2: return string(Livery_Original_Bar_Passenger_Car); // 식당칸
+    3: return string(Livery_Original_HF_Passenger_Car);  // 1/2 1,2등석
+    return string(Livery_Original_2nd_Passenger_Car);
 }
 
 // 객차

@@ -43,7 +43,6 @@ item(FEAT_TRAINS, PEX_Super_Post, 1016){
         //Flags
         misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         20 ton;
-        extra_flags:                    bitmask(VEHICLE_FLAG_TRAIN_HAS_CAB);
         }
 
 	graphics {
@@ -52,6 +51,5 @@ item(FEAT_TRAINS, PEX_Super_Post, 1016){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_PEX_Super_Post_Wagon_cargo_subtype_text;
         }
         }

@@ -3,8 +3,8 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_West_Japan_125_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_West_Japan_125_1panto);
-    1: return string(STR_REFIT_LIVERY_West_Japan_125_2panto);
+    0: return string(Livery_West_Japan_125_1panto);
+    1: return string(Livery_West_Japan_125_2panto);
 }
 
 // 열차

@@ -62,3 +62,198 @@ item (FEAT_TRAINS, HYEL_PEX_Super, 1129){
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
+
+/*--------------------------------------------------------------------
+운전 후미 일반
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, PEX_Super_N_Tail, 1183){
+    property {
+        name:                           string(NAME_PEX_Super_N_Tail);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX_Super;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 78;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+        extra_flags:                    bitmask(VEHICLE_FLAG_TRAIN_HAS_CAB);
+    }
+
+    graphics {
+        default:                        sw_HYEL_PEX_Super_TC_wagon;
+        purchase:                       set_HYEL_PEX_Super_Tail_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        }
+    }
+
+/*--------------------------------------------------------------------
+운전 후미 특실
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, PEX_Super_SN_Tail, 1184){
+    property {
+        name:                           string(NAME_PEX_Super_SN_Tail);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX_Super;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 72;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+        extra_flags:                    bitmask(VEHICLE_FLAG_TRAIN_HAS_CAB);
+    }
+
+    graphics {
+        default:                        sw_HYEL_PEX_Super_FTC_wagon;
+        purchase:                       set_HYEL_PEX_Super_Tail_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        }
+    }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, PEX_Super_Post_Tail, 1185){
+    property {
+        name:                           string(NAME_PEX_Super_Post_Tail);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX_Super;
+        
+        //spec
+        speed:                          260km/h;
+        weight:                         30 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 150;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [MAIL, VALU];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+        extra_flags:                    bitmask(VEHICLE_FLAG_TRAIN_HAS_CAB);
+        }
+
+	graphics {
+        default:                        sw_HYEL_PEX_Super_POST_wagon;
+        purchase:                       set_HYEL_PEX_Super_Tail_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, PEX_Super_Generatar_Tail, 1186){
+    property {
+        name:                           string(NAME_PEX_Super_Generatar_Tail);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX_Super;
+        
+        //spec
+        speed:                          260km/h;
+        weight:                         30 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 1;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+        extra_flags:                    bitmask(VEHICLE_FLAG_TRAIN_HAS_CAB);
+        }
+
+	graphics {
+        default:                        sw_HYEL_PEX_Super_GANERATOR_wagon;
+        purchase:                       set_HYEL_PEX_Super_Tail_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        cargo_capacity:                 0;
+        }
+        }

@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Group_Tong_il, 2471){
     property {
-        name:                           string(STR_Group_Tong_il_NAME);
+        name:                           string(NAME_Group_Tong_il);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -29,7 +29,7 @@ item(FEAT_TRAINS, Group_Tong_il, 2471){
 --------------------------------------------------------------------*/
 item (FEAT_TRAINS, Tong_il_Normal, 2472){
     property {
-        name:                           string(STR_Tong_il_Normal_NAME);
+        name:                           string(NAME_Tong_il_Normal);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1963, 1, 1);
         track_type:                     RAIL;
@@ -71,6 +71,5 @@ item (FEAT_TRAINS, Tong_il_Normal, 2472){
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_subtype_text:             sw_Tong_il_Normal_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Tong_il);
         }
     }

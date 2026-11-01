@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item (FEAT_TRAINS, JA_A_Passenger_Car, 2158){
     property {
-        name:                           string(STR_JA_a_NAME);
+        name:                           string(NAME_JA_a);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2002, 1, 1);
         track_type:                     RAIL;
@@ -53,6 +53,5 @@ item (FEAT_TRAINS, JA_A_Passenger_Car, 2158){
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_subtype_text:             sw_JA_a_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_JA_a_Passenger);
         }
     }

@@ -12,7 +12,7 @@
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, FLAT_1F, 2129){
     property {
-        name:                           string(STR_FLAT_1F_NAME);
+        name:                           string(NAME_FLAT_1F);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1967, 1, 1);
         track_type:                     RAIL;

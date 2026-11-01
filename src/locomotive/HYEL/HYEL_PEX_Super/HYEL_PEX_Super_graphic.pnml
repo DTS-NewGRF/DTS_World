@@ -63,3 +63,7 @@ spriteset(set_HYEL_PEX_Super_GANERATOR_wagon_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_3
 spriteset(set_HYEL_PEX_Super_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
     tmpl_purchase(0, 0)
 }
+
+spriteset(set_HYEL_PEX_Super_Tail_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png"){
+    tmpl_purchase(0, 108)
+}

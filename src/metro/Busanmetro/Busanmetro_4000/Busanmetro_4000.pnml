@@ -18,7 +18,6 @@ item(FEAT_TRAINS, Busanmetro_4000_6Car, 2412){
         track_type:                     LAGT;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Busanmetro;
         
         //spec
         speed:                          60km/h;
