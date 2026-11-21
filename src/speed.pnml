@@ -448,7 +448,7 @@ switch(FEAT_TRAINS, SELF, sw_High_370_400_speed, Speed_Train) {
 switch(FEAT_TRAINS, SELF, sw_High_421_speed, Speed_Train) {
     0: return 421;
     1: return 421;
-    2: return 430;
+    2: return High_Speed_Train_430;
     }
 
 /*--------------------------------------------------------------------
@@ -457,11 +457,11 @@ switch(FEAT_TRAINS, SELF, sw_High_421_speed, Speed_Train) {
 switch(FEAT_TRAINS, SELF, sw_High_430_speed, Speed_Train) {
     0: return 430;
     1: return 430;
-    2: return 430;
+    2: return High_Speed_Train_430;
     }
 
 switch(FEAT_TRAINS, SELF, sw_High_430_450_speed, Speed_Train) {
     0: return 430;
     1: return 450;
-    2: return 430;
+    2: return High_Speed_Train_430;
     }

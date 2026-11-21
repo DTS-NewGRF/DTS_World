@@ -38,3 +38,14 @@ param {
             def_value: 249;
             }
     }
+
+param {
+        High_Speed_Train_430 {
+            type: int;
+            name: string(Param_Name_High_Speed_Train_430);
+            desc: string(Param_Desc_High_Speed_Train_430);
+            min_value: 420;
+            max_value: 600;
+            def_value: 430;
+            }
+    }

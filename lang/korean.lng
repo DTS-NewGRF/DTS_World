@@ -19,6 +19,8 @@ Param_Name_Regular_Speed_Train             : 일반열차 일괄제어 속도변
 Param_Desc_Regular_Speed_Train             : 일반열차의 속도를 일괄적으로 조정합니다.{}- 기본:150km/h
 Param_Name_High_Speed_Train                : 고속열차 일괄제어 속도변수
 Param_Desc_High_Speed_Train                : 고속열차의 속도를 일괄적으로 조정합니다.{}- 기본:331km/h
+Param_Name_High_Speed_Train_430            : 초고속열차 (430km/h) 일괄제어 속도변수
+Param_Desc_High_Speed_Train_430            : 초고속열차의 속도를 일괄적으로 조정합니다.{}- 기본:430km/h
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
 

@@ -19,6 +19,8 @@ Param_Name_Regular_Speed_Train             : Conventional Train Speed Control
 Param_Desc_Regular_Speed_Train             : Adjusts the speed of all conventional trains collectively.{}- Default: 150 km/h
 Param_Name_High_Speed_Train                : High-Speed Train Speed Control
 Param_Desc_High_Speed_Train                : Adjusts the speed of all high-speed trains collectively.{}- Default: 331 km/h
+Param_Name_High_Speed_Train_430            : High-Speed Train (430km/h) Speed Control
+Param_Desc_High_Speed_Train_430            : Adjusts the speed of all high-speed trains collectively.{}- Default: 430 km/h
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 
